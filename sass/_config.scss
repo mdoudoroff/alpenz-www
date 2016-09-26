@@ -1,0 +1,35 @@
+$black:				#000000;
+$light_grey: 		#bbbbbb;
+$grey: 				#666666;
+$dark_grey: 		#484848;
+$yellow:			#ffcf06;
+
+$red:				#a2120f;
+
+$body_background:	#fff;
+$text_color:		$dark_grey;
+$link_color:		$dark_grey;
+$link_hover:		lighten($link_color, 20%);
+
+$off-grey:	#edece8;
+
+
+$line_height:		20px;
+$gutter:			30px;
+$site_width:		1000px;
+
+$cols: 				5;
+
+$gutters:			( ($cols + 1) * $gutter );
+
+$col:				( ($site_width - $gutters) / $cols );
+
+$twocol:			( ($col * 2) + $gutter );
+$threecol:			( ($col * 3) + ($gutter * 2) );
+$fourcol:			( ($col * 4) + ($gutter * 3) );
+$fivecol:			( ($col * 5) + ($gutter * 4) );
+
+/*$heading-font:			"minion-pro", Georgia, Times, serif;*/
+$heading-font:			'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+$subheading-font:		"myriad-pro-condensed", Georgia, Times, serif;
+$body-font:				'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;

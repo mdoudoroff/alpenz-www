@@ -1,0 +1,578 @@
+$logowidth: 395px;
+$logoheight: 50px;
+
+.header {
+	width: 100%;
+	position: relative; // fixed;
+	z-index: 100;
+	padding: 0;
+	background: $off-grey;
+	@include box-sizing(border-box);
+	@include pie-clearfix;
+	box-shadow: 0 0 15px rgba(0,0,0,.2);
+	
+	@include respond-to(print) {
+		background: #fff;
+	}
+	
+	&.short {
+		position: relative; // fixed;
+		top: 0;
+		left: 0;
+		z-index: 1000;
+	}
+		
+	h1,
+	.logo {
+		float: left;
+		display: block;
+		width: $logowidth;
+		height: $logoheight;
+		margin: 10px 0 0 0;
+		
+		@include respond-to(largetablet) {
+			margin: 13px 0 0 15px;
+			width: ($logowidth / 2);
+			height: ($logoheight / 2);
+		}
+		@include respond-to(smalltablet) {
+			margin: 10px 0 0 15px;
+			width: ($logowidth / 2);
+			height: ($logoheight / 2);
+		}
+		@include respond-to(phone) {
+			margin: 8px 0 7px 5px;
+			width: $logowidth / 2;
+			height: $logoheight / 2;
+		}
+		
+		
+		
+		a { 
+			@include hide-text(left);
+			display: block;
+			width: 100%;
+			height: 100%;
+			background: url('../assets/logo-wide.png') no-repeat;
+			background-size: $logowidth $logoheight;
+
+			@include respond-to(largetablet) {
+				background-size: ($logowidth / 2) ($logoheight / 2);
+			}
+			@include respond-to(smalltablet) {
+				background-size: ($logowidth / 2) ($logoheight / 2);
+			}
+			@include respond-to(phone) {
+				background-size: ($logowidth / 2) ($logoheight / 2);
+			}
+		}
+	}
+	
+
+	h2 {
+		float: right;
+		font-size: 20px;
+		font-style: italic;
+		
+		@include respond-to(smalltablet) {
+			margin: 0px auto;
+			float: none;
+			text-align: center;
+		}
+		@include respond-to(phone) {
+			display: none;
+		}
+	}
+
+	.toggle {
+
+//		display: none;
+		z-index: 99;
+
+		position: absolute;
+		top: 0px;
+		right: 0;
+		font-family: $subheading-font;
+		font-weight: bold;
+		line-height: 40px;
+		background: $red;
+		color: #fff;
+		padding: 0 20px;
+		text-transform: uppercase;
+		
+		@include respond-to(phone) {
+			display: block;
+			
+		}
+	}
+	
+	
+	
+	
+	/* Main Menu */
+	ul { 
+		display: block;
+		font-family: $subheading-font;
+		font-size: 15px;
+		font-weight: 700;
+		text-transform: uppercase;
+		text-align: right;
+		margin: 0 auto;
+		@include box-sizing(border-box);
+		
+		@include respond-to(phone) {
+			width: 100%;
+			display: none;
+			clear: both;
+		}
+	
+		li { 
+			position: relative;
+			display: inline-block;
+			text-align: center;
+			padding: 0;
+			line-height: 70px;
+			letter-spacing: 1px;
+			
+			@include respond-to(largetablet) {
+				line-height: 50px;
+			}
+			@include respond-to(smalltablet) {
+				line-height: 50px;
+			}
+			@include respond-to(phone) {
+				width: 100%;
+				display: block;
+				line-height: 40px;
+			}
+		
+			a { 
+				display: block;
+				padding: 0 $gutter;
+				text-decoration: none;
+				color: #333;
+				position: relative;
+				
+				&:hover {
+					cursor: pointer;
+				}
+			}
+			&.current-menu-parent a,
+			&.current-menu-item a,
+			&:hover a {
+				color: $red;
+			}
+			
+			&.menu-item-has-children:hover {
+			
+				a::after {
+					content: '';
+					position: absolute;
+					bottom: 0;
+					left: 50%;
+					display: block;
+					width: 0; 
+					height: 0;
+					margin-left: -10px; 
+					border-left: 10px solid transparent;
+					border-right: 10px solid transparent;
+					border-bottom: 10px solid #333;
+				}
+			}
+			
+			&.current-menu-parent ul li a,
+			&.current-menu-item ul li a,
+			&:hover ul li a {
+				color: #fff;
+				
+				&:after {
+					display: none;
+				}
+			}
+			
+			&#nav-home.here a {
+				background: none !important;
+			}
+			
+			/* Horizontal Sub Menu */
+			ul {
+				float: none;
+				display: none;
+				margin: 0;
+				top: 100%;
+				left: 0;
+				padding-right: 0;
+				position: absolute;
+				z-index: 2000;
+				background: #333;
+				white-space: nowrap;
+				width: auto;
+				min-width: 100%;
+				line-height: 40px;
+				text-align: center;
+				
+				li {
+					float: none;
+					display: block;
+					white-space: nowrap;
+					text-align: left;
+					position: relative;
+					white-space: nowrap;
+					line-height: 40px;
+					
+					a {
+						padding: 0 20px;
+						color: #fff;
+						white-space: nowrap;
+						
+						&:hover {
+							background: $red;
+						}
+						&:after {
+							display: none !important;
+						}
+					}
+					
+					/* Vertical Dropdown Menu */
+					ul {
+						display: none;
+						position: absolute;
+						top: 0;
+						left: 100%;
+						width: auto;
+						font-size: 12px;
+						font-weight: 400;
+						overflow: visible;
+						margin: 0;
+						padding: 0;
+						
+						li {
+							display: block;
+							line-height: 30px;
+							float: none;
+							white-space: nowrap;
+							
+							a {
+								white-space: nowrap;
+								padding: 0 20px 0 20px;
+								
+								&:after {
+									display: none;
+								}
+							}
+						}
+					}
+					/* If sub menu is hovered, show options */
+					&:hover {
+				
+						ul {
+							display: block;
+							
+							a {
+								&:after {
+									display: none;
+								}
+							}
+						}
+					}
+				}
+			}
+			
+			
+			&.current-menu-item ul ul,
+			&.current-menu-parent ul ul {
+				display: none;
+			}
+			
+			/* If main menu is hovered, show sub menu, but not sub menu options */
+			&:hover {
+				
+				ul {
+					display: block;
+					
+					ul {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+	
+	&.short {
+		position: relative; // fixed;
+		top: 0;
+		left: 0;
+		z-index: 1000;
+		opacity: .95;
+		
+		/*
+		h1,
+		.logo {
+			top: 12px;
+			left: 15px;
+			width: ($logowidth / 2);
+			height: ($logoheight / 2);
+			
+			a {
+				background-size: ($logowidth / 2) ($logoheight / 2);
+			}
+		}
+		ul {
+			
+			li {
+				line-height: 50px;
+				
+				ul {
+					line-height: 40px;
+					
+					li {
+						line-height: 40px;
+					}
+				}
+			}
+		}
+		*/
+	}	
+}
+
+.navigation {
+	width: 100%;
+	background: $dark_grey;
+	
+	@include respond-to(print) {
+		display: none;
+	}
+	@include respond-to(smalltablet) {
+		clear: both;
+	}
+	
+	@include respond-to(phone) {
+		display: none;
+		width: 100%;
+		position: static;
+		background: #000;
+		margin: 0;
+	}
+	
+	&.short {
+		position: relative; // fixed;
+		top: 0;
+		left: 0;
+		z-index: 1000;
+	}
+	
+	/* Main Menu */
+	ul { 
+		display: block;
+		font-family: $subheading-font;
+		font-size: 15px;
+		font-weight: 700;
+		text-transform: uppercase;
+		text-align: center;
+		margin-left: -$gutter;
+		
+		@include respond-to(smalltablet) {
+			float: none;
+			text-align: center;
+			margin-left: (-$gutter / 2);
+		}
+		@include respond-to(phone) {
+			width: 100%;
+		}
+	
+		li { 
+			display: inline;
+			float: left;
+			text-align: center;
+			padding: 0;
+			line-height: 40px;
+			letter-spacing: 1px;
+			
+			@include respond-to(phone) {
+				width: 100%;
+				display: block;
+			}
+		
+			a { 
+				display: block;
+				padding: 0 $gutter;
+				text-decoration: none;
+				color: #fff;
+				
+				@include respond-to(smalltablet) {
+					padding: 0 ($gutter / 2);
+				}
+			}
+			&.current-menu-parent a,
+			&.current-menu-item a,
+			&.here a,
+			a:hover,
+			&:hover a {
+				color: #fff;
+				background: $red;
+			}
+			&#nav-home.here a {
+				background: none !important;
+			}
+			
+			/* Horizontal Sub Menu */
+			ul {
+				display: none;
+				margin: 0;
+				top: 100%;
+				left: 0;
+				position: absolute;
+				z-index: 2000;
+				background: $red;
+				
+				li {
+					float: left;
+					white-space: nowrap;
+					text-align: left;
+					position: relative;
+					white-space: nowrap;
+					
+					a {
+						padding: 0 20px;
+						
+						&:hover {
+							background: $red;
+						}
+					}
+					
+					/* Vertical Dropdown Menu */
+					ul {
+						display: none;
+						position: absolute;
+						top: 100%;
+						left: 0;
+						font-size: 12px;
+						font-weight: 400;
+						overflow: visible;
+						
+						li {
+							display: block;
+							line-height: 30px;
+							float: none;
+							white-space: nowrap;
+							
+							a {
+								
+								padding: 0 20px 0 20px;
+							}
+						}
+					}
+					/* If sub menu is hovered, show options */
+					&:hover {
+				
+						ul {
+							display: block;
+							
+							
+						}
+					}
+				}
+			}
+			
+			&.current-menu-item ul,
+			&.current-menu-parent ul {
+				display: block;
+			}
+			
+			&.current-menu-item ul ul,
+			&.current-menu-parent ul ul {
+				display: none;
+			}
+			
+			/* If main menu is hovered, show sub menu, but not sub menu options */
+			&:hover {
+				
+				ul {
+					display: block;
+					
+					ul {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+.spacer {
+	width: 100%;
+	height: 40px;
+	background: #333;
+	
+	&.short {
+		position: relative; // fixed;
+		top: 70px;
+		left: 0;
+		z-index: 800;
+	}
+}
+
+
+.breadcrumb {
+	width: 100%;
+	background: $body_background;
+	
+	&.short {
+		position: fixed;
+		top: 50px;
+		left: 0;
+		z-index: 500;
+	}
+	
+	p {
+		color: #333;
+		font-size: 11px;
+		line-height: $gutter;
+		margin: 0 0 0 0;
+		font-weight: 700;
+		
+		a {
+			color: #666;
+			
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+
+		@include respond-to(phone) {
+			font-size: 12px;
+			text-align: center;
+		}
+	}
+}
+
+
+
+.search {
+	clear: right;
+	float: right;
+	margin-top: 20px;
+	
+	@include respond-to(print) {
+		display: none;
+	}
+	
+	input {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		display: inline-block;
+		@include box-sizing(border-box);
+		font-size: 12px;
+		padding: 0 10px;
+		line-height: 25px;
+	}
+	
+	input[type='text'] {
+	}
+	input[type='submit'] {
+		background: $red;
+		color: #fff;
+	}
+}

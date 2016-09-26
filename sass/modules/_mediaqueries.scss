@@ -1,0 +1,22 @@
+$phone_max:			720px;
+$tablet_min:		768px;
+$tablet_max:		980px;
+$desktop_max:		1220px;
+
+@mixin respond-to($media) {
+	@if $media == phone {
+		@media only screen and (max-width: $phone_max) { @content; }
+	}
+	@else if $media == smalltablet {
+		@media only screen and (min-width: $phone_max + 1) and (max-width: $tablet_min) { @content; }
+	}
+	@else if $media == largetablet {
+		@media only screen and (min-width: $tablet_min + 1) and (max-width: $tablet_max) { @content; }
+	}
+	@else if $media == widescreen {
+		@media only screen and (min-width: $desktop_max) { @content; }
+	}
+	@else if $media == print {
+		@media print { @content; }
+	}
+}
