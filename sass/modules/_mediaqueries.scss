@@ -1,7 +1,8 @@
 $phone_max:			720px;
 $tablet_min:		768px;
 $tablet_max:		980px;
-$desktop_max:		1220px;
+// $desktop_max:		1220px;
+$desktop_max:		1010px;
 
 @mixin respond-to($media) {
 	@if $media == phone {

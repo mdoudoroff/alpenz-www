@@ -1067,6 +1067,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/banner-placeholder.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 254332,
+		"inputAbbreviatedPath": "\/img\/banner-placeholder.jpg",
+		"outputAbbreviatedPath": "\/img\/banner-placeholder.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/bar-1930s-catalog-200x230.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1613,6 +1624,17 @@
 		"initialSize": 48157,
 		"inputAbbreviatedPath": "\/img\/Booths-Old-Tom-Gin.jpg",
 		"outputAbbreviatedPath": "\/img\/Booths-Old-Tom-Gin.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bottle-placeholder.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37809,
+		"inputAbbreviatedPath": "\/img\/bottle-placeholder.jpg",
+		"outputAbbreviatedPath": "\/img\/bottle-placeholder.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2328,6 +2350,17 @@
 		"initialSize": 85587,
 		"inputAbbreviatedPath": "\/img\/collage.catalogue-copy.jpg",
 		"outputAbbreviatedPath": "\/img\/collage.catalogue-copy.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/context-placeholder.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12534,
+		"inputAbbreviatedPath": "\/img\/context-placeholder.jpg",
+		"outputAbbreviatedPath": "\/img\/context-placeholder.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3747,6 +3780,17 @@
 		"initialSize": 391913,
 		"inputAbbreviatedPath": "\/img\/Kuh.field_.catalogue.jpg",
 		"outputAbbreviatedPath": "\/img\/Kuh.field_.catalogue.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/label-placeholder.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20351,
+		"inputAbbreviatedPath": "\/img\/label-placeholder.jpg",
+		"outputAbbreviatedPath": "\/img\/label-placeholder.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
