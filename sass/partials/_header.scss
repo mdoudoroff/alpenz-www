@@ -10,7 +10,24 @@ $logoheight: 50px;
 	@include box-sizing(border-box);
 	@include pie-clearfix;
 	box-shadow: 0 0 15px rgba(0,0,0,.2);
-	
+
+
+	height: 70px;
+
+	@include respond-to(largetablet) {
+		height: 50px;
+	}
+	@include respond-to(smalltablet) {
+		height: 50px;
+	}
+	@include respond-to(phone) {
+		height: 40px;
+	}
+
+
+
+
+
 	@include respond-to(print) {
 		background: #fff;
 	}
@@ -22,28 +39,46 @@ $logoheight: 50px;
 		z-index: 1000;
 	}
 		
-	h1,
-	.logo {
-		float: left;
+	h1,	.logo {
+		// float: left;
 		display: block;
 		width: $logowidth;
 		height: $logoheight;
-		margin: 10px 0 0 0;
+		// margin: 10px 0 0 0;
+
+		line-height: 70px;
+
+		position: absolute;
+		top: 13px;
+		left: 90px;
+
 		
 		@include respond-to(largetablet) {
 			margin: 13px 0 0 15px;
 			width: ($logowidth / 2);
 			height: ($logoheight / 2);
+
+			left: 80px;
+			top: 0px;
+
 		}
 		@include respond-to(smalltablet) {
-			margin: 10px 0 0 15px;
+			margin: 13px 0 0 15px;
 			width: ($logowidth / 2);
 			height: ($logoheight / 2);
+
+			left: 80px;
+			top: 0px;
+
 		}
 		@include respond-to(phone) {
 			margin: 8px 0 7px 5px;
 			width: $logowidth / 2;
 			height: $logoheight / 2;
+
+			left: 80px;
+			top: 0px;
+
 		}
 		
 		
@@ -86,24 +121,37 @@ $logoheight: 50px;
 
 	.toggle {
 
-//		display: none;
 		z-index: 99;
 
 		position: absolute;
 		top: 0px;
-		right: 0;
+		left: 0;
 		font-family: $subheading-font;
 		font-weight: bold;
 		line-height: 40px;
+		line-height: 70px;
 		background: $red;
 		color: #fff;
 		padding: 0 20px;
 		text-transform: uppercase;
 		
 		@include respond-to(phone) {
+			line-height: 40px;
 			display: block;
-			
 		}
+
+		@include respond-to(smalltablet) {
+			line-height: 50px;
+		}
+
+		@include respond-to(largetablet) {
+			line-height: 50px;
+		}
+
+		@include respond-to(widescreen) {
+			line-height: 70px;
+		}
+
 	}
 	
 	
@@ -119,7 +167,10 @@ $logoheight: 50px;
 		text-align: right;
 		margin: 0 auto;
 		@include box-sizing(border-box);
-		
+
+		@include respond-to(smalltablet) {
+			display:none;
+		}		
 		@include respond-to(phone) {
 			width: 100%;
 			display: none;
