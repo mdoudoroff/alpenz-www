@@ -721,9 +721,6 @@ a {
     font-size: 36px;
     font-weight: 700;
     margin: 0 0 10px 0; }
-    @media only screen and (min-width: 421px) and (max-width: 768px) {
-      .content h1 {
-        font-size: 52px; } }
     @media only screen and (max-width: 420px) {
       .content h1 {
         font-size: 36px;
@@ -851,6 +848,19 @@ a {
           z-index: 20; }
           .content .product-overview .banner .product-name h3 a {
             color: #fff; }
+    .content .product-overview .nobanner {
+      min-height: 0;
+      position: relative; }
+      .content .product-overview .nobanner .product-name {
+        background: none;
+        position: relative;
+        color: black;
+        text-shadow: none; }
+        .content .product-overview .nobanner .product-name h1 {
+          font-size: 36px; }
+        .content .product-overview .nobanner .product-name h3 {
+          color: black;
+          text-shadow: none; }
     .content .product-overview .artwork {
       width: 100%;
       line-height: 0;
