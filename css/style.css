@@ -1186,6 +1186,59 @@ section header {
     font-weight: 700;
     color: #a2120f; }
 
+.vitals {
+  margin: 0 0.5em; }
+  .vitals p {
+    width: 100%;
+    margin: 10px 0 0 0;
+    line-height: 20px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: left; }
+    .vitals p span {
+      margin-right: 15px; }
+  .vitals .country, .vitals .categorization {
+    text-transform: uppercase;
+    font-weight: 700; }
+  .vitals p.categorization {
+    margin-top: 0; }
+  .vitals .bottle {
+    max-width: 320px; }
+    .vitals .bottle img {
+      width: 100%;
+      height: auto; }
+  .vitals .label {
+    max-width: 320px; }
+    .vitals .label img {
+      width: 100%;
+      height: auto; }
+  .vitals .context {
+    max-width: 320px; }
+    .vitals .context img {
+      width: 100%;
+      height: auto; }
+
+.setup {
+  overflow: scroll;
+  margin-top: 20px; }
+  .setup table {
+    width: 100%;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    font-family: "myriad-pro-condensed", Georgia, Times, serif; }
+    .setup table th, .setup table td {
+      border-right: 1px solid #fff;
+      border-bottom: 1px solid #fff;
+      padding: 3px; }
+    .setup table th {
+      background: white;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 13px; }
+    .setup table td {
+      font-size: 17px; }
+
 /*************************************/
 /*   
 /*	Import plugins

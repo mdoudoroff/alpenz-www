@@ -1,0 +1,675 @@
+/* Unknown crap */
+
+.content {
+
+
+
+	.filter {
+		border: 1px solid #f3f3f3;
+		background: $body_background;
+		padding: ($gutter / 2) 0;
+		
+		@include respond-to(print) {
+			display: none;
+		}
+		
+		
+		.facetwp-type-checkboxes {
+			max-height: 10000px !important;
+		}
+		.facetwp-type-dropdown,
+		.facetwp-sort {
+			width: $col !important;
+			
+			select {
+				width: $col !important;
+			}
+		}
+		.facetwp-type-slider {
+			width: $col !important;
+			margin-top: 2px;
+			
+			.noUi-connect {
+				background: $red;
+			}
+
+		}
+		.facetwp-slider-reset {
+			display: none;
+		}
+		.facetwp-slider-label {
+			position: absolute;
+			top: -21px;
+			right: 0px;
+			font-family: $subheading-font;
+			font-weight: 700;
+		}
+		.facetwp-facet {
+			position: relative;
+			width: auto;
+			margin-bottom: 0px !important;
+		}
+		.facet {
+			float: left;
+			padding: 0 10px;
+			
+			&:nth-child(4n) {
+				margin-right: 0;
+			}
+		}
+		/* Product View toggle */
+		.view {
+			clear: both;
+			margin: 0 0 10px 0;
+			font-family: $subheading-font;
+			font-size: 20px;
+			text-transform: uppercase;
+		
+			i {
+				font-size: 18px;
+			}
+			&.grid .grid,
+			&.list .list,
+			&.condensed .condensed,
+			a:hover {
+				color: $red;
+			}
+		}
+	}
+
+	#map {
+		width: 100%;
+		height: 400px;
+	}
+	
+	
+	.news {
+		padding: 0 0 10px 0;
+		margin: 0 0 30px 0;
+		border-bottom: 1px solid #ccc;
+		
+		h2 {
+			margin: 0 0 5px 0;
+			
+			a {
+				text-decoration: none;
+			}
+		}
+		h3 {
+			
+		}
+		h4 {
+			margin: 0 0 20px 0;
+		}
+	}
+
+
+	.intro {
+	
+		p {
+			font-size: 18px;
+			line-height: 28px;
+		}
+	}
+
+
+	/* The grouping of products */
+	.category {
+		margin: 0 0 80px 0;
+	}
+	
+	.sort {
+		background: $body-background;
+		padding: 20px;
+		margin: 0 0 50px 0;
+		
+		ul {
+			margin: 0;
+			list-style-type: none;
+		
+			li {
+				display: inline-block;
+				background: $body_background;
+				float: left;
+				width: 200px;
+				margin: 0 20px 0 0;
+				padding: 0;
+				font-family: $subheading-font;
+				text-transform: uppercase;
+				font-size: 18px; 
+				line-height: 1em;
+				position: relative;
+			
+				a {
+					background: $red;
+					color: #fff;
+					display: block;
+					@include box-sizing(border-box);
+					padding: 5px;
+					
+					&:hover {
+						background: lighten($red, 20%);
+					}
+					
+					i.fa {
+						float: right;
+					}
+				}
+		
+				ul {
+					background: $body_background;
+					display: none;
+					position: absolute;
+					z-index: 500;
+					top: 100%;
+					left: 0;
+					width: 100%;
+					list-style-type: none;
+					margin: 0 0 0 0;
+				
+					li {
+						font-size: 15px;
+						
+						ul {
+							position: static;
+							top: 0;
+						
+							a {
+								padding-left: 20px;
+							}
+						}
+					}
+				}
+			
+				&:hover {
+				
+					ul {
+						display: block;
+					}
+				}
+			}
+		}
+	}
+
+	.sortgrid {
+		
+		ul {
+			list-style-type: none;
+			line-height: 0;
+			margin: 0;
+			
+			li {
+				width: $col;
+				height: $col;
+				float: left;
+				margin: 0 $gutter $gutter 0;
+				line-height: 1em;
+				
+				/* If it's the type page */
+				&.cat-item {
+					width: 100%;
+					height: auto;
+				}
+				
+				&:nth-child(5n) {
+					margin-right: 0;
+				}
+				
+				@include respond-to(widescreen) {
+					&:nth-child(5n) {
+						margin-right: $gutter;
+					}
+					&:nth-child(6n) {
+						margin-right: 0;
+					}
+				}
+				
+				ul.children {
+					margin: $gutter 0 0 0;
+					
+					li {
+						width: $col;
+						height: $col;
+					}
+				}
+				
+				a {
+					display: block;
+					position: relative;
+					width: 100%;
+					height: 100%;
+					background: $body-background;
+					background-size: 100% 100%;
+					
+					h2 {
+						position: absolute;
+						bottom: 0px;
+						left: 0px;
+						font-family: $subheading-font;
+						text-transform: uppercase;
+						font-size: 20px; 
+						line-height: 1em;
+						color: #fff;
+						margin: 0;
+						width: 100%;
+						padding: 10px;
+						@include box-sizing(border-box);
+						@include background-image(linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.5)));
+					}
+				}
+			}
+		}
+	}
+
+	.producers {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		
+		.producer {
+			width: 100%;
+			margin: 0 0 0 0;
+			border-top: 1px solid $body-background;
+				
+			.map {
+				float: left;
+				width: $col;
+				height: 290px;
+			}
+			.producer_text {
+				display: block;
+				float: left;
+				width: $threecol;
+				@include box-sizing(border-box);
+				padding: 10px;
+				
+				h2 {
+					font-size: 29px;
+					font-weight: bold;
+					margin: 0;
+				}
+				h3 {
+					font-size: 11px;
+					color: #999;
+				}
+				p {
+					font-size: 14px;
+					line-height: 20px;
+				}
+			}
+		}
+	}
+
+	.homepage {
+		width: 100%;
+		float: none;
+		margin: 0;
+		
+		.slides {
+			height: 900px;
+			margin: 0;
+			
+			.slide {
+				height: 900px;
+				background-size: cover;
+				background-position: center center;
+				position: relative;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				
+				
+				.text {
+					max-width: 50%;
+					color: #fff;
+					text-align: center;
+					background: rgba(0,0,0,.8);
+					padding: 30px;
+					
+					@include respond-to(phone) {
+						max-width: 80%;
+						padding: 20px;
+					}
+					
+					h2 {
+						font-family: $subheading-font;
+						text-transform: uppercase;
+						color: inherit;
+						font-size: 30px;
+						line-height: 1em;
+						margin: 0 0 20px 0;
+					}
+					p {
+						color: inherit;
+						font-size: 14px;
+						line-height: 1em;
+						margin: 0 0 20px 0;
+						
+						&:last-child {
+							margin: 0;
+						}
+					}
+					a {
+						color: inherit;
+						font-size: 14px;
+						line-height: 1em;
+						display: inline-block;
+						background: $red;
+						padding: 15px 20px;
+						font-family: $subheading-font;
+						text-transform: uppercase;
+						letter-spacing: 3px;
+					}
+				}
+			}
+		}
+	}
+
+
+/*	.sidebar {
+		width: $col;
+		float: left;
+		margin: 0 0 0 0;
+
+		@include respond-to(smalltablet) {
+			width: 23%;
+		}
+		@include respond-to(phone) {
+			float: none;
+			width: 100%;
+		}
+		@include respond-to(print) {
+			width: 100%;
+			float: none;
+		}
+		
+		&.halfwidth {
+			width: $threecol;
+			float: right;
+			
+			@include respond-to(phone) {
+				width: 100%;
+				padding: 2%;
+			}
+			@include respond-to(smalltablet) {
+				width: 49%;
+			}
+			@include respond-to(largetablet) {
+				width: 49%;
+				padding: 0 2%;
+			}
+		}
+		
+		&.product-nav {
+		
+			@include respond-to(print) {
+				display: none;
+			}
+		}
+		
+		
+		ul {
+			list-style-type: none;
+			margin: 92px 0 0 0;
+			padding: 0;
+			font-family: $subheading-font;
+			font-weight: 700;
+			font-size: 15px;
+			
+			li {
+				margin: 0;
+				padding: 0;
+				
+				border-top: 1px solid #f3f3f3;
+				
+				&#menu-item-520 {
+					margin-bottom: 30px;
+				}
+				
+				a {
+					display: block;
+					width: 100%;
+					height: 100%;
+				}
+				
+				&.current-menu-item {
+					
+					a {
+						color: $red;
+					}
+					
+					ul {
+						
+						li {
+							
+							a {
+								color: $link_color;
+							}
+						}
+					}
+				}
+				
+				ul {
+					margin: 0 0 0 20px;
+				}
+			}
+		}
+	} */
+
+
+
+
+
+
+}
+
+.select2-container {
+	width: 100%;
+}
+.select2-results {
+	font-size: 12px;
+	font-family: 'Helvetica Neue', HelveticaNeue, Helvetica, Arial;
+}
+
+
+
+
+ul.downloads {
+	list-style-type: none;
+	margin: 0 0 0 0;
+	padding: 0;
+	font-family: $subheading-font;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 18px;
+	text-align: left;
+	
+	@include respond-to(print) {
+		display: none;
+	}
+	
+	i.fa {
+		color: $red;
+		margin: 0 5px 0 0;
+	}
+	
+	li {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		border-top: 1px solid #f3f3f3;
+		
+		a {
+			display: block;
+			width: 100%;
+			height: 100%;
+			padding: 4px;
+		}
+		
+		&.current-menu-item {
+			
+			a {
+				color: $red;
+			}
+		}
+		
+		ul {
+			margin: 0 0 0 20px;
+		}
+	}
+}
+
+
+.flexslider {
+	margin: 0 0 20px 0;
+	min-height: 400px;
+	
+	@include respond-to(smalltablet) {
+		min-height: 300px;
+	}
+	@include respond-to(phone) {
+		min-height: 200px;
+	}
+}
+
+
+/*
+.slides {
+	position: relative;
+	z-index: 1;
+	margin: 0 0 20px 0;
+	
+	@include respond-to(phone) {
+		margin-bottom: 10px;
+	}
+	
+	li {
+		float: left;
+		width: 100%;
+		margin: 0;
+		background-size: cover; 
+		background-position: center center; 
+		height: 400px; 
+		margin: 0;
+		position: relative;
+		
+		@include respond-to(smalltablet) {
+			height: 300px;
+		}
+		@include respond-to(phone) {
+			height: 200px;
+		}
+		
+		h2 {
+			position: absolute; 
+			top: 50%; 
+			left: 50%; 
+			margin: -30px 0 0 -200px; 
+			padding: 20px;
+			background: $yellow; 
+			color: #000;
+			
+			@include respond-to(phone) {
+				position: static;
+				margin: 70px auto;
+				font-size: 20px;
+			}
+		}
+	}
+}
+*/
+
+
+
+
+
+.contact {
+	
+	.form,
+	.address {
+		@include box-sizing(border-box);
+		width: 48%;
+	}
+	
+	.form {
+		float: left;
+		
+		label {
+			display: block;
+			width: 100%;
+			margin: 0 0 5px 0;
+			font-weight: bold;
+		}
+		input[type='text'],
+		textarea {
+			@include box-sizing(border-box);
+			margin: 0 0 20px 0;
+			width: 100%;
+			padding: 5px;
+		}
+		input[type='submit'] {
+			margin: 0 0 20px 0;
+			background: $yellow;
+			padding: 10px 20px;
+			font-size: 16px;
+			border: 0px;
+		}
+	}
+	.address {
+		float: right;
+	}
+}
+
+
+/* this chunk was for the product links buttons; the scss was nested deep inside that for the product summary */
+
+		.product_links {
+
+			// DISABLING
+			display: none;
+
+			float: left;
+			width: 110px;
+			
+			@include respond-to(phone) {
+				float: right;
+				width: 100%;
+				margin: 20px 0 0 0;
+			}
+			@include respond-to(widescreen) {
+				width: 150px;
+			}
+			
+			ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				font-family: $subheading-font;
+				text-align: center;
+				text-transform: uppercase;
+				font-weight: 700;
+				border-top: 1px solid #ccc;
+				font-size: 12px;
+				
+				@include respond-to(widescreen) {
+					font-size: 14px;
+				}
+				
+				li {
+					border-bottom: 1px solid #ccc;
+					display: block;
+					line-height: 32px;
+					
+					@include respond-to(widescreen) {
+						line-height: 37px;
+					}
+					
+				
+					a {
+						display: block;
+						background: $off-grey;
+						padding: 0 5px;
+					}
+				}
+			}
+		}	
