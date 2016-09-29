@@ -1198,39 +1198,78 @@ section header {
     text-align: left; }
     .vitals p span {
       margin-right: 15px; }
+  .vitals .description p {
+    font-size: 120%;
+    line-height: 1.4; }
+    @media only screen and (min-width: 769px) and (max-width: 980px) {
+      .vitals .description p {
+        font-size: 100%; } }
+    @media only screen and (min-width: 421px) and (max-width: 768px) {
+      .vitals .description p {
+        font-size: 100%; } }
+    @media only screen and (max-width: 420px) {
+      .vitals .description p {
+        font-size: 80%; } }
+  .vitals p.stats {
+    font-size: 100%;
+    line-height: 1.4; }
   .vitals .country, .vitals .categorization {
     text-transform: uppercase;
     font-weight: 700; }
   .vitals p.categorization {
     margin-top: 0; }
-  .vitals .bottle {
-    max-width: 320px; }
-    .vitals .bottle img {
-      width: 100%;
-      height: auto; }
+  .vitals .description {
+    float: left;
+    max-width: 400px; }
+    @media only screen and (min-width: 769px) and (max-width: 980px) {
+      .vitals .description {
+        max-width: 360px; } }
+    @media only screen and (max-width: 420px) {
+      .vitals .description {
+        max-width: 320px; } }
   .vitals .label {
-    max-width: 320px; }
+    float: left;
+    max-width: 200px;
+    margin-right: 1em; }
     .vitals .label img {
       width: 100%;
       height: auto; }
+    @media only screen and (min-width: 421px) and (max-width: 768px) {
+      .vitals .label {
+        float: none; } }
+  .vitals .bottle {
+    float: left;
+    max-width: 100px;
+    margin-right: 1em; }
+    .vitals .bottle img {
+      width: 100%;
+      height: auto; }
+    @media only screen and (min-width: 769px) and (max-width: 980px) {
+      .vitals .bottle {
+        max-width: 60px; } }
+    @media only screen and (min-width: 421px) and (max-width: 768px) {
+      .vitals .bottle {
+        clear: left; } }
   .vitals .context {
+    float: left;
     max-width: 320px; }
     .vitals .context img {
       width: 100%;
       height: auto; }
 
 .setup {
-  overflow: scroll;
+  overflow-x: auto;
   margin-top: 20px; }
   .setup table {
-    width: 100%;
+    width: auto;
     border-top: 1px solid #fff;
     border-left: 1px solid #fff;
     font-family: "myriad-pro-condensed", Georgia, Times, serif; }
     .setup table th, .setup table td {
-      border-right: 1px solid #fff;
+      border-right: 0.5em solid #fff;
       border-bottom: 1px solid #fff;
-      padding: 3px; }
+      padding: 3px;
+      white-space: nowrap; }
     .setup table th {
       background: white;
       font-weight: 700;
@@ -1238,6 +1277,12 @@ section header {
       font-size: 13px; }
     .setup table td {
       font-size: 17px; }
+  @media only screen and (min-width: 421px) and (max-width: 768px) {
+    .setup {
+      overflow-x: auto; } }
+  @media only screen and (max-width: 420px) {
+    .setup {
+      overflow-x: auto; } }
 
 /*************************************/
 /*   

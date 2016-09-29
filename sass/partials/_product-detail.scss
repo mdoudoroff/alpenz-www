@@ -3,8 +3,6 @@
 
 	margin: 0 0.5em;
 
-
-
 	p {
 		width: 100%;
 		margin: 10px 0 0 0;
@@ -22,8 +20,26 @@
 	}
 		
 
+	.description p {
+		font-size: 120%;
+		line-height: 1.4;
 
-			
+		@include respond-to(largetablet) {
+			font-size: 100%;
+		}
+		@include respond-to(smalltablet) {
+			font-size: 100%;
+		}
+		@include respond-to(phone) {
+			font-size: 80%;
+		}
+	}
+
+	p.stats {
+		font-size: 100%;
+		line-height: 1.4;
+	}
+
 	.country, .categorization {
 		// font-family: $subheading-font;
 		text-transform: uppercase;
@@ -36,26 +52,62 @@
 	}
 
 
-	.bottle {
-		max-width: 320px;
-		img {
-			width: 100%;
-			height: auto;
+	.description {
+		float: left;
+		max-width: 400px;
+
+		@include respond-to(largetablet) {
+			max-width: 360px;
+		}
+
+		@include respond-to(phone) {
+			max-width: 320px;
 		}
 	}
+
 	.label {
-		max-width: 320px;
+		float: left;
+		max-width: 200px;
+		margin-right: 1em;
 		img {
 			width: 100%;
 			height: auto;
+		}
+		@include respond-to(smalltablet) {
+			float: none;
 		}
 	}
+
+	.bottle {
+		float: left;
+		max-width: 100px;
+		margin-right: 1em;
+		img {
+			width: 100%;
+			height: auto;
+		}
+
+		@include respond-to(largetablet) {
+			max-width: 60px;
+		}
+		@include respond-to(smalltablet) {
+			clear:left;
+		}
+
+	}
+
 	.context {
+		float:left;
 		max-width: 320px;
 		img {
 			width: 100%;
 			height: auto;
 		}
+		@include respond-to(smalltablet) {
+
+		}
+
+
 	}
 
 }
@@ -63,19 +115,20 @@
 
 .setup {
 
-	overflow: scroll;
+	overflow-x: auto;
 	margin-top: 20px;
 	
 	table {
-		width: 100%;
+		width: auto;
 		border-top: 1px solid $body_background;
 		border-left: 1px solid $body_background;
 		font-family: $subheading-font;
 	
 		th,td {
-			border-right: 1px solid $body_background;
+			border-right: 0.5em solid $body_background;
 			border-bottom: 1px solid $body_background;
 			padding: 3px;
+			white-space: nowrap;
 		}
 		th {
 			background: lighten($body_background, 5%);
@@ -86,5 +139,12 @@
 		td {
 			font-size: 17px;
 		}
+	}
+
+	@include respond-to(smalltablet) {
+		overflow-x: auto;
+	}
+	@include respond-to(phone) {
+		overflow-x: auto;
 	}
 }
