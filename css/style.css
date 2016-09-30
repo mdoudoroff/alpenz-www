@@ -98,6 +98,7 @@ em, i {
 /*@import "partials/sprites";*/
 .header {
   width: 100%;
+  min-width: 960px;
   position: relative;
   z-index: 100;
   padding: 0;
@@ -115,7 +116,9 @@ em, i {
     clear: both; }
   @media only screen and (max-width: 720px) {
     .header {
-      height: 40px; } }
+      height: 40px;
+      width: 100%;
+      min-width: 100%; } }
   @media print {
     .header {
       background: #fff; } }
@@ -783,7 +786,7 @@ a {
         -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
         box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); }
         .content .product-overview .artwork li.grid-sizer {
-          width: 176px; }
+          width: 168px; }
         @media print {
           .content .product-overview .artwork li {
             -moz-box-shadow: none;
@@ -803,7 +806,7 @@ a {
     vertical-align: top; }
     .content .recipes .recipe {
       display: inline-block;
-      width: 176px;
+      width: 168px;
       background: #f3f3f3;
       padding: 10px;
       margin: 0 10px 10px 0;
@@ -828,7 +831,7 @@ a {
       .content .recipes .recipe a {
         display: inline; }
   .content .main {
-    width: 764px;
+    width: 732px;
     float: right;
     margin-left: 20px; }
     @media only screen and (max-width: 720px) {
@@ -843,7 +846,7 @@ a {
       float: none;
       margin: 0; }
     .content .main.halfwidth {
-      width: 372px;
+      width: 356px;
       float: left;
       margin: 0; }
       @media only screen and (max-width: 720px) {
@@ -859,7 +862,7 @@ a {
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
     page-break-inside: avoid; }
   .content .sidebar {
-    width: 176px;
+    width: 168px;
     float: left;
     margin: 0 0 0 0; }
     @media only screen and (max-width: 720px) {
@@ -871,7 +874,7 @@ a {
         width: 100%;
         float: none; } }
     .content .sidebar.halfwidth {
-      width: 568px;
+      width: 544px;
       float: right; }
       @media only screen and (max-width: 720px) {
         .content .sidebar.halfwidth {

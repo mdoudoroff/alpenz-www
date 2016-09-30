@@ -3,6 +3,7 @@ $logoheight: 50px;
 
 .header {
 	width: 100%;
+	min-width: $site_width;
 	position: relative; // fixed;
 	z-index: 100;
 	padding: 0;
@@ -22,6 +23,8 @@ $logoheight: 50px;
 	// }
 	@include respond-to(phone) {
 		height: 40px;
+		width: 100%;
+		min-width: 100%;
 	}
 
 
