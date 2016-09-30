@@ -65,10 +65,17 @@
 		}
 	}
 
+	.duplex {
+		float:left;
+		margin-left: 1em;
+		max-width: 300px;
+		text-align: center;
+	}
+
 	.label {
-		float: left;
-		max-width: 200px;
-		margin-right: 1em;
+		// float: left;
+		// max-width: 200px;
+		// margin-right: 1em;
 		img {
 			width: 100%;
 			height: auto;
@@ -76,11 +83,12 @@
 		// @include respond-to(smalltablet) {
 		// 	float: none;
 		// }
+		margin-bottom: 1em;
 	}
 
 	.bottle {
 		float: left;
-		max-width: 100px;
+		max-width: 160px;
 		margin-right: 1em;
 		img {
 			width: 100%;
@@ -97,8 +105,7 @@
 	}
 
 	.context {
-		float:left;
-		max-width: 320px;
+		// float:left;
 		img {
 			width: 100%;
 			height: auto;
@@ -111,9 +118,9 @@
 
 
 .setup {
-
+	clear: both;
 	overflow-x: auto;
-	margin-top: 20px;
+	margin: 1em 0;
 	
 	table {
 		width: auto;
