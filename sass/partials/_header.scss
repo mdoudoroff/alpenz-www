@@ -14,12 +14,12 @@ $logoheight: 50px;
 
 	height: 70px;
 
-	@include respond-to(largetablet) {
-		height: 50px;
-	}
-	@include respond-to(smalltablet) {
-		height: 50px;
-	}
+	// @include respond-to(largetablet) {
+	// 	height: 50px;
+	// }
+	// @include respond-to(smalltablet) {
+	// 	height: 50px;
+	// }
 	@include respond-to(phone) {
 		height: 40px;
 	}
@@ -53,24 +53,24 @@ $logoheight: 50px;
 		left: 90px;
 
 		
-		@include respond-to(largetablet) {
-			margin: 13px 0 0 15px;
-			width: ($logowidth / 2);
-			height: ($logoheight / 2);
+		// @include respond-to(largetablet) {
+		// 	margin: 13px 0 0 15px;
+		// 	width: ($logowidth / 2);
+		// 	height: ($logoheight / 2);
 
-			left: 80px;
-			top: 0px;
+		// 	left: 80px;
+		// 	top: 0px;
 
-		}
-		@include respond-to(smalltablet) {
-			margin: 13px 0 0 15px;
-			width: ($logowidth / 2);
-			height: ($logoheight / 2);
+		// }
+		// @include respond-to(smalltablet) {
+		// 	margin: 13px 0 0 15px;
+		// 	width: ($logowidth / 2);
+		// 	height: ($logoheight / 2);
 
-			left: 80px;
-			top: 0px;
+		// 	left: 80px;
+		// 	top: 0px;
 
-		}
+		// }
 		@include respond-to(phone) {
 			margin: 8px 0 7px 5px;
 			width: $logowidth / 2;
@@ -91,12 +91,12 @@ $logoheight: 50px;
 			background: url('../assets/logo-wide.png') no-repeat;
 			background-size: $logowidth $logoheight;
 
-			@include respond-to(largetablet) {
-				background-size: ($logowidth / 2) ($logoheight / 2);
-			}
-			@include respond-to(smalltablet) {
-				background-size: ($logowidth / 2) ($logoheight / 2);
-			}
+			// @include respond-to(largetablet) {
+			// 	background-size: ($logowidth / 2) ($logoheight / 2);
+			// }
+			// @include respond-to(smalltablet) {
+			// 	background-size: ($logowidth / 2) ($logoheight / 2);
+			// }
 			@include respond-to(phone) {
 				background-size: ($logowidth / 2) ($logoheight / 2);
 			}
@@ -109,11 +109,11 @@ $logoheight: 50px;
 		font-size: 20px;
 		font-style: italic;
 		
-		@include respond-to(smalltablet) {
-			margin: 0px auto;
-			float: none;
-			text-align: center;
-		}
+		// @include respond-to(smalltablet) {
+		// 	margin: 0px auto;
+		// 	float: none;
+		// 	text-align: center;
+		// }
 		@include respond-to(phone) {
 			display: none;
 		}
@@ -140,17 +140,17 @@ $logoheight: 50px;
 			display: block;
 		}
 
-		@include respond-to(smalltablet) {
-			line-height: 50px;
-		}
+		// @include respond-to(smalltablet) {
+		// 	line-height: 50px;
+		// }
 
-		@include respond-to(largetablet) {
-			line-height: 50px;
-		}
+		// @include respond-to(largetablet) {
+		// 	line-height: 50px;
+		// }
 
-		@include respond-to(widescreen) {
-			line-height: 70px;
-		}
+		// @include respond-to(widescreen) {
+		// 	line-height: 70px;
+		// }
 
 	}
 	
@@ -168,9 +168,9 @@ $logoheight: 50px;
 		margin: 0 auto;
 		@include box-sizing(border-box);
 
-		@include respond-to(smalltablet) {
-			display:none;
-		}		
+		// @include respond-to(smalltablet) {
+		// 	display:none;
+		// }		
 		@include respond-to(phone) {
 			width: 100%;
 			display: none;
@@ -185,12 +185,12 @@ $logoheight: 50px;
 			line-height: 70px;
 			letter-spacing: 1px;
 			
-			@include respond-to(largetablet) {
-				line-height: 50px;
-			}
-			@include respond-to(smalltablet) {
-				line-height: 50px;
-			}
+			// @include respond-to(largetablet) {
+			// 	line-height: 50px;
+			// }
+			// @include respond-to(smalltablet) {
+			// 	line-height: 50px;
+			// }
 			@include respond-to(phone) {
 				width: 100%;
 				display: block;

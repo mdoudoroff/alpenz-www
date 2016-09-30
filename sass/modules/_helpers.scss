@@ -5,22 +5,25 @@
 	@include float-right;
 }
 .wrap {
-	width: 960px;
+	// width: 960px;
+	width: $desktop_max;
 	height: 100%;
 	margin: 0 auto;
 	position: relative;
 	padding: 0;
 	
-	@include respond-to(widescreen) {
-		width: $desktop_max;
-		padding: 0 $gutter;
-	}
-	@include respond-to(largetablet) {
-		width: 100%;
-	}
-	@include respond-to(smalltablet) {
-		width: 100%;
-	}
+	// @include respond-to(widescreen) {
+	// 	width: $desktop_max;
+	// 	padding: 0 $gutter;
+	// }
+	// @include respond-to(largetablet) {
+	// 	// width: 100%;
+	// 	width: $desktop_max;
+	// }
+	// @include respond-to(smalltablet) {
+	// 	// width: 100%;
+	// 	width: $desktop_max;
+	// }
 	@include respond-to(phone) {
 		width: 100%;
 	}

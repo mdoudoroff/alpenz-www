@@ -73,17 +73,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin: 0 auto;
   position: relative;
   padding: 0; }
-  @media only screen and (min-width: 1220px) {
-    .wrap {
-      width: 1220px;
-      padding: 0 20px; } }
-  @media only screen and (min-width: 769px) and (max-width: 980px) {
-    .wrap {
-      width: 100%; } }
-  @media only screen and (min-width: 421px) and (max-width: 768px) {
-    .wrap {
-      width: 100%; } }
-  @media only screen and (max-width: 420px) {
+  @media only screen and (max-width: 720px) {
     .wrap {
       width: 100%; } }
 
@@ -123,13 +113,7 @@ em, i {
     content: "";
     display: table;
     clear: both; }
-  @media only screen and (min-width: 769px) and (max-width: 980px) {
-    .header {
-      height: 50px; } }
-  @media only screen and (min-width: 421px) and (max-width: 768px) {
-    .header {
-      height: 50px; } }
-  @media only screen and (max-width: 420px) {
+  @media only screen and (max-width: 720px) {
     .header {
       height: 40px; } }
   @media print {
@@ -148,21 +132,7 @@ em, i {
     position: absolute;
     top: 13px;
     left: 90px; }
-    @media only screen and (min-width: 769px) and (max-width: 980px) {
-      .header h1, .header .logo {
-        margin: 13px 0 0 15px;
-        width: 197.5px;
-        height: 25px;
-        left: 80px;
-        top: 0px; } }
-    @media only screen and (min-width: 421px) and (max-width: 768px) {
-      .header h1, .header .logo {
-        margin: 13px 0 0 15px;
-        width: 197.5px;
-        height: 25px;
-        left: 80px;
-        top: 0px; } }
-    @media only screen and (max-width: 420px) {
+    @media only screen and (max-width: 720px) {
       .header h1, .header .logo {
         margin: 8px 0 7px 5px;
         width: 197.5px;
@@ -179,25 +149,14 @@ em, i {
       height: 100%;
       background: url("../assets/logo-wide.png") no-repeat;
       background-size: 395px 50px; }
-      @media only screen and (min-width: 769px) and (max-width: 980px) {
-        .header h1 a, .header .logo a {
-          background-size: 197.5px 25px; } }
-      @media only screen and (min-width: 421px) and (max-width: 768px) {
-        .header h1 a, .header .logo a {
-          background-size: 197.5px 25px; } }
-      @media only screen and (max-width: 420px) {
+      @media only screen and (max-width: 720px) {
         .header h1 a, .header .logo a {
           background-size: 197.5px 25px; } }
   .header h2 {
     float: right;
     font-size: 20px;
     font-style: italic; }
-    @media only screen and (min-width: 421px) and (max-width: 768px) {
-      .header h2 {
-        margin: 0px auto;
-        float: none;
-        text-align: center; } }
-    @media only screen and (max-width: 420px) {
+    @media only screen and (max-width: 720px) {
       .header h2 {
         display: none; } }
   .header .toggle {
@@ -213,19 +172,10 @@ em, i {
     color: #fff;
     padding: 0 20px;
     text-transform: uppercase; }
-    @media only screen and (max-width: 420px) {
+    @media only screen and (max-width: 720px) {
       .header .toggle {
         line-height: 40px;
         display: block; } }
-    @media only screen and (min-width: 421px) and (max-width: 768px) {
-      .header .toggle {
-        line-height: 50px; } }
-    @media only screen and (min-width: 769px) and (max-width: 980px) {
-      .header .toggle {
-        line-height: 50px; } }
-    @media only screen and (min-width: 1220px) {
-      .header .toggle {
-        line-height: 70px; } }
   .header ul {
     display: block;
     font-family: "myriad-pro-condensed", Georgia, Times, serif;
@@ -237,10 +187,7 @@ em, i {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box; }
-    @media only screen and (min-width: 421px) and (max-width: 768px) {
-      .header ul {
-        display: none; } }
-    @media only screen and (max-width: 420px) {
+    @media only screen and (max-width: 720px) {
       .header ul {
         width: 100%;
         display: none;
@@ -254,13 +201,7 @@ em, i {
       letter-spacing: 1px;
       /* Horizontal Sub Menu */
       /* If main menu is hovered, show sub menu, but not sub menu options */ }
-      @media only screen and (min-width: 769px) and (max-width: 980px) {
-        .header ul li {
-          line-height: 50px; } }
-      @media only screen and (min-width: 421px) and (max-width: 768px) {
-        .header ul li {
-          line-height: 50px; } }
-      @media only screen and (max-width: 420px) {
+      @media only screen and (max-width: 720px) {
         .header ul li {
           width: 100%;
           display: block;
@@ -398,10 +339,7 @@ em, i {
   @media print {
     .navigation {
       display: none; } }
-  @media only screen and (min-width: 421px) and (max-width: 768px) {
-    .navigation {
-      clear: both; } }
-  @media only screen and (max-width: 420px) {
+  @media only screen and (max-width: 720px) {
     .navigation {
       display: none;
       width: 100%;
@@ -421,12 +359,7 @@ em, i {
     text-transform: uppercase;
     text-align: center;
     margin-left: -20px; }
-    @media only screen and (min-width: 421px) and (max-width: 768px) {
-      .navigation ul {
-        float: none;
-        text-align: center;
-        margin-left: -10px; } }
-    @media only screen and (max-width: 420px) {
+    @media only screen and (max-width: 720px) {
       .navigation ul {
         width: 100%; } }
     .navigation ul li {
@@ -438,7 +371,7 @@ em, i {
       letter-spacing: 1px;
       /* Horizontal Sub Menu */
       /* If main menu is hovered, show sub menu, but not sub menu options */ }
-      @media only screen and (max-width: 420px) {
+      @media only screen and (max-width: 720px) {
         .navigation ul li {
           width: 100%;
           display: block; } }
@@ -447,9 +380,6 @@ em, i {
         padding: 0 20px;
         text-decoration: none;
         color: #fff; }
-        @media only screen and (min-width: 421px) and (max-width: 768px) {
-          .navigation ul li a {
-            padding: 0 10px; } }
       .navigation ul li.current-menu-parent a, .navigation ul li.current-menu-item a, .navigation ul li.here a,
       .navigation ul li a:hover, .navigation ul li:hover a {
         color: #fff;
@@ -530,7 +460,7 @@ em, i {
       color: #666; }
       .breadcrumb p a:hover {
         text-decoration: underline; }
-    @media only screen and (max-width: 420px) {
+    @media only screen and (max-width: 720px) {
       .breadcrumb p {
         font-size: 12px;
         text-align: center; } }
@@ -690,13 +620,7 @@ a {
   background: #f2f2f2;
   background-size: cover;
   background-position: center center; }
-  @media only screen and (min-width: 769px) and (max-width: 980px) {
-    .hero {
-      height: 440px; } }
-  @media only screen and (min-width: 421px) and (max-width: 768px) {
-    .hero {
-      height: 320px; } }
-  @media only screen and (max-width: 420px) {
+  @media only screen and (max-width: 720px) {
     .hero {
       height: 200px; } }
   .hero h1 {
@@ -721,7 +645,7 @@ a {
     font-size: 36px;
     font-weight: 700;
     margin: 0 0 10px 0; }
-    @media only screen and (max-width: 420px) {
+    @media only screen and (max-width: 720px) {
       .content h1 {
         font-size: 36px;
         margin: 0 0 12px 0; } }
@@ -759,7 +683,7 @@ a {
     line-height: 20px;
     font-weight: 300;
     margin: 0 0 20px 0; }
-    @media only screen and (max-width: 420px) {
+    @media only screen and (max-width: 720px) {
       .content p {
         font-size: 17px;
         line-height: 22px; } }
@@ -791,7 +715,7 @@ a {
       margin: 0 20px 10px 0; }
   .content .catalogue {
     float: right; }
-    @media only screen and (max-width: 420px) {
+    @media only screen and (max-width: 720px) {
       .content .catalogue {
         font-size: 80%; } }
     @media print {
@@ -807,20 +731,6 @@ a {
       min-height: 300px;
       margin: 0 0 20px 0;
       overflow: hidden; }
-      @media only screen and (min-width: 421px) and (max-width: 768px) {
-        .content .product-overview .banner {
-          min-height: 0px; } }
-      @media only screen and (min-width: 769px) and (max-width: 980px) {
-        .content .product-overview .banner {
-          min-height: 0px; } }
-      @media only screen and (min-width: 421px) and (max-width: 768px) {
-        .content .product-overview .banner img {
-          width: 100%;
-          height: auto; } }
-      @media only screen and (min-width: 769px) and (max-width: 980px) {
-        .content .product-overview .banner img {
-          width: 100%;
-          height: auto; } }
       .content .product-overview .banner .product-name {
         width: 100%;
         position: absolute;
@@ -921,17 +831,10 @@ a {
     width: 764px;
     float: right;
     margin-left: 20px; }
-    @media only screen and (min-width: 421px) and (max-width: 768px) {
-      .content .main {
-        width: 73%;
-        margin: 0; } }
-    @media only screen and (max-width: 420px) {
+    @media only screen and (max-width: 720px) {
       .content .main {
         float: none;
         width: 100%; } }
-    @media only screen and (min-width: 1220px) {
-      .content .main {
-        width: 960px; } }
     @media print {
       .content .main {
         width: 100%; } }
@@ -943,20 +846,10 @@ a {
       width: 372px;
       float: left;
       margin: 0; }
-      @media only screen and (max-width: 420px) {
+      @media only screen and (max-width: 720px) {
         .content .main.halfwidth {
           width: 100%;
           padding: 2%; } }
-      @media only screen and (min-width: 421px) and (max-width: 768px) {
-        .content .main.halfwidth {
-          width: 49%; } }
-      @media only screen and (min-width: 769px) and (max-width: 980px) {
-        .content .main.halfwidth {
-          width: 49%;
-          padding: 0 2%; } }
-      @media only screen and (min-width: 1220px) {
-        .content .main.halfwidth {
-          width: 568px; } }
   .content #map_canvas {
     width: 100%;
     height: 300px;
@@ -969,10 +862,7 @@ a {
     width: 176px;
     float: left;
     margin: 0 0 0 0; }
-    @media only screen and (min-width: 421px) and (max-width: 768px) {
-      .content .sidebar {
-        width: 23%; } }
-    @media only screen and (max-width: 420px) {
+    @media only screen and (max-width: 720px) {
       .content .sidebar {
         float: none;
         width: 100%; } }
@@ -983,17 +873,10 @@ a {
     .content .sidebar.halfwidth {
       width: 568px;
       float: right; }
-      @media only screen and (max-width: 420px) {
+      @media only screen and (max-width: 720px) {
         .content .sidebar.halfwidth {
           width: 100%;
           padding: 2%; } }
-      @media only screen and (min-width: 421px) and (max-width: 768px) {
-        .content .sidebar.halfwidth {
-          width: 49%; } }
-      @media only screen and (min-width: 769px) and (max-width: 980px) {
-        .content .sidebar.halfwidth {
-          width: 49%;
-          padding: 0 2%; } }
     @media print {
       .content .sidebar.product-nav {
         display: none; } }
@@ -1023,21 +906,12 @@ section header {
       float: left;
       position: relative;
       text-align: center;
-      width: 200px;
+      width: 230px;
       line-height: 0;
       margin: 0 20px 0 0; }
-      @media only screen and (max-width: 420px) {
+      @media only screen and (max-width: 720px) {
         .products .type-product .label {
           display: none; } }
-      @media only screen and (min-width: 421px) and (max-width: 768px) {
-        .products .type-product .label {
-          margin: 0 1em 0 0;
-          min-width: 60px;
-          width: 25%;
-          height: auto; } }
-      @media only screen and (min-width: 1220px) {
-        .products .type-product .label {
-          width: 230px; } }
       .products .type-product .label img {
         width: 100%;
         height: auto; }
@@ -1053,22 +927,11 @@ section header {
       padding: 0 0;
       margin-right: 10px;
       width: 360px; }
-      @media only screen and (max-width: 420px) {
+      @media only screen and (max-width: 720px) {
         .products .type-product .product_text {
           width: 75%;
           padding: 0;
           margin: 0 0 20px 0; } }
-      @media only screen and (min-width: 421px) and (max-width: 768px) {
-        .products .type-product .product_text {
-          width: 50%;
-          padding: 0;
-          margin: 0 0 20px 0; } }
-      @media only screen and (min-width: 769px) and (max-width: 980px) {
-        .products .type-product .product_text {
-          width: 360px; } }
-      @media only screen and (min-width: 1220px) {
-        .products .type-product .product_text {
-          width: 450px; } }
       .products .type-product .product_text .product_description p:last-child {
         margin-bottom: 0; }
       .products .type-product .product_text h2 {
@@ -1080,36 +943,22 @@ section header {
       .products .type-product .product_text p {
         font-size: 12px;
         line-height: 14px; }
-        @media only screen and (min-width: 1220px) {
-          .products .type-product .product_text p {
-            font-size: 13px;
-            line-height: 17px; } }
     .products .type-product .bottle {
       -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
-      float: right;
+      float: left;
       text-align: center;
-      width: 60px;
-      height: 200px;
+      width: 120px;
+      height: 230px;
       padding: 0 0;
       line-height: 0;
       overflow: hidden; }
-      @media only screen and (max-width: 420px) {
+      @media only screen and (max-width: 720px) {
         .products .type-product .bottle {
           min-width: 60px;
           width: 12.5%;
           height: auto; } }
-      @media only screen and (min-width: 421px) and (max-width: 768px) {
-        .products .type-product .bottle {
-          min-width: 60px;
-          width: 12.5%;
-          height: auto img;
-            height-height: 230px; } }
-      @media only screen and (min-width: 1220px) {
-        .products .type-product .bottle {
-          display: block;
-          height: 230px; } }
       .products .type-product .bottle a {
         line-height: 0; }
       .products .type-product .bottle img {
@@ -1120,10 +969,10 @@ section header {
       -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
-      float: right;
+      float: left;
       text-align: center;
-      width: 170px;
-      height: 200px;
+      width: 200px;
+      height: 230px;
       padding: 0 0;
       line-height: 0; }
       .products .type-product .context a {
@@ -1132,20 +981,10 @@ section header {
         width: 100%;
         height: auto;
         line-height: 0; }
-      @media only screen and (max-width: 420px) {
+      @media only screen and (max-width: 720px) {
         .products .type-product .context {
           display: none;
           float: right; } }
-      @media only screen and (min-width: 421px) and (max-width: 768px) {
-        .products .type-product .context {
-          display: none; } }
-      @media only screen and (min-width: 769px) and (max-width: 980px) {
-        .products .type-product .context {
-          display: none; } }
-      @media only screen and (min-width: 1220px) {
-        .products .type-product .context {
-          width: 200px;
-          height: 230px; } }
     .products .type-product p {
       width: 100%;
       margin: 10px 0 0 0;
@@ -1201,13 +1040,7 @@ section header {
   .vitals .description p {
     font-size: 120%;
     line-height: 1.4; }
-    @media only screen and (min-width: 769px) and (max-width: 980px) {
-      .vitals .description p {
-        font-size: 100%; } }
-    @media only screen and (min-width: 421px) and (max-width: 768px) {
-      .vitals .description p {
-        font-size: 100%; } }
-    @media only screen and (max-width: 420px) {
+    @media only screen and (max-width: 720px) {
       .vitals .description p {
         font-size: 80%; } }
   .vitals p.stats {
@@ -1221,10 +1054,7 @@ section header {
   .vitals .description {
     float: left;
     max-width: 400px; }
-    @media only screen and (min-width: 769px) and (max-width: 980px) {
-      .vitals .description {
-        max-width: 360px; } }
-    @media only screen and (max-width: 420px) {
+    @media only screen and (max-width: 720px) {
       .vitals .description {
         max-width: 320px; } }
   .vitals .label {
@@ -1234,9 +1064,6 @@ section header {
     .vitals .label img {
       width: 100%;
       height: auto; }
-    @media only screen and (min-width: 421px) and (max-width: 768px) {
-      .vitals .label {
-        float: none; } }
   .vitals .bottle {
     float: left;
     max-width: 100px;
@@ -1244,12 +1071,6 @@ section header {
     .vitals .bottle img {
       width: 100%;
       height: auto; }
-    @media only screen and (min-width: 769px) and (max-width: 980px) {
-      .vitals .bottle {
-        max-width: 60px; } }
-    @media only screen and (min-width: 421px) and (max-width: 768px) {
-      .vitals .bottle {
-        clear: left; } }
   .vitals .context {
     float: left;
     max-width: 320px; }
@@ -1277,10 +1098,7 @@ section header {
       font-size: 13px; }
     .setup table td {
       font-size: 17px; }
-  @media only screen and (min-width: 421px) and (max-width: 768px) {
-    .setup {
-      overflow-x: auto; } }
-  @media only screen and (max-width: 420px) {
+  @media only screen and (max-width: 720px) {
     .setup {
       overflow-x: auto; } }
 

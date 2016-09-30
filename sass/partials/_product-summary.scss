@@ -19,24 +19,26 @@
 			float: left;
 			position: relative;
 			text-align: center;
-			width: 200px;
+			// width: 200px;
+			width: 230px;
 			line-height: 0;
 			margin: 0 20px 0 0;
 			
 			@include respond-to(phone) {
 				display: none;
 			}
-			@include respond-to(smalltablet) {
-				margin: 0 1em 0 0;
 
-				min-width: 60px;
-				width: 25%;
-				height: auto
+			// @include respond-to(smalltablet) {
+			// 	margin: 0 1em 0 0;
 
-			}
-			@include respond-to(widescreen) {
-				width: 230px;
-			}
+			// 	min-width: 60px;
+			// 	width: 25%;
+			// 	height: auto
+
+			// }
+			// @include respond-to(widescreen) {
+			// 	width: 230px;
+			// }
 			
 			img {
 				width: 100%;
@@ -63,21 +65,22 @@
 				padding: 0;
 				margin: 0 0 20px 0;
 			}
-			@include respond-to(smalltablet) {
-				// width: 360px;
-				// padding: 24px 0;
+			// @include respond-to(smalltablet) {
+			// 	// width: 360px;
+			// 	// padding: 24px 0;
 
-				width: 50%;
-				padding: 0;
-				margin: 0 0 20px 0;
+			// 	width: 50%;
+			// 	padding: 0;
+			// 	margin: 0 0 20px 0;
 
-			}
-			@include respond-to(largetablet) {
-				width: 360px;
-			}
-			@include respond-to(widescreen) {
-				width: 450px;
-			}
+			// }
+			// @include respond-to(largetablet) {
+			// 	width: 360px;
+			// }
+			// @include respond-to(widescreen) {
+			// 	width: 450px;
+			// }
+
 			@include respond-to(print) {
 				
 			}
@@ -102,19 +105,20 @@
 				font-size: 12px;
 				line-height: 14px;
 				
-				@include respond-to(widescreen) {
-					font-size: 13px;
-					line-height: 17px;
-				}
+				// @include respond-to(widescreen) {
+				// 	font-size: 13px;
+				// 	line-height: 17px;
+				// }
 			}
 		}
 		
 		.bottle {
 			@include box-sizing(border-box);
-			float: right;
+			float: left;
 			text-align: center;
-			width: 60px;
-			height: 200px;
+			width: 120px;
+			// height: 200px;
+			height: 230px;
 			padding: 0 0;
 			line-height: 0;
 			overflow: hidden;
@@ -124,24 +128,22 @@
 				width: 12.5%;
 				height: auto
 			}
-			@include respond-to(smalltablet) {
-				// width: auto;
+			// @include respond-to(smalltablet) {
+			// 	// width: auto;
 
-				min-width: 60px;
-				width: 12.5%;
-				height: auto
+			// 	min-width: 60px;
+			// 	width: 12.5%;
+			// 	height: auto
 
-				img {
-					height: 230px;
-				}
+			// 	img {
+			// 		height: 230px;
+			// 	}
+			// }
 
-
-			}
-			@include respond-to(widescreen) {
-				display: block;
-				height: 230px;
-				
-			}
+			// @include respond-to(widescreen) {
+			// 	display: block;
+			// 	height: 230px;			
+			// }
 
 
 
@@ -166,10 +168,10 @@
 		
 		.context {
 			@include box-sizing(border-box);
-			float: right;
+			float: left;
 			text-align: center;
-			width: 170px;
-			height: 200px;
+			width: 200px;
+			height: 230px;
 			padding: 0 0;
 			line-height: 0;
 			
@@ -186,16 +188,16 @@
 				display: none;
 				float: right;
 			}
-			@include respond-to(smalltablet) {
-				display: none;
-			}
-			@include respond-to(largetablet) {
-				display: none;
-			}
-			@include respond-to(widescreen) {
-				width: 200px;
-				height: 230px;
-			}
+			// @include respond-to(smalltablet) {
+			// 	display: none;
+			// }
+			// @include respond-to(largetablet) {
+			// 	display: none;
+			// }
+			// @include respond-to(widescreen) {
+			// 	width: 200px;
+			// 	height: 230px;
+			// }
 		}
 		
 

@@ -73,9 +73,9 @@
 			width: 100%;
 			height: auto;
 		}
-		@include respond-to(smalltablet) {
-			float: none;
-		}
+		// @include respond-to(smalltablet) {
+		// 	float: none;
+		// }
 	}
 
 	.bottle {
@@ -87,12 +87,12 @@
 			height: auto;
 		}
 
-		@include respond-to(largetablet) {
-			max-width: 60px;
-		}
-		@include respond-to(smalltablet) {
-			clear:left;
-		}
+		// @include respond-to(largetablet) {
+		// 	max-width: 60px;
+		// }
+		// @include respond-to(smalltablet) {
+		// 	clear:left;
+		// }
 
 	}
 
@@ -102,9 +102,6 @@
 		img {
 			width: 100%;
 			height: auto;
-		}
-		@include respond-to(smalltablet) {
-
 		}
 
 
