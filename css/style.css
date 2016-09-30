@@ -73,7 +73,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin: 0 auto;
   position: relative;
   padding: 0; }
-  @media only screen and (max-width: 720px) {
+  @media only screen and (max-width: 420px) {
     .wrap {
       width: 100%; } }
 
@@ -114,7 +114,7 @@ em, i {
     content: "";
     display: table;
     clear: both; }
-  @media only screen and (max-width: 720px) {
+  @media only screen and (max-width: 420px) {
     .header {
       height: 40px;
       width: 100%;
@@ -135,7 +135,7 @@ em, i {
     position: absolute;
     top: 13px;
     left: 90px; }
-    @media only screen and (max-width: 720px) {
+    @media only screen and (max-width: 420px) {
       .header h1, .header .logo {
         margin: 8px 0 7px 5px;
         width: 197.5px;
@@ -152,14 +152,14 @@ em, i {
       height: 100%;
       background: url("../assets/logo-wide.png") no-repeat;
       background-size: 395px 50px; }
-      @media only screen and (max-width: 720px) {
+      @media only screen and (max-width: 420px) {
         .header h1 a, .header .logo a {
           background-size: 197.5px 25px; } }
   .header h2 {
     float: right;
     font-size: 20px;
     font-style: italic; }
-    @media only screen and (max-width: 720px) {
+    @media only screen and (max-width: 420px) {
       .header h2 {
         display: none; } }
   .header .toggle {
@@ -175,7 +175,7 @@ em, i {
     color: #fff;
     padding: 0 20px;
     text-transform: uppercase; }
-    @media only screen and (max-width: 720px) {
+    @media only screen and (max-width: 420px) {
       .header .toggle {
         line-height: 40px;
         display: block; } }
@@ -190,7 +190,7 @@ em, i {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box; }
-    @media only screen and (max-width: 720px) {
+    @media only screen and (max-width: 420px) {
       .header ul {
         width: 100%;
         display: none;
@@ -204,7 +204,7 @@ em, i {
       letter-spacing: 1px;
       /* Horizontal Sub Menu */
       /* If main menu is hovered, show sub menu, but not sub menu options */ }
-      @media only screen and (max-width: 720px) {
+      @media only screen and (max-width: 420px) {
         .header ul li {
           width: 100%;
           display: block;
@@ -342,7 +342,7 @@ em, i {
   @media print {
     .navigation {
       display: none; } }
-  @media only screen and (max-width: 720px) {
+  @media only screen and (max-width: 420px) {
     .navigation {
       display: none;
       width: 100%;
@@ -362,7 +362,7 @@ em, i {
     text-transform: uppercase;
     text-align: center;
     margin-left: -20px; }
-    @media only screen and (max-width: 720px) {
+    @media only screen and (max-width: 420px) {
       .navigation ul {
         width: 100%; } }
     .navigation ul li {
@@ -374,7 +374,7 @@ em, i {
       letter-spacing: 1px;
       /* Horizontal Sub Menu */
       /* If main menu is hovered, show sub menu, but not sub menu options */ }
-      @media only screen and (max-width: 720px) {
+      @media only screen and (max-width: 420px) {
         .navigation ul li {
           width: 100%;
           display: block; } }
@@ -463,7 +463,7 @@ em, i {
       color: #666; }
       .breadcrumb p a:hover {
         text-decoration: underline; }
-    @media only screen and (max-width: 720px) {
+    @media only screen and (max-width: 420px) {
       .breadcrumb p {
         font-size: 12px;
         text-align: center; } }
@@ -623,7 +623,7 @@ a {
   background: #f2f2f2;
   background-size: cover;
   background-position: center center; }
-  @media only screen and (max-width: 720px) {
+  @media only screen and (max-width: 420px) {
     .hero {
       height: 200px; } }
   .hero h1 {
@@ -648,7 +648,7 @@ a {
     font-size: 36px;
     font-weight: 700;
     margin: 0 0 10px 0; }
-    @media only screen and (max-width: 720px) {
+    @media only screen and (max-width: 420px) {
       .content h1 {
         font-size: 36px;
         margin: 0 0 12px 0; } }
@@ -686,7 +686,7 @@ a {
     line-height: 20px;
     font-weight: 300;
     margin: 0 0 20px 0; }
-    @media only screen and (max-width: 720px) {
+    @media only screen and (max-width: 420px) {
       .content p {
         font-size: 17px;
         line-height: 22px; } }
@@ -718,7 +718,7 @@ a {
       margin: 0 20px 10px 0; }
   .content .catalogue {
     float: right; }
-    @media only screen and (max-width: 720px) {
+    @media only screen and (max-width: 420px) {
       .content .catalogue {
         font-size: 80%; } }
     @media print {
@@ -834,7 +834,7 @@ a {
     width: 732px;
     float: right;
     margin-left: 20px; }
-    @media only screen and (max-width: 720px) {
+    @media only screen and (max-width: 420px) {
       .content .main {
         float: none;
         width: 100%; } }
@@ -849,7 +849,7 @@ a {
       width: 356px;
       float: left;
       margin: 0; }
-      @media only screen and (max-width: 720px) {
+      @media only screen and (max-width: 420px) {
         .content .main.halfwidth {
           width: 100%;
           padding: 2%; } }
@@ -865,7 +865,7 @@ a {
     width: 168px;
     float: left;
     margin: 0 0 0 0; }
-    @media only screen and (max-width: 720px) {
+    @media only screen and (max-width: 420px) {
       .content .sidebar {
         float: none;
         width: 100%; } }
@@ -876,7 +876,7 @@ a {
     .content .sidebar.halfwidth {
       width: 544px;
       float: right; }
-      @media only screen and (max-width: 720px) {
+      @media only screen and (max-width: 420px) {
         .content .sidebar.halfwidth {
           width: 100%;
           padding: 2%; } }
@@ -912,7 +912,7 @@ section header {
       width: 230px;
       line-height: 0;
       margin: 0 20px 0 0; }
-      @media only screen and (max-width: 720px) {
+      @media only screen and (max-width: 420px) {
         .products .type-product .label {
           display: none; } }
       .products .type-product .label img {
@@ -930,7 +930,7 @@ section header {
       padding: 0 0;
       margin-right: 10px;
       width: 360px; }
-      @media only screen and (max-width: 720px) {
+      @media only screen and (max-width: 420px) {
         .products .type-product .product_text {
           width: 75%;
           padding: 0;
@@ -957,7 +957,7 @@ section header {
       padding: 0 0;
       line-height: 0;
       overflow: hidden; }
-      @media only screen and (max-width: 720px) {
+      @media only screen and (max-width: 420px) {
         .products .type-product .bottle {
           min-width: 60px;
           width: 12.5%;
@@ -984,7 +984,7 @@ section header {
         width: 100%;
         height: auto;
         line-height: 0; }
-      @media only screen and (max-width: 720px) {
+      @media only screen and (max-width: 420px) {
         .products .type-product .context {
           display: none;
           float: right; } }
@@ -1043,7 +1043,7 @@ section header {
   .vitals .description p {
     font-size: 120%;
     line-height: 1.4; }
-    @media only screen and (max-width: 720px) {
+    @media only screen and (max-width: 420px) {
       .vitals .description p {
         font-size: 80%; } }
   .vitals p.stats {
@@ -1057,7 +1057,7 @@ section header {
   .vitals .description {
     float: left;
     max-width: 400px; }
-    @media only screen and (max-width: 720px) {
+    @media only screen and (max-width: 420px) {
       .vitals .description {
         max-width: 320px; } }
   .vitals .label {
@@ -1101,7 +1101,7 @@ section header {
       font-size: 13px; }
     .setup table td {
       font-size: 17px; }
-  @media only screen and (max-width: 720px) {
+  @media only screen and (max-width: 420px) {
     .setup {
       overflow-x: auto; } }
 
