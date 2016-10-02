@@ -7,6 +7,9 @@
 	<script src="https://use.typekit.net/kdu7qfo.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
+	<link rel="stylesheet" href="css/photoswipe.css"> 
+	<link rel="stylesheet" href="css/default-skin/default-skin.css"> 
+
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen,print">
 	<link rel="icon" type="image/x-icon" href="favicon.ico">
 	
@@ -1298,9 +1301,11 @@
 					</div>
 </header>
 
-<div class="vitals clr">
-	<div class="bottle">
-		<a href="img/black-tot-bottle-web.png" class="fancybox" title="The Black Tot Last Consignment British Royal Naval Rum bottle" rel="product_368"><img src="img/black-tot-bottle-web.png" alt="The Black Tot Last Consignment British Royal Naval Rum"></a>
+<div class="vitals clr vitals-gallery">
+	<div>
+	<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"  class="bottle">
+		<a href="img/black-tot-bottle-web.png" class="fancybox" title="The Black Tot Last Consignment British Royal Naval Rum bottle" rel="product_368" data-size="371x921"><img src="img/black-tot-bottle-web.png" alt="The Black Tot Last Consignment British Royal Naval Rum"></a>
+	</figure>
 	</div>
 	<div class="description">
 		<p>A piece of liquid history, the Black Tot is the last consignment of the original British Royal Naval Rum, a daily tradition on the high seas that ended on July 31st of 1970—a day known since as Black Tot Day. This is true London Dock rum, embodying styles of pot-still rum avours unseen in almost half a century. The blending of ages of pot-still rum and its slow oxidation in neutral containers for the last 40 years creates a powerful, unctuous, layered rum. Very limited stocks available.</p>
@@ -1311,10 +1316,10 @@
 		Licenses: <a href="license-full.html">Full License</a></p>
 	</div>
 	<div class="duplex">
-		<div class="label"><a href="img/Black-Tot-US-Front-Label-23May2010.jpg" class="fancybox" title="The Black Tot Last Consignment British Royal Naval Rum label" rel="product_368"><img src="img/Black-Tot-US-Front-Label-23May2010.jpg" alt="The Black Tot Last Consignment British Royal Naval Rum"></a></div>
-		<div class="context">
-			<a href="img/Portsmouth-1933-catalog-200x230.jpg" class="fancybox" title="The Black Tot Last Consignment British Royal Naval Rum imagery" rel="product_368"><img src="img/Portsmouth-1933-catalog-200x230.jpg" alt="The Black Tot Last Consignment British Royal Naval Rum"></a>
-		</div>
+		<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="label"><a href="img/Black-Tot-US-Front-Label-23May2010.jpg" class="fancybox" title="The Black Tot Last Consignment British Royal Naval Rum label" rel="product_368" data-size="519x608"><img src="img/Black-Tot-US-Front-Label-23May2010.jpg" alt="The Black Tot Last Consignment British Royal Naval Rum"></a></figure>
+		<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="context">
+			<a href="img/Portsmouth-1933-catalog-200x230.jpg" class="fancybox" title="The Black Tot Last Consignment British Royal Naval Rum imagery" rel="product_368" data-size="200x230"><img src="img/Portsmouth-1933-catalog-200x230.jpg" alt="The Black Tot Last Consignment British Royal Naval Rum"></a>
+		</figure>
 	</div>
 </div>	
 
@@ -1437,54 +1442,100 @@ stylez = [];
 					<h3>Artwork</h3>
 					<ul class="artwork">
 						<!--<li class="grid-sizer"></li>-->
-						<li class="">
-							<a href="img/cup.jpg" class="" rel="thumbs" title="">
-								<img src="img/cup.jpg" alt=""/>
-							</a>
-						</li>
-<li class="">
-							<a href="img/Portsmouth-1933-catalog.jpg" class="" rel="thumbs" title="">
-								<img src="img/Portsmouth-1933-catalog.jpg" alt=""/>
-							</a>
-						</li>
-<li class="">
-							<a href="img/tot-cup-clear.jpg" class="" rel="thumbs" title="">
-								<img src="img/tot-cup-clear.jpg" alt=""/>
-							</a>
-						</li>
-<li class="">
-							<a href="img/tot-cup-original.jpg" class="" rel="thumbs" title="">
-								<img src="img/tot-cup-original.jpg" alt=""/>
-							</a>
-						</li>
-<li class="">
-							<a href="img/cup-168x189.jpg" class="" rel="thumbs" title="">
-								<img src="img/cup-168x189.jpg" alt="" style="border:4px dashed red;" />
-							</a>
-						</li>
-<li class="">
-							<a href="img/Portsmouth-1933-168x119.jpg" class="" rel="thumbs" title="">
-								<img src="img/Portsmouth-1933-168x119.jpg" alt="" style="border:4px dashed red;" />
-							</a>
-						</li>
-<li class="">
-							<a href="img/Portsmouth-1933.jpg" class="" rel="thumbs" title="">
-								<img src="img/Portsmouth-1933.jpg" alt="" style="border:4px dashed red;" />
-							</a>
-						</li>
-<li class="">
-							<a href="img/tot-cup-clear-168x175.jpg" class="" rel="thumbs" title="">
-								<img src="img/tot-cup-clear-168x175.jpg" alt="" style="border:4px dashed red;" />
-							</a>
-						</li>
-<li class="">
-							<a href="img/tot-cup-original-168x168.jpg" class="" rel="thumbs" title="">
-								<img src="img/tot-cup-original-168x168.jpg" alt="" style="border:4px dashed red;" />
-							</a>
-						</li>
+						<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery"><figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+		        <a href="img/cup.jpg" itemprop="contentUrl" data-size="416x468">
+		            <img src="img/cup.jpg" itemprop="thumbnail" alt="somepic" />
+		        </a>
+		        <figcaption itemprop="caption description">somecap</figcaption>
+		    </figure>
+<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+		        <a href="img/Portsmouth-1933-catalog.jpg" itemprop="contentUrl" data-size="277x324">
+		            <img src="img/Portsmouth-1933-catalog.jpg" itemprop="thumbnail" alt="somepic" />
+		        </a>
+		        <figcaption itemprop="caption description">somecap</figcaption>
+		    </figure>
+<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+		        <a href="img/tot-cup-clear.jpg" itemprop="contentUrl" data-size="241x252">
+		            <img src="img/tot-cup-clear.jpg" itemprop="thumbnail" alt="somepic" />
+		        </a>
+		        <figcaption itemprop="caption description">somecap</figcaption>
+		    </figure>
+<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+		        <a href="img/tot-cup-original.jpg" itemprop="contentUrl" data-size="288x288">
+		            <img src="img/tot-cup-original.jpg" itemprop="thumbnail" alt="somepic" />
+		        </a>
+		        <figcaption itemprop="caption description">somecap</figcaption>
+		    </figure></div>
 					</ul>				
 			</aside>
 </article>
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
 </ul>
 	</section>
 	

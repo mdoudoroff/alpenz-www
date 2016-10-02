@@ -7,6 +7,9 @@
 	<script src="https://use.typekit.net/kdu7qfo.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
+	<link rel="stylesheet" href="css/photoswipe.css"> 
+	<link rel="stylesheet" href="css/default-skin/default-skin.css"> 
+
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen,print">
 	<link rel="icon" type="image/x-icon" href="favicon.ico">
 	
@@ -1298,9 +1301,11 @@
 					</div>
 </header>
 
-<div class="vitals clr">
-	<div class="bottle">
-		<a href="" class="fancybox" title="H&H Malvasia 15 Year Old Madeira NV bottle" rel="product_368"><img src="img/bottle-placeholder.jpg" alt="H&H Malvasia 15 Year Old Madeira NV"></a>
+<div class="vitals clr vitals-gallery">
+	<div>
+	<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"  class="bottle">
+		<a href="" class="fancybox" title="H&H Malvasia 15 Year Old Madeira NV bottle" rel="product_368" ><img src="img/bottle-placeholder.jpg" alt="H&H Malvasia 15 Year Old Madeira NV"></a>
+	</figure>
 	</div>
 	<div class="description">
 		<p></p>
@@ -1311,10 +1316,10 @@
 		Licenses: <a href="license-wine.html">Wine & Beer License</a>, <a href="license-under21.html">21% & Under License</a>, <a href="license-full.html">Full License</a></p>
 	</div>
 	<div class="duplex">
-		<div class="label"><a href="img/label.malvasia-15-years.jpg" class="fancybox" title="H&H Malvasia 15 Year Old Madeira NV label" rel="product_368"><img src="img/label.malvasia-15-years.jpg" alt="H&H Malvasia 15 Year Old Madeira NV"></a></div>
-		<div class="context">
-			<a href="" class="fancybox" title="H&H Malvasia 15 Year Old Madeira NV imagery" rel="product_368"><img src="img/context-placeholder.jpg" alt="H&H Malvasia 15 Year Old Madeira NV"></a>
-		</div>
+		<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="label"><a href="img/label.malvasia-15-years.jpg" class="fancybox" title="H&H Malvasia 15 Year Old Madeira NV label" rel="product_368" data-size="886x1004"><img src="img/label.malvasia-15-years.jpg" alt="H&H Malvasia 15 Year Old Madeira NV"></a></figure>
+		<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="context">
+			<a href="" class="fancybox" title="H&H Malvasia 15 Year Old Madeira NV imagery" rel="product_368" ><img src="img/context-placeholder.jpg" alt="H&H Malvasia 15 Year Old Madeira NV"></a>
+		</figure>
 	</div>
 </div>	
 
@@ -1440,10 +1445,77 @@ stylez = [];
 					<h3>Artwork</h3>
 					<ul class="artwork">
 						<!--<li class="grid-sizer"></li>-->
-						
+						<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery"></div>
 					</ul>				
 			</aside>
 </article>
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
 </ul>
 	</section>
 	

@@ -7,6 +7,9 @@
 	<script src="https://use.typekit.net/kdu7qfo.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
+	<link rel="stylesheet" href="css/photoswipe.css"> 
+	<link rel="stylesheet" href="css/default-skin/default-skin.css"> 
+
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen,print">
 	<link rel="icon" type="image/x-icon" href="favicon.ico">
 	
@@ -1298,9 +1301,11 @@
 					</div>
 </header>
 
-<div class="vitals clr">
-	<div class="bottle">
-		<a href="img/smith-cross-bottle-web.png" class="fancybox" title="Smith & Cross Traditional Jamaica Rum bottle" rel="product_368"><img src="img/smith-cross-bottle-web.png" alt="Smith & Cross Traditional Jamaica Rum"></a>
+<div class="vitals clr vitals-gallery">
+	<div>
+	<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"  class="bottle">
+		<a href="img/smith-cross-bottle-web.png" class="fancybox" title="Smith & Cross Traditional Jamaica Rum bottle" rel="product_368" data-size="266x1000"><img src="img/smith-cross-bottle-web.png" alt="Smith & Cross Traditional Jamaica Rum"></a>
+	</figure>
 	</div>
 	<div class="description">
 		<p>Smith & Cross Jamaica Rum contains only Wedderburn and Plummer pot still distillates, famous for their notes of caramelized banana, exotic fruits and spice and earthy finish. This is old school rum, without the now-common infuence of other wines and spirits, chill ltration, excess dilution, or added sugar. The complexity and flavor depth of this Navy Strength (57%) rum makes it a cornerstone of classic rum drinks, and the best Jamaican rum for providing the richness that Punches and Tiki drinks require. The mark of Smith & Cross traces its lineage to 1788 as one of England’s most prominent handlers of Jamaica Rum.</p>
@@ -1311,10 +1316,10 @@
 		Licenses: <a href="license-full.html">Full License</a></p>
 	</div>
 	<div class="duplex">
-		<div class="label"><a href="img/label.smithcross.jrum_.website.png" class="fancybox" title="Smith & Cross Traditional Jamaica Rum label" rel="product_368"><img src="img/label.smithcross.jrum_.website.png" alt="Smith & Cross Traditional Jamaica Rum"></a></div>
-		<div class="context">
-			<a href="img/smithcross-logo.wphoto.catalogue-200x230.jpg" class="fancybox" title="Smith & Cross Traditional Jamaica Rum imagery" rel="product_368"><img src="img/smithcross-logo.wphoto.catalogue-200x230.jpg" alt="Smith & Cross Traditional Jamaica Rum"></a>
-		</div>
+		<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="label"><a href="img/label.smithcross.jrum_.website.png" class="fancybox" title="Smith & Cross Traditional Jamaica Rum label" rel="product_368" data-size="863x856"><img src="img/label.smithcross.jrum_.website.png" alt="Smith & Cross Traditional Jamaica Rum"></a></figure>
+		<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="context">
+			<a href="img/smithcross-logo.wphoto.catalogue-200x230.jpg" class="fancybox" title="Smith & Cross Traditional Jamaica Rum imagery" rel="product_368" data-size="200x230"><img src="img/smithcross-logo.wphoto.catalogue-200x230.jpg" alt="Smith & Cross Traditional Jamaica Rum"></a>
+		</figure>
 	</div>
 </div>	
 
@@ -1745,34 +1750,88 @@ stylez = [];
 					<h3>Artwork</h3>
 					<ul class="artwork">
 						<!--<li class="grid-sizer"></li>-->
-						<li class="">
-							<a href="img/rum.docks_.jpg" class="" rel="thumbs" title="">
-								<img src="img/rum.docks_.jpg" alt=""/>
-							</a>
-						</li>
-<li class="">
-							<a href="img/smithcross-logo.wphoto.catalogue.jpg" class="" rel="thumbs" title="">
-								<img src="img/smithcross-logo.wphoto.catalogue.jpg" alt=""/>
-							</a>
-						</li>
-<li class="">
-							<a href="img/rum.docks_-168x94.jpg" class="" rel="thumbs" title="">
-								<img src="img/rum.docks_-168x94.jpg" alt="" style="border:4px dashed red;" />
-							</a>
-						</li>
-<li class="">
-							<a href="img/smithcross-logo2.jpg" class="" rel="thumbs" title="">
-								<img src="img/smithcross-logo2.jpg" alt="" style="border:4px dashed red;" />
-							</a>
-						</li>
-<li class="">
-							<a href="img/whitecross.redact.front_.jpg" class="" rel="thumbs" title="">
-								<img src="img/whitecross.redact.front_.jpg" alt="" style="border:4px dashed red;" />
-							</a>
-						</li>
+						<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery"><figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+		        <a href="img/rum.docks_.jpg" itemprop="contentUrl" data-size="383x215">
+		            <img src="img/rum.docks_.jpg" itemprop="thumbnail" alt="somepic" />
+		        </a>
+		        <figcaption itemprop="caption description">somecap</figcaption>
+		    </figure>
+<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+		        <a href="img/smithcross-logo.wphoto.catalogue.jpg" itemprop="contentUrl" data-size="208x244">
+		            <img src="img/smithcross-logo.wphoto.catalogue.jpg" itemprop="thumbnail" alt="somepic" />
+		        </a>
+		        <figcaption itemprop="caption description">somecap</figcaption>
+		    </figure></div>
 					</ul>				
 			</aside>
 </article>
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
 </ul>
 	</section>
 	

@@ -100,7 +100,6 @@ em, i {
   width: 100%;
   min-width: 960px;
   position: relative;
-  z-index: 100;
   padding: 0;
   background: #edece8;
   -moz-box-sizing: border-box;
@@ -163,7 +162,6 @@ em, i {
       .header h2 {
         display: none; } }
   .header .toggle {
-    z-index: 99;
     position: absolute;
     top: 0px;
     left: 0;

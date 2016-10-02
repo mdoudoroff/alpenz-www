@@ -7,6 +7,9 @@
 	<script src="https://use.typekit.net/kdu7qfo.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
+	<link rel="stylesheet" href="css/photoswipe.css"> 
+	<link rel="stylesheet" href="css/default-skin/default-skin.css"> 
+
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen,print">
 	<link rel="icon" type="image/x-icon" href="favicon.ico">
 	
@@ -1299,9 +1302,11 @@
 					</div>
 </header>
 
-<div class="vitals clr">
-	<div class="bottle">
-		<a href="img/blume-marillen-bottle-web.png" class="fancybox" title="Blume Marillen Apricot Eau-de-Vie bottle" rel="product_368"><img src="img/blume-marillen-bottle-web.png" alt="Blume Marillen Apricot Eau-de-Vie"></a>
+<div class="vitals clr vitals-gallery">
+	<div>
+	<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"  class="bottle">
+		<a href="img/blume-marillen-bottle-web.png" class="fancybox" title="Blume Marillen Apricot Eau-de-Vie bottle" rel="product_368" data-size="190x1000"><img src="img/blume-marillen-bottle-web.png" alt="Blume Marillen Apricot Eau-de-Vie"></a>
+	</figure>
 	</div>
 	<div class="description">
 		<p>Blume Marillen—”blossom of the apricot”—captures the lovely bouquet and taste of the Klosterneuburger apricot found in the Wachau region of the Danube Valley. The Destillerie Purkhart “Blume Marillen” is famed for its delicate floral bouquet and a long, elegant finish. More than 9 pounds of apricots are distilled for each 750ml bottle. For over 40 years the Purkhart family has produced this lovely eau-de-vie that embodies the apricot orchard in full bloom. Enjoy on its own, with sparkling wine, or use in place of unaged whiskey in aromatic cocktails. 100% reines Destillat aus Marillen.</p>
@@ -1312,10 +1317,10 @@
 		Licenses: <a href="license-full.html">Full License</a></p>
 	</div>
 	<div class="duplex">
-		<div class="label"><a href="img/label.blume.marillen.thumb_.jpg" class="fancybox" title="Blume Marillen Apricot Eau-de-Vie label" rel="product_368"><img src="img/label.blume.marillen.thumb_.jpg" alt="Blume Marillen Apricot Eau-de-Vie"></a></div>
-		<div class="context">
-			<a href="img/apricot-engraving.catalogue-200x230.jpg" class="fancybox" title="Blume Marillen Apricot Eau-de-Vie imagery" rel="product_368"><img src="img/apricot-engraving.catalogue-200x230.jpg" alt="Blume Marillen Apricot Eau-de-Vie"></a>
-		</div>
+		<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="label"><a href="img/label.blume.marillen.thumb_.jpg" class="fancybox" title="Blume Marillen Apricot Eau-de-Vie label" rel="product_368" data-size="864x490"><img src="img/label.blume.marillen.thumb_.jpg" alt="Blume Marillen Apricot Eau-de-Vie"></a></figure>
+		<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="context">
+			<a href="img/apricot-engraving.catalogue-200x230.jpg" class="fancybox" title="Blume Marillen Apricot Eau-de-Vie imagery" rel="product_368" data-size="200x230"><img src="img/apricot-engraving.catalogue-200x230.jpg" alt="Blume Marillen Apricot Eau-de-Vie"></a>
+		</figure>
 	</div>
 </div>	
 
@@ -1574,54 +1579,106 @@ stylez = [];
 					<h3>Artwork</h3>
 					<ul class="artwork">
 						<!--<li class="grid-sizer"></li>-->
-						<li class="">
-							<a href="img/apricot-engraving.catalogue.jpg" class="" rel="thumbs" title="">
-								<img src="img/apricot-engraving.catalogue.jpg" alt=""/>
-							</a>
-						</li>
-<li class="">
-							<a href="img/apricot-engraving.jpg" class="" rel="thumbs" title="">
-								<img src="img/apricot-engraving.jpg" alt=""/>
-							</a>
-						</li>
-<li class="">
-							<a href="img/apricot-image3.jpg" class="" rel="thumbs" title="">
-								<img src="img/apricot-image3.jpg" alt=""/>
-							</a>
-						</li>
-<li class="">
-							<a href="img/apricots.catalogue.jpg" class="" rel="thumbs" title="">
-								<img src="img/apricots.catalogue.jpg" alt=""/>
-							</a>
-						</li>
-<li class="">
-							<a href="img/Grosse_Marillen-2.jpg" class="" rel="thumbs" title="">
-								<img src="img/Grosse_Marillen-2.jpg" alt=""/>
-							</a>
-						</li>
-<li class="">
-							<a href="img/apricot-engraving-168x121.jpg" class="" rel="thumbs" title="">
-								<img src="img/apricot-engraving-168x121.jpg" alt="" style="border:4px dashed red;" />
-							</a>
-						</li>
-<li class="">
-							<a href="img/apricot-image3-168x223.jpg" class="" rel="thumbs" title="">
-								<img src="img/apricot-image3-168x223.jpg" alt="" style="border:4px dashed red;" />
-							</a>
-						</li>
-<li class="">
-							<a href="img/apricots.catalogue-168x196.jpg" class="" rel="thumbs" title="">
-								<img src="img/apricots.catalogue-168x196.jpg" alt="" style="border:4px dashed red;" />
-							</a>
-						</li>
-<li class="">
-							<a href="img/Grosse_Marillen-2-168x276.jpg" class="" rel="thumbs" title="">
-								<img src="img/Grosse_Marillen-2-168x276.jpg" alt="" style="border:4px dashed red;" />
-							</a>
-						</li>
+						<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery"><figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+		        <a href="img/apricot-engraving.catalogue.jpg" itemprop="contentUrl" data-size="200x234">
+		            <img src="img/apricot-engraving.catalogue.jpg" itemprop="thumbnail" alt="somepic" />
+		        </a>
+		        <figcaption itemprop="caption description">somecap</figcaption>
+		    </figure>
+<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+		        <a href="img/apricot-engraving.jpg" itemprop="contentUrl" data-size="600x435">
+		            <img src="img/apricot-engraving.jpg" itemprop="thumbnail" alt="somepic" />
+		        </a>
+		        <figcaption itemprop="caption description">somecap</figcaption>
+		    </figure>
+<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+		        <a href="img/apricot-image3.jpg" itemprop="contentUrl" data-size="277x369">
+		            <img src="img/apricot-image3.jpg" itemprop="thumbnail" alt="somepic" />
+		        </a>
+		        <figcaption itemprop="caption description">somecap</figcaption>
+		    </figure>
+<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+		        <a href="img/apricots.catalogue.jpg" itemprop="contentUrl" data-size="905x1057">
+		            <img src="img/apricots.catalogue.jpg" itemprop="thumbnail" alt="somepic" />
+		        </a>
+		        <figcaption itemprop="caption description">somecap</figcaption>
+		    </figure>
+<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+		        <a href="img/Grosse_Marillen-2.jpg" itemprop="contentUrl" data-size="327x538">
+		            <img src="img/Grosse_Marillen-2.jpg" itemprop="thumbnail" alt="somepic" />
+		        </a>
+		        <figcaption itemprop="caption description">somecap</figcaption>
+		    </figure></div>
 					</ul>				
 			</aside>
 </article>
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
 </ul>
 	</section>
 	

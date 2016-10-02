@@ -7,6 +7,9 @@
 	<script src="https://use.typekit.net/kdu7qfo.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
+	<link rel="stylesheet" href="css/photoswipe.css"> 
+	<link rel="stylesheet" href="css/default-skin/default-skin.css"> 
+
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen,print">
 	<link rel="icon" type="image/x-icon" href="favicon.ico">
 	
@@ -1299,9 +1302,11 @@
 					</div>
 </header>
 
-<div class="vitals clr">
-	<div class="bottle">
-		<a href="img/genepy-bottle-web.png" class="fancybox" title="Dolin Génépy Des Alpes Liqueur bottle" rel="product_368"><img src="img/genepy-bottle-web.png" alt="Dolin Génépy Des Alpes Liqueur"></a>
+<div class="vitals clr vitals-gallery">
+	<div>
+	<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"  class="bottle">
+		<a href="img/genepy-bottle-web.png" class="fancybox" title="Dolin Génépy Des Alpes Liqueur bottle" rel="product_368" data-size="238x1000"><img src="img/genepy-bottle-web.png" alt="Dolin Génépy Des Alpes Liqueur"></a>
+	</figure>
 	</div>
 	<div class="description">
 		<p>Génépy (sometimes spelled Génépi) is a legendary alpine herbal liqueur that dates back many hundreds of years. While comprised of a multitude of alpine herbs, the most prominent is Génépy, a petite variety of artemesia (often translated into English as “mountain sage”) found principally in the high mountains of the Savoy. Its bright herbal and fresh flavors have long been associated with the mountain air and adventure. Today it is still the darling of French ski resorts and fine dining, served on the rocks or with tonic water, and very welcome after a fondue. Using its own alembic still, Dolin has made this Génépy from local farmers’ herbs since 1821.</p>
@@ -1312,10 +1317,10 @@
 		Licenses: <a href="license-full.html">Full License</a></p>
 	</div>
 	<div class="duplex">
-		<div class="label"><a href="img/Genepy-Alpes-frontTTB-label.jpg" class="fancybox" title="Dolin Génépy Des Alpes Liqueur label" rel="product_368"><img src="img/Genepy-Alpes-frontTTB-label.jpg" alt="Dolin Génépy Des Alpes Liqueur"></a></div>
-		<div class="context">
-			<a href="img/skieurs-200x230.jpg" class="fancybox" title="Dolin Génépy Des Alpes Liqueur imagery" rel="product_368"><img src="img/skieurs-200x230.jpg" alt="Dolin Génépy Des Alpes Liqueur"></a>
-		</div>
+		<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="label"><a href="img/Genepy-Alpes-frontTTB-label.jpg" class="fancybox" title="Dolin Génépy Des Alpes Liqueur label" rel="product_368" data-size="652x829"><img src="img/Genepy-Alpes-frontTTB-label.jpg" alt="Dolin Génépy Des Alpes Liqueur"></a></figure>
+		<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="context">
+			<a href="img/skieurs-200x230.jpg" class="fancybox" title="Dolin Génépy Des Alpes Liqueur imagery" rel="product_368" data-size="200x230"><img src="img/skieurs-200x230.jpg" alt="Dolin Génépy Des Alpes Liqueur"></a>
+		</figure>
 	</div>
 </div>	
 
@@ -1663,39 +1668,88 @@ stylez = [];
 					<h3>Artwork</h3>
 					<ul class="artwork">
 						<!--<li class="grid-sizer"></li>-->
-						<li class="">
-							<a href="img/Animation-nocturne-a-La-Clusaz.jpg" class="" rel="thumbs" title="">
-								<img src="img/Animation-nocturne-a-La-Clusaz.jpg" alt=""/>
-							</a>
-						</li>
-<li class="">
-							<a href="img/skieurs.jpg" class="" rel="thumbs" title="">
-								<img src="img/skieurs.jpg" alt=""/>
-							</a>
-						</li>
-<li class="">
-							<a href="img/Animation-nocturne-a-La-Clusaz-168x110.jpg" class="" rel="thumbs" title="">
-								<img src="img/Animation-nocturne-a-La-Clusaz-168x110.jpg" alt="" style="border:4px dashed red;" />
-							</a>
-						</li>
-<li class="">
-							<a href="img/map.savoy_1601-168x258.jpg" class="" rel="thumbs" title="">
-								<img src="img/map.savoy_1601-168x258.jpg" alt="" style="border:4px dashed red;" />
-							</a>
-						</li>
-<li class="">
-							<a href="img/map.savoy_1601-960x1476.jpg" class="" rel="thumbs" title="">
-								<img src="img/map.savoy_1601-960x1476.jpg" alt="" style="border:4px dashed red;" />
-							</a>
-						</li>
-<li class="">
-							<a href="img/skieurs-168x199.jpg" class="" rel="thumbs" title="">
-								<img src="img/skieurs-168x199.jpg" alt="" style="border:4px dashed red;" />
-							</a>
-						</li>
+						<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery"><figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+		        <a href="img/Animation-nocturne-a-La-Clusaz.jpg" itemprop="contentUrl" data-size="960x629">
+		            <img src="img/Animation-nocturne-a-La-Clusaz.jpg" itemprop="thumbnail" alt="somepic" />
+		        </a>
+		        <figcaption itemprop="caption description">somecap</figcaption>
+		    </figure>
+<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+		        <a href="img/skieurs.jpg" itemprop="contentUrl" data-size="290x345">
+		            <img src="img/skieurs.jpg" itemprop="thumbnail" alt="somepic" />
+		        </a>
+		        <figcaption itemprop="caption description">somecap</figcaption>
+		    </figure></div>
 					</ul>				
 			</aside>
 </article>
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
 </ul>
 	</section>
 	

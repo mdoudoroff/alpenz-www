@@ -7,6 +7,9 @@
 	<script src="https://use.typekit.net/kdu7qfo.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
+	<link rel="stylesheet" href="css/photoswipe.css"> 
+	<link rel="stylesheet" href="css/default-skin/default-skin.css"> 
+
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen,print">
 	<link rel="icon" type="image/x-icon" href="favicon.ico">
 	
@@ -1298,9 +1301,11 @@
 					</div>
 </header>
 
-<div class="vitals clr">
-	<div class="bottle">
-		<a href="img/old-tom-bottle-web.png" class="fancybox" title="Hayman’s Old Tom Gin bottle" rel="product_368"><img src="img/old-tom-bottle-web.png" alt="Hayman’s Old Tom Gin"></a>
+<div class="vitals clr vitals-gallery">
+	<div>
+	<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"  class="bottle">
+		<a href="img/old-tom-bottle-web.png" class="fancybox" title="Hayman’s Old Tom Gin bottle" rel="product_368" data-size="348x1000"><img src="img/old-tom-bottle-web.png" alt="Hayman’s Old Tom Gin"></a>
+	</figure>
 	</div>
 	<div class="description">
 		<p>Hayman’s Old Tom Gin is a rich and rounded style of gin that was the gin of choice in the 19th Century, made to the family’s original recipe as then produced. Relative to London Dry Gin, the Old Tom style imparts a more complex and flavorful taste experience, with a slight sweetness that pleasantly rounds out the botanical base. From the 10 Hayman’s botanicals, the Old Tom Gin emphasizes juniper and two types of cinnamon. Old Tom gin is the key ingredient in classic cocktails such as the Martinez, Tom Collins and Ramos Gin Fizz. It’s depth and rich profile make for an idea Aviation or French 75.</p>
@@ -1311,10 +1316,10 @@
 		Licenses: <a href="license-full.html">Full License</a></p>
 	</div>
 	<div class="duplex">
-		<div class="label"><a href="img/HOTG-label-catalog.jpg" class="fancybox" title="Hayman’s Old Tom Gin label" rel="product_368"><img src="img/HOTG-label-catalog.jpg" alt="Hayman’s Old Tom Gin"></a></div>
-		<div class="context">
-			<a href="img/engraving-200x230.jpg" class="fancybox" title="Hayman’s Old Tom Gin imagery" rel="product_368"><img src="img/engraving-200x230.jpg" alt="Hayman’s Old Tom Gin"></a>
-		</div>
+		<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="label"><a href="img/HOTG-label-catalog.jpg" class="fancybox" title="Hayman’s Old Tom Gin label" rel="product_368" data-size="508x452"><img src="img/HOTG-label-catalog.jpg" alt="Hayman’s Old Tom Gin"></a></figure>
+		<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="context">
+			<a href="img/engraving-200x230.jpg" class="fancybox" title="Hayman’s Old Tom Gin imagery" rel="product_368" data-size="200x230"><img src="img/engraving-200x230.jpg" alt="Hayman’s Old Tom Gin"></a>
+		</figure>
 	</div>
 </div>	
 
@@ -1695,49 +1700,100 @@ stylez = [];
 					<h3>Artwork</h3>
 					<ul class="artwork">
 						<!--<li class="grid-sizer"></li>-->
-						<li class="">
-							<a href="img/Booths-Old-Tom-clean.jpg" class="" rel="thumbs" title="">
-								<img src="img/Booths-Old-Tom-clean.jpg" alt=""/>
-							</a>
-						</li>
-<li class="">
-							<a href="img/Booths-Old-Tom-Gin.jpg" class="" rel="thumbs" title="">
-								<img src="img/Booths-Old-Tom-Gin.jpg" alt=""/>
-							</a>
-						</li>
-<li class="">
-							<a href="img/Cat.jpg" class="" rel="thumbs" title="">
-								<img src="img/Cat.jpg" alt=""/>
-							</a>
-						</li>
-<li class="">
-							<a href="img/engraving.jpg" class="" rel="thumbs" title="">
-								<img src="img/engraving.jpg" alt=""/>
-							</a>
-						</li>
-<li class="">
-							<a href="img/Booths-Old-Tom-clean-168x251.jpg" class="" rel="thumbs" title="">
-								<img src="img/Booths-Old-Tom-clean-168x251.jpg" alt="" style="border:4px dashed red;" />
-							</a>
-						</li>
-<li class="">
-							<a href="img/Booths-Old-Tom-Gin-168x252.jpg" class="" rel="thumbs" title="">
-								<img src="img/Booths-Old-Tom-Gin-168x252.jpg" alt="" style="border:4px dashed red;" />
-							</a>
-						</li>
-<li class="">
-							<a href="img/Cat-168x167.jpg" class="" rel="thumbs" title="">
-								<img src="img/Cat-168x167.jpg" alt="" style="border:4px dashed red;" />
-							</a>
-						</li>
-<li class="">
-							<a href="img/engraving-168x196.jpg" class="" rel="thumbs" title="">
-								<img src="img/engraving-168x196.jpg" alt="" style="border:4px dashed red;" />
-							</a>
-						</li>
+						<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery"><figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+		        <a href="img/Booths-Old-Tom-clean.jpg" itemprop="contentUrl" data-size="660x989">
+		            <img src="img/Booths-Old-Tom-clean.jpg" itemprop="thumbnail" alt="somepic" />
+		        </a>
+		        <figcaption itemprop="caption description">somecap</figcaption>
+		    </figure>
+<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+		        <a href="img/Booths-Old-Tom-Gin.jpg" itemprop="contentUrl" data-size="564x848">
+		            <img src="img/Booths-Old-Tom-Gin.jpg" itemprop="thumbnail" alt="somepic" />
+		        </a>
+		        <figcaption itemprop="caption description">somecap</figcaption>
+		    </figure>
+<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+		        <a href="img/Cat.jpg" itemprop="contentUrl" data-size="573x572">
+		            <img src="img/Cat.jpg" itemprop="thumbnail" alt="somepic" />
+		        </a>
+		        <figcaption itemprop="caption description">somecap</figcaption>
+		    </figure>
+<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+		        <a href="img/engraving.jpg" itemprop="contentUrl" data-size="408x478">
+		            <img src="img/engraving.jpg" itemprop="thumbnail" alt="somepic" />
+		        </a>
+		        <figcaption itemprop="caption description">somecap</figcaption>
+		    </figure></div>
 					</ul>				
 			</aside>
 </article>
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
 </ul>
 	</section>
 	
