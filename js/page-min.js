@@ -4604,90 +4604,51 @@ jQuery(document).ready(function() {
 	});
 
 
-
-
-
-
-	/*
-	var pswpElement = document.querySelectorAll('.pswp')[0];
-
-	// build items array
-	var galleryItems = [
-	    {
-	        src: 'https://placekitten.com/600/400',
-	        w: 600,
-	        h: 400
-	    },
-	    {
-	        src: 'https://placekitten.com/1200/900',
-	        w: 1200,
-	        h: 900
-	    }
-	];
-
-	// define options (if needed)
-	var galleryOptions = {
-	    // optionName: 'option value'
-	    // for example:
-	    index: 0 // start at first slide
-	};
-
-	// Initializes and opens PhotoSwipe
-	var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, galleryItems, galleryOptions);
-	gallery.init();
-
-	*/
-
-
 	var initPhotoSwipeFromDOM = function(gallerySelector) {
+
+		// I’ve significantly adapted this code from the PhotoSwipe site to work with disparate
+		// <figure> elements scattered throughout a page but sharing the same class
+		// (The original code was about sniffing a gallery out of a container element)
 
 	    // parse slide data (url, title, size ...) from DOM elements 
 	    // (children of gallerySelector)
-	    var parseThumbnailElements = function(el) {
+	    var parseThumbnailElements = function(gallerySelector) {
 
-	        var thumbElements = el.childNodes,
-	            numNodes = thumbElements.length,
-	            items = [],
-	            figureEl,
-	            linkEl,
-	            size,
-	            item;
+	    	var items = [];
+	    	var els = document.querySelectorAll( gallerySelector );
 
-	        for(var i = 0; i < numNodes; i++) {
+	    	for(var x = 0; x < els.length; x++) {
 
-	            figureEl = thumbElements[i]; // <figure> element
+	    		var figureEl = els[x];
 
-	            // include only element nodes 
-	            if(figureEl.nodeType !== 1) {
-	                continue;
-	            }
+		        var linkEl,
+		            size,
+		            item;
 
-	            linkEl = figureEl.children[0]; // <a> element
+		            linkEl = figureEl.children[0]; // <a> element
 
-	            size = linkEl.getAttribute('data-size').split('x');
+		            size = linkEl.getAttribute('data-size').split('x');
 
-	            // create slide object
-	            item = {
-	                src: linkEl.getAttribute('href'),
-	                w: parseInt(size[0], 10),
-	                h: parseInt(size[1], 10)
-	            };
+		            // create slide object
+		            item = {
+		                src: linkEl.getAttribute('href'),
+		                w: parseInt(size[0], 10),
+		                h: parseInt(size[1], 10)
+		            };
 
+		            if(figureEl.children.length > 1) {
+		                // <figcaption> content
+		                item.title = figureEl.children[1].innerHTML; 
+		            }
 
+		            if(linkEl.children.length > 0) {
+		                // <img> thumbnail element, retrieving thumbnail url
+		                item.msrc = linkEl.children[0].getAttribute('src');
+		            } 
 
-	            if(figureEl.children.length > 1) {
-	                // <figcaption> content
-	                item.title = figureEl.children[1].innerHTML; 
-	            }
-
-	            if(linkEl.children.length > 0) {
-	                // <img> thumbnail element, retrieving thumbnail url
-	                item.msrc = linkEl.children[0].getAttribute('src');
-	            } 
-
-	            item.el = figureEl; // save link to element for getThumbBoundsFn
-	            items.push(item);
-	        }
+		            item.el = figureEl; // save link to element for getThumbBoundsFn
+		            items.push(item);
+		        }
 
 	        return items;
 	    };
@@ -4713,32 +4674,20 @@ jQuery(document).ready(function() {
 	            return;
 	        }
 
-	        // find index of clicked item by looping through all child nodes
-	        // alternatively, you may define index via data- attribute
-	        var clickedGallery = clickedListItem.parentNode,
-	            childNodes = clickedListItem.parentNode.childNodes,
-	            numChildNodes = childNodes.length,
-	            nodeIndex = 0,
-	            index;
-
-	        for (var i = 0; i < numChildNodes; i++) {
-	            if(childNodes[i].nodeType !== 1) { 
-	                continue; 
-	            }
-
-	            if(childNodes[i] === clickedListItem) {
-	                index = nodeIndex;
-	                break;
-	            }
-	            nodeIndex++;
+	        var gallerySelector = clickedListItem.getAttribute('data-selector');
+	        var els = document.querySelectorAll( gallerySelector );
+	        var index;
+	        for (var i = 0; i < els.length; i++) {
+	        	if(els[i]===clickedListItem) {
+	        		index = i;
+	        	}
 	        }
-
-
 
 	        if(index >= 0) {
 	            // open PhotoSwipe if valid index found
-	            openPhotoSwipe( index, clickedGallery );
+	            openPhotoSwipe( index, clickedListItem );
 	        }
+
 	        return false;
 	    };
 
@@ -4776,7 +4725,8 @@ jQuery(document).ready(function() {
 	            options,
 	            items;
 
-	        items = parseThumbnailElements(galleryElement);
+	        var gallerySelector = galleryElement.getAttribute('data-selector');
+	        items = parseThumbnailElements(gallerySelector);
 
 	        // define options (if needed)
 	        options = {
@@ -4833,6 +4783,7 @@ jQuery(document).ready(function() {
 
 	    for(var i = 0, l = galleryElements.length; i < l; i++) {
 	        galleryElements[i].setAttribute('data-pswp-uid', i+1);
+	        galleryElements[i].setAttribute('data-selector', gallerySelector);
 	        galleryElements[i].onclick = onThumbnailsClick;
 	    }
 
@@ -4845,7 +4796,6 @@ jQuery(document).ready(function() {
 
 	// execute above function
 	initPhotoSwipeFromDOM('.my-gallery');
-	initPhotoSwipeFromDOM('.vitals-gallery');
 
 
 
