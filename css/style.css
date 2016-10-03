@@ -778,17 +778,17 @@ a {
       list-style-type: none;
       margin: 0;
       padding: 0; }
-      .content .product-overview .artwork li {
+      .content .product-overview .artwork figure {
         margin: 0 1em 1em 0;
         width: 47%;
         float: left;
         -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
         -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
         box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); }
-        .content .product-overview .artwork li.grid-sizer {
+        .content .product-overview .artwork figure.grid-sizer {
           width: 168px; }
         @media print {
-          .content .product-overview .artwork li {
+          .content .product-overview .artwork figure {
             -moz-box-shadow: none;
             -webkit-box-shadow: none;
             box-shadow: none; } }
