@@ -33,11 +33,16 @@
 		@include respond-to(phone) {
 			font-size: 80%;
 		}
+
 	}
 
 	p.stats {
 		font-size: 100%;
 		line-height: 1.4;
+
+		@include respond-to(phone) {
+			font-size: 80%;
+		}
 	}
 
 	.country, .categorization {
@@ -61,7 +66,7 @@
 		}
 
 		@include respond-to(phone) {
-			max-width: 320px;
+			max-width: 70%;
 		}
 	}
 
@@ -70,6 +75,15 @@
 		margin-left: 1em;
 		max-width: 300px;
 		text-align: center;
+
+		@include respond-to(phone) {
+			float: none;
+			width: 100%;
+			clear:both;
+			margin: 1em 0;
+			padding-top: 1em;
+			max-width: none;
+		}
 	}
 
 	.label {
@@ -84,6 +98,11 @@
 		// 	float: none;
 		// }
 		margin-bottom: 1em;
+
+		@include respond-to(phone) {
+			float: left;
+			width: 46%;
+		}
 	}
 
 	.bottle {
@@ -102,6 +121,11 @@
 		// 	clear:left;
 		// }
 
+		@include respond-to(phone) {
+			width: 20%;
+			max-width: 80px;
+		}
+
 	}
 
 	.context {
@@ -111,6 +135,11 @@
 			height: auto;
 		}
 
+		@include respond-to(phone) {
+			float: left;
+			width: 46%;
+			margin-left: 1em;
+		}
 
 	}
 

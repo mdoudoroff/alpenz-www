@@ -778,9 +778,12 @@ a {
       list-style-type: none;
       margin: 0;
       padding: 0; }
+      @media only screen and (max-width: 420px) {
+        .content .product-overview .artwork {
+          margin: 1em 0; } }
       .content .product-overview .artwork figure {
         margin: 0 1em 1em 0;
-        width: 47%;
+        width: 46%;
         float: left;
         -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
         -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
@@ -792,6 +795,10 @@ a {
             -moz-box-shadow: none;
             -webkit-box-shadow: none;
             box-shadow: none; } }
+        @media only screen and (max-width: 420px) {
+          .content .product-overview .artwork figure {
+            float: left;
+            width: 45%; } }
       .content .product-overview .artwork img {
         width: 100%;
         height: auto;
@@ -804,6 +811,10 @@ a {
     padding: 0;
     font-size: 0;
     vertical-align: top; }
+    @media only screen and (max-width: 420px) {
+      .content .recipes {
+        width: 100%;
+        margin: 1em 0; } }
     .content .recipes .recipe {
       display: inline-block;
       width: 168px;
@@ -815,6 +826,10 @@ a {
       -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
       box-sizing: border-box; }
+      @media only screen and (max-width: 420px) {
+        .content .recipes .recipe {
+          float: left;
+          width: 45%; } }
       .content .recipes .recipe:nth-child(4n) {
         margin-right: 0; }
       .content .recipes .recipe h4 {
@@ -1049,6 +1064,9 @@ section header {
   .vitals p.stats {
     font-size: 100%;
     line-height: 1.4; }
+    @media only screen and (max-width: 420px) {
+      .vitals p.stats {
+        font-size: 80%; } }
   .vitals .country, .vitals .categorization {
     text-transform: uppercase;
     font-weight: 700; }
@@ -1059,17 +1077,29 @@ section header {
     max-width: 400px; }
     @media only screen and (max-width: 420px) {
       .vitals .description {
-        max-width: 320px; } }
+        max-width: 70%; } }
   .vitals .duplex {
     float: left;
     margin-left: 1em;
     max-width: 300px;
     text-align: center; }
+    @media only screen and (max-width: 420px) {
+      .vitals .duplex {
+        float: none;
+        width: 100%;
+        clear: both;
+        margin: 1em 0;
+        padding-top: 1em;
+        max-width: none; } }
   .vitals .label {
     margin-bottom: 1em; }
     .vitals .label img {
       width: 100%;
       height: auto; }
+    @media only screen and (max-width: 420px) {
+      .vitals .label {
+        float: left;
+        width: 46%; } }
   .vitals .bottle {
     float: left;
     max-width: 160px;
@@ -1077,9 +1107,18 @@ section header {
     .vitals .bottle img {
       width: 100%;
       height: auto; }
+    @media only screen and (max-width: 420px) {
+      .vitals .bottle {
+        width: 20%;
+        max-width: 80px; } }
   .vitals .context img {
     width: 100%;
     height: auto; }
+  @media only screen and (max-width: 420px) {
+    .vitals .context {
+      float: left;
+      width: 46%;
+      margin-left: 1em; } }
 
 .setup {
   clear: both;

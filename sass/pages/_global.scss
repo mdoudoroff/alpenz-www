@@ -317,9 +317,14 @@ a {
 			margin: 0;
 			padding: 0;
 			
+			@include respond-to(phone) {
+				margin: 1em 0;
+			}
+
+
 			figure {
 				margin: 0 1em 1em 0;
-				width: 47%;
+				width: 46%;
 				float: left;
 				&.grid-sizer {
 					width: $col;
@@ -329,6 +334,12 @@ a {
 				@include respond-to(print) {
 					@include box-shadow(none);
 				}
+				@include respond-to(phone) {
+					float: left;
+					width: 45%;
+				}
+
+				
 			}
 			
 			img {
@@ -359,6 +370,12 @@ a {
 		font-size: 0;
 		vertical-align: top;
 		
+		@include respond-to(phone) {
+			width: 100%;
+			margin: 1em 0;
+		}
+
+
 		.recipe {
 			display: inline-block;
 			width: $col;
@@ -370,6 +387,11 @@ a {
 			
 			@include box-sizing(border-box);
 			
+			@include respond-to(phone) {
+				float: left;
+				width: 45%;
+			}
+
 			&:nth-child(4n) {
 				margin-right: 0;
 			}
