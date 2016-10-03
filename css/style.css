@@ -772,79 +772,59 @@ a {
         .content .product-overview .nobanner .product-name h3 {
           color: black;
           text-shadow: none; }
-    .content .product-overview .artwork {
-      width: 100%;
-      line-height: 0;
-      list-style-type: none;
-      margin: 0;
-      padding: 0; }
-      @media only screen and (max-width: 420px) {
-        .content .product-overview .artwork {
-          margin: 1em 0; } }
-      .content .product-overview .artwork figure {
-        margin: 0 1em 1em 0;
-        width: 46%;
-        float: left;
-        -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
-        -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
-        box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); }
-        .content .product-overview .artwork figure.grid-sizer {
-          width: 168px; }
-        @media print {
-          .content .product-overview .artwork figure {
-            -moz-box-shadow: none;
-            -webkit-box-shadow: none;
-            box-shadow: none; } }
-        @media only screen and (max-width: 420px) {
-          .content .product-overview .artwork figure {
-            float: left;
-            width: 45%; } }
-      .content .product-overview .artwork img {
-        width: 100%;
-        height: auto;
-        margin: 0 0 0 0; }
-    .content .product-overview .products .type-product {
-      padding: 0; }
-  .content .recipes {
-    list-style-type: none;
-    margin: 0 !important;
-    padding: 0;
-    font-size: 0;
-    vertical-align: top; }
     @media only screen and (max-width: 420px) {
-      .content .recipes {
+      .content .product-overview .artwork {
         width: 100%;
         margin: 1em 0; } }
-    .content .recipes .recipe {
-      display: inline-block;
-      width: 168px;
-      background: #f3f3f3;
-      padding: 10px;
-      margin: 0 10px 10px 0;
-      font-size: 0;
-      vertical-align: top;
-      -moz-box-sizing: border-box;
-      -webkit-box-sizing: border-box;
-      box-sizing: border-box; }
-      @media only screen and (max-width: 420px) {
-        .content .recipes .recipe {
-          float: left;
-          width: 45%; } }
-      .content .recipes .recipe:nth-child(4n) {
-        margin-right: 0; }
-      .content .recipes .recipe h4 {
-        font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-        font-size: 14px;
-        font-weight: bold; }
-      .content .recipes .recipe p {
-        font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-        font-size: 11px;
-        line-height: 18px;
-        margin: 0 0 10px 0; }
-        .content .recipes .recipe p:last-child {
-          margin: 0; }
-      .content .recipes .recipe a {
-        display: inline; }
+    .content .product-overview .artwork .columnA, .content .product-overview .artwork .columnB {
+      width: 47%;
+      float: left; }
+    .content .product-overview .artwork .columnB {
+      float: left;
+      margin-left: 1em; }
+    .content .product-overview .artwork figure {
+      margin: 0 1em 1em 0;
+      -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+      -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); }
+      @media print {
+        .content .product-overview .artwork figure {
+          -moz-box-shadow: none;
+          -webkit-box-shadow: none;
+          box-shadow: none; } }
+    .content .product-overview .artwork img {
+      width: 100%;
+      height: auto;
+      margin: 0 0 0 0; }
+    .content .product-overview .products .type-product {
+      padding: 0; }
+  @media only screen and (max-width: 420px) {
+    .content div.recipes {
+      width: 100%;
+      margin: 1em 0; } }
+  .content div.recipes .columnA, .content div.recipes .columnB {
+    width: 47%;
+    float: left; }
+  .content div.recipes .columnB {
+    float: left;
+    margin-left: 1em; }
+  .content div.recipes .recipe {
+    background: #f3f3f3;
+    padding: 0.5em;
+    margin: 0 0 1em 0;
+    font-size: 11px;
+    vertical-align: top; }
+    .content div.recipes .recipe h4 {
+      font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+      font-size: 14px;
+      font-weight: bold; }
+    .content div.recipes .recipe p {
+      font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+      font-size: 11px;
+      line-height: 18px;
+      margin: 0 0 10px 0; }
+      .content div.recipes .recipe p:last-child {
+        margin: 0; }
   .content .main {
     width: 732px;
     float: right;

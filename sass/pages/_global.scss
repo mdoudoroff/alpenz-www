@@ -311,35 +311,41 @@ a {
 		
 		
 		.artwork {
-			width: 100%;
-			line-height: 0;
-			list-style-type: none;
-			margin: 0;
-			padding: 0;
-			
+
 			@include respond-to(phone) {
+				width: 100%;
 				margin: 1em 0;
+			}
+
+
+			.columnA, .columnB {
+				width: 47%;
+				float: left;
+			}
+			.columnB {
+				float: left;
+				margin-left: 1em;
 			}
 
 
 			figure {
 				margin: 0 1em 1em 0;
-				width: 46%;
-				float: left;
-				&.grid-sizer {
-					width: $col;
-				}
+				// width: 46%;
+				// float: left;
+				// &.grid-sizer {
+				// 	width: $col;
+				// }
 				@include box-shadow(0 0 3px rgba(0,0,0,.3));
 				
 				@include respond-to(print) {
 					@include box-shadow(none);
 				}
-				@include respond-to(phone) {
-					float: left;
-					width: 45%;
-				}
+				// @include respond-to(phone) {
+				// 	float: left;
+				// 	width: 45%;
+				// }
 
-				
+
 			}
 			
 			img {
@@ -363,12 +369,7 @@ a {
 	
 	
 	
-	.recipes {
-		list-style-type: none;
-		margin: 0 !important;
-		padding: 0;
-		font-size: 0;
-		vertical-align: top;
+	div.recipes {
 		
 		@include respond-to(phone) {
 			width: 100%;
@@ -376,30 +377,38 @@ a {
 		}
 
 
+		.columnA, .columnB {
+			width: 47%;
+			float: left;
+		}
+		.columnB {
+			float: left;
+			margin-left: 1em;
+		}
+
 		.recipe {
-			display: inline-block;
-			width: $col;
+
+			
+			// @include box-sizing(border-box);
+
 			background: #f3f3f3;
-			padding: 10px;
-			margin: 0 10px 10px 0;
-			font-size: 0;
+			padding: 0.5em;
+			margin: 0 0 1em 0;
+			font-size: 11px;
 			vertical-align: top;
 			
-			@include box-sizing(border-box);
-			
-			@include respond-to(phone) {
-				float: left;
-				width: 45%;
-			}
 
-			&:nth-child(4n) {
-				margin-right: 0;
-			}
+
+			// &:nth-child(4n) {
+			// 	margin-right: 0;
+			// }
+
 			h4 {
 				font-family: $body-font;
 				font-size: 14px;
 				font-weight: bold;
 			}
+
 			p {
 				font-family: $body-font;
 				font-size: 11px;
@@ -410,10 +419,9 @@ a {
 					margin: 0;
 				}
 			}
-			a {
-				display: inline;
-			}
 		}
+
+
 	}
 	
 
