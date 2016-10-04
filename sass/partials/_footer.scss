@@ -1,4 +1,5 @@
 .footer {
+	width: 100%;
 	padding: 50px 0;
 	background: #fafafa;
 	border-top: 1px solid #e3e3e3;
@@ -7,21 +8,10 @@
 		display: none;
 	}
 	
-	ul {
+	div {
+		width: $site_width;
+		margin: 0 auto;
 		text-align: center;
-		font-size: 10px;
-		text-transform: uppercase;
-		
-		li {
-			display: inline-block;
-			margin: 0 10px;
-			
-			a {
-				color: #999;
-			}
-			ul {
-				display: none;
-			}
-		}
 	}
+
 }

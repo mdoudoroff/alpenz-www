@@ -21,6 +21,10 @@ a {
 		color: $link_hover;
 		text-decoration: underline;
 	}
+
+	h2 {
+		color: black;
+	}
 }
 
 .button {
@@ -403,10 +407,16 @@ a {
 			// 	margin-right: 0;
 			// }
 
+			h4 a {
+				color: black;
+			}
+
 			h4 {
 				font-family: $body-font;
 				font-size: 14px;
 				font-weight: bold;
+				line-height: 1.0;
+				margin-bottom: 0.5em;
 			}
 
 			p {
