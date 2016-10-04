@@ -1036,7 +1036,7 @@ section header {
     .vitals p span {
       margin-right: 15px; }
   .vitals .description p {
-    font-size: 120%;
+    font-size: 100%;
     line-height: 1.4; }
     @media only screen and (max-width: 420px) {
       .vitals .description p {
@@ -1054,14 +1054,14 @@ section header {
     margin-top: 0; }
   .vitals .description {
     float: left;
-    max-width: 400px; }
+    max-width: 510px; }
     @media only screen and (max-width: 420px) {
       .vitals .description {
         max-width: 70%; } }
   .vitals .duplex {
     float: left;
     margin-left: 1em;
-    max-width: 300px;
+    max-width: 250px;
     text-align: center; }
     @media only screen and (max-width: 420px) {
       .vitals .duplex {
@@ -1082,7 +1082,7 @@ section header {
         width: 46%; } }
   .vitals .bottle {
     float: left;
-    max-width: 160px;
+    max-width: 150px;
     margin-right: 1em; }
     .vitals .bottle img {
       width: 100%;

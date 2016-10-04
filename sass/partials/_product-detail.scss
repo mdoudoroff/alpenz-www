@@ -21,7 +21,7 @@
 		
 
 	.description p {
-		font-size: 120%;
+		font-size: 100%;
 		line-height: 1.4;
 
 		@include respond-to(largetablet) {
@@ -59,10 +59,10 @@
 
 	.description {
 		float: left;
-		max-width: 400px;
+		max-width: 510px;
 
 		@include respond-to(largetablet) {
-			max-width: 360px;
+			// max-width: 360px;
 		}
 
 		@include respond-to(phone) {
@@ -73,7 +73,7 @@
 	.duplex {
 		float:left;
 		margin-left: 1em;
-		max-width: 300px;
+		max-width: 250px;
 		text-align: center;
 
 		@include respond-to(phone) {
@@ -107,7 +107,7 @@
 
 	.bottle {
 		float: left;
-		max-width: 160px;
+		max-width: 150px;
 		margin-right: 1em;
 		img {
 			width: 100%;
