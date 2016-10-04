@@ -1083,13 +1083,8 @@ section header {
     @media only screen and (max-width: 420px) {
       .vitals .label {
         float: left;
-        width: 46%; }
-        .vitals .label img {
-          height: auto;
-          width: 100%; }
-        .vitals .label img.wideimage {
-          width: 100%;
-          height: auto; } }
+        width: 46%;
+        height: 160px; } }
   .vitals .bottle {
     float: left;
     width: 150px;

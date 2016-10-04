@@ -105,15 +105,7 @@
 		@include respond-to(phone) {
 			float: left;
 			width: 46%;
-
-			img {
-				height: auto;
-				width: 100%;
-			}
-			img.wideimage {
-				width: 100%;
-				height: auto;
-			}
+			height: 160px;
 
 		}
 	}
