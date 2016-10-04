@@ -1072,8 +1072,12 @@ section header {
         padding-top: 1em;
         max-width: none; } }
   .vitals .label {
+    height: 250px;
     margin-bottom: 1em; }
     .vitals .label img {
+      height: 100%;
+      width: auto; }
+    .vitals .label img.wideimage {
       width: 100%;
       height: auto; }
     @media only screen and (max-width: 420px) {
@@ -1082,9 +1086,12 @@ section header {
         width: 46%; } }
   .vitals .bottle {
     float: left;
-    max-width: 150px;
-    margin-right: 1em; }
+    margin-right: 1em;
+    height: 500px; }
     .vitals .bottle img {
+      width: auto;
+      height: 100%; }
+    .vitals .bottle img.wideimage {
       width: 100%;
       height: auto; }
     @media only screen and (max-width: 420px) {

@@ -90,7 +90,13 @@
 		// float: left;
 		// max-width: 200px;
 		// margin-right: 1em;
+		height: 250px;
 		img {
+			height: 100%;
+			width: auto;
+		}
+
+		img.wideimage {
 			width: 100%;
 			height: auto;
 		}
@@ -107,9 +113,15 @@
 
 	.bottle {
 		float: left;
-		max-width: 150px;
+		// max-width: 150px;
 		margin-right: 1em;
+		height: 500px;
+
 		img {
+			width: auto;
+			height:100%;
+		}
+		img.wideimage {
 			width: 100%;
 			height: auto;
 		}
