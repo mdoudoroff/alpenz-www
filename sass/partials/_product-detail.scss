@@ -95,27 +95,35 @@
 			height: 100%;
 			width: auto;
 		}
-
 		img.wideimage {
 			width: 100%;
 			height: auto;
 		}
-		// @include respond-to(smalltablet) {
-		// 	float: none;
-		// }
+
 		margin-bottom: 1em;
 
 		@include respond-to(phone) {
 			float: left;
 			width: 46%;
+
+			img {
+				height: auto;
+				width: 100%;
+			}
+			img.wideimage {
+				width: 100%;
+				height: auto;
+			}
+
 		}
 	}
 
 	.bottle {
 		float: left;
-		// max-width: 150px;
+		width: 150px;
 		margin-right: 1em;
 		height: 500px;
+		text-align: center;
 
 		img {
 			width: auto;
@@ -126,16 +134,20 @@
 			height: auto;
 		}
 
-		// @include respond-to(largetablet) {
-		// 	max-width: 60px;
-		// }
-		// @include respond-to(smalltablet) {
-		// 	clear:left;
-		// }
-
 		@include respond-to(phone) {
+
 			width: 20%;
 			max-width: 80px;
+			height: auto;
+
+			img {
+				width: 100%;
+				height:auto;
+			}
+			img.wideimage {
+				width: 100%;
+				height: auto;
+			}
 		}
 
 	}
