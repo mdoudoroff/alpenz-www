@@ -19,31 +19,24 @@
 			float: left;
 			position: relative;
 			text-align: center;
-			// width: 200px;
 			width: 230px;
-			line-height: 0;
+			height: 230px;
+
 			margin: 0 20px 0 0;
 			
 			@include respond-to(phone) {
 				display: none;
 			}
-
-			// @include respond-to(smalltablet) {
-			// 	margin: 0 1em 0 0;
-
-			// 	min-width: 60px;
-			// 	width: 25%;
-			// 	height: auto
-
-			// }
-			// @include respond-to(widescreen) {
-			// 	width: 230px;
-			// }
 			
 			img {
+				height: 230px;
+				width: auto;
+			}
+			img.wideimage {
 				width: 100%;
 				height: auto;
 			}
+
 			a {
 				display: block;
 			}
@@ -52,6 +45,16 @@
 				display: none;
 			}
 		}
+
+		div.tall {
+			height: 320px;
+
+			img {
+				height: 320px;
+				width: auto;
+			}
+		}
+
 		.product_text {
 			float: left;
 			@include box-sizing(border-box);
@@ -105,10 +108,6 @@
 				font-size: 12px;
 				line-height: 14px;
 				
-				// @include respond-to(widescreen) {
-				// 	font-size: 13px;
-				// 	line-height: 17px;
-				// }
 			}
 		}
 		
@@ -117,10 +116,10 @@
 			float: left;
 			text-align: center;
 			width: 120px;
-			// height: 200px;
+
 			height: 230px;
 			padding: 0 0;
-			line-height: 0;
+
 			overflow: hidden;
 
 			@include respond-to(phone) {
@@ -128,33 +127,10 @@
 				width: 12.5%;
 				height: auto
 			}
-			// @include respond-to(smalltablet) {
-			// 	// width: auto;
-
-			// 	min-width: 60px;
-			// 	width: 12.5%;
-			// 	height: auto
-
-			// 	img {
-			// 		height: 230px;
-			// 	}
-			// }
-
-			// @include respond-to(widescreen) {
-			// 	display: block;
-			// 	height: 230px;			
-			// }
-
-
 
 			a {
-				line-height: 0;
 			}
 			img {
-				line-height: 0;
-				// width: 100%;
-				// height: auto;
-				// max-width: 80px;
 
 				height: 200px;
 				width: auto;

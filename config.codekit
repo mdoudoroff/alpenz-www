@@ -344,6 +344,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/12902_AltaLanga_BiancDBianc_3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 783528,
+		"inputAbbreviatedPath": "\/img\/12902_AltaLanga_BiancDBianc_3.jpg",
+		"outputAbbreviatedPath": "\/img\/12902_AltaLanga_BiancDBianc_3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/12902_biancdbianc-label-230x230.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1301,6 +1312,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/bianc-bottle.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 504626,
+		"inputAbbreviatedPath": "\/img\/bianc-bottle.jpg",
+		"outputAbbreviatedPath": "\/img\/bianc-bottle.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/binningers-old-london-dock-gin-168x224.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1407,6 +1429,28 @@
 		"initialSize": 112603,
 		"inputAbbreviatedPath": "\/img\/blackthorn.jpg",
 		"outputAbbreviatedPath": "\/img\/blackthorn.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/blanc-bottle.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 777499,
+		"inputAbbreviatedPath": "\/img\/blanc-bottle.jpg",
+		"outputAbbreviatedPath": "\/img\/blanc-bottle.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/blanc-label.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 298005,
+		"inputAbbreviatedPath": "\/img\/blanc-label.jpg",
+		"outputAbbreviatedPath": "\/img\/blanc-label.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1796,6 +1840,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/bottle.web-punkt-053.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49668,
+		"inputAbbreviatedPath": "\/img\/bottle.web-punkt-053.jpg",
+		"outputAbbreviatedPath": "\/img\/bottle.web-punkt-053.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/brachetto-back-label-230x230.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1814,6 +1869,17 @@
 		"initialSize": 178335,
 		"inputAbbreviatedPath": "\/img\/brachetto-back-label.jpeg",
 		"outputAbbreviatedPath": "\/img\/brachetto-back-label.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/brachetto-bottle.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 779389,
+		"inputAbbreviatedPath": "\/img\/brachetto-bottle.jpg",
+		"outputAbbreviatedPath": "\/img\/brachetto-bottle.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1957,6 +2023,17 @@
 		"initialSize": 23988,
 		"inputAbbreviatedPath": "\/img\/cappelletti-bottle-web-68x230.png",
 		"outputAbbreviatedPath": "\/img\/cappelletti-bottle-web-68x230.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cappelletti-bottle-web.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 816178,
+		"inputAbbreviatedPath": "\/img\/cappelletti-bottle-web.jpg",
+		"outputAbbreviatedPath": "\/img\/cappelletti-bottle-web.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2841,6 +2918,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/dry-bottle.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 840901,
+		"inputAbbreviatedPath": "\/img\/dry-bottle.jpg",
+		"outputAbbreviatedPath": "\/img\/dry-bottle.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/dry-label.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 272411,
+		"inputAbbreviatedPath": "\/img\/dry-label.jpg",
+		"outputAbbreviatedPath": "\/img\/dry-label.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/elisir-monte-bondone-168x122.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3574,6 +3673,17 @@
 		"initialSize": 32819,
 		"inputAbbreviatedPath": "\/img\/IB-The-Seventh-Seal-photo-1-960x717.jpg",
 		"outputAbbreviatedPath": "\/img\/IB-The-Seventh-Seal-photo-1-960x717.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ibis-bottle.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 284722,
+		"inputAbbreviatedPath": "\/img\/ibis-bottle.jpg",
+		"outputAbbreviatedPath": "\/img\/ibis-bottle.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5789,6 +5899,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/riserva-bottle.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 674685,
+		"inputAbbreviatedPath": "\/img\/riserva-bottle.jpg",
+		"outputAbbreviatedPath": "\/img\/riserva-bottle.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/riserva-label.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 782944,
+		"inputAbbreviatedPath": "\/img\/riserva-label.jpg",
+		"outputAbbreviatedPath": "\/img\/riserva-label.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/rojo-bottle.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 616822,
+		"inputAbbreviatedPath": "\/img\/rojo-bottle.jpg",
+		"outputAbbreviatedPath": "\/img\/rojo-bottle.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/rouge-bottle.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 849768,
+		"inputAbbreviatedPath": "\/img\/rouge-bottle.jpg",
+		"outputAbbreviatedPath": "\/img\/rouge-bottle.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/rum.docks_-168x94.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -6049,6 +6203,17 @@
 		"initialSize": 12181,
 		"inputAbbreviatedPath": "\/img\/scarletibis.jpg",
 		"outputAbbreviatedPath": "\/img\/scarletibis.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/seco-bottle.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 556516,
+		"inputAbbreviatedPath": "\/img\/seco-bottle.jpg",
+		"outputAbbreviatedPath": "\/img\/seco-bottle.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6522,6 +6687,17 @@
 		"initialSize": 167289,
 		"inputAbbreviatedPath": "\/img\/valley-photos.jpg",
 		"outputAbbreviatedPath": "\/img\/valley-photos.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vdt-label-derived.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 895972,
+		"inputAbbreviatedPath": "\/img\/vdt-label-derived.jpg",
+		"outputAbbreviatedPath": "\/img\/vdt-label-derived.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

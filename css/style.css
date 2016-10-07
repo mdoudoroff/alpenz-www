@@ -905,18 +905,26 @@ section header {
       position: relative;
       text-align: center;
       width: 230px;
-      line-height: 0;
+      height: 230px;
       margin: 0 20px 0 0; }
       @media only screen and (max-width: 420px) {
         .products .type-product .label {
           display: none; } }
       .products .type-product .label img {
+        height: 230px;
+        width: auto; }
+      .products .type-product .label img.wideimage {
         width: 100%;
         height: auto; }
       .products .type-product .label a {
         display: block; }
       .products .type-product .label .quickview {
         display: none; }
+    .products .type-product div.tall {
+      height: 320px; }
+      .products .type-product div.tall img {
+        height: 320px;
+        width: auto; }
     .products .type-product .product_text {
       float: left;
       -moz-box-sizing: border-box;
@@ -950,17 +958,13 @@ section header {
       width: 120px;
       height: 230px;
       padding: 0 0;
-      line-height: 0;
       overflow: hidden; }
       @media only screen and (max-width: 420px) {
         .products .type-product .bottle {
           min-width: 60px;
           width: 12.5%;
           height: auto; } }
-      .products .type-product .bottle a {
-        line-height: 0; }
       .products .type-product .bottle img {
-        line-height: 0;
         height: 200px;
         width: auto; }
     .products .type-product .context {
