@@ -583,7 +583,8 @@ body {
   padding: 0;
   background: #fff;
   color: #484848;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
 
 a {
   color: #a2120f;

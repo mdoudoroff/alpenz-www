@@ -10,6 +10,11 @@ body {
 	background: $body_background;
 	color: $text_color;
 	position: relative;
+
+	@include respond-to(phone) {
+
+	}
+	overflow: hidden;
 }
 
 
