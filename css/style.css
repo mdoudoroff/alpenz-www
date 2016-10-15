@@ -552,7 +552,7 @@ em, i {
     .footer {
       display: none; } }
   .footer div {
-    width: 960px;
+    min-width: 100%;
     margin: 0 auto;
     text-align: center; }
 
