@@ -11,10 +11,9 @@ body {
 	color: $text_color;
 	position: relative;
 
-	@include respond-to(phone) {
-
-	}
-	// overflow-x: hidden;
+	// @include respond-to(phone) {
+	// // overflow-x: hidden;
+	// }
 }
 
 
