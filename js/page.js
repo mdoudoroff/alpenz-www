@@ -18,7 +18,12 @@ jQuery(document).ready(function() {
 	});                                                                                            
 
 	$(".toggle").click(function() {
-		$(".sidebar2").fadeToggle(250);
+		$("#modal").toggle();
+		$(".sidebar2").toggle();
+	});
+	$("#modal").click(function() {
+		$("#modal").toggle();
+		$(".sidebar2").toggle();
 	});
 
 

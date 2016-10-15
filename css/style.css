@@ -488,10 +488,23 @@ em, i {
     background: #a2120f;
     color: #fff; }
 
+#modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.35);
+  z-index: 80000;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out; }
+
 .sidebar2 {
   display: none;
   position: absolute;
-  z-index: 99;
+  z-index: 99000;
   background-color: #edece8;
   font-family: "myriad-pro-condensed", Georgia, Times, serif;
   min-height: 6000px;
@@ -504,6 +517,7 @@ em, i {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  z-index: 99999;
   font-size: 100%; }
   #sidebar-menu ul {
     list-style-type: none;
