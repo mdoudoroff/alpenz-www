@@ -584,7 +584,7 @@ body {
   background: #fff;
   color: #484848;
   position: relative;
-  overflow: hidden; }
+  overflow-x: hidden; }
 
 a {
   color: #a2120f;
