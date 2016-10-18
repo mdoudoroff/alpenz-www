@@ -1807,6 +1807,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/bottle.ruche.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46739,
+		"inputAbbreviatedPath": "\/img\/bottle.ruche.jpg",
+		"outputAbbreviatedPath": "\/img\/bottle.ruche.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/bottle.SchilcherKlassik.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3996,6 +4007,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/label.arrack.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68287,
+		"inputAbbreviatedPath": "\/img\/label.arrack.jpg",
+		"outputAbbreviatedPath": "\/img\/label.arrack.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/label.blume.marillen.thumb_-230x230.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4117,6 +4139,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/label.london-dry.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70246,
+		"inputAbbreviatedPath": "\/img\/label.london-dry.jpg",
+		"outputAbbreviatedPath": "\/img\/label.london-dry.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/label.malvasia-10-years.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4179,6 +4212,28 @@
 		"initialSize": 603119,
 		"inputAbbreviatedPath": "\/img\/label.NEW-ETIQUETTE-BYRRH.jpg",
 		"outputAbbreviatedPath": "\/img\/label.NEW-ETIQUETTE-BYRRH.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/label.novasalus.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 96605,
+		"inputAbbreviatedPath": "\/img\/label.novasalus.jpg",
+		"outputAbbreviatedPath": "\/img\/label.novasalus.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/label.old-tom.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62699,
+		"inputAbbreviatedPath": "\/img\/label.old-tom.jpg",
+		"outputAbbreviatedPath": "\/img\/label.old-tom.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4326,6 +4381,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/label.royal-dock.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77195,
+		"inputAbbreviatedPath": "\/img\/label.royal-dock.jpg",
+		"outputAbbreviatedPath": "\/img\/label.royal-dock.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/label.ruche.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4421,6 +4487,17 @@
 		"initialSize": 341458,
 		"inputAbbreviatedPath": "\/img\/label.single-harvest-1998.jpg",
 		"outputAbbreviatedPath": "\/img\/label.single-harvest-1998.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/label.sloe-gin.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 75733,
+		"inputAbbreviatedPath": "\/img\/label.sloe-gin.jpg",
+		"outputAbbreviatedPath": "\/img\/label.sloe-gin.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5466,6 +5543,28 @@
 		"initialSize": 154394,
 		"inputAbbreviatedPath": "\/img\/OrchardPear.catalogue.jpg",
 		"outputAbbreviatedPath": "\/img\/OrchardPear.catalogue.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/oro-bottle.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 987323,
+		"inputAbbreviatedPath": "\/img\/oro-bottle.jpg",
+		"outputAbbreviatedPath": "\/img\/oro-bottle.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/oro-label.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21247,
+		"inputAbbreviatedPath": "\/img\/oro-label.jpg",
+		"outputAbbreviatedPath": "\/img\/oro-label.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7557,6 +7656,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/product-Cocchi-Cocchi_Alta_Langa_Bianc_d_Bianc.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/product-Cocchi-Cocchi_Alta_Langa_Oro.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/product-Cocchi-Cocchi_Alta_Langa_Oro.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
