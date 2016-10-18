@@ -897,6 +897,43 @@ a {
 section header {
   margin: 0 0.5em; }
 
+.features figure {
+  position: relative;
+  width: 100%;
+  border: 4px solid white; }
+.features figure img {
+  width: 100%;
+  height: auto; }
+.features .secondfeatures figure {
+  width: 50%;
+  float: left; }
+  @media only screen and (max-width: 420px) {
+    .features .secondfeatures figure {
+      float: none;
+      width: 100%; } }
+.features figure div.caption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 20%;
+  color: white;
+  font-size: 240%;
+  line-height: 1.0;
+  padding: 0.5em;
+  baseline: bottom;
+  font-weight: bold; }
+  @media only screen and (max-width: 420px) {
+    .features figure div.caption {
+      font-size: 80%; } }
+.features .secondfeatures figure .caption {
+  font-size: 125%;
+  width: 100%; }
+  @media only screen and (max-width: 420px) {
+    .features .secondfeatures figure .caption {
+      font-size: 80%; } }
+
 .products {
   overflow: hidden;
   margin: 0 0 20px 0;

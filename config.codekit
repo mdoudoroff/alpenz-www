@@ -119,6 +119,39 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/assets\/tmpfeature-mirovermut.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70732,
+		"inputAbbreviatedPath": "\/assets\/tmpfeature-mirovermut.jpg",
+		"outputAbbreviatedPath": "\/assets\/tmpfeature-mirovermut.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/tmpfeature-quina.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 103629,
+		"inputAbbreviatedPath": "\/assets\/tmpfeature-quina.jpg",
+		"outputAbbreviatedPath": "\/assets\/tmpfeature-quina.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/tmpfeature-ranciodemijohns.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49407,
+		"inputAbbreviatedPath": "\/assets\/tmpfeature-ranciodemijohns.jpg",
+		"outputAbbreviatedPath": "\/assets\/tmpfeature-ranciodemijohns.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/velvet-falernum-bottle-web-60x230.png": {
 		"fileType": 32768,
 		"ignore": 0,
