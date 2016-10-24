@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19137",
+"creatorBuild": "19142",
 "files": {
 	"\/assets\/app-min.js": {
 		"fileType": 64,
@@ -1477,6 +1477,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/blanc-context.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14623,
+		"inputAbbreviatedPath": "\/img\/blanc-context.jpg",
+		"outputAbbreviatedPath": "\/img\/blanc-context.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/blanc-label.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1671,6 +1682,17 @@
 		"initialSize": 108027,
 		"inputAbbreviatedPath": "\/img\/bonal.garcon0001-200x230.jpg",
 		"outputAbbreviatedPath": "\/img\/bonal.garcon0001-200x230.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bonal.garcon0001-context.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22363,
+		"inputAbbreviatedPath": "\/img\/bonal.garcon0001-context.jpg",
+		"outputAbbreviatedPath": "\/img\/bonal.garcon0001-context.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2969,6 +2991,17 @@
 		"initialSize": 840901,
 		"inputAbbreviatedPath": "\/img\/dry-bottle.jpg",
 		"outputAbbreviatedPath": "\/img\/dry-bottle.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/dry-context.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18920,
+		"inputAbbreviatedPath": "\/img\/dry-context.jpg",
+		"outputAbbreviatedPath": "\/img\/dry-context.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6064,6 +6097,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/rojo-context.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15006,
+		"inputAbbreviatedPath": "\/img\/rojo-context.jpg",
+		"outputAbbreviatedPath": "\/img\/rojo-context.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/rojo-label.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64031,
+		"inputAbbreviatedPath": "\/img\/rojo-label.jpg",
+		"outputAbbreviatedPath": "\/img\/rojo-label.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/rombeau-bottle.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38586,
+		"inputAbbreviatedPath": "\/img\/rombeau-bottle.jpg",
+		"outputAbbreviatedPath": "\/img\/rombeau-bottle.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/rouge-bottle.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -6071,6 +6137,17 @@
 		"initialSize": 849768,
 		"inputAbbreviatedPath": "\/img\/rouge-bottle.jpg",
 		"outputAbbreviatedPath": "\/img\/rouge-bottle.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/rouge-context.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19482,
+		"inputAbbreviatedPath": "\/img\/rouge-context.jpg",
+		"outputAbbreviatedPath": "\/img\/rouge-context.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6192,6 +6269,17 @@
 		"initialSize": 315822,
 		"inputAbbreviatedPath": "\/img\/Salers_glacoide.jpg",
 		"outputAbbreviatedPath": "\/img\/Salers_glacoide.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/sao-bottle.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44032,
+		"inputAbbreviatedPath": "\/img\/sao-bottle.jpg",
+		"outputAbbreviatedPath": "\/img\/sao-bottle.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6346,6 +6434,28 @@
 		"initialSize": 556516,
 		"inputAbbreviatedPath": "\/img\/seco-bottle.jpg",
 		"outputAbbreviatedPath": "\/img\/seco-bottle.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/seco-context.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21008,
+		"inputAbbreviatedPath": "\/img\/seco-context.jpg",
+		"outputAbbreviatedPath": "\/img\/seco-context.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/seco-label.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 76733,
+		"inputAbbreviatedPath": "\/img\/seco-label.jpg",
+		"outputAbbreviatedPath": "\/img\/seco-label.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
