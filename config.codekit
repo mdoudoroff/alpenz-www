@@ -1356,6 +1356,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/bianco-bottle.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62152,
+		"inputAbbreviatedPath": "\/img\/bianco-bottle.jpg",
+		"outputAbbreviatedPath": "\/img\/bianco-bottle.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/binningers-old-london-dock-gin-168x224.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
