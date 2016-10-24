@@ -1025,13 +1025,15 @@ section header {
       width: 200px;
       height: 230px;
       padding: 0 0;
-      line-height: 0; }
+      line-height: 230px; }
       .products .type-product .context a {
         line-height: 0; }
       .products .type-product .context img {
+        height: 230px;
+        width: auto; }
+      .products .type-product .context img.wideimage {
         width: 100%;
-        height: auto;
-        line-height: 0; }
+        height: auto; }
       @media only screen and (max-width: 420px) {
         .products .type-product .context {
           display: none;
@@ -1161,14 +1163,19 @@ section header {
         .vitals .bottle img.wideimage {
           width: 100%;
           height: auto; } }
-  .vitals .context img {
-    width: 100%;
-    height: auto; }
-  @media only screen and (max-width: 420px) {
-    .vitals .context {
-      float: left;
-      width: 46%;
-      margin-left: 1em; } }
+  .vitals .context {
+    height: 250px; }
+    .vitals .context img {
+      height: 100%;
+      width: auto; }
+    .vitals .context img.wideimage {
+      width: 100%;
+      height: auto; }
+    @media only screen and (max-width: 420px) {
+      .vitals .context {
+        float: left;
+        width: 46%;
+        margin-left: 1em; } }
 
 .setup {
   clear: both;

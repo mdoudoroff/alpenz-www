@@ -149,15 +149,19 @@
 			width: 200px;
 			height: 230px;
 			padding: 0 0;
-			line-height: 0;
+			line-height: 230px;
 			
 			a {
 				line-height: 0;
 			}
+
 			img {
+				height: 230px;
+				width: auto;
+			}
+			img.wideimage {
 				width: 100%;
 				height: auto;
-				line-height: 0;
 			}
 			
 			@include respond-to(phone) {

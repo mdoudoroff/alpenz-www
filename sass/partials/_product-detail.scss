@@ -145,8 +145,14 @@
 	}
 
 	.context {
+		height: 250px;
+
 		// float:left;
 		img {
+			height: 100%;
+			width: auto;
+		}
+		img.wideimage {
 			width: 100%;
 			height: auto;
 		}
