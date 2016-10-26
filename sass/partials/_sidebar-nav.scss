@@ -18,7 +18,7 @@
 	background-color: $off-grey;
 	font-family: $subheading-font;
 	min-height: 6000px;
-	padding-top: 2em;
+	padding-top: 1em;
 	width: 360px;
 	left:0px;
 	top: 0px;
@@ -70,3 +70,34 @@
 	}                     
 
 }
+
+.searchBar {
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+.typeBrowserSection {
+	margin-bottom: 1em;
+	line-height: 2.0;
+	text-transform: uppercase;
+	font-weight: 700;
+	border-top: 1px solid black;
+}
+
+.typeBrowserCat1 {
+	margin-left: 2em;
+	border-bottom: 1px solid $off-grey-dark;
+}
+
+.typeBrowserCat2 {
+	margin-left: 4em;
+	border-bottom: 1px solid $off-grey-dark;
+}
+
+.typeBrowserVerticalLeft {
+	transform: translate(1.5em,0.5em) rotate(90deg);
+	position: absolute;
+	transform-origin: left top 0;
+	line-height: 1.0;
+}
+
