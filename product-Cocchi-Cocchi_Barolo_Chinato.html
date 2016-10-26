@@ -1222,7 +1222,6 @@
 		</tr><tr><td>HZ 9110</td><td>NV</td><td></td><td>base: 100% Barolo</td><td></td><td>16.5%</td><td>220</td><td>4,5</td><td>1000/12</td><td>8007117010115</td><td>8007117011112</td><td>T Cap</td><td>275mm x 375mm x 345mm</td><td>23.00 kg</td><td></td></tr>
 <tr><td>HZ 9111</td><td>NV</td><td></td><td>base:100% Barolo</td><td></td><td>16.5%</td><td>220</td><td>4,5</td><td>500/12</td><td>8007 117 010078</td><td>8007117016070</td><td>T Cap</td><td>222mm x 390mm x 430mm</td><td>15.20 kg</td><td></td></tr></tbody></table></div>
 			<div class="main halfwidth">
-				
 				<div class="description" itemprop="description">
 					<p></p>
 					<h3>About Cocchi</h3><p>Something informative about the Cocchi firm goes here</p>
@@ -1319,6 +1318,7 @@
 			</div>
 			
 			<aside class="sidebar halfwidth">
+				<div id="gmap">
 					<h3>Origin</h3>
 					<div id="map_canvas"></div>
 					<script type="text/javascript"> 
@@ -1377,7 +1377,7 @@ stylez = [];
 							var map_options 	= {
 								zoom: 9,
 								center: map_location,
-								mapTypeId: google.maps.MapTypeId.HYBRID,
+								mapTypeId: google.maps.MapTypeId.TERRAIN,
 								streetViewControl: false,
 								disableDefaultUI: true,
 								scrollwheel: false,
@@ -1389,7 +1389,7 @@ stylez = [];
 		
 							var map_style_type = new google.maps.StyledMapType(stylez, map_options);
 							map.mapTypes.set('map_style_type', map_style_type);
-							map.setMapTypeId('map_style_type');
+							map.setMapTypeId('terrain');
 					
 							var marker = new google.maps.Marker({
 								position: map_location,
@@ -1408,11 +1408,14 @@ stylez = [];
 
 						window.onload = loadScript;
 					</script>
+				</div>
+				<div>
 					<h3>Artwork</h3>
 					<div class="artwork">
 						<!--<li class="grid-sizer"></li>-->
 						<div class="columnA"></div><div class="columnB"></div>
 					</div>				
+				</div>
 			</aside>
 </article>
 <!-- Root element of PhotoSwipe. Must have class pswp. -->

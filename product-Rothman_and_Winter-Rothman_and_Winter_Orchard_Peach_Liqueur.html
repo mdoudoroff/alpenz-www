@@ -1197,7 +1197,7 @@
 	<div class="duplex">
 		<figure class="label my-gallery" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="label"><a href="img/label.orchardpeach-catalog.jpg" class="fancybox" title="Rothman & Winter Orchard Peach Liqueur label" rel="product_368" data-size="433x325"><img src="img/label.orchardpeach-catalog.jpg" class="wideimage" alt="Rothman & Winter Orchard Peach Liqueur"></a></figure>
 		<figure class="context my-gallery" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="context">
-			<a href="img/pfirsichbaum-200x230.jpeg" class="fancybox" title="Rothman & Winter Orchard Peach Liqueur imagery" rel="product_368" data-size="200x230"><img class="wideimage" src="img/pfirsichbaum-200x230.jpeg" alt="Rothman & Winter Orchard Peach Liqueur"></a>
+			<a href="img/pfirsichbaum-200x230.jpeg" class="fancybox" title="Rothman & Winter Orchard Peach Liqueur imagery" rel="product_368" data-size="200x230"><img class="" src="img/pfirsichbaum-200x230.jpeg" alt="Rothman & Winter Orchard Peach Liqueur"></a>
 		</figure>
 	</div>
 </div>	
@@ -1220,7 +1220,6 @@
 			<th>Cs/Plt</th>
 		</tr><tr><td>HZ 7015</td><td></td><td></td><td></td><td></td><td>24.0%</td><td>NA</td><td>NA</td><td>750/12</td><td>9024 153 040523</td><td>9024153045528</td><td>screwcap</td><td>mm x mm x mm</td><td>16.30 kg</td><td></td></tr></tbody></table></div>
 			<div class="main halfwidth">
-				
 				<div class="description" itemprop="description">
 					<p></p>
 					<h3>About Rothman & Winter</h3><p>The Rothman & Winter collection reflects three generations of producing liqueurs of exceptional character and authenticity. Each fruit liqueur starts with the fruit’s own eau-de-vie and juice, for intensity of fruit flavor. We bottle at higher proof and with less sugar to reinforce that intensity and maximize the number of uses for each fruit liqueur. The Creme de Violette is a pure Violette, without any added vanilla or fruit, working as the magical bridging ingredient in so many classic cocktails. Drink any of the Rothman & Winter liqueurs with sparkling wine or soda, or use them in simple cocktails; the lightweight, slimline bottle takes up less space on the bar, and may have the lowest carbon footprint of liqueurs today.</p>
@@ -1373,6 +1372,7 @@
 			</div>
 			
 			<aside class="sidebar halfwidth">
+				<div id="gmap">
 					<h3>Origin</h3>
 					<div id="map_canvas"></div>
 					<script type="text/javascript"> 
@@ -1431,7 +1431,7 @@ stylez = [];
 							var map_options 	= {
 								zoom: 7,
 								center: map_location,
-								mapTypeId: google.maps.MapTypeId.HYBRID,
+								mapTypeId: google.maps.MapTypeId.TERRAIN,
 								streetViewControl: false,
 								disableDefaultUI: true,
 								scrollwheel: false,
@@ -1443,7 +1443,7 @@ stylez = [];
 		
 							var map_style_type = new google.maps.StyledMapType(stylez, map_options);
 							map.mapTypes.set('map_style_type', map_style_type);
-							map.setMapTypeId('map_style_type');
+							map.setMapTypeId('terrain');
 					
 							var marker = new google.maps.Marker({
 								position: map_location,
@@ -1462,6 +1462,8 @@ stylez = [];
 
 						window.onload = loadScript;
 					</script>
+				</div>
+				<div>
 					<h3>Artwork</h3>
 					<div class="artwork">
 						<!--<li class="grid-sizer"></li>-->
@@ -1477,6 +1479,7 @@ stylez = [];
 		        <figcaption itemprop="caption description">somecap</figcaption>
 		    </figure></div>
 					</div>				
+				</div>
 			</aside>
 </article>
 <!-- Root element of PhotoSwipe. Must have class pswp. -->

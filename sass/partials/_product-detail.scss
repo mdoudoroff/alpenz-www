@@ -173,6 +173,8 @@
 	overflow-x: auto;
 	margin: 1em 0;
 	
+
+
 	table {
 		width: auto;
 		border-top: 1px solid $body_background;
@@ -201,5 +203,15 @@
 	}
 	@include respond-to(phone) {
 		overflow-x: auto;
+	}
+
+	@include respond-to(print) {
+		overflow-x: visible;
+	}
+}
+
+#gmap {
+	@include respond-to(print) {
+		// display: none;
 	}
 }

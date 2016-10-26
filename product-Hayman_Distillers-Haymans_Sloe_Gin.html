@@ -1198,7 +1198,7 @@
 	<div class="duplex">
 		<figure class="label my-gallery" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="label"><a href="img/label.sloe-gin.jpg" class="fancybox" title="Hayman’s Sloe Gin label" rel="product_368" data-size="1223x715"><img src="img/label.sloe-gin.jpg" class="wideimage" alt="Hayman’s Sloe Gin"></a></figure>
 		<figure class="context my-gallery" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="context">
-			<a href="img/picture-sloeberries-200x230.jpg" class="fancybox" title="Hayman’s Sloe Gin imagery" rel="product_368" data-size="200x230"><img class="wideimage" src="img/picture-sloeberries-200x230.jpg" alt="Hayman’s Sloe Gin"></a>
+			<a href="img/picture-sloeberries-200x230.jpg" class="fancybox" title="Hayman’s Sloe Gin imagery" rel="product_368" data-size="200x230"><img class="" src="img/picture-sloeberries-200x230.jpg" alt="Hayman’s Sloe Gin"></a>
 		</figure>
 	</div>
 </div>	
@@ -1221,7 +1221,6 @@
 			<th>Cs/Plt</th>
 		</tr><tr><td>HZ 1210</td><td></td><td></td><td></td><td></td><td>26.0%</td><td>NA</td><td>NA</td><td>750/12</td><td>5021 692 650330</td><td>5021 692 650347</td><td>screwcap</td><td>mm x mm x mm</td><td>16.00 kg</td><td></td></tr></tbody></table></div>
 			<div class="main halfwidth">
-				
 				<div class="description" itemprop="description">
 					<p></p>
 					<h3>About Hayman Distillers</h3><p>The original company of Hayman Distillers was founded in 1821 and acquired in 1863 by James Burrough, the great Grandfather of the current Chairman, Christopher Hayman. James Burrough created the world renowned Beefeater Gin. Although Beefeater Gin and James Burrough Limited were sold to Whitbread in 1987, the Hayman family retained part of the business and continued the tradition of distilling and blending Gin and other white spirits. The defining characteristics of Hayman's Gin include: use of "Marjorie,"a small copper pot still that only makes Hayman's gins; 24-hour maceration of botanicals, for extra concentration; and the use of the "Hayman 10" botanicals, all classic English gin botanicals, carefully sourced and blended to show intense juniper notes without any flavor spikes that would make the gins less versatile. The "Hayman 10" are: juniper, lemon, orange, cassia cinnamon, Ceylon cinnamon, nutmeg, angelica root, orris root, coriander seed, and licorice root. Each Hayman's gin recipe emphasizes a few of these botanicals, for an aromatic focus, but overall, Hayman's gins are classic, intense, and versatile.</p>
@@ -1359,6 +1358,7 @@
 			</div>
 			
 			<aside class="sidebar halfwidth">
+				<div id="gmap">
 					<h3>Origin</h3>
 					<div id="map_canvas"></div>
 					<script type="text/javascript"> 
@@ -1417,7 +1417,7 @@ stylez = [];
 							var map_options 	= {
 								zoom: 8,
 								center: map_location,
-								mapTypeId: google.maps.MapTypeId.HYBRID,
+								mapTypeId: google.maps.MapTypeId.TERRAIN,
 								streetViewControl: false,
 								disableDefaultUI: true,
 								scrollwheel: false,
@@ -1429,7 +1429,7 @@ stylez = [];
 		
 							var map_style_type = new google.maps.StyledMapType(stylez, map_options);
 							map.mapTypes.set('map_style_type', map_style_type);
-							map.setMapTypeId('map_style_type');
+							map.setMapTypeId('terrain');
 					
 							var marker = new google.maps.Marker({
 								position: map_location,
@@ -1448,6 +1448,8 @@ stylez = [];
 
 						window.onload = loadScript;
 					</script>
+				</div>
+				<div>
 					<h3>Artwork</h3>
 					<div class="artwork">
 						<!--<li class="grid-sizer"></li>-->
@@ -1469,6 +1471,7 @@ stylez = [];
 		        <figcaption itemprop="caption description">somecap</figcaption>
 		    </figure></div>
 					</div>				
+				</div>
 			</aside>
 </article>
 <!-- Root element of PhotoSwipe. Must have class pswp. -->

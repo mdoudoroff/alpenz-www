@@ -120,6 +120,9 @@ em, i {
       min-width: 100%; } }
   @media print {
     .header {
+      display: none; } }
+  @media print {
+    .header {
       background: #fff; } }
   .header.short {
     position: relative;
@@ -576,6 +579,11 @@ em, i {
 * {
   box-sizing: border-box; }
 
+@page {
+  size: A4;
+  /* auto is the initial value */
+  /* this affects the margin in the printer settings */
+  margin: 0.25in 0 0.5in 0; }
 body {
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
   line-height: 1em;
@@ -584,6 +592,9 @@ body {
   background: #fff;
   color: #484848;
   position: relative; }
+  @media print {
+    body {
+      margin: 0; } }
 
 a {
   color: #a2120f;
@@ -740,6 +751,14 @@ a {
       min-height: 300px;
       margin: 0 0 20px 0;
       overflow: hidden; }
+      @media print {
+        .content .product-overview .banner {
+          min-height: 0;
+          height: auto;
+          margin: 0; } }
+      @media print {
+        .content .product-overview .banner img {
+          display: none; } }
       .content .product-overview .banner .product-name {
         width: 100%;
         position: absolute;
@@ -756,10 +775,22 @@ a {
         background-image: -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
         background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
         background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)); }
+        @media print {
+          .content .product-overview .banner .product-name {
+            background: none;
+            position: relative;
+            color: black;
+            text-shadow: none; } }
         .content .product-overview .banner .product-name h1 {
           text-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
           margin: 0;
           line-height: 1em; }
+          @media print {
+            .content .product-overview .banner .product-name h1 {
+              background: none;
+              position: relative;
+              color: black;
+              text-shadow: none; } }
         .content .product-overview .banner .product-name h3 {
           text-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
           line-height: 1em;
@@ -767,6 +798,12 @@ a {
           z-index: 20; }
           .content .product-overview .banner .product-name h3 a {
             color: #fff; }
+          @media print {
+            .content .product-overview .banner .product-name h3 {
+              background: none;
+              position: relative;
+              color: black;
+              text-shadow: none; } }
     .content .product-overview .nobanner {
       min-height: 0;
       position: relative; }
@@ -876,10 +913,6 @@ a {
       .content .sidebar {
         float: none;
         width: 100%; } }
-    @media print {
-      .content .sidebar {
-        width: 100%;
-        float: none; } }
     .content .sidebar.halfwidth {
       width: 544px;
       float: right; }
@@ -1201,6 +1234,9 @@ section header {
   @media only screen and (max-width: 420px) {
     .setup {
       overflow-x: auto; } }
+  @media print {
+    .setup {
+      overflow-x: visible; } }
 
 /*************************************/
 /*   

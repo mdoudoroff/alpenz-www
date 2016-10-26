@@ -1220,7 +1220,6 @@
 			<th>Cs/Plt</th>
 		</tr><tr><td>HZ 9320</td><td>NV</td><td></td><td></td><td></td><td>20.0%</td><td></td><td>NA</td><td>750/12</td><td>8018 571 001588</td><td>8018 571 021586</td><td>screwcap</td><td>324mm x 244mm x 316mm</td><td>16.44 kg</td><td></td></tr></tbody></table></div>
 			<div class="main halfwidth">
-				
 				<div class="description" itemprop="description">
 					<p></p>
 					<h3>About Antica Erboristeria Cappelletti</h3><p>Something informative about the Cappelletti firm goes here</p>
@@ -1239,6 +1238,7 @@
 			</div>
 			
 			<aside class="sidebar halfwidth">
+				<div id="gmap">
 					<h3>Origin</h3>
 					<div id="map_canvas"></div>
 					<script type="text/javascript"> 
@@ -1295,9 +1295,9 @@ stylez = [];
 						{
 							var map_location 	= new google.maps.LatLng(45.9814,11.0950302);
 							var map_options 	= {
-								zoom: 8,
+								zoom: 7,
 								center: map_location,
-								mapTypeId: google.maps.MapTypeId.HYBRID,
+								mapTypeId: google.maps.MapTypeId.TERRAIN,
 								streetViewControl: false,
 								disableDefaultUI: true,
 								scrollwheel: false,
@@ -1309,7 +1309,7 @@ stylez = [];
 		
 							var map_style_type = new google.maps.StyledMapType(stylez, map_options);
 							map.mapTypes.set('map_style_type', map_style_type);
-							map.setMapTypeId('map_style_type');
+							map.setMapTypeId('terrain');
 					
 							var marker = new google.maps.Marker({
 								position: map_location,
@@ -1328,11 +1328,14 @@ stylez = [];
 
 						window.onload = loadScript;
 					</script>
+				</div>
+				<div>
 					<h3>Artwork</h3>
 					<div class="artwork">
 						<!--<li class="grid-sizer"></li>-->
 						<div class="columnA"></div><div class="columnB"></div>
 					</div>				
+				</div>
 			</aside>
 </article>
 <!-- Root element of PhotoSwipe. Must have class pswp. -->

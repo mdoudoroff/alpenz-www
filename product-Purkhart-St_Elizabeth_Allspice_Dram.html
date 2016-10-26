@@ -1197,7 +1197,7 @@
 	<div class="duplex">
 		<figure class="label my-gallery" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="label"><a href="img/label.allspice-dram750-face.jpg" class="fancybox" title="St. Elizabeth Allspice Dram label" rel="product_368" data-size="817x609"><img src="img/label.allspice-dram750-face.jpg" class="wideimage" alt="St. Elizabeth Allspice Dram"></a></figure>
 		<figure class="context my-gallery" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="context">
-			<a href="img/allspice-pic-for-catalogue-200x230.jpg" class="fancybox" title="St. Elizabeth Allspice Dram imagery" rel="product_368" data-size="200x230"><img class="wideimage" src="img/allspice-pic-for-catalogue-200x230.jpg" alt="St. Elizabeth Allspice Dram"></a>
+			<a href="img/allspice-pic-for-catalogue-200x230.jpg" class="fancybox" title="St. Elizabeth Allspice Dram imagery" rel="product_368" data-size="200x230"><img class="" src="img/allspice-pic-for-catalogue-200x230.jpg" alt="St. Elizabeth Allspice Dram"></a>
 		</figure>
 	</div>
 </div>	
@@ -1221,7 +1221,6 @@
 		</tr><tr><td>HZ 3200</td><td></td><td></td><td></td><td></td><td>22.5%</td><td>NA</td><td>NA</td><td>375/12</td><td>9024 153 090849</td><td>9024153090818</td><td>T Cap</td><td>mm x mm x mm</td><td></td><td></td></tr>
 <tr><td>HZ 3250</td><td></td><td></td><td></td><td></td><td>22.5%</td><td>NA</td><td>NA</td><td>750/12</td><td>9024 153 090863</td><td>9024153090825</td><td>screwcap</td><td>mm x mm x mm</td><td></td><td></td></tr></tbody></table></div>
 			<div class="main halfwidth">
-				
 				<div class="description" itemprop="description">
 					<p></p>
 					<h3>About Purkhart</h3><p>Since 1932 the Purkhart family has produced award winning eaux-de-vie (brandy or “brand”), schnaps and liqueurs. Renowned for his exacting standards and consistent quality, Günter Purkhart has taught distillation technique to many of today’s leading producers. Capturing elegance of ripe fruit and authentic regional tastes is a family passion.</p>
@@ -1363,6 +1362,7 @@
 			</div>
 			
 			<aside class="sidebar halfwidth">
+				<div id="gmap">
 					<h3>Origin</h3>
 					<div id="map_canvas"></div>
 					<script type="text/javascript"> 
@@ -1421,7 +1421,7 @@ stylez = [];
 							var map_options 	= {
 								zoom: 7,
 								center: map_location,
-								mapTypeId: google.maps.MapTypeId.HYBRID,
+								mapTypeId: google.maps.MapTypeId.TERRAIN,
 								streetViewControl: false,
 								disableDefaultUI: true,
 								scrollwheel: false,
@@ -1433,7 +1433,7 @@ stylez = [];
 		
 							var map_style_type = new google.maps.StyledMapType(stylez, map_options);
 							map.mapTypes.set('map_style_type', map_style_type);
-							map.setMapTypeId('map_style_type');
+							map.setMapTypeId('terrain');
 					
 							var marker = new google.maps.Marker({
 								position: map_location,
@@ -1452,6 +1452,8 @@ stylez = [];
 
 						window.onload = loadScript;
 					</script>
+				</div>
+				<div>
 					<h3>Artwork</h3>
 					<div class="artwork">
 						<!--<li class="grid-sizer"></li>-->
@@ -1467,6 +1469,7 @@ stylez = [];
 		        <figcaption itemprop="caption description">somecap</figcaption>
 		    </figure></div>
 					</div>				
+				</div>
 			</aside>
 </article>
 <!-- Root element of PhotoSwipe. Must have class pswp. -->

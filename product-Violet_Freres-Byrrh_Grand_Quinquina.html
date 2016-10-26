@@ -1198,7 +1198,7 @@
 	<div class="duplex">
 		<figure class="label my-gallery" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="label"><a href="img/label.NEW-ETIQUETTE-BYRRH.jpg" class="fancybox" title="Byrrh Grand Quinquina label" rel="product_368" data-size="845x854"><img src="img/label.NEW-ETIQUETTE-BYRRH.jpg" class="" alt="Byrrh Grand Quinquina"></a></figure>
 		<figure class="context my-gallery" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="context">
-			<a href="img/LeonnecReveillon-200x230.jpg" class="fancybox" title="Byrrh Grand Quinquina imagery" rel="product_368" data-size="200x230"><img class="wideimage" src="img/LeonnecReveillon-200x230.jpg" alt="Byrrh Grand Quinquina"></a>
+			<a href="img/LeonnecReveillon-200x230.jpg" class="fancybox" title="Byrrh Grand Quinquina imagery" rel="product_368" data-size="200x230"><img class="" src="img/LeonnecReveillon-200x230.jpg" alt="Byrrh Grand Quinquina"></a>
 		</figure>
 	</div>
 </div>	
@@ -1222,7 +1222,6 @@
 		</tr><tr><td>HZ 9560</td><td>NV</td><td></td><td></td><td></td><td>18.0%</td><td>147</td><td>NA</td><td>750/12</td><td>6 30637 22435 9</td><td>03 572831 224353</td><td>screwcap</td><td>mm x mm x mm</td><td>17.3 kg</td><td></td></tr>
 <tr><td>HZ 9561</td><td>NV</td><td></td><td></td><td></td><td>18.0%</td><td>147</td><td>NA</td><td>375/12</td><td>6 30637 22434 2</td><td>03 572831 224346</td><td>T Cap</td><td>mm x mm x mm</td><td>8.9 kg</td><td></td></tr></tbody></table></div>
 			<div class="main halfwidth">
-				
 				<div class="description" itemprop="description">
 					<p></p>
 					
@@ -1465,6 +1464,7 @@
 			</div>
 			
 			<aside class="sidebar halfwidth">
+				<div id="gmap">
 					<h3>Origin</h3>
 					<div id="map_canvas"></div>
 					<script type="text/javascript"> 
@@ -1523,7 +1523,7 @@ stylez = [];
 							var map_options 	= {
 								zoom: 4,
 								center: map_location,
-								mapTypeId: google.maps.MapTypeId.HYBRID,
+								mapTypeId: google.maps.MapTypeId.TERRAIN,
 								streetViewControl: false,
 								disableDefaultUI: true,
 								scrollwheel: false,
@@ -1535,7 +1535,7 @@ stylez = [];
 		
 							var map_style_type = new google.maps.StyledMapType(stylez, map_options);
 							map.mapTypes.set('map_style_type', map_style_type);
-							map.setMapTypeId('map_style_type');
+							map.setMapTypeId('terrain');
 					
 							var marker = new google.maps.Marker({
 								position: map_location,
@@ -1554,6 +1554,8 @@ stylez = [];
 
 						window.onload = loadScript;
 					</script>
+				</div>
+				<div>
 					<h3>Artwork</h3>
 					<div class="artwork">
 						<!--<li class="grid-sizer"></li>-->
@@ -1623,6 +1625,7 @@ stylez = [];
 		        <figcaption itemprop="caption description">somecap</figcaption>
 		    </figure></div>
 					</div>				
+				</div>
 			</aside>
 </article>
 <!-- Root element of PhotoSwipe. Must have class pswp. -->

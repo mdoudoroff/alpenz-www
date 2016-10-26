@@ -1197,7 +1197,7 @@
 	<div class="duplex">
 		<figure class="label my-gallery" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="label"><a href="img/Black-Tot-US-Front-Label-23May2010.jpg" class="fancybox" title="The Black Tot Last Consignment British Royal Naval Rum label" rel="product_368" data-size="519x608"><img src="img/Black-Tot-US-Front-Label-23May2010.jpg" class="" alt="The Black Tot Last Consignment British Royal Naval Rum"></a></figure>
 		<figure class="context my-gallery" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="context">
-			<a href="img/Portsmouth-1933-catalog-200x230.jpg" class="fancybox" title="The Black Tot Last Consignment British Royal Naval Rum imagery" rel="product_368" data-size="200x230"><img class="wideimage" src="img/Portsmouth-1933-catalog-200x230.jpg" alt="The Black Tot Last Consignment British Royal Naval Rum"></a>
+			<a href="img/Portsmouth-1933-catalog-200x230.jpg" class="fancybox" title="The Black Tot Last Consignment British Royal Naval Rum imagery" rel="product_368" data-size="200x230"><img class="" src="img/Portsmouth-1933-catalog-200x230.jpg" alt="The Black Tot Last Consignment British Royal Naval Rum"></a>
 		</figure>
 	</div>
 </div>	
@@ -1220,7 +1220,6 @@
 			<th>Cs/Plt</th>
 		</tr><tr><td>HZ 8095</td><td></td><td></td><td></td><td></td><td>54.3%</td><td>NA</td><td>NA</td><td>750/3</td><td>5060 88 980056</td><td>050 60188 98012 4</td><td>T Cap</td><td>mm x mm x mm</td><td></td><td></td></tr></tbody></table></div>
 			<div class="main halfwidth">
-				
 				<div class="description" itemprop="description">
 					<p></p>
 					
@@ -1229,6 +1228,7 @@
 			</div>
 			
 			<aside class="sidebar halfwidth">
+				<div id="gmap">
 					<h3>Origin</h3>
 					<div id="map_canvas"></div>
 					<script type="text/javascript"> 
@@ -1287,7 +1287,7 @@ stylez = [];
 							var map_options 	= {
 								zoom: 4,
 								center: map_location,
-								mapTypeId: google.maps.MapTypeId.HYBRID,
+								mapTypeId: google.maps.MapTypeId.TERRAIN,
 								streetViewControl: false,
 								disableDefaultUI: true,
 								scrollwheel: false,
@@ -1299,7 +1299,7 @@ stylez = [];
 		
 							var map_style_type = new google.maps.StyledMapType(stylez, map_options);
 							map.mapTypes.set('map_style_type', map_style_type);
-							map.setMapTypeId('map_style_type');
+							map.setMapTypeId('terrain');
 					
 							var marker = new google.maps.Marker({
 								position: map_location,
@@ -1318,6 +1318,8 @@ stylez = [];
 
 						window.onload = loadScript;
 					</script>
+				</div>
+				<div>
 					<h3>Artwork</h3>
 					<div class="artwork">
 						<!--<li class="grid-sizer"></li>-->
@@ -1345,6 +1347,7 @@ stylez = [];
 		        <figcaption itemprop="caption description">somecap</figcaption>
 		    </figure></div>
 					</div>				
+				</div>
 			</aside>
 </article>
 <!-- Root element of PhotoSwipe. Must have class pswp. -->

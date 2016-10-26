@@ -1220,7 +1220,6 @@
 			<th>Cs/Plt</th>
 		</tr><tr><td>HZ 6516</td><td>NV</td><td>NA</td><td></td><td></td><td>19.0%</td><td>108.5</td><td>3.9 g/l</td><td>750/12</td><td>850323003338</td><td>15601196010013</td><td>T Cap</td><td>250mm x 170mm x 310mm</td><td></td><td></td></tr></tbody></table></div>
 			<div class="main halfwidth">
-				
 				<div class="description" itemprop="description">
 					<p></p>
 					<h3>About Henriques & Henriques</h3><p>Henriques & Henriques is unique among Madeira wine producers in that the company has almost always owned or controlled its own vineyards. The firm was established in 1850 but the Henriques family were already large landowners in Câmara de Lobos and among the largest landowners on the island, having planted vineyards in the middle of the fifteenth century, not long after Madeira was first discovered and colonized. When João Joaquim Henriques founded the wine-producing company they were already in possession of some old wines (with some of these rare stocks available today). The firm acted initially only as a Partidista, selling wines to other shippers (brands), and continued as a lead supplier to others even as they bottled most wines under their own label. When João Joaquim’s two sons took over in 1912, the company was renamed Henriques & Henriques.</p>
@@ -1232,6 +1231,7 @@
 			</div>
 			
 			<aside class="sidebar halfwidth">
+				<div id="gmap">
 					<h3>Origin</h3>
 					<div id="map_canvas"></div>
 					<script type="text/javascript"> 
@@ -1290,7 +1290,7 @@ stylez = [];
 							var map_options 	= {
 								zoom: 6,
 								center: map_location,
-								mapTypeId: google.maps.MapTypeId.HYBRID,
+								mapTypeId: google.maps.MapTypeId.TERRAIN,
 								streetViewControl: false,
 								disableDefaultUI: true,
 								scrollwheel: false,
@@ -1302,7 +1302,7 @@ stylez = [];
 		
 							var map_style_type = new google.maps.StyledMapType(stylez, map_options);
 							map.mapTypes.set('map_style_type', map_style_type);
-							map.setMapTypeId('map_style_type');
+							map.setMapTypeId('terrain');
 					
 							var marker = new google.maps.Marker({
 								position: map_location,
@@ -1321,11 +1321,14 @@ stylez = [];
 
 						window.onload = loadScript;
 					</script>
+				</div>
+				<div>
 					<h3>Artwork</h3>
 					<div class="artwork">
 						<!--<li class="grid-sizer"></li>-->
 						<div class="columnA"></div><div class="columnB"></div>
 					</div>				
+				</div>
 			</aside>
 </article>
 <!-- Root element of PhotoSwipe. Must have class pswp. -->

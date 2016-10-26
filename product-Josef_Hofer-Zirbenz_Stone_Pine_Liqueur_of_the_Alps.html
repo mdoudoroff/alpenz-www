@@ -1197,7 +1197,7 @@
 	<div class="duplex">
 		<figure class="label my-gallery" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="label"><a href="img/label.Zirbenz.375-thumb.jpg" class="fancybox" title="Zirbenz Stone Pine Liqueur of the Alps label" rel="product_368" data-size="955x627"><img src="img/label.Zirbenz.375-thumb.jpg" class="wideimage" alt="Zirbenz Stone Pine Liqueur of the Alps"></a></figure>
 		<figure class="context my-gallery" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="context">
-			<a href="img/cembra.crownfull.-catalogue-200x230.jpg" class="fancybox" title="Zirbenz Stone Pine Liqueur of the Alps imagery" rel="product_368" data-size="200x230"><img class="wideimage" src="img/cembra.crownfull.-catalogue-200x230.jpg" alt="Zirbenz Stone Pine Liqueur of the Alps"></a>
+			<a href="img/cembra.crownfull.-catalogue-200x230.jpg" class="fancybox" title="Zirbenz Stone Pine Liqueur of the Alps imagery" rel="product_368" data-size="200x230"><img class="" src="img/cembra.crownfull.-catalogue-200x230.jpg" alt="Zirbenz Stone Pine Liqueur of the Alps"></a>
 		</figure>
 	</div>
 </div>	
@@ -1221,7 +1221,6 @@
 		</tr><tr><td>HZ 2001</td><td></td><td></td><td></td><td></td><td>35.0%</td><td>NA</td><td>NA</td><td>375/12</td><td>9006 794 120000</td><td>9006794120017</td><td>T Cap</td><td>mm x mm x mm</td><td>11.40 kg</td><td></td></tr>
 <tr><td>HZ 2052</td><td></td><td></td><td></td><td></td><td>35.0%</td><td>NA</td><td>NA</td><td>750/12</td><td>9006 794 140008</td><td>9006794140015</td><td>T Cap</td><td>260mm x 320mm x 345mm</td><td>17.24 kg</td><td></td></tr></tbody></table></div>
 			<div class="main halfwidth">
-				
 				<div class="description" itemprop="description">
 					<p></p>
 					
@@ -1383,6 +1382,7 @@
 			</div>
 			
 			<aside class="sidebar halfwidth">
+				<div id="gmap">
 					<h3>Origin</h3>
 					<div id="map_canvas"></div>
 					<script type="text/javascript"> 
@@ -1441,7 +1441,7 @@ stylez = [];
 							var map_options 	= {
 								zoom: 4,
 								center: map_location,
-								mapTypeId: google.maps.MapTypeId.HYBRID,
+								mapTypeId: google.maps.MapTypeId.TERRAIN,
 								streetViewControl: false,
 								disableDefaultUI: true,
 								scrollwheel: false,
@@ -1453,7 +1453,7 @@ stylez = [];
 		
 							var map_style_type = new google.maps.StyledMapType(stylez, map_options);
 							map.mapTypes.set('map_style_type', map_style_type);
-							map.setMapTypeId('map_style_type');
+							map.setMapTypeId('terrain');
 					
 							var marker = new google.maps.Marker({
 								position: map_location,
@@ -1472,6 +1472,8 @@ stylez = [];
 
 						window.onload = loadScript;
 					</script>
+				</div>
+				<div>
 					<h3>Artwork</h3>
 					<div class="artwork">
 						<!--<li class="grid-sizer"></li>-->
@@ -1482,6 +1484,7 @@ stylez = [];
 		        <figcaption itemprop="caption description">somecap</figcaption>
 		    </figure></div><div class="columnB"></div>
 					</div>				
+				</div>
 			</aside>
 </article>
 <!-- Root element of PhotoSwipe. Must have class pswp. -->

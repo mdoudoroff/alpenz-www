@@ -2,6 +2,14 @@
 	box-sizing: border-box;
 }
 
+@page  
+{ 
+    size: A4;   /* auto is the initial value */ 
+
+    /* this affects the margin in the printer settings */ 
+    margin: 0.25in 0 0.5in 0;  
+} 
+
 body { 
 	font-family: $body_font;
 	line-height: 1em;
@@ -10,6 +18,10 @@ body {
 	background: $body_background;
 	color: $text_color;
 	position: relative;
+
+	@include respond-to(print) {
+		margin: 0;
+	}
 
 }
 
@@ -246,7 +258,7 @@ a {
 			min-height: 300px;
 			margin: 0 0 20px 0;
 			overflow: hidden; 
-			
+
 			@include respond-to(smalltablet) {
 				min-height: 0px;
 			}
@@ -254,6 +266,12 @@ a {
 				min-height: 0px;
 			}
 			
+			@include respond-to(print) {
+				min-height: 0;
+				height: auto;
+				margin: 0;
+			}
+
 			img {
 			
 				@include respond-to(smalltablet) {
@@ -263,6 +281,10 @@ a {
 				@include respond-to(largetablet) {
 					width: 100%;
 					height: auto;
+				}
+
+				@include respond-to(print) {
+					display: none;
 				}
 			}
 			
@@ -276,10 +298,25 @@ a {
 				@include box-sizing(border-box);
 				@include background-image(linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.5)));
 				
+				@include respond-to(print) {
+					background: none;
+					position: relative;
+					color: black;
+					text-shadow: none;
+				}
+
 				h1 {
 					text-shadow: 0 0 10px rgba(0,0,0,.9);
 					margin: 0;
 					line-height: 1em;
+
+					@include respond-to(print) {
+						background: none;
+						position: relative;
+						color: black;
+						text-shadow: none;
+					}
+
 				}
 				h3 {
 					text-shadow: 0 0 10px rgba(0,0,0,.9);
@@ -289,6 +326,14 @@ a {
 					a {
 						color: #fff;
 					}
+
+					@include respond-to(print) {
+						background: none;
+						position: relative;
+						color: black;
+						text-shadow: none;
+					}
+
 				}
 			}
 		}
@@ -509,8 +554,8 @@ a {
 			width: 100%;
 		}
 		@include respond-to(print) {
-			width: 100%;
-			float: none;
+			// width: 100%;
+			// float: none;
 		}
 		
 		&.halfwidth {
@@ -528,7 +573,13 @@ a {
 				width: 49%;
 				padding: 0 2%;
 			}
-		}
+
+			@include respond-to(print) {
+				// width: 100%;
+				// float: none;
+				// clear: all;
+			}
+ 		}
 		
 		&.product-nav {
 		

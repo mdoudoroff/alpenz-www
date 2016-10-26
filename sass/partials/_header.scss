@@ -27,6 +27,10 @@ $logoheight: 50px;
 		min-width: 100%;
 	}
 
+	@include respond-to(print) {
+		display: none;
+	}
+
 
 
 

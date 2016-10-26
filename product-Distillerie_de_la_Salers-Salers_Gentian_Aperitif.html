@@ -1198,7 +1198,7 @@
 	<div class="duplex">
 		<figure class="label my-gallery" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="label"><a href="img/Salers-Label.jpg" class="fancybox" title="Salers Gentian Apéritif label" rel="product_368" data-size="591x734"><img src="img/Salers-Label.jpg" class="" alt="Salers Gentian Apéritif"></a></figure>
 		<figure class="context my-gallery" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="context">
-			<a href="img/gentiane-engraving-catalog-200x230.jpg" class="fancybox" title="Salers Gentian Apéritif imagery" rel="product_368" data-size="200x230"><img class="wideimage" src="img/gentiane-engraving-catalog-200x230.jpg" alt="Salers Gentian Apéritif"></a>
+			<a href="img/gentiane-engraving-catalog-200x230.jpg" class="fancybox" title="Salers Gentian Apéritif imagery" rel="product_368" data-size="200x230"><img class="" src="img/gentiane-engraving-catalog-200x230.jpg" alt="Salers Gentian Apéritif"></a>
 		</figure>
 	</div>
 </div>	
@@ -1221,7 +1221,6 @@
 			<th>Cs/Plt</th>
 		</tr><tr><td>HZ 3700</td><td></td><td></td><td></td><td></td><td>16.0%</td><td>105g/l</td><td>NA</td><td>750/12</td><td>6 45225 43091 3</td><td>6 45225 43093 1</td><td>T Cap</td><td>mm x mm x mm</td><td>14.70 kg</td><td></td></tr></tbody></table></div>
 			<div class="main halfwidth">
-				
 				<div class="description" itemprop="description">
 					<p></p>
 					
@@ -1416,6 +1415,7 @@
 			</div>
 			
 			<aside class="sidebar halfwidth">
+				<div id="gmap">
 					<h3>Origin</h3>
 					<div id="map_canvas"></div>
 					<script type="text/javascript"> 
@@ -1474,7 +1474,7 @@ stylez = [];
 							var map_options 	= {
 								zoom: 4,
 								center: map_location,
-								mapTypeId: google.maps.MapTypeId.HYBRID,
+								mapTypeId: google.maps.MapTypeId.TERRAIN,
 								streetViewControl: false,
 								disableDefaultUI: true,
 								scrollwheel: false,
@@ -1486,7 +1486,7 @@ stylez = [];
 		
 							var map_style_type = new google.maps.StyledMapType(stylez, map_options);
 							map.mapTypes.set('map_style_type', map_style_type);
-							map.setMapTypeId('map_style_type');
+							map.setMapTypeId('terrain');
 					
 							var marker = new google.maps.Marker({
 								position: map_location,
@@ -1505,6 +1505,8 @@ stylez = [];
 
 						window.onload = loadScript;
 					</script>
+				</div>
+				<div>
 					<h3>Artwork</h3>
 					<div class="artwork">
 						<!--<li class="grid-sizer"></li>-->
@@ -1556,6 +1558,7 @@ stylez = [];
 		        <figcaption itemprop="caption description">somecap</figcaption>
 		    </figure></div>
 					</div>				
+				</div>
 			</aside>
 </article>
 <!-- Root element of PhotoSwipe. Must have class pswp. -->

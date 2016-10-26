@@ -1220,7 +1220,6 @@
 			<th>Cs/Plt</th>
 		</tr><tr><td>HZ 9105</td><td>NV</td><td>Rosa</td><td>base: Brachetto and/or Malvasia</td><td></td><td>16.5%</td><td>200/190</td><td>4</td><td>750/12</td><td>8007 117 010085</td><td>8007117016067</td><td>T Cap</td><td>240mm x 315mm x 300mm</td><td>16.20 kg</td><td></td></tr></tbody></table></div>
 			<div class="main halfwidth">
-				
 				<div class="description" itemprop="description">
 					<p></p>
 					<h3>About Cocchi</h3><p>Something informative about the Cocchi firm goes here</p>
@@ -1389,6 +1388,7 @@
 			</div>
 			
 			<aside class="sidebar halfwidth">
+				<div id="gmap">
 					<h3>Origin</h3>
 					<div id="map_canvas"></div>
 					<script type="text/javascript"> 
@@ -1447,7 +1447,7 @@ stylez = [];
 							var map_options 	= {
 								zoom: 9,
 								center: map_location,
-								mapTypeId: google.maps.MapTypeId.HYBRID,
+								mapTypeId: google.maps.MapTypeId.TERRAIN,
 								streetViewControl: false,
 								disableDefaultUI: true,
 								scrollwheel: false,
@@ -1459,7 +1459,7 @@ stylez = [];
 		
 							var map_style_type = new google.maps.StyledMapType(stylez, map_options);
 							map.mapTypes.set('map_style_type', map_style_type);
-							map.setMapTypeId('map_style_type');
+							map.setMapTypeId('terrain');
 					
 							var marker = new google.maps.Marker({
 								position: map_location,
@@ -1478,11 +1478,14 @@ stylez = [];
 
 						window.onload = loadScript;
 					</script>
+				</div>
+				<div>
 					<h3>Artwork</h3>
 					<div class="artwork">
 						<!--<li class="grid-sizer"></li>-->
 						<div class="columnA"></div><div class="columnB"></div>
 					</div>				
+				</div>
 			</aside>
 </article>
 <!-- Root element of PhotoSwipe. Must have class pswp. -->

@@ -1197,7 +1197,7 @@
 	<div class="duplex">
 		<figure class="label my-gallery" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="label"><a href="img/Lauria.label.750.front_.tm_.png" class="fancybox" title="Lauria Alpensahne Alpine Cream Liqueur label" rel="product_368" data-size="587x1199"><img src="img/Lauria.label.750.front_.tm_.png" class="" alt="Lauria Alpensahne Alpine Cream Liqueur"></a></figure>
 		<figure class="context my-gallery" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="context">
-			<a href="img/Kuh.field_.catalogue-200x230.jpg" class="fancybox" title="Lauria Alpensahne Alpine Cream Liqueur imagery" rel="product_368" data-size="200x230"><img class="wideimage" src="img/Kuh.field_.catalogue-200x230.jpg" alt="Lauria Alpensahne Alpine Cream Liqueur"></a>
+			<a href="img/Kuh.field_.catalogue-200x230.jpg" class="fancybox" title="Lauria Alpensahne Alpine Cream Liqueur imagery" rel="product_368" data-size="200x230"><img class="" src="img/Kuh.field_.catalogue-200x230.jpg" alt="Lauria Alpensahne Alpine Cream Liqueur"></a>
 		</figure>
 	</div>
 </div>	
@@ -1220,7 +1220,6 @@
 			<th>Cs/Plt</th>
 		</tr><tr><td>HZ 1000</td><td></td><td></td><td></td><td></td><td>16.0%</td><td>NA</td><td>NA</td><td>750/6</td><td>9006 794 210008</td><td></td><td>T Cap</td><td>mm x mm x mm</td><td></td><td></td></tr></tbody></table></div>
 			<div class="main halfwidth">
-				
 				<div class="description" itemprop="description">
 					<p></p>
 					
@@ -1229,6 +1228,7 @@
 			</div>
 			
 			<aside class="sidebar halfwidth">
+				<div id="gmap">
 					<h3>Origin</h3>
 					<div id="map_canvas"></div>
 					<script type="text/javascript"> 
@@ -1287,7 +1287,7 @@ stylez = [];
 							var map_options 	= {
 								zoom: 4,
 								center: map_location,
-								mapTypeId: google.maps.MapTypeId.HYBRID,
+								mapTypeId: google.maps.MapTypeId.TERRAIN,
 								streetViewControl: false,
 								disableDefaultUI: true,
 								scrollwheel: false,
@@ -1299,7 +1299,7 @@ stylez = [];
 		
 							var map_style_type = new google.maps.StyledMapType(stylez, map_options);
 							map.mapTypes.set('map_style_type', map_style_type);
-							map.setMapTypeId('map_style_type');
+							map.setMapTypeId('terrain');
 					
 							var marker = new google.maps.Marker({
 								position: map_location,
@@ -1318,6 +1318,8 @@ stylez = [];
 
 						window.onload = loadScript;
 					</script>
+				</div>
+				<div>
 					<h3>Artwork</h3>
 					<div class="artwork">
 						<!--<li class="grid-sizer"></li>-->
@@ -1333,6 +1335,7 @@ stylez = [];
 		        <figcaption itemprop="caption description">somecap</figcaption>
 		    </figure></div>
 					</div>				
+				</div>
 			</aside>
 </article>
 <!-- Root element of PhotoSwipe. Must have class pswp. -->

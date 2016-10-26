@@ -1198,7 +1198,7 @@
 	<div class="duplex">
 		<figure class="label my-gallery" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="label"><a href="img/seco-label.jpg" class="fancybox" title="Miró Extra Seco Vermut de Reus label" rel="product_368" data-size="611x1253"><img src="img/seco-label.jpg" class="" alt="Miró Extra Seco Vermut de Reus"></a></figure>
 		<figure class="context my-gallery" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="context">
-			<a href="img/seco-context.jpg" class="fancybox" title="Miró Extra Seco Vermut de Reus imagery" rel="product_368" data-size="400x460"><img class="wideimage" src="img/seco-context.jpg" alt="Miró Extra Seco Vermut de Reus"></a>
+			<a href="img/seco-context.jpg" class="fancybox" title="Miró Extra Seco Vermut de Reus imagery" rel="product_368" data-size="400x460"><img class="" src="img/seco-context.jpg" alt="Miró Extra Seco Vermut de Reus"></a>
 		</figure>
 	</div>
 </div>	
@@ -1224,7 +1224,6 @@
 <tr><td>HZ 9402</td><td>NV</td><td>Extra Seco</td><td>75% Airen, 25% Maccabeo</td><td></td><td>17.0%</td><td></td><td>NA</td><td>187/24</td><td>8413884101473</td><td>18413884101470</td><td>screwcap</td><td>333mm x 216mm x 180mm</td><td>10.35 kg</td><td>16</td></tr>
 <tr><td>TBD</td><td>NV</td><td>Rojo "Casero"</td><td>75% Airen, 25% Maccabeo</td><td></td><td>17.0%</td><td></td><td>NA</td><td>5000/4</td><td>TBD</td><td>TBD</td><td>Bag in Box</td><td>260mm x 395mm x 280mm</td><td>21.00 kg</td><td>7</td></tr></tbody></table></div>
 			<div class="main halfwidth">
-				
 				<div class="description" itemprop="description">
 					<p></p>
 					
@@ -1309,6 +1308,7 @@
 			</div>
 			
 			<aside class="sidebar halfwidth">
+				<div id="gmap">
 					<h3>Origin</h3>
 					<div id="map_canvas"></div>
 					<script type="text/javascript"> 
@@ -1367,7 +1367,7 @@ stylez = [];
 							var map_options 	= {
 								zoom: 4,
 								center: map_location,
-								mapTypeId: google.maps.MapTypeId.HYBRID,
+								mapTypeId: google.maps.MapTypeId.TERRAIN,
 								streetViewControl: false,
 								disableDefaultUI: true,
 								scrollwheel: false,
@@ -1379,7 +1379,7 @@ stylez = [];
 		
 							var map_style_type = new google.maps.StyledMapType(stylez, map_options);
 							map.mapTypes.set('map_style_type', map_style_type);
-							map.setMapTypeId('map_style_type');
+							map.setMapTypeId('terrain');
 					
 							var marker = new google.maps.Marker({
 								position: map_location,
@@ -1398,11 +1398,14 @@ stylez = [];
 
 						window.onload = loadScript;
 					</script>
+				</div>
+				<div>
 					<h3>Artwork</h3>
 					<div class="artwork">
 						<!--<li class="grid-sizer"></li>-->
 						<div class="columnA"></div><div class="columnB"></div>
 					</div>				
+				</div>
 			</aside>
 </article>
 <!-- Root element of PhotoSwipe. Must have class pswp. -->

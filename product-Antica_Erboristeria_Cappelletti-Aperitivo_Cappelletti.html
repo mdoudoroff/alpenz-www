@@ -1198,7 +1198,7 @@
 	<div class="duplex">
 		<figure class="label my-gallery" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="label"><a href="img/aperitivo_cappelletti_label-high-res.jpg" class="fancybox" title="Aperitivo Cappelletti label" rel="product_368" data-size="960x957"><img src="img/aperitivo_cappelletti_label-high-res.jpg" class="wideimage" alt="Aperitivo Cappelletti"></a></figure>
 		<figure class="context my-gallery" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="context">
-			<a href="img/spritz-in-palazzo-catalogo-200x230.jpg" class="fancybox" title="Aperitivo Cappelletti imagery" rel="product_368" data-size="200x230"><img class="wideimage" src="img/spritz-in-palazzo-catalogo-200x230.jpg" alt="Aperitivo Cappelletti"></a>
+			<a href="img/spritz-in-palazzo-catalogo-200x230.jpg" class="fancybox" title="Aperitivo Cappelletti imagery" rel="product_368" data-size="200x230"><img class="" src="img/spritz-in-palazzo-catalogo-200x230.jpg" alt="Aperitivo Cappelletti"></a>
 		</figure>
 	</div>
 </div>	
@@ -1221,7 +1221,6 @@
 			<th>Cs/Plt</th>
 		</tr><tr><td>HZ 9300</td><td>NV</td><td>Rosso</td><td>Pinot Bianco/Garganega/Trebb.</td><td></td><td>17.0%</td><td></td><td>NA</td><td>750/12</td><td>8 018571 001021</td><td>8 018571 011020</td><td>screwcap</td><td>376mm x 285mm x 310mm</td><td>17.65 kg</td><td></td></tr></tbody></table></div>
 			<div class="main halfwidth">
-				
 				<div class="description" itemprop="description">
 					<p>While the base origin of all spritzes is the “Spritzer” (the soda siphon), the story of the “Spritz” we commonly see in Italy today shares a history with Cappelletti in the Triveneto. This drink is most typically a combination of a red bitter with wine, soda, and a slice of orange, Legend has it that the Emperor Franz Ferdinand enjoyed the bitter and sour notes when adding citrus into certain wines. During the First World War, soldiers of the Austrian Empire would order the Spritz to add depth to the local wine. Locals would counter that the Austrians could not handle the local bitter aperitivi without some dilution. As important as taste is the color, with Carmine (Cochineal) being a great source of pride (and wealth) for the region. This is because the all natural color from carmine is a stunning crimson red, long prized in garments, food, and drink.</p>
 					<h3>About Antica Erboristeria Cappelletti</h3><p>Something informative about the Cappelletti firm goes here</p>
@@ -1457,6 +1456,7 @@
 			</div>
 			
 			<aside class="sidebar halfwidth">
+				<div id="gmap">
 					<h3>Origin</h3>
 					<div id="map_canvas"></div>
 					<script type="text/javascript"> 
@@ -1513,9 +1513,9 @@ stylez = [];
 						{
 							var map_location 	= new google.maps.LatLng(45.9814,11.0950302);
 							var map_options 	= {
-								zoom: 8,
+								zoom: 7,
 								center: map_location,
-								mapTypeId: google.maps.MapTypeId.HYBRID,
+								mapTypeId: google.maps.MapTypeId.TERRAIN,
 								streetViewControl: false,
 								disableDefaultUI: true,
 								scrollwheel: false,
@@ -1527,7 +1527,7 @@ stylez = [];
 		
 							var map_style_type = new google.maps.StyledMapType(stylez, map_options);
 							map.mapTypes.set('map_style_type', map_style_type);
-							map.setMapTypeId('map_style_type');
+							map.setMapTypeId('terrain');
 					
 							var marker = new google.maps.Marker({
 								position: map_location,
@@ -1546,6 +1546,8 @@ stylez = [];
 
 						window.onload = loadScript;
 					</script>
+				</div>
+				<div>
 					<h3>Artwork</h3>
 					<div class="artwork">
 						<!--<li class="grid-sizer"></li>-->
@@ -1639,6 +1641,7 @@ stylez = [];
 		        <figcaption itemprop="caption description">somecap</figcaption>
 		    </figure></div>
 					</div>				
+				</div>
 			</aside>
 </article>
 <!-- Root element of PhotoSwipe. Must have class pswp. -->

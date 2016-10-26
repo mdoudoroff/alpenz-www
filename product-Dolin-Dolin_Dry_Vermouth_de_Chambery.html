@@ -1221,7 +1221,6 @@
 		</tr><tr><td>HZ 9500</td><td>NV</td><td>Dry</td><td></td><td></td><td>17.5%</td><td></td><td>NA</td><td>750/12</td><td>3274 510 003791</td><td>13274510003798</td><td>screwcap</td><td>mm x mm x mm</td><td>15.30 kg</td><td></td></tr>
 <tr><td>HZ 9501</td><td>NV</td><td>Dry</td><td></td><td></td><td>17.5%</td><td></td><td>NA</td><td>375/12</td><td>3274 510 003807</td><td>13274510003804</td><td>screwcap</td><td>mm x mm x mm</td><td>8.30 kg</td><td></td></tr></tbody></table></div>
 			<div class="main halfwidth">
-				
 				<div class="description" itemprop="description">
 					<p></p>
 					<h3>About Dolin</h3><p>Dolin is among the few remaining independent producers of Vermouth and the last producing Vermouth de Chambéry. Dolin continue to make the authentic product according to the principles which earned Chambéry France’s only A.O. for Vermouth back in 1932. This means production in Chambéry itself, maceration of real plants rather than pre-prepared infusions, and the unique addition of sugar as opposed to other sweetening products. The finished Dolin Vermouth contains 75-80% wine, much more than those by the large international concerns. The particular quality of Vermouth de Chambéry was first identified in 1821 by one Joseph Chavasse, whose son-in-law Ferdinand Dolin inherited the recipe, and the now eponymous company. Dolin Vermouth was winning medals in Philadelphia, St Louis and London in the late 19th century, and still remains the benchmark for fine French Vermouth. A hallmark of Vermouth de Chambéry was the creation of the Blanc (aka Bianco) style, a first clear vermouth, of which the Dry recipe has been celebrated in cocktails from the 1920s onwards. According to Chavasse’s recipe, the base wine was made from local grapes. However, phylloxera led to replanting in the region with red varieties, or overly aromatic whites such as Jacquère. As with Cognac and Armagnac, the best base wine is very light, and as neutral as possible. Not surprisingly, the majority of the base wine now comes from the Armagnac vineyards of the Gers in addition to local/regional producers. On the other hand, the particular flavors and aromas of the plants are of crucial importance, and the Dolin secret recipe continues to be made from the herbs and aromatic plants naturally found in the Alpine meadows above Chambéry. These are individual Vermouths of remarkable freshness, purity and complexity.</p>
@@ -1560,6 +1559,7 @@
 			</div>
 			
 			<aside class="sidebar halfwidth">
+				<div id="gmap">
 					<h3>Origin</h3>
 					<div id="map_canvas"></div>
 					<script type="text/javascript"> 
@@ -1618,7 +1618,7 @@ stylez = [];
 							var map_options 	= {
 								zoom: 8,
 								center: map_location,
-								mapTypeId: google.maps.MapTypeId.HYBRID,
+								mapTypeId: google.maps.MapTypeId.TERRAIN,
 								streetViewControl: false,
 								disableDefaultUI: true,
 								scrollwheel: false,
@@ -1630,7 +1630,7 @@ stylez = [];
 		
 							var map_style_type = new google.maps.StyledMapType(stylez, map_options);
 							map.mapTypes.set('map_style_type', map_style_type);
-							map.setMapTypeId('map_style_type');
+							map.setMapTypeId('terrain');
 					
 							var marker = new google.maps.Marker({
 								position: map_location,
@@ -1649,11 +1649,14 @@ stylez = [];
 
 						window.onload = loadScript;
 					</script>
+				</div>
+				<div>
 					<h3>Artwork</h3>
 					<div class="artwork">
 						<!--<li class="grid-sizer"></li>-->
 						<div class="columnA"></div><div class="columnB"></div>
 					</div>				
+				</div>
 			</aside>
 </article>
 <!-- Root element of PhotoSwipe. Must have class pswp. -->

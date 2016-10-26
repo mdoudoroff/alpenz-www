@@ -1197,7 +1197,7 @@
 	<div class="duplex">
 		<figure class="label my-gallery" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="label"><a href="img/label.smithcross.jrum_.website.png" class="fancybox" title="Smith & Cross Traditional Jamaica Rum label" rel="product_368" data-size="863x856"><img src="img/label.smithcross.jrum_.website.png" class="wideimage" alt="Smith & Cross Traditional Jamaica Rum"></a></figure>
 		<figure class="context my-gallery" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="context">
-			<a href="img/smithcross-logo.wphoto.catalogue-200x230.jpg" class="fancybox" title="Smith & Cross Traditional Jamaica Rum imagery" rel="product_368" data-size="200x230"><img class="wideimage" src="img/smithcross-logo.wphoto.catalogue-200x230.jpg" alt="Smith & Cross Traditional Jamaica Rum"></a>
+			<a href="img/smithcross-logo.wphoto.catalogue-200x230.jpg" class="fancybox" title="Smith & Cross Traditional Jamaica Rum imagery" rel="product_368" data-size="200x230"><img class="" src="img/smithcross-logo.wphoto.catalogue-200x230.jpg" alt="Smith & Cross Traditional Jamaica Rum"></a>
 		</figure>
 	</div>
 </div>	
@@ -1220,7 +1220,6 @@
 			<th>Cs/Plt</th>
 		</tr><tr><td>HZ 8040</td><td></td><td></td><td></td><td></td><td>57.0%</td><td>NA</td><td>NA</td><td>750/12</td><td>5021 692 500949</td><td>5021692 500956</td><td>T Cap</td><td>mm x mm x mm</td><td></td><td></td></tr></tbody></table></div>
 			<div class="main halfwidth">
-				
 				<div class="description" itemprop="description">
 					<p></p>
 					<h3>About Smith & Cross</h3><p>The mark of Smith & Cross traces its lineage to one of England’s oldest producers of sugar and spirits. It’s history dates back to 1788 with a sugar refinery located at No. 203 Thames Street by the London Docks. Over time, the firm and its partners became prominent handlers of Jamaica rum, with extensive cellars along the river Thames. Smith & Cross today stands as successors in trade to Smith & Tyers and White Cross, both having previously operated side by side for generations in the house of what is today Hayman Distillers.</p>
@@ -1536,6 +1535,7 @@
 			</div>
 			
 			<aside class="sidebar halfwidth">
+				<div id="gmap">
 					<h3>Origin</h3>
 					<div id="map_canvas"></div>
 					<script type="text/javascript"> 
@@ -1594,7 +1594,7 @@ stylez = [];
 							var map_options 	= {
 								zoom: 8,
 								center: map_location,
-								mapTypeId: google.maps.MapTypeId.HYBRID,
+								mapTypeId: google.maps.MapTypeId.TERRAIN,
 								streetViewControl: false,
 								disableDefaultUI: true,
 								scrollwheel: false,
@@ -1606,7 +1606,7 @@ stylez = [];
 		
 							var map_style_type = new google.maps.StyledMapType(stylez, map_options);
 							map.mapTypes.set('map_style_type', map_style_type);
-							map.setMapTypeId('map_style_type');
+							map.setMapTypeId('terrain');
 					
 							var marker = new google.maps.Marker({
 								position: map_location,
@@ -1625,6 +1625,8 @@ stylez = [];
 
 						window.onload = loadScript;
 					</script>
+				</div>
+				<div>
 					<h3>Artwork</h3>
 					<div class="artwork">
 						<!--<li class="grid-sizer"></li>-->
@@ -1640,6 +1642,7 @@ stylez = [];
 		        <figcaption itemprop="caption description">somecap</figcaption>
 		    </figure></div>
 					</div>				
+				</div>
 			</aside>
 </article>
 <!-- Root element of PhotoSwipe. Must have class pswp. -->
