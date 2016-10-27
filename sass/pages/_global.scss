@@ -654,3 +654,46 @@ section header {
 		}
 	}
 }
+
+
+// expandable blurbs
+
+.catblurb {
+	overflow: hidden;
+	max-height: 7.25em;
+	border-bottom: 2px solid black;
+	position: relative;
+    transition: max-height 1s;
+
+    figure {
+    	width: 100%;
+    	text-align: center;
+    	margin-bottom: 1em;
+
+    	img {
+    		width: 75%;
+
+    		@include respond-to(phone) {
+    			width: 100%;
+    		}
+    	}
+    }
+}
+
+.expandable {
+
+}
+
+.morebutton {
+	display: block;
+	font-size: 75%;
+	border: 2px solid black;
+	background-color: white;
+	text-align: center;
+	position: relative;
+	top: -2px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	padding: 0.25em 1em;
+}

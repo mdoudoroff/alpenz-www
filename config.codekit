@@ -88,6 +88,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/illo.aperitif-trio.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 809415,
+		"inputAbbreviatedPath": "\/assets\/illo.aperitif-trio.png",
+		"outputAbbreviatedPath": "\/assets\/illo.aperitif-trio.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/jquery.min.js": {
 		"fileType": 64,
 		"ignore": 0,
