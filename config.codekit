@@ -9303,6 +9303,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/product-Purkhart-Rothman_and_Winter_Orchard_Cherry_Liqueur.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/product-Purkhart-Rothman_and_Winter_Orchard_Cherry_Liqueur.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/product-Purkhart-Rothman_and_Winter_Orchard_Peach_Liqueur.html": {
 		"fileType": 8192,
 		"ignore": 0,
