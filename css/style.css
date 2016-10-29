@@ -1007,6 +1007,22 @@ section header {
       @media only screen and (max-width: 420px) {
         .catblurb figure img {
           width: 100%; } }
+  .catblurb figure.left {
+    width: 33%;
+    float: left; }
+    .catblurb figure.left img {
+      width: 100%; }
+    @media only screen and (max-width: 420px) {
+      .catblurb figure.left {
+        width: 100%; } }
+  .catblurb figure.right {
+    width: 33%;
+    float: right; }
+    .catblurb figure.right img {
+      width: 100%; }
+    @media only screen and (max-width: 420px) {
+      .catblurb figure.right {
+        width: 100%; } }
 
 .morebutton {
   display: block;

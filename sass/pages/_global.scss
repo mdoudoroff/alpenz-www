@@ -678,6 +678,30 @@ section header {
     		}
     	}
     }
+    figure.left {
+    	width: 33%;
+    	float: left;
+
+    	img {
+    		width: 100%;
+    	}
+
+    	@include respond-to(phone) {
+    		width: 100%;
+    	}
+    }
+    figure.right {
+    	width: 33%;
+    	float: right;
+
+		img {
+    		width: 100%;
+    	}
+
+    	@include respond-to(phone) {
+    		width: 100%;
+    	}
+    }
 }
 
 .expandable {
