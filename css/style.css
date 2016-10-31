@@ -1214,14 +1214,6 @@ section header {
     @media only screen and (max-width: 420px) {
       .vitals .description {
         max-width: 70%; } }
-    .vitals .description figure {
-      width: 100%; }
-      .vitals .description figure img {
-        width: 100%;
-        height: auto; }
-    .vitals .description figure.right {
-      width: 50%;
-      float: right; }
   .vitals .duplex {
     float: left;
     margin-left: 1em;
