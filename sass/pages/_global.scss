@@ -533,6 +533,30 @@ a {
 				width: $threecol;
 			}
 		}
+
+
+
+
+		// provisional provision for imagery within the blurbs (this stuff probably needs relocation)
+		figure {
+
+			img {
+				width:100%;
+				height: auto;
+			}
+			width: 100%;
+		}
+
+		figure.right {
+
+			width: 80%;
+			float: none;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+
+
 	}
 
 	
