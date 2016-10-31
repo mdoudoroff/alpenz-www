@@ -12,12 +12,17 @@
 
 body { 
 	font-family: $body_font;
-	line-height: 1em;
+	font-size: 14px;
+	line-height: 1.4;
 	margin: 0;
 	padding: 0;
 	background: $body_background;
 	color: $text_color;
 	position: relative;
+
+	@include respond-to(phone) {
+		font-size: 80%;
+	}
 
 	@include respond-to(print) {
 		margin: 0;
@@ -169,7 +174,7 @@ a {
 	}
 	ul,ol {
 		font-size: 14px;
-		line-height: 20px;
+		// line-height: 2em;
 		font-weight: 300;
 		margin: 0 0 20px 0;
 	}
@@ -178,19 +183,19 @@ a {
 		margin: 0 0 20px 20px;
 	}
 	p {
-		font-size: 14px;
-		line-height: 20px;
+		// font-size: 14px;
+		// line-height: 20px;
 		font-weight: 300;
 		margin: 0 0 20px 0;
 		
 		@include respond-to(phone) {
-			font-size: 17px;
-			line-height: 22px;
+			// font-size: 17px;
+			// line-height: 22px;
 		}
 		
 		&.note {
 			font-size: 11px;
-			line-height: 30px;
+			// line-height: 30px;
 			font-style: italic;
 			font-weight: bold;
 		}
@@ -468,7 +473,7 @@ a {
 			p {
 				font-family: $body-font;
 				font-size: 11px;
-				line-height: 18px;
+				// line-height: 18px;
 				margin: 0 0 10px 0;
 				
 				&:last-child {

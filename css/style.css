@@ -611,12 +611,16 @@ em, i {
   margin: 0.25in 0 0.5in 0; }
 body {
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-  line-height: 1em;
+  font-size: 14px;
+  line-height: 1.4;
   margin: 0;
   padding: 0;
   background: #fff;
   color: #484848;
   position: relative; }
+  @media only screen and (max-width: 420px) {
+    body {
+      font-size: 80%; } }
   @media print {
     body {
       margin: 0; } }
@@ -717,24 +721,16 @@ a {
     color: #999; }
   .content ul, .content ol {
     font-size: 14px;
-    line-height: 20px;
     font-weight: 300;
     margin: 0 0 20px 0; }
   .content ul {
     list-style-type: disc;
     margin: 0 0 20px 20px; }
   .content p {
-    font-size: 14px;
-    line-height: 20px;
     font-weight: 300;
     margin: 0 0 20px 0; }
-    @media only screen and (max-width: 420px) {
-      .content p {
-        font-size: 17px;
-        line-height: 22px; } }
     .content p.note {
       font-size: 11px;
-      line-height: 30px;
       font-style: italic;
       font-weight: bold; }
     .content p a {
@@ -895,7 +891,6 @@ a {
     .content div.recipes .recipe p {
       font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
       font-size: 11px;
-      line-height: 18px;
       margin: 0 0 10px 0; }
       .content div.recipes .recipe p:last-child {
         margin: 0; }
@@ -1098,9 +1093,6 @@ section header {
       .products .type-product .product_text h3 {
         font-size: 11px;
         color: #999; }
-      .products .type-product .product_text p {
-        font-size: 12px;
-        line-height: 14px; }
     .products .type-product .bottle {
       -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
@@ -1144,7 +1136,6 @@ section header {
     .products .type-product p {
       width: 100%;
       margin: 10px 0 0 0;
-      line-height: 20px;
       -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
@@ -1176,7 +1167,6 @@ section header {
     margin-top: 0; }
   .products .fulldetailslink {
     display: inline-block;
-    font-size: 100%;
     text-transform: uppercase;
     font-weight: 700;
     color: #a2120f; }
@@ -1193,7 +1183,6 @@ section header {
   .vitals p {
     width: 100%;
     margin: 10px 0 0 0;
-    line-height: 20px;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -1201,17 +1190,9 @@ section header {
     .vitals p span {
       margin-right: 15px; }
   .vitals .description p {
-    font-size: 100%;
     line-height: 1.4; }
-    @media only screen and (max-width: 420px) {
-      .vitals .description p {
-        font-size: 80%; } }
   .vitals p.stats {
-    font-size: 100%;
     line-height: 1.4; }
-    @media only screen and (max-width: 420px) {
-      .vitals p.stats {
-        font-size: 80%; } }
   .vitals .country, .vitals .categorization {
     text-transform: uppercase;
     font-weight: 700; }

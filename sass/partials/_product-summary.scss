@@ -105,8 +105,8 @@
 			}
 			p {
 
-				font-size: 12px;
-				line-height: 14px;
+				// font-size: 12px;
+				// line-height: 14px;
 				
 			}
 		}
@@ -185,7 +185,7 @@
 		p {
 			width: 100%;
 			margin: 10px 0 0 0;
-			line-height: 20px;
+			// line-height: 20px;
 			@include box-sizing(border-box);
 			text-align: left;
 			
@@ -241,7 +241,7 @@
 
 	.fulldetailslink {
 		display:inline-block;
-		font-size:100%;
+		// font-size:100%;
 		text-transform: uppercase;
 		font-weight: 700;
 		color:$red;
