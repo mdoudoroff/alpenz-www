@@ -894,6 +894,12 @@ a {
       margin: 0 0 10px 0; }
       .content div.recipes .recipe p:last-child {
         margin: 0; }
+  .content .recipeFull {
+    line-height: 1.0;
+    margin-bottom: 2em;
+    font-size: 100%; }
+    .content .recipeFull .measure {
+      margin-left: 1.5em; }
   .content .main {
     width: 732px;
     float: right;
