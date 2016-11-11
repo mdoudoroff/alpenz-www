@@ -1067,7 +1067,7 @@
 			<th>BTL Barcode</th>
 			<th>Cs Barcode</th>
 			<th>Finish</th>
-			<th>Cs Dim</th>
+			<th>Cs Dim (mm)</th>
 			<th>Cs Wgt</th>
 			<th>Cs/Plt</th>
 		</tr></tbody></table></div>
@@ -1134,9 +1134,9 @@
 
 						function initialize() 
 						{
-							var map_location 	= new google.maps.LatLng(45.0855008,8.068745099999999);
+							var map_location 	= new google.maps.LatLng(0,0);
 							var map_options 	= {
-								zoom: 9,
+								zoom: 4,
 								center: map_location,
 								mapTypeId: google.maps.MapTypeId.TERRAIN,
 								streetViewControl: false,
