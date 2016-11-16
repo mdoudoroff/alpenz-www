@@ -966,6 +966,45 @@ a {
 section header {
   margin: 0 0.5em; }
 
+.catblurb .blurb {
+  width: 66%; }
+  .catblurb .blurb figure img {
+    width: 100%;
+    height: auto; }
+  .catblurb .blurb figure.left {
+    width: 30%;
+    float: left; }
+  .catblurb .blurb figure.right {
+    width: 30%;
+    float: right; }
+.catblurb .images {
+  float: right; }
+.catblurb figure {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1em; }
+  .catblurb figure img {
+    width: 75%; }
+    @media only screen and (max-width: 420px) {
+      .catblurb figure img {
+        width: 100%; } }
+.catblurb figure.left {
+  width: 33%;
+  float: left; }
+  .catblurb figure.left img {
+    width: 100%; }
+  @media only screen and (max-width: 420px) {
+    .catblurb figure.left {
+      width: 100%; } }
+.catblurb figure.right {
+  width: 33%;
+  float: right; }
+  .catblurb figure.right img {
+    width: 100%; }
+  @media only screen and (max-width: 420px) {
+    .catblurb figure.right {
+      width: 100%; } }
+
 .features figure {
   position: relative;
   width: 100%;
@@ -1003,37 +1042,12 @@ section header {
     .features .secondfeatures figure .caption {
       font-size: 80%; } }
 
-.catblurb {
+.expandable {
   overflow: hidden;
   max-height: 7.25em;
   border-bottom: 2px solid black;
   position: relative;
   transition: max-height 1s; }
-  .catblurb figure {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 1em; }
-    .catblurb figure img {
-      width: 75%; }
-      @media only screen and (max-width: 420px) {
-        .catblurb figure img {
-          width: 100%; } }
-  .catblurb figure.left {
-    width: 33%;
-    float: left; }
-    .catblurb figure.left img {
-      width: 100%; }
-    @media only screen and (max-width: 420px) {
-      .catblurb figure.left {
-        width: 100%; } }
-  .catblurb figure.right {
-    width: 33%;
-    float: right; }
-    .catblurb figure.right img {
-      width: 100%; }
-    @media only screen and (max-width: 420px) {
-      .catblurb figure.right {
-        width: 100%; } }
 
 .morebutton {
   display: block;
@@ -1240,6 +1254,12 @@ section header {
     font-weight: 700; }
   .vitals p.categorization {
     margin-top: 0; }
+  .vitals .highlights {
+    margin: 0;
+    padding: 1em;
+    background-color: #edece8; }
+    .vitals .highlights li {
+      margin-left: 1em; }
   .vitals .description {
     float: left;
     max-width: 510px; }

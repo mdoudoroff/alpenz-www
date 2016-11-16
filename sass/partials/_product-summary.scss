@@ -292,9 +292,6 @@
 	height:60px;
 
 	@include respond-to(phone) {
-		// min-width: 60px;
-		// width: 12.5%;
-		// height: auto;
 	}
 
 	img {
@@ -310,3 +307,4 @@
      float: left;
      margin-top: 100%;
  }
+ 

@@ -56,6 +56,15 @@
 		margin-top:0;
 	}
 
+	.highlights {
+		margin: 0;
+		padding: 1em;
+		background-color: $off-grey;
+
+		li {
+			margin-left: 1em;
+		}
+	}
 
 	.description {
 		float: left;

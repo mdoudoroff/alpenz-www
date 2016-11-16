@@ -766,6 +766,22 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/downloads\/Tabacal_Dos_Tramontaine_Rancio_IGP.label.TABACAL-DOS.jpg": {
+		"ft": 16384,
+		"iS": 65536,
+		"oA": 1,
+		"oAP": "\/downloads\/Tabacal_Dos_Tramontaine_Rancio_IGP.label.TABACAL-DOS.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/downloads\/Tabacal_Tramontaine_Rancio_IGP.label.tabacal.jpg": {
+		"ft": 16384,
+		"iS": 251560,
+		"oA": 1,
+		"oAP": "\/downloads\/Tabacal_Tramontaine_Rancio_IGP.label.tabacal.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/gfx\/minus-black.png": {
 		"ft": 32768,
 		"iS": 1207,
@@ -801,6 +817,22 @@
 		"oA": 2,
 		"oAP": "\/images\/.mostrecent.pickle",
 		"oF": 0
+		},
+	"\/images\/Abbe_Rous_Matifoc_Rancio_Sec.bottle.matifoc.jpg": {
+		"ft": 16384,
+		"iS": 6330,
+		"oA": 1,
+		"oAP": "\/images\/Abbe_Rous_Matifoc_Rancio_Sec.bottle.matifoc.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Abbe_Rous_Matifoc_Rancio_Sec.label.Matifoc.jpg": {
+		"ft": 16384,
+		"iS": 42022,
+		"oA": 1,
+		"oAP": "\/images\/Abbe_Rous_Matifoc_Rancio_Sec.label.Matifoc.jpg",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/images\/Amaro_Sfumato_Rabarbaro.bottle.sfumato.jpg": {
 		"ft": 16384,
@@ -2602,6 +2634,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/Dom_de_Rombeau_Rancio_Sec_IGP.label.rombeau.jpg": {
+		"ft": 16384,
+		"iS": 42024,
+		"oA": 1,
+		"oAP": "\/images\/Dom_de_Rombeau_Rancio_Sec_IGP.label.rombeau.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/Dom_de_Rombeau_Rancio_Sec_IGP.rombeau-bottle.jpg": {
 		"ft": 16384,
 		"iS": 38586,
@@ -2786,6 +2826,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/Espodol_Vi_Ranci_Seco.bottle.Vi-Ranci-Sec.jpg": {
+		"ft": 16384,
+		"iS": 7168,
+		"oA": 1,
+		"oAP": "\/images\/Espodol_Vi_Ranci_Seco.bottle.Vi-Ranci-Sec.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/HandH_1995_Fine_Rich_Single_Harvest_Madeira.bottle.single-harvest-1995.jpg": {
 		"ft": 16384,
 		"iS": 42404,
@@ -2831,6 +2879,14 @@
 		"iS": 262144,
 		"oA": 1,
 		"oAP": "\/images\/HandH_1998_Medium_Rich_Single_Harvest_Madeira.label.single-harvest-1998.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/HandH_50_Year_Old_Tinta_Negra_Full_Rich_Madeira.bottle.tinta-50-years.jpg": {
+		"ft": 16384,
+		"iS": 11167,
+		"oA": 1,
+		"oAP": "\/images\/HandH_50_Year_Old_Tinta_Negra_Full_Rich_Madeira.bottle.tinta-50-years.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -4050,6 +4106,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/Puig-Parahy_Pyror_Rancio_Sec.label.PuigPYRORBACK1JUL2014.jpg": {
+		"ft": 16384,
+		"iS": 159133,
+		"oA": 1,
+		"oAP": "\/images\/Puig-Parahy_Pyror_Rancio_Sec.label.PuigPYRORBACK1JUL2014.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/Puig-Parahy_Pyror_Rancio_Sec.label.pyror.jpg": {
 		"ft": 16384,
 		"iS": 39534,
@@ -4999,6 +5063,14 @@
 		"iS": 167622,
 		"oA": 1,
 		"oAP": "\/images\/St._Elizabeth_Allspice_Dram.label.allspice-dram750-face.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Tabacal_Dos_Tramontaine_Rancio_IGP.label.TABACAL-DOS.jpg": {
+		"ft": 16384,
+		"iS": 206195,
+		"oA": 1,
+		"oAP": "\/images\/Tabacal_Dos_Tramontaine_Rancio_IGP.label.TABACAL-DOS.jpg",
 		"oF": 0,
 		"opt": 0
 		},
