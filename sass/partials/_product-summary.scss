@@ -281,23 +281,31 @@
 
 .clusterbottle {
 	display: inline-block;
-	transform: rotate(90deg);
-
 
 	white-space: nowrap;
 
-    transform: translate(0,100%) rotate(-90deg);
-    transform-origin: 0 0;
+    // transform: translate(300%,-60px) rotate(90deg);
+    // transform-origin: 0% 100%;
+
+    position: relative;
 
 	height:60px;
+
+	background-color: green;
 
 	@include respond-to(phone) {
 	}
 
 	img {
+
 		height: 200px;
 		width: auto;
-		float: left;
+
+		position: absolute;
+     	transform: translate(0,-130px) rotate(90deg);
+        transform-origin: 30px 170px;
+
+
 	}
 
 }

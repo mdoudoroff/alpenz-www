@@ -571,6 +571,12 @@ em, i {
   transform-origin: left top 0;
   line-height: 1.0; }
 
+#searchResults {
+  padding: 1em;
+  display: none; }
+  #searchResults p {
+    margin-bottom: 0.25em; }
+
 .footer {
   width: 100%;
   padding: 50px 0;
@@ -1219,15 +1225,16 @@ section header {
 
 .clusterbottle {
   display: inline-block;
-  transform: rotate(90deg);
   white-space: nowrap;
-  transform: translate(0, 100%) rotate(-90deg);
-  transform-origin: 0 0;
-  height: 60px; }
+  position: relative;
+  height: 60px;
+  background-color: green; }
   .clusterbottle img {
     height: 200px;
     width: auto;
-    float: left; }
+    position: absolute;
+    transform: translate(0, -130px) rotate(90deg);
+    transform-origin: 30px 170px; }
 
 .clusterbottle:after {
   content: "";

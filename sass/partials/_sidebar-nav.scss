@@ -101,3 +101,11 @@
 	line-height: 1.0;
 }
 
+#searchResults {
+	padding: 1em;
+	display: none; //hidden by default
+
+	p {
+		margin-bottom: 0.25em;
+	}
+}
