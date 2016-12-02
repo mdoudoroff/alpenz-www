@@ -778,11 +778,18 @@ a {
       min-height: 300px;
       margin: 0 0 20px 0;
       overflow: hidden; }
+      @media only screen and (max-width: 420px) {
+        .content .product-overview .banner {
+          min-height: 0;
+          position: relative; } }
       @media print {
         .content .product-overview .banner {
           min-height: 0;
           height: auto;
           margin: 0; } }
+      @media only screen and (max-width: 420px) {
+        .content .product-overview .banner img {
+          display: none; } }
       @media print {
         .content .product-overview .banner img {
           display: none; } }
@@ -808,11 +815,28 @@ a {
             position: relative;
             color: black;
             text-shadow: none; } }
+        @media only screen and (max-width: 420px) {
+          .content .product-overview .banner .product-name {
+            background: none;
+            position: relative;
+            color: black;
+            text-shadow: none; }
+            .content .product-overview .banner .product-name h1 {
+              font-size: 36px; }
+            .content .product-overview .banner .product-name h3 {
+              color: black;
+              text-shadow: none; } }
         .content .product-overview .banner .product-name h1 {
           text-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
           margin: 0;
           line-height: 1em; }
           @media print {
+            .content .product-overview .banner .product-name h1 {
+              background: none;
+              position: relative;
+              color: black;
+              text-shadow: none; } }
+          @media only screen and (max-width: 420px) {
             .content .product-overview .banner .product-name h1 {
               background: none;
               position: relative;
@@ -830,7 +854,17 @@ a {
               background: none;
               position: relative;
               color: black;
-              text-shadow: none; } }
+              text-shadow: none; }
+              .content .product-overview .banner .product-name h3 a {
+                color: black; } }
+          @media only screen and (max-width: 420px) {
+            .content .product-overview .banner .product-name h3 {
+              background: none;
+              position: relative;
+              color: black;
+              text-shadow: none; }
+              .content .product-overview .banner .product-name h3 a {
+                color: black; } }
     .content .product-overview .nobanner {
       min-height: 0;
       position: relative; }
@@ -1196,9 +1230,12 @@ section header {
           font-size: 13px; }
         .products .type-product .setup table td {
           font-size: 17px; }
-  .products .country, .products .categorization {
+  .products .country, .products .categorization, .products .licenses {
     text-transform: uppercase;
     font-weight: 700; }
+  @media only screen and (max-width: 420px) {
+    .products .licenses {
+      display: none; } }
   .products p.categorization {
     margin-top: 0; }
   .products .fulldetailslink {

@@ -228,11 +228,17 @@
 			
 	}
 
-	.country, .categorization {
+	.country, .categorization, .licenses {
 		// font-family: $subheading-font;
 		text-transform: uppercase;
 		// letter-spacing:2px;
-		font-weight: 700;
+		font-weight: 700;		
+	}
+
+	.licenses {
+		@include respond-to(phone) {
+				display: none;
+		}
 	}
 
 	p.categorization {

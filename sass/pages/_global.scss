@@ -270,6 +270,10 @@ a {
 			@include respond-to(largetablet) {
 				min-height: 0px;
 			}
+			@include respond-to(phone) {
+				min-height: 0;
+				position: relative;
+			}
 			
 			@include respond-to(print) {
 				min-height: 0;
@@ -287,10 +291,13 @@ a {
 					width: 100%;
 					height: auto;
 				}
-
+				@include respond-to(phone) {
+					display: none;
+				}
 				@include respond-to(print) {
 					display: none;
 				}
+
 			}
 			
 			.product-name {
@@ -310,6 +317,22 @@ a {
 					text-shadow: none;
 				}
 
+				@include respond-to(phone) {
+					background: none;
+					position: relative;
+					color: black;
+					text-shadow: none;
+
+					h1 {
+						font-size: 36px;
+					}
+
+					h3 {
+						color: black;
+						text-shadow: none;
+					}
+				}
+
 				h1 {
 					text-shadow: 0 0 10px rgba(0,0,0,.9);
 					margin: 0;
@@ -321,7 +344,12 @@ a {
 						color: black;
 						text-shadow: none;
 					}
-
+					@include respond-to(phone) {
+						background: none;
+						position: relative;
+						color: black;
+						text-shadow: none;
+					}
 				}
 				h3 {
 					text-shadow: 0 0 10px rgba(0,0,0,.9);
@@ -337,6 +365,18 @@ a {
 						position: relative;
 						color: black;
 						text-shadow: none;
+						a {
+							color: black;
+						}
+					}
+					@include respond-to(phone) {
+						background: none;
+						position: relative;
+						color: black;
+						text-shadow: none;
+						a {
+							color: black;
+						}
 					}
 
 				}
