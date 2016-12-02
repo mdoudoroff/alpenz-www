@@ -1107,11 +1107,31 @@ section header {
   margin-bottom: 0;
   padding: 0.5em;
   background-color: #edece8; }
+.producerSetup h3 {
+  margin-top: 0.5em;
+  margin-bottom: 0; }
 .producerSetup p {
   margin-bottom: 0.5em; }
 .producerSetup .setup {
   margin-top: 0;
   margin-bottom: 0; }
+.producerSetup .setup2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "myriad-pro-condensed", Georgia, Times, serif; }
+  .producerSetup .setup2 div {
+    display: inline-block;
+    margin: 1px;
+    background: #edece8;
+    padding: 1px 0.5em;
+    font-weight: bold; }
+    .producerSetup .setup2 div .fieldname {
+      text-transform: uppercase;
+      display: block;
+      color: #000000;
+      font-weight: normal; }
+  .producerSetup .setup2 div.sku {
+    background-color: #dddcd8; }
 
 .products {
   overflow: hidden;

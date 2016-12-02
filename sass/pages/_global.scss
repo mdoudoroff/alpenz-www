@@ -845,6 +845,11 @@ section header {
 		padding: 0.5em;
 		background-color: $off-grey;
 	}
+
+	h3 {
+		margin-top: 0.5em;
+		margin-bottom: 0;
+	}
 	p {
 		margin-bottom: 0.5em;
 	}
@@ -852,5 +857,33 @@ section header {
 		margin-top: 0;
 		margin-bottom: 0;
 	}
+
+	.setup2 {
+		margin-top: 0;
+		margin-bottom: 0;
+		font-family: $subheading-font;
+
+		div {
+			display: inline-block;
+			margin: 1px;
+			background: $off-grey;
+			padding: 1px 0.5em;
+			font-weight: bold;
+
+			.fieldname {
+				text-transform: uppercase;
+				display:block;
+				color: $black;
+				font-weight: normal;
+			}
+		}
+
+		div.sku {
+			background-color: $off-grey-dark;
+		}
+
+	}
+
+
 }
 
