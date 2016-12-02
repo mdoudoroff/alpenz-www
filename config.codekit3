@@ -13861,6 +13861,12 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/setup.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/setup.html",
+		"oF": 0
+		},
 	"\/subcategory-.html": {
 		"ft": 8192,
 		"oA": 2,

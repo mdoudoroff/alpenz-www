@@ -1102,6 +1102,17 @@ section header {
   width: 200px;
   padding: 0.25em 1em; }
 
+.producerSetup h2 {
+  margin-top: 1em;
+  margin-bottom: 0;
+  padding: 0.5em;
+  background-color: #edece8; }
+.producerSetup p {
+  margin-bottom: 0.5em; }
+.producerSetup .setup {
+  margin-top: 0;
+  margin-bottom: 0; }
+
 .products {
   overflow: hidden;
   margin: 0 0 20px 0;

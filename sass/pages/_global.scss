@@ -833,3 +833,24 @@ section header {
 	width: 200px;
 	padding: 0.25em 1em;
 }
+
+
+// setup page
+
+.producerSetup {
+
+	h2 {
+		margin-top: 1em;
+		margin-bottom: 0;
+		padding: 0.5em;
+		background-color: $off-grey;
+	}
+	p {
+		margin-bottom: 0.5em;
+	}
+	.setup {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}
+
