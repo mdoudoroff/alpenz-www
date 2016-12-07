@@ -17,15 +17,13 @@ jQuery(document).ready(function() {
 		searchResults.hide();
 
 		if (searchStr.length > 1) {
-			$.getJSON('http://localhost:6543/search/'+searchStr,function(msg) {
+			$.getJSON('/search/'+searchStr,function(msg) {
 
 				window.console.log(msg);
 
 				searchResults.empty();
 
 				if (msg.length>0) {
-
-					window.console.log('boom!');
 
 					// list results
 					for (var i = 0; i < msg.length; i++) {
