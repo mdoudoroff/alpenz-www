@@ -1265,9 +1265,11 @@ section header {
   .products .country, .products .categorization, .products .licenses {
     text-transform: uppercase;
     font-weight: 700; }
-  @media only screen and (max-width: 420px) {
-    .products .licenses {
-      display: none; } }
+  .products .licenses {
+    display: none; }
+    @media only screen and (max-width: 420px) {
+      .products .licenses {
+        display: none; } }
   .products p.categorization {
     margin-top: 0; }
   .products .fulldetailslink {

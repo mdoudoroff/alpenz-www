@@ -236,6 +236,7 @@
 	}
 
 	.licenses {
+		display: none;
 		@include respond-to(phone) {
 				display: none;
 		}
