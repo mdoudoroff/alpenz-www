@@ -822,6 +822,12 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/imagery.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/imagery.html",
+		"oF": 0
+		},
 	"\/images\/.mostrecent.pickle": {
 		"ft": 8192,
 		"oA": 2,

@@ -887,3 +887,24 @@ section header {
 
 }
 
+// imagery.html
+
+#imageryReport .thumbnail {
+}
+#imageryReport .thumbnail img {
+	height: 250px;
+	float: right;
+}
+#imageryReport h2 {
+	margin-top: 1em;
+
+}
+#imageryReport .thumbnail {
+	margin-bottom: 1em;
+	max-width: 800px;
+}
+#imageryReport .thumbnail img.wide {
+	height: auto;
+	width: 250px
+}
+
