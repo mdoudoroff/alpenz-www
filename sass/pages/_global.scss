@@ -887,6 +887,9 @@ section header {
 
 }
 
+
+
+
 // imagery.html
 
 #imageryReport .thumbnail {
@@ -908,3 +911,23 @@ section header {
 	width: 250px
 }
 
+
+// recipe summary page
+
+.recipeSummaries {
+	max-width: 600px;
+}
+
+.recipeSummaries td {
+	vertical-align: bottom;
+	border-bottom: 1em solid white;
+}
+
+td.combo, td.protocol, td.vessel {
+	text-align: center;
+	min-width: 54px;
+}
+
+td.combo {
+	min-width: 108px;
+}

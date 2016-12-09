@@ -1149,6 +1149,20 @@ section header {
   height: auto;
   width: 250px; }
 
+.recipeSummaries {
+  max-width: 600px; }
+
+.recipeSummaries td {
+  vertical-align: bottom;
+  border-bottom: 1em solid white; }
+
+td.combo, td.protocol, td.vessel {
+  text-align: center;
+  min-width: 54px; }
+
+td.combo {
+  min-width: 108px; }
+
 .products {
   overflow: hidden;
   margin: 0 0 20px 0;
