@@ -527,17 +527,30 @@ a {
 	
 	.recipeFull {
 
+		background-color: $off-grey;
+		padding: 1em;
+		max-width: 480px;
+
 		line-height: 1.0;
 		margin-bottom: 2em;
 		font-size: 100%;
 
 		p {
-			
+			margin-bottom: 1em;
 		}
 
 		.measure {
 			margin-left: 1.5em;
 		}
+
+		@include respond-to(phone) {
+
+			h1 {
+				font-size: 24px;
+			}
+
+		}
+
 	}
 	
 
@@ -930,4 +943,10 @@ td.combo, td.protocol, td.vessel {
 
 td.combo {
 	min-width: 108px;
+}
+
+.mainalt {
+	width: 100%;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
 }

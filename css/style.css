@@ -936,11 +936,19 @@ a {
       .content div.recipes .recipe p:last-child {
         margin: 0; }
   .content .recipeFull {
+    background-color: #edece8;
+    padding: 1em;
+    max-width: 480px;
     line-height: 1.0;
     margin-bottom: 2em;
     font-size: 100%; }
+    .content .recipeFull p {
+      margin-bottom: 1em; }
     .content .recipeFull .measure {
       margin-left: 1.5em; }
+    @media only screen and (max-width: 420px) {
+      .content .recipeFull h1 {
+        font-size: 24px; } }
   .content .main {
     width: 732px;
     float: right;
@@ -1162,6 +1170,11 @@ td.combo, td.protocol, td.vessel {
 
 td.combo {
   min-width: 108px; }
+
+.mainalt {
+  width: 100%;
+  padding-left: 0.5em;
+  padding-right: 0.5em; }
 
 .products {
   overflow: hidden;
