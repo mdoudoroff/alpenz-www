@@ -307,34 +307,7 @@ em, i {
     top: 0;
     left: 0;
     z-index: 1000;
-    opacity: .95;
-    /*
-    h1,
-    .logo {
-    	top: 12px;
-    	left: 15px;
-    	width: ($logowidth / 2);
-    	height: ($logoheight / 2);
-    	
-    	a {
-    		background-size: ($logowidth / 2) ($logoheight / 2);
-    	}
-    }
-    ul {
-    	
-    	li {
-    		line-height: 50px;
-    		
-    		ul {
-    			line-height: 40px;
-    			
-    			li {
-    				line-height: 40px;
-    			}
-    		}
-    	}
-    }
-    */ }
+    opacity: .95; }
 
 .navigation {
   width: 100%;
@@ -703,13 +676,16 @@ a {
     margin: 0 0 10px 0; }
     @media only screen and (max-width: 420px) {
       .content h1 {
-        font-size: 36px;
+        font-size: 24px;
         margin: 0 0 12px 0; } }
   .content h2 {
     font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
     font-size: 22px;
     font-weight: 400;
     margin: 0 0 24px 0; }
+    @media only screen and (max-width: 420px) {
+      .content h2 {
+        font-size: 20px; } }
   .content h3 {
     font-family: "myriad-pro-condensed", Georgia, Times, serif;
     font-size: 16px;
@@ -822,8 +798,6 @@ a {
             position: relative;
             color: black;
             text-shadow: none; }
-            .content .product-overview .banner .product-name h1 {
-              font-size: 36px; }
             .content .product-overview .banner .product-name h3 {
               color: black;
               text-shadow: none; } }
@@ -874,8 +848,6 @@ a {
         position: relative;
         color: black;
         text-shadow: none; }
-        .content .product-overview .nobanner .product-name h1 {
-          font-size: 36px; }
         .content .product-overview .nobanner .product-name h3 {
           color: black;
           text-shadow: none; }
@@ -1385,7 +1357,7 @@ td.combo {
     max-width: 510px; }
     @media only screen and (max-width: 420px) {
       .vitals .description {
-        max-width: 70%; } }
+        max-width: 75%; } }
   .vitals .duplex {
     float: left;
     margin-left: 1em;

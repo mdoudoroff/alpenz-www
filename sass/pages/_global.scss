@@ -142,7 +142,7 @@ a {
 		// 	font-size: 52px;
 		// }
 		@include respond-to(phone) {
-			font-size: 36px;
+			font-size: 24px;
 			margin: 0 0 12px 0;
 		}
 	}
@@ -151,6 +151,10 @@ a {
 		font-size: 22px;
 		font-weight: 400;
 		margin: 0 0 24px 0;
+
+		@include respond-to(phone) {
+			font-size: 20px;
+		}
 	}
 	h3 {
 		font-family: $subheading-font;
@@ -324,7 +328,7 @@ a {
 					text-shadow: none;
 
 					h1 {
-						font-size: 36px;
+						// font-size: 36px;
 					}
 
 					h3 {
@@ -394,7 +398,7 @@ a {
 				text-shadow: none;
 
 				h1 {
-					font-size: 36px;
+					// font-size: 36px;
 				}
 
 				h3 {
