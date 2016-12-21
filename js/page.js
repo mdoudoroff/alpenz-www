@@ -12,6 +12,11 @@ jQuery(document).ready(function() {
 		$('#searchOverlay').show();
 	});
 
+	$('#invokeSearchOverlayMobile').click(function() {
+		$('#regularContent').hide();
+		$('#searchOverlay').show();
+	});
+
 	$('#dismissSearchOverlay').click(function() {
 		$('#regularContent').show();
 		$('#searchOverlay').hide();

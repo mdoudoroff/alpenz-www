@@ -180,6 +180,15 @@ em, i {
       .header .toggle {
         line-height: 40px;
         display: block; } }
+  .header #invokeSearchOverlayMobile {
+    display: none;
+    cursor: pointer; }
+    @media only screen and (max-width: 420px) {
+      .header #invokeSearchOverlayMobile {
+        display: block;
+        position: absolute;
+        right: 12px;
+        top: 12px; } }
   .header ul {
     display: block;
     font-family: "myriad-pro-condensed", Georgia, Times, serif;
