@@ -931,6 +931,55 @@ section header {
 
 // recipe summary page
 
+#recipefilters {
+	background-color: $off-grey;
+	padding: 0.5em;
+	width: 270px;
+	float: left;
+
+	@include respond-to(phone) {
+		width: 100%;
+
+		overflow: hidden;
+		max-height: 4.25em;
+		border-bottom: 2px solid black;
+		position: relative;
+	    transition: max-height 1s;
+
+	}
+}
+
+#recipeFiltersMoreButton {
+	display: none;
+
+	@include respond-to(phone) {
+		display: block;
+		font-size: 75%;
+		border: 2px solid black;
+		background-color: white;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		width: 200px;
+		padding: 0.25em 1em;
+	}
+}
+
+
+#recipeResultsBlock {
+	margin-left: 290px;
+
+	@include respond-to(phone) {
+		margin-left: 0;
+	}
+
+}
+
+#matchesAnnotation {
+	font-weight: bold;
+	margin-top: 1em;
+}
+
 .recipeSummaries {
 	max-width: 600px;
 }
