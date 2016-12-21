@@ -71,11 +71,6 @@
 
 }
 
-.searchBar {
-	text-align: center;
-	margin-bottom: 1em;
-}
-
 .typeBrowserSection {
 	margin-bottom: 1em;
 	line-height: 2.0;
@@ -99,6 +94,29 @@
 	position: absolute;
 	transform-origin: left top 0;
 	line-height: 1.0;
+}
+
+#searchOverlay {
+	padding: 1em;
+	background-color: $off-grey;
+	width: 100%;
+	max-width: 640px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 2000px;
+}
+
+#dismissSearchOverlay {
+	cursor: pointer;
+	position: absolute;
+	right: 1em;
+	top: 1em;
+}
+
+.searchBar {
+	text-align: center;
+	margin-bottom: 1em;
 }
 
 #searchResults {

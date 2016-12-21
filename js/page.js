@@ -7,6 +7,16 @@ var searchPrompt = '';
 
 jQuery(document).ready(function() {
 
+	$('#invokeSearchOverlay').click(function() {
+		$('#regularContent').hide();
+		$('#searchOverlay').show();
+	});
+
+	$('#dismissSearchOverlay').click(function() {
+		$('#regularContent').show();
+		$('#searchOverlay').hide();
+	});
+
 	// dynamic search binding (keyup-based)
 	$('#searchBox').keyup(function() {
 		
