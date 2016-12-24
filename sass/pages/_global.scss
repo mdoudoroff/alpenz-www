@@ -239,7 +239,7 @@ a {
 		float: right;
 		
 		@include respond-to(phone) {
-			font-size: 80%;
+			font-size: 12px;
 		}
 
 		@include respond-to(print) {
@@ -697,7 +697,7 @@ a {
 
 
 #productSummaryContainer {
-	margin: 0.5em 0.5em;
+	margin: 0.5em 0 0.5em 0.5em;
 }
 
 section header {
@@ -772,10 +772,6 @@ section header {
 
 }
 
-.expandable {
-
-}
-
 
 // home page stuff
 
@@ -838,8 +834,11 @@ section header {
 }
 
 .morebutton {
+	font-family: myriad-pro-condensed, Georgia, Times, serif;
+	text-transform: uppercase;
+	font-weight: bold;
 	display: block;
-	font-size: 75%;
+	font-size: 80%;
 	border: 2px solid black;
 	background-color: white;
 	text-align: center;
@@ -849,6 +848,10 @@ section header {
 	margin-right: auto;
 	width: 200px;
 	padding: 0.25em 1em;
+
+	@include respond-to(phone) {
+		font-size: 12px;
+	}
 }
 
 

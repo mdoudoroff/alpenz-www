@@ -36,24 +36,15 @@
 
 	}
 
-	p.stats {
-		// font-size: 100%;
-		line-height: 1.4;
-
-		@include respond-to(phone) {
-			// font-size: 80%;
-		}
-	}
-
-	.country, .categorization {
-		// font-family: $subheading-font;
-		text-transform: uppercase;
-		// letter-spacing:2px;
-		font-weight: 700;
-	}
-
 	p.categorization {
-		margin-top:0;
+
+		margin-top: 0.25em;
+
+		// text-transform: uppercase;
+		// font-weight: 700;		
+
+		font-size: 90%;
+
 	}
 
 	.highlights {
@@ -171,6 +162,7 @@
 			float: left;
 			width: 46%;
 			margin-left: 1em;
+			height: 160px;
 		}
 
 	}

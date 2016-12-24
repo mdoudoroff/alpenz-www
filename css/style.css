@@ -766,7 +766,7 @@ a {
     float: right; }
     @media only screen and (max-width: 420px) {
       .content .catalogue {
-        font-size: 80%; } }
+        font-size: 12px; } }
     @media print {
       .content .catalogue {
         display: none; } }
@@ -1007,7 +1007,7 @@ a {
         display: none; } }
 
 #productSummaryContainer {
-  margin: 0.5em 0.5em; }
+  margin: 0.5em 0 0.5em 0.5em; }
 
 section header {
   margin: 0 0.5em; }
@@ -1096,8 +1096,11 @@ section header {
   transition: max-height 1s; }
 
 .morebutton {
+  font-family: myriad-pro-condensed, Georgia, Times, serif;
+  text-transform: uppercase;
+  font-weight: bold;
   display: block;
-  font-size: 75%;
+  font-size: 80%;
   border: 2px solid black;
   background-color: white;
   text-align: center;
@@ -1107,6 +1110,9 @@ section header {
   margin-right: auto;
   width: 200px;
   padding: 0.25em 1em; }
+  @media only screen and (max-width: 420px) {
+    .morebutton {
+      font-size: 12px; } }
 
 .producerSetup h2 {
   margin-top: 1em;
@@ -1213,9 +1219,12 @@ td.combo {
 
 .products {
   overflow: hidden;
-  margin: 0 0 20px 0;
+  margin: 0 0 1em 0;
   list-style-type: none;
   padding: 0; }
+  @media only screen and (max-width: 420px) {
+    .products {
+      margin: 0 0 0 0; } }
   .products .type-product {
     padding: 0;
     list-style-type: none;
@@ -1258,25 +1267,29 @@ td.combo {
       box-sizing: border-box;
       padding: 0 0;
       margin-right: 10px;
-      width: 360px; }
+      width: 480px; }
       @media only screen and (max-width: 420px) {
         .products .type-product .product_text {
-          width: 75%;
+          width: 100%;
           padding: 0;
           margin: 0 0 20px 0; } }
-      .products .type-product .product_text .product_description p:last-child {
-        margin-bottom: 0; }
+      .products .type-product .product_text .product_description {
+        max-width: 360px; }
+        .products .type-product .product_text .product_description p:last-child {
+          margin-bottom: 0; }
       .products .type-product .product_text h2 {
         font-weight: bold;
         margin: 0; }
       .products .type-product .product_text h3 {
         font-size: 11px;
         color: #999; }
+      .products .type-product .product_text p {
+        margin-top: 0.25em; }
     .products .type-product .bottle {
       -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
-      float: left;
+      float: right;
       text-align: center;
       width: 120px;
       height: 230px;
@@ -1286,6 +1299,7 @@ td.combo {
         .products .type-product .bottle {
           min-width: 60px;
           width: 12.5%;
+          float: right;
           height: auto; } }
       .products .type-product .bottle img {
         height: 200px;
@@ -1339,16 +1353,19 @@ td.combo {
           font-size: 13px; }
         .products .type-product .setup table td {
           font-size: 17px; }
-  .products .country, .products .categorization, .products .licenses {
+  .products p.categorization {
+    margin-top: 0.25em;
     text-transform: uppercase;
-    font-weight: 700; }
+    font-weight: 700;
+    font-size: 90%; }
+    @media only screen and (max-width: 420px) {
+      .products p.categorization {
+        font-size: 80%; } }
   .products .licenses {
     display: none; }
     @media only screen and (max-width: 420px) {
       .products .licenses {
         display: none; } }
-  .products p.categorization {
-    margin-top: 0; }
   .products .fulldetailslink {
     display: inline-block;
     text-transform: uppercase;
@@ -1357,10 +1374,13 @@ td.combo {
 
 .subcatMenu {
   text-align: center;
-  margin: 1em;
-  font-size: 12px; }
+  margin: 1em; }
   .subcatMenu a {
     margin: 0.25em; }
+  @media only screen and (max-width: 420px) {
+    .subcatMenu .button {
+      font-size: 13px;
+      font-weight: bold; } }
 
 .clusterentry {
   margin-top: 0.5em;
@@ -1402,13 +1422,9 @@ td.combo {
       margin-right: 15px; }
   .vitals .description p {
     line-height: 1.4; }
-  .vitals p.stats {
-    line-height: 1.4; }
-  .vitals .country, .vitals .categorization {
-    text-transform: uppercase;
-    font-weight: 700; }
   .vitals p.categorization {
-    margin-top: 0; }
+    margin-top: 0.25em;
+    font-size: 90%; }
   .vitals .highlights {
     margin: 0;
     padding: 1em;
@@ -1483,7 +1499,8 @@ td.combo {
       .vitals .context {
         float: left;
         width: 46%;
-        margin-left: 1em; } }
+        margin-left: 1em;
+        height: 160px; } }
 
 .setup {
   clear: both;

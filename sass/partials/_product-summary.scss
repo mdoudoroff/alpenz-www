@@ -1,10 +1,15 @@
 
 .products {
 	overflow: hidden;
-	margin: 0 0 20px 0;
+	margin: 0 0 1em 0;
 	list-style-type: none;
 	padding: 0;
 	
+	@include respond-to(phone) {
+		margin: 0 0 0 0;
+	}
+
+
 	.type-product {
 		padding: 0;
 		list-style-type: none;
@@ -61,34 +66,17 @@
 			padding: 0 0;
 			margin-right: 10px;
 			
-			width: 360px;
+			width: 480px;
 
 			@include respond-to(phone) {
-				width: 75%;
+				width: 100%;
 				padding: 0;
 				margin: 0 0 20px 0;
 			}
-			// @include respond-to(smalltablet) {
-			// 	// width: 360px;
-			// 	// padding: 24px 0;
-
-			// 	width: 50%;
-			// 	padding: 0;
-			// 	margin: 0 0 20px 0;
-
-			// }
-			// @include respond-to(largetablet) {
-			// 	width: 360px;
-			// }
-			// @include respond-to(widescreen) {
-			// 	width: 450px;
-			// }
-
-			@include respond-to(print) {
-				
-			}
 			
 			.product_description {
+
+				max-width: 360px;
 				
 				p:last-child {
 					margin-bottom: 0;
@@ -104,16 +92,14 @@
 				color: #999;
 			}
 			p {
-
-				// font-size: 12px;
-				// line-height: 14px;
-				
+				// special summary page behavior
+				margin-top: 0.25em;
 			}
 		}
 		
 		.bottle {
 			@include box-sizing(border-box);
-			float: left;
+			float: right;
 			text-align: center;
 			width: 120px;
 
@@ -125,11 +111,10 @@
 			@include respond-to(phone) {
 				min-width: 60px;
 				width: 12.5%;
-				height: auto
+				float: right;
+				height: auto;
 			}
 
-			a {
-			}
 			img {
 
 				height: 200px;
@@ -185,7 +170,7 @@
 		p {
 			width: 100%;
 			margin: 10px 0 0 0;
-			// line-height: 20px;
+
 			@include box-sizing(border-box);
 			text-align: left;
 			
@@ -228,11 +213,18 @@
 			
 	}
 
-	.country, .categorization, .licenses {
-		// font-family: $subheading-font;
+	p.categorization {
+
+		margin-top: 0.25em;
+
 		text-transform: uppercase;
-		// letter-spacing:2px;
 		font-weight: 700;		
+
+		font-size: 90%;
+
+		@include respond-to(phone) {
+			font-size: 80%;
+		}
 	}
 
 	.licenses {
@@ -240,10 +232,6 @@
 		@include respond-to(phone) {
 				display: none;
 		}
-	}
-
-	p.categorization {
-		margin-top:0;
 	}
 
 	.fulldetailslink {
@@ -259,7 +247,7 @@
 .subcatMenu {
 	text-align: center;
 	margin: 1em;
-	font-size: 12px;
+
 	// font-weight: 700;
 
 	a {
@@ -272,6 +260,16 @@
 
 
 	}
+
+	.button {
+
+		@include respond-to(phone) {
+			font-size: 13px;
+			font-weight: bold;
+		}
+		
+	}
+
 }
 
 .clusterentry {
