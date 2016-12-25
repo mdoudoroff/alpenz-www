@@ -834,6 +834,14 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/gfx\/dismiss.png": {
+		"ft": 32768,
+		"iS": 1362,
+		"oA": 1,
+		"oAP": "\/gfx\/dismiss.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/gfx\/glass-cocktail-alt.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -973,6 +981,14 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/gfx\/magnifying-glass.png": {
+		"ft": 32768,
+		"iS": 1685,
+		"oA": 1,
+		"oAP": "\/gfx\/magnifying-glass.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/gfx\/method-blend.svg": {
 		"ft": 2097152,

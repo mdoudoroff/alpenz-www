@@ -11,6 +11,12 @@
     -webkit-transition: opacity .25s ease-in-out;
 
 }
+
+#dismissMenu {
+	float: right;
+	margin-right: 1em;
+}
+
 .sidebar2 {
 	display: none;
 	position: absolute;
@@ -22,6 +28,24 @@
 	width: 360px;
 	left:0px;
 	top: 0px;
+
+	@include respond-to(phone) {
+		width: 100%;
+	}
+}
+
+#sidebarAdditionalLinks {
+
+	border-top: 1px solid black;
+	text-transform: uppercase;
+
+	li {
+		margin-left: 0.75em;
+		border-bottom: 1px solid $off-grey-dark;
+		font-weight: 700;
+		line-height: 2.0;
+	}
+
 }
 
 #sidebar-menu {
@@ -72,6 +96,8 @@
 }
 
 .typeBrowserSection {
+	clear: both;
+	margin-top: 1em;
 	margin-bottom: 1em;
 	line-height: 2.0;
 	text-transform: uppercase;

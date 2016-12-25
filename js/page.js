@@ -81,6 +81,10 @@ jQuery(document).ready(function() {
 		$("#modal").toggle();
 		$(".sidebar2").toggle();
 	});
+	$("#dismissMenu").click(function() {
+		$("#modal").toggle();
+		$(".sidebar2").toggle();
+	});
 
 	$(".morebutton").click(function() {
 		var target = $(this).prev();
