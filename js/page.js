@@ -44,9 +44,9 @@ jQuery(document).ready(function() {
 					for (var i = 0; i < msg.length; i++) {
 
 						if (msg[i].icons) {
-							searchResults.append($('<div class="match">'+msg[i].icons+'<p><a href="'+msg[i].url+'">'+msg[i].name+'</a><br />'+msg[i].summary+'</p></div>'));
+							searchResults.append($('<div class="match"><div class="icons">'+msg[i].icons+'</div><div class="summary"><p><a href="'+msg[i].url+'">'+msg[i].name+'</a><br />'+msg[i].summary+'</p></div></div>'));
 						} else {
-							searchResults.append($('<div class="match"><p><a href="'+msg[i].url+'">'+msg[i].name+'</a><br />'+msg[i].summary+'</p></div>'));	
+							searchResults.append($('<div class="match"><div class="summary"><p><a href="'+msg[i].url+'">'+msg[i].name+'</a><br />'+msg[i].summary+'</p></div></div>'));	
 						}
 						
 					}
