@@ -34,7 +34,7 @@ jQuery(document).ready(function() {
 		if (searchStr.length > 1) {
 			$.getJSON('/search/'+searchStr,function(msg) {
 
-				window.console.log(msg);
+				// window.console.log(msg);
 
 				searchResults.empty();
 
@@ -42,7 +42,13 @@ jQuery(document).ready(function() {
 
 					// list results
 					for (var i = 0; i < msg.length; i++) {
-						searchResults.append($('<p><a href="'+msg[i].url+'">'+msg[i].name+'</a><br />'+msg[i].summary+'</p>'));
+
+						if (msg[i].icons) {
+							searchResults.append($(msg[i].icons+'<p><a href="'+msg[i].url+'">'+msg[i].name+'</a><br />'+msg[i].summary+'</p>'));
+						} else {
+							searchResults.append($('<p><a href="'+msg[i].url+'">'+msg[i].name+'</a><br />'+msg[i].summary+'</p>'));	
+						}
+						
 					}
 					searchResults.show();
 				}
