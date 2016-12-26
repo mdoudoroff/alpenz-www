@@ -598,7 +598,8 @@ em, i {
     display: table-row; }
     #searchResults .match .icons {
       display: table-cell;
-      vertical-align: bottom; }
+      vertical-align: bottom;
+      width: 108px; }
     #searchResults .match .summary {
       display: table-cell;
       vertical-align: bottom; }
