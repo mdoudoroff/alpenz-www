@@ -149,8 +149,12 @@
 	padding: 1em;
 	display: none; //hidden by default
 
-	p {
+	.match {
 		padding: 0.25em 0;
 		border-top: 1px solid $off-grey-dark;
+
+		img {
+			float: left;
+		}
 	}
 }

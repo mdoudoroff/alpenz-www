@@ -592,9 +592,11 @@ em, i {
 #searchResults {
   padding: 1em;
   display: none; }
-  #searchResults p {
+  #searchResults .match {
     padding: 0.25em 0;
     border-top: 1px solid #dddcd8; }
+    #searchResults .match img {
+      float: left; }
 
 .footer {
   width: 100%;
