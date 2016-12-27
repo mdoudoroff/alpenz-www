@@ -597,7 +597,8 @@ em, i {
     border-top: 1px solid #dddcd8; }
     #searchResults .match .icons {
       display: table-cell;
-      width: 108px; }
+      width: 108px;
+      float: left; }
 
 .footer {
   width: 100%;
