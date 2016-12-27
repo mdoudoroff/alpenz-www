@@ -594,7 +594,8 @@ em, i {
   display: none; }
   #searchResults .match {
     padding: 0.25em 0;
-    border-top: 1px solid #dddcd8; }
+    border-top: 1px solid #dddcd8;
+    clear: both; }
     #searchResults .match .icons {
       display: table-cell;
       width: 108px;
