@@ -152,16 +152,12 @@
 	.match {
 		padding: 0.25em 0;
 		border-top: 1px solid $off-grey-dark;
-		display: table-row;
 
 		.icons {
 			display: table-cell;
-			vertical-align: bottom;
 			width: 108px;
 		}
 		.summary {
-			display: table-cell;
-			vertical-align: bottom;
 		}
 	}
 }

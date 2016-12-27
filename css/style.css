@@ -594,15 +594,10 @@ em, i {
   display: none; }
   #searchResults .match {
     padding: 0.25em 0;
-    border-top: 1px solid #dddcd8;
-    display: table-row; }
+    border-top: 1px solid #dddcd8; }
     #searchResults .match .icons {
       display: table-cell;
-      vertical-align: bottom;
       width: 108px; }
-    #searchResults .match .summary {
-      display: table-cell;
-      vertical-align: bottom; }
 
 .footer {
   width: 100%;
