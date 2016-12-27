@@ -600,6 +600,8 @@ em, i {
       display: table-cell;
       width: 108px;
       float: left; }
+      #searchResults .match .icons img {
+        margin-right: 1em; }
 
 .footer {
   width: 100%;
