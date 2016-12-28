@@ -594,6 +594,8 @@ em, i {
   display: none; }
   #searchResults a {
     color: black; }
+  #searchResults a:hover {
+    text-decoration: none; }
   #searchResults .match {
     padding: 0.25em 0;
     border-top: 1px solid #dddcd8;
@@ -606,6 +608,8 @@ em, i {
         margin-right: 1em; }
     #searchResults .match strong {
       font-weight: bold; }
+  #searchResults .match:hover {
+    background-color: #dddcd8; }
 
 .clusterbottle2 {
   display: inline-block;

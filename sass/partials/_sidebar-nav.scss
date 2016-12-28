@@ -153,6 +153,10 @@
 		color: black;
 	}
 
+	a:hover {
+		text-decoration: none;
+	}
+
 	.match {
 		padding: 0.25em 0;
 		border-top: 1px solid $off-grey-dark;
@@ -173,6 +177,10 @@
 		strong {
 			font-weight: bold;
 		}
+	}
+
+	.match:hover {
+		background-color: $off-grey-dark;
 	}
 }
 
