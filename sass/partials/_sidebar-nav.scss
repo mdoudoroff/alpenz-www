@@ -166,3 +166,37 @@
 		}
 	}
 }
+
+.clusterbottle2 {
+	display: inline-block;
+
+	white-space: nowrap;
+
+    position: relative;
+
+	height:60px;
+
+	background-color: green;
+
+	@include respond-to(phone) {
+	}
+
+	img {
+
+		height: 200px;
+		width: auto;
+
+		position: absolute;
+     	transform: translate(0,-130px) rotate(90deg);
+        transform-origin: 30px 170px;
+
+
+	}
+
+}
+
+.clusterbottle2:after {
+     content: "";
+     float: left;
+     margin-top: 100%;
+ }
