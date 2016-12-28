@@ -594,7 +594,8 @@ em, i {
   margin-bottom: 1em; }
 
 #searchBox {
-  width: 100%; }
+  width: 100%;
+  font-size: 16px; }
 
 #searchResults {
   padding: 1em;
