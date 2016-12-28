@@ -603,20 +603,20 @@ em, i {
       #searchResults .match .icons img {
         margin-right: 1em; }
 
-.clusterbottle2 {
+img.clusterbottle2 {
   display: inline-block;
   white-space: nowrap;
   position: relative;
   height: 60px;
   background-color: green; }
-  .clusterbottle2 img {
+  img.clusterbottle2 img {
     height: 200px;
     width: auto;
     position: absolute;
     transform: translate(0, -130px) rotate(90deg);
     transform-origin: 30px 170px; }
 
-.clusterbottle2:after {
+img.clusterbottle2:after {
   content: "";
   float: left;
   margin-top: 100%; }
