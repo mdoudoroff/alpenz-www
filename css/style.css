@@ -578,6 +578,10 @@ em, i {
   margin-left: auto;
   margin-right: auto;
   min-height: 2000px; }
+  @media only screen and (max-width: 420px) {
+    #searchOverlay {
+      padding-left: 0.5em;
+      padding-right: 0.5em; } }
 
 #dismissSearchOverlay {
   cursor: pointer;
@@ -586,8 +590,11 @@ em, i {
   top: 1em; }
 
 .searchBar {
-  text-align: center;
+  text-align: left;
   margin-bottom: 1em; }
+
+#searchBox {
+  width: 100%; }
 
 #searchResults {
   padding: 1em;
@@ -610,6 +617,9 @@ em, i {
       font-weight: bold; }
   #searchResults .match:hover {
     background-color: #dddcd8; }
+  @media only screen and (max-width: 420px) {
+    #searchResults {
+      padding: 0; } }
 
 .clusterbottle2 {
   display: inline-block;
