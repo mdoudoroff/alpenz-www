@@ -49,6 +49,21 @@ function refilterRecipes() {
 
 jQuery(document).ready(function() {
 
+	$('#invokeSearchOverlay').click(function() {
+		$('#regularContent').hide();
+		$('#searchOverlay').show();
+	});
+
+	$('#invokeSearchOverlayMobile').click(function() {
+		$('#regularContent').hide();
+		$('#searchOverlay').show();
+	});
+
+	$('#dismissSearchOverlay').click(function() {
+		$('#regularContent').show();
+		$('#searchOverlay').hide();
+	});
+
 	// dynamic search binding (keyup-based)
 	$('#searchBox').keyup(function() {
 		
@@ -61,7 +76,7 @@ jQuery(document).ready(function() {
 		if (searchStr.length > 1) {
 			$.getJSON('/search/'+searchStr,function(msg) {
 
-				window.console.log(msg);
+				// window.console.log(msg);
 
 				searchResults.empty();
 
@@ -69,7 +84,13 @@ jQuery(document).ready(function() {
 
 					// list results
 					for (var i = 0; i < msg.length; i++) {
-						searchResults.append($('<p><a href="'+msg[i].url+'">'+msg[i].name+'</a><br />'+msg[i].summary+'</p>'));
+
+						if (msg[i].icons) {
+							searchResults.append($('<a href="'+msg[i].url+'"><div class="match"><div class="icons">'+msg[i].icons+'</div><div class="summary"><p><strong>'+msg[i].name+'</strong><br />'+msg[i].summary+'</p></div></div></a>'));
+						} else {
+							searchResults.append($('<a href="'+msg[i].url+'"><div class="match"><div class="summary"><p><strong>'+msg[i].name+'</strong><br />'+msg[i].summary+'</p></div></div></a>'));	
+						}
+						
 					}
 					searchResults.show();
 				}
