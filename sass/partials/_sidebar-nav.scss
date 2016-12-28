@@ -149,6 +149,10 @@
 	padding: 1em;
 	display: none; //hidden by default
 
+	a {
+		color: black;
+	}
+
 	.match {
 		padding: 0.25em 0;
 		border-top: 1px solid $off-grey-dark;
@@ -163,6 +167,11 @@
 			}
 		}
 		.summary {
+		}
+
+
+		strong {
+			font-weight: bold;
 		}
 	}
 }

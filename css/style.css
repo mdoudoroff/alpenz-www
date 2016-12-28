@@ -592,6 +592,8 @@ em, i {
 #searchResults {
   padding: 1em;
   display: none; }
+  #searchResults a {
+    color: black; }
   #searchResults .match {
     padding: 0.25em 0;
     border-top: 1px solid #dddcd8;
@@ -602,6 +604,8 @@ em, i {
       float: left; }
       #searchResults .match .icons img {
         margin-right: 1em; }
+    #searchResults .match strong {
+      font-weight: bold; }
 
 .clusterbottle2 {
   display: inline-block;
