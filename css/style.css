@@ -615,14 +615,14 @@ em, i {
   display: inline-block;
   white-space: nowrap;
   position: relative;
-  height: 60px;
+  height: 50px;
   background-color: green; }
   .clusterbottle2 img {
-    height: 200px;
+    height: 167px;
     width: auto;
     position: absolute;
     transform: translate(0, -130px) rotate(90deg);
-    transform-origin: 30px 170px; }
+    transform-origin: 25px 141px; }
 
 .clusterbottle2:after {
   content: "";
