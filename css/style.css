@@ -606,7 +606,7 @@ em, i {
   #searchResults a:hover {
     text-decoration: none; }
   #searchResults .match {
-    padding: 0.25em 0;
+    padding: 0.25em;
     border-top: 1px solid #dddcd8;
     clear: both; }
     #searchResults .match .icons {
