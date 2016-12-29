@@ -611,8 +611,9 @@ em, i {
     clear: both; }
     #searchResults .match .icons {
       display: table-cell;
-      width: 80px;
-      float: left; }
+      width: 90px;
+      float: right;
+      text-align: right; }
       #searchResults .match .icons img {
         margin-right: 1em; }
     #searchResults .match strong {
@@ -624,18 +625,16 @@ em, i {
       padding: 0; } }
 
 .clusterbottle2 {
-  display: inline-block;
+  display: block;
+  float: right;
   white-space: nowrap;
   position: relative;
-  height: 160px; }
+  width: 90px;
+  height: 160px;
+  text-align: right; }
   .clusterbottle2 img {
     height: 160px;
     width: auto; }
-
-.clusterbottle2:after {
-  content: "";
-  float: left;
-  margin-top: 100%; }
 
 .footer {
   width: 100%;
