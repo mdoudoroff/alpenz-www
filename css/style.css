@@ -616,8 +616,11 @@ em, i {
       text-align: right; }
       #searchResults .match .icons img {
         margin-right: 1em; }
+    #searchResults .match .summary {
+      font-size: 90%; }
     #searchResults .match strong {
-      font-weight: bold; }
+      font-weight: bold;
+      font-size: 100%; }
   #searchResults .match:hover {
     background-color: #dddcd8; }
   @media only screen and (max-width: 420px) {

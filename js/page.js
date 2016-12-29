@@ -42,6 +42,8 @@ jQuery(document).ready(function() {
 
 				if (msg.length>0) {
 
+					searchResluts.append($('<p>'+msg.length+' matches</p>'));
+
 					// list results
 					for (var i = 0; i < msg.length; i++) {
 
