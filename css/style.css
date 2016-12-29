@@ -591,7 +591,8 @@ em, i {
 
 .searchBar {
   text-align: left;
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  margin-top: 1em; }
 
 #searchBox {
   width: 100%;
@@ -626,14 +627,11 @@ em, i {
   display: inline-block;
   white-space: nowrap;
   position: relative;
-  height: 50px;
+  height: 160px;
   background-color: green; }
   .clusterbottle2 img {
-    height: 167px;
-    width: auto;
-    position: absolute;
-    transform: translate(0, -115px) rotate(90deg);
-    transform-origin: 25px 141px; }
+    height: 160px;
+    width: auto; }
 
 .clusterbottle2:after {
   content: "";

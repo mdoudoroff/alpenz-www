@@ -52,13 +52,14 @@ jQuery(document).ready(function() {
 	$('#invokeSearchOverlay').click(function() {
 		$('#regularContent').hide();
 		$('#searchOverlay').show();
+		$('#searchBox').focus();
 	});
 
 	$('#invokeSearchOverlayMobile').click(function() {
 		$('#regularContent').hide();
 		$('#searchOverlay').show();
+		$('#searchBox').focus();
 	});
-
 	$('#dismissSearchOverlay').click(function() {
 		$('#regularContent').show();
 		$('#searchOverlay').hide();

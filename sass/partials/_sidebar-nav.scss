@@ -148,6 +148,7 @@
 .searchBar {
 	text-align: left;
 	margin-bottom: 1em;
+	margin-top: 1em;
 }
 
 #searchBox {
@@ -206,7 +207,8 @@
 
     position: relative;
 
-	height:50px;
+	// height:50px;
+	height: 160px;
 
 	background-color: green;
 
@@ -215,12 +217,12 @@
 
 	img {
 
-		height: 167px;
+		height: 160px;
 		width: auto;
 
-		position: absolute;
-     	transform: translate(0,-115px) rotate(90deg);
-        transform-origin: 25px 141px;
+		// position: absolute;
+     	// transform: translate(0,-115px) rotate(90deg);
+        // transform-origin: 25px 141px;
 
 
 	}
