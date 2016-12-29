@@ -614,8 +614,6 @@ em, i {
       width: 90px;
       float: right;
       text-align: right; }
-      #searchResults .match .icons img {
-        margin-right: 1em; }
     #searchResults .match .summary {
       font-size: 90%; }
     #searchResults .match strong {
