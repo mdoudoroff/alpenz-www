@@ -634,7 +634,8 @@ em, i {
   position: relative;
   width: 90px;
   height: 160px;
-  text-align: right; }
+  text-align: center;
+  background-color: white; }
   .clusterbottle2 img {
     height: 160px;
     width: auto; }
