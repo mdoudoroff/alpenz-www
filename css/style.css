@@ -618,7 +618,7 @@ em, i {
       font-size: 90%; }
     #searchResults .match strong {
       font-weight: bold;
-      font-size: 125%; }
+      font-size: 16px; }
   #searchResults .match:hover {
     background-color: #dddcd8; }
   @media only screen and (max-width: 420px) {
