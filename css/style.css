@@ -611,7 +611,7 @@ em, i {
     clear: both; }
     #searchResults .match .icons {
       display: table-cell;
-      width: 167px;
+      width: 80px;
       float: left; }
       #searchResults .match .icons img {
         margin-right: 1em; }
@@ -627,8 +627,7 @@ em, i {
   display: inline-block;
   white-space: nowrap;
   position: relative;
-  height: 160px;
-  background-color: green; }
+  height: 160px; }
   .clusterbottle2 img {
     height: 160px;
     width: auto; }

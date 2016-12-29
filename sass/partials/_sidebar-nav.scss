@@ -175,7 +175,7 @@
 
 		.icons {
 			display: table-cell;
-			width: 167px;
+			width: 80px;
 			float: left;
 			img {
 				margin-right: 1em;
@@ -210,7 +210,7 @@
 	// height:50px;
 	height: 160px;
 
-	background-color: green;
+	// background-color: green;
 
 	@include respond-to(phone) {
 	}
