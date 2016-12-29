@@ -638,7 +638,8 @@ em, i {
   background-color: white; }
   .clusterbottle2 img {
     height: 160px;
-    width: auto; }
+    width: auto;
+    margin-right: 0; }
 
 .footer {
   width: 100%;
