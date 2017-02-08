@@ -1485,25 +1485,26 @@ td.combo {
       margin-right: 15px; }
   .vitals .description p {
     line-height: 1.4; }
-  .vitals p.categorization {
+  .vitals td.categorization, .vitals th.categorization {
     margin-top: 0.25em;
     font-size: 90%; }
+  .vitals th.categorization {
+    padding-right: 1em;
+    vertical-align: top; }
   .vitals .highlights {
     margin: 0;
     padding: 1em;
-    background-color: #edece8; }
+    background-color: #edece8;
+    margin-bottom: 0.5em; }
     .vitals .highlights li {
       margin-left: 1em; }
   .vitals .description {
     float: left;
     max-width: 510px; }
-    @media only screen and (max-width: 420px) {
-      .vitals .description {
-        max-width: 75%; } }
   .vitals .duplex {
-    float: left;
+    float: right;
     margin-left: 1em;
-    max-width: 250px;
+    max-width: 225px;
     text-align: center; }
     @media only screen and (max-width: 420px) {
       .vitals .duplex {
@@ -1514,7 +1515,7 @@ td.combo {
         padding-top: 1em;
         max-width: none; } }
   .vitals .label {
-    height: 250px;
+    height: 225px;
     margin-bottom: 1em; }
     .vitals .label img {
       height: 100%;
@@ -1528,10 +1529,10 @@ td.combo {
         width: 46%;
         height: 160px; } }
   .vitals .bottle {
-    float: left;
+    float: right;
     width: 150px;
     margin-right: 1em;
-    height: 500px;
+    height: 450px;
     text-align: center; }
     .vitals .bottle img {
       width: auto;
@@ -1551,7 +1552,7 @@ td.combo {
           width: 100%;
           height: auto; } }
   .vitals .context {
-    height: 250px; }
+    height: 225px; }
     .vitals .context img {
       height: 100%;
       width: auto; }
@@ -1592,6 +1593,84 @@ td.combo {
   @media print {
     .setup {
       overflow-x: visible; } }
+
+.artworkCorral {
+  width: 100%;
+  padding-left: 0.5em;
+  padding-right: 0.5em; }
+  @media only screen and (max-width: 420px) {
+    .artworkCorral .artwork2 {
+      columns: 2; } }
+  .artworkCorral .artwork2 figure {
+    display: inline-block;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+    margin-top: 0;
+    padding: 0; }
+  .artworkCorral .artwork2 img {
+    height: 200px;
+    width: auto; }
+    @media only screen and (max-width: 420px) {
+      .artworkCorral .artwork2 img {
+        width: 100%;
+        height: auto; } }
+
+.recipeCorral {
+  width: 100%;
+  padding-left: 0.5em;
+  padding-right: 0.5em; }
+  .recipeCorral table {
+    margin: 1em 0;
+    width: 100%; }
+  .recipeCorral td {
+    vertical-align: top;
+    padding-bottom: 1em;
+    width: 100%; }
+  .recipeCorral .recipe {
+    padding: 0;
+    margin: 0 1em 1em 0;
+    font-size: 11px;
+    vertical-align: top;
+    display: inline-block;
+    width: 15%; }
+    @media only screen and (max-width: 420px) {
+      .recipeCorral .recipe {
+        width: 45%; } }
+    .recipeCorral .recipe h4 a {
+      color: black; }
+    .recipeCorral .recipe h4 {
+      font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 1.0;
+      margin-bottom: 0.5em; }
+    .recipeCorral .recipe p {
+      font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+      font-size: 11px;
+      margin: 0 0 10px 0; }
+      .recipeCorral .recipe p:last-child {
+        margin: 0; }
+
+.mainalt .extendedDescription, .mainalt .categoryDescription {
+  column-count: 2;
+  margin: 1em 0; }
+  @media only screen and (max-width: 420px) {
+    .mainalt .extendedDescription, .mainalt .categoryDescription {
+      column-count: 1; } }
+.mainalt #gmap {
+  width: 473px;
+  float: right;
+  margin-left: 1em; }
+  @media only screen and (max-width: 420px) {
+    .mainalt #gmap {
+      width: 100%;
+      float: none;
+      margin-left: 0; } }
+.mainalt .producerDescription {
+  column-count: 1;
+  margin: 1em 0; }
+.mainalt h3 {
+  clear: both; }
 
 /*************************************/
 /*   

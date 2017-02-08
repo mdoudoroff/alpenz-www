@@ -7,7 +7,7 @@
 		"uuidString": "B5ADC2AB-4759-4D37-B9EB-92E440ECE0B5"
 		}
 	],
-"creatorBuild": "25479",
+"creatorBuild": "25504",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -774,6 +774,22 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/downloads\/Kronan_Swedish_Punsch.kronan-bottle.jpg": {
+		"ft": 16384,
+		"iS": 85216,
+		"oA": 1,
+		"oAP": "\/downloads\/Kronan_Swedish_Punsch.kronan-bottle.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/downloads\/Kronan_Swedish_Punsch.kronan-label.jpg": {
+		"ft": 16384,
+		"iS": 144271,
+		"oA": 1,
+		"oAP": "\/downloads\/Kronan_Swedish_Punsch.kronan-label.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/downloads\/Salers_Gentian_Aperitif.bottle.salers.jpg": {
 		"ft": 16384,
 		"iS": 352777,
@@ -790,27 +806,27 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/downloads\/Tabacal_Dos_Tramontaine_Rancio_IGP.label.TABACAL-DOS.jpg": {
+	"\/downloads\/Tabacal_Dos_Tresmontaine_Rancio_IGP.label.TABACAL-DOS.jpg": {
 		"ft": 16384,
 		"iS": 206195,
 		"oA": 1,
-		"oAP": "\/downloads\/Tabacal_Dos_Tramontaine_Rancio_IGP.label.TABACAL-DOS.jpg",
+		"oAP": "\/downloads\/Tabacal_Dos_Tresmontaine_Rancio_IGP.label.TABACAL-DOS.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/downloads\/Tabacal_Tramontaine_Rancio_IGP.bottle.tabacal.jpg": {
+	"\/downloads\/Tabacal_Tresmontaine_Rancio_IGP.bottle.tabacal.jpg": {
 		"ft": 16384,
 		"iS": 45120,
 		"oA": 1,
-		"oAP": "\/downloads\/Tabacal_Tramontaine_Rancio_IGP.bottle.tabacal.jpg",
+		"oAP": "\/downloads\/Tabacal_Tresmontaine_Rancio_IGP.bottle.tabacal.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/downloads\/Tabacal_Tramontaine_Rancio_IGP.label.tabacal.jpg": {
+	"\/downloads\/Tabacal_Tresmontaine_Rancio_IGP.label.tabacal.jpg": {
 		"ft": 16384,
 		"iS": 251560,
 		"oA": 1,
-		"oAP": "\/downloads\/Tabacal_Tramontaine_Rancio_IGP.label.tabacal.jpg",
+		"oAP": "\/downloads\/Tabacal_Tresmontaine_Rancio_IGP.label.tabacal.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -1306,6 +1322,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/Averell_Damson_Gin.context.averell.jpg": {
+		"ft": 16384,
+		"iS": 45298,
+		"oA": 1,
+		"oAP": "\/images\/Averell_Damson_Gin.context.averell.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/Averell_Damson_Gin.damson-engraving-960x1491.jpg": {
 		"ft": 16384,
 		"iS": 191849,
@@ -1463,6 +1487,14 @@
 		"iS": 131072,
 		"oA": 1,
 		"oAP": "\/images\/Blume_Marillen_Apricot_Eau-de-Vie.blume-marillen-bottle-web.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Blume_Marillen_Apricot_Eau-de-Vie.context.blume-marillen.jpg": {
+		"ft": 16384,
+		"iS": 23593,
+		"oA": 1,
+		"oAP": "\/images\/Blume_Marillen_Apricot_Eau-de-Vie.context.blume-marillen.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -1690,6 +1722,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/Byrrh_Grand_Quinquina.context.byrrh.jpg": {
+		"ft": 16384,
+		"iS": 32236,
+		"oA": 1,
+		"oAP": "\/images\/Byrrh_Grand_Quinquina.context.byrrh.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/Byrrh_Grand_Quinquina.crushing-grapes.jpg": {
 		"ft": 16384,
 		"iS": 91076,
@@ -1746,11 +1786,11 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/Cardamaro_Vino_Amaro.cardamaro-bottle-web.png": {
-		"ft": 32768,
-		"iS": 0,
+	"\/images\/Cardamaro_Vino_Amaro.bottle.cardamaro.jpg": {
+		"ft": 16384,
+		"iS": 45954,
 		"oA": 1,
-		"oAP": "\/images\/Cardamaro_Vino_Amaro.cardamaro-bottle-web.png",
+		"oAP": "\/images\/Cardamaro_Vino_Amaro.bottle.cardamaro.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -2178,14 +2218,6 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/Dolin_Genepy_Des_Alpes_Liqueur.skieurs-200x230.jpg": {
-		"ft": 16384,
-		"iS": 67212,
-		"oA": 1,
-		"oAP": "\/images\/Dolin_Genepy_Des_Alpes_Liqueur.skieurs-200x230.jpg",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/images\/Dolin_Genepy_Des_Alpes_Liqueur.skieurs.jpg": {
 		"ft": 16384,
 		"iS": 109309,
@@ -2399,6 +2431,14 @@
 		"iS": 40640,
 		"oA": 1,
 		"oAP": "\/images\/Espodol_Solera_Garnatxa_dEmporda.bottle.solera-garnatxa.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Espodol_Solera_Garnatxa_dEmporda.context.cellar-at-angle.jpg": {
+		"ft": 16384,
+		"iS": 27960,
+		"oA": 1,
+		"oAP": "\/images\/Espodol_Solera_Garnatxa_dEmporda.context.cellar-at-angle.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -2810,6 +2850,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/Haymans_London_Dry_Gin.context.haymans-london-dry-gin.jpg": {
+		"ft": 16384,
+		"iS": 38948,
+		"oA": 1,
+		"oAP": "\/images\/Haymans_London_Dry_Gin.context.haymans-london-dry-gin.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/Haymans_London_Dry_Gin.haymans-london-dry-bottle-web.png": {
 		"ft": 32768,
 		"iS": 564917,
@@ -2850,11 +2898,11 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/Haymans_Old_Tom_Gin.engraving.jpg": {
+	"\/images\/Haymans_Old_Tom_Gin.context.haymans-old-tom-gin.jpg": {
 		"ft": 16384,
 		"iS": 184281,
 		"oA": 1,
-		"oAP": "\/images\/Haymans_Old_Tom_Gin.engraving.jpg",
+		"oAP": "\/images\/Haymans_Old_Tom_Gin.context.haymans-old-tom-gin.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -2887,6 +2935,14 @@
 		"iS": 454766,
 		"oA": 1,
 		"oAP": "\/images\/Haymans_Sloe_Gin.Closeup_of_blackthorn_aka_sloe_aka_prunus_spinosa_sweden_20050924-960x720.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Haymans_Sloe_Gin.context.haymans-sloe.jpg": {
+		"ft": 16384,
+		"iS": 30827,
+		"oA": 1,
+		"oAP": "\/images\/Haymans_Sloe_Gin.context.haymans-sloe.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -2978,6 +3034,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/John_D._Taylors_Velvet_Falernum.context.falernum.jpg": {
+		"ft": 16384,
+		"iS": 45758,
+		"oA": 1,
+		"oAP": "\/images\/John_D._Taylors_Velvet_Falernum.context.falernum.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/John_D._Taylors_Velvet_Falernum.IMG_0525481.jpg": {
 		"ft": 16384,
 		"iS": 113297,
@@ -3050,6 +3114,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/Kronan_Swedish_Punsch.bottle.kronan.jpg": {
+		"ft": 16384,
+		"iS": 46467,
+		"oA": 1,
+		"oAP": "\/images\/Kronan_Swedish_Punsch.bottle.kronan.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/Kronan_Swedish_Punsch.cries-and-whispers-bergman-960x678.jpg": {
 		"ft": 16384,
 		"iS": 85734,
@@ -3095,14 +3167,6 @@
 		"iS": 35091,
 		"oA": 1,
 		"oAP": "\/images\/Kronan_Swedish_Punsch.kronan-banner.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/Kronan_Swedish_Punsch.kronan-bottle-web.png": {
-		"ft": 32768,
-		"iS": 334347,
-		"oA": 1,
-		"oAP": "\/images\/Kronan_Swedish_Punsch.kronan-bottle-web.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -3159,14 +3223,6 @@
 		"iS": 473005,
 		"oA": 1,
 		"oAP": "\/images\/Kronan_Swedish_Punsch.Stockholm-Detail-of-Swiddes-engraving-1692.-960x728.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/Kronan_Swedish_Punsch.sweden-dining-room-200x230.jpg": {
-		"ft": 16384,
-		"iS": 15131,
-		"oA": 1,
-		"oAP": "\/images\/Kronan_Swedish_Punsch.sweden-dining-room-200x230.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -3274,6 +3330,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/Miro_Extra_Seco_Vermut_de_Reus.context.miro-seco.jpg": {
+		"ft": 16384,
+		"iS": 36072,
+		"oA": 1,
+		"oAP": "\/images\/Miro_Extra_Seco_Vermut_de_Reus.context.miro-seco.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/Miro_Extra_Seco_Vermut_de_Reus.seco-bottle.jpg": {
 		"ft": 16384,
 		"iS": 65536,
@@ -3319,6 +3383,14 @@
 		"iS": 64031,
 		"oA": 1,
 		"oAP": "\/images\/Miro_Rojo_Vermut_de_Reus.rojo-label.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Nux_Alpina_Walnut_Liqueur.context.nux-alpina.jpg": {
+		"ft": 16384,
+		"iS": 21613,
+		"oA": 1,
+		"oAP": "\/images\/Nux_Alpina_Walnut_Liqueur.context.nux-alpina.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -3482,6 +3554,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/Rothman_and_Winter_Creme_de_Violette.context.violette.jpg": {
+		"ft": 16384,
+		"iS": 19906,
+		"oA": 1,
+		"oAP": "\/images\/Rothman_and_Winter_Creme_de_Violette.context.violette.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/Rothman_and_Winter_Creme_de_Violette.creme-de-violette-banner.jpg": {
 		"ft": 16384,
 		"iS": 44905,
@@ -3522,19 +3602,19 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/Rothman_and_Winter_Orchard_Apricot_Liqueur.context.apricot.jpg": {
+		"ft": 16384,
+		"iS": 22616,
+		"oA": 1,
+		"oAP": "\/images\/Rothman_and_Winter_Orchard_Apricot_Liqueur.context.apricot.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/Rothman_and_Winter_Orchard_Apricot_Liqueur.label.orchard750ml.catalogue.png": {
 		"ft": 32768,
 		"iS": 182689,
 		"oA": 1,
 		"oAP": "\/images\/Rothman_and_Winter_Orchard_Apricot_Liqueur.label.orchard750ml.catalogue.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/Rothman_and_Winter_Orchard_Apricot_Liqueur.Marille_orchard-960x724.jpg": {
-		"ft": 16384,
-		"iS": 177210,
-		"oA": 1,
-		"oAP": "\/images\/Rothman_and_Winter_Orchard_Apricot_Liqueur.Marille_orchard-960x724.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -3546,19 +3626,19 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/Rothman_and_Winter_Orchard_Cherry_Liqueur.context.cherry.jpg": {
+		"ft": 16384,
+		"iS": 25258,
+		"oA": 1,
+		"oAP": "\/images\/Rothman_and_Winter_Orchard_Cherry_Liqueur.context.cherry.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/Rothman_and_Winter_Orchard_Cherry_Liqueur.label.orchard.cherrylabelcatalogue.jpg": {
 		"ft": 16384,
 		"iS": 252778,
 		"oA": 1,
 		"oAP": "\/images\/Rothman_and_Winter_Orchard_Cherry_Liqueur.label.orchard.cherrylabelcatalogue.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/Rothman_and_Winter_Orchard_Cherry_Liqueur.old-engraving-catalogue.jpg": {
-		"ft": 16384,
-		"iS": 283929,
-		"oA": 1,
-		"oAP": "\/images\/Rothman_and_Winter_Orchard_Cherry_Liqueur.old-engraving-catalogue.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -3599,14 +3679,6 @@
 		"iS": 69734,
 		"oA": 1,
 		"oAP": "\/images\/Rothman_and_Winter_Orchard_Peach_Liqueur.pfirsichbaum.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/Rothman_and_Winter_Orchard_Peach_Liqueur.stockholm-ice.jpg": {
-		"ft": 16384,
-		"iS": 73686,
-		"oA": 1,
-		"oAP": "\/images\/Rothman_and_Winter_Orchard_Peach_Liqueur.stockholm-ice.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -3663,6 +3735,14 @@
 		"iS": 431576,
 		"oA": 1,
 		"oAP": "\/images\/Royal_Dock_of_Deptford_Navy_Strength_Gin.burroughs-senior-service-960x701.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Royal_Dock_of_Deptford_Navy_Strength_Gin.context.royal-dock.jpg": {
+		"ft": 16384,
+		"iS": 62073,
+		"oA": 1,
+		"oAP": "\/images\/Royal_Dock_of_Deptford_Navy_Strength_Gin.context.royal-dock.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -3794,19 +3874,19 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/Salers_Gentian_Aperitif.context.gentiane-engraving.jpg": {
+		"ft": 16384,
+		"iS": 27776,
+		"oA": 1,
+		"oAP": "\/images\/Salers_Gentian_Aperitif.context.gentiane-engraving.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/Salers_Gentian_Aperitif.gentian-massifcentral.jpg": {
 		"ft": 16384,
 		"iS": 94404,
 		"oA": 1,
 		"oAP": "\/images\/Salers_Gentian_Aperitif.gentian-massifcentral.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/Salers_Gentian_Aperitif.gentiane-engraving.jpg": {
-		"ft": 16384,
-		"iS": 133548,
-		"oA": 1,
-		"oAP": "\/images\/Salers_Gentian_Aperitif.gentiane-engraving.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -3914,6 +3994,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/St._Elizabeth_Allspice_Dram.context.allspice.jpg": {
+		"ft": 16384,
+		"iS": 47394,
+		"oA": 1,
+		"oAP": "\/images\/St._Elizabeth_Allspice_Dram.context.allspice.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/St._Elizabeth_Allspice_Dram.historical_ALLSPICEPIMENTO.jpg": {
 		"ft": 16384,
 		"iS": 70637,
@@ -3930,27 +4018,27 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/Tabacal_Dos_Tramontaine_Rancio_IGP.label.TABACAL-DOS.jpg": {
+	"\/images\/Tabacal_Dos_Tresmontaine_Rancio_IGP.label.TABACAL-DOS.jpg": {
 		"ft": 16384,
 		"iS": 206195,
 		"oA": 1,
-		"oAP": "\/images\/Tabacal_Dos_Tramontaine_Rancio_IGP.label.TABACAL-DOS.jpg",
+		"oAP": "\/images\/Tabacal_Dos_Tresmontaine_Rancio_IGP.label.TABACAL-DOS.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/Tabacal_Tramontaine_Rancio_IGP.bottle.tabacal.jpg": {
+	"\/images\/Tabacal_Tresmontaine_Rancio_IGP.bottle.tabacal.jpg": {
 		"ft": 16384,
 		"iS": 45049,
 		"oA": 1,
-		"oAP": "\/images\/Tabacal_Tramontaine_Rancio_IGP.bottle.tabacal.jpg",
+		"oAP": "\/images\/Tabacal_Tresmontaine_Rancio_IGP.bottle.tabacal.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/Tabacal_Tramontaine_Rancio_IGP.label.tabacal.jpg": {
+	"\/images\/Tabacal_Tresmontaine_Rancio_IGP.label.tabacal.jpg": {
 		"ft": 16384,
 		"iS": 251560,
 		"oA": 1,
-		"oAP": "\/images\/Tabacal_Tramontaine_Rancio_IGP.label.tabacal.jpg",
+		"oAP": "\/images\/Tabacal_Tresmontaine_Rancio_IGP.label.tabacal.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -3986,19 +4074,19 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/The_Black_Tot_Last_Consignment_British_Royal_Naval_Rum.context.Portsmouth-1933.jpg": {
+		"ft": 16384,
+		"iS": 26507,
+		"oA": 1,
+		"oAP": "\/images\/The_Black_Tot_Last_Consignment_British_Royal_Naval_Rum.context.Portsmouth-1933.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/The_Black_Tot_Last_Consignment_British_Royal_Naval_Rum.cup.jpg": {
 		"ft": 16384,
 		"iS": 138797,
 		"oA": 1,
 		"oAP": "\/images\/The_Black_Tot_Last_Consignment_British_Royal_Naval_Rum.cup.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/The_Black_Tot_Last_Consignment_British_Royal_Naval_Rum.Portsmouth-1933.jpg": {
-		"ft": 16384,
-		"iS": 56273,
-		"oA": 1,
-		"oAP": "\/images\/The_Black_Tot_Last_Consignment_British_Royal_Naval_Rum.Portsmouth-1933.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -4090,11 +4178,11 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/Vial-Magneres_Tramontaine_Rancio_Sec.label.VialMagneres.jpg": {
+	"\/images\/Tresmontaine_Puits_sux_Souhaits_Rancio_Sec.label.VialMagneres.jpg": {
 		"ft": 16384,
 		"iS": 115059,
 		"oA": 1,
-		"oAP": "\/images\/Vial-Magneres_Tramontaine_Rancio_Sec.label.VialMagneres.jpg",
+		"oAP": "\/images\/Tresmontaine_Puits_sux_Souhaits_Rancio_Sec.label.VialMagneres.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -4114,11 +4202,11 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/Zirbenz_Stone_Pine_Liqueur_of_the_Alps.cembra.crownfull.-catalogue-960x1120.jpg": {
+	"\/images\/Zirbenz_Stone_Pine_Liqueur_of_the_Alps.context.zirbenz.jpg": {
 		"ft": 16384,
-		"iS": 1078992,
+		"iS": 33459,
 		"oA": 1,
-		"oAP": "\/images\/Zirbenz_Stone_Pine_Liqueur_of_the_Alps.cembra.crownfull.-catalogue-960x1120.jpg",
+		"oAP": "\/images\/Zirbenz_Stone_Pine_Liqueur_of_the_Alps.context.zirbenz.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -10106,16 +10194,34 @@
 		"oAP": "\/product-Other-Tabacal_Dos_Tramontaine_Rancio_IGP.html",
 		"oF": 0
 		},
+	"\/product-Other-Tabacal_Dos_Tresmontaine_Rancio_IGP.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-Other-Tabacal_Dos_Tresmontaine_Rancio_IGP.html",
+		"oF": 0
+		},
 	"\/product-Other-Tabacal_Tramontaine_Rancio_IGP.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/product-Other-Tabacal_Tramontaine_Rancio_IGP.html",
 		"oF": 0
 		},
+	"\/product-Other-Tabacal_Tresmontaine_Rancio_IGP.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-Other-Tabacal_Tresmontaine_Rancio_IGP.html",
+		"oF": 0
+		},
 	"\/product-Other-Terres_des_Templiers_Rancio_Sec.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/product-Other-Terres_des_Templiers_Rancio_Sec.html",
+		"oF": 0
+		},
+	"\/product-Other-Tresmontaine_Puits_sux_Souhaits_Rancio_Sec.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-Other-Tresmontaine_Puits_sux_Souhaits_Rancio_Sec.html",
 		"oF": 0
 		},
 	"\/product-Other-Vial-Magneres_Tramontaine_Rancio_Sec.html": {
@@ -12428,6 +12534,12 @@
 		"oAP": "\/recipes.html",
 		"oF": 0
 		},
+	"\/robots.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/robots.txt",
+		"oF": 0
+		},
 	"\/sass\/.sass-cache\/07f6263b6fb746b489856741e2c45c7a6c00b70c\/_header.scssc": {
 		"ft": 8192,
 		"oA": 1,
@@ -12845,6 +12957,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/setup.html",
+		"oF": 0
+		},
+	"\/sitemap.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sitemap.txt",
 		"oF": 0
 		},
 	"\/subcategory-.html": {
@@ -13582,6 +13700,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
@@ -14121,6 +14243,10 @@
 		"prefer-const": {
 			"active": 0,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
 		"prefer-numeric-literals": {
 			"active": 0,

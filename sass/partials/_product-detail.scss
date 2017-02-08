@@ -36,7 +36,7 @@
 
 	}
 
-	p.categorization {
+	td.categorization, th.categorization {
 
 		margin-top: 0.25em;
 
@@ -47,6 +47,14 @@
 
 	}
 
+	th.categorization {
+		padding-right: 1em;
+		vertical-align: top;
+		@include respond-to(phone) {
+			// display: none;
+		}
+	}
+
 	.highlights {
 		margin: 0;
 		padding: 1em;
@@ -55,6 +63,7 @@
 		li {
 			margin-left: 1em;
 		}
+		margin-bottom: 0.5em;
 	}
 
 	.description {
@@ -66,15 +75,15 @@
 		}
 
 		@include respond-to(phone) {
-			max-width: 75%;
+			// max-width: 75%;
 		}
 
 	}
 
 	.duplex {
-		float:left;
+		float:right;
 		margin-left: 1em;
-		max-width: 250px;
+		max-width: 225px;
 		text-align: center;
 
 		@include respond-to(phone) {
@@ -91,7 +100,8 @@
 		// float: left;
 		// max-width: 200px;
 		// margin-right: 1em;
-		height: 250px;
+		height: 225px;
+
 		img {
 			height: 100%;
 			width: auto;
@@ -112,10 +122,10 @@
 	}
 
 	.bottle {
-		float: left;
+		float: right;
 		width: 150px;
 		margin-right: 1em;
-		height: 500px;
+		height: 450px;
 		text-align: center;
 
 		img {
@@ -146,7 +156,7 @@
 	}
 
 	.context {
-		height: 250px;
+		height: 225px;
 
 		// float:left;
 		img {
@@ -218,3 +228,133 @@
 	}
 }
 
+.artworkCorral {
+	width: 100%;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+
+	.artwork2 {
+
+		@include respond-to(phone) {
+			columns: 2;
+		}
+
+		figure {
+			display: inline-block;
+			margin-right: 0.5em;
+			margin-bottom: 0.5em;
+			margin-top: 0;
+			padding: 0;
+		}
+
+		img {
+			height: 200px;
+			width: auto;
+
+			@include respond-to(phone) {
+				width: 100%;
+				height: auto;
+			}
+		}
+	}
+}
+
+.recipeCorral {
+
+	width: 100%;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+
+
+	table {
+	    // border-spacing: 0.5em;
+	    // border-collapse: separate;
+	    // border-right: none;
+	    // border-left: none;
+	    margin: 1em 0;
+	    width: 100%;
+	}
+	td {
+		vertical-align: top;
+		padding-bottom: 1em;
+		width: 100%;
+
+	}
+
+	.recipe {
+
+		
+		// @include box-sizing(border-box);
+
+		padding: 0;
+		margin: 0 1em 1em 0;
+		font-size: 11px;
+		vertical-align: top;
+		display: inline-block;
+		width: 15%;
+
+		@include respond-to(phone) {
+			width: 45%;
+		}
+
+		// &:nth-child(4n) {
+		// 	margin-right: 0;
+		// }
+
+		h4 a {
+			color: black;
+		}
+
+		h4 {
+			font-family: $body-font;
+			font-size: 14px;
+			font-weight: bold;
+			line-height: 1.0;
+			margin-bottom: 0.5em;
+		}
+
+		p {
+			font-family: $body-font;
+			font-size: 11px;
+			// line-height: 18px;
+			margin: 0 0 10px 0;
+			
+			&:last-child {
+				margin: 0;
+			}
+		}
+	}
+}
+
+.mainalt {
+
+	.extendedDescription, .categoryDescription {
+		column-count: 2;
+		margin: 1em 0;
+
+		@include respond-to(phone) {
+			column-count: 1;
+		}
+	}
+
+	#gmap {
+		width: 473px;
+		float: right;
+		margin-left: 1em;
+
+		@include respond-to(phone) {
+			width: 100%;
+			float: none;
+			margin-left: 0;
+		}
+	}
+
+	.producerDescription {
+		column-count: 1;
+		margin: 1em 0;
+	}
+
+	h3 {
+		clear: both;
+	}
+}
