@@ -1672,6 +1672,12 @@ td.combo {
 .mainalt h3 {
   clear: both; }
 
+#infographic {
+  clear: both;
+  margin: 0.5em 0;
+  padding: 3px;
+  border: 1px solid green; }
+
 /*************************************/
 /*   
 /*	Import plugins
