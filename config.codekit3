@@ -1080,6 +1080,66 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/grouping-age-statement.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/grouping-age-statement.html",
+		"oF": 0
+		},
+	"\/grouping-ancient_solera.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/grouping-ancient_solera.html",
+		"oF": 0
+		},
+	"\/grouping-boal.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/grouping-boal.html",
+		"oF": 0
+		},
+	"\/grouping-heavenly_quartet.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/grouping-heavenly_quartet.html",
+		"oF": 0
+		},
+	"\/grouping-malvasia.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/grouping-malvasia.html",
+		"oF": 0
+		},
+	"\/grouping-sercial.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/grouping-sercial.html",
+		"oF": 0
+		},
+	"\/grouping-single-vintage.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/grouping-single-vintage.html",
+		"oF": 0
+		},
+	"\/grouping-terrantez.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/grouping-terrantez.html",
+		"oF": 0
+		},
+	"\/grouping-tinta_negra.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/grouping-tinta_negra.html",
+		"oF": 0
+		},
+	"\/grouping-verdelho.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/grouping-verdelho.html",
+		"oF": 0
+		},
 	"\/imagery-non-packaging.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -9972,6 +10032,12 @@
 		"oAP": "\/product-Henriques-HandH_Malvasia_15_Year_Old_Madeira_NV.html",
 		"oF": 0
 		},
+	"\/product-Henriques-HandH_Malvasia_1954.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-Henriques-HandH_Malvasia_1954.html",
+		"oF": 0
+		},
 	"\/product-Henriques-HandH_Malvasia_20_Year_Old_Madeira_NV.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -9988,6 +10054,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/product-Henriques-HandH_PRE-1850_Grand_Old_Boal_btld_1927.html",
+		"oF": 0
+		},
+	"\/product-Henriques-HandH_PRE-1850_Malvasia_bottled_in_1964.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-Henriques-HandH_PRE-1850_Malvasia_bottled_in_1964.html",
 		"oF": 0
 		},
 	"\/product-Henriques-HandH_PRE-1850_Malvazia_bottled_in_1964.html": {

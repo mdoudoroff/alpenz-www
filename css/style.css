@@ -1445,9 +1445,13 @@ td.combo {
       font-size: 13px;
       font-weight: bold; } }
 
+.cluster {
+  margin-left: 250px; }
+  .cluster h3 {
+    margin-top: 1em; }
+
 .clusterentry {
   margin-top: 0.5em;
-  margin-left: 250px;
   display: block;
   overflow: hidden; }
   @media only screen and (max-width: 420px) {
