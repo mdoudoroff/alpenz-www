@@ -361,7 +361,23 @@
 
 #infographic {
 	clear: both;
-	margin: 0.5em 0;
-	padding: 3px;
-	border: 1px solid green;
+	// margin: 0.5em 0;
+	// padding: 3px;
+	// border: 1px solid green;
+
+	.infographicSegment {
+		// width: 300px;
+		// border: 1px solid yellow;
+		// height: 108px;
+	}
+
+	.infographicSection {
+		// width: 99px;
+		// float: left;
+		padding: 1px 1em;
+		vertical-align: center;
+		text-align: center;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+	}
 }

@@ -1678,10 +1678,13 @@ div.grouping {
   clear: both; }
 
 #infographic {
-  clear: both;
-  margin: 0.5em 0;
-  padding: 3px;
-  border: 1px solid green; }
+  clear: both; }
+  #infographic .infographicSection {
+    padding: 1px 1em;
+    vertical-align: center;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black; }
 
 /*************************************/
 /*   
