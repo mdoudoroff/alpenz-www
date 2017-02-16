@@ -1447,8 +1447,6 @@ td.combo {
 
 .cluster {
   margin-left: 250px; }
-  .cluster h3 {
-    margin-top: 1em; }
 
 .clusterentry {
   margin-top: 0.5em;
@@ -1475,6 +1473,9 @@ td.combo {
   content: "";
   float: left;
   margin-top: 100%; }
+
+div.grouping {
+  margin-bottom: 2em; }
 
 .vitals {
   margin: 0 0.5em; }
