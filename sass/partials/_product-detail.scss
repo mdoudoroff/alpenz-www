@@ -371,13 +371,27 @@
 		// height: 108px;
 	}
 
+	.icons img {
+		margin-right:0.5em;
+	}
+	.icons img:last-child {
+		margin-right:0;
+	}
+
+
 	.infographicSection {
 		// width: 99px;
 		// float: left;
-		padding: 1px 1em;
+		padding: 2px 1em;
 		vertical-align: center;
 		text-align: center;
 		border-top: 1px solid black;
 		border-bottom: 1px solid black;
+		height: 94px
 	}
+
+	.icons {
+		vertical-align: bottom;
+	}
+
 }

@@ -1679,12 +1679,19 @@ div.grouping {
 
 #infographic {
   clear: both; }
+  #infographic .icons img {
+    margin-right: 0.5em; }
+  #infographic .icons img:last-child {
+    margin-right: 0; }
   #infographic .infographicSection {
-    padding: 1px 1em;
+    padding: 2px 1em;
     vertical-align: center;
     text-align: center;
     border-top: 1px solid black;
-    border-bottom: 1px solid black; }
+    border-bottom: 1px solid black;
+    height: 94px; }
+  #infographic .icons {
+    vertical-align: bottom; }
 
 /*************************************/
 /*   

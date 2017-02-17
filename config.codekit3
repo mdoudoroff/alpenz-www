@@ -251,7 +251,7 @@
 		"oF": 0
 		},
 	"\/config.rb": {
-		"ft": 8192,
+		"ft": 131072,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0
@@ -1072,96 +1072,6 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/gfx\/serve-amari.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/gfx\/serve-amari.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/gfx\/serve-bordeaux.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/gfx\/serve-bordeaux.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/gfx\/serve-brandy.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/gfx\/serve-brandy.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/gfx\/serve-burgundy.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/gfx\/serve-burgundy.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/gfx\/serve-dessert.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/gfx\/serve-dessert.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/gfx\/serve-flute.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/gfx\/serve-flute.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/gfx\/serve-rocks.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/gfx\/serve-rocks.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/gfx\/serve-spirits.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/gfx\/serve-spirits.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/gfx\/serve-white.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/gfx\/serve-white.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/gfx\/spacer.png": {
 		"ft": 32768,
 		"iS": 968,
@@ -1169,36 +1079,6 @@
 		"oAP": "\/gfx\/spacer.png",
 		"oF": 0,
 		"opt": 0
-		},
-	"\/gfx\/store-horizontal.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/gfx\/store-horizontal.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/gfx\/store-opened.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/gfx\/store-opened.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/gfx\/store-vertical.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/gfx\/store-vertical.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
 		},
 	"\/grouping-age-statement.html": {
 		"ft": 8192,

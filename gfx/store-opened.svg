@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="XMLID_1_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 49.1934 162.7635" enable-background="new 0 0 49.1934 162.7635" xml:space="preserve">
+<svg version="1.1" id="XMLID_2_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 39.1098 90.8028" enable-background="new 0 0 39.1098 90.8028" xml:space="preserve">
 <g id="store-opened">
-	<text transform="matrix(1 0 0 1 0.0002 15.0661)" font-family="'MyriadPro-BoldCond'" font-size="18px">Opened</text>
+	<text transform="matrix(6.123234e-17 -1 1 6.123234e-17 10.8809 90.8028)" font-family="'MyriadPro-BoldCond'" font-size="13px">OPENED</text>
 	<g>
-		<path d="M27.4747,39.8598h-7.1874c-0.55,0-1-0.45-1-1V19.112c0-0.55,0.45-1,1-1h7.1874c0.55,0,1,0.45,1,1v19.7478
-			C28.4747,39.4098,28.0247,39.8598,27.4747,39.8598z"/>
-		<path fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M23.9039,161.2635c0,0,10.1012,0,14.721,0
-			s4.2202-3.5691,4.2202-3.5691s0-61.0383,0-70.194S29.9578,75.2927,29.9578,75.2927V35.9295c0,0,0.0674-2.8653-3.8595-2.8653
-			h-3.2339c-3.9268,0-5.0144,2.8653-5.0144,2.8653v39.3632c0,0-11.5014,3.0519-11.5014,12.2076s0,70.194,0,70.194
-			s-0.3996,3.5691,4.2202,3.5691S23.9039,161.2635,23.9039,161.2635"/>
-		<rect x="7.1935" y="115.9902" width="34.8068" height="44.2231"/>
+		<path d="M27.7505,13.3994h-3.6606c-0.55,0-1-0.45-1-1V1c0-0.55,0.45-1,1-1l3.6606,0c0.55,0,1,0.45,1,1v11.3994
+			C28.7505,12.9494,28.3005,13.3994,27.7505,13.3994z"/>
+		<path fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M25.9343,88.1992c0,0,6.2236,0,9.07,0
+			c2.8464,0,2.6002-2.199,2.6002-2.199s0-37.6072,0-43.2483s-7.9402-7.5214-7.9402-7.5214V10.9778c0,0,0.0415-1.7654-2.3779-1.7654
+			h-1.9925c-2.4194,0-3.0895,1.7654-3.0895,1.7654v24.2527c0,0-7.0863,1.8804-7.0863,7.5214s0,43.2483,0,43.2483
+			s-0.2462,2.199,2.6002,2.199S25.9343,88.1992,25.9343,88.1992"/>
+		<rect x="15.6386" y="60.3052" width="21.4453" height="27.247"/>
 	</g>
 </g>
 </svg>
