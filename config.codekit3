@@ -696,19 +696,19 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/downloads\/HandH_Malvasia_1954.label.malvasia-1954.jpg": {
+		"ft": 16384,
+		"iS": 158089,
+		"oA": 1,
+		"oAP": "\/downloads\/HandH_Malvasia_1954.label.malvasia-1954.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/downloads\/HandH_Malvasia_20_Year_Old_Madeira_NV.bottle.malvasia-20-years.jpg": {
 		"ft": 16384,
 		"iS": 238165,
 		"oA": 1,
 		"oAP": "\/downloads\/HandH_Malvasia_20_Year_Old_Madeira_NV.bottle.malvasia-20-years.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/downloads\/HandH_Malvazia_1954.label.malvasia-1954.jpg": {
-		"ft": 16384,
-		"iS": 65536,
-		"oA": 1,
-		"oAP": "\/downloads\/HandH_Malvazia_1954.label.malvasia-1954.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -1072,6 +1072,96 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/gfx\/serve-amari.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/gfx\/serve-amari.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/gfx\/serve-bordeaux.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/gfx\/serve-bordeaux.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/gfx\/serve-brandy.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/gfx\/serve-brandy.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/gfx\/serve-burgundy.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/gfx\/serve-burgundy.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/gfx\/serve-dessert.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/gfx\/serve-dessert.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/gfx\/serve-flute.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/gfx\/serve-flute.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/gfx\/serve-rocks.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/gfx\/serve-rocks.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/gfx\/serve-spirits.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/gfx\/serve-spirits.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/gfx\/serve-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/gfx\/serve-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/gfx\/spacer.png": {
 		"ft": 32768,
 		"iS": 968,
@@ -1079,6 +1169,36 @@
 		"oAP": "\/gfx\/spacer.png",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/gfx\/store-horizontal.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/gfx\/store-horizontal.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/gfx\/store-opened.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/gfx\/store-opened.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/gfx\/store-vertical.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/gfx\/store-vertical.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/grouping-age-statement.html": {
 		"ft": 8192,
@@ -1819,14 +1939,6 @@
 		"iS": 262144,
 		"oA": 1,
 		"oAP": "\/images\/Byrrh_Grand_Quinquina.LEAFLET-PAGE-4-1-960x702.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/Byrrh_Grand_Quinquina.LeonnecReveillon-200x230.jpg": {
-		"ft": 16384,
-		"iS": 62647,
-		"oA": 1,
-		"oAP": "\/images\/Byrrh_Grand_Quinquina.LeonnecReveillon-200x230.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -2702,27 +2814,27 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/HandH_Malvasia_1954.bottle.HH-Malvasia-1954.jpg": {
+		"ft": 16384,
+		"iS": 13774,
+		"oA": 1,
+		"oAP": "\/images\/HandH_Malvasia_1954.bottle.HH-Malvasia-1954.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/HandH_Malvasia_1954.label.malvasia-1954.jpg": {
+		"ft": 16384,
+		"iS": 158089,
+		"oA": 1,
+		"oAP": "\/images\/HandH_Malvasia_1954.label.malvasia-1954.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/HandH_Malvasia_20_Year_Old_Madeira_NV.bottle.malvasia-20-years.jpg": {
 		"ft": 16384,
 		"iS": 63086,
 		"oA": 1,
 		"oAP": "\/images\/HandH_Malvasia_20_Year_Old_Madeira_NV.bottle.malvasia-20-years.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/HandH_Malvazia_1954.bottle.HH-Malvasia-1954.jpg": {
-		"ft": 16384,
-		"iS": 13774,
-		"oA": 1,
-		"oAP": "\/images\/HandH_Malvazia_1954.bottle.HH-Malvasia-1954.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/HandH_Malvazia_1954.label.malvasia-1954.jpg": {
-		"ft": 16384,
-		"iS": 158089,
-		"oA": 1,
-		"oAP": "\/images\/HandH_Malvazia_1954.label.malvasia-1954.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -2734,11 +2846,11 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/HandH_PRE-1850_Malvazia_bottled_in_1964.bottle.HH-Malmsey-OldReserve.jpg": {
+	"\/images\/HandH_PRE-1850_Malvasia_bottled_in_1964.bottle.HH-Malmsey-OldReserve.jpg": {
 		"ft": 16384,
 		"iS": 10712,
 		"oA": 1,
-		"oAP": "\/images\/HandH_PRE-1850_Malvazia_bottled_in_1964.bottle.HH-Malmsey-OldReserve.jpg",
+		"oAP": "\/images\/HandH_PRE-1850_Malvasia_bottled_in_1964.bottle.HH-Malmsey-OldReserve.jpg",
 		"oF": 0,
 		"opt": 0
 		},
