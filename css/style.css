@@ -1416,13 +1416,13 @@ td.combo {
           font-size: 13px; }
         .products .type-product .setup table td {
           font-size: 17px; }
-  .products p.categorization {
+  .products .categorization {
     margin-top: 0.25em;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 90%; }
     @media only screen and (max-width: 420px) {
-      .products p.categorization {
+      .products .categorization {
         font-size: 80%; } }
   .products .licenses {
     display: none; }
@@ -1446,7 +1446,10 @@ td.combo {
       font-weight: bold; } }
 
 .cluster {
-  margin-left: 250px; }
+  column-count: 2; }
+  @media only screen and (max-width: 420px) {
+    .cluster {
+      column-count: 1; } }
 
 .clusterentry {
   margin-top: 0.5em;
@@ -1474,8 +1477,14 @@ td.combo {
   float: left;
   margin-top: 100%; }
 
+.clusterHeading {
+  margin-bottom: 1em; }
+
 div.grouping {
-  margin-bottom: 2em; }
+  padding-bottom: 2em;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid-column; }
 
 .vitals {
   margin: 0 0.5em; }

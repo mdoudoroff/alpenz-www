@@ -213,7 +213,7 @@
 			
 	}
 
-	p.categorization {
+	.categorization {
 
 		margin-top: 0.25em;
 
@@ -274,8 +274,13 @@
 
 
 .cluster {
-	margin-left:250px;
+	// margin-left:250px;
+	column-count: 2;
 
+
+	@include respond-to(phone) {
+		column-count: 1;
+	}
 }
 
 .clusterentry {
@@ -326,8 +331,16 @@
      margin-top: 100%;
  }
 
+.clusterHeading {
+	margin-bottom: 1em;
+}
+
  div.grouping {
- 	margin-bottom: 2em;
+ 	// margin-bottom: 2em;
+ 	padding-bottom: 2em;
+ 	-webkit-column-break-inside: avoid;
+	page-break-inside: avoid;
+	break-inside: avoid-column;
  }
 
 
