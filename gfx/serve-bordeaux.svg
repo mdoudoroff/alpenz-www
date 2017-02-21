@@ -58,6 +58,6 @@
 			44.8957,39.0392 42.4332,42.4944 40.4011,44.0889 36.4278,45.3888 31.4494,46.2214 28.2746,46.2214 23.8401,45.7769 
 			20.1605,44.8334 17.4428,42.7743 15.2951,40.8785 11.9336,33.9968 10.4395,27.8882 		"/>
 	</g>
-	<text transform="matrix(6.123234e-17 -1 1 6.123234e-17 10.8812 91.127)" font-family="'MyriadPro-BoldCond'" font-size="13px">BORDEAUX</text>
+	<text transform="matrix(0 -1 1 0 10.8812 91.127)" display="none" font-family="'MyriadPro-BoldCond'" font-size="13px">BORDEAUX</text>
 </g>
 </svg>

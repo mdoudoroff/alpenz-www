@@ -55,6 +55,6 @@
 		<polygon fill="#2D3538" points="16.4223,19.2009 38.0146,19.2009 39.86,23.2161 39.86,29.9392 38.7083,33.0076 36.9957,35.0303 
 			33.5471,36.2785 28.2585,36.8239 21.8078,36.4919 17.705,34.8318 15.5709,31.2465 14.8349,26.4989 		"/>
 	</g>
-	<text transform="matrix(6.123234e-17 -1 1 6.123234e-17 10.8807 71.8489)" font-family="'MyriadPro-BoldCond'" font-size="13px">BRANDY</text>
+	<text transform="matrix(0 -1 1 0 10.8807 71.8489)" display="none" font-family="'MyriadPro-BoldCond'" font-size="13px">BRANDY</text>
 </g>
 </svg>

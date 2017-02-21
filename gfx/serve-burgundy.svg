@@ -4,7 +4,7 @@
 <svg version="1.1" id="XMLID_1_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 54.1655 90.4542" enable-background="new 0 0 54.1655 90.4542" xml:space="preserve">
 <g id="serve-burgundy">
-	<text transform="matrix(6.123234e-17 -1 1 6.123234e-17 10.8812 90.4542)" font-family="'MyriadPro-BoldCond'" font-size="13px">BURGUNDY</text>
+	<text transform="matrix(0 -1 1 0 10.8812 90.4542)" display="none" font-family="'MyriadPro-BoldCond'" font-size="13px">BURGUNDY</text>
 	<g>
 		<g>
 			<g>

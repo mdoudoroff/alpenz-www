@@ -4,7 +4,7 @@
 <svg version="1.1" id="XMLID_2_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 90.6786 82.4441" enable-background="new 0 0 90.6786 82.4441" xml:space="preserve">
 <g id="store-vertical">
-	<text transform="matrix(6.123234e-17 -1 1 6.123234e-17 10.881 82.4441)" font-family="'MyriadPro-BoldCond'" font-size="13px">VERTICAL</text>
+	<text transform="matrix(0 -1 1 0 10.881 82.4441)" display="none" font-family="'MyriadPro-BoldCond'" font-size="13px">VERTICAL</text>
 	<path d="M51.7912,81.2213c0,0,6.3997,0,9.3265,0s2.6737-2.2612,2.6737-2.2612s0-38.6711,0-44.4718s-8.1648-7.7342-8.1648-7.7342
 		V1.8153c0,0,0.0427-1.8153-2.4452-1.8153l-2.0488,0c-2.4879,0-3.1769,1.8153-3.1769,1.8153v24.9388
 		c0,0-7.2867,1.9336-7.2867,7.7342s0,44.4718,0,44.4718s-0.2532,2.2612,2.6737,2.2612

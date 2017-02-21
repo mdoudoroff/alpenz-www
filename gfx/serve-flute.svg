@@ -4,8 +4,7 @@
 <svg version="1.1" id="XMLID_1_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 34.4864 90.8518" enable-background="new 0 0 34.4864 90.8518" xml:space="preserve">
 <g id="serve-flute">
-	
-		<text transform="matrix(5.718949e-17 -0.934 1 6.123234e-17 10.8813 90.8518)" font-family="'MyriadPro-BoldCond'" font-size="13px">FLUTE</text>
+	<text transform="matrix(0 -0.934 1 0 10.8813 90.8518)" display="none" font-family="'MyriadPro-BoldCond'" font-size="13px">FLUTE</text>
 	<g>
 		<g id="glass-flute.svg_2_">
 			<g>

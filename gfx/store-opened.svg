@@ -4,7 +4,7 @@
 <svg version="1.1" id="XMLID_2_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 39.1098 90.8028" enable-background="new 0 0 39.1098 90.8028" xml:space="preserve">
 <g id="store-opened">
-	<text transform="matrix(6.123234e-17 -1 1 6.123234e-17 10.8809 90.8028)" font-family="'MyriadPro-BoldCond'" font-size="13px">OPENED</text>
+	<text transform="matrix(0 -1 1 0 10.8809 90.8028)" display="none" font-family="'MyriadPro-BoldCond'" font-size="13px">OPENED</text>
 	<g>
 		<path d="M27.7505,13.3994h-3.6606c-0.55,0-1-0.45-1-1V1c0-0.55,0.45-1,1-1l3.6606,0c0.55,0,1,0.45,1,1v11.3994
 			C28.7505,12.9494,28.3005,13.3994,27.7505,13.3994z"/>

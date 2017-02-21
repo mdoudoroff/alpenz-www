@@ -371,27 +371,48 @@
 		// height: 108px;
 	}
 
-	.icons img {
-		margin-right:0.5em;
-	}
-	.icons img:last-child {
-		margin-right:0;
-	}
+	// .icons img {
+	// 	margin-right:0.5em;
+	// }
+	// .icons img:last-child {
+	// 	margin-right:0;
+	// }
 
 
 	.infographicSection {
 		// width: 99px;
 		// float: left;
-		padding: 2px 1em;
+		padding: 0 1em;
 		vertical-align: center;
 		text-align: center;
 		border-top: 1px solid black;
 		border-bottom: 1px solid black;
-		height: 94px
+		height: 70px;
+		position: relative;
 	}
 
 	.icons {
 		vertical-align: bottom;
+	}
+
+	.sidewaysContainer {
+		display: inline-block;
+		width: 13px;
+		background-color: yellow;
+		position: relative;
+	}
+	.sideways {
+		transform: translate(1em,0em) rotate(270deg);
+		position: absolute;
+		bottom: 0;
+		transform-origin: left bottom 0;
+		line-height: 1.0;
+
+		font-family: $subheading-font;
+		font-weight: 700;
+		text-transform: uppercase;
+		font-size: 13px;
+
 	}
 
 }
