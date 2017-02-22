@@ -823,7 +823,11 @@ section header {
 }
 
 
-// expandable blurbs
+.folded {
+	display: none;
+}
+
+// expandable blurbs (deprecated---can probably be removed)
 
 .expandable {
 	overflow: hidden;

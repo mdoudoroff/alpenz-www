@@ -96,17 +96,23 @@ jQuery(document).ready(function() {
 		$(".sidebar2").toggle();
 	});
 
-	$(".morebutton").click(function() {
-		var target = $(this).prev();
-		if (target.data('expanded') === 'yes') {
-			target.css('max-height','7.25em');
-			target.data('expanded','no');
-			$(this).text('Expand ▾');
-		} else {
-			target.css('max-height','100em');
-			target.data('expanded','yes');
-			$(this).text('Collapse ▴');
-		}
+	// $(".morebutton").click(function() {
+	// 	var target = $(this).prev();
+	// 	if (target.data('expanded') === 'yes') {
+	// 		target.css('max-height','7.25em');
+	// 		target.data('expanded','no');
+	// 		$(this).text('Expand ▾');
+	// 	} else {
+	// 		target.css('max-height','100em');
+	// 		target.data('expanded','yes');
+	// 		$(this).text('Collapse ▴');
+	// 	}
+	// });
+
+	$('.revealfold').click(function() {
+		$(this).hide();
+		$('.folded').show();
+		return False;
 	});
 
 	var initPhotoSwipeFromDOM = function(gallerySelector) {

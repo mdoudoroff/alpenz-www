@@ -1151,6 +1151,9 @@ section header {
     .features .secondfeatures figure .caption {
       font-size: 80%; } }
 
+.folded {
+  display: none; }
+
 .expandable {
   overflow: hidden;
   max-height: 7.25em;
