@@ -728,7 +728,12 @@ section header {
 	}
 
 	.images {
+		width: 33%;
 		float: right;
+
+		img {
+			width: 100%;
+		}
 	}
 
 

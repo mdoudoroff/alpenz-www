@@ -1087,7 +1087,10 @@ section header {
     width: 30%;
     float: right; }
 .catblurb .images {
+  width: 33%;
   float: right; }
+  .catblurb .images img {
+    width: 100%; }
 .catblurb figure {
   width: 100%;
   text-align: center;
