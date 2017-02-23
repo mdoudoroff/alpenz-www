@@ -15,6 +15,12 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
+	"\/_drafts.html": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/_drafts.html",
+		"oF": 0
+		},
 	"\/assets\/app-min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -1277,6 +1283,14 @@
 		"iS": 48925,
 		"oA": 1,
 		"oAP": "\/images\/Amaro_Sfumato_Rabarbaro.bottle.sfumato.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Amaro_Sfumato_Rabarbaro.context.grand_platz_1890.jpg": {
+		"ft": 16384,
+		"iS": 123823,
+		"oA": 1,
+		"oAP": "\/images\/Amaro_Sfumato_Rabarbaro.context.grand_platz_1890.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -9948,6 +9962,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/product-Cappelletti-Amaro_Pasubio.html",
+		"oF": 0
+		},
+	"\/product-Cappelletti-Amaro_Pasubio_DRAFT.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-Cappelletti-Amaro_Pasubio_DRAFT.html",
 		"oF": 0
 		},
 	"\/product-Cappelletti-Amaro_Sfumato_Rabarbaro.html": {
