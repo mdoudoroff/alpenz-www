@@ -432,22 +432,6 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/downloads\/Cocchi_Alta_Langa_Oro.bottle-high-res.jpg": {
-		"ft": 16384,
-		"iS": 257182,
-		"oA": 1,
-		"oAP": "\/downloads\/Cocchi_Alta_Langa_Oro.bottle-high-res.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/downloads\/Cocchi_Alta_Langa_Oro.label-high-res.jpg": {
-		"ft": 16384,
-		"iS": 56596,
-		"oA": 1,
-		"oAP": "\/downloads\/Cocchi_Alta_Langa_Oro.label-high-res.jpg",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/downloads\/Cocchi_Alta_Langa_Rosa.bottle-high-res.jpg": {
 		"ft": 16384,
 		"iS": 45536,
@@ -2040,22 +2024,6 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/Christian_Jauk_Schilcher_Klassik.bottle.SchilcherKlassik.jpg": {
-		"ft": 16384,
-		"iS": 42511,
-		"oA": 1,
-		"oAP": "\/images\/Christian_Jauk_Schilcher_Klassik.bottle.SchilcherKlassik.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/Christian_Jauk_Schilcher_Klassik.label.Schilcher-Klassik.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"oA": 1,
-		"oAP": "\/images\/Christian_Jauk_Schilcher_Klassik.label.Schilcher-Klassik.jpg",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/images\/Cocchi_Alta_Langa_Bianc_d_Bianc.bianc-bottle.jpg": {
 		"ft": 16384,
 		"iS": 393216,
@@ -2069,22 +2037,6 @@
 		"iS": 66228,
 		"oA": 1,
 		"oAP": "\/images\/Cocchi_Alta_Langa_Bianc_d_Bianc.bianc-label.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/Cocchi_Alta_Langa_Oro.oro-bottle.jpg": {
-		"ft": 16384,
-		"iS": 987323,
-		"oA": 1,
-		"oAP": "\/images\/Cocchi_Alta_Langa_Oro.oro-bottle.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/Cocchi_Alta_Langa_Oro.oro-label.jpg": {
-		"ft": 16384,
-		"iS": 21247,
-		"oA": 1,
-		"oAP": "\/images\/Cocchi_Alta_Langa_Oro.oro-label.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -4469,14 +4421,6 @@
 		"iS": 115059,
 		"oA": 1,
 		"oAP": "\/images\/Tresmontaine_Puits_sux_Souhaits_Rancio_Sec.label.VialMagneres.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/Weingut_Joebstl_Schilcher_Ried_Krass.label.schilcher.jpg": {
-		"ft": 16384,
-		"iS": 16273,
-		"oA": 1,
-		"oAP": "\/images\/Weingut_Joebstl_Schilcher_Ried_Krass.label.schilcher.jpg",
 		"oF": 0,
 		"opt": 0
 		},
