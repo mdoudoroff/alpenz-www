@@ -1694,15 +1694,28 @@ div.grouping {
   clear: both; }
 
 #infographic {
-  clear: both; }
+  clear: both;
+  margin-top: 0.5em; }
+  #infographic .infographicSegment {
+    width: 317px;
+    display: inline-table;
+    border-right: 1px solid #dddcd8;
+    border-left: 1px solid #dddcd8;
+    background-color: #edece8; }
+    @media only screen and (max-width: 420px) {
+      #infographic .infographicSegment {
+        display: table;
+        width: 100%; } }
+  #infographic .infographicRow {
+    display: table-row; }
   #infographic .infographicSection {
+    display: table-cell;
     padding: 0 1em;
-    vertical-align: center;
     text-align: center;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 1px solid #dddcd8;
+    border-bottom: 1px solid #dddcd8;
     height: 70px;
-    position: relative; }
+    vertical-align: middle; }
   #infographic .icons {
     vertical-align: bottom; }
   #infographic .sidewaysContainer {
