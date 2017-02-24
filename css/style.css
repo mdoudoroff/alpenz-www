@@ -1286,6 +1286,12 @@ td.combo {
   padding-left: 0.5em;
   padding-right: 0.5em; }
 
+.inlineButton {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #a2120f; }
+
 .products {
   overflow: hidden;
   margin: 0 0 2em 0;
@@ -1435,11 +1441,6 @@ td.combo {
     @media only screen and (max-width: 420px) {
       .products .licenses {
         display: none; } }
-  .products .fulldetailslink {
-    display: inline-block;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #a2120f; }
 
 .subcatMenu {
   text-align: center;

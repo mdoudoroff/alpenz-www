@@ -7,7 +7,7 @@
 		"uuidString": "B5ADC2AB-4759-4D37-B9EB-92E440ECE0B5"
 		}
 	],
-"creatorBuild": "25504",
+"creatorBuild": "25568",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -257,7 +257,7 @@
 		"oF": 0
 		},
 	"\/config.rb": {
-		"ft": 131072,
+		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0
@@ -1270,6 +1270,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/Abbe_Rous_Matifoc_Rancio_Sec.context.IMG_0095.JPG": {
+		"ft": 16384,
+		"iS": 1245184,
+		"oA": 1,
+		"oAP": "\/images\/Abbe_Rous_Matifoc_Rancio_Sec.context.IMG_0095.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/Abbe_Rous_Matifoc_Rancio_Sec.label.Matifoc.jpg": {
 		"ft": 16384,
 		"iS": 42022,
@@ -2014,6 +2022,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/Casa_Brina_DOCG_Ruche.context.casa_brina_SIGN.jpg": {
+		"ft": 16384,
+		"iS": 160698,
+		"oA": 1,
+		"oAP": "\/images\/Casa_Brina_DOCG_Ruche.context.casa_brina_SIGN.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/Casa_Brina_DOCG_Ruche.label.ruche.jpg": {
 		"ft": 16384,
 		"iS": 361185,
@@ -2054,11 +2070,27 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/Cocchi_Alta_Langa_Bianc_d_Bianc.context.scarrone_albero.jpg": {
+		"ft": 16384,
+		"iS": 6989199,
+		"oA": 1,
+		"oAP": "\/images\/Cocchi_Alta_Langa_Bianc_d_Bianc.context.scarrone_albero.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/Cocchi_Alta_Langa_Rosa.bottle.rosa.jpg": {
 		"ft": 16384,
 		"iS": 45536,
 		"oA": 1,
 		"oAP": "\/images\/Cocchi_Alta_Langa_Rosa.bottle.rosa.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Cocchi_Alta_Langa_Rosa.context.pinot-nero-wikipedia.jpg": {
+		"ft": 16384,
+		"iS": 3206427,
+		"oA": 1,
+		"oAP": "\/images\/Cocchi_Alta_Langa_Rosa.context.pinot-nero-wikipedia.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -2110,6 +2142,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/Cocchi_Americano_Bianco.context.CocchiCamion.jpg": {
+		"ft": 16384,
+		"iS": 1058151,
+		"oA": 1,
+		"oAP": "\/images\/Cocchi_Americano_Bianco.context.CocchiCamion.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/Cocchi_Americano_Bianco.label.Americano-logo1.png": {
 		"ft": 32768,
 		"iS": 394551,
@@ -2142,6 +2182,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/Cocchi_Americano_Rosa.context.Cocchi-distillery.jpg": {
+		"ft": 16384,
+		"iS": 220802,
+		"oA": 1,
+		"oAP": "\/images\/Cocchi_Americano_Rosa.context.Cocchi-distillery.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/Cocchi_Asti_DOCG.asti_front-label.jpg": {
 		"ft": 16384,
 		"iS": 189912,
@@ -2155,6 +2203,14 @@
 		"iS": 41282,
 		"oA": 1,
 		"oAP": "\/images\/Cocchi_Asti_DOCG.bottle.asti.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Cocchi_Asti_DOCG.context.Scarrone__2.jpg": {
+		"ft": 16384,
+		"iS": 3034465,
+		"oA": 1,
+		"oAP": "\/images\/Cocchi_Asti_DOCG.context.Scarrone__2.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -2182,11 +2238,27 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/Cocchi_DOCG_Brachetto_dAcqui.brachetto-back-label.jpg": {
+		"ft": 16384,
+		"iS": 178335,
+		"oA": 1,
+		"oAP": "\/images\/Cocchi_DOCG_Brachetto_dAcqui.brachetto-back-label.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/Cocchi_DOCG_Brachetto_dAcqui.brachetto-bottle.jpg": {
 		"ft": 16384,
 		"iS": 779389,
 		"oA": 1,
 		"oAP": "\/images\/Cocchi_DOCG_Brachetto_dAcqui.brachetto-bottle.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Cocchi_DOCG_Brachetto_dAcqui.context.alta-langa-wikipedia.jpg": {
+		"ft": 16384,
+		"iS": 328350,
+		"oA": 1,
+		"oAP": "\/images\/Cocchi_DOCG_Brachetto_dAcqui.context.alta-langa-wikipedia.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -2230,6 +2302,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/Cocchi_Piemonte_DOC_Brut.context.Asti_langa_monferrato-NONCICLOPEDIA.jpg": {
+		"ft": 16384,
+		"iS": 489203,
+		"oA": 1,
+		"oAP": "\/images\/Cocchi_Piemonte_DOC_Brut.context.Asti_langa_monferrato-NONCICLOPEDIA.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/Cocchi_Riserva_Veneria_Reale.riserva-bottle.jpg": {
 		"ft": 16384,
 		"iS": 674685,
@@ -2259,6 +2339,14 @@
 		"iS": 365449,
 		"oA": 1,
 		"oAP": "\/images\/Cocchi_Vermouth_di_Torino.cocchi-vermouth-bottle-web.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Cocchi_Vermouth_di_Torino.context.Cafe_Torino-wikimedia-commons.jpg": {
+		"ft": 16384,
+		"iS": 61579,
+		"oA": 1,
+		"oAP": "\/images\/Cocchi_Vermouth_di_Torino.context.Cafe_Torino-wikimedia-commons.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -2406,6 +2494,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/Dom_de_Rombeau_Rancio_Sec_IGP.context.IMG_1724.JPG": {
+		"ft": 16384,
+		"iS": 3740424,
+		"oA": 1,
+		"oAP": "\/images\/Dom_de_Rombeau_Rancio_Sec_IGP.context.IMG_1724.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/Dom_de_Rombeau_Rancio_Sec_IGP.label.rombeau.jpg": {
 		"ft": 16384,
 		"iS": 42024,
@@ -2427,6 +2523,14 @@
 		"iS": 394006,
 		"oA": 1,
 		"oAP": "\/images\/Dom_Jorel_La_Garrigue_Rancio_Sec.label.la-garrigue.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Domaine_de_Sau_SaO_Rancio_Sec.context.IMG_0079.JPG": {
+		"ft": 16384,
+		"iS": 2326105,
+		"oA": 1,
+		"oAP": "\/images\/Domaine_de_Sau_SaO_Rancio_Sec.context.IMG_0079.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -2611,6 +2715,14 @@
 		"iS": 7168,
 		"oA": 1,
 		"oAP": "\/images\/Espodol_Vi_Ranci_Seco.bottle.Vi-Ranci-Sec.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Espodol_Vi_Ranci_Seco.context.IMG_0672.JPG": {
+		"ft": 16384,
+		"iS": 3238526,
+		"oA": 1,
+		"oAP": "\/images\/Espodol_Vi_Ranci_Seco.context.IMG_0672.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -3558,6 +3670,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/Mas_Peyre_Le_Demon_de_Midi_Rancio_Sec.context.IMG_0053-crop.jpg": {
+		"ft": 16384,
+		"iS": 1638400,
+		"oA": 1,
+		"oAP": "\/images\/Mas_Peyre_Le_Demon_de_Midi_Rancio_Sec.context.IMG_0053-crop.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/Mas_Peyre_Le_Demon_de_Midi_Rancio_Sec.label.mas-peyre.jpg": {
 		"ft": 16384,
 		"iS": 339403,
@@ -3651,6 +3771,14 @@
 		"iS": 3653662,
 		"oA": 1,
 		"oAP": "\/images\/producer.henriques.facility.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Puig-Parahy_Pyror_Rancio_Sec.context.Puig_DSCN0705.jpg": {
+		"ft": 16384,
+		"iS": 1703936,
+		"oA": 1,
+		"oAP": "\/images\/Puig-Parahy_Pyror_Rancio_Sec.context.Puig_DSCN0705.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -3886,11 +4014,11 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/Rothman_and_Winter_Orchard_Peach_Liqueur.context.RWpeach-still-life_by_Raphaelle_Peale_San_Diego_Museum_of_Art.JPG": {
+	"\/images\/Rothman_and_Winter_Orchard_Peach_Liqueur.context.RWpeach-still-life_by_Raphaelle_Peale_San_Diego_Museum.jpg": {
 		"ft": 16384,
-		"iS": 309797,
+		"iS": 196608,
 		"oA": 1,
-		"oAP": "\/images\/Rothman_and_Winter_Orchard_Peach_Liqueur.context.RWpeach-still-life_by_Raphaelle_Peale_San_Diego_Museum_of_Art.jpg",
+		"oAP": "\/images\/Rothman_and_Winter_Orchard_Peach_Liqueur.context.RWpeach-still-life_by_Raphaelle_Peale_San_Diego_Museum.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -4302,6 +4430,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/Terres_des_Templiers_Rancio_Sec.context.IMG_1267.jpg": {
+		"ft": 16384,
+		"iS": 1638400,
+		"oA": 1,
+		"oAP": "\/images\/Terres_des_Templiers_Rancio_Sec.context.IMG_1267.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/Terres_des_Templiers_Rancio_Sec.label.hors-dage.jpg": {
 		"ft": 16384,
 		"iS": 275338,
@@ -4366,6 +4502,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/The_Scarlet_Ibis_Trinidad_Rum.context.john-g-warnicke-after-alexander-wilson-wood-ibis-scarlet-ibis-flamingo-and-white-ibis-published-1808-1814.jpg": {
+		"ft": 16384,
+		"iS": 408181,
+		"oA": 1,
+		"oAP": "\/images\/The_Scarlet_Ibis_Trinidad_Rum.context.john-g-warnicke-after-alexander-wilson-wood-ibis-scarlet-ibis-flamingo-and-white-ibis-published-1808-1814.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/The_Scarlet_Ibis_Trinidad_Rum.dreamstime_3530622-960x720.jpg": {
 		"ft": 16384,
 		"iS": 928903,
@@ -4427,6 +4571,14 @@
 		"iS": 44952,
 		"oA": 1,
 		"oAP": "\/images\/The_Scarlet_Ibis_Trinidad_Rum.wilsn66.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Tresmontaine_Puits_sux_Souhaits_Rancio_Sec.context.IMG_0662.JPG": {
+		"ft": 16384,
+		"iS": 1946637,
+		"oA": 1,
+		"oAP": "\/images\/Tresmontaine_Puits_sux_Souhaits_Rancio_Sec.context.IMG_0662.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -14186,6 +14338,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
@@ -14514,6 +14670,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
+			},
 		"prefer-rest-params": {
 			"active": 0,
 			"optionString": ""
@@ -14607,6 +14767,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
