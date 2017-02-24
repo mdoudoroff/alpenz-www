@@ -158,8 +158,8 @@ a {
 	}
 	h3 {
 		font-family: $subheading-font;
-		font-size: 16px;
-		line-height: 24px;
+		font-size: 14px;
+		line-height: 1.0;
 		font-weight: 700;
 		margin: 0 0 0 0;
 		text-transform: uppercase;
@@ -169,6 +169,11 @@ a {
 			font-size: 26px;
 			line-height: 1em;
 		}
+
+		@include respond-to(phone) {
+			font-size: 12px;
+		}
+
 	}
 	h4 {
 		font-size: 16px;

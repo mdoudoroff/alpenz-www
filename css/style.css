@@ -776,8 +776,8 @@ a {
         font-size: 20px; } }
   .content h3 {
     font-family: "myriad-pro-condensed", Georgia, Times, serif;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 1.0;
     font-weight: 700;
     margin: 0 0 0 0;
     text-transform: uppercase;
@@ -785,6 +785,9 @@ a {
     .content h3.category_title {
       font-size: 26px;
       line-height: 1em; }
+    @media only screen and (max-width: 420px) {
+      .content h3 {
+        font-size: 12px; } }
   .content h4 {
     font-size: 16px;
     line-height: 24px;
@@ -1453,9 +1456,11 @@ td.combo {
       font-weight: bold; } }
 
 .cluster {
+  -moz-column-count: 2;
   column-count: 2; }
   @media only screen and (max-width: 420px) {
     .cluster {
+      -moz-column-count: 1;
       column-count: 1; } }
 
 .clusterentry {
@@ -1470,14 +1475,14 @@ td.combo {
   display: inline-block;
   white-space: nowrap;
   position: relative;
-  height: 60px;
+  height: 70px;
   background-color: green; }
   .clusterbottle img {
-    height: 200px;
+    height: 230px;
     width: auto;
     position: absolute;
-    transform: translate(0, -130px) rotate(90deg);
-    transform-origin: 30px 170px; }
+    -webkit-transform: translateZ(0);
+    transform: translate(83px, -72px) rotate(90deg); }
 
 .clusterbottle:after {
   content: "";
@@ -1673,10 +1678,12 @@ div.grouping {
         margin: 0; }
 
 .mainalt .extendedDescription, .mainalt .categoryDescription {
+  -moz-column-count: 2;
   column-count: 2;
   margin: 1em 0; }
   @media only screen and (max-width: 420px) {
     .mainalt .extendedDescription, .mainalt .categoryDescription {
+      -moz-column-count: 1;
       column-count: 1; } }
 .mainalt #gmap {
   width: 473px;

@@ -271,10 +271,13 @@
 
 .cluster {
 	// margin-left:250px;
+
+	-moz-column-count: 2;
 	column-count: 2;
 
 
 	@include respond-to(phone) {
+		-moz-column-count: 1;
 		column-count: 1;
 	}
 }
@@ -288,6 +291,7 @@
 	@include respond-to(phone) {
 		margin-left: 0;
 	}
+
 }
 
 .clusterbottle {
@@ -295,12 +299,9 @@
 
 	white-space: nowrap;
 
-    // transform: translate(300%,-60px) rotate(90deg);
-    // transform-origin: 0% 100%;
-
     position: relative;
 
-	height:60px;
+	height:70px;
 
 	background-color: green;
 
@@ -309,13 +310,16 @@
 
 	img {
 
-		height: 200px;
+		height: 230px;
 		width: auto;
 
 		position: absolute;
-     	transform: translate(0,-130px) rotate(90deg);
-        transform-origin: 30px 170px;
+     	// transform: translate(0,-130px) rotate(90deg);
+     	// transform-origin: 30px 30px;
 
+     	-webkit-transform:translateZ(0);
+     	transform: translate(83px,-72px) rotate(90deg);
+        // transform-origin: 30px 170px;
 
 	}
 
