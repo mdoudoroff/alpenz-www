@@ -115,6 +115,12 @@ jQuery(document).ready(function() {
 		return False;
 	});
 
+	window.console.log(window.location.hash);
+	if (window.location.hash.indexOf('unfolded')>-1) {
+		$('.revealfold').hide();
+		$('.folded').show();
+	}
+
 	var initPhotoSwipeFromDOM = function(gallerySelector) {
 
 		// I’ve significantly adapted this code from the PhotoSwipe site to work with disparate
