@@ -262,6 +262,12 @@
 		"oAP": "\/config.rb",
 		"oF": 0
 		},
+	"\/contact.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/contact.html",
+		"oF": 0
+		},
 	"\/css\/default-skin\/default-skin.css": {
 		"aP": 0,
 		"bl": 0,
@@ -367,6 +373,12 @@
 		"oAP": "\/css\/style-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/distribution.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/distribution.html",
+		"oF": 0
 		},
 	"\/downloads\/.mostrecent.pickle": {
 		"ft": 8192,
@@ -1163,6 +1175,36 @@
 		"oAP": "\/gfx\/spacer.png",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/gfx\/store-horizontal.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/gfx\/store-horizontal.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/gfx\/store-opened.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/gfx\/store-opened.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/gfx\/store-vertical.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/gfx\/store-vertical.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/grouping-age-statement.html": {
 		"ft": 8192,
@@ -9764,6 +9806,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/uStates.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/js\/uStates-min.js",
+		"oF": 1,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/license-full.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -9786,6 +9837,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/licenses.html",
+		"oF": 0
+		},
+	"\/mission.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/mission.html",
 		"oF": 0
 		},
 	"\/origin-Austria.html": {
