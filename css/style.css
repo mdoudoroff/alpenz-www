@@ -288,7 +288,7 @@ em, i {
             top: 0;
             left: 100%;
             width: auto;
-            font-size: 12px;
+            font-size: 13px;
             font-weight: 400;
             overflow: visible;
             margin: 0;
@@ -399,7 +399,7 @@ em, i {
             position: absolute;
             top: 100%;
             left: 0;
-            font-size: 12px;
+            font-size: 13px;
             font-weight: 400;
             overflow: visible; }
             .navigation ul li ul li ul li {
@@ -1704,6 +1704,8 @@ div.grouping {
   clear: both;
   margin-top: 0.5em; }
   #infographic .infographicSegment {
+    font-family: "myriad-pro-condensed", Georgia, Times, serif;
+    font-size: 17px;
     width: 317px;
     display: inline-table;
     border-right: 1px solid #dddcd8;

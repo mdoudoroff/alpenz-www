@@ -406,6 +406,9 @@
 	margin-top: 0.5em;
 
 	.infographicSegment {
+		font-family: $subheading-font;
+		font-size: 17px;
+
 		width: 317px;
 		display: inline-table;
 		border-right: 1px solid $off-grey-dark;

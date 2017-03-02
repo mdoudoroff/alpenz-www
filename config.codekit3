@@ -1116,6 +1116,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/gfx\/serve-mixed.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/gfx\/serve-mixed.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/gfx\/serve-rocks.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1153,36 +1163,6 @@
 		"oAP": "\/gfx\/spacer.png",
 		"oF": 0,
 		"opt": 0
-		},
-	"\/gfx\/store-horizontal.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/gfx\/store-horizontal.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/gfx\/store-opened.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/gfx\/store-opened.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/gfx\/store-vertical.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/gfx\/store-vertical.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
 		},
 	"\/grouping-age-statement.html": {
 		"ft": 8192,
@@ -1334,11 +1314,11 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/Aperitivo_Cappelletti.context.spritz-in-palazzo-catalogo.jpg": {
+	"\/images\/Aperitivo_Cappelletti.context.spritz_in_palazzo.jpg": {
 		"ft": 16384,
-		"iS": 199386,
+		"iS": 374638,
 		"oA": 1,
-		"oAP": "\/images\/Aperitivo_Cappelletti.context.spritz-in-palazzo-catalogo.jpg",
+		"oAP": "\/images\/Aperitivo_Cappelletti.context.spritz_in_palazzo.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -1390,14 +1370,6 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/Aperitivo_Cappelletti.festival-1884-trient-sharp.jpg": {
-		"ft": 16384,
-		"iS": 529823,
-		"oA": 1,
-		"oAP": "\/images\/Aperitivo_Cappelletti.festival-1884-trient-sharp.jpg",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/images\/Aperitivo_Cappelletti.festival-1884-trient.jpg": {
 		"ft": 16384,
 		"iS": 133893,
@@ -1443,14 +1415,6 @@
 		"iS": 101004,
 		"oA": 1,
 		"oAP": "\/images\/Aperitivo_Cappelletti.Trento-Italy-mountains.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/Aperitivo_Cappelletti.trento-neptune-fountain-1846.jpg": {
-		"ft": 16384,
-		"iS": 131617,
-		"oA": 1,
-		"oAP": "\/images\/Aperitivo_Cappelletti.trento-neptune-fountain-1846.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -1910,11 +1874,11 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/Byrrh_Grand_Quinquina.context.byrrh.jpg": {
-		"ft": 16384,
-		"iS": 32236,
+	"\/images\/Byrrh_Grand_Quinquina.context.321231_byrrh_lg.png": {
+		"ft": 32768,
+		"iS": 469102,
 		"oA": 1,
-		"oAP": "\/images\/Byrrh_Grand_Quinquina.context.byrrh.jpg",
+		"oAP": "\/images\/Byrrh_Grand_Quinquina.context.321231_byrrh_lg.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -2099,14 +2063,6 @@
 		"iS": 110169,
 		"oA": 1,
 		"oAP": "\/images\/Cocchi_Alta_Langa_Rosa.label.rosa.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/Cocchi_Americano_Bianco.1900s-storefront-catalog-1.jpg": {
-		"ft": 16384,
-		"iS": 652305,
-		"oA": 1,
-		"oAP": "\/images\/Cocchi_Americano_Bianco.1900s-storefront-catalog-1.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -2558,27 +2514,11 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/Elisir_Novasalus.elisir-monte-bondone-168x122.jpg": {
-		"ft": 16384,
-		"iS": 8608,
-		"oA": 1,
-		"oAP": "\/images\/Elisir_Novasalus.elisir-monte-bondone-168x122.jpg",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/images\/Elisir_Novasalus.elisir-monte-bondone-960x698.jpg": {
 		"ft": 16384,
 		"iS": 175764,
 		"oA": 1,
 		"oAP": "\/images\/Elisir_Novasalus.elisir-monte-bondone-960x698.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/Elisir_Novasalus.elisir-novasalus-bottle-web-63x230.png": {
-		"ft": 32768,
-		"iS": 27311,
-		"oA": 1,
-		"oAP": "\/images\/Elisir_Novasalus.elisir-novasalus-bottle-web-63x230.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -2590,27 +2530,11 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/Elisir_Novasalus.engraving-montage-edit-168x130.jpg": {
-		"ft": 16384,
-		"iS": 54578,
-		"oA": 1,
-		"oAP": "\/images\/Elisir_Novasalus.engraving-montage-edit-168x130.jpg",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/images\/Elisir_Novasalus.engraving-montage-edit-960x747.jpg": {
 		"ft": 16384,
 		"iS": 613240,
 		"oA": 1,
 		"oAP": "\/images\/Elisir_Novasalus.engraving-montage-edit-960x747.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/Elisir_Novasalus.engraving-montage-web-catalog-200x230.jpg": {
-		"ft": 16384,
-		"iS": 73735,
-		"oA": 1,
-		"oAP": "\/images\/Elisir_Novasalus.engraving-montage-web-catalog-200x230.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -2638,14 +2562,6 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/Elisir_Novasalus.novasalus-factory-168x112.jpg": {
-		"ft": 16384,
-		"iS": 4212,
-		"oA": 1,
-		"oAP": "\/images\/Elisir_Novasalus.novasalus-factory-168x112.jpg",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/images\/Elisir_Novasalus.novasalus-factory.jpg": {
 		"ft": 16384,
 		"iS": 28013,
@@ -2654,27 +2570,11 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/Elisir_Novasalus.novasalus-illustration-168x119.jpg": {
-		"ft": 16384,
-		"iS": 13322,
-		"oA": 1,
-		"oAP": "\/images\/Elisir_Novasalus.novasalus-illustration-168x119.jpg",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/images\/Elisir_Novasalus.novasalus-illustration-960x682.jpg": {
 		"ft": 16384,
 		"iS": 276155,
 		"oA": 1,
 		"oAP": "\/images\/Elisir_Novasalus.novasalus-illustration-960x682.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/Elisir_Novasalus.Trento-facility-for-web1-168x130.jpg": {
-		"ft": 16384,
-		"iS": 11963,
-		"oA": 1,
-		"oAP": "\/images\/Elisir_Novasalus.Trento-facility-for-web1-168x130.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -3774,19 +3674,19 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/Puig-Parahy_Pyror_Rancio_Sec.bottle-puig.png": {
+		"ft": 32768,
+		"iS": 2990062,
+		"oA": 1,
+		"oAP": "\/images\/Puig-Parahy_Pyror_Rancio_Sec.bottle-puig.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/Puig-Parahy_Pyror_Rancio_Sec.context.Puig-DSCN0705.jpg": {
 		"ft": 16384,
 		"iS": 118543,
 		"oA": 1,
 		"oAP": "\/images\/Puig-Parahy_Pyror_Rancio_Sec.context.Puig-DSCN0705.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/Puig-Parahy_Pyror_Rancio_Sec.context.Puig_DSCN0705.jpg": {
-		"ft": 16384,
-		"iS": 1703936,
-		"oA": 1,
-		"oAP": "\/images\/Puig-Parahy_Pyror_Rancio_Sec.context.Puig_DSCN0705.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -4406,6 +4306,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/Tabacal_Dos_Tresmontaine_Rancio_IGP.context.tabacal.png": {
+		"ft": 32768,
+		"iS": 6566046,
+		"oA": 1,
+		"oAP": "\/images\/Tabacal_Dos_Tresmontaine_Rancio_IGP.context.tabacal.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/Tabacal_Dos_Tresmontaine_Rancio_IGP.label.TABACAL-DOS.jpg": {
 		"ft": 16384,
 		"iS": 206195,
@@ -4419,6 +4327,14 @@
 		"iS": 45049,
 		"oA": 1,
 		"oAP": "\/images\/Tabacal_Tresmontaine_Rancio_IGP.bottle.tabacal.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/Tabacal_Tresmontaine_Rancio_IGP.context.tabacal.png": {
+		"ft": 32768,
+		"iS": 6566046,
+		"oA": 1,
+		"oAP": "\/images\/Tabacal_Tresmontaine_Rancio_IGP.context.tabacal.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -10590,6 +10506,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/product-Other-LAntull_Vi_Rancio_Seco.html",
+		"oF": 0
+		},
+	"\/product-Other-LAntull_Vi_Rancio_Seco_DRAFT.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-Other-LAntull_Vi_Rancio_Seco_DRAFT.html",
 		"oF": 0
 		},
 	"\/product-Other-Mas_Peyre_Le_Demon_de_Midi_Rancio_Sec.html": {
