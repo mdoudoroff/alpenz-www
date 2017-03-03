@@ -874,22 +874,70 @@ section header {
 .producerSetup {
 
 	h2 {
+		margin-top: 0.5em;
+		margin-bottom: 0.25em;
+		font-weight: bold;
+		a {
+			color: black;
+		}
+		a:hover {
+			color: $link_hover;
+		}
+
+	}
+
+	h3 {
 		margin-top: 1em;
 		margin-bottom: 0;
 		padding: 0.5em;
 		background-color: $off-grey;
-	}
 
-	h3 {
-		margin-top: 0.5em;
-		margin-bottom: 0;
+		a {
+			color: black;
+		}
+		a:hover {
+			color: $link_hover;
+		}
+
 	}
 	p {
 		margin-bottom: 0.5em;
 	}
+
+	.setupDownload {
+		display: inline-block;
+		background: $light_grey;
+		padding: 4px 9px;
+		margin: 0;
+		border: 0px;
+		font-size: 14px;
+		line-height: 1em;
+		font-family: $subheading-font;
+		text-transform: uppercase;
+		color: $dark_grey;
+		@include box-sizing(border-box);
+		-webkit-appearance: none;
+		@include border-radius(0px);
+		text-decoration: none !important;
+
+		&:hover {
+			cursor: pointer;
+			color: #fff;
+			background: lighten($red, 10%);
+		}
+		
+		&.fullprofile {
+			margin: 20px 0 0 0;
+			
+			@include respond-to(print) {
+				display: none;
+			}
+		}
+	}
+
 	.setup {
 		margin-top: 0;
-		margin-bottom: 0;
+		margin-bottom: 0.5em;
 	}
 
 	.setup2 {

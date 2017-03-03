@@ -1187,18 +1187,55 @@ section header {
       font-size: 12px; } }
 
 .producerSetup h2 {
+  margin-top: 0.5em;
+  margin-bottom: 0.25em;
+  font-weight: bold; }
+  .producerSetup h2 a {
+    color: black; }
+  .producerSetup h2 a:hover {
+    color: #eb2f2c; }
+.producerSetup h3 {
   margin-top: 1em;
   margin-bottom: 0;
   padding: 0.5em;
   background-color: #edece8; }
-.producerSetup h3 {
-  margin-top: 0.5em;
-  margin-bottom: 0; }
+  .producerSetup h3 a {
+    color: black; }
+  .producerSetup h3 a:hover {
+    color: #eb2f2c; }
 .producerSetup p {
   margin-bottom: 0.5em; }
+.producerSetup .setupDownload {
+  display: inline-block;
+  background: #e3e3e3;
+  padding: 4px 9px;
+  margin: 0;
+  border: 0px;
+  font-size: 14px;
+  line-height: 1em;
+  font-family: "myriad-pro-condensed", Georgia, Times, serif;
+  text-transform: uppercase;
+  color: #484848;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  text-decoration: none !important; }
+  .producerSetup .setupDownload:hover {
+    cursor: pointer;
+    color: #fff;
+    background: #d11713; }
+  .producerSetup .setupDownload.fullprofile {
+    margin: 20px 0 0 0; }
+    @media print {
+      .producerSetup .setupDownload.fullprofile {
+        display: none; } }
 .producerSetup .setup {
   margin-top: 0;
-  margin-bottom: 0; }
+  margin-bottom: 0.5em; }
 .producerSetup .setup2 {
   margin-top: 0;
   margin-bottom: 0;
@@ -1413,24 +1450,6 @@ td.combo {
       text-align: left; }
       .products .type-product p span {
         margin-right: 15px; }
-    .products .type-product .setup {
-      margin-top: 20px; }
-      .products .type-product .setup table {
-        width: 100%;
-        border-top: 1px solid #fff;
-        border-left: 1px solid #fff;
-        font-family: "myriad-pro-condensed", Georgia, Times, serif; }
-        .products .type-product .setup table th, .products .type-product .setup table td {
-          border-right: 1px solid #fff;
-          border-bottom: 1px solid #fff;
-          padding: 3px; }
-        .products .type-product .setup table th {
-          background: white;
-          font-weight: 700;
-          text-transform: uppercase;
-          font-size: 13px; }
-        .products .type-product .setup table td {
-          font-size: 17px; }
   .products .categorization {
     margin-top: 0.25em;
     text-transform: uppercase;
@@ -1604,7 +1623,6 @@ div.grouping {
     .setup table th, .setup table td {
       border-right: 0.5em solid #fff;
       border-bottom: 1px solid #fff;
-      padding: 3px;
       white-space: nowrap; }
     .setup table th {
       background: white;
