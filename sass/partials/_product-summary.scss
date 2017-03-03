@@ -79,8 +79,6 @@
 			}
 			
 			.product_description {
-
-				max-width: 360px;
 				
 				p:last-child {
 					margin-bottom: 0;
@@ -333,6 +331,10 @@
 
 .clusterHeading {
 	margin-bottom: 1em;
+
+	.product_text {
+		// width: 100%;
+	}
 }
 
  div.grouping {

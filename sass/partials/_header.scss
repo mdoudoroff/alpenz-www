@@ -41,11 +41,9 @@ $logoheight: 50px;
 	}
 		
 	h1,	.logo {
-		// float: left;
 		display: block;
 		width: $logowidth;
 		height: $logoheight;
-		// margin: 10px 0 0 0;
 
 		line-height: 70px;
 
@@ -53,25 +51,6 @@ $logoheight: 50px;
 		top: 13px;
 		left: 90px;
 
-		
-		// @include respond-to(largetablet) {
-		// 	margin: 13px 0 0 15px;
-		// 	width: ($logowidth / 2);
-		// 	height: ($logoheight / 2);
-
-		// 	left: 80px;
-		// 	top: 0px;
-
-		// }
-		// @include respond-to(smalltablet) {
-		// 	margin: 13px 0 0 15px;
-		// 	width: ($logowidth / 2);
-		// 	height: ($logoheight / 2);
-
-		// 	left: 80px;
-		// 	top: 0px;
-
-		// }
 		@include respond-to(phone) {
 			margin: 8px 0 7px 5px;
 			width: $logowidth / 2;
@@ -81,9 +60,7 @@ $logoheight: 50px;
 			top: 0px;
 
 		}
-		
-		
-		
+				
 		a { 
 			@include hide-text(left);
 			display: block;
@@ -92,12 +69,6 @@ $logoheight: 50px;
 			background: url('../assets/logo-wide.png') no-repeat;
 			background-size: $logowidth $logoheight;
 
-			// @include respond-to(largetablet) {
-			// 	background-size: ($logowidth / 2) ($logoheight / 2);
-			// }
-			// @include respond-to(smalltablet) {
-			// 	background-size: ($logowidth / 2) ($logoheight / 2);
-			// }
 			@include respond-to(phone) {
 				background-size: ($logowidth / 2) ($logoheight / 2);
 			}
@@ -109,12 +80,7 @@ $logoheight: 50px;
 		float: right;
 		font-size: 20px;
 		font-style: italic;
-		
-		// @include respond-to(smalltablet) {
-		// 	margin: 0px auto;
-		// 	float: none;
-		// 	text-align: center;
-		// }
+
 		@include respond-to(phone) {
 			display: none;
 		}

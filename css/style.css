@@ -548,7 +548,6 @@ em, i {
 
 .typeBrowserSection {
   clear: both;
-  margin-top: 1em;
   margin-bottom: 1em;
   line-height: 2.0;
   text-transform: uppercase;
@@ -1332,6 +1331,14 @@ td.combo {
   font-weight: 700;
   color: #a2120f; }
 
+.revealfold {
+  text-transform: uppercase;
+  color: #a2120f; }
+
+img.socialButton {
+  vertical-align: bottom;
+  height: 37px; }
+
 .products {
   overflow: hidden;
   margin: 0 0 2em 0;
@@ -1388,10 +1395,8 @@ td.combo {
           width: 100%;
           padding: 0;
           margin: 0 0 20px 0; } }
-      .products .type-product .product_text .product_description {
-        max-width: 360px; }
-        .products .type-product .product_text .product_description p:last-child {
-          margin-bottom: 0; }
+      .products .type-product .product_text .product_description p:last-child {
+        margin-bottom: 0; }
       .products .type-product .product_text h2 {
         font-weight: bold;
         margin: 0; }
