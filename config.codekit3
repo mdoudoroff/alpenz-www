@@ -214,6 +214,12 @@
 		"oAP": "\/category-aperitifaromatized_wines.html",
 		"oF": 0
 		},
+	"\/category-floral_herbal_amaro.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/category-floral_herbal_amaro.html",
+		"oF": 0
+		},
 	"\/category-fresh.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -232,6 +238,18 @@
 		"oAP": "\/category-fruit_liqueurs.html",
 		"oF": 0
 		},
+	"\/category-fully_oxidative_fortified.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/category-fully_oxidative_fortified.html",
+		"oF": 0
+		},
+	"\/category-fully_oxidative_unfortified.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/category-fully_oxidative_unfortified.html",
+		"oF": 0
+		},
 	"\/category-gins.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -244,6 +262,18 @@
 		"oAP": "\/category-oxidative.html",
 		"oF": 0
 		},
+	"\/category-red_wine.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/category-red_wine.html",
+		"oF": 0
+		},
+	"\/category-rose_wine.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/category-rose_wine.html",
+		"oF": 0
+		},
 	"\/category-rum.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -254,6 +284,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/category-rum_liqueurs.html",
+		"oF": 0
+		},
+	"\/category-sparkling_wine.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/category-sparkling_wine.html",
 		"oF": 0
 		},
 	"\/config.rb": {
@@ -9989,6 +10025,12 @@
 		"oAP": "\/producer-Casa_Brina.html",
 		"oF": 0
 		},
+	"\/producer-Christian_Jauk.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/producer-Christian_Jauk.html",
+		"oF": 0
+		},
 	"\/producer-Cocchi.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -10131,6 +10173,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/product-Casa_Brina-Casa_Brina_DOCG_Ruche.html",
+		"oF": 0
+		},
+	"\/product-Christian_Jauk-Christian_Jauk_Schilcher_Klassik.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-Christian_Jauk-Christian_Jauk_Schilcher_Klassik.html",
 		"oF": 0
 		},
 	"\/product-Cocchi-Cocchi_Alta_Langa_Bianc_d_Bianc.html": {
@@ -10569,6 +10617,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/product-Other-Tresmontaine_Puits_sux_Souhaits_Rancio_Sec.html",
+		"oF": 0
+		},
+	"\/product-Other-Weingut_Joebstl_Schilcher_Ried_Krass.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-Other-Weingut_Joebstl_Schilcher_Ried_Krass.html",
 		"oF": 0
 		},
 	"\/product-Purkhart-Blume_Marillen_Apricot_Eau-de-Vie.html": {
@@ -12845,6 +12899,234 @@
 		"oAP": "\/recipe-0526-0366.html",
 		"oF": 0
 		},
+	"\/recipes-American_Gin_Company-Averell_Damson_Gin.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-American_Gin_Company-Averell_Damson_Gin.html",
+		"oF": 0
+		},
+	"\/recipes-Bonal-Bonal_Gentiane-Quina.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Bonal-Bonal_Gentiane-Quina.html",
+		"oF": 0
+		},
+	"\/recipes-Bosca-Cardamaro_Vino_Amaro.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Bosca-Cardamaro_Vino_Amaro.html",
+		"oF": 0
+		},
+	"\/recipes-Byrrh-Byrrh_Grand_Quinquina.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Byrrh-Byrrh_Grand_Quinquina.html",
+		"oF": 0
+		},
+	"\/recipes-Cappelletti-Amaro_Sfumato_Rabarbaro.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Cappelletti-Amaro_Sfumato_Rabarbaro.html",
+		"oF": 0
+		},
+	"\/recipes-Cappelletti-Aperitivo_Cappelletti.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Cappelletti-Aperitivo_Cappelletti.html",
+		"oF": 0
+		},
+	"\/recipes-Cappelletti-Elisir_Novasalus.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Cappelletti-Elisir_Novasalus.html",
+		"oF": 0
+		},
+	"\/recipes-Cocchi-Cocchi_Americano_Bianco.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Cocchi-Cocchi_Americano_Bianco.html",
+		"oF": 0
+		},
+	"\/recipes-Cocchi-Cocchi_Americano_Rosa.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Cocchi-Cocchi_Americano_Rosa.html",
+		"oF": 0
+		},
+	"\/recipes-Cocchi-Cocchi_Asti_DOCG.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Cocchi-Cocchi_Asti_DOCG.html",
+		"oF": 0
+		},
+	"\/recipes-Cocchi-Cocchi_Barolo_Chinato.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Cocchi-Cocchi_Barolo_Chinato.html",
+		"oF": 0
+		},
+	"\/recipes-Cocchi-Cocchi_Vermouth_di_Torino.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Cocchi-Cocchi_Vermouth_di_Torino.html",
+		"oF": 0
+		},
+	"\/recipes-Dolin-Dolin_Blanc_Vermouth_de_Chambery.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Dolin-Dolin_Blanc_Vermouth_de_Chambery.html",
+		"oF": 0
+		},
+	"\/recipes-Dolin-Dolin_Dry_Vermouth_de_Chambery.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Dolin-Dolin_Dry_Vermouth_de_Chambery.html",
+		"oF": 0
+		},
+	"\/recipes-Dolin-Dolin_Genepy_Des_Alpes_Liqueur.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Dolin-Dolin_Genepy_Des_Alpes_Liqueur.html",
+		"oF": 0
+		},
+	"\/recipes-Dolin-Dolin_Rouge_Vermouth_de_Chambery.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Dolin-Dolin_Rouge_Vermouth_de_Chambery.html",
+		"oF": 0
+		},
+	"\/recipes-Haus_Alpenz-Batavia_Arrack_van_Oosten.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Haus_Alpenz-Batavia_Arrack_van_Oosten.html",
+		"oF": 0
+		},
+	"\/recipes-Hayman_Distillers-Haymans_London_Dry_Gin.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Hayman_Distillers-Haymans_London_Dry_Gin.html",
+		"oF": 0
+		},
+	"\/recipes-Hayman_Distillers-Haymans_Old_Tom_Gin.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Hayman_Distillers-Haymans_Old_Tom_Gin.html",
+		"oF": 0
+		},
+	"\/recipes-Hayman_Distillers-Haymans_Sloe_Gin.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Hayman_Distillers-Haymans_Sloe_Gin.html",
+		"oF": 0
+		},
+	"\/recipes-Hayman_Distillers-Royal_Dock_of_Deptford_Navy_Strength_Gin.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Hayman_Distillers-Royal_Dock_of_Deptford_Navy_Strength_Gin.html",
+		"oF": 0
+		},
+	"\/recipes-Josef_Hofer-Zirbenz_Stone_Pine_Liqueur_of_the_Alps.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Josef_Hofer-Zirbenz_Stone_Pine_Liqueur_of_the_Alps.html",
+		"oF": 0
+		},
+	"\/recipes-Kronan-Kronan_Swedish_Punsch.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Kronan-Kronan_Swedish_Punsch.html",
+		"oF": 0
+		},
+	"\/recipes-Miro-Miro_Extra_Seco_Vermut_de_Reus.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Miro-Miro_Extra_Seco_Vermut_de_Reus.html",
+		"oF": 0
+		},
+	"\/recipes-Miro-Miro_Rojo_Vermut_de_Reus.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Miro-Miro_Rojo_Vermut_de_Reus.html",
+		"oF": 0
+		},
+	"\/recipes-Purkhart-Blume_Marillen_Apricot_Eau-de-Vie.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Purkhart-Blume_Marillen_Apricot_Eau-de-Vie.html",
+		"oF": 0
+		},
+	"\/recipes-Purkhart-Nux_Alpina_Walnut_Liqueur.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Purkhart-Nux_Alpina_Walnut_Liqueur.html",
+		"oF": 0
+		},
+	"\/recipes-Purkhart-Purkhart_Pear_Williams_Eau-de-Vie.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Purkhart-Purkhart_Pear_Williams_Eau-de-Vie.html",
+		"oF": 0
+		},
+	"\/recipes-Purkhart-Rothman_and_Winter_Creme_de_Violette.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Purkhart-Rothman_and_Winter_Creme_de_Violette.html",
+		"oF": 0
+		},
+	"\/recipes-Purkhart-Rothman_and_Winter_Orchard_Apricot_Liqueur.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Purkhart-Rothman_and_Winter_Orchard_Apricot_Liqueur.html",
+		"oF": 0
+		},
+	"\/recipes-Purkhart-Rothman_and_Winter_Orchard_Cherry_Liqueur.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Purkhart-Rothman_and_Winter_Orchard_Cherry_Liqueur.html",
+		"oF": 0
+		},
+	"\/recipes-Purkhart-Rothman_and_Winter_Orchard_Peach_Liqueur.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Purkhart-Rothman_and_Winter_Orchard_Peach_Liqueur.html",
+		"oF": 0
+		},
+	"\/recipes-Purkhart-Rothman_and_Winter_Orchard_Pear_Liqueur.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Purkhart-Rothman_and_Winter_Orchard_Pear_Liqueur.html",
+		"oF": 0
+		},
+	"\/recipes-Purkhart-St._Elizabeth_Allspice_Dram.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Purkhart-St._Elizabeth_Allspice_Dram.html",
+		"oF": 0
+		},
+	"\/recipes-Purkhart-The_Scarlet_Ibis_Trinidad_Rum.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Purkhart-The_Scarlet_Ibis_Trinidad_Rum.html",
+		"oF": 0
+		},
+	"\/recipes-R._L._Seale-John_D._Taylors_Velvet_Falernum.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-R._L._Seale-John_D._Taylors_Velvet_Falernum.html",
+		"oF": 0
+		},
+	"\/recipes-Salers-Salers_Gentian_Aperitif.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Salers-Salers_Gentian_Aperitif.html",
+		"oF": 0
+		},
+	"\/recipes-Smith_and_Cross-Smith_and_Cross_Traditional_Jamaica_Rum.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Smith_and_Cross-Smith_and_Cross_Traditional_Jamaica_Rum.html",
+		"oF": 0
+		},
 	"\/recipes.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -13288,10 +13570,28 @@
 		"oAP": "\/subcategory-americano.html",
 		"oF": 0
 		},
+	"\/subcategory-garnatxa.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/subcategory-garnatxa.html",
+		"oF": 0
+		},
 	"\/subcategory-madeira.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/subcategory-madeira.html",
+		"oF": 0
+		},
+	"\/subcategory-methode_charmat.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/subcategory-methode_charmat.html",
+		"oF": 0
+		},
+	"\/subcategory-methode_traditionnelle.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/subcategory-methode_traditionnelle.html",
 		"oF": 0
 		},
 	"\/subcategory-other_oxidative.html": {
@@ -13316,6 +13616,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/subcategory-red_wine.html",
+		"oF": 0
+		},
+	"\/subcategory-schilcher.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/subcategory-schilcher.html",
 		"oF": 0
 		},
 	"\/subcategory-sparkling_wine.html": {

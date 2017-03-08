@@ -6,6 +6,9 @@ var searchPrompt = '';
 function scrapeFilters() {
 	var groups = [];
 	var kws;
+	if ($('#ingredientChooser').val().length>0) {
+		groups.push('.'+$('#ingredientChooser').val());
+	}
 	for (var x=1;x<$('fieldset').length+1;x++) {
 		kws = '';
 		$('#filtergroup'+x+' input:checked').each(function() {
@@ -138,6 +141,9 @@ jQuery(document).ready(function() {
 	// recipe index filtration
 
 	$('#recipefilters input').change(function() {
+		refilterRecipes();
+	});
+	$('#recipefilters select').change(function() {
 		refilterRecipes();
 	});
 

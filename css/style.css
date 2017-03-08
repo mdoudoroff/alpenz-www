@@ -1204,34 +1204,6 @@ section header {
     color: #eb2f2c; }
 .producerSetup p {
   margin-bottom: 0.5em; }
-.producerSetup .setupDownload {
-  display: inline-block;
-  background: #e3e3e3;
-  padding: 4px 9px;
-  margin: 0;
-  border: 0px;
-  font-size: 14px;
-  line-height: 1em;
-  font-family: "myriad-pro-condensed", Georgia, Times, serif;
-  text-transform: uppercase;
-  color: #484848;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-appearance: none;
-  -moz-border-radius: 0px;
-  -webkit-border-radius: 0px;
-  border-radius: 0px;
-  text-decoration: none !important; }
-  .producerSetup .setupDownload:hover {
-    cursor: pointer;
-    color: #fff;
-    background: #d11713; }
-  .producerSetup .setupDownload.fullprofile {
-    margin: 20px 0 0 0; }
-    @media print {
-      .producerSetup .setupDownload.fullprofile {
-        display: none; } }
 .producerSetup .setup {
   margin-top: 0;
   margin-bottom: 0.5em; }
@@ -1252,6 +1224,35 @@ section header {
       font-weight: normal; }
   .producerSetup .setup2 div.sku {
     background-color: #dddcd8; }
+
+.setupDownload {
+  display: inline-block;
+  background: #e3e3e3;
+  padding: 4px 9px;
+  margin: 0;
+  border: 0px;
+  font-size: 14px;
+  line-height: 1em;
+  font-family: "myriad-pro-condensed", Georgia, Times, serif;
+  text-transform: uppercase;
+  color: #484848;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  text-decoration: none !important; }
+  .setupDownload:hover {
+    cursor: pointer;
+    color: #fff;
+    background: #d11713; }
+  .setupDownload.fullprofile {
+    margin: 20px 0 0 0; }
+    @media print {
+      .setupDownload.fullprofile {
+        display: none; } }
 
 #imageryReport .thumbnail img {
   height: 250px;
@@ -1281,6 +1282,10 @@ section header {
       border-bottom: 2px solid black;
       position: relative;
       transition: max-height 1s; } }
+  #recipefilters h3 {
+    margin-bottom: 0.2em; }
+  #recipefilters fieldset {
+    margin-bottom: 0.5em; }
 
 #recipeFiltersMoreButton {
   display: none; }

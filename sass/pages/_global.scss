@@ -904,36 +904,7 @@ section header {
 		margin-bottom: 0.5em;
 	}
 
-	.setupDownload {
-		display: inline-block;
-		background: $light_grey;
-		padding: 4px 9px;
-		margin: 0;
-		border: 0px;
-		font-size: 14px;
-		line-height: 1em;
-		font-family: $subheading-font;
-		text-transform: uppercase;
-		color: $dark_grey;
-		@include box-sizing(border-box);
-		-webkit-appearance: none;
-		@include border-radius(0px);
-		text-decoration: none !important;
 
-		&:hover {
-			cursor: pointer;
-			color: #fff;
-			background: lighten($red, 10%);
-		}
-		
-		&.fullprofile {
-			margin: 20px 0 0 0;
-			
-			@include respond-to(print) {
-				display: none;
-			}
-		}
-	}
 
 	.setup {
 		margin-top: 0;
@@ -969,7 +940,37 @@ section header {
 
 }
 
+// faux button
+.setupDownload {
+	display: inline-block;
+	background: $light_grey;
+	padding: 4px 9px;
+	margin: 0;
+	border: 0px;
+	font-size: 14px;
+	line-height: 1em;
+	font-family: $subheading-font;
+	text-transform: uppercase;
+	color: $dark_grey;
+	@include box-sizing(border-box);
+	-webkit-appearance: none;
+	@include border-radius(0px);
+	text-decoration: none !important;
 
+	&:hover {
+		cursor: pointer;
+		color: #fff;
+		background: lighten($red, 10%);
+	}
+	
+	&.fullprofile {
+		margin: 20px 0 0 0;
+		
+		@include respond-to(print) {
+			display: none;
+		}
+	}
+}
 
 
 // imagery.html
@@ -1011,6 +1012,14 @@ section header {
 		position: relative;
 	    transition: max-height 1s;
 
+	}
+
+	h3 {
+		margin-bottom: 0.2em;
+	}
+
+	fieldset {
+		margin-bottom: 0.5em;
 	}
 }
 
