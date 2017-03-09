@@ -1073,6 +1073,8 @@ a {
 
 #productSummaryContainer {
   margin: 0.5em 0 0.5em 0.5em; }
+  #productSummaryContainer .product_description p {
+    max-width: 360px; }
 
 section header {
   margin: 0 0.5em; }
