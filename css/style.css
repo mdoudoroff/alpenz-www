@@ -1346,6 +1346,11 @@ img.socialButton {
   vertical-align: bottom;
   height: 37px; }
 
+.generalTable th {
+  font-weight: bold; }
+.generalTable th, .generalTable td {
+  padding-right: 1em; }
+
 .products {
   overflow: hidden;
   margin: 0 0 2em 0;

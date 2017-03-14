@@ -1103,3 +1103,11 @@ img.socialButton {
 	height: 37px;
 }
 
+.generalTable {
+	th {
+		font-weight: bold;
+	}
+	th, td {
+		padding-right: 1em;
+	}
+}
