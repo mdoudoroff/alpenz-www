@@ -211,7 +211,7 @@
 		font-family: $subheading-font;
 	
 		th,td {
-			border-right: 0.5em solid $body_background;
+			border-right: 1em solid $body_background;
 			border-bottom: 1px solid $body_background;
 			white-space: nowrap;
 		}
@@ -220,9 +220,11 @@
 			font-weight: 700;
 			text-transform: uppercase;
 			font-size: 13px;
+			font-family: $subheading-font;
 		}
 		td {
-			font-size: 17px;
+			font-size: 14px;
+			font-family: $body-font;
 		}
 	}
 
@@ -419,13 +421,13 @@
 #infographic {
 
 	clear: both;
-	margin-top: 0.5em;
+	margin-top: 1em;
 	margin-left: 7px;
 	margin-right: 7px;
 
 	.infographicSegment {
-		font-family: $subheading-font;
-		font-size: 17px;
+		font-family: $body-font;
+		font-size: 14px;
 
 		width: 312px;
 		display: inline-table;
@@ -475,6 +477,8 @@
 		font-weight: 700;
 		text-transform: uppercase;
 		font-size: 13px;
+
+		display: none;
 
 	}
 

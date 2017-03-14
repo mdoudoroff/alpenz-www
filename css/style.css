@@ -1646,16 +1646,18 @@ div.grouping {
     border-left: 1px solid #fff;
     font-family: "myriad-pro-condensed", Georgia, Times, serif; }
     .setup table th, .setup table td {
-      border-right: 0.5em solid #fff;
+      border-right: 1em solid #fff;
       border-bottom: 1px solid #fff;
       white-space: nowrap; }
     .setup table th {
       background: white;
       font-weight: 700;
       text-transform: uppercase;
-      font-size: 13px; }
+      font-size: 13px;
+      font-family: "myriad-pro-condensed", Georgia, Times, serif; }
     .setup table td {
-      font-size: 17px; }
+      font-size: 14px;
+      font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif; }
   @media only screen and (max-width: 420px) {
     .setup {
       overflow-x: auto; } }
@@ -1745,12 +1747,12 @@ div.grouping {
 
 #infographic {
   clear: both;
-  margin-top: 0.5em;
+  margin-top: 1em;
   margin-left: 7px;
   margin-right: 7px; }
   #infographic .infographicSegment {
-    font-family: "myriad-pro-condensed", Georgia, Times, serif;
-    font-size: 17px;
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+    font-size: 14px;
     width: 312px;
     display: inline-table;
     border-right: 1px solid #dddcd8;
@@ -1786,7 +1788,8 @@ div.grouping {
     font-family: "myriad-pro-condensed", Georgia, Times, serif;
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 13px; }
+    font-size: 13px;
+    display: none; }
 
 /*************************************/
 /*   

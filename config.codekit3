@@ -1430,14 +1430,6 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/Aperitivo_Cappelletti.context.spritz_in_palazzo.jpg": {
-		"ft": 16384,
-		"iS": 374638,
-		"oA": 1,
-		"oAP": "\/images\/Aperitivo_Cappelletti.context.spritz_in_palazzo.jpg",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/images\/Aperitivo_Cappelletti.contrada-nuptune-domplatz.jpg": {
 		"ft": 16384,
 		"iS": 148721,
@@ -2222,11 +2214,11 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/Cocchi_Americano_Bianco.label.Americano-logo1.png": {
+	"\/images\/Cocchi_Americano_Bianco.label.Americano.png": {
 		"ft": 32768,
-		"iS": 394551,
+		"iS": 385364,
 		"oA": 1,
-		"oAP": "\/images\/Cocchi_Americano_Bianco.label.Americano-logo1.png",
+		"oAP": "\/images\/Cocchi_Americano_Bianco.label.Americano.png",
 		"oF": 0,
 		"opt": 0
 		},
