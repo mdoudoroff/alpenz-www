@@ -24,14 +24,18 @@
 		// padding: 20px 0;
 		border-bottom: 1px solid $body-background;
 		
+		// background-color: yellow;
+
 		.label {
 			float: left;
 			position: relative;
 			text-align: center;
 			width: 230px;
 			height: 230px;
+			line-height: 230px;
 
-			margin: 0 20px 0 0;
+			// margin: 0 20px 0 0;
+			margin: 0 0.5em 0 0;
 			
 			@include respond-to(phone) {
 				display: none;
@@ -40,10 +44,12 @@
 			img {
 				height: 230px;
 				width: auto;
+				vertical-align: middle;
 			}
 			img.wideimage {
 				width: 100%;
 				height: auto;
+				vertical-align: middle;
 			}
 
 			a {
@@ -53,6 +59,8 @@
 			.quickview {
 				display: none;
 			}
+
+			// background-color: blue;
 		}
 
 		div.tall {
@@ -68,9 +76,9 @@
 			float: left;
 			@include box-sizing(border-box);
 			padding: 0 0;
-			margin-right: 10px;
+			margin-right: 0.5em;
 			
-			width: 480px;
+			width: 478px;
 
 			@include respond-to(phone) {
 				width: 100%;
@@ -103,9 +111,11 @@
 			@include box-sizing(border-box);
 			float: right;
 			text-align: center;
-			width: 120px;
+			width: 108px;
 
 			height: 230px;
+			line-height: 230px;
+
 			padding: 0 0;
 
 			overflow: hidden;
@@ -121,11 +131,12 @@
 
 				height: 230px;
 				width: auto;
+				vertical-align: middle;
 
 			}
 
 
-
+			// background-color: green;
 
 		}
 		
@@ -133,10 +144,13 @@
 			@include box-sizing(border-box);
 			float: left;
 			text-align: center;
-			width: 200px;
+			width: 230px;
 			height: 230px;
 			padding: 0 0;
 			line-height: 230px;
+
+			// background-color: red;
+			vertical-align: middle;
 			
 			a {
 				line-height: 0;
@@ -144,10 +158,12 @@
 
 			img {
 				height: 230px;
+				vertical-align: middle;
 				width: auto;
 			}
 			img.wideimage {
 				width: 100%;
+				vertical-align: middle;
 				height: auto;
 			}
 			

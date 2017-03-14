@@ -68,7 +68,7 @@
 
 	.description {
 		float: left;
-		max-width: 510px;
+		max-width: 477px;
 
 		@include respond-to(largetablet) {
 			// max-width: 360px;
@@ -82,7 +82,7 @@
 
 	.duplex {
 		float:right;
-		margin-left: 1em;
+		margin-left: 0.5em;
 		max-width: 225px;
 		text-align: center;
 
@@ -94,6 +94,8 @@
 			padding-top: 1em;
 			max-width: none;
 		}
+
+		// background-color: yellow;
 	}
 
 	.label {
@@ -101,17 +103,20 @@
 		// max-width: 200px;
 		// margin-right: 1em;
 		height: 225px;
+		line-height: 225px;
 
 		img {
 			height: 100%;
 			width: auto;
+			vertical-align: middle;
 		}
 		img.wideimage {
 			width: 100%;
 			height: auto;
+			vertical-align: middle;
 		}
 
-		margin-bottom: 1em;
+		margin-bottom: 0.5em;
 
 		@include respond-to(phone) {
 			float: left;
@@ -119,23 +124,28 @@
 			height: 160px;
 
 		}
+
+		// background-color: blue;
 	}
 
 	.bottle {
 		float: right;
-		width: 150px;
-		margin-right: 1em;
-		height: 450px;
+		width: 215px;
+		margin-right: 0.5em;
+		height: 457px;
 		text-align: center;
+		line-height: 457px;
 
 		img {
 			width: auto;
-			height:100%;
+			height:457px;
+			vertical-align: middle;
 		}
-		img.wideimage {
-			width: 100%;
-			height: auto;
-		}
+		// img.wideimage {
+		// 	width: 100%;
+		// 	height: auto;
+		// 	vertical-align: middle;
+		// }
 
 		@include respond-to(phone) {
 
@@ -153,19 +163,24 @@
 			}
 		}
 
+		// background-color: green;
+
 	}
 
 	.context {
 		height: 225px;
+		line-height: 225px;
 
 		// float:left;
 		img {
 			height: 100%;
 			width: auto;
+			vertical-align: middle;
 		}
 		img.wideimage {
 			width: 100%;
 			height: auto;
+			vertical-align: middle;
 		}
 
 		@include respond-to(phone) {
@@ -175,6 +190,8 @@
 			height: 160px;
 		}
 
+		// background-color: blue;
+
 	}
 
 }
@@ -183,7 +200,7 @@
 .setup {
 	clear: both;
 	overflow-x: auto;
-	margin: 1em 0;
+	margin: 1em 7px;
 	
 
 
@@ -403,12 +420,14 @@
 
 	clear: both;
 	margin-top: 0.5em;
+	margin-left: 7px;
+	margin-right: 7px;
 
 	.infographicSegment {
 		font-family: $subheading-font;
 		font-size: 17px;
 
-		width: 317px;
+		width: 312px;
 		display: inline-table;
 		border-right: 1px solid $off-grey-dark;
 		border-left: 1px solid $off-grey-dark;

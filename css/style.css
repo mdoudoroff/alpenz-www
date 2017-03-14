@@ -1370,16 +1370,19 @@ img.socialButton {
       text-align: center;
       width: 230px;
       height: 230px;
-      margin: 0 20px 0 0; }
+      line-height: 230px;
+      margin: 0 0.5em 0 0; }
       @media only screen and (max-width: 420px) {
         .products .type-product .label {
           display: none; } }
       .products .type-product .label img {
         height: 230px;
-        width: auto; }
+        width: auto;
+        vertical-align: middle; }
       .products .type-product .label img.wideimage {
         width: 100%;
-        height: auto; }
+        height: auto;
+        vertical-align: middle; }
       .products .type-product .label a {
         display: block; }
       .products .type-product .label .quickview {
@@ -1395,8 +1398,8 @@ img.socialButton {
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
       padding: 0 0;
-      margin-right: 10px;
-      width: 480px; }
+      margin-right: 0.5em;
+      width: 478px; }
       @media only screen and (max-width: 420px) {
         .products .type-product .product_text {
           width: 100%;
@@ -1418,8 +1421,9 @@ img.socialButton {
       box-sizing: border-box;
       float: right;
       text-align: center;
-      width: 120px;
+      width: 108px;
       height: 230px;
+      line-height: 230px;
       padding: 0 0;
       overflow: hidden; }
       @media only screen and (max-width: 420px) {
@@ -1430,24 +1434,28 @@ img.socialButton {
           height: auto; } }
       .products .type-product .bottle img {
         height: 230px;
-        width: auto; }
+        width: auto;
+        vertical-align: middle; }
     .products .type-product .context {
       -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
       float: left;
       text-align: center;
-      width: 200px;
+      width: 230px;
       height: 230px;
       padding: 0 0;
-      line-height: 230px; }
+      line-height: 230px;
+      vertical-align: middle; }
       .products .type-product .context a {
         line-height: 0; }
       .products .type-product .context img {
         height: 230px;
+        vertical-align: middle;
         width: auto; }
       .products .type-product .context img.wideimage {
         width: 100%;
+        vertical-align: middle;
         height: auto; }
       @media only screen and (max-width: 420px) {
         .products .type-product .context {
@@ -1557,10 +1565,10 @@ div.grouping {
       margin-left: 1em; }
   .vitals .description {
     float: left;
-    max-width: 510px; }
+    max-width: 477px; }
   .vitals .duplex {
     float: right;
-    margin-left: 1em;
+    margin-left: 0.5em;
     max-width: 225px;
     text-align: center; }
     @media only screen and (max-width: 420px) {
@@ -1573,13 +1581,16 @@ div.grouping {
         max-width: none; } }
   .vitals .label {
     height: 225px;
-    margin-bottom: 1em; }
+    line-height: 225px;
+    margin-bottom: 0.5em; }
     .vitals .label img {
       height: 100%;
-      width: auto; }
+      width: auto;
+      vertical-align: middle; }
     .vitals .label img.wideimage {
       width: 100%;
-      height: auto; }
+      height: auto;
+      vertical-align: middle; }
     @media only screen and (max-width: 420px) {
       .vitals .label {
         float: left;
@@ -1587,16 +1598,15 @@ div.grouping {
         height: 160px; } }
   .vitals .bottle {
     float: right;
-    width: 150px;
-    margin-right: 1em;
-    height: 450px;
-    text-align: center; }
+    width: 215px;
+    margin-right: 0.5em;
+    height: 457px;
+    text-align: center;
+    line-height: 457px; }
     .vitals .bottle img {
       width: auto;
-      height: 100%; }
-    .vitals .bottle img.wideimage {
-      width: 100%;
-      height: auto; }
+      height: 457px;
+      vertical-align: middle; }
     @media only screen and (max-width: 420px) {
       .vitals .bottle {
         width: 20%;
@@ -1609,13 +1619,16 @@ div.grouping {
           width: 100%;
           height: auto; } }
   .vitals .context {
-    height: 225px; }
+    height: 225px;
+    line-height: 225px; }
     .vitals .context img {
       height: 100%;
-      width: auto; }
+      width: auto;
+      vertical-align: middle; }
     .vitals .context img.wideimage {
       width: 100%;
-      height: auto; }
+      height: auto;
+      vertical-align: middle; }
     @media only screen and (max-width: 420px) {
       .vitals .context {
         float: left;
@@ -1626,7 +1639,7 @@ div.grouping {
 .setup {
   clear: both;
   overflow-x: auto;
-  margin: 1em 0; }
+  margin: 1em 7px; }
   .setup table {
     width: auto;
     border-top: 1px solid #fff;
@@ -1732,11 +1745,13 @@ div.grouping {
 
 #infographic {
   clear: both;
-  margin-top: 0.5em; }
+  margin-top: 0.5em;
+  margin-left: 7px;
+  margin-right: 7px; }
   #infographic .infographicSegment {
     font-family: "myriad-pro-condensed", Georgia, Times, serif;
     font-size: 17px;
-    width: 317px;
+    width: 312px;
     display: inline-table;
     border-right: 1px solid #dddcd8;
     border-left: 1px solid #dddcd8;

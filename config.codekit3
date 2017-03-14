@@ -1422,6 +1422,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/Aperitivo_Cappelletti.context.spritz-in-palazzo.jpg": {
+		"ft": 16384,
+		"iS": 27654,
+		"oA": 1,
+		"oAP": "\/images\/Aperitivo_Cappelletti.context.spritz-in-palazzo.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/Aperitivo_Cappelletti.context.spritz_in_palazzo.jpg": {
 		"ft": 16384,
 		"iS": 374638,
@@ -13662,6 +13670,18 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/subcategory-white_wine.html",
+		"oF": 0
+		},
+	"\/supercategory-spirits.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/supercategory-spirits.html",
+		"oF": 0
+		},
+	"\/supercategory-wines.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/supercategory-wines.html",
 		"oF": 0
 		}
 	},
