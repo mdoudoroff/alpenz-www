@@ -14307,6 +14307,12 @@
 		"oAP": "\/recipes-Hayman_Distillers-Royal_Dock_of_Deptford_Navy_Strength_Gin.html",
 		"oF": 0
 		},
+	"\/recipes-Henriques-HandH_Rainwater_3_Year_Old_Madeira_NV.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Henriques-HandH_Rainwater_3_Year_Old_Madeira_NV.html",
+		"oF": 0
+		},
 	"\/recipes-Josef_Hofer-Zirbenz_Stone_Pine_Liqueur_of_the_Alps.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -14329,6 +14335,36 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/recipes-Miro-Miro_Rojo_Vermut_de_Reus.html",
+		"oF": 0
+		},
+	"\/recipes-Other-Abbe_Rous_Matifoc_Rancio_Sec.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Other-Abbe_Rous_Matifoc_Rancio_Sec.html",
+		"oF": 0
+		},
+	"\/recipes-Other-Mas_Peyre_Le_Demon_de_Midi_Rancio_Sec.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Other-Mas_Peyre_Le_Demon_de_Midi_Rancio_Sec.html",
+		"oF": 0
+		},
+	"\/recipes-Other-Tabacal_Tresmontaine_Rancio_IGP.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Other-Tabacal_Tresmontaine_Rancio_IGP.html",
+		"oF": 0
+		},
+	"\/recipes-Other-Terres_des_Templiers_Rancio_Sec.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Other-Terres_des_Templiers_Rancio_Sec.html",
+		"oF": 0
+		},
+	"\/recipes-proofing.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-proofing.html",
 		"oF": 0
 		},
 	"\/recipes-Purkhart-Blume_Marillen_Apricot_Eau-de-Vie.html": {

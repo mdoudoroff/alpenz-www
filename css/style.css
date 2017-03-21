@@ -300,9 +300,14 @@ em, i {
               white-space: nowrap; }
               .header ul li ul li ul li a {
                 white-space: nowrap;
-                padding: 0 20px 0 20px; }
+                padding: 0 9px 0 18px; }
                 .header ul li ul li ul li a:after {
                   display: none; }
+              .header ul li ul li ul li a.subcat {
+                padding-left: 3em;
+                font-weight: 400; }
+              .header ul li ul li ul li a.cat {
+                font-weight: 700; }
           .header ul li ul li:hover ul {
             display: block; }
             .header ul li ul li:hover ul a:after {
@@ -322,8 +327,7 @@ em, i {
 
 .navigation {
   width: 100%;
-  background: #484848;
-  /* Main Menu */ }
+  background: #484848; }
   @media print {
     .navigation {
       display: none; } }
@@ -339,86 +343,6 @@ em, i {
     top: 0;
     left: 0;
     z-index: 1000; }
-  .navigation ul {
-    display: block;
-    font-family: "myriad-pro-condensed", Georgia, Times, serif;
-    font-size: 15px;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
-    margin-left: -20px; }
-    @media only screen and (max-width: 420px) {
-      .navigation ul {
-        width: 100%; } }
-    .navigation ul li {
-      display: inline;
-      float: left;
-      text-align: center;
-      padding: 0;
-      line-height: 40px;
-      letter-spacing: 1px;
-      /* Horizontal Sub Menu */
-      /* If main menu is hovered, show sub menu, but not sub menu options */ }
-      @media only screen and (max-width: 420px) {
-        .navigation ul li {
-          width: 100%;
-          display: block; } }
-      .navigation ul li a {
-        display: block;
-        padding: 0 20px;
-        text-decoration: none;
-        color: #fff; }
-      .navigation ul li.current-menu-parent a, .navigation ul li.current-menu-item a, .navigation ul li.here a,
-      .navigation ul li a:hover, .navigation ul li:hover a {
-        color: #fff;
-        background: #a2120f; }
-      .navigation ul li#nav-home.here a {
-        background: none !important; }
-      .navigation ul li ul {
-        display: none;
-        margin: 0;
-        top: 100%;
-        left: 0;
-        position: absolute;
-        z-index: 2000;
-        background: #a2120f; }
-        .navigation ul li ul li {
-          float: left;
-          white-space: nowrap;
-          text-align: left;
-          position: relative;
-          white-space: nowrap;
-          /* Vertical Dropdown Menu */
-          /* If sub menu is hovered, show options */ }
-          .navigation ul li ul li a {
-            padding: 0 20px; }
-            .navigation ul li ul li a:hover {
-              background: #a2120f; }
-          .navigation ul li ul li ul {
-            display: none;
-            position: absolute;
-            top: 100%;
-            left: 0;
-            font-size: 13px;
-            font-weight: 400;
-            overflow: visible; }
-            .navigation ul li ul li ul li {
-              display: block;
-              line-height: 30px;
-              float: none;
-              white-space: nowrap; }
-              .navigation ul li ul li ul li a {
-                padding: 0 20px 0 20px; }
-          .navigation ul li ul li:hover ul {
-            display: block; }
-      .navigation ul li.current-menu-item ul, .navigation ul li.current-menu-parent ul {
-        display: block; }
-      .navigation ul li.current-menu-item ul ul, .navigation ul li.current-menu-parent ul ul {
-        display: none; }
-      .navigation ul li:hover ul {
-        display: block; }
-        .navigation ul li:hover ul ul {
-          display: none; }
 
 .spacer {
   width: 100%;
@@ -559,7 +483,8 @@ em, i {
   border-bottom: 1px solid #dddcd8; }
 
 .typeBrowserCat2 {
-  margin-left: 4em;
+  font-weight: 400;
+  margin-left: 3em;
   border-bottom: 1px solid #dddcd8; }
 
 .typeBrowserVerticalLeft {

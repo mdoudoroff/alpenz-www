@@ -286,11 +286,21 @@ $logoheight: 50px;
 							
 							a {
 								white-space: nowrap;
-								padding: 0 20px 0 20px;
+								padding: 0 9px 0 18px;
+
 								
 								&:after {
 									display: none;
 								}
+							}
+
+							a.subcat {
+								padding-left: 3em;
+								font-weight: 400;
+							}
+
+							a.cat {
+								font-weight: 700;
 							}
 						}
 					}
@@ -341,6 +351,7 @@ $logoheight: 50px;
 	}	
 }
 
+// what is this?
 .navigation {
 	width: 100%;
 	background: $dark_grey;
@@ -367,142 +378,142 @@ $logoheight: 50px;
 		z-index: 1000;
 	}
 	
-	/* Main Menu */
-	ul { 
-		display: block;
-		font-family: $subheading-font;
-		font-size: 15px;
-		font-weight: 700;
-		text-transform: uppercase;
-		text-align: center;
-		margin-left: -$gutter;
+	// /* Main Menu */
+	// ul { 
+	// 	display: block;
+	// 	font-family: $subheading-font;
+	// 	font-size: 15px;
+	// 	font-weight: 700;
+	// 	text-transform: uppercase;
+	// 	text-align: center;
+	// 	margin-left: -$gutter;
 		
-		@include respond-to(smalltablet) {
-			float: none;
-			text-align: center;
-			margin-left: (-$gutter / 2);
-		}
-		@include respond-to(phone) {
-			width: 100%;
-		}
+	// 	@include respond-to(smalltablet) {
+	// 		float: none;
+	// 		text-align: center;
+	// 		margin-left: (-$gutter / 2);
+	// 	}
+	// 	@include respond-to(phone) {
+	// 		width: 100%;
+	// 	}
 	
-		li { 
-			display: inline;
-			float: left;
-			text-align: center;
-			padding: 0;
-			line-height: 40px;
-			letter-spacing: 1px;
+	// 	li { 
+	// 		display: inline;
+	// 		float: left;
+	// 		text-align: center;
+	// 		padding: 0;
+	// 		line-height: 40px;
+	// 		letter-spacing: 1px;
 			
-			@include respond-to(phone) {
-				width: 100%;
-				display: block;
-			}
+	// 		@include respond-to(phone) {
+	// 			width: 100%;
+	// 			display: block;
+	// 		}
 		
-			a { 
-				display: block;
-				padding: 0 $gutter;
-				text-decoration: none;
-				color: #fff;
+	// 		a { 
+	// 			display: block;
+	// 			padding: 0 $gutter;
+	// 			text-decoration: none;
+	// 			color: #fff;
 				
-				@include respond-to(smalltablet) {
-					padding: 0 ($gutter / 2);
-				}
-			}
-			&.current-menu-parent a,
-			&.current-menu-item a,
-			&.here a,
-			a:hover,
-			&:hover a {
-				color: #fff;
-				background: $red;
-			}
-			&#nav-home.here a {
-				background: none !important;
-			}
+	// 			@include respond-to(smalltablet) {
+	// 				padding: 0 ($gutter / 2);
+	// 			}
+	// 		}
+	// 		&.current-menu-parent a,
+	// 		&.current-menu-item a,
+	// 		&.here a,
+	// 		a:hover,
+	// 		&:hover a {
+	// 			color: #fff;
+	// 			background: $red;
+	// 		}
+	// 		&#nav-home.here a {
+	// 			background: none !important;
+	// 		}
 			
-			/* Horizontal Sub Menu */
-			ul {
-				display: none;
-				margin: 0;
-				top: 100%;
-				left: 0;
-				position: absolute;
-				z-index: 2000;
-				background: $red;
+	// 		/* Horizontal Sub Menu */
+	// 		ul {
+	// 			display: none;
+	// 			margin: 0;
+	// 			top: 100%;
+	// 			left: 0;
+	// 			position: absolute;
+	// 			z-index: 2000;
+	// 			background: $red;
 				
-				li {
-					float: left;
-					white-space: nowrap;
-					text-align: left;
-					position: relative;
-					white-space: nowrap;
+	// 			li {
+	// 				float: left;
+	// 				white-space: nowrap;
+	// 				text-align: left;
+	// 				position: relative;
+	// 				white-space: nowrap;
 					
-					a {
-						padding: 0 20px;
+	// 				a {
+	// 					padding: 0 20px;
 						
-						&:hover {
-							background: $red;
-						}
-					}
+	// 					&:hover {
+	// 						background: $red;
+	// 					}
+	// 				}
 					
-					/* Vertical Dropdown Menu */
-					ul {
-						display: none;
-						position: absolute;
-						top: 100%;
-						left: 0;
-						font-size: 13px;
-						font-weight: 400;
-						overflow: visible;
+	// 				/* Vertical Dropdown Menu */
+	// 				ul {
+	// 					display: none;
+	// 					position: absolute;
+	// 					top: 100%;
+	// 					left: 0;
+	// 					font-size: 13px;
+	// 					font-weight: 400;
+	// 					overflow: visible;
 						
-						li {
-							display: block;
-							line-height: 30px;
-							float: none;
-							white-space: nowrap;
+	// 					li {
+	// 						display: block;
+	// 						line-height: 30px;
+	// 						float: none;
+	// 						white-space: nowrap;
 							
-							a {
+	// 						a {
 								
-								padding: 0 20px 0 20px;
-							}
-						}
-					}
-					/* If sub menu is hovered, show options */
-					&:hover {
+	// 							padding: 0 20px 0 20px;
+	// 						}
+	// 					}
+	// 				}
+	// 				/* If sub menu is hovered, show options */
+	// 				&:hover {
 				
-						ul {
-							display: block;
+	// 					ul {
+	// 						display: block;
 							
 							
-						}
-					}
-				}
-			}
+	// 					}
+	// 				}
+	// 			}
+	// 		}
 			
-			&.current-menu-item ul,
-			&.current-menu-parent ul {
-				display: block;
-			}
+	// 		&.current-menu-item ul,
+	// 		&.current-menu-parent ul {
+	// 			display: block;
+	// 		}
 			
-			&.current-menu-item ul ul,
-			&.current-menu-parent ul ul {
-				display: none;
-			}
+	// 		&.current-menu-item ul ul,
+	// 		&.current-menu-parent ul ul {
+	// 			display: none;
+	// 		}
 			
-			/* If main menu is hovered, show sub menu, but not sub menu options */
-			&:hover {
+	// 		/* If main menu is hovered, show sub menu, but not sub menu options */
+	// 		&:hover {
 				
-				ul {
-					display: block;
+	// 			ul {
+	// 				display: block;
 					
-					ul {
-						display: none;
-					}
-				}
-			}
-		}
-	}
+	// 				ul {
+	// 					display: none;
+	// 				}
+	// 			}
+	// 		}
+	// 	}
+	// }
 }
 
 
