@@ -70,8 +70,6 @@ jQuery(document).ready(function() {
 
 	//
 
-
-
 	$("#sidebar-menu ul").hide();                                                       
 
 	$("#sidebar-menu li").prepend("<span class='handle'></span>");
@@ -113,6 +111,14 @@ jQuery(document).ready(function() {
 		$(this).hide();
 		$('.folded').show();
 		return False;
+	});
+
+	$(".locSelector").click(function(event) {
+		event.preventDefault();
+		// window.console.log( $(this).data('latitude'), $(this).data('longitude'), $(this).data('zoom') );
+		var m = window.mainmap;
+		m.setCenter({lat: $(this).data('latitude'), lng: $(this).data('longitude')}); 
+		m.setZoom($(this).data('zoom'));
 	});
 
 	window.console.log(window.location.hash);

@@ -11187,6 +11187,12 @@
 		"oAP": "\/licenses.html",
 		"oF": 0
 		},
+	"\/maptool.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/maptool.html",
+		"oF": 0
+		},
 	"\/mission.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -11409,6 +11415,18 @@
 		"oAP": "\/product-American_Gin_Company-Averell_Damson_Gin.html",
 		"oF": 0
 		},
+	"\/product-Arnaud_de_Villeneuve-Tabacal_Dos_Tresmontaine_Rancio_IGP.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-Arnaud_de_Villeneuve-Tabacal_Dos_Tresmontaine_Rancio_IGP.html",
+		"oF": 0
+		},
+	"\/product-Arnaud_de_Villeneuve-Tabacal_Tresmontaine_Rancio_IGP.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-Arnaud_de_Villeneuve-Tabacal_Tresmontaine_Rancio_IGP.html",
+		"oF": 0
+		},
 	"\/product-Bonal-Bonal_Gentiane-Quina.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -11455,6 +11473,24 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/product-Casa_Brina-Casa_Brina_DOCG_Ruche.html",
+		"oF": 0
+		},
+	"\/product-Cave_de_LAbbe_Rous-Abbe_Rous_Matifoc_Rancio_Sec.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-Cave_de_LAbbe_Rous-Abbe_Rous_Matifoc_Rancio_Sec.html",
+		"oF": 0
+		},
+	"\/product-Celler_Cooperatiu_dEspolla-Espodol_Solera_Garnatxa_dEmporda.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-Celler_Cooperatiu_dEspolla-Espodol_Solera_Garnatxa_dEmporda.html",
+		"oF": 0
+		},
+	"\/product-Celler_Cooperatiu_dEspolla-Espodol_Vi_Ranci_Seco.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-Celler_Cooperatiu_dEspolla-Espodol_Vi_Ranci_Seco.html",
 		"oF": 0
 		},
 	"\/product-Christian_Jauk-Christian_Jauk_Schilcher_Klassik.html": {
@@ -11545,6 +11581,36 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/product-Dolin-Dolin_Rouge_Vermouth_de_Chambery.html",
+		"oF": 0
+		},
+	"\/product-Domaine_de_Rombeau-Dom_de_Rombeau_Rancio_Sec_IGP.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-Domaine_de_Rombeau-Dom_de_Rombeau_Rancio_Sec_IGP.html",
+		"oF": 0
+		},
+	"\/product-Domaine_du_Sau-Domaine_de_Sau_SaO_Rancio_Sec.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-Domaine_du_Sau-Domaine_de_Sau_SaO_Rancio_Sec.html",
+		"oF": 0
+		},
+	"\/product-Domaine_Jorel-Dom_Jorel_La_Garrigue_Rancio_Sec.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-Domaine_Jorel-Dom_Jorel_La_Garrigue_Rancio_Sec.html",
+		"oF": 0
+		},
+	"\/product-Domaine_Jorel-Dom_Jorel_Male_Care_Carignan.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-Domaine_Jorel-Dom_Jorel_Male_Care_Carignan.html",
+		"oF": 0
+		},
+	"\/product-Domaine_Vial-Magneres-Tresmontaine_Puits_aux_Souhaits_Rancio_Sec.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-Domaine_Vial-Magneres-Tresmontaine_Puits_aux_Souhaits_Rancio_Sec.html",
 		"oF": 0
 		},
 	"\/product-Haus_Alpenz-Batavia_Arrack_van_Oosten.html": {
@@ -11805,6 +11871,12 @@
 		"oAP": "\/product-Kronan-Kronan_Swedish_Punsch.html",
 		"oF": 0
 		},
+	"\/product-Mas_Peyre-Mas_Peyre_Le_Demon_de_Midi_Rancio_Sec.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-Mas_Peyre-Mas_Peyre_Le_Demon_de_Midi_Rancio_Sec.html",
+		"oF": 0
+		},
 	"\/product-Miro-Miro_Extra_Seco_Vermut_de_Reus.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -11989,6 +12061,18 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/product-Specialty_Drinks-The_Black_Tot_Last_Consignment_British_Royal_Naval_Rum.html",
+		"oF": 0
+		},
+	"\/product-Terres_des_Templiers-Terres_des_Templiers_Rancio_Sec.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-Terres_des_Templiers-Terres_des_Templiers_Rancio_Sec.html",
+		"oF": 0
+		},
+	"\/product-Weingut_Joebstl-Weingut_Joebstl_Schilcher_Ried_Krass.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-Weingut_Joebstl-Weingut_Joebstl_Schilcher_Ried_Krass.html",
 		"oF": 0
 		},
 	"\/products.html": {
@@ -14187,6 +14271,12 @@
 		"oAP": "\/recipes-American_Gin_Company-Averell_Damson_Gin.html",
 		"oF": 0
 		},
+	"\/recipes-Arnaud_de_Villeneuve-Tabacal_Tresmontaine_Rancio_IGP.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Arnaud_de_Villeneuve-Tabacal_Tresmontaine_Rancio_IGP.html",
+		"oF": 0
+		},
 	"\/recipes-Bonal-Bonal_Gentiane-Quina.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -14221,6 +14311,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/recipes-Cappelletti-Elisir_Novasalus.html",
+		"oF": 0
+		},
+	"\/recipes-Cave_de_LAbbe_Rous-Abbe_Rous_Matifoc_Rancio_Sec.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Cave_de_LAbbe_Rous-Abbe_Rous_Matifoc_Rancio_Sec.html",
 		"oF": 0
 		},
 	"\/recipes-Cocchi-Cocchi_Americano_Bianco.html": {
@@ -14323,6 +14419,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/recipes-Kronan-Kronan_Swedish_Punsch.html",
+		"oF": 0
+		},
+	"\/recipes-Mas_Peyre-Mas_Peyre_Le_Demon_de_Midi_Rancio_Sec.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Mas_Peyre-Mas_Peyre_Le_Demon_de_Midi_Rancio_Sec.html",
 		"oF": 0
 		},
 	"\/recipes-Miro-Miro_Extra_Seco_Vermut_de_Reus.html": {
@@ -14443,6 +14545,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/recipes-Smith_and_Cross-Smith_and_Cross_Traditional_Jamaica_Rum.html",
+		"oF": 0
+		},
+	"\/recipes-Terres_des_Templiers-Terres_des_Templiers_Rancio_Sec.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Terres_des_Templiers-Terres_des_Templiers_Rancio_Sec.html",
 		"oF": 0
 		},
 	"\/recipes.html": {

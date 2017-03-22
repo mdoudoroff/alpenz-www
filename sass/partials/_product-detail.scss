@@ -369,6 +369,20 @@
 		}
 	}
 
+	#gmapmaker {
+		width: 600px;
+		height: 480px;
+		float: right;
+		margin-left: 1em;
+
+		@include respond-to(phone) {
+			width: 100%;
+			float: none;
+			margin-left: 0;
+		}
+
+	}
+
 	.producerDescription {
 		column-count: 1;
 		margin: 1em 0;
