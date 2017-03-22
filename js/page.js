@@ -119,6 +119,15 @@ jQuery(document).ready(function() {
 		var m = window.mainmap;
 		m.setCenter({lat: $(this).data('latitude'), lng: $(this).data('longitude')}); 
 		m.setZoom($(this).data('zoom'));
+
+		var marker = new google.maps.Marker({
+		    position: {lat: $(this).data('latitude'), lng: $(this).data('longitude')},
+		    title:$(this).data("label")
+		});
+
+		// To add the marker to the map, call setMap();
+		marker.setMap(m);
+
 	});
 
 	window.console.log(window.location.hash);
