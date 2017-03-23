@@ -1276,6 +1276,23 @@ img.socialButton {
 .generalTable th, .generalTable td {
   padding-right: 1em; }
 
+ul.producerTiles {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1em; }
+  ul.producerTiles li {
+    vertical-align: top;
+    margin: 0;
+    margin-left: 1em;
+    width: 145px;
+    display: inline-block;
+    height: 300px;
+    border: 1px solid #eee; }
+    ul.producerTiles li img {
+      width: 145px;
+      height: 145px; }
+
 .products {
   overflow: hidden;
   margin: 0 0 2em 0;

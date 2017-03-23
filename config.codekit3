@@ -211,18 +211,6 @@
 		"oAP": "\/categories.html",
 		"oF": 0
 		},
-	"\/category-alpine_liqueurs.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/category-alpine_liqueurs.html",
-		"oF": 0
-		},
-	"\/category-amaro.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/category-amaro.html",
-		"oF": 0
-		},
 	"\/category-aperitifaromatized_wines.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -233,12 +221,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/category-floral_herbal_amaro.html",
-		"oF": 0
-		},
-	"\/category-fresh.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/category-fresh.html",
 		"oF": 0
 		},
 	"\/category-fruit_brandy.html": {
@@ -271,12 +253,6 @@
 		"oAP": "\/category-gins.html",
 		"oF": 0
 		},
-	"\/category-oxidative.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/category-oxidative.html",
-		"oF": 0
-		},
 	"\/category-red_wine.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -293,12 +269,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/category-rum.html",
-		"oF": 0
-		},
-	"\/category-rum_liqueurs.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/category-rum_liqueurs.html",
 		"oF": 0
 		},
 	"\/category-sparkling_wine.html": {
@@ -11283,6 +11253,12 @@
 		"oAP": "\/producer-American_Gin_Company.html",
 		"oF": 0
 		},
+	"\/producer-Arnaud_de_Villeneuve.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/producer-Arnaud_de_Villeneuve.html",
+		"oF": 0
+		},
 	"\/producer-Bonal.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -11313,10 +11289,16 @@
 		"oAP": "\/producer-Casa_Brina.html",
 		"oF": 0
 		},
-	"\/producer-Christian_Jauk.html": {
+	"\/producer-Cave_de_LAbbe_Rous.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/producer-Christian_Jauk.html",
+		"oAP": "\/producer-Cave_de_LAbbe_Rous.html",
+		"oF": 0
+		},
+	"\/producer-Celler_Cooperatiu_dEspolla.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/producer-Celler_Cooperatiu_dEspolla.html",
 		"oF": 0
 		},
 	"\/producer-Cocchi.html": {
@@ -11329,6 +11311,36 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/producer-Dolin.html",
+		"oF": 0
+		},
+	"\/producer-Domaine_de_Rombeau.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/producer-Domaine_de_Rombeau.html",
+		"oF": 0
+		},
+	"\/producer-Domaine_du_Sau.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/producer-Domaine_du_Sau.html",
+		"oF": 0
+		},
+	"\/producer-Domaine_Jorel.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/producer-Domaine_Jorel.html",
+		"oF": 0
+		},
+	"\/producer-Domaine_Puig-Parahy.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/producer-Domaine_Puig-Parahy.html",
+		"oF": 0
+		},
+	"\/producer-Domaine_Vial-Magneres.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/producer-Domaine_Vial-Magneres.html",
 		"oF": 0
 		},
 	"\/producer-Haus_Alpenz.html": {
@@ -11361,16 +11373,16 @@
 		"oAP": "\/producer-Kronan.html",
 		"oF": 0
 		},
+	"\/producer-Mas_Peyre.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/producer-Mas_Peyre.html",
+		"oF": 0
+		},
 	"\/producer-Miro.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/producer-Miro.html",
-		"oF": 0
-		},
-	"\/producer-Other.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/producer-Other.html",
 		"oF": 0
 		},
 	"\/producer-Purkhart.html": {
@@ -11401,6 +11413,24 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/producer-Specialty_Drinks.html",
+		"oF": 0
+		},
+	"\/producer-Terres_des_Templiers.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/producer-Terres_des_Templiers.html",
+		"oF": 0
+		},
+	"\/producer-Weingut_Christian_Jauk.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/producer-Weingut_Christian_Jauk.html",
+		"oF": 0
+		},
+	"\/producer-Weingut_Joebstl.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/producer-Weingut_Joebstl.html",
 		"oF": 0
 		},
 	"\/producers.html": {
@@ -11491,12 +11521,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/product-Celler_Cooperatiu_dEspolla-Espodol_Vi_Ranci_Seco.html",
-		"oF": 0
-		},
-	"\/product-Christian_Jauk-Christian_Jauk_Schilcher_Klassik.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/product-Christian_Jauk-Christian_Jauk_Schilcher_Klassik.html",
 		"oF": 0
 		},
 	"\/product-Cocchi-Cocchi_Alta_Langa_Bianc_d_Bianc.html": {
@@ -11895,94 +11919,10 @@
 		"oAP": "\/product-Miro-Miro_Rojo_Vermut_de_Reus.html",
 		"oF": 0
 		},
-	"\/product-Other-Abbe_Rous_Matifoc_Rancio_Sec.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/product-Other-Abbe_Rous_Matifoc_Rancio_Sec.html",
-		"oF": 0
-		},
-	"\/product-Other-Dom_de_Rombeau_Rancio_Sec_IGP.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/product-Other-Dom_de_Rombeau_Rancio_Sec_IGP.html",
-		"oF": 0
-		},
-	"\/product-Other-Dom_Jorel_La_Garrigue_Rancio_Sec.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/product-Other-Dom_Jorel_La_Garrigue_Rancio_Sec.html",
-		"oF": 0
-		},
-	"\/product-Other-Dom_Jorel_Male_Care_Carignan.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/product-Other-Dom_Jorel_Male_Care_Carignan.html",
-		"oF": 0
-		},
-	"\/product-Other-Domaine_de_Sau_SaO_Rancio_Sec.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/product-Other-Domaine_de_Sau_SaO_Rancio_Sec.html",
-		"oF": 0
-		},
-	"\/product-Other-Espodol_Solera_Garnatxa_dEmporda.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/product-Other-Espodol_Solera_Garnatxa_dEmporda.html",
-		"oF": 0
-		},
-	"\/product-Other-Espodol_Vi_Ranci_Seco.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/product-Other-Espodol_Vi_Ranci_Seco.html",
-		"oF": 0
-		},
 	"\/product-Other-LAntull_Vi_Rancio_Seco_DRAFT.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/product-Other-LAntull_Vi_Rancio_Seco_DRAFT.html",
-		"oF": 0
-		},
-	"\/product-Other-Mas_Peyre_Le_Demon_de_Midi_Rancio_Sec.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/product-Other-Mas_Peyre_Le_Demon_de_Midi_Rancio_Sec.html",
-		"oF": 0
-		},
-	"\/product-Other-Puig-Parahy_Pyror_Rancio_Sec.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/product-Other-Puig-Parahy_Pyror_Rancio_Sec.html",
-		"oF": 0
-		},
-	"\/product-Other-Tabacal_Dos_Tresmontaine_Rancio_IGP.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/product-Other-Tabacal_Dos_Tresmontaine_Rancio_IGP.html",
-		"oF": 0
-		},
-	"\/product-Other-Tabacal_Tresmontaine_Rancio_IGP.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/product-Other-Tabacal_Tresmontaine_Rancio_IGP.html",
-		"oF": 0
-		},
-	"\/product-Other-Terres_des_Templiers_Rancio_Sec.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/product-Other-Terres_des_Templiers_Rancio_Sec.html",
-		"oF": 0
-		},
-	"\/product-Other-Tresmontaine_Puits_sux_Souhaits_Rancio_Sec.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/product-Other-Tresmontaine_Puits_sux_Souhaits_Rancio_Sec.html",
-		"oF": 0
-		},
-	"\/product-Other-Weingut_Joebstl_Schilcher_Ried_Krass.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/product-Other-Weingut_Joebstl_Schilcher_Ried_Krass.html",
 		"oF": 0
 		},
 	"\/product-Purkhart-Blume_Marillen_Apricot_Eau-de-Vie.html": {
@@ -12073,6 +12013,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/product-Terres_des_Templiers-Terres_des_Templiers_Rancio_Sec.html",
+		"oF": 0
+		},
+	"\/product-Weingut_Christian_Jauk-Christian_Jauk_Schilcher_Klassik.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-Weingut_Christian_Jauk-Christian_Jauk_Schilcher_Klassik.html",
 		"oF": 0
 		},
 	"\/product-Weingut_Joebstl-Weingut_Joebstl_Schilcher_Ried_Krass.html": {
@@ -14445,30 +14391,6 @@
 		"oAP": "\/recipes-Miro-Miro_Rojo_Vermut_de_Reus.html",
 		"oF": 0
 		},
-	"\/recipes-Other-Abbe_Rous_Matifoc_Rancio_Sec.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/recipes-Other-Abbe_Rous_Matifoc_Rancio_Sec.html",
-		"oF": 0
-		},
-	"\/recipes-Other-Mas_Peyre_Le_Demon_de_Midi_Rancio_Sec.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/recipes-Other-Mas_Peyre_Le_Demon_de_Midi_Rancio_Sec.html",
-		"oF": 0
-		},
-	"\/recipes-Other-Tabacal_Tresmontaine_Rancio_IGP.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/recipes-Other-Tabacal_Tresmontaine_Rancio_IGP.html",
-		"oF": 0
-		},
-	"\/recipes-Other-Terres_des_Templiers_Rancio_Sec.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/recipes-Other-Terres_des_Templiers_Rancio_Sec.html",
-		"oF": 0
-		},
 	"\/recipes-proofing.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -15026,12 +14948,6 @@
 		"oAP": "\/subcategory-methode_traditionnelle.html",
 		"oF": 0
 		},
-	"\/subcategory-other_oxidative.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/subcategory-other_oxidative.html",
-		"oF": 0
-		},
 	"\/subcategory-quina.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -15044,22 +14960,10 @@
 		"oAP": "\/subcategory-rancio_sec.html",
 		"oF": 0
 		},
-	"\/subcategory-red_wine.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/subcategory-red_wine.html",
-		"oF": 0
-		},
 	"\/subcategory-schilcher.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/subcategory-schilcher.html",
-		"oF": 0
-		},
-	"\/subcategory-sparkling_wine.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/subcategory-sparkling_wine.html",
 		"oF": 0
 		},
 	"\/subcategory-vermouth.html": {
@@ -15072,12 +14976,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/subcategory-vino_amaro.html",
-		"oF": 0
-		},
-	"\/subcategory-white_wine.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/subcategory-white_wine.html",
 		"oF": 0
 		},
 	"\/supercategory-spirits.html": {
