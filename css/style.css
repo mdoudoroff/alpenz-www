@@ -1287,11 +1287,18 @@ ul.producerTiles {
     margin-left: 1em;
     width: 180px;
     display: inline-block;
-    height: 300px;
-    border: 1px solid #eee; }
-    ul.producerTiles li img {
+    height: 300px; }
+    ul.producerTiles li .logo {
       width: 180px;
-      height: 180px; }
+      height: 180px;
+      line-height: 180px;
+      padding: 0.5em;
+      border: 2px solid #ddd;
+      margin-bottom: 0.5em;
+      vertical-align: middle; }
+      ul.producerTiles li .logo img {
+        width: 100%;
+        height: auto; }
 
 .products {
   overflow: hidden;
