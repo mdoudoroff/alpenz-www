@@ -1284,10 +1284,13 @@ ul.producerTiles {
   ul.producerTiles li {
     vertical-align: top;
     margin: 0;
-    margin-left: 1em;
     width: 180px;
     display: inline-block;
     height: 300px; }
+    @media only screen and (max-width: 420px) {
+      ul.producerTiles li {
+        font-size: 80%;
+        width: 145px; } }
     ul.producerTiles li .logo {
       width: 180px;
       height: 180px;
@@ -1299,6 +1302,11 @@ ul.producerTiles {
       ul.producerTiles li .logo img {
         width: 100%;
         height: auto; }
+      @media only screen and (max-width: 420px) {
+        ul.producerTiles li .logo {
+          width: 145px;
+          width: 145px;
+          line-height: 145px; } }
 
 .products {
   overflow: hidden;
