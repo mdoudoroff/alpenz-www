@@ -1015,11 +1015,66 @@ section header {
   .catblurb .blurb figure.right {
     width: 30%;
     float: right; }
+  @media only screen and (max-width: 420px) {
+    .catblurb .blurb {
+      width: 100%; } }
+.catblurb figure.logo {
+  width: 170px;
+  height: 170px;
+  float: left;
+  margin: 0 1em 0 0; }
+  .catblurb figure.logo img {
+    width: auto;
+    height: 170px; }
+  .catblurb figure.logo img.wideimage {
+    width: 100%;
+    height: auto; }
+  @media only screen and (max-width: 420px) {
+    .catblurb figure.logo {
+      width: 50%;
+      height: auto; } }
 .catblurb .images {
   width: 33%;
   float: right; }
   .catblurb .images img {
     width: 100%; }
+  @media only screen and (max-width: 420px) {
+    .catblurb .images {
+      width: 100%;
+      float: none;
+      clear: both; } }
+.catblurb .producerTrio {
+  clear: both; }
+  .catblurb .producerTrio figure {
+    display: inline-block;
+    width: 32%; }
+    @media only screen and (max-width: 420px) {
+      .catblurb .producerTrio figure {
+        width: 49%; } }
+    .catblurb .producerTrio figure img {
+      margin: 0; }
+  .catblurb .producerTrio figure.placeImage {
+    margin-right: 1em; }
+    @media only screen and (max-width: 420px) {
+      .catblurb .producerTrio figure.placeImage {
+        margin-right: 0; } }
+  @media only screen and (max-width: 420px) {
+    .catblurb .producerTrio figure.processImage {
+      float: right; } }
+  .catblurb .producerTrio #gmap {
+    width: 32%;
+    float: right; }
+    @media only screen and (max-width: 420px) {
+      .catblurb .producerTrio #gmap {
+        width: 100%;
+        float: none; } }
+  .catblurb .producerTrio #map_canvas {
+    height: 202px;
+    margin: 0;
+    box-shadow: none; }
+    @media only screen and (max-width: 420px) {
+      .catblurb .producerTrio #map_canvas {
+        width: 100%; } }
 .catblurb figure {
   width: 100%;
   text-align: center;

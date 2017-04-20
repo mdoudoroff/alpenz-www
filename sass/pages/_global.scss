@@ -737,6 +737,34 @@ section header {
 			width: 30%;
 			float: right;
 		}
+
+		@include respond-to(phone) {
+			width: 100%;
+		}
+
+	}
+
+	figure.logo {
+		width: 170px;
+		height: 170px;
+		float: left;
+		margin: 0 1em 0 0;
+
+		img {
+			width: auto;
+			height: 170px;
+		}
+
+		img.wideimage {
+			width: 100%;
+			height: auto;
+		}
+
+		@include respond-to(phone) {
+			width: 50%;
+			height: auto;
+		}
+
 	}
 
 	.images {
@@ -746,8 +774,69 @@ section header {
 		img {
 			width: 100%;
 		}
+
+		@include respond-to(phone) {
+			width: 100%;
+			float: none;
+			clear: both;
+		}
+
 	}
 
+	.producerTrio {
+		clear: both;
+
+		figure {
+			display: inline-block;
+			width: 32%;
+
+			@include respond-to(phone) {
+				width: 49%;
+			}
+
+			img {
+				margin:0;
+
+			}
+		}
+
+		figure.placeImage {
+
+			margin-right: 1em;
+
+			@include respond-to(phone) {
+				margin-right: 0;
+			}
+		}
+
+		figure.processImage {
+			@include respond-to(phone) {
+				float: right;
+			}
+
+		}
+
+		#gmap {
+			width: 32%;
+			float: right;
+
+			@include respond-to(phone) {
+				width: 100%;
+				float: none;
+			}
+
+		}
+
+		#map_canvas {
+			height: 202px;
+			margin: 0;
+			box-shadow: none;
+
+			@include respond-to(phone) {
+				width: 100%;
+			}
+		}
+	}
 
     figure {
     	width: 100%;
