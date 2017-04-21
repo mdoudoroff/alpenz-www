@@ -1011,15 +1011,15 @@ header.producerindex .images {
   header.producerindex .images img {
     width: 100%; }
   header.producerindex .images figure.logo {
-    width: 170px;
+    width: 100%;
     height: 170px;
-    margin: 0 auto;
+    margin: 1em auto 0 auto;
     line-height: 170px; }
     header.producerindex .images figure.logo img {
       width: auto;
       height: 170px; }
     header.producerindex .images figure.logo img.wideimage {
-      width: 100%;
+      width: 90%;
       height: auto; }
     @media only screen and (max-width: 420px) {
       header.producerindex .images figure.logo {
