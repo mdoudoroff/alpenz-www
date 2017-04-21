@@ -1023,8 +1023,9 @@ header.producerindex .images {
       height: auto; }
     @media only screen and (max-width: 420px) {
       header.producerindex .images figure.logo {
-        width: 50%;
-        height: auto; } }
+        width: 100%;
+        height: auto;
+        line-height: 1; } }
   @media only screen and (max-width: 420px) {
     header.producerindex .images {
       width: 50%;

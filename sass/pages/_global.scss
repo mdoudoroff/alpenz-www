@@ -744,8 +744,9 @@ header.producerindex {
 			}
 
 			@include respond-to(phone) {
-				width: 50%;
+				width: 100%;
 				height: auto;
+				line-height: 1;
 			}
 
 		}
