@@ -1004,6 +1004,32 @@ a {
 section header {
   margin: 0 0.5em; }
 
+header.producerindex .images {
+  width: 33%;
+  float: right;
+  text-align: center; }
+  header.producerindex .images img {
+    width: 100%; }
+  header.producerindex .images figure.logo {
+    width: 170px;
+    height: 170px;
+    margin: 0 auto;
+    line-height: 170px; }
+    header.producerindex .images figure.logo img {
+      width: auto;
+      height: 170px; }
+    header.producerindex .images figure.logo img.wideimage {
+      width: 100%;
+      height: auto; }
+    @media only screen and (max-width: 420px) {
+      header.producerindex .images figure.logo {
+        width: 50%;
+        height: auto; } }
+  @media only screen and (max-width: 420px) {
+    header.producerindex .images {
+      width: 50%;
+      float: right; } }
+
 .catblurb .blurb {
   width: 66%; }
   .catblurb .blurb figure img {
@@ -1018,31 +1044,6 @@ section header {
   @media only screen and (max-width: 420px) {
     .catblurb .blurb {
       width: 100%; } }
-.catblurb figure.logo {
-  width: 170px;
-  height: 170px;
-  float: left;
-  margin: 0 1em 0 0; }
-  .catblurb figure.logo img {
-    width: auto;
-    height: 170px; }
-  .catblurb figure.logo img.wideimage {
-    width: 100%;
-    height: auto; }
-  @media only screen and (max-width: 420px) {
-    .catblurb figure.logo {
-      width: 50%;
-      height: auto; } }
-.catblurb .images {
-  width: 33%;
-  float: right; }
-  .catblurb .images img {
-    width: 100%; }
-  @media only screen and (max-width: 420px) {
-    .catblurb .images {
-      width: 100%;
-      float: none;
-      clear: both; } }
 .catblurb .producerTrio {
   clear: both; }
   .catblurb .producerTrio figure {
@@ -1345,7 +1346,8 @@ ul.producerTiles {
     @media only screen and (max-width: 420px) {
       ul.producerTiles li {
         font-size: 80%;
-        width: 145px; } }
+        width: 145px;
+        height: 250px; } }
     ul.producerTiles li .logo {
       width: 180px;
       height: 180px;
@@ -1360,7 +1362,7 @@ ul.producerTiles {
       @media only screen and (max-width: 420px) {
         ul.producerTiles li .logo {
           width: 145px;
-          width: 145px;
+          height: 145px;
           line-height: 145px; } }
 
 .products {
@@ -1445,7 +1447,7 @@ ul.producerTiles {
       overflow: hidden; }
       @media only screen and (max-width: 420px) {
         .products .type-product .bottle {
-          min-width: 60px;
+          min-width: 90px;
           width: 12.5%;
           float: right;
           height: auto; } }

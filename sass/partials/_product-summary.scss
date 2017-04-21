@@ -121,7 +121,7 @@
 			overflow: hidden;
 
 			@include respond-to(phone) {
-				min-width: 60px;
+				min-width: 90px;
 				width: 12.5%;
 				float: right;
 				height: auto;

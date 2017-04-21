@@ -716,6 +716,50 @@ section header {
 	margin: 0 0.5em;	
 }
 
+header.producerindex {
+
+	.images {
+		width: 33%;
+		float: right;
+		text-align: center;
+
+		img {
+			width: 100%;
+		}
+
+		figure.logo {
+			width: 170px;
+			height: 170px;
+			margin: 0 auto;
+			line-height: 170px;
+
+			img {
+				width: auto;
+				height: 170px;
+			}
+
+			img.wideimage {
+				width: 100%;
+				height: auto;
+			}
+
+			@include respond-to(phone) {
+				width: 50%;
+				height: auto;
+			}
+
+		}
+
+
+
+		@include respond-to(phone) {
+			width: 50%;
+			float: right;
+		}
+
+	}
+
+}
 
 .catblurb {
 
@@ -744,44 +788,7 @@ section header {
 
 	}
 
-	figure.logo {
-		width: 170px;
-		height: 170px;
-		float: left;
-		margin: 0 1em 0 0;
 
-		img {
-			width: auto;
-			height: 170px;
-		}
-
-		img.wideimage {
-			width: 100%;
-			height: auto;
-		}
-
-		@include respond-to(phone) {
-			width: 50%;
-			height: auto;
-		}
-
-	}
-
-	.images {
-		width: 33%;
-		float: right;
-
-		img {
-			width: 100%;
-		}
-
-		@include respond-to(phone) {
-			width: 100%;
-			float: none;
-			clear: both;
-		}
-
-	}
 
 	.producerTrio {
 		clear: both;
@@ -1222,6 +1229,7 @@ ul.producerTiles {
 		@include respond-to(phone) {
 			font-size: 80%;
 			width: 145px;
+			height: 250px;
 		}
 
 		.logo {
@@ -1240,7 +1248,7 @@ ul.producerTiles {
 
 			@include respond-to(phone) {
 				width: 145px;
-				width: 145px;
+				height: 145px;
 				line-height: 145px;				
 			}
 
