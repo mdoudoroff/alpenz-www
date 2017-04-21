@@ -1004,6 +1004,13 @@ a {
 section header {
   margin: 0 0.5em; }
 
+header.producerindex h1 {
+  margin-bottom: 0; }
+header.producerindex p.categorization {
+  margin-top: 0;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  font-size: 90%; }
 header.producerindex .images {
   width: 33%;
   float: right;
