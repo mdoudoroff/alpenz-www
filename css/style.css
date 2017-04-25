@@ -1004,8 +1004,6 @@ a {
 section header {
   margin: 0 0.5em; }
 
-header.producerindex h1 {
-  margin-bottom: 0; }
 header.producerindex p.categorization {
   margin-top: 0;
   margin-bottom: 1em;
@@ -1019,19 +1017,9 @@ header.producerindex .images {
     width: 100%; }
   header.producerindex .images figure.logo {
     width: 100%;
-    height: 170px;
-    margin: 1em auto 0 auto;
-    line-height: 170px; }
-    header.producerindex .images figure.logo img {
-      width: auto;
-      height: 170px; }
-    header.producerindex .images figure.logo img.wideimage {
-      width: 90%;
-      height: auto; }
+    margin: 1em auto 1em auto; }
     @media only screen and (max-width: 420px) {
       header.producerindex .images figure.logo {
-        width: 100%;
-        height: auto;
         line-height: 1; } }
   @media only screen and (max-width: 420px) {
     header.producerindex .images {
@@ -1056,14 +1044,17 @@ header.producerindex .images {
   clear: both; }
   .catblurb .producerTrio figure {
     display: inline-block;
-    width: 32%; }
-    @media only screen and (max-width: 420px) {
-      .catblurb .producerTrio figure {
-        width: 49%; } }
+    width: 33%;
+    height: 230px;
+    overflow: hidden; }
     .catblurb .producerTrio figure img {
       margin: 0; }
+    @media only screen and (max-width: 420px) {
+      .catblurb .producerTrio figure {
+        width: 49%;
+        height: auto; } }
   .catblurb .producerTrio figure.placeImage {
-    margin-right: 1em; }
+    margin-right: 4px; }
     @media only screen and (max-width: 420px) {
       .catblurb .producerTrio figure.placeImage {
         margin-right: 0; } }
@@ -1071,20 +1062,22 @@ header.producerindex .images {
     .catblurb .producerTrio figure.processImage {
       float: right; } }
   .catblurb .producerTrio #gmap {
-    width: 32%;
+    width: 33%;
     float: right;
-    position: relative; }
+    position: relative;
+    height: 230px;
+    overflow: hidden; }
     @media only screen and (max-width: 420px) {
       .catblurb .producerTrio #gmap {
         width: 100%;
         float: none; } }
     .catblurb .producerTrio #gmap .mapinset {
       position: absolute;
-      top: 3px;
-      left: 3px;
-      border: 1px solid black; }
+      top: 4px;
+      left: 4px;
+      border: 2px solid #484848; }
   .catblurb .producerTrio #map_canvas {
-    height: 202px;
+    height: 230px;
     margin: 0;
     box-shadow: none; }
     @media only screen and (max-width: 420px) {

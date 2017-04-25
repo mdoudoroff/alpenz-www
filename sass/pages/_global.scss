@@ -719,7 +719,7 @@ section header {
 header.producerindex {
 
 	h1 {
-		margin-bottom: 0;
+		// margin-bottom: 0;
 	}
 
 	p.categorization {
@@ -740,23 +740,23 @@ header.producerindex {
 
 		figure.logo {
 			width: 100%;
-			height: 170px;
-			margin: 1em auto 0 auto;
-			line-height: 170px;
+			// height: 170px;
+			margin: 1em auto 1em auto;
+			// line-height: 170px;
 
 			img {
-				width: auto;
-				height: 170px;
+				// width: auto;
+				// height: 170px;
 			}
 
 			img.wideimage {
-				width: 90%;
-				height: auto;
+				// width: 90%;
+				// height: auto;
 			}
 
 			@include respond-to(phone) {
-				width: 100%;
-				height: auto;
+				// width: 100%;
+				// height: auto;
 				line-height: 1;
 			}
 
@@ -807,21 +807,27 @@ header.producerindex {
 
 		figure {
 			display: inline-block;
-			width: 32%;
-
-			@include respond-to(phone) {
-				width: 49%;
-			}
+			width: 33%;
 
 			img {
 				margin:0;
 
 			}
+
+			height: 230px;
+			overflow: hidden;
+
+			@include respond-to(phone) {
+				width: 49%;
+				height: auto;
+			}
+
+
 		}
 
 		figure.placeImage {
 
-			margin-right: 1em;
+			margin-right: 4px;
 
 			@include respond-to(phone) {
 				margin-right: 0;
@@ -836,7 +842,7 @@ header.producerindex {
 		}
 
 		#gmap {
-			width: 32%;
+			width: 33%;
 			float: right;
 			position:relative;
 
@@ -847,15 +853,18 @@ header.producerindex {
 
 			.mapinset {
 				position: absolute;
-				top:3px;
-				left:3px;
-				border: 1px solid black;
+				top:4px;
+				left:4px;
+				border: 2px solid $dark_grey;
 			}
+
+			height: 230px;
+			overflow: hidden;
 
 		}
 
 		#map_canvas {
-			height: 202px;
+			height: 230px;
 			margin: 0;
 			box-shadow: none;
 
