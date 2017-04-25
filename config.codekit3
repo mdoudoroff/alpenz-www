@@ -288,7 +288,7 @@
 		"oF": 0
 		},
 	"\/config.rb": {
-		"ft": 131072,
+		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0
@@ -1157,6 +1157,17 @@
 		"iS": 1685,
 		"oA": 1,
 		"oAP": "\/gfx\/magnifying-glass.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/gfx\/map-inset.piemonte.png": {
+		"ft": 32768,
+		"iS": 15778,
+		"oA": 1,
+		"oAP": "\/gfx\/map-inset.piemonte.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

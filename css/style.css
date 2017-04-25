@@ -1072,11 +1072,17 @@ header.producerindex .images {
       float: right; } }
   .catblurb .producerTrio #gmap {
     width: 32%;
-    float: right; }
+    float: right;
+    position: relative; }
     @media only screen and (max-width: 420px) {
       .catblurb .producerTrio #gmap {
         width: 100%;
         float: none; } }
+    .catblurb .producerTrio #gmap .mapinset {
+      position: absolute;
+      top: 3px;
+      left: 3px;
+      border: 1px solid black; }
   .catblurb .producerTrio #map_canvas {
     height: 202px;
     margin: 0;
