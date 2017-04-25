@@ -4400,6 +4400,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/producer.bosca.inset-map.png": {
+		"ft": 32768,
+		"iS": 10103,
+		"oA": 1,
+		"oAP": "\/images\/producer.bosca.inset-map.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/producer.bosca.people.jpg": {
 		"ft": 16384,
 		"iS": 61420,
@@ -4430,6 +4441,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/producer.cappelletti.inset-map.png": {
+		"ft": 32768,
+		"iS": 14972,
+		"oA": 1,
+		"oAP": "\/images\/producer.cappelletti.inset-map.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/producer.cappelletti.people.jpg": {
 		"ft": 16384,
 		"iS": 34300,
@@ -4458,6 +4480,28 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/producer.caves byrrh.inset-map.png": {
+		"ft": 32768,
+		"iS": 11216,
+		"oA": 1,
+		"oAP": "\/images\/producer.caves byrrh.inset-map.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/producer.cocchi.inset-map.png": {
+		"ft": 32768,
+		"iS": 10309,
+		"oA": 1,
+		"oAP": "\/images\/producer.cocchi.inset-map.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/producer.Cocchi.logo.jpg": {
@@ -4500,15 +4544,24 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/producer.Dolin.logo.jpg": {
-		"ft": 16384,
-		"iS": 829758,
+	"\/images\/producer.dolin.inset-map.png": {
+		"ft": 32768,
+		"iS": 7887,
 		"oA": 1,
-		"oAP": "\/images\/producer.Dolin.logo.jpg",
+		"oAP": "\/images\/producer.dolin.inset-map.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
+		},
+	"\/images\/producer.dolin.logo.gif": {
+		"ft": 4194304,
+		"iS": 8829,
+		"oA": 1,
+		"oAP": "\/images\/producer.dolin.logo.gif",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/images\/producer.dolin.people.jpg": {
 		"ft": 16384,
@@ -4557,6 +4610,17 @@
 		"iS": 64004,
 		"oA": 1,
 		"oAP": "\/images\/producer.haus alpenz.logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/producer.hayman distillers.inset-map.png": {
+		"ft": 32768,
+		"iS": 8937,
+		"oA": 1,
+		"oAP": "\/images\/producer.hayman distillers.inset-map.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -4636,6 +4700,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/producer.miro.inset-map.png": {
+		"ft": 32768,
+		"iS": 5808,
+		"oA": 1,
+		"oAP": "\/images\/producer.miro.inset-map.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/producer.Miro.logo.jpg": {
 		"ft": 16384,
 		"iS": 109738,
@@ -4651,6 +4726,17 @@
 		"iS": 4581,
 		"oA": 1,
 		"oAP": "\/images\/producer.purkhart.logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/producer.salers.inset-map.png": {
+		"ft": 32768,
+		"iS": 11243,
+		"oA": 1,
+		"oAP": "\/images\/producer.salers.inset-map.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

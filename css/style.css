@@ -1073,9 +1073,10 @@ header.producerindex .images {
         float: none; } }
     .catblurb .producerTrio #gmap .mapinset {
       position: absolute;
-      top: 4px;
-      left: 4px;
-      border: 2px solid #484848; }
+      top: 0px;
+      right: 0px;
+      border-left: 5px solid white;
+      border-bottom: 5px solid white; }
   .catblurb .producerTrio #map_canvas {
     height: 230px;
     margin: 0;
