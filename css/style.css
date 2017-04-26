@@ -1357,16 +1357,19 @@ ul.producerTiles {
         width: 145px;
         height: 250px; } }
     ul.producerTiles li .logo {
+      position: relative;
       width: 180px;
       height: 180px;
-      line-height: 180px;
       padding: 0.5em;
       border: 2px solid #ddd;
       margin-bottom: 0.5em;
       vertical-align: middle; }
       ul.producerTiles li .logo img {
         width: 100%;
-        height: auto; }
+        height: auto;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%); }
       @media only screen and (max-width: 420px) {
         ul.producerTiles li .logo {
           width: 145px;

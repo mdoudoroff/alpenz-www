@@ -1263,9 +1263,10 @@ ul.producerTiles {
 		}
 
 		.logo {
+			position: relative;
 			width: 180px;
 			height: 180px;
-			line-height: 180px;
+			// line-height: 180px;
 			padding: 0.5em;
 			border: 2px solid #ddd;
 			margin-bottom: 0.5em;
@@ -1274,6 +1275,11 @@ ul.producerTiles {
 			img {
 				width: 100%;
 				height: auto;
+
+				// trying this method
+				position: relative;
+				top: 50%;
+                transform: translateY(-50%);
 			}
 
 			@include respond-to(phone) {
