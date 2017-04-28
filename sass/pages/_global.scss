@@ -1300,7 +1300,7 @@ ul.producerTiles {
 	min-height: 288px;
 }
 
-.originGmap {
+.originGmap, .countryDetailGmap {
 			width: 360px;
 			float: left;
 			position:relative;
@@ -1315,7 +1315,7 @@ ul.producerTiles {
 
 			margin-right: 1em;
 }
-.originMap_canvas {
+.originMap_canvas, .countryDetailMap_canvas {
 			height: 288px;
 			margin: 0;
 			box-shadow: none;
@@ -1325,6 +1325,14 @@ ul.producerTiles {
 			}
 
 }
+
+.countryDetailGmap {
+	float: right;
+	margin-left: 1em;
+	margin-right: 0;
+}
+
+
 
 .miniLogoTile {
 	position: relative;
