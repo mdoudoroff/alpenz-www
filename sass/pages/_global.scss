@@ -1291,3 +1291,56 @@ ul.producerTiles {
 		}
 	}
 }
+
+// stuff for the origin index
+
+.country {
+	clear: both;
+	margin-bottom: 1em;
+	min-height: 288px;
+}
+
+.originGmap {
+			width: 360px;
+			float: left;
+			position:relative;
+
+			@include respond-to(phone) {
+				width: 100%;
+				float: none;
+			}
+
+			height: 288px;
+			overflow: hidden;
+
+			margin-right: 1em;
+}
+.originMap_canvas {
+			height: 288px;
+			margin: 0;
+			box-shadow: none;
+
+			@include respond-to(phone) {
+				width: 100%;
+			}
+
+}
+
+.miniLogoTile {
+	position: relative;
+	width: 108px;
+	height: 108px;
+	display: inline-block;
+	// background-color: yellow;
+	margin: 0 0.5em 0.5em 0;
+	vertical-align: top;
+	img {
+		width: 100%;
+		height: auto;
+		// trying this method
+		position: relative;
+		top: 50%;
+        transform: translateY(-50%);
+
+	}
+}

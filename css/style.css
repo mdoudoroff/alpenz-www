@@ -1376,6 +1376,45 @@ ul.producerTiles {
           height: 145px;
           line-height: 145px; } }
 
+.country {
+  clear: both;
+  margin-bottom: 1em;
+  min-height: 288px; }
+
+.originGmap {
+  width: 360px;
+  float: left;
+  position: relative;
+  height: 288px;
+  overflow: hidden;
+  margin-right: 1em; }
+  @media only screen and (max-width: 420px) {
+    .originGmap {
+      width: 100%;
+      float: none; } }
+
+.originMap_canvas {
+  height: 288px;
+  margin: 0;
+  box-shadow: none; }
+  @media only screen and (max-width: 420px) {
+    .originMap_canvas {
+      width: 100%; } }
+
+.miniLogoTile {
+  position: relative;
+  width: 108px;
+  height: 108px;
+  display: inline-block;
+  margin: 0 0.5em 0.5em 0;
+  vertical-align: top; }
+  .miniLogoTile img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); }
+
 .products {
   overflow: hidden;
   margin: 0 0 2em 0;
