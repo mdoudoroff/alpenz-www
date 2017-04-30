@@ -1004,6 +1004,8 @@ a {
 section header {
   margin: 0 0.5em; }
 
+header.producerindex h1 {
+  margin-bottom: 0; }
 header.producerindex p.categorization {
   margin-top: 0;
   margin-bottom: 1em;
@@ -1380,6 +1382,13 @@ ul.producerTiles {
   clear: both;
   margin-bottom: 1em;
   min-height: 288px; }
+  .country h2 {
+    margin-bottom: 0.5em; }
+  .country .logoCorral {
+    margin-left: 376px; }
+    @media only screen and (max-width: 420px) {
+      .country .logoCorral {
+        margin-left: 0; } }
 
 .originGmap, .countryDetailGmap {
   width: 360px;

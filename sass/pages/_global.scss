@@ -719,7 +719,7 @@ section header {
 header.producerindex {
 
 	h1 {
-		// margin-bottom: 0;
+		margin-bottom: 0;
 	}
 
 	p.categorization {
@@ -1298,6 +1298,18 @@ ul.producerTiles {
 	clear: both;
 	margin-bottom: 1em;
 	min-height: 288px;
+
+	h2 {
+		margin-bottom: 0.5em;
+	}
+
+	.logoCorral {
+		margin-left: 376px;
+
+		@include respond-to(phone) {
+			margin-left: 0;
+		}
+	}
 }
 
 .originGmap, .countryDetailGmap {
