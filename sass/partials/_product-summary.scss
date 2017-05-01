@@ -353,13 +353,29 @@
 	}
 }
 
- div.grouping {
+.clusterHeadingHenriques {
+	margin-bottom: 1em;
+
+	.product_text {
+
+		.product_description p {
+			max-width: none !IMPORTANT;
+		}
+	}
+
+	.context {
+		width: 452px !IMPORTANT;
+		background-color: green;
+	}
+}
+
+div.grouping {
  	// margin-bottom: 2em;
  	padding-bottom: 2em;
  	-webkit-column-break-inside: avoid;
 	page-break-inside: avoid;
 	break-inside: avoid-column;
- }
+}
 
 
  

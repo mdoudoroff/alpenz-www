@@ -775,6 +775,16 @@ header.producerindex {
 
 .catblurb {
 
+	// currently used on madeira page
+	.images {
+		width: 33%;
+		float: right;
+
+		img {
+			width: 100%;
+		}
+	}
+
 	.blurb {
 		width: 66%;
 

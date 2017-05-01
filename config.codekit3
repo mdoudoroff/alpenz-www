@@ -4441,6 +4441,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/producer.abbe-rous.inset-map.png": {
+		"ft": 32768,
+		"iS": 8657,
+		"oA": 1,
+		"oAP": "\/images\/producer.abbe-rous.inset-map.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/producer.abbe-rous.logo.jpg": {
 		"ft": 16384,
 		"iS": 2243,
@@ -4479,6 +4490,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/producer.american-gin-company.inset-map.png": {
+		"ft": 32768,
+		"iS": 9826,
+		"oA": 1,
+		"oAP": "\/images\/producer.american-gin-company.inset-map.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/producer.american-gin-company.logo.png": {
@@ -4530,6 +4552,28 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/producer.Arnaud-de-Villeneuve.inset-map.png": {
+		"ft": 32768,
+		"iS": 8660,
+		"oA": 1,
+		"oAP": "\/images\/producer.Arnaud-de-Villeneuve.inset-map.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/producer.bonal.inset-map.png": {
+		"ft": 32768,
+		"iS": 11055,
+		"oA": 1,
+		"oAP": "\/images\/producer.bonal.inset-map.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/producer.bonal.logo.png": {
@@ -4902,6 +4946,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/producer.domaine-de-rombeau.inset-map.png": {
+		"ft": 32768,
+		"iS": 8584,
+		"oA": 1,
+		"oAP": "\/images\/producer.domaine-de-rombeau.inset-map.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/producer.domaine-de-rombeau.logo.png": {
 		"ft": 32768,
 		"iS": 75310,
@@ -4938,6 +4993,17 @@
 		"iS": 5902512,
 		"oA": 1,
 		"oAP": "\/images\/producer.domaine-de-rombeau.process.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/producer.domaine-du-sau.inset-map.png": {
+		"ft": 32768,
+		"iS": 8660,
+		"oA": 1,
+		"oAP": "\/images\/producer.domaine-du-sau.inset-map.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -4984,6 +5050,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/producer.domaine-jorel.inset-map.png": {
+		"ft": 32768,
+		"iS": 8660,
+		"oA": 1,
+		"oAP": "\/images\/producer.domaine-jorel.inset-map.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/producer.domaine-jorel.logo.png": {
 		"ft": 32768,
 		"iS": 30123,
@@ -5025,6 +5102,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/producer.Domaine-Puig-Parahy.inset-map.png": {
+		"ft": 32768,
+		"iS": 8660,
+		"oA": 1,
+		"oAP": "\/images\/producer.Domaine-Puig-Parahy.inset-map.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/producer.espolla.inset-map.png": {
+		"ft": 32768,
+		"iS": 8439,
+		"oA": 1,
+		"oAP": "\/images\/producer.espolla.inset-map.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/producer.espolla.logo.png": {
 		"ft": 32768,
 		"iS": 96444,
@@ -5064,6 +5163,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/producer.haus-alpenz.inset-map.png": {
+		"ft": 32768,
+		"iS": 10133,
+		"oA": 1,
+		"oAP": "\/images\/producer.haus-alpenz.inset-map.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/producer.haus-alpenz.logo.jpg": {
@@ -5128,6 +5238,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/producer.henriques.context.jpg": {
+		"ft": 16384,
+		"iS": 135463,
+		"oA": 1,
+		"oAP": "\/images\/producer.henriques.context.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/producer.henriques.facility.jpg": {
 		"ft": 16384,
 		"iS": 3653662,
@@ -5136,6 +5256,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/producer.henriques.inset-map.png": {
+		"ft": 32768,
+		"iS": 5266,
+		"oA": 1,
+		"oAP": "\/images\/producer.henriques.inset-map.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/producer.henriques.logo.png": {
@@ -5179,6 +5310,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/producer.josef-hofer.inset-map.png": {
+		"ft": 32768,
+		"iS": 17463,
+		"oA": 1,
+		"oAP": "\/images\/producer.josef-hofer.inset-map.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/producer.josef-hofer.logo.jpg": {
 		"ft": 16384,
 		"iS": 3464,
@@ -5217,6 +5359,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/producer.kronan.inset-map.png": {
+		"ft": 32768,
+		"iS": 15774,
+		"oA": 1,
+		"oAP": "\/images\/producer.kronan.inset-map.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/producer.kronan.logo.png": {
@@ -5271,6 +5424,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/producer.Mas-Peyre.inset-map.png": {
+		"ft": 32768,
+		"iS": 8660,
+		"oA": 1,
+		"oAP": "\/images\/producer.Mas-Peyre.inset-map.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/producer.miro.inset-map.png": {
 		"ft": 32768,
 		"iS": 5808,
@@ -5320,6 +5484,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/producer.purkhart.inset-map.png": {
+		"ft": 32768,
+		"iS": 17463,
+		"oA": 1,
+		"oAP": "\/images\/producer.purkhart.inset-map.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/producer.purkhart.logo.png": {
@@ -5414,6 +5589,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/producer.seale.inset-map.png": {
+		"ft": 32768,
+		"iS": 9487,
+		"oA": 1,
+		"oAP": "\/images\/producer.seale.inset-map.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/producer.seale.logo.jpg": {
 		"ft": 16384,
 		"iS": 133442,
@@ -5454,11 +5640,33 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/producer.smith-&-cross.inset-map.png": {
+		"ft": 32768,
+		"iS": 8937,
+		"oA": 1,
+		"oAP": "\/images\/producer.smith-&-cross.inset-map.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/producer.smith-&-cross.logo.png": {
 		"ft": 32768,
 		"iS": 4026,
 		"oA": 1,
 		"oAP": "\/images\/producer.smith-&-cross.logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/producer.specialty-drinks.inset-map.png": {
+		"ft": 32768,
+		"iS": 8937,
+		"oA": 1,
+		"oAP": "\/images\/producer.specialty-drinks.inset-map.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -5517,6 +5725,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/producer.Terres-des-Templiers.inset-map.png": {
+		"ft": 32768,
+		"iS": 8660,
+		"oA": 1,
+		"oAP": "\/images\/producer.Terres-des-Templiers.inset-map.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/producer.vial-magneres.inset-map.png": {
+		"ft": 32768,
+		"iS": 8660,
+		"oA": 1,
+		"oAP": "\/images\/producer.vial-magneres.inset-map.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/producer.Vial-Magneres.logo.png": {
 		"ft": 32768,
 		"iS": 7143,
@@ -5569,6 +5799,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/producer.weingut-christian-jauk.inset-map.png": {
+		"ft": 32768,
+		"iS": 17875,
+		"oA": 1,
+		"oAP": "\/images\/producer.weingut-christian-jauk.inset-map.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/producer.weingut-christian-jauk.logo.jpg": {
 		"ft": 16384,
 		"iS": 16824,
@@ -5607,6 +5848,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/producer.Weingut-Joebstl.inset-map.png": {
+		"ft": 32768,
+		"iS": 17866,
+		"oA": 1,
+		"oAP": "\/images\/producer.Weingut-Joebstl.inset-map.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/producer.Weingut-Joebstl.people.jpg": {

@@ -1028,6 +1028,11 @@ header.producerindex .images {
       width: 50%;
       float: right; } }
 
+.catblurb .images {
+  width: 33%;
+  float: right; }
+  .catblurb .images img {
+    width: 100%; }
 .catblurb .blurb {
   width: 66%; }
   .catblurb .blurb figure img {
@@ -1613,6 +1618,14 @@ ul.producerTiles {
 
 .clusterHeading {
   margin-bottom: 1em; }
+
+.clusterHeadingHenriques {
+  margin-bottom: 1em; }
+  .clusterHeadingHenriques .product_text .product_description p {
+    max-width: none !IMPORTANT; }
+  .clusterHeadingHenriques .context {
+    width: 452px !IMPORTANT;
+    background-color: green; }
 
 div.grouping {
   padding-bottom: 2em;
