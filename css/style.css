@@ -1582,13 +1582,10 @@ ul.producerTiles {
       font-size: 13px;
       font-weight: bold; } }
 
-.cluster {
-  -moz-column-count: 2;
-  column-count: 2; }
-  @media only screen and (max-width: 420px) {
-    .cluster {
-      -moz-column-count: 1;
-      column-count: 1; } }
+@media only screen and (max-width: 420px) {
+  .cluster {
+    -moz-column-count: 1;
+    column-count: 1; } }
 
 .clusterentry {
   margin-top: 0.5em;
@@ -1629,9 +1626,55 @@ ul.producerTiles {
 
 div.grouping {
   padding-bottom: 2em;
-  -webkit-column-break-inside: avoid;
-  page-break-inside: avoid;
-  break-inside: avoid-column; }
+  clear: both; }
+  div.grouping .bottleCorral {
+    width: 600px;
+    float: right;
+    text-align: right; }
+    @media only screen and (max-width: 420px) {
+      div.grouping .bottleCorral {
+        display: none; } }
+  div.grouping .corralBottle {
+    height: 230px;
+    display: inline-block;
+    width: 72px;
+    text-align: right; }
+    div.grouping .corralBottle img {
+      height: 230px;
+      width: auto; }
+
+.madeiraSwitch {
+  text-align: center;
+  clear: both;
+  margin-bottom: 1em; }
+  .madeiraSwitch span, .madeiraSwitch span.selected {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 0;
+    font-size: 18px;
+    line-height: 1em;
+    font-family: "myriad-pro-condensed", Georgia, Times, serif;
+    text-transform: uppercase;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    text-decoration: none !important;
+    color: #a2120f; }
+    .madeiraSwitch span:hover, .madeiraSwitch span.selected:hover {
+      cursor: pointer;
+      color: #fff;
+      background: #d11713; }
+    @media only screen and (max-width: 420px) {
+      .madeiraSwitch span, .madeiraSwitch span.selected {
+        font-size: 16px;
+        padding: 6px 14px; } }
+  .madeiraSwitch span.selected {
+    background: #a2120f;
+    color: #fff; }
 
 .vitals {
   margin: 0 0.5em; }

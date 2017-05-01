@@ -284,10 +284,9 @@
 
 
 .cluster {
-	// margin-left:250px;
 
-	-moz-column-count: 2;
-	column-count: 2;
+	// -moz-column-count: 2;
+	// column-count: 2;
 
 
 	@include respond-to(phone) {
@@ -370,12 +369,72 @@
 }
 
 div.grouping {
- 	// margin-bottom: 2em;
  	padding-bottom: 2em;
- 	-webkit-column-break-inside: avoid;
-	page-break-inside: avoid;
-	break-inside: avoid-column;
+ // 	-webkit-column-break-inside: avoid;
+	// page-break-inside: avoid;
+	// break-inside: avoid-column;
+
+	clear: both;
+
+	.bottleCorral {
+		width: 600px;
+		float: right;
+		text-align: right;
+
+		@include respond-to(phone) {
+			display: none;
+		}
+	}
+
+	.corralBottle {
+
+		height: 230px;
+		display: inline-block;
+		width: 72px;
+		text-align: right;
+
+		img {
+			height: 230px;
+			width: auto;
+		}
+	}
 }
 
+.madeiraSwitch {
 
- 
+	text-align: center;
+	clear: both;
+	margin-bottom: 1em;
+
+	span, span.selected {
+		display: inline-block;
+		padding: 8px 16px;
+		margin: 0;
+		font-size: 18px;
+		line-height: 1em;
+		font-family: $subheading-font;
+		text-transform: uppercase;
+		@include box-sizing(border-box);
+		-webkit-appearance: none;
+		@include border-radius(0px);
+		text-decoration: none !important;
+		color: $red;
+		&:hover {
+			cursor: pointer;
+			color: #fff;
+			background: lighten($red, 10%);
+		}
+		
+		@include respond-to(phone) {
+			font-size: 16px;
+			padding: 6px 14px;
+		}
+	}	
+
+	span.selected {
+		background: $red;
+		color: #fff;
+
+	}
+
+ }

@@ -107,6 +107,23 @@ jQuery(document).ready(function() {
 	// 	}
 	// });
 
+	var madeiraSwitchState = 'groupingFamily';
+	$('.madeiraSwitch').click(function() {
+		if (madeiraSwitchState=='groupingFamily') {
+			madeiraSwitchState = 'groupingVarietal';
+			$('#groupingFamily').hide();
+			$('#groupingVarietal').show();
+			$('#familySwitch').removeClass('selected');
+			$('#varietalSwitch').addClass('selected');
+		} else {
+			madeiraSwitchState = 'groupingFamily';
+			$('#groupingFamily').show();
+			$('#groupingVarietal').hide();
+			$('#familySwitch').addClass('selected');
+			$('#varietalSwitch').removeClass('selected');
+		}
+	});
+
 	$('.revealfold').click(function() {
 		$(this).hide();
 		$('.folded').show();
