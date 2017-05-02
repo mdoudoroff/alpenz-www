@@ -1625,7 +1625,7 @@ ul.producerTiles {
     background-color: green; }
 
 div.grouping {
-  padding-bottom: 2em;
+  padding-bottom: 1em;
   clear: both; }
   div.grouping .bottleCorral {
     width: 600px;
@@ -1642,6 +1642,9 @@ div.grouping {
     div.grouping .corralBottle img {
       height: 230px;
       width: auto; }
+
+#groupingVarietal {
+  display: none; }
 
 .madeiraSwitch {
   text-align: center;

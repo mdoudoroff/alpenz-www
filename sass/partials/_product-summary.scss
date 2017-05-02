@@ -369,7 +369,7 @@
 }
 
 div.grouping {
- 	padding-bottom: 2em;
+ 	padding-bottom: 1em;
  // 	-webkit-column-break-inside: avoid;
 	// page-break-inside: avoid;
 	// break-inside: avoid-column;
@@ -400,6 +400,9 @@ div.grouping {
 	}
 }
 
+#groupingVarietal {
+	display: none;
+}
 .madeiraSwitch {
 
 	text-align: center;
