@@ -1426,7 +1426,9 @@ ul.producerTiles {
   height: 108px;
   display: inline-block;
   margin: 0 0.5em 0.5em 0;
-  vertical-align: top; }
+  vertical-align: top;
+  border: 2px solid #ddd;
+  padding: 3px; }
   .miniLogoTile img {
     width: 100%;
     height: auto;

@@ -288,7 +288,7 @@
 		"oF": 0
 		},
 	"\/config.rb": {
-		"ft": 8192,
+		"ft": 131072,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0
@@ -17153,6 +17153,48 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/recipes.html",
+		"oF": 0
+		},
+	"\/region-Cote_Vermeille.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/region-Cote_Vermeille.html",
+		"oF": 0
+		},
+	"\/region-Cotes_Catalanes.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/region-Cotes_Catalanes.html",
+		"oF": 0
+		},
+	"\/region-Emporda.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/region-Emporda.html",
+		"oF": 0
+		},
+	"\/region-Madeira.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/region-Madeira.html",
+		"oF": 0
+		},
+	"\/region-Piemonte.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/region-Piemonte.html",
+		"oF": 0
+		},
+	"\/region-Pyrenees-Orientales.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/region-Pyrenees-Orientales.html",
+		"oF": 0
+		},
+	"\/region-Weststeiermark.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/region-Weststeiermark.html",
 		"oF": 0
 		},
 	"\/robots.txt": {
