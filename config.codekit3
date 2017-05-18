@@ -1675,15 +1675,14 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/Batavia.batavia-arrack-bottle-web.png": {
-		"ft": 32768,
-		"iS": 448119,
+	"\/images\/Batavia.batavia-arrack.bottle.jpg": {
+		"ft": 16384,
+		"iS": 68340,
 		"oA": 1,
-		"oAP": "\/images\/Batavia.batavia-arrack-bottle-web.png",
+		"oAP": "\/images\/Batavia.batavia-arrack.bottle.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"\/images\/Batavia.bataviamap1897.jpg": {
@@ -1741,6 +1740,16 @@
 		"iS": 297000,
 		"oA": 1,
 		"oAP": "\/images\/Batavia.lions-original.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/Batavia.logo.arrack.jpg": {
+		"ft": 16384,
+		"iS": 12428,
+		"oA": 1,
+		"oAP": "\/images\/Batavia.logo.arrack.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2130,14 +2139,15 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/Bonal.label.bonal.jpg": {
-		"ft": 16384,
-		"iS": 142070,
+	"\/images\/Bonal.label.Bonal.png": {
+		"ft": 32768,
+		"iS": 1457175,
 		"oA": 1,
-		"oAP": "\/images\/Bonal.label.bonal.jpg",
+		"oAP": "\/images\/Bonal.label.Bonal.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/Bonal.P3111BonalYellow-poster.jpg": {
@@ -3443,6 +3453,16 @@
 		"iS": 284722,
 		"oA": 1,
 		"oAP": "\/images\/Ibis.ibis-bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/Ibis.ibis.logo.jpg": {
+		"ft": 16384,
+		"iS": 15563,
+		"oA": 1,
+		"oAP": "\/images\/Ibis.ibis.logo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -6913,6 +6933,16 @@
 		"iS": 341458,
 		"oA": 1,
 		"oAP": "\/images\/Tinta_Negra_SH_98.label.single-harvest-1998.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/Tresmontaine_Puits.bottle.puits.jpg": {
+		"ft": 16384,
+		"iS": 59484,
+		"oA": 1,
+		"oAP": "\/images\/Tresmontaine_Puits.bottle.puits.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -13969,6 +13999,12 @@
 		"oAP": "\/producer-Kronan.html",
 		"oF": 0
 		},
+	"\/producer-LO_Smith.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/producer-LO_Smith.html",
+		"oF": 0
+		},
 	"\/producer-Mas_Peyre.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -13979,6 +14015,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/producer-Miro.html",
+		"oF": 0
+		},
+	"\/producer-Other.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/producer-Other.html",
 		"oF": 0
 		},
 	"\/producer-Purkhart.html": {
@@ -14545,6 +14587,12 @@
 		"oAP": "\/product-Kronan-Kronan_Swedish_Punsch.html",
 		"oF": 0
 		},
+	"\/product-LO_Smith-Kronan_Swedish_Punsch.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-LO_Smith-Kronan_Swedish_Punsch.html",
+		"oF": 0
+		},
 	"\/product-Mas_Peyre-Mas_Peyre_Le_Demon_de_Midi_Rancio_Sec.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -14563,10 +14611,22 @@
 		"oAP": "\/product-Miro-Miro_Rojo_Vermut_de_Reus.html",
 		"oF": 0
 		},
+	"\/product-Other-Batavia_Arrack_van_Oosten.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-Other-Batavia_Arrack_van_Oosten.html",
+		"oF": 0
+		},
 	"\/product-Other-LAntull_Vi_Rancio_Seco_DRAFT.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/product-Other-LAntull_Vi_Rancio_Seco_DRAFT.html",
+		"oF": 0
+		},
+	"\/product-Other-The_Scarlet_Ibis_Trinidad_Rum.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-Other-The_Scarlet_Ibis_Trinidad_Rum.html",
 		"oF": 0
 		},
 	"\/product-Purkhart-Blume_Marillen_Apricot_Eau-de-Vie.html": {
@@ -17035,6 +17095,12 @@
 		"oAP": "\/recipes-Kronan-Kronan_Swedish_Punsch.html",
 		"oF": 0
 		},
+	"\/recipes-LO_Smith-Kronan_Swedish_Punsch.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-LO_Smith-Kronan_Swedish_Punsch.html",
+		"oF": 0
+		},
 	"\/recipes-Mas_Peyre-Mas_Peyre_Le_Demon_de_Midi_Rancio_Sec.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -17051,6 +17117,18 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/recipes-Miro-Miro_Rojo_Vermut_de_Reus.html",
+		"oF": 0
+		},
+	"\/recipes-Other-Batavia_Arrack_van_Oosten.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Other-Batavia_Arrack_van_Oosten.html",
+		"oF": 0
+		},
+	"\/recipes-Other-The_Scarlet_Ibis_Trinidad_Rum.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Other-The_Scarlet_Ibis_Trinidad_Rum.html",
 		"oF": 0
 		},
 	"\/recipes-proofing.html": {

@@ -1068,28 +1068,28 @@ header.producerindex .images {
   @media only screen and (max-width: 420px) {
     .catblurb .producerTrio figure.processImage {
       float: right; } }
-  .catblurb .producerTrio #gmap {
+  .catblurb .producerTrio .producerDetailGmap {
     width: 33%;
     float: right;
     position: relative;
     height: 230px;
     overflow: hidden; }
     @media only screen and (max-width: 420px) {
-      .catblurb .producerTrio #gmap {
+      .catblurb .producerTrio .producerDetailGmap {
         width: 100%;
         float: none; } }
-    .catblurb .producerTrio #gmap .mapinset {
+    .catblurb .producerTrio .producerDetailGmap .mapinset {
       position: absolute;
       top: 0px;
       right: 0px;
       border-left: 5px solid white;
       border-bottom: 5px solid white; }
-  .catblurb .producerTrio #map_canvas {
+  .catblurb .producerTrio .producerDetailGmap_canvas {
     height: 230px;
     margin: 0;
     box-shadow: none; }
     @media only screen and (max-width: 420px) {
-      .catblurb .producerTrio #map_canvas {
+      .catblurb .producerTrio .producerDetailGmap_canvas {
         width: 100%; } }
 .catblurb figure {
   width: 100%;
@@ -1407,12 +1407,12 @@ ul.producerTiles {
       width: 100%;
       float: none; } }
 
-.originMap_canvas, .countryDetailMap_canvas {
+.originGmap_canvas, .countryDetailGmap_canvas {
   height: 288px;
   margin: 0;
   box-shadow: none; }
   @media only screen and (max-width: 420px) {
-    .originMap_canvas, .countryDetailMap_canvas {
+    .originGmap_canvas, .countryDetailGmap_canvas {
       width: 100%; } }
 
 .countryDetailGmap {
@@ -1874,15 +1874,23 @@ div.grouping {
     .mainalt .extendedDescription, .mainalt .categoryDescription {
       -moz-column-count: 1;
       column-count: 1; } }
-.mainalt #gmap {
+.mainalt .productDetailGmap {
   width: 473px;
   float: right;
   margin-left: 1em; }
   @media only screen and (max-width: 420px) {
-    .mainalt #gmap {
+    .mainalt .productDetailGmap {
       width: 100%;
       float: none;
       margin-left: 0; } }
+.mainalt .productDetailGmap_canvas {
+  width: 100%;
+  height: 300px;
+  margin: 0 0 20px 0;
+  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  page-break-inside: avoid; }
 .mainalt #gmapmaker {
   width: 600px;
   height: 480px;

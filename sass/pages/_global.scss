@@ -851,7 +851,7 @@ header.producerindex {
 
 		}
 
-		#gmap {
+		.producerDetailGmap {
 			width: 33%;
 			float: right;
 			position:relative;
@@ -874,7 +874,7 @@ header.producerindex {
 
 		}
 
-		#map_canvas {
+		.producerDetailGmap_canvas {
 			height: 230px;
 			margin: 0;
 			box-shadow: none;
@@ -1337,7 +1337,7 @@ ul.producerTiles {
 
 			margin-right: 1em;
 }
-.originMap_canvas, .countryDetailMap_canvas {
+.originGmap_canvas, .countryDetailGmap_canvas {
 			height: 288px;
 			margin: 0;
 			box-shadow: none;
