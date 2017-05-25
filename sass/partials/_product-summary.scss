@@ -79,6 +79,7 @@
 			margin-right: 0.5em;
 			
 			width: 478px;
+			width: 480px;
 
 			@include respond-to(phone) {
 				width: 100%;
@@ -121,8 +122,9 @@
 			overflow: hidden;
 
 			@include respond-to(phone) {
-				min-width: 90px;
-				width: 12.5%;
+				min-width: 108px;
+				// width: 12.5%;
+				width: 108px;
 				float: right;
 				height: auto;
 			}

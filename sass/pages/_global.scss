@@ -121,7 +121,10 @@ a {
 		// padding-top: 50px;
 	}
 	@include respond-to(phone) {
-		// padding-top: 40px;
+		// minimal padding around everything (except top menu and footer) for mobile
+		margin-left: 3px;
+		margin-right: 3px;
+
 	}
 	
 	.wrap {
@@ -702,7 +705,7 @@ a {
 
 
 #productSummaryContainer {
-	margin: 0.5em 0 0.5em 0.5em;
+	margin: 0.5em 0 0.5em 0;
 
 	// this is a little tricky and may need to be removed, but it’s basically to prevent
 	// the text from flowing beneath the bottle
@@ -713,7 +716,7 @@ a {
 }
 
 section header {
-	margin: 0 0.5em;	
+	// margin: 0 0.5em;
 }
 
 header.producerindex {
@@ -1217,8 +1220,8 @@ td.combo {
 
 .mainalt {
 	width: 100%;
-	padding-left: 0.5em;
-	padding-right: 0.5em;
+	// padding-left: 0.5em;
+	// padding-right: 0.5em;
 }
 
 .inlineButton {
