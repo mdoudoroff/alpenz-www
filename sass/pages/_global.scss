@@ -1227,7 +1227,20 @@ td.combo {
 	text-transform: uppercase;
 	font-weight: 700;
 	color:$red;
+
+
+	padding-left: 6px;
+	padding-right: 6px;
+	border: 1px solid $red;
+	font-size: 80%;
 }
+
+a.inlineButton:hover {
+	color: white;
+	background-color: $red;
+	text-decoration: none;
+}
+
 
 .revealfold {
 	text-transform: uppercase;

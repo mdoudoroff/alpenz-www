@@ -295,6 +295,18 @@
 	}
 }
 
+.cluster2 {
+
+	-moz-column-count: 2;
+	column-count: 2;
+
+
+	@include respond-to(phone) {
+		-moz-column-count: 1;
+		column-count: 1;
+	}
+}
+
 .clusterentry {
 	margin-top: 0.5em;
 
@@ -370,12 +382,13 @@
 
 div.grouping {
  	padding-bottom: 1em;
- // 	-webkit-column-break-inside: avoid;
-	// page-break-inside: avoid;
-	// break-inside: avoid-column;
+  	-webkit-column-break-inside: avoid;
+	page-break-inside: avoid;
+	break-inside: avoid-column;
 
 	clear: both;
 
+	// used for index pages
 	.bottleCorral {
 		width: 600px;
 		float: right;
@@ -385,6 +398,17 @@ div.grouping {
 			display: none;
 		}
 	}
+
+	// used for grouping pages
+	.bottleCorral2 {
+
+		margin-top: 0.5em;
+
+		@include respond-to(phone) {
+			display: none;
+		}
+	}
+
 
 	.corralBottle {
 
@@ -408,6 +432,10 @@ div.grouping {
 	text-align: center;
 	clear: both;
 	margin-bottom: 1em;
+	font-family: $subheading-font;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: $dark_grey;
 
 	span, span.selected {
 		display: inline-block;
@@ -420,8 +448,9 @@ div.grouping {
 		@include box-sizing(border-box);
 		-webkit-appearance: none;
 		@include border-radius(0px);
-		text-decoration: none !important;
+		// text-decoration: none !important;
 		color: $red;
+
 		&:hover {
 			cursor: pointer;
 			color: #fff;
@@ -435,8 +464,16 @@ div.grouping {
 	}	
 
 	span.selected {
-		background: $red;
-		color: #fff;
+		// background: $red;
+		// color: #fff;
+		color: $dark_grey;
+		text-decoration: underline;
+
+		&:hover {
+			cursor: inherit;
+			color: inherit;
+			background: inherit;
+		}
 
 	}
 
