@@ -1236,6 +1236,11 @@ td.combo {
 	padding-right: 6px;
 	border: 1px solid $red;
 	font-size: 80%;
+
+	@include respond-to(print) {
+		display: none;
+	}
+
 }
 
 a.inlineButton:hover {

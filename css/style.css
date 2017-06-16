@@ -1336,6 +1336,9 @@ td.combo {
   padding-right: 6px;
   border: 1px solid #a2120f;
   font-size: 80%; }
+  @media print {
+    .inlineButton {
+      display: none; } }
 
 a.inlineButton:hover {
   color: white;
@@ -1740,75 +1743,58 @@ div.grouping {
 .vitals .description {
   float: left;
   max-width: 477px; }
-.vitals .duplex {
-  float: right;
-  margin-left: 0.5em;
-  max-width: 225px;
-  text-align: center; }
+
+#productImageryCluster {
+  width: 450px;
+  float: right; }
   @media only screen and (max-width: 420px) {
-    .vitals .duplex {
-      float: none;
+    #productImageryCluster {
       width: 100%;
-      clear: both;
-      margin: 1em 0;
-      padding-top: 1em;
-      max-width: none; } }
-.vitals .label {
-  height: 225px;
-  line-height: 225px;
-  margin-bottom: 0.5em; }
-  .vitals .label img {
-    height: 100%;
-    width: auto;
-    vertical-align: middle; }
-  .vitals .label img.wideimage {
+      float: none; } }
+  #productImageryCluster td {
+    vertical-align: middle;
+    text-align: center;
+    overflow: hidden;
+    position: relative; }
+  #productImageryCluster img {
     width: 100%;
-    height: auto;
-    vertical-align: middle; }
-  @media only screen and (max-width: 420px) {
-    .vitals .label {
-      float: left;
-      width: 46%;
-      height: 160px; } }
-.vitals .bottle {
+    display: block; }
+  #productImageryCluster img.wideimage {
+    width: 100%;
+    display: block; }
+  #productImageryCluster #picBottle {
+    border-right: 0.5em solid transparent;
+    border-bottom: 0.5em solid transparent; }
+    #productImageryCluster #picBottle img {
+      width: 60%;
+      margin: 0 auto; }
+  #productImageryCluster #picLabel, #productImageryCluster #picContext {
+    width: 50%; }
+  #productImageryCluster #picPeople, #productImageryCluster #picPlace {
+    width: 50%; }
+  #productImageryCluster #picLabel {
+    border-bottom: 0.5em solid transparent; }
+  #productImageryCluster #picContext {
+    border-bottom: 0.5em solid transparent; }
+  #productImageryCluster #picPeople {
+    border-right: 0.5em solid transparent; }
+
+#producerPics {
+  width: 455px;
   float: right;
-  width: 215px;
-  margin-right: 0.5em;
-  height: 457px;
-  text-align: center;
-  line-height: 457px; }
-  .vitals .bottle img {
-    width: auto;
-    height: 457px;
-    vertical-align: middle; }
-  @media only screen and (max-width: 420px) {
-    .vitals .bottle {
-      width: 20%;
-      max-width: 80px;
-      height: auto; }
-      .vitals .bottle img {
-        width: 100%;
-        height: auto; }
-      .vitals .bottle img.wideimage {
-        width: 100%;
-        height: auto; } }
-.vitals .context {
-  height: 225px;
-  line-height: 225px; }
-  .vitals .context img {
+  margin-top: 1em;
+  height: 162px; }
+  #producerPics img {
     height: 100%;
     width: auto;
     vertical-align: middle; }
-  .vitals .context img.wideimage {
+  #producerPics img.wideimage {
     width: 100%;
     height: auto;
     vertical-align: middle; }
-  @media only screen and (max-width: 420px) {
-    .vitals .context {
-      float: left;
-      width: 46%;
-      margin-left: 1em;
-      height: 160px; } }
+  #producerPics .extrapic {
+    width: 220px;
+    display: inline-block; }
 
 .setup {
   clear: both;
@@ -1936,12 +1922,13 @@ div.grouping {
   clear: both; }
 
 #infographic {
-  clear: both;
-  margin-top: 1em; }
+  margin-top: 1em;
+  width: 100%; }
   #infographic .infographicSegment {
     font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
     font-size: 14px;
-    width: 317px;
+    width: 155px;
+    height: 90px;
     display: inline-table;
     border-right: 1px solid #dddcd8;
     border-left: 1px solid #dddcd8;
@@ -1954,14 +1941,16 @@ div.grouping {
     display: table-row; }
   #infographic .infographicSection {
     display: table-cell;
-    padding: 0 1em;
+    padding: 0 0.5em;
     text-align: center;
     border-top: 1px solid #dddcd8;
     border-bottom: 1px solid #dddcd8;
     height: 70px;
     vertical-align: middle; }
-  #infographic .icons {
-    vertical-align: bottom; }
+  #infographic .infographicSection.icons {
+    vertical-align: bottom;
+    padding-right: 0;
+    padding-bottom: 10px; }
   #infographic .sidewaysContainer {
     display: inline-block;
     width: 13px;

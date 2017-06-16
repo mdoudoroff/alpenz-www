@@ -80,129 +80,220 @@
 
 	}
 
-	.duplex {
-		float:right;
-		margin-left: 0.5em;
-		max-width: 225px;
+	// .duplex2 {
+	// 	float:right;
+	// 	margin-left: 0.5em;
+	// 	max-width: 225px;
+	// 	text-align: center;
+
+	// 	@include respond-to(phone) {
+
+	// 		float: none;
+	// 		width: 100%;
+	// 		clear:both;
+	// 		margin: 1em 0;
+	// 		// padding-top: 1em;
+	// 		max-width: none;
+	// 		min-height: 160px;
+	// 		line-height: 160px;
+	// 	}
+
+	// 	figure {
+	// 		@include respond-to(phone) {
+	// 			margin: 0;
+	// 			line-height: 160px;
+	// 			height: 160px;
+	// 		}
+	// 	}
+	// }
+
+	// .label {
+	// 	height: 225px;
+	// 	line-height: 225px;
+
+	// 	img {
+	// 		height: 100%;
+	// 		width: auto;
+	// 		vertical-align: middle;
+	// 	}
+	// 	img.wideimage {
+	// 		width: 100%;
+	// 		height: auto;
+	// 		vertical-align: middle;
+	// 	}
+
+	// 	margin-bottom: 0.5em;
+
+	// 	@include respond-to(phone) {
+	// 		float: left;
+	// 		width: 46%;
+	// 		height: 160px;
+
+	// 	}
+
+	// }
+
+	// figure.bottle {
+	// 	float: right;
+	// 	width: 215px;
+	// 	margin-right: 0.5em;
+	// 	height: 457px;
+	// 	text-align: center;
+	// 	img {
+	// 		width: auto;
+	// 		height:457px;
+	// 		vertical-align: middle;
+	// 	}
+
+	// 	@include respond-to(phone) {
+
+	// 		float: none;
+	// 		clear: both;
+	// 		display: block;
+	// 		padding: 0;
+
+	// 		width: 160px;
+	// 		height: auto;
+	// 		line-height: auto;
+	// 		margin: 0 auto;
+
+	// 		img {
+	// 			width: 100%;
+	// 			height:auto;
+	// 		}
+	// 		img.wideimage {
+	// 			width: 100%;
+	// 			height: auto;
+	// 		}
+	// 	}
+	// }
+
+	// .context {
+	// 	height: 225px;
+	// 	line-height: 225px;
+
+	// 	// float:left;
+	// 	img {
+	// 		height: 100%;
+	// 		width: auto;
+	// 		vertical-align: middle;
+	// 	}
+	// 	img.wideimage {
+	// 		width: 100%;
+	// 		height: auto;
+	// 		vertical-align: middle;
+	// 	}
+
+	// 	@include respond-to(phone) {
+	// 		float: left;
+	// 		width: 46%;
+	// 		margin-left: 1em;
+	// 		height: 160px;
+	// 	}
+	// }
+}
+
+#productImageryCluster {
+	width: 450px;
+	float: right;
+
+	@include respond-to(phone) {
+		width: 100%;
+		float: none;
+	}
+
+	td {
+		vertical-align: middle;
 		text-align: center;
+		overflow: hidden;
+		position: relative;
+	}
 
-		@include respond-to(phone) {
-			float: none;
-			width: 100%;
-			clear:both;
-			margin: 1em 0;
-			padding-top: 1em;
-			max-width: none;
-		}
+	img {
+		width: 100%;
+		display: block;
+	}
 
+	img.wideimage {
+		width: 100%;
+		display: block;
+	}
+
+	#bottlePicWrapper {
+		// width: 100%;
+		// height: 100%;
 		// background-color: yellow;
+		// position: absolute;
+		// top:0;
+		// left:0;
+		// right:0;
+		// bottom:0;
 	}
 
-	.label {
-		// float: left;
-		// max-width: 200px;
-		// margin-right: 1em;
-		height: 225px;
-		line-height: 225px;
+	#picBottle {
+		// width: 50%;
+		border-right: 0.5em solid transparent;		
+		border-bottom: 0.5em solid transparent;
+		// background-color: red;
 
 		img {
-			height: 100%;
-			width: auto;
-			vertical-align: middle;
+			// width: 50%;
+			width:60%;
+			margin: 0 auto;
 		}
-		img.wideimage {
-			width: 100%;
-			height: auto;
-			vertical-align: middle;
-		}
-
-		margin-bottom: 0.5em;
-
-		@include respond-to(phone) {
-			float: left;
-			width: 46%;
-			height: 160px;
-
-		}
-
-		// background-color: blue;
-	}
-
-	.bottle {
-		float: right;
-		width: 215px;
-		margin-right: 0.5em;
-		height: 457px;
-		text-align: center;
-		line-height: 457px;
-
-		img {
-			width: auto;
-			height:457px;
-			vertical-align: middle;
-		}
-		// img.wideimage {
-		// 	width: 100%;
-		// 	height: auto;
-		// 	vertical-align: middle;
-		// }
-
-		@include respond-to(phone) {
-
-			width: 20%;
-			max-width: 80px;
-			height: auto;
-
-			img {
-				width: 100%;
-				height:auto;
-			}
-			img.wideimage {
-				width: 100%;
-				height: auto;
-			}
-		}
-
-		// background-color: green;
 
 	}
 
-	.context {
-		height: 225px;
-		line-height: 225px;
+	#picLabel, #picContext {
+		width: 50%;
+	}
 
-		// float:left;
-		img {
-			height: 100%;
-			width: auto;
-			vertical-align: middle;
-		}
-		img.wideimage {
-			width: 100%;
-			height: auto;
-			vertical-align: middle;
-		}
+	#picPeople, #picPlace {
+		width: 50%;
+	}
 
-		@include respond-to(phone) {
-			float: left;
-			width: 46%;
-			margin-left: 1em;
-			height: 160px;
-		}
+	#picLabel {
+		border-bottom: 0.5em solid transparent;
+	}
 
-		// background-color: blue;
+	#picContext {
+		border-bottom: 0.5em solid transparent;
+	}
 
+	#picPeople {
+		border-right: 0.5em solid transparent;		
 	}
 
 }
 
+#producerPics {
+	width: 455px;
+	float: right;
+
+	margin-top: 1em;
+	height: 162px;
+
+	img {
+		height: 100%;
+		width: auto;
+		vertical-align: middle;
+	}
+	img.wideimage {
+		width: 100%;
+		height: auto;
+		vertical-align: middle;
+	}
+
+	.extrapic {
+		width: 220px;	
+		display: inline-block;
+	}
+}
 
 .setup {
 	clear: both;
 	overflow-x: auto;
 	margin: 1em 0;
-	
-
 
 	table {
 		width: auto;
@@ -401,57 +492,25 @@
 	}
 }
 
-// #infographic {
-// 	clear: both;
 
-// 	.infographicSection {
-// 		padding: 0 1em;
-// 		vertical-align: center;
-// 		text-align: center;
-// 		border-top: 1px solid black;
-// 		border-bottom: 1px solid black;
-// 		height: 70px;
-// 		position: relative;
-// 	}
-
-// 	.icons {
-// 		vertical-align: bottom;
-// 	}
-
-// 	.sidewaysContainer {
-// 		display: inline-block;
-// 		width: 13px;
-// 		background-color: yellow;
-// 		position: relative;
-// 	}
-// 	.sideways {
-// 		transform: translate(1em,0em) rotate(270deg);
-// 		position: absolute;
-// 		bottom: 0;
-// 		transform-origin: left bottom 0;
-// 		line-height: 1.0;
-
-// 		font-family: $subheading-font;
-// 		font-weight: 700;
-// 		text-transform: uppercase;
-// 		font-size: 13px;
-
-// 	}
-
-// }
 
 #infographic {
 
-	clear: both;
+	// clear: both;
 	margin-top: 1em;
+	width: 100%;
 	// margin-left: 7px;
 	// margin-right: 7px;
+
+
 
 	.infographicSegment {
 		font-family: $body-font;
 		font-size: 14px;
 
-		width: 317px;
+		// width: 317px;
+		width: 155px;
+		height: 90px;
 		display: inline-table;
 		border-right: 1px solid $off-grey-dark;
 		border-left: 1px solid $off-grey-dark;
@@ -469,7 +528,8 @@
 	}
 	.infographicSection {
 		display: table-cell;
-		padding: 0 1em;
+		// padding: 0 1em;
+		padding: 0 0.5em;
 		text-align: center;
 		border-top: 1px solid $off-grey-dark;
 		border-bottom: 1px solid $off-grey-dark;
@@ -478,8 +538,10 @@
 		vertical-align: middle;
 	}
 
-	.icons {
+	.infographicSection.icons {
 		vertical-align: bottom;
+		padding-right: 0;
+		padding-bottom: 10px;
 	}
 
 	.sidewaysContainer {
