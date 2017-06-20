@@ -1716,6 +1716,14 @@ div.grouping {
       color: inherit;
       background: inherit; }
 
+#printlogotype {
+  display: none;
+  float: right;
+  width: 15em; }
+  @media print {
+    #printlogotype {
+      display: block; } }
+
 .vitals p {
   width: 100%;
   margin: 10px 0 0 0;
@@ -1890,6 +1898,7 @@ div.grouping {
       column-count: 1; } }
 .mainalt .productDetailGmap {
   width: 473px;
+  width: 235px;
   float: right;
   margin-left: 1em; }
   @media only screen and (max-width: 420px) {

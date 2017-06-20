@@ -1,4 +1,14 @@
 
+#printlogotype {
+	display: none;
+	float: right;
+	width: 15em;
+
+	@include respond-to(print) {
+  		display: block;
+  	}
+}
+
 .vitals {
 
 	// margin: 0 0.5em;
@@ -450,6 +460,7 @@
 
 	.productDetailGmap {
 		width: 473px;
+		width: 235px;
 		float: right;
 		margin-left: 1em;
 
