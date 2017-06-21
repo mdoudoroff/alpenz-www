@@ -1406,6 +1406,13 @@ ul.producerTiles {
       .country .logoCorral {
         margin-left: 0; } }
 
+.mapPresentation {
+  position: relative;
+  float: right;
+  margin-left: 1em;
+  margin-right: 0;
+  background-color: #eee; }
+
 .originGmap, .countryDetailGmap {
   width: 360px;
   float: left;
@@ -1421,15 +1428,18 @@ ul.producerTiles {
 .originGmap_canvas, .countryDetailGmap_canvas {
   height: 288px;
   margin: 0;
-  box-shadow: none; }
+  box-shadow: none;
+  border-bottom: 2px solid #484848; }
   @media only screen and (max-width: 420px) {
     .originGmap_canvas, .countryDetailGmap_canvas {
       width: 100%; } }
 
 .countryDetailGmap {
-  float: right;
-  margin-left: 1em;
-  margin-right: 0; }
+  float: none;
+  margin: 0 0 1em 0; }
+
+.originOutline ul {
+  margin-bottom: 0 !important; }
 
 .miniLogoTile {
   position: relative;

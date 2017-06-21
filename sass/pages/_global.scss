@@ -1343,6 +1343,15 @@ ul.producerTiles {
 	}
 }
 
+// container for the map and anything else that goes with the map
+.mapPresentation {
+	position: relative;
+	float: right;
+	margin-left: 1em;
+	margin-right: 0;
+	background-color: #eee;
+}
+
 .originGmap, .countryDetailGmap {
 			width: 360px;
 			float: left;
@@ -1362,7 +1371,7 @@ ul.producerTiles {
 			height: 288px;
 			margin: 0;
 			box-shadow: none;
-
+			border-bottom: 2px solid $dark_grey;
 			@include respond-to(phone) {
 				width: 100%;
 			}
@@ -1370,11 +1379,18 @@ ul.producerTiles {
 }
 
 .countryDetailGmap {
-	float: right;
-	margin-left: 1em;
-	margin-right: 0;
+	float: none;
+	margin: 0 0 1em 0;
+	// float: right;
+	// margin-left: 1em;
+	// margin-right: 0;
 }
 
+.originOutline {
+	ul {
+		margin-bottom: 0 !important;
+	}
+}
 
 
 .miniLogoTile {
