@@ -1412,6 +1412,10 @@ ul.producerTiles {
   margin-left: 1em;
   margin-right: 0;
   background-color: #eee; }
+  @media only screen and (max-width: 420px) {
+    .mapPresentation {
+      float: none;
+      margin: 0 0 0.5em 0; } }
 
 .originGmap, .countryDetailGmap {
   width: 360px;

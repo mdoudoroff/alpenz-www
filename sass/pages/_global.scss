@@ -1350,6 +1350,12 @@ ul.producerTiles {
 	margin-left: 1em;
 	margin-right: 0;
 	background-color: #eee;
+
+	@include respond-to(phone) {
+		float: none;
+		margin: 0 0 0.5em 0;
+	}
+
 }
 
 .originGmap, .countryDetailGmap {
