@@ -7,7 +7,7 @@
 		"uuidString": "B5ADC2AB-4759-4D37-B9EB-92E440ECE0B5"
 		}
 	],
-"creatorBuild": "25813",
+"creatorBuild": "25849",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -294,7 +294,7 @@
 		"oF": 0
 		},
 	"\/config.rb": {
-		"ft": 8192,
+		"ft": 131072,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0
@@ -1609,6 +1609,12 @@
 		"oAP": "\/grouping-sercial.html",
 		"oF": 0
 		},
+	"\/grouping-single-harvest.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/grouping-single-harvest.html",
+		"oF": 0
+		},
 	"\/grouping-single-vintage.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -1631,6 +1637,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/grouping-verdelho.html",
+		"oF": 0
+		},
+	"\/grouping-vintage.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/grouping-vintage.html",
 		"oF": 0
 		},
 	"\/imagery-non-packaging.html": {
@@ -4617,6 +4629,46 @@
 		"iS": 4779,
 		"oA": 1,
 		"oAP": "\/images\/Orchard_Pear.pear-bartlett.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/originBranch.Austria.master-map.jpg": {
+		"ft": 16384,
+		"iS": 149087,
+		"oA": 1,
+		"oAP": "\/images\/originBranch.Austria.master-map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/originBranch.Oberosterreich.master-map.jpg": {
+		"ft": 16384,
+		"iS": 134772,
+		"oA": 1,
+		"oAP": "\/images\/originBranch.Oberosterreich.master-map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/originBranch.Steiermark.master-map.jpg": {
+		"ft": 16384,
+		"iS": 151114,
+		"oA": 1,
+		"oAP": "\/images\/originBranch.Steiermark.master-map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/originBranch.Weststeiermark.master-map.jpg": {
+		"ft": 16384,
+		"iS": 132033,
+		"oA": 1,
+		"oAP": "\/images\/originBranch.Weststeiermark.master-map.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -20132,6 +20184,7 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",

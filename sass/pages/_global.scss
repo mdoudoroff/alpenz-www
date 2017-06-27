@@ -1356,6 +1356,16 @@ ul.producerTiles {
 		margin: 0 0 0.5em 0;
 	}
 
+
+
+	.customMap {
+		width: 360px;
+
+		@include respond-to(phone) {
+			width: 100%;
+		}
+	}
+
 }
 
 .originGmap, .countryDetailGmap {
