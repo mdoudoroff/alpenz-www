@@ -1418,7 +1418,8 @@ ul.producerTiles {
       margin: 0 0 0.5em 0; } }
   @media only screen and (max-width: 420px) {
     .mapPresentation .customMap {
-      width: 100%; } }
+      width: 100%;
+      height: auto; } }
 
 .originGmap, .countryDetailGmap {
   width: 360px;

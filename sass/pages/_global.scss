@@ -1363,6 +1363,7 @@ ul.producerTiles {
 
 		@include respond-to(phone) {
 			width: 100%;
+			height: auto;
 		}
 	}
 
