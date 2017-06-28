@@ -1416,11 +1416,9 @@ ul.producerTiles {
     .mapPresentation {
       float: none;
       margin: 0 0 0.5em 0; } }
-  .mapPresentation .customMap {
-    width: 360px; }
-    @media only screen and (max-width: 420px) {
-      .mapPresentation .customMap {
-        width: 100%; } }
+  @media only screen and (max-width: 420px) {
+    .mapPresentation .customMap {
+      width: 100%; } }
 
 .originGmap, .countryDetailGmap {
   width: 360px;
