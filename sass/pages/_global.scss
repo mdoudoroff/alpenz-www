@@ -1335,7 +1335,7 @@ ul.producerTiles {
 	}
 
 	.logoCorral {
-		margin-left: 376px;
+		// margin-left: 500px;
 
 		@include respond-to(phone) {
 			margin-left: 0;
@@ -1349,14 +1349,20 @@ ul.producerTiles {
 	float: right;
 	margin-left: 1em;
 	margin-right: 0;
-	background-color: #eee;
 
 	@include respond-to(phone) {
 		float: none;
 		margin: 0 0 0.5em 0;
 	}
 
-
+	.mapAttribution {
+		display: block;
+		position: relative;
+		font-size: 70%;
+		color: $grey;
+		text-align: right;
+		top: -3px;
+	}
 
 	.customMap {
 		// width: 360px;
@@ -1367,11 +1373,22 @@ ul.producerTiles {
 		}
 	}
 
+	.customMapSVG {
+		width: 450px;
+		height: auto;
+
+		@include respond-to(phone) {
+			width: 100%;
+			height: auto;
+		}
+
+	}
+
 }
 
 .originGmap, .countryDetailGmap {
 			width: 360px;
-			float: left;
+			float: right;
 			position:relative;
 
 			@include respond-to(phone) {

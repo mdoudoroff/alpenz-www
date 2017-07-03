@@ -294,7 +294,7 @@
 		"oF": 0
 		},
 	"\/config.rb": {
-		"ft": 131072,
+		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0
@@ -4634,15 +4634,25 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/originBranch.Austria.master-map.jpg": {
+	"\/images\/originBranch.Austria.master-base.jpg": {
 		"ft": 16384,
-		"iS": 149087,
+		"iS": 154386,
 		"oA": 1,
-		"oAP": "\/images\/originBranch.Austria.master-map.jpg",
+		"oAP": "\/images\/originBranch.Austria.master-base.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/images\/originBranch.Austria.master-map.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/originBranch.Austria.master-map.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/images\/originBranch.Oberosterreich.master-map.jpg": {
 		"ft": 16384,
@@ -4654,15 +4664,25 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/originBranch.Steiermark.master-map.jpg": {
+	"\/images\/originBranch.Steiermark.master-base.jpg": {
 		"ft": 16384,
 		"iS": 151114,
 		"oA": 1,
-		"oAP": "\/images\/originBranch.Steiermark.master-map.jpg",
+		"oAP": "\/images\/originBranch.Steiermark.master-base.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/images\/originBranch.Steiermark.master-map.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/originBranch.Steiermark.master-map.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/images\/originBranch.Weststeiermark.master-map.jpg": {
 		"ft": 16384,

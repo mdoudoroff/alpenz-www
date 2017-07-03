@@ -1400,30 +1400,41 @@ ul.producerTiles {
   min-height: 288px; }
   .country h2 {
     margin-bottom: 0.5em; }
-  .country .logoCorral {
-    margin-left: 376px; }
-    @media only screen and (max-width: 420px) {
-      .country .logoCorral {
-        margin-left: 0; } }
+  @media only screen and (max-width: 420px) {
+    .country .logoCorral {
+      margin-left: 0; } }
 
 .mapPresentation {
   position: relative;
   float: right;
   margin-left: 1em;
-  margin-right: 0;
-  background-color: #eee; }
+  margin-right: 0; }
   @media only screen and (max-width: 420px) {
     .mapPresentation {
       float: none;
       margin: 0 0 0.5em 0; } }
+  .mapPresentation .mapAttribution {
+    display: block;
+    position: relative;
+    font-size: 70%;
+    color: #666666;
+    text-align: right;
+    top: -3px; }
   @media only screen and (max-width: 420px) {
     .mapPresentation .customMap {
       width: 100%;
       height: auto; } }
+  .mapPresentation .customMapSVG {
+    width: 450px;
+    height: auto; }
+    @media only screen and (max-width: 420px) {
+      .mapPresentation .customMapSVG {
+        width: 100%;
+        height: auto; } }
 
 .originGmap, .countryDetailGmap {
   width: 360px;
-  float: left;
+  float: right;
   position: relative;
   height: 288px;
   overflow: hidden;
