@@ -147,6 +147,34 @@ jQuery(document).ready(function() {
 
 	});
 
+	$(document).on("keypress", function (e) {
+
+    	var lat = window.mainmap.getCenter().lat();
+    	var lng = window.mainmap.getCenter().lng();
+
+    	if (e.which==119) {
+    		// up
+    		window.mainmap.setCenter(new google.maps.LatLng(lat+0.5, lng));
+    		$('#mapCoords').text(window.mainmap.getCenter());
+    	}
+    	else if (e.which==100) {
+    		// right
+    		window.mainmap.setCenter(new google.maps.LatLng(lat, lng+1));
+    		$('#mapCoords').text(window.mainmap.getCenter());
+    	}
+    	else if (e.which==115) {
+    		// down
+    		window.mainmap.setCenter(new google.maps.LatLng(lat-0.5, lng));
+    		$('#mapCoords').text(window.mainmap.getCenter());
+    	}
+    	else if (e.which==97) {
+    		// left
+    		window.mainmap.setCenter(new google.maps.LatLng(lat, lng-1));
+    		$('#mapCoords').text(window.mainmap.getCenter());
+    	}
+
+	});
+
 	window.console.log(window.location.hash);
 	if (window.location.hash.indexOf('unfolded')>-1) {
 		$('.revealfold').hide();

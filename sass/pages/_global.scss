@@ -1284,13 +1284,13 @@ ul.producerTiles {
 		// margin-left: 1em;
 		width: 180px;
 		display: inline-block;
-		height: 300px;
+		height: 250px;
 		// border: 1px solid #eee;
 
 		@include respond-to(phone) {
 			font-size: 80%;
 			width: 145px;
-			height: 250px;
+			height: 200px;
 		}
 
 		.logo {
