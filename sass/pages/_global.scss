@@ -1281,11 +1281,9 @@ ul.producerTiles {
 	li {
 		vertical-align: top;
 		margin: 0;
-		// margin-left: 1em;
 		width: 180px;
 		display: inline-block;
 		height: 250px;
-		// border: 1px solid #eee;
 
 		@include respond-to(phone) {
 			font-size: 80%;
@@ -1297,12 +1295,12 @@ ul.producerTiles {
 			position: relative;
 			width: 180px;
 			height: 180px;
-			// line-height: 180px;
 			padding: 0.5em;
 			border: 2px solid #ddd;
 			margin-bottom: 0.5em;
 
 			vertical-align: middle;
+
 			img {
 				width: 100%;
 				height: auto;
