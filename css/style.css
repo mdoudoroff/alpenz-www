@@ -1425,7 +1425,7 @@ ul.producerTiles {
       width: 100%;
       height: auto; } }
   .mapPresentation .customMapSVG {
-    width: 450px;
+    width: 480px;
     height: auto; }
     @media only screen and (max-width: 420px) {
       .mapPresentation .customMapSVG {
@@ -1501,7 +1501,7 @@ ul.producerTiles {
       width: 230px;
       height: 230px;
       line-height: 230px;
-      margin: 0 0.5em 0 0; }
+      margin: 0 20px 0 0; }
       @media only screen and (max-width: 420px) {
         .products .type-product .label {
           display: none; } }
@@ -1528,7 +1528,6 @@ ul.producerTiles {
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
       padding: 0 0;
-      margin-right: 0.5em;
       width: 478px;
       width: 480px; }
       @media only screen and (max-width: 420px) {

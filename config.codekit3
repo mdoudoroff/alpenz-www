@@ -7,7 +7,7 @@
 		"uuidString": "B5ADC2AB-4759-4D37-B9EB-92E440ECE0B5"
 		}
 	],
-"creatorBuild": "25849",
+"creatorBuild": "25900",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -23,6 +23,7 @@
 		},
 	"\/assets\/app-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/app-min-min.js",
@@ -38,6 +39,7 @@
 		},
 	"\/assets\/cht0iod.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/cht0iod-min.js",
@@ -57,6 +59,7 @@
 		},
 	"\/assets\/event-manager.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/event-manager-min.js",
@@ -66,6 +69,7 @@
 		},
 	"\/assets\/extracted-javascript.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/extracted-javascript-min.js",
@@ -85,6 +89,7 @@
 		},
 	"\/assets\/front.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/front-min.js",
@@ -127,6 +132,7 @@
 		},
 	"\/assets\/jquery.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/jquery.min-min.js",
@@ -208,6 +214,7 @@
 		},
 	"\/assets\/wp-embed.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/wp-embed.min-min.js",
@@ -498,6 +505,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Bonal.bonal.label.png": {
+		"ft": 32768,
+		"iS": 2831914,
+		"oA": 1,
+		"oAP": "\/downloads\/Bonal.bonal.label.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/downloads\/Brachetto.bottle-high-res.jpg": {
@@ -1729,6 +1747,26 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/Amaro_Pasubio.context.pasubio.jpg": {
+		"ft": 16384,
+		"iS": 217453,
+		"oA": 1,
+		"oAP": "\/images\/Amaro_Pasubio.context.pasubio.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/Amaro_Pasubio.label.pasubio.jpg": {
+		"ft": 16384,
+		"iS": 131072,
+		"oA": 1,
+		"oAP": "\/images\/Amaro_Pasubio.label.pasubio.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/Asti.asti_front-label.jpg": {
 		"ft": 16384,
 		"iS": 189912,
@@ -2300,17 +2338,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
-		},
-	"\/images\/Bonal.label.Bonal.png": {
-		"ft": 32768,
-		"iS": 1457175,
-		"oA": 1,
-		"oAP": "\/images\/Bonal.label.Bonal.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"\/images\/Bonal.P3111BonalYellow-poster.jpg": {
@@ -3692,38 +3719,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/Jobstl_Ried_Krass.bottle.joebstl-reed-krass.png": {
-		"ft": 32768,
-		"iS": 132428,
-		"oA": 1,
-		"oAP": "\/images\/Jobstl_Ried_Krass.bottle.joebstl-reed-krass.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/Jobstl_Ried_Krass.context.joebstl-schilcher.jpg": {
-		"ft": 16384,
-		"iS": 314305,
-		"oA": 1,
-		"oAP": "\/images\/Jobstl_Ried_Krass.context.joebstl-schilcher.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/Jobstl_Ried_Krass.label.Jobstl-schilcher.png": {
-		"ft": 32768,
-		"iS": 133525,
-		"oA": 1,
-		"oAP": "\/images\/Jobstl_Ried_Krass.label.Jobstl-schilcher.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/images\/Jorel_La_Garrigue.bottle.la-garrigue.jpg": {
 		"ft": 16384,
 		"iS": 50569,
@@ -4664,6 +4659,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/originBranch.Austria.master-tmp.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/originBranch.Austria.master-tmp.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/originBranch.Austria.tmp.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -4694,6 +4699,26 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/originBranch.Barbados.master-base.jpg": {
+		"ft": 16384,
+		"iS": 37923,
+		"oA": 1,
+		"oAP": "\/images\/originBranch.Barbados.master-base.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/originBranch.Barbados.master-map.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/originBranch.Barbados.master-map.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/originBranch.Brachetto_dAcqui_DOCG.master-base.jpg": {
 		"ft": 16384,
 		"iS": 156569,
@@ -4709,6 +4734,46 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/images\/originBranch.Brachetto_dAcqui_DOCG.master-map.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/originBranch.Carcavelos_DO.master-base.jpg": {
+		"ft": 16384,
+		"iS": 122659,
+		"oA": 1,
+		"oAP": "\/images\/originBranch.Carcavelos_DO.master-base.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/originBranch.Carcavelos_DO.master-map.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/originBranch.Carcavelos_DO.master-map.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/originBranch.Catalunya.master-base.jpg": {
+		"ft": 16384,
+		"iS": 202508,
+		"oA": 1,
+		"oAP": "\/images\/originBranch.Catalunya.master-base.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/originBranch.Catalunya.master-map.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/originBranch.Catalunya.master-map.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -4764,15 +4829,25 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/originBranch.france.master-base.jpg": {
+	"\/images\/originBranch.Emporda_DO.master-base.jpg": {
 		"ft": 16384,
-		"iS": 157187,
+		"iS": 192505,
 		"oA": 1,
-		"oAP": "\/images\/originBranch.france.master-base.jpg",
+		"oAP": "\/images\/originBranch.Emporda_DO.master-base.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/images\/originBranch.Emporda_DO.master-map.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/originBranch.Emporda_DO.master-map.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/images\/originBranch.france.master-map.svg": {
 		"ft": 2097152,
@@ -4799,6 +4874,36 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/images\/originBranch.Italy.master-map.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/originBranch.Java.master-map.jpg": {
+		"ft": 16384,
+		"iS": 51379,
+		"oA": 1,
+		"oAP": "\/images\/originBranch.Java.master-map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/originBranch.Madeira_DO.master-base.jpg": {
+		"ft": 16384,
+		"iS": 57851,
+		"oA": 1,
+		"oAP": "\/images\/originBranch.Madeira_DO.master-base.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/originBranch.Madeira_DO.master-map.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/originBranch.Madeira_DO.master-map.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -4904,6 +5009,26 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/originBranch.Portugal.master-base.jpg": {
+		"ft": 16384,
+		"iS": 162830,
+		"oA": 1,
+		"oAP": "\/images\/originBranch.Portugal.master-base.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/originBranch.Portugal.master-map.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/originBranch.Portugal.master-map.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/originBranch.Roussillon.master-base.jpg": {
 		"ft": 16384,
 		"iS": 165887,
@@ -4964,6 +5089,26 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/originBranch.Spain.master-base.jpg": {
+		"ft": 16384,
+		"iS": 135393,
+		"oA": 1,
+		"oAP": "\/images\/originBranch.Spain.master-base.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/originBranch.Spain.master-map.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/originBranch.Spain.master-map.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/originBranch.Steiermark.master-base.jpg": {
 		"ft": 16384,
 		"iS": 216841,
@@ -4989,6 +5134,26 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/images\/originBranch.Steiermark.tmp.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/originBranch.Sweden.master-base.jpg": {
+		"ft": 16384,
+		"iS": 134569,
+		"oA": 1,
+		"oAP": "\/images\/originBranch.Sweden.master-base.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/originBranch.Sweden.master-map.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/originBranch.Sweden.master-map.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -5029,6 +5194,26 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/images\/originBranch.Vermouth_di_Torino_DOP.master-map.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/originBranch.Vermut_de_Reus.master-base.jpg": {
+		"ft": 16384,
+		"iS": 187040,
+		"oA": 1,
+		"oAP": "\/images\/originBranch.Vermut_de_Reus.master-base.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/originBranch.Vermut_de_Reus.master-map.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/originBranch.Vermut_de_Reus.master-map.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -14357,6 +14542,7 @@
 		},
 	"\/js\/page-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/js\/page-min-min.js",
@@ -14366,6 +14552,7 @@
 		},
 	"\/js\/page.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/page-min.js",
@@ -14375,6 +14562,7 @@
 		},
 	"\/js\/photoswipe-ui-default.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/js\/photoswipe-ui-default-min.js",
@@ -14384,6 +14572,7 @@
 		},
 	"\/js\/photoswipe.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/js\/photoswipe-min.js",
@@ -14393,6 +14582,7 @@
 		},
 	"\/js\/recipeindex-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/recipeindex-min-min.js",
@@ -14402,6 +14592,7 @@
 		},
 	"\/js\/recipeindex.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/recipeindex-min.js",
@@ -14411,6 +14602,7 @@
 		},
 	"\/js\/uStates.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 0,
 		"oA": 1,
 		"oAP": "\/js\/uStates-min.js",
@@ -14482,6 +14674,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/originBranch-Brachetto_dAcqui_DOCG.html",
+		"oF": 0
+		},
+	"\/originBranch-Carcavelos_DO.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originBranch-Carcavelos_DO.html",
 		"oF": 0
 		},
 	"\/originBranch-Catalunya.html": {
@@ -14578,6 +14776,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/originBranch-Madeira.html",
+		"oF": 0
+		},
+	"\/originBranch-Madeira_DO.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originBranch-Madeira_DO.html",
 		"oF": 0
 		},
 	"\/originBranch-Madeira_DOC.html": {
@@ -14862,6 +15066,12 @@
 		"oAP": "\/producer-Purkhart.html",
 		"oF": 0
 		},
+	"\/producer-Quinta_dos_Pesos.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/producer-Quinta_dos_Pesos.html",
+		"oF": 0
+		},
 	"\/producer-Salers.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -14896,6 +15106,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/producer-Vial-Magneres.html",
+		"oF": 0
+		},
+	"\/producer-Villa_Oeiras.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/producer-Villa_Oeiras.html",
 		"oF": 0
 		},
 	"\/producer-Weingut_Jobstl.html": {
@@ -15010,6 +15226,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/product-Byrrh-Byrrh_Grand_Quinquina.html",
+		"oF": 0
+		},
+	"\/product-Cappelletti-Amaro_Pasubio.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-Cappelletti-Amaro_Pasubio.html",
 		"oF": 0
 		},
 	"\/product-Cappelletti-Amaro_Pasubio_DRAFT.html": {
@@ -15510,6 +15732,12 @@
 		"oAP": "\/product-Purkhart-St._Elizabeth_Allspice_Dram.html",
 		"oF": 0
 		},
+	"\/product-Quinta_dos_Pesos-Quinta_dos_Pesos_Carcavelos.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-Quinta_dos_Pesos-Quinta_dos_Pesos_Carcavelos.html",
+		"oF": 0
+		},
 	"\/product-Salers-Salers_Gentian_Aperitif.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -15544,6 +15772,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/product-Vial-Magneres-Tresmontaine_Puits_aux_Souhaits_Rancio_Sec.html",
+		"oF": 0
+		},
+	"\/product-Villa_Oeiras-Villa_Oeiras_Carcavelos_NV.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-Villa_Oeiras-Villa_Oeiras_Carcavelos_NV.html",
 		"oF": 0
 		},
 	"\/product-Weingut_Jobstl-Weingut_Jobstl_Schilcher_Ried_Krass.html": {
@@ -18934,6 +19168,10 @@
 			"active": 0,
 			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
 			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
 		"array-bracket-spacing": {
 			"active": 0,
 			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
@@ -18941,6 +19179,10 @@
 		"array-callback-return": {
 			"active": 0,
 			"optionString": ""
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
 			},
 		"arrow-body-style": {
 			"active": 0,
@@ -19038,6 +19280,10 @@
 			"active": 0,
 			"optionString": "'always', {'null': 'always'}"
 			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
 		"func-call-spacing": {
 			"active": 0,
 			"optionString": "'never'"
@@ -19057,6 +19303,10 @@
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
 			"active": 0,
@@ -19185,6 +19435,10 @@
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-caller": {
 			"active": 0,
@@ -19730,6 +19984,10 @@
 			"active": 0,
 			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
 			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
 		"prefer-arrow-callback": {
 			"active": 0,
 			"optionString": ""
@@ -19798,6 +20056,10 @@
 			"active": 0,
 			"optionString": "{'before': false, 'after': true}"
 			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
 		"sort-imports": {
 			"active": 0,
 			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
@@ -19837,6 +20099,10 @@
 		"strict": {
 			"active": 0,
 			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
 			},
 		"symbol-description": {
 			"active": 0,
@@ -20470,6 +20736,7 @@
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
+	"susyVersion": 3,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {

@@ -35,7 +35,7 @@
 			line-height: 230px;
 
 			// margin: 0 20px 0 0;
-			margin: 0 0.5em 0 0;
+			margin: 0 20px 0 0;
 			
 			@include respond-to(phone) {
 				display: none;
@@ -76,7 +76,7 @@
 			float: left;
 			@include box-sizing(border-box);
 			padding: 0 0;
-			margin-right: 0.5em;
+			// margin-right: 0.5em;
 			
 			width: 478px;
 			width: 480px;
