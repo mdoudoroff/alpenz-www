@@ -4701,7 +4701,7 @@
 		},
 	"\/images\/originBranch.Barbados.master-base.jpg": {
 		"ft": 16384,
-		"iS": 37923,
+		"iS": 38254,
 		"oA": 1,
 		"oAP": "\/images\/originBranch.Barbados.master-base.jpg",
 		"oF": 0,
@@ -4849,6 +4849,36 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/originBranch.England.master-base.jpg": {
+		"ft": 16384,
+		"iS": 124468,
+		"oA": 1,
+		"oAP": "\/images\/originBranch.England.master-base.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/originBranch.England.master-map.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/originBranch.England.master-map.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/originBranch.france.master-base.jpg": {
+		"ft": 16384,
+		"iS": 156692,
+		"oA": 1,
+		"oAP": "\/images\/originBranch.france.master-base.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/originBranch.france.master-map.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -4858,6 +4888,16 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/originBranch.Guyana.master-map.jpg": {
+		"ft": 16384,
+		"iS": 145462,
+		"oA": 1,
+		"oAP": "\/images\/originBranch.Guyana.master-map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/originBranch.Italy.master-base.jpg": {
 		"ft": 16384,
@@ -4878,6 +4918,16 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/originBranch.Jamaica.master-map.jpg": {
+		"ft": 16384,
+		"iS": 60469,
+		"oA": 1,
+		"oAP": "\/images\/originBranch.Jamaica.master-map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/originBranch.Java.master-map.jpg": {
 		"ft": 16384,
@@ -4944,6 +4994,26 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/images\/originBranch.Maury_AOP.master-map.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/originBranch.New_York.master-base.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 1,
+		"oAP": "\/images\/originBranch.New_York.master-base.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/originBranch.New_York.master-map.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/originBranch.New_York.master-map.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -5141,7 +5211,7 @@
 		},
 	"\/images\/originBranch.Sweden.master-base.jpg": {
 		"ft": 16384,
-		"iS": 134569,
+		"iS": 136187,
 		"oA": 1,
 		"oAP": "\/images\/originBranch.Sweden.master-base.jpg",
 		"oF": 0,
@@ -5179,6 +5249,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/originBranch.trinidad.master-map.jpg": {
+		"ft": 16384,
+		"iS": 51977,
+		"oA": 1,
+		"oAP": "\/images\/originBranch.trinidad.master-map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/originBranch.Vermouth_di_Torino_DOP.master-base.jpg": {
 		"ft": 16384,
 		"iS": 313593,
@@ -5214,6 +5294,26 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/images\/originBranch.Vermut_de_Reus.master-map.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/originBranch.West_Indies.master-base.jpg": {
+		"ft": 16384,
+		"iS": 96342,
+		"oA": 1,
+		"oAP": "\/images\/originBranch.West_Indies.master-base.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/originBranch.West_Indies.master-map.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/originBranch.West_Indies.master-map.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -14736,6 +14836,12 @@
 		"oAP": "\/originBranch-France.html",
 		"oF": 0
 		},
+	"\/originBranch-Guyana.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originBranch-Guyana.html",
+		"oF": 0
+		},
 	"\/originBranch-Indonesia-Austria.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -14758,6 +14864,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/originBranch-Jamaica-England.html",
+		"oF": 0
+		},
+	"\/originBranch-Jamaica.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originBranch-Jamaica.html",
 		"oF": 0
 		},
 	"\/originBranch-Java.html": {
@@ -14886,6 +14998,12 @@
 		"oAP": "\/originBranch-Trinidad-Austria.html",
 		"oF": 0
 		},
+	"\/originBranch-Trinidad.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originBranch-Trinidad.html",
+		"oF": 0
+		},
 	"\/originBranch-United_States.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -14914,6 +15032,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/originBranch-West_Indies-England.html",
+		"oF": 0
+		},
+	"\/originBranch-West_Indies.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originBranch-West_Indies.html",
 		"oF": 0
 		},
 	"\/originBranch-Weststeiermark.html": {
@@ -15150,10 +15274,22 @@
 		"oAP": "\/producers-France.html",
 		"oF": 0
 		},
+	"\/producers-Guyana.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/producers-Guyana.html",
+		"oF": 0
+		},
 	"\/producers-Italy.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/producers-Italy.html",
+		"oF": 0
+		},
+	"\/producers-Jamaica.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/producers-Jamaica.html",
 		"oF": 0
 		},
 	"\/producers-Portugal.html": {
@@ -15172,6 +15308,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/producers-Sweden.html",
+		"oF": 0
+		},
+	"\/producers-Trinidad.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/producers-Trinidad.html",
 		"oF": 0
 		},
 	"\/producers-United_States.html": {

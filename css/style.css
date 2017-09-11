@@ -1861,6 +1861,9 @@ div.grouping {
     .setup {
       overflow-x: visible; } }
 
+.productDetailMasterMap {
+  width: 100%; }
+
 .artworkCorral {
   width: 100%;
   padding-left: 0.5em;
