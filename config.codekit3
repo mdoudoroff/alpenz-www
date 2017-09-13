@@ -1797,6 +1797,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/Asti.product.Cocchi_Asti_DOCG.master-base.jpg": {
+		"ft": 16384,
+		"iS": 159149,
+		"oA": 1,
+		"oAP": "\/images\/Asti.product.Cocchi_Asti_DOCG.master-base.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/Averell_Damson.44_00.jpg": {
 		"ft": 16384,
 		"iS": 28618,
@@ -6632,6 +6642,26 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/images\/producer.specialty-drinks.master-base.jpg": {
+		"ft": 16384,
+		"iS": 42723,
+		"oA": 1,
+		"oAP": "\/images\/producer.specialty-drinks.master-base.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/producer.specialty-drinks.master-map.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/producer.specialty-drinks.master-map.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/images\/producer.Terre des Templiers.process.jpg": {
 		"ft": 16384,
@@ -15242,84 +15272,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/producer-Weingut_Jobstl.html",
-		"oF": 0
-		},
-	"\/producers-Austria.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/producers-Austria.html",
-		"oF": 0
-		},
-	"\/producers-Barbados.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/producers-Barbados.html",
-		"oF": 0
-		},
-	"\/producers-Catalunya.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/producers-Catalunya.html",
-		"oF": 0
-		},
-	"\/producers-England.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/producers-England.html",
-		"oF": 0
-		},
-	"\/producers-France.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/producers-France.html",
-		"oF": 0
-		},
-	"\/producers-Guyana.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/producers-Guyana.html",
-		"oF": 0
-		},
-	"\/producers-Italy.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/producers-Italy.html",
-		"oF": 0
-		},
-	"\/producers-Jamaica.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/producers-Jamaica.html",
-		"oF": 0
-		},
-	"\/producers-Portugal.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/producers-Portugal.html",
-		"oF": 0
-		},
-	"\/producers-Spain.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/producers-Spain.html",
-		"oF": 0
-		},
-	"\/producers-Sweden.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/producers-Sweden.html",
-		"oF": 0
-		},
-	"\/producers-Trinidad.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/producers-Trinidad.html",
-		"oF": 0
-		},
-	"\/producers-United_States.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/producers-United_States.html",
 		"oF": 0
 		},
 	"\/producers.html": {

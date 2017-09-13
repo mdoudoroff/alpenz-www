@@ -733,7 +733,7 @@ header.producerindex {
 	}
 
 	.images {
-		width: 33%;
+		width: 500px;
 		float: right;
 		text-align: center;
 
@@ -789,7 +789,7 @@ header.producerindex {
 	}
 
 	.blurb {
-		width: 66%;
+		width: 450px;
 
 		figure {
 
@@ -848,6 +848,15 @@ header.producerindex {
 		}
 
 		figure.processImage {
+
+			margin-right: 4px;
+
+			@include respond-to(phone) {
+				float: right;
+			}
+
+		}
+		figure.peopleImage {
 			@include respond-to(phone) {
 				float: right;
 			}
@@ -1281,23 +1290,30 @@ ul.producerTiles {
 	li {
 		vertical-align: top;
 		margin: 0;
-		width: 180px;
+		// width: 180px;
+		width: 150px;
 		display: inline-block;
-		height: 250px;
+		// height: 250px;
+		height: 189px;
+		margin-right: 6px;
 
 		@include respond-to(phone) {
 			font-size: 80%;
-			width: 145px;
-			height: 200px;
+			width: 120px;
+			height: 160px;
 		}
+
+		font-family: $subheading-font;
 
 		.logo {
 			position: relative;
-			width: 180px;
-			height: 180px;
+			// width: 180px;
+			// height: 180px;
+			width: 150px;
+			height: 150px;
 			padding: 0.5em;
 			border: 2px solid #ddd;
-			margin-bottom: 0.5em;
+			margin-bottom: 0;
 
 			vertical-align: middle;
 
@@ -1312,11 +1328,16 @@ ul.producerTiles {
 			}
 
 			@include respond-to(phone) {
-				width: 145px;
-				height: 145px;
-				line-height: 145px;				
+				width: 120px;
+				height: 120px;			
 			}
 
+		}
+		a:hover .logo {
+			border-color: $link_hover;
+		}
+		a:hover {
+			text-decoration: none;
 		}
 	}
 }
@@ -1372,7 +1393,8 @@ ul.producerTiles {
 	}
 
 	.customMapSVG {
-		width: 480px;
+		width: 455px; // ideally, this is 460px, but we’re cheating a little to
+					  // accomodate producer logo tiles
 		height: auto;
 
 		@include respond-to(phone) {

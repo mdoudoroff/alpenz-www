@@ -1013,7 +1013,7 @@ header.producerindex p.categorization {
   text-transform: uppercase;
   font-size: 90%; }
 header.producerindex .images {
-  width: 33%;
+  width: 500px;
   float: right;
   text-align: center; }
   header.producerindex .images img {
@@ -1035,7 +1035,7 @@ header.producerindex .images {
   .catblurb .images img {
     width: 100%; }
 .catblurb .blurb {
-  width: 66%; }
+  width: 450px; }
   .catblurb .blurb figure img {
     width: 100%;
     height: auto; }
@@ -1066,8 +1066,13 @@ header.producerindex .images {
     @media only screen and (max-width: 420px) {
       .catblurb .producerTrio figure.placeImage {
         margin-right: 0; } }
+  .catblurb .producerTrio figure.processImage {
+    margin-right: 4px; }
+    @media only screen and (max-width: 420px) {
+      .catblurb .producerTrio figure.processImage {
+        float: right; } }
   @media only screen and (max-width: 420px) {
-    .catblurb .producerTrio figure.processImage {
+    .catblurb .producerTrio figure.peopleImage {
       float: right; } }
   .catblurb .producerTrio .producerDetailGmap {
     width: 33%;
@@ -1366,21 +1371,23 @@ ul.producerTiles {
   ul.producerTiles li {
     vertical-align: top;
     margin: 0;
-    width: 180px;
+    width: 150px;
     display: inline-block;
-    height: 250px; }
+    height: 189px;
+    margin-right: 6px;
+    font-family: "myriad-pro-condensed", Impact, sans-serif; }
     @media only screen and (max-width: 420px) {
       ul.producerTiles li {
         font-size: 80%;
-        width: 145px;
-        height: 200px; } }
+        width: 120px;
+        height: 160px; } }
     ul.producerTiles li .logo {
       position: relative;
-      width: 180px;
-      height: 180px;
+      width: 150px;
+      height: 150px;
       padding: 0.5em;
       border: 2px solid #ddd;
-      margin-bottom: 0.5em;
+      margin-bottom: 0;
       vertical-align: middle; }
       ul.producerTiles li .logo img {
         width: 100%;
@@ -1390,9 +1397,12 @@ ul.producerTiles {
         transform: translateY(-50%); }
       @media only screen and (max-width: 420px) {
         ul.producerTiles li .logo {
-          width: 145px;
-          height: 145px;
-          line-height: 145px; } }
+          width: 120px;
+          height: 120px; } }
+    ul.producerTiles li a:hover .logo {
+      border-color: #eb2f2c; }
+    ul.producerTiles li a:hover {
+      text-decoration: none; }
 
 .country {
   clear: both;
@@ -1425,7 +1435,7 @@ ul.producerTiles {
       width: 100%;
       height: auto; } }
   .mapPresentation .customMapSVG {
-    width: 480px;
+    width: 455px;
     height: auto; }
     @media only screen and (max-width: 420px) {
       .mapPresentation .customMapSVG {
