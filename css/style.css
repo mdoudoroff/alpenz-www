@@ -1430,10 +1430,12 @@ ul.producerTiles {
     color: #666666;
     text-align: right;
     top: -3px; }
-  @media only screen and (max-width: 420px) {
-    .mapPresentation .customMap {
-      width: 100%;
-      height: auto; } }
+  .mapPresentation .customMap {
+    width: 455px; }
+    @media only screen and (max-width: 420px) {
+      .mapPresentation .customMap {
+        width: 100%;
+        height: auto; } }
   .mapPresentation .customMapSVG {
     width: 455px;
     height: auto; }
