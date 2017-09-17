@@ -1363,6 +1363,47 @@ img.socialButton {
 .generalTable th, .generalTable td {
   padding-right: 1em; }
 
+ul.originTiles {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1em; }
+  ul.originTiles li {
+    vertical-align: top;
+    margin: 0;
+    width: 150px;
+    display: inline-block;
+    height: 189px;
+    margin-right: 6px;
+    font-family: "myriad-pro-condensed", Impact, sans-serif; }
+    @media only screen and (max-width: 420px) {
+      ul.originTiles li {
+        font-size: 80%;
+        width: 120px;
+        height: 160px; } }
+    ul.originTiles li .maplet {
+      position: relative;
+      width: 150px;
+      height: 150px;
+      padding: 0.5em;
+      border: 2px solid #ddd;
+      margin-bottom: 0;
+      vertical-align: middle; }
+      ul.originTiles li .maplet img {
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%); }
+      @media only screen and (max-width: 420px) {
+        ul.originTiles li .maplet {
+          width: 120px;
+          height: 120px; } }
+    ul.originTiles li a:hover .maplet {
+      border-color: #eb2f2c; }
+    ul.originTiles li a:hover {
+      text-decoration: none; }
+
 ul.producerTiles {
   list-style-type: none;
   margin: 0;

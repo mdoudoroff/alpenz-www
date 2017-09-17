@@ -4659,6 +4659,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/originBranch.Austria.maplet.jpg": {
+		"ft": 16384,
+		"iS": 22176,
+		"oA": 1,
+		"oAP": "\/images\/originBranch.Austria.maplet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/originBranch.Austria.master-base.jpg": {
 		"ft": 16384,
 		"iS": 156602,
@@ -4839,6 +4849,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/originBranch.England.maplet.jpg": {
+		"ft": 16384,
+		"iS": 13572,
+		"oA": 1,
+		"oAP": "\/images\/originBranch.England.maplet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/originBranch.England.master-base.jpg": {
 		"ft": 16384,
 		"iS": 124468,
@@ -4858,6 +4878,16 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/originBranch.France.maplet.jpg": {
+		"ft": 16384,
+		"iS": 20546,
+		"oA": 1,
+		"oAP": "\/images\/originBranch.France.maplet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/originBranch.france.master-base.jpg": {
 		"ft": 16384,
@@ -4889,6 +4919,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/originBranch.Italy.maplet.jpg": {
+		"ft": 16384,
+		"iS": 20744,
+		"oA": 1,
+		"oAP": "\/images\/originBranch.Italy.maplet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/originBranch.Italy.master-base.jpg": {
 		"ft": 16384,
 		"iS": 161955,
@@ -4914,6 +4954,16 @@
 		"iS": 60469,
 		"oA": 1,
 		"oAP": "\/images\/originBranch.Jamaica.master-map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/originBranch.Java.maplet.jpg": {
+		"ft": 16384,
+		"iS": 15153,
+		"oA": 1,
+		"oAP": "\/images\/originBranch.Java.maplet.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -4988,6 +5038,16 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/originBranch.New_York.maplet.jpg": {
+		"ft": 16384,
+		"iS": 22135,
+		"oA": 1,
+		"oAP": "\/images\/originBranch.New_York.maplet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/originBranch.New_York.master-base.jpg": {
 		"ft": 16384,
@@ -5069,6 +5129,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/originBranch.Portugal.maplet.jpg": {
+		"ft": 16384,
+		"iS": 7507,
+		"oA": 1,
+		"oAP": "\/images\/originBranch.Portugal.maplet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/originBranch.Portugal.master-base.jpg": {
 		"ft": 16384,
 		"iS": 162830,
@@ -5149,6 +5219,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/originBranch.Spain.maplet.jpg": {
+		"ft": 16384,
+		"iS": 17589,
+		"oA": 1,
+		"oAP": "\/images\/originBranch.Spain.maplet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/originBranch.Spain.master-base.jpg": {
 		"ft": 16384,
 		"iS": 135393,
@@ -5188,6 +5268,16 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/originBranch.Sweden.maplet.jpg": {
+		"ft": 16384,
+		"iS": 20183,
+		"oA": 1,
+		"oAP": "\/images\/originBranch.Sweden.maplet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/originBranch.Sweden.master-base.jpg": {
 		"ft": 16384,
@@ -5278,6 +5368,16 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/originBranch.West_Indies.maplet.jpg": {
+		"ft": 16384,
+		"iS": 16253,
+		"oA": 1,
+		"oAP": "\/images\/originBranch.West_Indies.maplet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/originBranch.West_Indies.master-base.jpg": {
 		"ft": 16384,
