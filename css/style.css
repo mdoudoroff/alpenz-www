@@ -1455,34 +1455,34 @@ ul.producerTiles {
     .country .logoCorral {
       margin-left: 0; } }
 
-.mapPresentation, .producerDetailMap {
+.mapPresentation, .producerDetailMap, .productDetailMasterMap {
   position: relative;
   float: right;
   margin-left: 1em;
   margin-right: 0; }
   @media only screen and (max-width: 420px) {
-    .mapPresentation, .producerDetailMap {
+    .mapPresentation, .producerDetailMap, .productDetailMasterMap {
       float: none;
       margin: 0 0 0.5em 0; } }
-  .mapPresentation .mapAttribution, .producerDetailMap .mapAttribution {
+  .mapPresentation .mapAttribution, .producerDetailMap .mapAttribution, .productDetailMasterMap .mapAttribution {
     display: block;
     position: relative;
     font-size: 70%;
     color: #666666;
     text-align: right;
     top: -3px; }
-  .mapPresentation .customMap, .producerDetailMap .customMap {
+  .mapPresentation .customMap, .producerDetailMap .customMap, .productDetailMasterMap .customMap {
     width: 455px;
     height: auto; }
     @media only screen and (max-width: 420px) {
-      .mapPresentation .customMap, .producerDetailMap .customMap {
+      .mapPresentation .customMap, .producerDetailMap .customMap, .productDetailMasterMap .customMap {
         width: 100%;
         height: auto; } }
-  .mapPresentation .customMapSVG, .producerDetailMap .customMapSVG {
+  .mapPresentation .customMapSVG, .producerDetailMap .customMapSVG, .productDetailMasterMap .customMapSVG {
     width: 455px;
     height: auto; }
     @media only screen and (max-width: 420px) {
-      .mapPresentation .customMapSVG, .producerDetailMap .customMapSVG {
+      .mapPresentation .customMapSVG, .producerDetailMap .customMapSVG, .productDetailMasterMap .customMapSVG {
         width: 100%;
         height: auto; } }
 
