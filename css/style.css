@@ -1455,33 +1455,34 @@ ul.producerTiles {
     .country .logoCorral {
       margin-left: 0; } }
 
-.mapPresentation {
+.mapPresentation, .producerDetailMap {
   position: relative;
   float: right;
   margin-left: 1em;
   margin-right: 0; }
   @media only screen and (max-width: 420px) {
-    .mapPresentation {
+    .mapPresentation, .producerDetailMap {
       float: none;
       margin: 0 0 0.5em 0; } }
-  .mapPresentation .mapAttribution {
+  .mapPresentation .mapAttribution, .producerDetailMap .mapAttribution {
     display: block;
     position: relative;
     font-size: 70%;
     color: #666666;
     text-align: right;
     top: -3px; }
-  .mapPresentation .customMap {
-    width: 455px; }
-    @media only screen and (max-width: 420px) {
-      .mapPresentation .customMap {
-        width: 100%;
-        height: auto; } }
-  .mapPresentation .customMapSVG {
+  .mapPresentation .customMap, .producerDetailMap .customMap {
     width: 455px;
     height: auto; }
     @media only screen and (max-width: 420px) {
-      .mapPresentation .customMapSVG {
+      .mapPresentation .customMap, .producerDetailMap .customMap {
+        width: 100%;
+        height: auto; } }
+  .mapPresentation .customMapSVG, .producerDetailMap .customMapSVG {
+    width: 455px;
+    height: auto; }
+    @media only screen and (max-width: 420px) {
+      .mapPresentation .customMapSVG, .producerDetailMap .customMapSVG {
         width: 100%;
         height: auto; } }
 

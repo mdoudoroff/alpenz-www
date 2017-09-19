@@ -1424,7 +1424,7 @@ ul.producerTiles {
 }
 
 // container for the map and anything else that goes with the map
-.mapPresentation {
+.mapPresentation, .producerDetailMap {
 	position: relative;
 	float: right;
 	margin-left: 1em;
@@ -1447,6 +1447,7 @@ ul.producerTiles {
 	.customMap {
 		width: 455px; // ideally, this is 460px, but we’re cheating a little to
 					  // accomodate producer logo tiles
+		height: auto;
 					  
 		@include respond-to(phone) {
 			width: 100%;
@@ -1467,6 +1468,7 @@ ul.producerTiles {
 	}
 
 }
+
 
 .originGmap, .countryDetailGmap {
 			width: 360px;

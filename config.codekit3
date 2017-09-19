@@ -295,7 +295,7 @@
 		"oF": 0
 		},
 	"\/config.rb": {
-		"ft": 131072,
+		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0
@@ -5481,6 +5481,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/producer.abbe-rous.master-map.jpg": {
+		"ft": 16384,
+		"iS": 123061,
+		"oA": 1,
+		"oAP": "\/images\/producer.abbe-rous.master-map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/producer.abbe-rous.people.jpg": {
 		"ft": 16384,
 		"iS": 659287,
@@ -5531,6 +5541,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/producer.american-gin-company.master-map.jpg": {
+		"ft": 16384,
+		"iS": 70941,
+		"oA": 1,
+		"oAP": "\/images\/producer.american-gin-company.master-map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/producer.Arnaud de Villeneuve.logo.jpg": {
@@ -5584,6 +5604,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/producer.Arnaud-de-Villeneuve.master-map.jpg": {
+		"ft": 16384,
+		"iS": 170879,
+		"oA": 1,
+		"oAP": "\/images\/producer.Arnaud-de-Villeneuve.master-map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/producer.bonal.inset-map.png": {
 		"ft": 32768,
 		"iS": 11055,
@@ -5606,6 +5636,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/producer.bonal.master-map.jpg": {
+		"ft": 16384,
+		"iS": 183978,
+		"oA": 1,
+		"oAP": "\/images\/producer.bonal.master-map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/producer.bosca-tosti.logo.png": {
 		"ft": 32768,
 		"iS": 22971,
@@ -5626,6 +5666,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/producer.bosca.master-map.jpg": {
+		"ft": 16384,
+		"iS": 265385,
+		"oA": 1,
+		"oAP": "\/images\/producer.bosca.master-map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/producer.bosca.people.jpg": {
@@ -5674,6 +5724,16 @@
 		"iS": 27373,
 		"oA": 1,
 		"oAP": "\/images\/producer.byrrh.logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/producer.byrrh.master-map.jpg": {
+		"ft": 16384,
+		"iS": 147656,
+		"oA": 1,
+		"oAP": "\/images\/producer.byrrh.master-map.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -5731,6 +5791,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/producer.cappelletti.master-map.jpg": {
+		"ft": 16384,
+		"iS": 290973,
+		"oA": 1,
+		"oAP": "\/images\/producer.cappelletti.master-map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/producer.cappelletti.people.jpg": {
 		"ft": 16384,
 		"iS": 34300,
@@ -5781,6 +5851,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/producer.casa-brina.master-map.jpg": {
+		"ft": 16384,
+		"iS": 156678,
+		"oA": 1,
+		"oAP": "\/images\/producer.casa-brina.master-map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/producer.casa-brina.people.jpg": {
@@ -5903,6 +5983,16 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/producer.dolin.master-map.jpg": {
+		"ft": 16384,
+		"iS": 184299,
+		"oA": 1,
+		"oAP": "\/images\/producer.dolin.master-map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/producer.dolin.people.jpg": {
 		"ft": 16384,
 		"iS": 73292,
@@ -6007,6 +6097,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/producer.domaine-de-rombeau.master-map.jpg": {
+		"ft": 16384,
+		"iS": 169549,
+		"oA": 1,
+		"oAP": "\/images\/producer.domaine-de-rombeau.master-map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/producer.domaine-de-rombeau.people.jpg": {
 		"ft": 16384,
 		"iS": 486647,
@@ -6054,6 +6154,16 @@
 		"iS": 21233,
 		"oA": 1,
 		"oAP": "\/images\/producer.domaine-du-sau.logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/producer.domaine-du-sau.master-map.jpg": {
+		"ft": 16384,
+		"iS": 167097,
+		"oA": 1,
+		"oAP": "\/images\/producer.domaine-du-sau.master-map.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -6111,6 +6221,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/producer.domaine-jorel.master-map.jpg": {
+		"ft": 16384,
+		"iS": 167522,
+		"oA": 1,
+		"oAP": "\/images\/producer.domaine-jorel.master-map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/producer.domaine-jorel.people.jpg": {
 		"ft": 16384,
 		"iS": 78890,
@@ -6152,6 +6272,26 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/producer.Domaine-Puig-Parahy.master-map.jpg": {
+		"ft": 16384,
+		"iS": 167724,
+		"oA": 1,
+		"oAP": "\/images\/producer.Domaine-Puig-Parahy.master-map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/producer.Domaine_du_Mas_Blanc.master-map.jpg": {
+		"ft": 16384,
+		"iS": 126172,
+		"oA": 1,
+		"oAP": "\/images\/producer.Domaine_du_Mas_Blanc.master-map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/producer.espolla.inset-map.png": {
 		"ft": 32768,
 		"iS": 8439,
@@ -6172,6 +6312,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/producer.espolla.master-map.jpg": {
+		"ft": 16384,
+		"iS": 186399,
+		"oA": 1,
+		"oAP": "\/images\/producer.espolla.master-map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/producer.espolla.people.jpg": {
@@ -6247,6 +6397,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/producer.hayman-distillers.master-map.jpg": {
+		"ft": 16384,
+		"iS": 79508,
+		"oA": 1,
+		"oAP": "\/images\/producer.hayman-distillers.master-map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/producer.hayman-distillers.people.jpg": {
 		"ft": 16384,
 		"iS": 44503,
@@ -6319,6 +6479,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/producer.henriques.master-map.jpg": {
+		"ft": 16384,
+		"iS": 58347,
+		"oA": 1,
+		"oAP": "\/images\/producer.henriques.master-map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/producer.henriques.people.jpg": {
 		"ft": 16384,
 		"iS": 73421,
@@ -6365,6 +6535,16 @@
 		"iS": 3464,
 		"oA": 1,
 		"oAP": "\/images\/producer.josef-hofer.logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/producer.josef-hofer.master-map.jpg": {
+		"ft": 16384,
+		"iS": 115541,
+		"oA": 1,
+		"oAP": "\/images\/producer.josef-hofer.master-map.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -6432,6 +6612,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/producer.LO_Smith.master-map.jpg": {
+		"ft": 16384,
+		"iS": 129780,
+		"oA": 1,
+		"oAP": "\/images\/producer.LO_Smith.master-map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/producer.Mas Peyre.logo.png": {
 		"ft": 32768,
 		"iS": 156250,
@@ -6484,6 +6674,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/producer.Mas-Peyre.master-map.jpg": {
+		"ft": 16384,
+		"iS": 167838,
+		"oA": 1,
+		"oAP": "\/images\/producer.Mas-Peyre.master-map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/producer.miro.inset-map.png": {
 		"ft": 32768,
 		"iS": 5808,
@@ -6500,6 +6700,16 @@
 		"iS": 109738,
 		"oA": 1,
 		"oAP": "\/images\/producer.Miro.logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/producer.miro.master-map.jpg": {
+		"ft": 16384,
+		"iS": 185789,
+		"oA": 1,
+		"oAP": "\/images\/producer.miro.master-map.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -6557,6 +6767,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/producer.purkhart.master-map.jpg": {
+		"ft": 16384,
+		"iS": 108221,
+		"oA": 1,
+		"oAP": "\/images\/producer.purkhart.master-map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/producer.purkhart.people.jpg": {
 		"ft": 16384,
 		"iS": 9016,
@@ -6587,6 +6807,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/producer.Quinta_dos_Pesos.master-map.jpg": {
+		"ft": 16384,
+		"iS": 114520,
+		"oA": 1,
+		"oAP": "\/images\/producer.Quinta_dos_Pesos.master-map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/producer.salers.inset-map.png": {
 		"ft": 32768,
 		"iS": 11243,
@@ -6603,6 +6833,16 @@
 		"iS": 191542,
 		"oA": 1,
 		"oAP": "\/images\/producer.salers.logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/producer.salers.master-map.jpg": {
+		"ft": 16384,
+		"iS": 99033,
+		"oA": 1,
+		"oAP": "\/images\/producer.salers.master-map.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -6654,6 +6894,16 @@
 		"iS": 133442,
 		"oA": 1,
 		"oAP": "\/images\/producer.seale.logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/producer.seale.master-map.jpg": {
+		"ft": 16384,
+		"iS": 35847,
+		"oA": 1,
+		"oAP": "\/images\/producer.seale.master-map.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -6711,6 +6961,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/producer.smith-&-cross.master-map.jpg": {
+		"ft": 16384,
+		"iS": 111565,
+		"oA": 1,
+		"oAP": "\/images\/producer.smith-&-cross.master-map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/producer.specialty-drinks.inset-map.png": {
 		"ft": 32768,
 		"iS": 8937,
@@ -6738,6 +6998,16 @@
 		"iS": 42723,
 		"oA": 1,
 		"oAP": "\/images\/producer.specialty-drinks.master-base.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/producer.specialty-drinks.master-map.jpg": {
+		"ft": 16384,
+		"iS": 84069,
+		"oA": 1,
+		"oAP": "\/images\/producer.specialty-drinks.master-map.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -6805,6 +7075,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/producer.Terres-des-Templiers.master-map.jpg": {
+		"ft": 16384,
+		"iS": 123247,
+		"oA": 1,
+		"oAP": "\/images\/producer.Terres-des-Templiers.master-map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/producer.vial-magneres.inset-map.png": {
 		"ft": 32768,
 		"iS": 8660,
@@ -6825,6 +7105,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/producer.vial-magneres.master-map.jpg": {
+		"ft": 16384,
+		"iS": 123227,
+		"oA": 1,
+		"oAP": "\/images\/producer.vial-magneres.master-map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/producer.vial-magneres.people.jpg": {
@@ -6852,6 +7142,16 @@
 		"iS": 201084,
 		"oA": 1,
 		"oAP": "\/images\/producer.vial-magneres.process.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/producer.Villa_Oeiras.master-map.jpg": {
+		"ft": 16384,
+		"iS": 113943,
+		"oA": 1,
+		"oAP": "\/images\/producer.Villa_Oeiras.master-map.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
