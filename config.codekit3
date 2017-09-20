@@ -15100,6 +15100,16 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/js\/portfolio.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/portfolio-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/recipeindex-min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -15470,6 +15480,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/origins.html",
+		"oF": 0
+		},
+	"\/portfolio.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/portfolio.html",
 		"oF": 0
 		},
 	"\/producer-Abbe_Rous.html": {
