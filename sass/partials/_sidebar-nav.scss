@@ -12,9 +12,78 @@
 
 }
 
+#sidebarlogo {
+	margin-top: 0.2em;
+	margin-left: 0.25em;
+	height: 30px;
+
+	@include respond-to(phone) {
+		height: 34px;
+	}
+
+}
+
+.sidebarRow, .sidebarRowHeader {
+
+	border-top: 1px solid $light_grey;
+
+	.sidebarsection {
+		text-align: center;
+		color: $dark_grey;
+		text-transform: uppercase;
+		font-weight: 700;
+	}
+
+	a {
+
+		text-transform: uppercase;
+		font-weight: 700;
+		line-height: 2.0;
+
+		@include respond-to(phone) {
+			font-size: 140%;
+		}
+
+	}
+
+	.fullrow {
+		margin-left: 2em;
+	}
+
+	.half, .halfend {
+		display: inline-block;
+		text-align: center;
+		width: 50%;
+
+
+	}
+
+	.half {
+		border-right: 1px solid $light_grey;
+	}
+
+	.socialIcons {
+		text-align: center;
+		padding: 0.1em 0;
+	}
+}
+
+.sidebarRowHeader {
+	border-top: 2px solid $dark_grey;
+
+}
+
 #dismissMenu {
+	height: 18px;
+	width: 18px;
 	float: right;
-	margin-right: 1em;
+	margin-right: 0.7em;
+	margin-top: 0.7em;
+
+	@include respond-to(phone) {
+		margin-top: 0.9em;
+	}
+
 }
 
 .sidebar2 {
@@ -24,7 +93,7 @@
 	background-color: $off-grey;
 	font-family: $subheading-font;
 	min-height: 6000px;
-	padding-top: 1em;
+	// padding-top: 0.5em;
 	width: 360px;
 	left:0px;
 	top: 0px;
@@ -46,6 +115,9 @@
 		line-height: 2.0;
 	}
 
+	@include respond-to(phone) {
+		font-size: 140%;
+	}
 }
 
 #sidebar-menu {
@@ -102,18 +174,26 @@
 	line-height: 2.0;
 	text-transform: uppercase;
 	font-weight: 700;
-	border-top: 1px solid black;
+	border-top: 1px solid $light_grey;
 }
 
 .typeBrowserCat1 {
 	margin-left: 2em;
 	border-bottom: 1px solid $off-grey-dark;
+
+	@include respond-to(phone) {
+		font-size: 140%;
+	}
 }
 
 .typeBrowserCat2 {
 	font-weight: 400;
 	margin-left: 3em;
 	border-bottom: 1px solid $off-grey-dark;
+
+	@include respond-to(phone) {
+		font-size: 140%;
+	}
 }
 
 .typeBrowserVerticalLeft {
@@ -121,6 +201,10 @@
 	position: absolute;
 	transform-origin: left top 0;
 	line-height: 1.0;
+
+	@include respond-to(phone) {
+		font-size: 140%;
+	}	
 }
 
 #searchOverlay {

@@ -1267,6 +1267,12 @@ a.inlineButton:hover {
 img.socialButton {
 	vertical-align:bottom;
 	height: 37px;
+
+	margin-right: 1em;
+
+	&:not(:last-child) {
+		margin-right: 0;
+	}
 }
 
 .generalTable {

@@ -410,9 +410,52 @@ em, i {
   -moz-transition: opacity .25s ease-in-out;
   -webkit-transition: opacity .25s ease-in-out; }
 
+#sidebarlogo {
+  margin-top: 0.2em;
+  margin-left: 0.25em;
+  height: 30px; }
+  @media only screen and (max-width: 420px) {
+    #sidebarlogo {
+      height: 34px; } }
+
+.sidebarRow, .sidebarRowHeader {
+  border-top: 1px solid #bbbbbb; }
+  .sidebarRow .sidebarsection, .sidebarRowHeader .sidebarsection {
+    text-align: center;
+    color: #484848;
+    text-transform: uppercase;
+    font-weight: 700; }
+  .sidebarRow a, .sidebarRowHeader a {
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 2.0; }
+    @media only screen and (max-width: 420px) {
+      .sidebarRow a, .sidebarRowHeader a {
+        font-size: 140%; } }
+  .sidebarRow .fullrow, .sidebarRowHeader .fullrow {
+    margin-left: 2em; }
+  .sidebarRow .half, .sidebarRow .halfend, .sidebarRowHeader .half, .sidebarRowHeader .halfend {
+    display: inline-block;
+    text-align: center;
+    width: 50%; }
+  .sidebarRow .half, .sidebarRowHeader .half {
+    border-right: 1px solid #bbbbbb; }
+  .sidebarRow .socialIcons, .sidebarRowHeader .socialIcons {
+    text-align: center;
+    padding: 0.1em 0; }
+
+.sidebarRowHeader {
+  border-top: 2px solid #484848; }
+
 #dismissMenu {
+  height: 18px;
+  width: 18px;
   float: right;
-  margin-right: 1em; }
+  margin-right: 0.7em;
+  margin-top: 0.7em; }
+  @media only screen and (max-width: 420px) {
+    #dismissMenu {
+      margin-top: 0.9em; } }
 
 .sidebar2 {
   display: none;
@@ -421,7 +464,6 @@ em, i {
   background-color: #edece8;
   font-family: "myriad-pro-condensed", Impact, sans-serif;
   min-height: 6000px;
-  padding-top: 1em;
   width: 360px;
   left: 0px;
   top: 0px; }
@@ -437,6 +479,9 @@ em, i {
     border-bottom: 1px solid #dddcd8;
     font-weight: 700;
     line-height: 2.0; }
+  @media only screen and (max-width: 420px) {
+    #sidebarAdditionalLinks {
+      font-size: 140%; } }
 
 #sidebar-menu {
   list-style-type: none;
@@ -476,22 +521,31 @@ em, i {
   line-height: 2.0;
   text-transform: uppercase;
   font-weight: 700;
-  border-top: 1px solid black; }
+  border-top: 1px solid #bbbbbb; }
 
 .typeBrowserCat1 {
   margin-left: 2em;
   border-bottom: 1px solid #dddcd8; }
+  @media only screen and (max-width: 420px) {
+    .typeBrowserCat1 {
+      font-size: 140%; } }
 
 .typeBrowserCat2 {
   font-weight: 400;
   margin-left: 3em;
   border-bottom: 1px solid #dddcd8; }
+  @media only screen and (max-width: 420px) {
+    .typeBrowserCat2 {
+      font-size: 140%; } }
 
 .typeBrowserVerticalLeft {
   transform: translate(1.5em, 0.5em) rotate(90deg);
   position: absolute;
   transform-origin: left top 0;
   line-height: 1.0; }
+  @media only screen and (max-width: 420px) {
+    .typeBrowserVerticalLeft {
+      font-size: 140%; } }
 
 #searchOverlay {
   padding: 1em;
@@ -1356,7 +1410,10 @@ a.inlineButton:hover {
 
 img.socialButton {
   vertical-align: bottom;
-  height: 37px; }
+  height: 37px;
+  margin-right: 1em; }
+  img.socialButton:not(:last-child) {
+    margin-right: 0; }
 
 .generalTable th {
   font-weight: bold; }

@@ -140,6 +140,17 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/assets\/logo-wide-centered.png": {
+		"ft": 32768,
+		"iS": 39300,
+		"oA": 1,
+		"oAP": "\/assets\/logo-wide-centered.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/logo-wide.png": {
 		"ft": 32768,
 		"iS": 38416,
@@ -5091,7 +5102,7 @@
 		},
 	"\/images\/originBranch.Piemonte.master-base.jpg": {
 		"ft": 16384,
-		"iS": 367745,
+		"iS": 169874,
 		"oA": 1,
 		"oAP": "\/images\/originBranch.Piemonte.master-base.jpg",
 		"oF": 0,
@@ -8104,11 +8115,31 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/subcategory.quina.Cinchona_officinalis_001-wikimedia-commons.JPG": {
+		"ft": 16384,
+		"iS": 1438339,
+		"oA": 1,
+		"oAP": "\/images\/subcategory.quina.Cinchona_officinalis_001-wikimedia-commons.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/subcategory.quinquina.Cinchona_officinalis_001-wikimedia-commons.JPG": {
 		"ft": 16384,
 		"iS": 1438339,
 		"oA": 1,
 		"oAP": "\/images\/subcategory.quinquina.Cinchona_officinalis_001-wikimedia-commons.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/subcategory.vermouth.Köhler–s_Medizinal-Pflanzen-164.jpg": {
+		"ft": 16384,
+		"iS": 3190451,
+		"oA": 1,
+		"oAP": "\/images\/subcategory.vermouth.Köhler–s_Medizinal-Pflanzen-164.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -15100,6 +15131,16 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/js\/portfolio-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/portfolio-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/portfolio.js": {
 		"ft": 64,
 		"ma": 0,
@@ -15474,6 +15515,306 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/originBranch-Weststeiermark.html",
+		"oF": 0
+		},
+	"\/originCat-Asti_DOCG-methode_charmat.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Asti_DOCG-methode_charmat.html",
+		"oF": 0
+		},
+	"\/originCat-Austria-floral_herbal_amaro.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Austria-floral_herbal_amaro.html",
+		"oF": 0
+		},
+	"\/originCat-Austria-rum.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Austria-rum.html",
+		"oF": 0
+		},
+	"\/originCat-Barbados-rum.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Barbados-rum.html",
+		"oF": 0
+		},
+	"\/originCat-Brachetto_dAcqui_DOCG-methode_charmat.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Brachetto_dAcqui_DOCG-methode_charmat.html",
+		"oF": 0
+		},
+	"\/originCat-Carcavelos_DO-fully_oxidative_fortified.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Carcavelos_DO-fully_oxidative_fortified.html",
+		"oF": 0
+		},
+	"\/originCat-Catalunya-rancio_sec.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Catalunya-rancio_sec.html",
+		"oF": 0
+		},
+	"\/originCat-Catalunya-vermouth.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Catalunya-vermouth.html",
+		"oF": 0
+		},
+	"\/originCat-Cote_Vermeille_IGP-rancio_sec.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Cote_Vermeille_IGP-rancio_sec.html",
+		"oF": 0
+		},
+	"\/originCat-Cotes_Catalanes_IGP-rancio_sec.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Cotes_Catalanes_IGP-rancio_sec.html",
+		"oF": 0
+		},
+	"\/originCat-England-gins.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-England-gins.html",
+		"oF": 0
+		},
+	"\/originCat-England-rum.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-England-rum.html",
+		"oF": 0
+		},
+	"\/originCat-France-floral_herbal_amaro.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-France-floral_herbal_amaro.html",
+		"oF": 0
+		},
+	"\/originCat-France-rancio_sec.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-France-rancio_sec.html",
+		"oF": 0
+		},
+	"\/originCat-France-red_wine.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-France-red_wine.html",
+		"oF": 0
+		},
+	"\/originCat-France-vermouth.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-France-vermouth.html",
+		"oF": 0
+		},
+	"\/originCat-Guyana-rum.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Guyana-rum.html",
+		"oF": 0
+		},
+	"\/originCat-Italy-floral_herbal_amaro.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Italy-floral_herbal_amaro.html",
+		"oF": 0
+		},
+	"\/originCat-Italy-red_wine.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Italy-red_wine.html",
+		"oF": 0
+		},
+	"\/originCat-Italy-vermouth.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Italy-vermouth.html",
+		"oF": 0
+		},
+	"\/originCat-Jamaica-rum.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Jamaica-rum.html",
+		"oF": 0
+		},
+	"\/originCat-Java-rum.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Java-rum.html",
+		"oF": 0
+		},
+	"\/originCat-Massif_Central-Auvergne-floral_herbal_amaro.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Massif_Central-Auvergne-floral_herbal_amaro.html",
+		"oF": 0
+		},
+	"\/originCat-Maury_AOP-rancio_sec.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Maury_AOP-rancio_sec.html",
+		"oF": 0
+		},
+	"\/originCat-New_York-gins.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-New_York-gins.html",
+		"oF": 0
+		},
+	"\/originCat-Oberosterreich-floral_herbal_amaro.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Oberosterreich-floral_herbal_amaro.html",
+		"oF": 0
+		},
+	"\/originCat-Oberosterreich-rum.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Oberosterreich-rum.html",
+		"oF": 0
+		},
+	"\/originCat-Piemonte-red_wine.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Piemonte-red_wine.html",
+		"oF": 0
+		},
+	"\/originCat-Piemonte-vermouth.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Piemonte-vermouth.html",
+		"oF": 0
+		},
+	"\/originCat-Piemonte-vino_amaro.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Piemonte-vino_amaro.html",
+		"oF": 0
+		},
+	"\/originCat-Piemonte_DOC-methode_charmat.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Piemonte_DOC-methode_charmat.html",
+		"oF": 0
+		},
+	"\/originCat-Portugal-fully_oxidative_fortified.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Portugal-fully_oxidative_fortified.html",
+		"oF": 0
+		},
+	"\/originCat-Roussillon-quina.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Roussillon-quina.html",
+		"oF": 0
+		},
+	"\/originCat-Roussillon-rancio_sec.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Roussillon-rancio_sec.html",
+		"oF": 0
+		},
+	"\/originCat-Roussillon-red_wine.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Roussillon-red_wine.html",
+		"oF": 0
+		},
+	"\/originCat-Ruche_di_Castagnole_Monferrato_DOCG-red_wine.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Ruche_di_Castagnole_Monferrato_DOCG-red_wine.html",
+		"oF": 0
+		},
+	"\/originCat-Savoie-floral_herbal_amaro.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Savoie-floral_herbal_amaro.html",
+		"oF": 0
+		},
+	"\/originCat-Savoie-quina.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Savoie-quina.html",
+		"oF": 0
+		},
+	"\/originCat-Savoie-vermouth.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Savoie-vermouth.html",
+		"oF": 0
+		},
+	"\/originCat-Spain-rancio_sec.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Spain-rancio_sec.html",
+		"oF": 0
+		},
+	"\/originCat-Spain-vermouth.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Spain-vermouth.html",
+		"oF": 0
+		},
+	"\/originCat-Steiermark-floral_herbal_amaro.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Steiermark-floral_herbal_amaro.html",
+		"oF": 0
+		},
+	"\/originCat-Sweden-rum.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Sweden-rum.html",
+		"oF": 0
+		},
+	"\/originCat-Trentino-Alto_Adige-floral_herbal_amaro.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Trentino-Alto_Adige-floral_herbal_amaro.html",
+		"oF": 0
+		},
+	"\/originCat-Trentino-Alto_Adige-vino_amaro.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Trentino-Alto_Adige-vino_amaro.html",
+		"oF": 0
+		},
+	"\/originCat-Trinidad-rum.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Trinidad-rum.html",
+		"oF": 0
+		},
+	"\/originCat-Vermouth_de_Chambery_AOP-vermouth.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Vermouth_de_Chambery_AOP-vermouth.html",
+		"oF": 0
+		},
+	"\/originCat-Vermouth_di_Torino_DOP-vermouth.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Vermouth_di_Torino_DOP-vermouth.html",
+		"oF": 0
+		},
+	"\/originCat-Vermut_de_Reus-vermouth.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Vermut_de_Reus-vermouth.html",
+		"oF": 0
+		},
+	"\/originCat-West_Indies-rum.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-West_Indies-rum.html",
 		"oF": 0
 		},
 	"\/origins.html": {
@@ -18476,6 +18817,24 @@
 		"oAP": "\/recipe-0526-0366.html",
 		"oF": 0
 		},
+	"\/recipe-0526-0369.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipe-0526-0369.html",
+		"oF": 0
+		},
+	"\/recipe-0526-0370.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipe-0526-0370.html",
+		"oF": 0
+		},
+	"\/recipe-0526-0371.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipe-0526-0371.html",
+		"oF": 0
+		},
 	"\/recipes-Abbe_Rous-Abbe_Rous_Matifoc_Rancio_Sec.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -18510,6 +18869,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/recipes-Byrrh-Byrrh_Grand_Quinquina.html",
+		"oF": 0
+		},
+	"\/recipes-Cappelletti-Amaro_Pasubio.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Cappelletti-Amaro_Pasubio.html",
 		"oF": 0
 		},
 	"\/recipes-Cappelletti-Amaro_Sfumato_Rabarbaro.html": {
@@ -19187,6 +19552,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/subcategory-americano.html",
+		"oF": 0
+		},
+	"\/subcategory-carcavelos.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/subcategory-carcavelos.html",
 		"oF": 0
 		},
 	"\/subcategory-garnatxa.html": {
