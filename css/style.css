@@ -1587,6 +1587,15 @@ ul.producerTiles {
     top: 50%;
     transform: translateY(-50%); }
 
+svg .redhot {
+  fill: #A2120F; }
+svg .redhot:hover {
+  fill: #eb2f2c;
+  stroke: #eb2f2c;
+  cursor: pointer; }
+svg .textoutlines {
+  fill: #FFFFFF; }
+
 .products {
   overflow: hidden;
   margin: 0 0 2em 0;

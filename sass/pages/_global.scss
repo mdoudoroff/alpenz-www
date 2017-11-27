@@ -1536,3 +1536,13 @@ ul.producerTiles {
 	border: 2px solid #ddd;
 	padding: 3px;
 }
+
+// SVG maps
+
+svg {
+	.redhot {fill:#A2120F;}
+	.redhot:hover {fill:#eb2f2c;stroke:#eb2f2c;cursor:pointer;}
+	.textoutlines{fill:#FFFFFF;}
+}
+
+
