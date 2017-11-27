@@ -5091,15 +5091,12 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/originBranch.Corsica.master-map.svg": {
-		"ft": 2097152,
-		"miP": 0,
+	"\/images\/originBranch.Corsica.master-map.svg alias": {
+		"cB": 0,
+		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/images\/originBranch.Corsica.master-map.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
+		"oAP": "\/images\/originBranch.Corsica.master-map.svg alias",
+		"oF": 0
 		},
 	"\/images\/originBranch.Cote_Vermeille_IGP.master-base.jpg": {
 		"ft": 16384,

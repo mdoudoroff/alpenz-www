@@ -1540,9 +1540,18 @@ ul.producerTiles {
 // SVG maps
 
 svg {
-	.redhot {fill:#A2120F;}
-	.redhot:hover {fill:#eb2f2c;stroke:#eb2f2c;cursor:pointer;}
-	.textoutlines{fill:#FFFFFF;}
+	.hot {
+		cursor:pointer;
+		.textoutlines{fill:#FFFFFF;}
+		.redhot {
+			fill:#A2120F;
+		}
+	}
+	.hot:hover {
+		.redhot {fill:#eb2f2c;stroke:#eb2f2c;}
+	}
+
+
 }
 
 
