@@ -1389,12 +1389,18 @@ td.combo {
 .inlineButton {
   display: inline-block;
   text-transform: uppercase;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  letter-spacing: 0;
   font-weight: 700;
   color: #a2120f;
+  padding-top: 1px;
   padding-left: 6px;
   padding-right: 6px;
   border: 1px solid #a2120f;
-  font-size: 80%; }
+  font-size: 11px;
+  line-height: 15px;
+  position: relative;
+  bottom: 2px; }
   @media print {
     .inlineButton {
       display: none; } }

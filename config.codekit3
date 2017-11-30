@@ -321,7 +321,8 @@
 		"oF": 0
 		},
 	"\/config.rb": {
-		"ft": 131072,
+		"cB": 0,
+		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0
@@ -5090,6 +5091,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/images\/originBranch.Corsica.master-map.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/originBranch.Corsica.master-map.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/images\/originBranch.Corsica.master-map.svg alias": {
 		"cB": 0,
@@ -19998,6 +20009,97 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/recipe-0526-0388.html",
+		"oF": 0
+		},
+	"\/recipe-0526-0389.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipe-0526-0389.html",
+		"oF": 0
+		},
+	"\/recipe-0526-0390.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipe-0526-0390.html",
+		"oF": 0
+		},
+	"\/recipe-0526-0391.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipe-0526-0391.html",
+		"oF": 0
+		},
+	"\/recipe-0526-0392.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipe-0526-0392.html",
+		"oF": 0
+		},
+	"\/recipe-0526-0393.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipe-0526-0393.html",
+		"oF": 0
+		},
+	"\/recipe-0526-0394.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipe-0526-0394.html",
+		"oF": 0
+		},
+	"\/recipe-0526-0395.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipe-0526-0395.html",
+		"oF": 0
+		},
+	"\/recipe-0526-0396.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipe-0526-0396.html",
+		"oF": 0
+		},
+	"\/recipe-0526-0397.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipe-0526-0397.html",
+		"oF": 0
+		},
+	"\/recipe-0526-0398.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipe-0526-0398.html",
+		"oF": 0
+		},
+	"\/recipe-0526-0399.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipe-0526-0399.html",
+		"oF": 0
+		},
+	"\/recipe-0526-0400.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipe-0526-0400.html",
+		"oF": 0
+		},
+	"\/recipe-0526-0401.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipe-0526-0401.html",
 		"oF": 0
 		},
 	"\/recipes-Abbe_Rous-Abbe_Rous_Matifoc_Rancio_Sec.html": {

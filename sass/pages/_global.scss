@@ -1237,14 +1237,23 @@ td.combo {
 	display:inline-block;
 	// font-size:100%;
 	text-transform: uppercase;
+	
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	letter-spacing: 0;
+
 	font-weight: 700;
 	color:$red;
 
-
+	padding-top: 1px;  // fine-tuning
 	padding-left: 6px;
 	padding-right: 6px;
 	border: 1px solid $red;
-	font-size: 80%;
+	font-size: 11px;
+	line-height: 15px; // this may have to change if body paragraph line height changes
+
+	// this is to actually move the element up to the baseline
+	position: relative;
+	bottom: 2px; 
 
 	@include respond-to(print) {
 		display: none;
