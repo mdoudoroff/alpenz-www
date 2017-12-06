@@ -9,9 +9,26 @@
   	}
 }
 
+.vitalstable {
+	display: none;
+}
+
 .vitals {
 
 	// margin: 0 0.5em;
+	-moz-column-count: 2;
+	column-count: 2;
+	column-gap: 1.5em;
+
+	@include respond-to(print) {
+		-moz-column-count: 2;
+		column-count: 2;
+	}
+
+	@include respond-to(phone) {
+		-moz-column-count: 1;
+		column-count: 1;
+	}
 
 	p {
 		width: 100%;
@@ -74,138 +91,27 @@
 			margin-left: 1em;
 		}
 		margin-bottom: 0.5em;
+
+		@include respond-to(print) {
+			border: 2px solid $off-grey-dark;
+		}
 	}
 
-	.description {
-		float: left;
-		max-width: 477px;
 
-		@include respond-to(largetablet) {
-			// max-width: 360px;
-		}
 
-		@include respond-to(phone) {
-			// max-width: 75%;
-		}
-
+	h3 {
+		clear: all;
+		margin-top: 1.5em;
 	}
 
-	// .duplex2 {
-	// 	float:right;
-	// 	margin-left: 0.5em;
-	// 	max-width: 225px;
-	// 	text-align: center;
-
-	// 	@include respond-to(phone) {
-
-	// 		float: none;
-	// 		width: 100%;
-	// 		clear:both;
-	// 		margin: 1em 0;
-	// 		// padding-top: 1em;
-	// 		max-width: none;
-	// 		min-height: 160px;
-	// 		line-height: 160px;
-	// 	}
-
-	// 	figure {
-	// 		@include respond-to(phone) {
-	// 			margin: 0;
-	// 			line-height: 160px;
-	// 			height: 160px;
-	// 		}
-	// 	}
-	// }
-
-	// .label {
-	// 	height: 225px;
-	// 	line-height: 225px;
-
-	// 	img {
-	// 		height: 100%;
-	// 		width: auto;
-	// 		vertical-align: middle;
-	// 	}
-	// 	img.wideimage {
-	// 		width: 100%;
-	// 		height: auto;
-	// 		vertical-align: middle;
-	// 	}
-
-	// 	margin-bottom: 0.5em;
-
-	// 	@include respond-to(phone) {
-	// 		float: left;
-	// 		width: 46%;
-	// 		height: 160px;
-
-	// 	}
-
-	// }
-
-	// figure.bottle {
-	// 	float: right;
-	// 	width: 215px;
-	// 	margin-right: 0.5em;
-	// 	height: 457px;
-	// 	text-align: center;
-	// 	img {
-	// 		width: auto;
-	// 		height:457px;
-	// 		vertical-align: middle;
-	// 	}
-
-	// 	@include respond-to(phone) {
-
-	// 		float: none;
-	// 		clear: both;
-	// 		display: block;
-	// 		padding: 0;
-
-	// 		width: 160px;
-	// 		height: auto;
-	// 		line-height: auto;
-	// 		margin: 0 auto;
-
-	// 		img {
-	// 			width: 100%;
-	// 			height:auto;
-	// 		}
-	// 		img.wideimage {
-	// 			width: 100%;
-	// 			height: auto;
-	// 		}
-	// 	}
-	// }
-
-	// .context {
-	// 	height: 225px;
-	// 	line-height: 225px;
-
-	// 	// float:left;
-	// 	img {
-	// 		height: 100%;
-	// 		width: auto;
-	// 		vertical-align: middle;
-	// 	}
-	// 	img.wideimage {
-	// 		width: 100%;
-	// 		height: auto;
-	// 		vertical-align: middle;
-	// 	}
-
-	// 	@include respond-to(phone) {
-	// 		float: left;
-	// 		width: 46%;
-	// 		margin-left: 1em;
-	// 		height: 160px;
-	// 	}
-	// }
 }
 
-#productImageryCluster {
-	width: 450px;
-	float: right;
+#productImageryCluster, #productImageryCluster2 {
+
+	width: 100%;
+
+	clear: all;
+	margin-top: 0.5em;
 
 	@include respond-to(phone) {
 		width: 100%;
@@ -221,23 +127,12 @@
 
 	img {
 		width: 100%;
-		display: block;
+		// display: block;
 	}
 
 	img.wideimage {
 		width: 100%;
-		display: block;
-	}
-
-	#bottlePicWrapper {
-		// width: 100%;
-		// height: 100%;
-		// background-color: yellow;
-		// position: absolute;
-		// top:0;
-		// left:0;
-		// right:0;
-		// bottom:0;
+		// display: block;
 	}
 
 	#picBottle {
@@ -303,7 +198,10 @@
 .setup {
 	clear: both;
 	overflow-x: auto;
-	margin: 1em 0;
+
+	border-top: 2px solid $off-grey-dark;
+	margin-top: 0.5em;
+	padding-top: 0.5em;
 
 	table {
 		width: auto;
@@ -341,15 +239,6 @@
 	}
 }
 
-.productDetailGmap {
-	@include respond-to(print) {
-		// display: none;
-	}
-}
-
-.productDetailMasterMap {
-	width: 100%;
-}
 
 .artworkCorral {
 	width: 100%;
@@ -384,6 +273,10 @@
 
 .recipeCorral {
 
+	border-top: 2px solid $off-grey-dark;
+	margin-top: 0.5em;
+	padding-top: 1em;
+
 	width: 100%;
 	// padding-left: 0.5em;
 	// padding-right: 0.5em;
@@ -394,12 +287,12 @@
 	    // border-collapse: separate;
 	    // border-right: none;
 	    // border-left: none;
-	    margin: 1em 0;
+	    margin: 1em 0 0 0;
 	    width: 100%;
 	}
 	td {
 		vertical-align: top;
-		padding-bottom: 1em;
+		// padding-bottom: 1em;
 		width: 100%;
 
 	}
@@ -524,7 +417,7 @@
 		font-size: 14px;
 
 		// width: 317px;
-		width: 155px;
+		width: 153px;  // was 155px
 		height: 90px;
 		display: inline-table;
 		border-right: 1px solid $off-grey-dark;

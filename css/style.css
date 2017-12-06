@@ -924,6 +924,9 @@ a {
         .content .product-overview .nobanner .product-name h3 {
           color: black;
           text-shadow: none; }
+          @media print {
+            .content .product-overview .nobanner .product-name h3 {
+              display: none; } }
     @media only screen and (max-width: 420px) {
       .content .product-overview .artwork {
         width: 100%;
@@ -1549,6 +1552,18 @@ ul.producerTiles {
         width: 100%;
         height: auto; } }
 
+figure.productDetailMasterMap {
+  width: 50%; }
+  @media only screen and (max-width: 420px) {
+    figure.productDetailMasterMap {
+      float: right; } }
+  figure.productDetailMasterMap .customMap {
+    width: 100%;
+    height: auto; }
+  @media print {
+    figure.productDetailMasterMap {
+      width: 50%; } }
+
 .originGmap, .countryDetailGmap {
   width: 360px;
   float: right;
@@ -1879,67 +1894,84 @@ div.grouping {
     #printlogotype {
       display: block; } }
 
-.vitals p {
-  width: 100%;
-  margin: 10px 0 0 0;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  text-align: left; }
-  .vitals p span {
-    margin-right: 15px; }
-.vitals .description p {
-  line-height: 1.4; }
-.vitals td.categorization, .vitals th.categorization {
-  margin-top: 0.25em;
-  font-size: 90%; }
-.vitals th.categorization {
-  padding-right: 1em;
-  vertical-align: top; }
-.vitals .highlights {
-  margin: 0;
-  padding: 1em;
-  background-color: #edece8;
-  margin-bottom: 0.5em; }
-  .vitals .highlights li {
-    margin-left: 1em; }
-.vitals .description {
-  float: left;
-  max-width: 477px; }
+.vitalstable {
+  display: none; }
 
-#productImageryCluster {
-  width: 450px;
-  float: right; }
+.vitals {
+  -moz-column-count: 2;
+  column-count: 2;
+  column-gap: 1.5em; }
+  @media print {
+    .vitals {
+      -moz-column-count: 2;
+      column-count: 2; } }
   @media only screen and (max-width: 420px) {
-    #productImageryCluster {
+    .vitals {
+      -moz-column-count: 1;
+      column-count: 1; } }
+  .vitals p {
+    width: 100%;
+    margin: 10px 0 0 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: left; }
+    .vitals p span {
+      margin-right: 15px; }
+  .vitals .description p {
+    line-height: 1.4; }
+  .vitals td.categorization, .vitals th.categorization {
+    margin-top: 0.25em;
+    font-size: 90%; }
+  .vitals th.categorization {
+    padding-right: 1em;
+    vertical-align: top; }
+  .vitals .highlights {
+    margin: 0;
+    padding: 1em;
+    background-color: #edece8;
+    margin-bottom: 0.5em; }
+    .vitals .highlights li {
+      margin-left: 1em; }
+    @media print {
+      .vitals .highlights {
+        border: 2px solid #dddcd8; } }
+  .vitals h3 {
+    clear: all;
+    margin-top: 1.5em; }
+
+#productImageryCluster, #productImageryCluster2 {
+  width: 100%;
+  clear: all;
+  margin-top: 0.5em; }
+  @media only screen and (max-width: 420px) {
+    #productImageryCluster, #productImageryCluster2 {
       width: 100%;
       float: none; } }
-  #productImageryCluster td {
+  #productImageryCluster td, #productImageryCluster2 td {
     vertical-align: middle;
     text-align: center;
     overflow: hidden;
     position: relative; }
-  #productImageryCluster img {
-    width: 100%;
-    display: block; }
-  #productImageryCluster img.wideimage {
-    width: 100%;
-    display: block; }
-  #productImageryCluster #picBottle {
+  #productImageryCluster img, #productImageryCluster2 img {
+    width: 100%; }
+  #productImageryCluster img.wideimage, #productImageryCluster2 img.wideimage {
+    width: 100%; }
+  #productImageryCluster #picBottle, #productImageryCluster2 #picBottle {
     border-right: 0.5em solid transparent;
     border-bottom: 0.5em solid transparent; }
-    #productImageryCluster #picBottle img {
+    #productImageryCluster #picBottle img, #productImageryCluster2 #picBottle img {
       width: 60%;
       margin: 0 auto; }
-  #productImageryCluster #picLabel, #productImageryCluster #picContext {
+  #productImageryCluster #picLabel, #productImageryCluster #picContext, #productImageryCluster2 #picLabel, #productImageryCluster2 #picContext {
     width: 50%; }
-  #productImageryCluster #picPeople, #productImageryCluster #picPlace {
+  #productImageryCluster #picPeople, #productImageryCluster #picPlace, #productImageryCluster2 #picPeople, #productImageryCluster2 #picPlace {
     width: 50%; }
-  #productImageryCluster #picLabel {
+  #productImageryCluster #picLabel, #productImageryCluster2 #picLabel {
     border-bottom: 0.5em solid transparent; }
-  #productImageryCluster #picContext {
+  #productImageryCluster #picContext, #productImageryCluster2 #picContext {
     border-bottom: 0.5em solid transparent; }
-  #productImageryCluster #picPeople {
+  #productImageryCluster #picPeople, #productImageryCluster2 #picPeople {
     border-right: 0.5em solid transparent; }
 
 #producerPics {
@@ -1962,7 +1994,9 @@ div.grouping {
 .setup {
   clear: both;
   overflow-x: auto;
-  margin: 1em 0; }
+  border-top: 2px solid #dddcd8;
+  margin-top: 0.5em;
+  padding-top: 0.5em; }
   .setup table {
     width: auto;
     border-top: 1px solid #fff;
@@ -1988,9 +2022,6 @@ div.grouping {
     .setup {
       overflow-x: visible; } }
 
-.productDetailMasterMap {
-  width: 100%; }
-
 .artworkCorral {
   width: 100%;
   padding-left: 0.5em;
@@ -2013,13 +2044,15 @@ div.grouping {
         height: auto; } }
 
 .recipeCorral {
+  border-top: 2px solid #dddcd8;
+  margin-top: 0.5em;
+  padding-top: 1em;
   width: 100%; }
   .recipeCorral table {
-    margin: 1em 0;
+    margin: 1em 0 0 0;
     width: 100%; }
   .recipeCorral td {
     vertical-align: top;
-    padding-bottom: 1em;
     width: 100%; }
   .recipeCorral .recipe {
     padding: 0;
@@ -2094,7 +2127,7 @@ div.grouping {
   #infographic .infographicSegment {
     font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
     font-size: 14px;
-    width: 155px;
+    width: 153px;
     height: 90px;
     display: inline-table;
     border-right: 1px solid #dddcd8;

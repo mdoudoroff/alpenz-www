@@ -412,6 +412,12 @@ a {
 				h3 {
 					color: black;
 					text-shadow: none;
+
+					@include respond-to(print) {
+						display: none;
+					}
+
+
 				}
 			}
 		}
@@ -1484,6 +1490,32 @@ ul.producerTiles {
 
 }
 
+
+// experiment: making map smaller on product detail and adding it to the shadowbox
+figure.productDetailMasterMap {
+
+	width: 50%;
+
+	@include respond-to(phone) {
+		float: right;
+	}
+
+	.customMap {
+		width: 100%;
+		// width: 50%; // ideally, this is 460px, but we’re cheating a little to
+					  // accomodate producer logo tiles
+		height: auto;
+					  
+
+	}
+
+
+	@include respond-to(print) {
+		width: 50%;
+	}
+
+
+}
 
 .originGmap, .countryDetailGmap {
 			width: 360px;
