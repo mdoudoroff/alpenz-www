@@ -2094,9 +2094,6 @@ div.grouping {
   text-transform: none;
   font-weight: normal;
   float: right; }
-  @media print {
-    .recipeInfoForPrint {
-      display: inline-block; } }
 
 .mainalt .extendedDescription, .mainalt .categoryDescription {
   -moz-column-count: 2;

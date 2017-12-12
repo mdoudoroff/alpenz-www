@@ -356,7 +356,7 @@
 	font-weight: normal;
 	float: right;
 	@include respond-to(print) {
-		display: inline-block;	
+		// display: inline-block;	// uncomment this for production
 
 	}
 }
