@@ -239,6 +239,11 @@
 	}
 }
 
+.downloadsCorral {
+	@include respond-to(print) {
+		display: none;
+	}
+}
 
 .artworkCorral {
 	width: 100%;
@@ -339,6 +344,20 @@
 				margin: 0;
 			}
 		}
+	}
+}
+
+.recipeInfoForPrint {
+	display: none;
+	font-family: $body-font;
+	font-size: 11px;
+	letter-spacing: normal;
+	text-transform: none;
+	font-weight: normal;
+	float: right;
+	@include respond-to(print) {
+		display: inline-block;	
+
 	}
 }
 

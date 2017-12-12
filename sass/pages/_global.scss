@@ -1278,15 +1278,18 @@ a.inlineButton:hover {
 	color:$red;
 }
 
+.socialIcons a {
+	margin-right: 1em;
+}
+
+.socialIcons a:last-child {
+	margin-right: 0;
+}
+
 img.socialButton {
 	vertical-align:bottom;
 	height: 37px;
 
-	margin-right: 1em;
-
-	&:not(:last-child) {
-		margin-right: 0;
-	}
 }
 
 .generalTable {

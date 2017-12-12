@@ -1417,12 +1417,15 @@ a.inlineButton:hover {
   text-transform: uppercase;
   color: #a2120f; }
 
+.socialIcons a {
+  margin-right: 1em; }
+
+.socialIcons a:last-child {
+  margin-right: 0; }
+
 img.socialButton {
   vertical-align: bottom;
-  height: 37px;
-  margin-right: 1em; }
-  img.socialButton:not(:last-child) {
-    margin-right: 0; }
+  height: 37px; }
 
 .generalTable th {
   font-weight: bold; }
@@ -2022,6 +2025,10 @@ div.grouping {
     .setup {
       overflow-x: visible; } }
 
+@media print {
+  .downloadsCorral {
+    display: none; } }
+
 .artworkCorral {
   width: 100%;
   padding-left: 0.5em;
@@ -2078,6 +2085,18 @@ div.grouping {
       margin: 0 0 10px 0; }
       .recipeCorral .recipe p:last-child {
         margin: 0; }
+
+.recipeInfoForPrint {
+  display: none;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  font-size: 11px;
+  letter-spacing: normal;
+  text-transform: none;
+  font-weight: normal;
+  float: right; }
+  @media print {
+    .recipeInfoForPrint {
+      display: inline-block; } }
 
 .mainalt .extendedDescription, .mainalt .categoryDescription {
   -moz-column-count: 2;

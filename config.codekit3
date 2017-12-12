@@ -299,13 +299,6 @@
 		"oAP": "\/category-red_wine.html",
 		"oF": 0
 		},
-	"\/category-rose_wine.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/category-rose_wine.html",
-		"oF": 0
-		},
 	"\/category-rum.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -321,8 +314,7 @@
 		"oF": 0
 		},
 	"\/config.rb": {
-		"cB": 0,
-		"ft": 8192,
+		"ft": 131072,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0
@@ -457,6 +449,16 @@
 		"oAP": "\/downloads\/.mostrecent.pickle",
 		"oF": 0
 		},
+	"\/downloads\/Allspice.label.allspice.jpg": {
+		"ft": 16384,
+		"iS": 167622,
+		"oA": 1,
+		"oAP": "\/downloads\/Allspice.label.allspice.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/downloads\/Allspice.st-elizabeth-duo.bottle.jpg": {
 		"ft": 16384,
 		"iS": 1041108,
@@ -466,6 +468,13 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/downloads\/Allspice.StElizAllspice.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Allspice.StElizAllspice.talker.pdf",
+		"oF": 0
 		},
 	"\/downloads\/Alta_Langa_Rosa.label-high-res.jpg": {
 		"ft": 16384,
@@ -477,6 +486,61 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/downloads\/Alta_Verde.alta-verde.bottle.png": {
+		"ft": 32768,
+		"iS": 215770,
+		"oA": 1,
+		"oAP": "\/downloads\/Alta_Verde.alta-verde.bottle.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/downloads\/Alta_Verde.alta-verde.label.jpg": {
+		"ft": 16384,
+		"iS": 246369,
+		"oA": 1,
+		"oAP": "\/downloads\/Alta_Verde.alta-verde.label.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Alta_Verde.alta-verde.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Alta_Verde.alta-verde.talker.pdf",
+		"oF": 0
+		},
+	"\/downloads\/Amaro_Pasubio.pasubio.bottle.jpg": {
+		"ft": 16384,
+		"iS": 431750,
+		"oA": 1,
+		"oAP": "\/downloads\/Amaro_Pasubio.pasubio.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Amaro_Pasubio.pasubio.label.jpg": {
+		"ft": 16384,
+		"iS": 198919,
+		"oA": 1,
+		"oAP": "\/downloads\/Amaro_Pasubio.pasubio.label.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Amaro_Pasubio.pasubio.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Amaro_Pasubio.pasubio.talker.pdf",
+		"oF": 0
+		},
 	"\/downloads\/Asti.label-high-res.jpg": {
 		"ft": 16384,
 		"iS": 189912,
@@ -487,15 +551,59 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/downloads\/Batavia.van-oosten.bottle.jpg": {
+	"\/downloads\/Averell_Damson.averell.bottle.jpg": {
 		"ft": 16384,
-		"iS": 465881,
+		"iS": 1998457,
 		"oA": 1,
-		"oAP": "\/downloads\/Batavia.van-oosten.bottle.jpg",
+		"oAP": "\/downloads\/Averell_Damson.averell.bottle.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/downloads\/Averell_Damson.Averell.label.jpg": {
+		"ft": 16384,
+		"iS": 114262,
+		"oA": 1,
+		"oAP": "\/downloads\/Averell_Damson.Averell.label.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Averell_Damson.averell.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Averell_Damson.averell.talker.pdf",
+		"oF": 0
+		},
+	"\/downloads\/Batavia.batavia.bottle.jpg": {
+		"ft": 16384,
+		"iS": 465881,
+		"oA": 1,
+		"oAP": "\/downloads\/Batavia.batavia.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Batavia.Batavia.label.jpg": {
+		"ft": 16384,
+		"iS": 534459,
+		"oA": 1,
+		"oAP": "\/downloads\/Batavia.Batavia.label.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Batavia.batavia.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Batavia.batavia.talker.pdf",
+		"oF": 0
 		},
 	"\/downloads\/Blume_Marillen.blume.bottle.jpg": {
 		"ft": 16384,
@@ -506,6 +614,23 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/downloads\/Blume_Marillen.blume.label.jpg": {
+		"ft": 16384,
+		"iS": 973363,
+		"oA": 1,
+		"oAP": "\/downloads\/Blume_Marillen.blume.label.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Blume_Marillen.BlumeMarillen.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Blume_Marillen.BlumeMarillen.talker.pdf",
+		"oF": 0
 		},
 	"\/downloads\/Boal_10.bottle.bual-10-years.jpg": {
 		"ft": 16384,
@@ -548,6 +673,13 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/downloads\/Bonal.bonal.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Bonal.bonal.talker.pdf",
+		"oF": 0
+		},
 	"\/downloads\/Brachetto.bottle-high-res.jpg": {
 		"ft": 16384,
 		"iS": 289596,
@@ -578,15 +710,103 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/downloads\/Cappelletti_Aperitivo.label-high-res.jpg": {
+	"\/downloads\/Byrrh.byrrh.label.jpg": {
 		"ft": 16384,
-		"iS": 205183,
+		"iS": 603119,
 		"oA": 1,
-		"oAP": "\/downloads\/Cappelletti_Aperitivo.label-high-res.jpg",
+		"oAP": "\/downloads\/Byrrh.byrrh.label.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/downloads\/Byrrh.byrrh.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Byrrh.byrrh.talker.pdf",
+		"oF": 0
+		},
+	"\/downloads\/Cap_Corse_Blanc.Cap-Mattei-Blanc.bottle.jpg": {
+		"ft": 16384,
+		"iS": 1021190,
+		"oA": 1,
+		"oAP": "\/downloads\/Cap_Corse_Blanc.Cap-Mattei-Blanc.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Cap_Corse_Blanc.Cap-Mattei-blanc.label.jpg": {
+		"ft": 16384,
+		"iS": 336588,
+		"oA": 1,
+		"oAP": "\/downloads\/Cap_Corse_Blanc.Cap-Mattei-blanc.label.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Cap_Corse_Blanc.MatteiBlanc.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Cap_Corse_Blanc.MatteiBlanc.talker.pdf",
+		"oF": 0
+		},
+	"\/downloads\/Cap_Corse_Rouge.Cap-Mattei-Rouge.bottle.jpg": {
+		"ft": 16384,
+		"iS": 1021820,
+		"oA": 1,
+		"oAP": "\/downloads\/Cap_Corse_Rouge.Cap-Mattei-Rouge.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Cap_Corse_Rouge.Cap-Mattei-Rouge.label.jpg": {
+		"ft": 16384,
+		"iS": 327517,
+		"oA": 1,
+		"oAP": "\/downloads\/Cap_Corse_Rouge.Cap-Mattei-Rouge.label.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Cap_Corse_Rouge.MatteiRouge.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Cap_Corse_Rouge.MatteiRouge.talker.pdf",
+		"oF": 0
+		},
+	"\/downloads\/Cappelletti_Aperitivo.cappelletti.bottle.jpg": {
+		"ft": 16384,
+		"iS": 816178,
+		"oA": 1,
+		"oAP": "\/downloads\/Cappelletti_Aperitivo.cappelletti.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Cappelletti_Aperitivo.cappelletti.label.jpg": {
+		"ft": 16384,
+		"iS": 205183,
+		"oA": 1,
+		"oAP": "\/downloads\/Cappelletti_Aperitivo.cappelletti.label.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Cappelletti_Aperitivo.cappelletti.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Cappelletti_Aperitivo.cappelletti.talker.pdf",
+		"oF": 0
 		},
 	"\/downloads\/Cardamaro.bottle-high-res.jpg": {
 		"ft": 16384,
@@ -637,6 +857,23 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/downloads\/Cocchi_Americano.bianco.bottle.jpg": {
+		"ft": 16384,
+		"iS": 62152,
+		"oA": 1,
+		"oAP": "\/downloads\/Cocchi_Americano.bianco.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Cocchi_Americano.cocchi.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Cocchi_Americano.cocchi.talker.pdf",
+		"oF": 0
 		},
 	"\/downloads\/Cocchi_Americano.label-high-res.png": {
 		"ft": 32768,
@@ -709,6 +946,13 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/downloads\/Cocchi_Rosa.cocchi-rosa.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Cocchi_Rosa.cocchi-rosa.talker.pdf",
+		"oF": 0
+		},
 	"\/downloads\/Cocchi_Rosa.label-high-res.jpg": {
 		"ft": 16384,
 		"iS": 125620,
@@ -729,11 +973,116 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/downloads\/Cocchi_VdT.cocchi-VdT.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Cocchi_VdT.cocchi-VdT.talker.pdf",
+		"oF": 0
+		},
 	"\/downloads\/Cocchi_VdT.label-high-res.jpg": {
 		"ft": 16384,
 		"iS": 1160971,
 		"oA": 1,
 		"oAP": "\/downloads\/Cocchi_VdT.label-high-res.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Dolin_Blanc.blanc-bottle.jpg": {
+		"ft": 16384,
+		"iS": 206506,
+		"oA": 1,
+		"oAP": "\/downloads\/Dolin_Blanc.blanc-bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Dolin_Blanc.blanc-label.jpg": {
+		"ft": 16384,
+		"iS": 918411,
+		"oA": 1,
+		"oAP": "\/downloads\/Dolin_Blanc.blanc-label.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Dolin_Blanc.blanc.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Dolin_Blanc.blanc.talker.pdf",
+		"oF": 0
+		},
+	"\/downloads\/Dolin_Dry.dry-bottle.jpg": {
+		"ft": 16384,
+		"iS": 153988,
+		"oA": 1,
+		"oAP": "\/downloads\/Dolin_Dry.dry-bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Dolin_Dry.dry-label.jpg": {
+		"ft": 16384,
+		"iS": 742142,
+		"oA": 1,
+		"oAP": "\/downloads\/Dolin_Dry.dry-label.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Dolin_Dry.dry.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Dolin_Dry.dry.talker.pdf",
+		"oF": 0
+		},
+	"\/downloads\/Dolin_Rouge.DolinRouge.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Dolin_Rouge.DolinRouge.talker.pdf",
+		"oF": 0
+		},
+	"\/downloads\/Dolin_Rouge.label.dolin-rouge.jpg": {
+		"ft": 16384,
+		"iS": 854404,
+		"oA": 1,
+		"oAP": "\/downloads\/Dolin_Rouge.label.dolin-rouge.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Dolin_Rouge.rouge-bottle.jpg": {
+		"ft": 16384,
+		"iS": 211201,
+		"oA": 1,
+		"oAP": "\/downloads\/Dolin_Rouge.rouge-bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Dopo.CocchiDopoTeatro.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Dopo.CocchiDopoTeatro.talker.pdf",
+		"oF": 0
+		},
+	"\/downloads\/Dopo.dopo-teatro.bottle.jpg": {
+		"ft": 16384,
+		"iS": 45293,
+		"oA": 1,
+		"oAP": "\/downloads\/Dopo.dopo-teatro.bottle.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -749,6 +1098,43 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/downloads\/Falernum.velvet-falernum.bottle.jpg": {
+		"ft": 16384,
+		"iS": 1175176,
+		"oA": 1,
+		"oAP": "\/downloads\/Falernum.velvet-falernum.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Falernum.velvet-falernum.label.jpg": {
+		"ft": 16384,
+		"iS": 212113,
+		"oA": 1,
+		"oAP": "\/downloads\/Falernum.velvet-falernum.label.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Falernum.velvet-falernum.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Falernum.velvet-falernum.talker.pdf",
+		"oF": 0
+		},
+	"\/downloads\/Genepy.genepy-chamois.label.jpg": {
+		"ft": 16384,
+		"iS": 237203,
+		"oA": 1,
+		"oAP": "\/downloads\/Genepy.genepy-chamois.label.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/downloads\/Genepy.genepy.bottle.jpg": {
 		"ft": 16384,
 		"iS": 629014,
@@ -759,6 +1145,13 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/downloads\/Genepy.genepy.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Genepy.genepy.talker.pdf",
+		"oF": 0
+		},
 	"\/downloads\/HandH_Doce_5.bottle-Doce.jpg": {
 		"ft": 16384,
 		"iS": 157190,
@@ -768,6 +1161,33 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/downloads\/Ibis.ScarletIbis-label.jpg": {
+		"ft": 16384,
+		"iS": 59311,
+		"oA": 1,
+		"oAP": "\/downloads\/Ibis.ScarletIbis-label.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Ibis.ScarletIbis.bottle.jpg": {
+		"ft": 16384,
+		"iS": 277577,
+		"oA": 1,
+		"oAP": "\/downloads\/Ibis.ScarletIbis.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Ibis.ScarletIbis.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Ibis.ScarletIbis.talker.pdf",
+		"oF": 0
 		},
 	"\/downloads\/Jorel_La_Garrigue.la-garrigue.bottle.jpg": {
 		"ft": 16384,
@@ -798,6 +1218,30 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/downloads\/Kronan.kronan.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Kronan.kronan.talker.pdf",
+		"oF": 0
+		},
+	"\/downloads\/London_Dry.hayman-LD.bottle.jpg": {
+		"ft": 16384,
+		"iS": 211485,
+		"oA": 1,
+		"oAP": "\/downloads\/London_Dry.hayman-LD.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/London_Dry.hayman-LD.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/London_Dry.hayman-LD.talker.pdf",
+		"oF": 0
 		},
 	"\/downloads\/Male_Care_10.male-care.bottle.jpg": {
 		"ft": 16384,
@@ -859,6 +1303,60 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/downloads\/Miro_Extra_Seco.miro-seco.bottle.jpg": {
+		"ft": 16384,
+		"iS": 1064521,
+		"oA": 1,
+		"oAP": "\/downloads\/Miro_Extra_Seco.miro-seco.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Miro_Extra_Seco.miro-seco.label.jpg": {
+		"ft": 16384,
+		"iS": 131072,
+		"oA": 1,
+		"oAP": "\/downloads\/Miro_Extra_Seco.miro-seco.label.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Miro_Extra_Seco.MiroSeco.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Miro_Extra_Seco.MiroSeco.talker.pdf",
+		"oF": 0
+		},
+	"\/downloads\/Miro_Rojo.MiroRojo.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Miro_Rojo.MiroRojo.talker.pdf",
+		"oF": 0
+		},
+	"\/downloads\/Miro_Rojo.rojo.bottle.jpg": {
+		"ft": 16384,
+		"iS": 1614203,
+		"oA": 1,
+		"oAP": "\/downloads\/Miro_Rojo.rojo.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Miro_Rojo.rojo.label.jpg": {
+		"ft": 16384,
+		"iS": 203152,
+		"oA": 1,
+		"oAP": "\/downloads\/Miro_Rojo.rojo.label.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/downloads\/Novasalus.bottle-high-res.jpg": {
 		"ft": 16384,
 		"iS": 66334,
@@ -879,6 +1377,13 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/downloads\/Novasalus.novasalus.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Novasalus.novasalus.talker.pdf",
+		"oF": 0
+		},
 	"\/downloads\/Nux.nux.bottle.jpg": {
 		"ft": 16384,
 		"iS": 420706,
@@ -887,6 +1392,68 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Nux.nux.label.jpg": {
+		"ft": 16384,
+		"iS": 155039,
+		"oA": 1,
+		"oAP": "\/downloads\/Nux.nux.label.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Nux.nux.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Nux.nux.talker.pdf",
+		"oF": 0
+		},
+	"\/downloads\/Old_Tom.hayman-OT.bottle.jpg": {
+		"ft": 16384,
+		"iS": 215742,
+		"oA": 1,
+		"oAP": "\/downloads\/Old_Tom.hayman-OT.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Old_Tom.haymanOT.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Old_Tom.haymanOT.talker.pdf",
+		"oF": 0
+		},
+	"\/downloads\/Orchard_Apricot.orchard-apricot.bottle.jpg": {
+		"ft": 16384,
+		"iS": 40123,
+		"oA": 1,
+		"oAP": "\/downloads\/Orchard_Apricot.orchard-apricot.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Orchard_Apricot.orchard-apricot.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Orchard_Apricot.orchard-apricot.talker.pdf",
+		"oF": 0
+		},
+	"\/downloads\/Orchard_Apricot.orchard.apricot.label.png": {
+		"ft": 32768,
+		"iS": 116228,
+		"oA": 1,
+		"oAP": "\/downloads\/Orchard_Apricot.orchard.apricot.label.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/downloads\/Orchard_Cherry.rothman-cherry.bottle.jpg": {
@@ -899,6 +1466,24 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/downloads\/Orchard_Cherry.rothman-cherry.label.png": {
+		"ft": 32768,
+		"iS": 109797,
+		"oA": 1,
+		"oAP": "\/downloads\/Orchard_Cherry.rothman-cherry.label.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/downloads\/Orchard_Cherry.rothman-cherry.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Orchard_Cherry.rothman-cherry.talker.pdf",
+		"oF": 0
+		},
 	"\/downloads\/Orchard_Peach.rothman-peach.bottle.jpg": {
 		"ft": 16384,
 		"iS": 285307,
@@ -909,6 +1494,52 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/downloads\/Orchard_Peach.rothman-peach.label.png": {
+		"ft": 32768,
+		"iS": 73573,
+		"oA": 1,
+		"oAP": "\/downloads\/Orchard_Peach.rothman-peach.label.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/downloads\/Orchard_Peach.rothman-peach.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Orchard_Peach.rothman-peach.talker.pdf",
+		"oF": 0
+		},
+	"\/downloads\/Orchard_Pear.orchard-pear.bottle.jpg": {
+		"ft": 16384,
+		"iS": 35513,
+		"oA": 1,
+		"oAP": "\/downloads\/Orchard_Pear.orchard-pear.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Orchard_Pear.orchard-pear.label.png": {
+		"ft": 32768,
+		"iS": 110761,
+		"oA": 1,
+		"oAP": "\/downloads\/Orchard_Pear.orchard-pear.label.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/downloads\/Orchard_Pear.orchard-pear.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Orchard_Pear.orchard-pear.talker.pdf",
+		"oF": 0
+		},
 	"\/downloads\/Pear_Williams.williams.bottle.jpg": {
 		"ft": 16384,
 		"iS": 264768,
@@ -918,6 +1549,24 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/downloads\/Pear_Williams.williams.label.png": {
+		"ft": 32768,
+		"iS": 41459,
+		"oA": 1,
+		"oAP": "\/downloads\/Pear_Williams.williams.label.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/downloads\/Pear_Williams.williams.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Pear_Williams.williams.talker.pdf",
+		"oF": 0
 		},
 	"\/downloads\/Pyror.pyror.bottle.jpg": {
 		"ft": 16384,
@@ -969,6 +1618,33 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/downloads\/Royal_Dock.hayman-RD.bottle.jpg": {
+		"ft": 16384,
+		"iS": 2672634,
+		"oA": 1,
+		"oAP": "\/downloads\/Royal_Dock.hayman-RD.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Royal_Dock.hayman-RD.label.jpg": {
+		"ft": 16384,
+		"iS": 297265,
+		"oA": 1,
+		"oAP": "\/downloads\/Royal_Dock.hayman-RD.label.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Royal_Dock.hayman-RD.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Royal_Dock.hayman-RD.talker.pdf",
+		"oF": 0
+		},
 	"\/downloads\/Salers.bottle.salers.jpg": {
 		"ft": 16384,
 		"iS": 352777,
@@ -988,6 +1664,13 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/downloads\/Salers.salers.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Salers.salers.talker.pdf",
+		"oF": 0
 		},
 	"\/downloads\/Sau_Rancio.sau.bottle.jpg": {
 		"ft": 16384,
@@ -1038,6 +1721,68 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/downloads\/Sfumato.sfumato.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Sfumato.sfumato.talker.pdf",
+		"oF": 0
+		},
+	"\/downloads\/Sloe_Gin.hayman-SG.bottle.jpg": {
+		"ft": 16384,
+		"iS": 218217,
+		"oA": 1,
+		"oAP": "\/downloads\/Sloe_Gin.hayman-SG.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Sloe_Gin.hayman-SG.label.jpg": {
+		"ft": 16384,
+		"iS": 263949,
+		"oA": 1,
+		"oAP": "\/downloads\/Sloe_Gin.hayman-SG.label.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Sloe_Gin.hayman-SG.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Sloe_Gin.hayman-SG.talker.pdf",
+		"oF": 0
+		},
+	"\/downloads\/Smith_and_Cross.label.smithcross.png": {
+		"ft": 32768,
+		"iS": 26344,
+		"oA": 1,
+		"oAP": "\/downloads\/Smith_and_Cross.label.smithcross.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/downloads\/Smith_and_Cross.smithcross.bottle.jpg": {
+		"ft": 16384,
+		"iS": 539790,
+		"oA": 1,
+		"oAP": "\/downloads\/Smith_and_Cross.smithcross.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Smith_and_Cross.smithcross.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Smith_and_Cross.smithcross.talker.pdf",
+		"oF": 0
 		},
 	"\/downloads\/Tabacal.bottle.tabacal.jpg": {
 		"ft": 16384,
@@ -1159,6 +1904,24 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/downloads\/Violette.rothman-violette.label.png": {
+		"ft": 32768,
+		"iS": 211075,
+		"oA": 1,
+		"oAP": "\/downloads\/Violette.rothman-violette.label.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/downloads\/Violette.rothman-violette.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Violette.rothman-violette.talker.pdf",
+		"oF": 0
+		},
 	"\/downloads\/Zirbenz.zirbenz-duo.bottle.jpg": {
 		"ft": 16384,
 		"iS": 1026721,
@@ -1168,6 +1931,23 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/downloads\/Zirbenz.zirbenz.label.jpg": {
+		"ft": 16384,
+		"iS": 217736,
+		"oA": 1,
+		"oAP": "\/downloads\/Zirbenz.zirbenz.label.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/downloads\/Zirbenz.zirbenz.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/downloads\/Zirbenz.zirbenz.talker.pdf",
+		"oF": 0
 		},
 	"\/gfx\/combo-pitcher.svg": {
 		"ft": 2097152,
@@ -1697,20 +2477,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/grouping-vintage.html",
-		"oF": 0
-		},
-	"\/imagery-non-packaging.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/imagery-non-packaging.html",
-		"oF": 0
-		},
-	"\/imagery.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/imagery.html",
 		"oF": 0
 		},
 	"\/images\/.mostrecent.pickle": {
@@ -2994,6 +3760,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/category.aperitif-aromatized_wines.jpg": {
+		"ft": 16384,
+		"iS": 112585,
+		"oA": 1,
+		"oAP": "\/images\/category.aperitif-aromatized_wines.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/category.floral_herbal_amaro.pinus-cembra.jpg": {
 		"ft": 16384,
 		"iS": 382116,
@@ -3014,11 +3790,11 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/category.fruit_liqueurs-Schnapps-GettyImage.jpg": {
+	"\/images\/category.fruit_liqueurs.jpg": {
 		"ft": 16384,
-		"iS": 95522,
+		"iS": 124093,
 		"oA": 1,
-		"oAP": "\/images\/category.fruit_liqueurs-Schnapps-GettyImage.jpg",
+		"oAP": "\/images\/category.fruit_liqueurs.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -4876,17 +5652,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/Orchard_Pear.label.orchard-pear.png": {
-		"ft": 32768,
-		"iS": 110761,
-		"oA": 1,
-		"oAP": "\/images\/Orchard_Pear.label.orchard-pear.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/images\/Orchard_Pear.orchard-pear-bottle-web.jpg": {
 		"ft": 16384,
 		"iS": 35513,
@@ -6242,25 +7007,15 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/producer.Cocchi.master-base.jpg": {
+	"\/images\/producer.Cocchi.master-map.jpg": {
 		"ft": 16384,
-		"iS": 317018,
+		"iS": 169118,
 		"oA": 1,
-		"oAP": "\/images\/producer.Cocchi.master-base.jpg",
+		"oAP": "\/images\/producer.Cocchi.master-map.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
-		},
-	"\/images\/producer.Cocchi.master-map.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/images\/producer.Cocchi.master-map.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
 		},
 	"\/images\/producer.cocchi.people.jpg": {
 		"ft": 16384,
@@ -8464,11 +9219,11 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/subcategory.americano.gentian-massifcentral.jpg": {
+	"\/images\/subcategory.americano.la_gentiana_acaulis.jpg": {
 		"ft": 16384,
-		"iS": 94404,
+		"iS": 167359,
 		"oA": 1,
-		"oAP": "\/images\/subcategory.americano.gentian-massifcentral.jpg",
+		"oAP": "\/images\/subcategory.americano.la_gentiana_acaulis.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -8544,11 +9299,11 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/subcategory.vino_amaro-by-TristanAndersen-1.JPG": {
+	"\/images\/subcategory.vino_amaro-collage.jpg": {
 		"ft": 16384,
-		"iS": 2264623,
+		"iS": 312085,
 		"oA": 1,
-		"oAP": "\/images\/subcategory.vino_amaro-by-TristanAndersen-1.jpg",
+		"oAP": "\/images\/subcategory.vino_amaro-collage.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -15733,13 +16488,6 @@
 		"oAP": "\/originBranch-Cotes_Catalanes_IGP.html",
 		"oF": 0
 		},
-	"\/originBranch-Emporda.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/originBranch-Emporda.html",
-		"oF": 0
-		},
 	"\/originBranch-Emporda_DO.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -15747,25 +16495,11 @@
 		"oAP": "\/originBranch-Emporda_DO.html",
 		"oF": 0
 		},
-	"\/originBranch-Emporda_IGP.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/originBranch-Emporda_IGP.html",
-		"oF": 0
-		},
 	"\/originBranch-England.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/originBranch-England.html",
-		"oF": 0
-		},
-	"\/originBranch-Finger_Lakes.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/originBranch-Finger_Lakes.html",
 		"oF": 0
 		},
 	"\/originBranch-France.html": {
@@ -15782,32 +16516,11 @@
 		"oAP": "\/originBranch-Guyana.html",
 		"oF": 0
 		},
-	"\/originBranch-Indonesia-Austria.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/originBranch-Indonesia-Austria.html",
-		"oF": 0
-		},
 	"\/originBranch-Italy.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/originBranch-Italy.html",
-		"oF": 0
-		},
-	"\/originBranch-Jamaica-Austria.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/originBranch-Jamaica-Austria.html",
-		"oF": 0
-		},
-	"\/originBranch-Jamaica-England.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/originBranch-Jamaica-England.html",
 		"oF": 0
 		},
 	"\/originBranch-Jamaica.html": {
@@ -15824,32 +16537,11 @@
 		"oAP": "\/originBranch-Java.html",
 		"oF": 0
 		},
-	"\/originBranch-London.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/originBranch-London.html",
-		"oF": 0
-		},
-	"\/originBranch-Madeira.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/originBranch-Madeira.html",
-		"oF": 0
-		},
 	"\/originBranch-Madeira_DO.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/originBranch-Madeira_DO.html",
-		"oF": 0
-		},
-	"\/originBranch-Madeira_DOC.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/originBranch-Madeira_DOC.html",
 		"oF": 0
 		},
 	"\/originBranch-Massif_Central-Auvergne.html": {
@@ -15943,13 +16635,6 @@
 		"oAP": "\/originBranch-Sweden.html",
 		"oF": 0
 		},
-	"\/originBranch-Tarragona.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/originBranch-Tarragona.html",
-		"oF": 0
-		},
 	"\/originBranch-Trentino-Alto_Adige.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -15957,25 +16642,11 @@
 		"oAP": "\/originBranch-Trentino-Alto_Adige.html",
 		"oF": 0
 		},
-	"\/originBranch-Trinidad-Austria.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/originBranch-Trinidad-Austria.html",
-		"oF": 0
-		},
 	"\/originBranch-Trinidad.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/originBranch-Trinidad.html",
-		"oF": 0
-		},
-	"\/originBranch-United_States.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/originBranch-United_States.html",
 		"oF": 0
 		},
 	"\/originBranch-Vermouth_de_Chambery_AOP.html": {
@@ -15999,25 +16670,11 @@
 		"oAP": "\/originBranch-Vermut_de_Reus.html",
 		"oF": 0
 		},
-	"\/originBranch-West_Indies-England.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/originBranch-West_Indies-England.html",
-		"oF": 0
-		},
 	"\/originBranch-West_Indies.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/originBranch-West_Indies.html",
-		"oF": 0
-		},
-	"\/originBranch-Weststeiermark.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/originBranch-Weststeiermark.html",
 		"oF": 0
 		},
 	"\/originCat-Asti_DOCG-methode_charmat.html": {
@@ -16053,13 +16710,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/originCat-Brachetto_dAcqui_DOCG-methode_charmat.html",
-		"oF": 0
-		},
-	"\/originCat-Carcavelos_DO-fully_oxidative_fortified.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/originCat-Carcavelos_DO-fully_oxidative_fortified.html",
 		"oF": 0
 		},
 	"\/originCat-Catalunya-rancio_sec.html": {
@@ -16242,13 +16892,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/originCat-Piemonte_DOC-methode_charmat.html",
-		"oF": 0
-		},
-	"\/originCat-Portugal-fully_oxidative_fortified.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/originCat-Portugal-fully_oxidative_fortified.html",
 		"oF": 0
 		},
 	"\/originCat-Roussillon-quina.html": {
@@ -16615,13 +17258,6 @@
 		"oAP": "\/producer-Villa_Oeiras.html",
 		"oF": 0
 		},
-	"\/producer-Weingut_Jobstl.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/producer-Weingut_Jobstl.html",
-		"oF": 0
-		},
 	"\/producers.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -16690,13 +17326,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/product-Cappelletti-Amaro_Pasubio.html",
-		"oF": 0
-		},
-	"\/product-Cappelletti-Amaro_Pasubio_DRAFT.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/product-Cappelletti-Amaro_Pasubio_DRAFT.html",
 		"oF": 0
 		},
 	"\/product-Cappelletti-Amaro_Sfumato_Rabarbaro.html": {
@@ -17341,13 +17970,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/product-Villa_Oeiras-Villa_Oeiras_Carcavelos_NV.html",
-		"oF": 0
-		},
-	"\/product-Weingut_Jobstl-Weingut_Jobstl_Schilcher_Ried_Krass.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/product-Weingut_Jobstl-Weingut_Jobstl_Schilcher_Ried_Krass.html",
 		"oF": 0
 		},
 	"\/products.html": {
@@ -19471,13 +20093,6 @@
 		"oAP": "\/recipe-0526-0303.html",
 		"oF": 0
 		},
-	"\/recipe-0526-0304.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/recipe-0526-0304.html",
-		"oF": 0
-		},
 	"\/recipe-0526-0305.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -20987,13 +21602,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/subcategory-rancio_sec.html",
-		"oF": 0
-		},
-	"\/subcategory-schilcher.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/subcategory-schilcher.html",
 		"oF": 0
 		},
 	"\/subcategory-vermouth.html": {
