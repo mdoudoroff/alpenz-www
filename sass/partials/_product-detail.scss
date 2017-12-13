@@ -110,12 +110,20 @@
 
 	width: 100%;
 
+	table-layout: fixed;
+
 	clear: all;
 	margin-top: 0.5em;
 
 	@include respond-to(phone) {
 		width: 100%;
 		float: none;
+	}
+
+	@include respond-to(print) {
+		width: 75%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	td {
@@ -136,21 +144,29 @@
 	}
 
 	#picBottle {
-		// width: 50%;
-		border-right: 0.5em solid transparent;		
+
+		figure {
+			margin-left: auto;
+			margin-right: auto;
+		}
+
 		border-bottom: 0.5em solid transparent;
-		// background-color: red;
 
 		img {
 			// width: 50%;
-			width:60%;
+			// width:60%;
 			margin: 0 auto;
 		}
 
 	}
 
 	#picLabel, #picContext {
+		// width: 50%;
 		width: 50%;
+
+		figure {
+			width: 100%;
+		}
 	}
 
 	#picPeople, #picPlace {
@@ -168,6 +184,13 @@
 	#picPeople {
 		border-right: 0.5em solid transparent;		
 	}
+
+}
+
+#productImageryCluster {
+	// width: 325px;
+	// margin-left: auto;
+	// margin-right: auto;
 
 }
 
@@ -332,6 +355,10 @@
 			font-weight: bold;
 			line-height: 1.0;
 			margin-bottom: 0.5em;
+
+			@include respond-to(print) {
+				font-size: 12px;
+			}
 		}
 
 		p {
@@ -342,6 +369,10 @@
 			
 			&:last-child {
 				margin: 0;
+			}
+
+			@include respond-to(print) {
+				font-size: 10px;
 			}
 		}
 	}

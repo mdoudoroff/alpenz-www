@@ -1945,12 +1945,18 @@ div.grouping {
 
 #productImageryCluster, #productImageryCluster2 {
   width: 100%;
+  table-layout: fixed;
   clear: all;
   margin-top: 0.5em; }
   @media only screen and (max-width: 420px) {
     #productImageryCluster, #productImageryCluster2 {
       width: 100%;
       float: none; } }
+  @media print {
+    #productImageryCluster, #productImageryCluster2 {
+      width: 75%;
+      margin-left: auto;
+      margin-right: auto; } }
   #productImageryCluster td, #productImageryCluster2 td {
     vertical-align: middle;
     text-align: center;
@@ -1961,13 +1967,16 @@ div.grouping {
   #productImageryCluster img.wideimage, #productImageryCluster2 img.wideimage {
     width: 100%; }
   #productImageryCluster #picBottle, #productImageryCluster2 #picBottle {
-    border-right: 0.5em solid transparent;
     border-bottom: 0.5em solid transparent; }
+    #productImageryCluster #picBottle figure, #productImageryCluster2 #picBottle figure {
+      margin-left: auto;
+      margin-right: auto; }
     #productImageryCluster #picBottle img, #productImageryCluster2 #picBottle img {
-      width: 60%;
       margin: 0 auto; }
   #productImageryCluster #picLabel, #productImageryCluster #picContext, #productImageryCluster2 #picLabel, #productImageryCluster2 #picContext {
     width: 50%; }
+    #productImageryCluster #picLabel figure, #productImageryCluster #picContext figure, #productImageryCluster2 #picLabel figure, #productImageryCluster2 #picContext figure {
+      width: 100%; }
   #productImageryCluster #picPeople, #productImageryCluster #picPlace, #productImageryCluster2 #picPeople, #productImageryCluster2 #picPlace {
     width: 50%; }
   #productImageryCluster #picLabel, #productImageryCluster2 #picLabel {
@@ -2079,12 +2088,18 @@ div.grouping {
       font-weight: bold;
       line-height: 1.0;
       margin-bottom: 0.5em; }
+      @media print {
+        .recipeCorral .recipe h4 {
+          font-size: 12px; } }
     .recipeCorral .recipe p {
       font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
       font-size: 11px;
       margin: 0 0 10px 0; }
       .recipeCorral .recipe p:last-child {
         margin: 0; }
+      @media print {
+        .recipeCorral .recipe p {
+          font-size: 10px; } }
 
 .recipeInfoForPrint {
   display: none;
