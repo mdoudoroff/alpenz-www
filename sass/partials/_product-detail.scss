@@ -451,21 +451,19 @@
 
 #infographic {
 
-	// clear: both;
 	margin-top: 1em;
 	width: 100%;
-	// margin-left: 7px;
-	// margin-right: 7px;
 
-
+	.infographicRow {
+		display: table-row;
+	}
 
 	.infographicSegment {
 		font-family: $body-font;
 		font-size: 14px;
 
-		// width: 317px;
 		width: 153px;  // was 155px
-		height: 90px;
+		height: 70px;
 		display: inline-table;
 		border-right: 1px solid $off-grey-dark;
 		border-left: 1px solid $off-grey-dark;
@@ -476,48 +474,31 @@
 			display: table;
 			width: 100%;
 		}
-	}
+	
+		.infographicSectionText {
+			display: table-cell;
+			padding-top: 3px;
+			padding-bottom: 3px;
+			text-align: center;
+			border-top: 1px solid $off-grey-dark;
+			border-bottom: 1px solid $off-grey-dark;
+			vertical-align: middle;
+			font-size: 12px;
 
-	.infographicRow {
-		display: table-row;
-	}
-	.infographicSection {
-		display: table-cell;
-		// padding: 0 1em;
-		padding: 0 0.5em;
-		text-align: center;
-		border-top: 1px solid $off-grey-dark;
-		border-bottom: 1px solid $off-grey-dark;
-		height: 70px;
-		// position: relative;
-		vertical-align: middle;
-	}
+		}
 
-	.infographicSection.icons {
-		vertical-align: bottom;
-		padding-right: 0;
-		padding-bottom: 10px;
-	}
+		.infographicSectionIcons {
+			display: table-cell;
+			overflow: hidden;
+			vertical-align: bottom;
+			padding-right: 0;
+			padding-top: 3px;
+			padding-bottom: 3px;
+			// display: none;
+			border-top: 1px solid $off-grey-dark;
+			border-bottom: 1px solid $off-grey-dark;
 
-	.sidewaysContainer {
-		display: inline-block;
-		width: 13px;
-		background-color: yellow;
-		position: relative;
-	}
-	.sideways {
-		transform: translate(1em,0em) rotate(270deg);
-		position: absolute;
-		bottom: 0;
-		transform-origin: left bottom 0;
-		line-height: 1.0;
-
-		font-family: $subheading-font;
-		font-weight: 700;
-		text-transform: uppercase;
-		font-size: 13px;
-
-		display: none;
+		}
 
 	}
 

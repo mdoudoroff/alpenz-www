@@ -2159,11 +2159,13 @@ div.grouping {
 #infographic {
   margin-top: 1em;
   width: 100%; }
+  #infographic .infographicRow {
+    display: table-row; }
   #infographic .infographicSegment {
     font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
     font-size: 14px;
     width: 153px;
-    height: 90px;
+    height: 70px;
     display: inline-table;
     border-right: 1px solid #dddcd8;
     border-left: 1px solid #dddcd8;
@@ -2172,36 +2174,24 @@ div.grouping {
       #infographic .infographicSegment {
         display: table;
         width: 100%; } }
-  #infographic .infographicRow {
-    display: table-row; }
-  #infographic .infographicSection {
-    display: table-cell;
-    padding: 0 0.5em;
-    text-align: center;
-    border-top: 1px solid #dddcd8;
-    border-bottom: 1px solid #dddcd8;
-    height: 70px;
-    vertical-align: middle; }
-  #infographic .infographicSection.icons {
-    vertical-align: bottom;
-    padding-right: 0;
-    padding-bottom: 10px; }
-  #infographic .sidewaysContainer {
-    display: inline-block;
-    width: 13px;
-    background-color: yellow;
-    position: relative; }
-  #infographic .sideways {
-    transform: translate(1em, 0em) rotate(270deg);
-    position: absolute;
-    bottom: 0;
-    transform-origin: left bottom 0;
-    line-height: 1.0;
-    font-family: "myriad-pro-condensed", Impact, sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 13px;
-    display: none; }
+    #infographic .infographicSegment .infographicSectionText {
+      display: table-cell;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      text-align: center;
+      border-top: 1px solid #dddcd8;
+      border-bottom: 1px solid #dddcd8;
+      vertical-align: middle;
+      font-size: 12px; }
+    #infographic .infographicSegment .infographicSectionIcons {
+      display: table-cell;
+      overflow: hidden;
+      vertical-align: bottom;
+      padding-right: 0;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      border-top: 1px solid #dddcd8;
+      border-bottom: 1px solid #dddcd8; }
 
 /*************************************/
 /*   
