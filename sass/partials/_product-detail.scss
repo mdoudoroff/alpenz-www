@@ -120,12 +120,6 @@
 		float: none;
 	}
 
-	@include respond-to(print) {
-		width: 75%;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
 	td {
 		vertical-align: middle;
 		text-align: center;
@@ -188,10 +182,13 @@
 }
 
 #productImageryCluster {
-	// width: 325px;
-	// margin-left: auto;
-	// margin-right: auto;
-
+	@include respond-to(print) {
+		float: right;
+		width: 60%;
+		// margin-left: auto;
+		// margin-right: auto;
+		margin-left: 1em;
+	}
 }
 
 #producerPics {

@@ -792,6 +792,9 @@ a {
     .content p a {
       color: #a2120f;
       font-weight: 700; }
+      @media print {
+        .content p a {
+          color: inherit; } }
   .content img {
     /*
     @include respond-to(smalltablet) {
@@ -1952,11 +1955,6 @@ div.grouping {
     #productImageryCluster, #productImageryCluster2 {
       width: 100%;
       float: none; } }
-  @media print {
-    #productImageryCluster, #productImageryCluster2 {
-      width: 75%;
-      margin-left: auto;
-      margin-right: auto; } }
   #productImageryCluster td, #productImageryCluster2 td {
     vertical-align: middle;
     text-align: center;
@@ -1985,6 +1983,12 @@ div.grouping {
     border-bottom: 0.5em solid transparent; }
   #productImageryCluster #picPeople, #productImageryCluster2 #picPeople {
     border-right: 0.5em solid transparent; }
+
+@media print {
+  #productImageryCluster {
+    float: right;
+    width: 60%;
+    margin-left: 1em; } }
 
 #producerPics {
   width: 455px;

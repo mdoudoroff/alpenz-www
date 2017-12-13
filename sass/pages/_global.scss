@@ -214,6 +214,12 @@ a {
 		a {
 			color: $red;
 			font-weight: 700;
+
+			@include respond-to(print) {
+				color: inherit;
+			}
+
+
 		}
 	}
 	
