@@ -1183,6 +1183,24 @@ header.producerindex .images {
     .catblurb figure.right {
       width: 100%; } }
 
+.catblurb.longform {
+  -moz-column-count: 2;
+  column-count: 2;
+  column-gap: 1.5em; }
+  @media print {
+    .catblurb.longform {
+      -moz-column-count: 2;
+      column-count: 2; } }
+  @media only screen and (max-width: 420px) {
+    .catblurb.longform {
+      -moz-column-count: 1;
+      column-count: 1; } }
+  .catblurb.longform .blurb {
+    width: 100%; }
+    .catblurb.longform .blurb p {
+      display: inline-block;
+      margin-bottom: 0.5em; }
+
 .features figure {
   position: relative;
   width: 100%;

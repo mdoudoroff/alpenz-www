@@ -824,8 +824,6 @@ header.producerindex {
 
 	}
 
-
-
 	.producerTrio {
 		clear: both;
 
@@ -948,6 +946,31 @@ header.producerindex {
 
 }
 
+.catblurb.longform {
+
+	-moz-column-count: 2;
+	column-count: 2;
+	column-gap: 1.5em;
+
+	@include respond-to(print) {
+		-moz-column-count: 2;
+		column-count: 2;
+	}
+
+	@include respond-to(phone) {
+		-moz-column-count: 1;
+		column-count: 1;
+	}	
+
+	.blurb {
+		width: 100%;
+
+		p {
+			display: inline-block;
+			margin-bottom: 0.5em;
+		}
+	}
+}
 
 // home page stuff
 
