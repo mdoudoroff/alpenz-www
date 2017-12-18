@@ -719,6 +719,9 @@ a {
 #productSummaryContainer {
 	margin: 0.5em 0 0.5em 0;
 
+	border-top: 2px solid $off-grey-dark;
+	margin-top: 0.5em;
+	padding-top: 1em;
 	// this is a little tricky and may need to be removed, but it’s basically to prevent
 	// the text from flowing beneath the bottle
 	.product_description p {
@@ -789,6 +792,27 @@ header.producerindex {
 }
 
 .catblurb {
+
+	h2 {
+		font-size: 16px;
+		font-weight: 700;
+		margin-top: 0.5em;
+		margin-bottom: 0.25em;
+	}
+
+	figure.left2 {
+		width: 50%;
+		float: left;
+		margin-right: 1em;
+		margin-bottom: 0;
+	}
+
+	figure.right2 {
+		width: 50%;
+		float: right;
+		margin-left: 1em;
+		margin-bottom: 0;
+	}
 
 	.images {
 		width: 50%;
@@ -966,7 +990,7 @@ header.producerindex {
 		width: 100%;
 
 		p {
-			display: inline-block;
+			// display: inline-block;  // problematic if flowing around text
 			margin-bottom: 0.5em;
 		}
 	}
