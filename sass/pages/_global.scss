@@ -148,6 +148,8 @@ a {
 			font-size: 24px;
 			margin: 0 0 12px 0;
 		}
+
+		position: relative; // this is so we can put things next to it
 	}
 	h2 {
 		font-family: $heading-font;

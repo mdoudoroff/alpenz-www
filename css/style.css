@@ -743,7 +743,8 @@ a {
     font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
     font-size: 36px;
     font-weight: 700;
-    margin: 0 0 10px 0; }
+    margin: 0 0 10px 0;
+    position: relative; }
     @media only screen and (max-width: 420px) {
       .content h1 {
         font-size: 24px;
@@ -1799,13 +1800,48 @@ svg .hot:hover .redhot {
 
 .subcatMenu {
   text-align: center;
-  margin: 1em; }
+  margin: 1em;
+  display: none; }
+  @media only screen and (max-width: 420px) {
+    .subcatMenu {
+      display: block; } }
   .subcatMenu a {
     margin: 0.25em; }
   @media only screen and (max-width: 420px) {
     .subcatMenu .button {
       font-size: 13px;
       font-weight: bold; } }
+
+.subcatMenu2 {
+  display: inline; }
+  .subcatMenu2 a {
+    display: inline-block;
+    position: relative;
+    bottom: 0.25em;
+    vertical-align: middle;
+    margin: 0.25em;
+    font-weight: normal; }
+  .subcatMenu2 .button {
+    font-size: 16px;
+    padding: 6px 10px; }
+    @media only screen and (max-width: 420px) {
+      .subcatMenu2 .button {
+        font-size: 13px;
+        font-weight: bold; } }
+  @media only screen and (max-width: 420px) {
+    .subcatMenu2 {
+      display: none; } }
+
+.bracket {
+  display: inline-block;
+  color: #e3e3e3;
+  position: relative;
+  font-size: 140%;
+  font-weight: normal;
+  margin-right: 5px; }
+  @media only screen and (max-width: 420px) {
+    .bracket {
+      display: none; } }
 
 @media only screen and (max-width: 420px) {
   .cluster {

@@ -259,8 +259,12 @@
 .subcatMenu {
 	text-align: center;
 	margin: 1em;
-
+	display: none;
 	// font-weight: 700;
+
+	@include respond-to(phone) {
+		display: block;
+	}
 
 	a {
 	// 	display: inline-block;
@@ -284,6 +288,52 @@
 
 }
 
+.subcatMenu2 {
+
+	display: inline;
+	
+	a {
+		display: inline-block;
+		position: relative;
+		bottom: 0.25em;
+		vertical-align: middle;
+		margin: 0.25em;
+		font-weight: normal;
+	}
+
+	.button {
+
+		font-size: 16px;
+
+		padding: 6px 10px;
+
+		@include respond-to(phone) {
+			font-size: 13px;
+			font-weight: bold;
+		}
+		
+	}
+
+	@include respond-to(phone) {
+		display: none;
+	}
+
+
+}
+
+.bracket {
+	display: inline-block;
+	color: $light_grey;
+	position: relative;
+	font-size: 140%;
+	font-weight: normal;
+	margin-right: 5px;
+
+	@include respond-to(phone) {
+		display: none;
+	}
+
+}
 
 .cluster {
 
