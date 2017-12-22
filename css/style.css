@@ -1798,38 +1798,48 @@ svg .hot:hover .redhot {
       .products .licenses {
         display: none; } }
 
-.subcatMenu {
+.subcatMenuMobile {
   text-align: center;
   margin: 1em;
   display: none; }
   @media only screen and (max-width: 420px) {
-    .subcatMenu {
+    .subcatMenuMobile {
       display: block; } }
-  .subcatMenu a {
+  .subcatMenuMobile a {
     margin: 0.25em; }
   @media only screen and (max-width: 420px) {
-    .subcatMenu .button {
+    .subcatMenuMobile .button {
       font-size: 13px;
       font-weight: bold; } }
 
-.subcatMenu2 {
+.subOriginMenu {
+  text-align: center;
+  margin: 1em; }
+  .subOriginMenu a {
+    margin: 0.25em; }
+  @media only screen and (max-width: 420px) {
+    .subOriginMenu .button {
+      font-size: 13px;
+      font-weight: bold; } }
+
+.subcatMenuDesktop {
   display: inline; }
-  .subcatMenu2 a {
+  .subcatMenuDesktop a {
     display: inline-block;
     position: relative;
     bottom: 0.25em;
     vertical-align: middle;
     margin: 0.25em;
     font-weight: normal; }
-  .subcatMenu2 .button {
+  .subcatMenuDesktop .button {
     font-size: 16px;
     padding: 6px 10px; }
     @media only screen and (max-width: 420px) {
-      .subcatMenu2 .button {
+      .subcatMenuDesktop .button {
         font-size: 13px;
         font-weight: bold; } }
   @media only screen and (max-width: 420px) {
-    .subcatMenu2 {
+    .subcatMenuDesktop {
       display: none; } }
 
 .bracket {

@@ -256,39 +256,44 @@
 
 }
 
-.subcatMenu {
+.subcatMenuMobile {
 	text-align: center;
 	margin: 1em;
 	display: none;
-	// font-weight: 700;
 
 	@include respond-to(phone) {
 		display: block;
 	}
 
 	a {
-	// 	display: inline-block;
-	// 	border: 1px solid gray;
-	// 	background-color: white;
-	// 	padding: 0.25em 0.5em;
 		margin: 0.25em;
-	// 	text-transform: uppercase;
-
-
 	}
 
 	.button {
-
 		@include respond-to(phone) {
 			font-size: 13px;
 			font-weight: bold;
 		}
-		
 	}
-
 }
 
-.subcatMenu2 {
+.subOriginMenu {
+	text-align: center;
+	margin: 1em;
+
+	a {
+		margin: 0.25em;
+	}
+
+	.button {
+		@include respond-to(phone) {
+			font-size: 13px;
+			font-weight: bold;
+		}	
+	}
+}
+
+.subcatMenuDesktop {
 
 	display: inline;
 	
@@ -302,7 +307,6 @@
 	}
 
 	.button {
-
 		font-size: 16px;
 
 		padding: 6px 10px;
@@ -310,15 +314,11 @@
 		@include respond-to(phone) {
 			font-size: 13px;
 			font-weight: bold;
-		}
-		
+		}	
 	}
-
 	@include respond-to(phone) {
 		display: none;
 	}
-
-
 }
 
 .bracket {
