@@ -996,6 +996,12 @@ header.producerindex {
 			margin-bottom: 0.5em;
 		}
 	}
+
+	.box {
+		clear: both;
+		background-color: $off-grey;
+		padding: 0.5em 0.75em;
+	}
 }
 
 // home page stuff

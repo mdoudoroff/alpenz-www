@@ -1218,6 +1218,10 @@ header.producerindex .images {
     width: 100%; }
     .catblurb.longform .blurb p {
       margin-bottom: 0.5em; }
+  .catblurb.longform .box {
+    clear: both;
+    background-color: #edece8;
+    padding: 0.5em 0.75em; }
 
 .features figure {
   position: relative;
