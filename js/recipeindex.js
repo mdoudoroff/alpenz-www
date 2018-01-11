@@ -2,6 +2,28 @@
 //var searchPrompt = 'Search by ingredient name...';
 var searchPrompt = '';
 
+function setCookie(name,value,days) {
+    var expires = "";
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days*24*60*60*1000));
+        expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+}
+function getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+}
+function eraseCookie(name) {   
+    document.cookie = name+'=; Max-Age=-99999999;';  
+}
 
 function scrapeFilters() {
 	var groups = [];
@@ -22,16 +44,49 @@ function scrapeFilters() {
 			groups.push(kws);
 		}
 	}
+
+	// cookie!
+	setCookie('harecipesform',groups.join(),7);
+
 	return groups;
+}
+
+function restoreFilters(vals) {
+	$.each(vals.split(','),function(idx,val){
+		if (val.indexOf('iid')==1) {
+			$("#ingredientChooser").val(val.slice(1));
+		} else {
+			$("input[name="+val.slice(1)+"]").each(function() {$(this).prop("checked", true);});
+		}
+	});
+}
+
+function resetFilters() {
+	$("input").prop("checked",false);
+	$("#ingredientChooser").val("");
+	eraseCookie('harecipesform');
 }
 
 function refilterRecipes() {
 	var filterGroups = scrapeFilters();
-	console.log(filterGroups);
 
 	if (filterGroups.length===0) {
 		$('.recipeSummaries tr').show();
 		$('#matchesAnnotation').text($('.recipeSummaries tr').length + ' recipes');
+
+		// impose tabular nav
+		$('#tabularnav').empty();
+		var tabularnav = []
+		$.each($('.recipeSummaries tr'),function(idx,match) {
+			if (tabularnav.indexOf($(match).data('tabularletter'))==-1) {
+				tabularnav.push($(match).data('tabularletter'));
+				$(match).attr('id','letter_'+$(match).data('tabularletter'));
+			}
+		});
+		for (var x=0; x<tabularnav.length; x++) {
+			$('#tabularnav').append('<a href="#letter_'+tabularnav[x]+'">'+tabularnav[x]+'</a> ');
+		}
+
 	}
 	else {
 		var matches = $('.recipeSummaries tr');
@@ -45,8 +100,26 @@ function refilterRecipes() {
 		} else {
 			$('#matchesAnnotation').text(matches.length + ' match out of '+$('.recipeSummaries tr').length);	
 		}
-		
+
+		// impose tabular nav (if at least sixteen matches)
+		$('#tabularnav').empty();
+		if (matches.length>16) {
+			// build tab links	
+			var tabularnav = []
+			$.each(matches,function(idx,match) {
+				if (tabularnav.indexOf($(match).data('tabularletter'))==-1) {
+					tabularnav.push($(match).data('tabularletter'));
+					$(match).attr('id','letter_'+$(match).data('tabularletter'));
+				}
+			});
+			for (var x=0; x<tabularnav.length; x++) {
+				$('#tabularnav').append('<a href="#letter_'+tabularnav[x]+'">'+tabularnav[x]+'</a> ');
+			}
+		}
 	}
+
+	
+
 }
 
 
@@ -79,8 +152,6 @@ jQuery(document).ready(function() {
 
 		if (searchStr.length > 1) {
 			$.getJSON('/search/'+searchStr,function(msg) {
-
-				// window.console.log(msg);
 
 				searchResults.empty();
 
@@ -140,6 +211,12 @@ jQuery(document).ready(function() {
 
 	// recipe index filtration
 
+	var x = getCookie('harecipesform');
+	if (x) {
+	    restoreFilters(x);
+	    refilterRecipes();
+	}
+
 	$('#recipefilters input').change(function() {
 		refilterRecipes();
 	});
@@ -158,6 +235,11 @@ jQuery(document).ready(function() {
 			target.data('expanded','yes');
 			$(this).text('Collapse ▴');
 		}
+	});
+
+	$("#matchesAnnotation").click(function() {
+		resetFilters();
+		refilterRecipes();
 	});
 
 });
