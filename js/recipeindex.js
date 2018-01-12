@@ -97,6 +97,7 @@ function refilterRecipes() {
 		matches.show();
 		if (matches.length>1) {
 			$('#matchesAnnotation').text(matches.length + ' matches out of '+$('.recipeSummaries tr').length);	
+			$('#matchesAnnotation').append($('<a class="inlineButton" style="margin-left: 1em; cursor: pointer;">RESET / SHOW ALL</a>'));
 		} else {
 			$('#matchesAnnotation').text(matches.length + ' match out of '+$('.recipeSummaries tr').length);	
 		}
@@ -210,11 +211,12 @@ jQuery(document).ready(function() {
 
 
 	// recipe index filtration
-
 	var x = getCookie('harecipesform');
 	if (x) {
 	    restoreFilters(x);
 	    refilterRecipes();
+	} else {
+		refilterRecipes();  // doing this here to force rebuilding of the tabular nav
 	}
 
 	$('#recipefilters input').change(function() {

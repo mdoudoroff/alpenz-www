@@ -1218,6 +1218,14 @@ header.producerindex {
 
 // recipe summary page
 
+#tabularnav a {
+	margin-right: 0.75em;
+}
+
+#tabularnav a:hover {
+	color: red;
+}
+
 #recipefilters {
 	background-color: $off-grey;
 	padding: 0.5em;

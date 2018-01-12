@@ -1373,6 +1373,12 @@ header.producerindex .images {
   height: auto;
   width: 250px; }
 
+#tabularnav a {
+  margin-right: 0.75em; }
+
+#tabularnav a:hover {
+  color: red; }
+
 #recipefilters {
   background-color: #edece8;
   padding: 0.5em;
