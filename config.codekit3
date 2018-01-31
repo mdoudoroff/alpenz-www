@@ -7,7 +7,7 @@
 		"uuidString": "B5ADC2AB-4759-4D37-B9EB-92E440ECE0B5"
 		}
 	],
-"creatorBuild": "26148",
+"creatorBuild": "26261",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -317,7 +317,8 @@
 		"oF": 0
 		},
 	"\/config.rb": {
-		"ft": 131072,
+		"cB": 0,
+		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0
@@ -1128,21 +1129,21 @@
 		"oAP": "\/downloads\/Falernum.velvet-falernum.talker.pdf",
 		"oF": 0
 		},
-	"\/downloads\/Genepy.genepy-chamois.label.jpg": {
+	"\/downloads\/Genepy.bottle.genepy-chamois.jpg": {
 		"ft": 16384,
-		"iS": 237203,
+		"iS": 203489,
 		"oA": 1,
-		"oAP": "\/downloads\/Genepy.genepy-chamois.label.jpg",
+		"oAP": "\/downloads\/Genepy.bottle.genepy-chamois.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/downloads\/Genepy.genepy.bottle.jpg": {
+	"\/downloads\/Genepy.genepy-chamois.label.jpg": {
 		"ft": 16384,
-		"iS": 629014,
+		"iS": 237203,
 		"oA": 1,
-		"oAP": "\/downloads\/Genepy.genepy.bottle.jpg",
+		"oAP": "\/downloads\/Genepy.genepy-chamois.label.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -4503,6 +4504,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/Genepy.bottle.genepy-chamois.jpg": {
+		"ft": 16384,
+		"iS": 171966,
+		"oA": 1,
+		"oAP": "\/images\/Genepy.bottle.genepy-chamois.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/Genepy.context.genepi-bigSavoieBroders.jpg": {
 		"ft": 16384,
 		"iS": 22546,
@@ -4523,21 +4534,11 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/Genepy.genepy-bottle-web.jpg": {
+	"\/images\/Genepy.label.genepy-chamois.jpg": {
 		"ft": 16384,
-		"iS": 58734,
+		"iS": 106393,
 		"oA": 1,
-		"oAP": "\/images\/Genepy.genepy-bottle-web.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/Genepy.label.fond-etiq-GENEPY-ALPES-fd-blanc.jpg": {
-		"ft": 16384,
-		"iS": 247526,
-		"oA": 1,
-		"oAP": "\/images\/Genepy.label.fond-etiq-GENEPY-ALPES-fd-blanc.jpg",
+		"oAP": "\/images\/Genepy.label.genepy-chamois.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -17180,6 +17181,13 @@
 		"oAP": "\/origins.html",
 		"oF": 0
 		},
+	"\/payment.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/payment.html",
+		"oF": 0
+		},
 	"\/portfolio.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -22365,6 +22373,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,

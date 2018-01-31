@@ -77,6 +77,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     .wrap {
       width: 100%; } }
 
+.wrapspecial {
+  height: 100%;
+  margin: 0 1em;
+  position: relative;
+  padding: 0; }
+  @media only screen and (max-width: 420px) {
+    .wrapspecial {
+      width: 100%; } }
+
 .clr {
   *zoom: 1; }
   .clr:after {
@@ -1288,6 +1297,13 @@ header.producerindex .images {
   @media only screen and (max-width: 420px) {
     .morebutton {
       font-size: 12px; } }
+
+.fullsetuptable td {
+  white-space: nowrap;
+  padding-right: 0.5em; }
+.fullsetuptable th {
+  font-weight: bold;
+  padding-right: 0.5em; }
 
 .producerSetup h2 {
   margin-top: 0.5em;

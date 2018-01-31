@@ -28,6 +28,16 @@
 		width: 100%;
 	}
 }
+// this is for the special case of the setup table, where the table is very wide
+.wrapspecial {
+	height: 100%;
+	margin: 0 1em;
+	position: relative;
+	padding: 0;
+	@include respond-to(phone) {
+		width: 100%;
+	}
+}
 .clr {
 	@include pie-clearfix();
 }
