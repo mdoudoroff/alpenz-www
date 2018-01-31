@@ -1096,10 +1096,13 @@ header.producerindex {
 	td {
 		white-space: nowrap;
 		padding-right: 0.5em;
+		padding-top: 2px;
+		padding-bottom: 2px;
 	}
 	th {
 		font-weight: bold;
 		padding-right: 0.5em;
+		background-color: $off-grey;
 	}
 }
 
