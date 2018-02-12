@@ -1682,3 +1682,14 @@ svg {
 }
 
 
+// definition lists (e.g., glossary)
+
+dt {
+	margin-bottom: 0.5em;
+	font-weight: bold;
+}
+
+dd {
+	padding-left: 2em;
+	margin-bottom: 0.5em;
+}

@@ -1689,6 +1689,14 @@ svg .hot:hover .redhot {
   fill: #eb2f2c;
   stroke: #eb2f2c; }
 
+dt {
+  margin-bottom: 0.5em;
+  font-weight: bold; }
+
+dd {
+  padding-left: 2em;
+  margin-bottom: 0.5em; }
+
 .products {
   overflow: hidden;
   margin: 0 0 2em 0;

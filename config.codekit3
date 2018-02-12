@@ -23,6 +23,20 @@
 		"oAP": "\/_drafts.html",
 		"oF": 0
 		},
+	"\/adhoc.La_Vida_Rancio.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/adhoc.La_Vida_Rancio.html",
+		"oF": 0
+		},
+	"\/adhoc.Regarding_Byrrh.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/adhoc.Regarding_Byrrh.html",
+		"oF": 0
+		},
 	"\/assets\/app-min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -2398,6 +2412,13 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/glossary.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/glossary.html",
+		"oF": 0
 		},
 	"\/grouping-age-statement.html": {
 		"cB": 0,
