@@ -1394,6 +1394,9 @@ header.producerindex .images {
 
 #tabularnav a {
   margin-right: 0.75em; }
+  @media only screen and (max-width: 420px) {
+    #tabularnav a {
+      margin-right: 0.25em; } }
 
 #tabularnav a:hover {
   color: red; }
@@ -1406,30 +1409,27 @@ header.producerindex .images {
   @media only screen and (max-width: 420px) {
     #recipefilters {
       width: 100%;
-      overflow-x: hidden;
-      overflow-y: scroll;
-      max-height: 21em;
-      border-bottom: 2px solid black;
+      display: none;
+      padding: 1em;
+      width: 100%;
+      max-width: 640px;
       position: relative;
-      transition: max-height 1s; } }
+      margin-left: auto;
+      margin-right: auto;
+      height: auto;
+      padding-left: 0.5em;
+      padding-right: 0.5em; } }
   #recipefilters h3 {
     margin-bottom: 0.2em; }
   #recipefilters fieldset {
     margin-bottom: 0.5em; }
 
 #recipeFiltersMoreButton {
-  display: none; }
+  display: none;
+  cursor: pointer; }
   @media only screen and (max-width: 420px) {
     #recipeFiltersMoreButton {
-      display: block;
-      font-size: 75%;
-      border: 2px solid black;
-      background-color: white;
-      text-align: center;
-      margin-left: auto;
-      margin-right: auto;
-      width: 200px;
-      padding: 0.25em 1em; } }
+      display: block; } }
 
 #recipeResultsBlock {
   margin-left: 290px; }
@@ -1458,7 +1458,7 @@ td.combo {
 .mainalt {
   width: 100%; }
 
-.inlineButton {
+.inlineButton, #recipeFiltersMoreButton {
   display: inline-block;
   text-transform: uppercase;
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
@@ -1474,10 +1474,10 @@ td.combo {
   position: relative;
   bottom: 2px; }
   @media print {
-    .inlineButton {
+    .inlineButton, #recipeFiltersMoreButton {
       display: none; } }
 
-a.inlineButton:hover {
+a.inlineButton:hover, #recipeFiltersMoreButton:hover {
   color: white;
   background-color: #a2120f;
   text-decoration: none; }

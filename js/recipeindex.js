@@ -229,13 +229,15 @@ jQuery(document).ready(function() {
 	$("#recipeFiltersMoreButton").click(function() {
 		var target = $(this).prev();
 		if (target.data('expanded') === 'yes') {
-			target.css('max-height','4.25em');
+			// target.css('max-height','4.25em');
+			target.hide();
 			target.data('expanded','no');
-			$(this).text('Expand ▾');
+			$(this).text('Show Recipe Filters');
 		} else {
-			target.css('max-height','100em');
+			// target.css('max-height','100em');
+			target.show();
 			target.data('expanded','yes');
-			$(this).text('Collapse ▴');
+			$(this).text('Hide Recipe Filters');
 		}
 	});
 

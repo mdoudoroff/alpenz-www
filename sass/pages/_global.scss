@@ -1235,6 +1235,10 @@ header.producerindex {
 
 #tabularnav a {
 	margin-right: 0.75em;
+
+	@include respond-to(phone) {
+		margin-right: 0.25em;
+	}
 }
 
 #tabularnav a:hover {
@@ -1250,13 +1254,25 @@ header.producerindex {
 	@include respond-to(phone) {
 		width: 100%;
 
-		overflow-x: hidden;
-		overflow-y: scroll;
-		// max-height: 4.25em;
-		max-height: 21em;
-		border-bottom: 2px solid black;
+		// overflow-x: hidden;
+		// overflow-y: scroll;
+		// // max-height: 4.25em;
+		// max-height: 21em;
+		// border-bottom: 2px solid black;
+		// position: relative;
+	 //    transition: max-height 1s;
+
+	 	display: none;
+		padding: 1em;
+		width: 100%;
+		max-width: 640px;
 		position: relative;
-	    transition: max-height 1s;
+		margin-left: auto;
+		margin-right: auto;
+		height: auto;
+
+		padding-left: 0.5em;
+		padding-right: 0.5em;
 
 	}
 
@@ -1271,17 +1287,18 @@ header.producerindex {
 
 #recipeFiltersMoreButton {
 	display: none;
+	cursor: pointer;
 
 	@include respond-to(phone) {
 		display: block;
-		font-size: 75%;
-		border: 2px solid black;
-		background-color: white;
-		text-align: center;
-		margin-left: auto;
-		margin-right: auto;
-		width: 200px;
-		padding: 0.25em 1em;
+		// font-size: 75%;
+		// border: 2px solid black;
+		// background-color: white;
+		// text-align: center;
+		// margin-left: auto;
+		// margin-right: auto;
+		// width: 200px;
+		// padding: 0.25em 1em;
 	}
 }
 
@@ -1324,7 +1341,7 @@ td.combo {
 	// padding-right: 0.5em;
 }
 
-.inlineButton {
+.inlineButton, #recipeFiltersMoreButton {
 	display:inline-block;
 	// font-size:100%;
 	text-transform: uppercase;
@@ -1352,7 +1369,7 @@ td.combo {
 
 }
 
-a.inlineButton:hover {
+a.inlineButton:hover, #recipeFiltersMoreButton:hover {
 	color: white;
 	background-color: $red;
 	text-decoration: none;
