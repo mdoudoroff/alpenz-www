@@ -1250,8 +1250,10 @@ header.producerindex {
 	@include respond-to(phone) {
 		width: 100%;
 
-		overflow: hidden;
-		max-height: 4.25em;
+		overflow-x: hidden;
+		overflow-y: scroll;
+		// max-height: 4.25em;
+		max-height: 21em;
 		border-bottom: 2px solid black;
 		position: relative;
 	    transition: max-height 1s;
