@@ -1425,11 +1425,11 @@ header.producerindex .images {
     margin-bottom: 0.5em; }
 
 #recipeFiltersMoreButton {
-  display: none;
-  cursor: pointer; }
+  display: none; }
   @media only screen and (max-width: 420px) {
     #recipeFiltersMoreButton {
-      display: block; } }
+      display: inline-block;
+      cursor: pointer; } }
 
 #recipeResultsBlock {
   margin-left: 290px; }
@@ -1458,8 +1458,10 @@ td.combo {
 .mainalt {
   width: 100%; }
 
+.inlineButton {
+  display: inline-block; }
+
 .inlineButton, #recipeFiltersMoreButton {
-  display: inline-block;
   text-transform: uppercase;
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
   letter-spacing: 0;

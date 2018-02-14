@@ -1287,18 +1287,10 @@ header.producerindex {
 
 #recipeFiltersMoreButton {
 	display: none;
-	cursor: pointer;
 
 	@include respond-to(phone) {
-		display: block;
-		// font-size: 75%;
-		// border: 2px solid black;
-		// background-color: white;
-		// text-align: center;
-		// margin-left: auto;
-		// margin-right: auto;
-		// width: 200px;
-		// padding: 0.25em 1em;
+		display: inline-block;
+		cursor: pointer;
 	}
 }
 
@@ -1341,8 +1333,12 @@ td.combo {
 	// padding-right: 0.5em;
 }
 
-.inlineButton, #recipeFiltersMoreButton {
+.inlineButton {
 	display:inline-block;
+}
+
+.inlineButton, #recipeFiltersMoreButton {
+	
 	// font-size:100%;
 	text-transform: uppercase;
 	
