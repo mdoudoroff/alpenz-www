@@ -7,7 +7,7 @@
 		"uuidString": "B5ADC2AB-4759-4D37-B9EB-92E440ECE0B5"
 		}
 	],
-"creatorBuild": "26261",
+"creatorBuild": "26268",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -6297,16 +6297,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/originBranch.Austria.maplet.jpg": {
-		"ft": 16384,
-		"iS": 22176,
-		"oA": 1,
-		"oAP": "\/images\/originBranch.Austria.maplet.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/images\/originBranch.Austria.master-base.jpg": {
 		"ft": 16384,
 		"iS": 156602,
@@ -6537,16 +6527,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/originBranch.France.maplet.jpg": {
-		"ft": 16384,
-		"iS": 20546,
-		"oA": 1,
-		"oAP": "\/images\/originBranch.France.maplet.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/images\/originBranch.france.master-base.jpg": {
 		"ft": 16384,
 		"iS": 156692,
@@ -6612,16 +6592,6 @@
 		"iS": 60469,
 		"oA": 1,
 		"oAP": "\/images\/originBranch.Jamaica.master-map.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/originBranch.Java.maplet.jpg": {
-		"ft": 16384,
-		"iS": 15153,
-		"oA": 1,
-		"oAP": "\/images\/originBranch.Java.maplet.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -6797,16 +6767,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/originBranch.Portugal.maplet.jpg": {
-		"ft": 16384,
-		"iS": 7507,
-		"oA": 1,
-		"oAP": "\/images\/originBranch.Portugal.maplet.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/images\/originBranch.Portugal.master-base.jpg": {
 		"ft": 16384,
 		"iS": 162830,
@@ -6937,16 +6897,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/originBranch.Sweden.maplet.jpg": {
-		"ft": 16384,
-		"iS": 20183,
-		"oA": 1,
-		"oAP": "\/images\/originBranch.Sweden.maplet.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/images\/originBranch.Sweden.master-base.jpg": {
 		"ft": 16384,
 		"iS": 136187,
@@ -7036,16 +6986,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"\/images\/originBranch.West_Indies.maplet.jpg": {
-		"ft": 16384,
-		"iS": 16253,
-		"oA": 1,
-		"oAP": "\/images\/originBranch.West_Indies.maplet.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
 		},
 	"\/images\/originBranch.West_Indies.master-base.jpg": {
 		"ft": 16384,
@@ -22331,6 +22271,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
