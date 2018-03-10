@@ -7,7 +7,7 @@
 		"uuidString": "B5ADC2AB-4759-4D37-B9EB-92E440ECE0B5"
 		}
 	],
-"creatorBuild": "26268",
+"creatorBuild": "26330",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -35,6 +35,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/adhoc.Regarding_Byrrh.html",
+		"oF": 0
+		},
+	"\/adhoc.Storing_and_Serving_-_Wines.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/adhoc.Storing_and_Serving_-_Wines.html",
 		"oF": 0
 		},
 	"\/assets\/app-min.js": {
@@ -2157,6 +2164,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/gfx\/icon.sotolon.png": {
+		"ft": 32768,
+		"iS": 178684,
+		"oA": 1,
+		"oAP": "\/gfx\/icon.sotolon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/gfx\/icon.twitter.svg": {
 		"ft": 2097152,
@@ -6297,6 +6315,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/originBranch.Austria.maplet.jpg": {
+		"ft": 16384,
+		"iS": 10772,
+		"oA": 1,
+		"oAP": "\/images\/originBranch.Austria.maplet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/originBranch.Austria.master-base.jpg": {
 		"ft": 16384,
 		"iS": 156602,
@@ -6527,6 +6555,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/originBranch.France.maplet.jpg": {
+		"ft": 16384,
+		"iS": 9016,
+		"oA": 1,
+		"oAP": "\/images\/originBranch.France.maplet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/originBranch.france.master-base.jpg": {
 		"ft": 16384,
 		"iS": 156692,
@@ -6592,6 +6630,16 @@
 		"iS": 60469,
 		"oA": 1,
 		"oAP": "\/images\/originBranch.Jamaica.master-map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/originBranch.Java.maplet.jpg": {
+		"ft": 16384,
+		"iS": 10505,
+		"oA": 1,
+		"oAP": "\/images\/originBranch.Java.maplet.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -6767,6 +6815,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/originBranch.Portugal.maplet.jpg": {
+		"ft": 16384,
+		"iS": 4090,
+		"oA": 1,
+		"oAP": "\/images\/originBranch.Portugal.maplet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/originBranch.Portugal.master-base.jpg": {
 		"ft": 16384,
 		"iS": 162830,
@@ -6897,6 +6955,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/originBranch.Sweden.maplet.jpg": {
+		"ft": 16384,
+		"iS": 10816,
+		"oA": 1,
+		"oAP": "\/images\/originBranch.Sweden.maplet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/originBranch.Sweden.master-base.jpg": {
 		"ft": 16384,
 		"iS": 136187,
@@ -6986,6 +7054,16 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/originBranch.West_Indies.maplet.jpg": {
+		"ft": 16384,
+		"iS": 7280,
+		"oA": 1,
+		"oAP": "\/images\/originBranch.West_Indies.maplet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/originBranch.West_Indies.master-base.jpg": {
 		"ft": 16384,
@@ -9729,6 +9807,16 @@
 		"iS": 65736,
 		"oA": 1,
 		"oAP": "\/images\/Smith_and_Cross.whitecross.redact.front_.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/specialcategory.sotolon.jpg": {
+		"ft": 16384,
+		"iS": 41203,
+		"oA": 1,
+		"oAP": "\/images\/specialcategory.sotolon.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -18069,6 +18157,13 @@
 		"oAP": "\/product-Dolin-Dolin_Genepy_Des_Alpes_Liqueur.html",
 		"oF": 0
 		},
+	"\/product-Dolin-Dolin_Genepy_le_Chamois_Liqueur.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-Dolin-Dolin_Genepy_le_Chamois_Liqueur.html",
+		"oF": 0
+		},
 	"\/product-Dolin-Dolin_Rouge_Vermouth_de_Chambery.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -18312,6 +18407,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/product-Henriques-HandH_Rainwater_3_Year_Old_Madeira_NV.html",
+		"oF": 0
+		},
+	"\/product-Henriques-HandH_Seco_Especial_5_Year_Old_Madeira.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-Henriques-HandH_Seco_Especial_5_Year_Old_Madeira.html",
 		"oF": 0
 		},
 	"\/product-Henriques-HandH_Sercial_10_Year_Old_Madeira_NV.html": {
@@ -21513,6 +21615,13 @@
 		"oAP": "\/recipes-Dolin-Dolin_Genepy_Des_Alpes_Liqueur.html",
 		"oF": 0
 		},
+	"\/recipes-Dolin-Dolin_Genepy_le_Chamois_Liqueur.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Dolin-Dolin_Genepy_le_Chamois_Liqueur.html",
+		"oF": 0
+		},
 	"\/recipes-Dolin-Dolin_Rouge_Vermouth_de_Chambery.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -22168,6 +22277,20 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sitemap.txt",
+		"oF": 0
+		},
+	"\/specialcategory-Other.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/specialcategory-Other.html",
+		"oF": 0
+		},
+	"\/specialcategory-sotolon.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/specialcategory-sotolon.html",
 		"oF": 0
 		},
 	"\/subcategory-americano.html": {

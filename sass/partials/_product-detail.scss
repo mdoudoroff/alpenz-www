@@ -503,3 +503,19 @@
 	}
 
 }
+
+// special accommodation for Sotolon Selections icon
+.specialIcon {
+	h1,h3 {
+		margin-right: 49px;
+	}
+}
+.specialIconProductDetail {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 99;
+	width: 40px;
+	margin-left: 0.5em;
+	height: 50px;
+}
