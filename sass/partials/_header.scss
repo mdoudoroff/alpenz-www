@@ -13,7 +13,8 @@ $logoheight: 50px;
 	box-shadow: 0 0 15px rgba(0,0,0,.2);
 
 
-	height: 70px;
+	// height: 70px;
+	height: 81px; // new header
 
 	@include respond-to(phone) {
 		height: 40px;
@@ -48,8 +49,10 @@ $logoheight: 50px;
 		line-height: 70px;
 
 		position: absolute;
-		top: 13px;
-		left: 90px;
+		// top: 13px;
+		// left: 90px;
+		top: 3px; // new header
+		left: 8px; // new header
 
 		@include respond-to(phone) {
 			margin: 8px 0 7px 5px;
@@ -88,7 +91,7 @@ $logoheight: 50px;
 
 	.toggle {
 
-		// z-index: 99;
+		display: none;
 
 		position: absolute;
 		top: 0px;
@@ -106,18 +109,6 @@ $logoheight: 50px;
 			line-height: 40px;
 			display: block;
 		}
-
-		// @include respond-to(smalltablet) {
-		// 	line-height: 50px;
-		// }
-
-		// @include respond-to(largetablet) {
-		// 	line-height: 50px;
-		// }
-
-		// @include respond-to(widescreen) {
-		// 	line-height: 70px;
-		// }
 
 	}
 
@@ -137,21 +128,56 @@ $logoheight: 50px;
 		}
 	}
 	
+	#headerTopLayer {
+		height: 45px;
+	}
+
+	#searchDropdownNavItem {
+		position: absolute;
+		right: 0;
+		top: 9px;
+
+		font-family: $subheading-font;
+		font-size: 15px;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+
+		a { 
+			display: block;
+			padding: 0 $gutter;
+			text-decoration: none;
+			position: relative;
+			
+			&:hover {
+				cursor: pointer;
+			}
+		}
+
+		img {
+			vertical-align: middle;
+			margin-right: 3px;	
+		}
+		
+
+		@include respond-to(phone) {
+			display: none;
+		}
+
+	}
 	
 	/* Main Menu */
 	ul { 
+
 		display: block;
 		font-family: $subheading-font;
 		font-size: 15px;
 		font-weight: 700;
 		text-transform: uppercase;
-		text-align: right;
-		margin: 0 auto;
+		text-align: left;
+		// margin: 0 auto;
 		@include box-sizing(border-box);
 
-		// @include respond-to(smalltablet) {
-		// 	display:none;
-		// }		
 		@include respond-to(phone) {
 			width: 100%;
 			display: none;
@@ -163,15 +189,9 @@ $logoheight: 50px;
 			display: inline-block;
 			text-align: center;
 			padding: 0;
-			line-height: 70px;
+			line-height: 36px;
 			letter-spacing: 1px;
 			
-			// @include respond-to(largetablet) {
-			// 	line-height: 50px;
-			// }
-			// @include respond-to(smalltablet) {
-			// 	line-height: 50px;
-			// }
 			@include respond-to(phone) {
 				width: 100%;
 				display: block;
@@ -228,6 +248,7 @@ $logoheight: 50px;
 			
 			/* Horizontal Sub Menu */
 			ul {
+
 				float: none;
 				display: none;
 				margin: 0;
@@ -240,8 +261,9 @@ $logoheight: 50px;
 				white-space: nowrap;
 				width: auto;
 				min-width: 100%;
-				line-height: 40px;
+				line-height: 30px;
 				text-align: center;
+				font-size: 13px;
 				
 				li {
 					float: none;
@@ -250,7 +272,7 @@ $logoheight: 50px;
 					text-align: left;
 					position: relative;
 					white-space: nowrap;
-					line-height: 40px;
+					line-height: 30px;
 					
 					a {
 						padding: 0 20px;
@@ -265,6 +287,16 @@ $logoheight: 50px;
 						}
 					}
 					
+					a.subcat {
+						padding-left: 3em;
+						font-weight: 400;
+					}
+
+					a.cat {
+						font-weight: 700;
+					}
+
+
 					/* Vertical Dropdown Menu */
 					ul {
 						display: none;
@@ -294,14 +326,6 @@ $logoheight: 50px;
 								}
 							}
 
-							a.subcat {
-								padding-left: 3em;
-								font-weight: 400;
-							}
-
-							a.cat {
-								font-weight: 700;
-							}
 						}
 					}
 					/* If sub menu is hovered, show options */
