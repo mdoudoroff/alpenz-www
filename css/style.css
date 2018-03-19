@@ -1526,7 +1526,10 @@ img.socialButton {
 .generalTable th {
   font-weight: bold; }
 .generalTable th, .generalTable td {
-  padding-right: 1em; }
+  vertical-align: top;
+  padding: 0.5em 1em; }
+.generalTable tr.section td {
+  border-top: 1px solid #e3e3e3; }
 
 ul.originTiles {
   list-style-type: none;

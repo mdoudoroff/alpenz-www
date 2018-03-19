@@ -1396,7 +1396,12 @@ img.socialButton {
 		font-weight: bold;
 	}
 	th, td {
-		padding-right: 1em;
+		vertical-align: top;
+		padding: 0.5em 1em;
+	}
+
+	tr.section td {
+		border-top: 1px solid $light_grey;
 	}
 }
 
