@@ -1405,6 +1405,79 @@ img.socialButton {
 	}
 }
 
+.generalForm {
+
+	display: block;
+	background-color: $off-grey;
+	padding: 1em;
+
+	@include respond-to(phone) {
+		padding: 0.5em 0.5em;
+		// background: none;
+	}
+
+	p {
+		margin-bottom: 0.5em;
+	}
+
+	label {
+		font-size: 11px;
+		display: block;
+	}
+
+	input[type=text] {
+		width: 30em;
+		font-size: 14px;
+
+		@include respond-to(phone) {
+			font-size: 12px;
+			width: 100%;
+		}
+	}
+
+}
+
+.info {
+
+	.infoicon {
+		display: inline-block;
+		width: 36px;
+		height: 36px;
+		vertical-align: top;
+
+		@include respond-to(phone) {
+			display: block;
+			float: left;
+		}
+
+		.icon {
+			margin: 0;
+			height: 36px;
+		}
+
+	}
+
+
+	.infotext {
+		margin-left: 0.5em;
+		height: 36px;
+		display: inline-block;
+		line-height: 36px;
+		vertical-align: top;
+
+		@include respond-to(phone) {
+			display: block;
+			line-height: inherit;
+			height: auto;	
+			margin-left: 45px;		
+		}
+
+
+	}
+
+	margin: 0.5em 0;
+}
+
 
 // stuff for the experimental simplified origin index
 // may be generalized later; separable

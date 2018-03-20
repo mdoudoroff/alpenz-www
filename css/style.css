@@ -1531,6 +1531,53 @@ img.socialButton {
 .generalTable tr.section td {
   border-top: 1px solid #e3e3e3; }
 
+.generalForm {
+  display: block;
+  background-color: #edece8;
+  padding: 1em; }
+  @media only screen and (max-width: 420px) {
+    .generalForm {
+      padding: 0.5em 0.5em; } }
+  .generalForm p {
+    margin-bottom: 0.5em; }
+  .generalForm label {
+    font-size: 11px;
+    display: block; }
+  .generalForm input[type=text] {
+    width: 30em;
+    font-size: 14px; }
+    @media only screen and (max-width: 420px) {
+      .generalForm input[type=text] {
+        font-size: 12px;
+        width: 100%; } }
+
+.info {
+  margin: 0.5em 0; }
+  .info .infoicon {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    vertical-align: top; }
+    @media only screen and (max-width: 420px) {
+      .info .infoicon {
+        display: block;
+        float: left; } }
+    .info .infoicon .icon {
+      margin: 0;
+      height: 36px; }
+  .info .infotext {
+    margin-left: 0.5em;
+    height: 36px;
+    display: inline-block;
+    line-height: 36px;
+    vertical-align: top; }
+    @media only screen and (max-width: 420px) {
+      .info .infotext {
+        display: block;
+        line-height: inherit;
+        height: auto;
+        margin-left: 45px; } }
+
 ul.originTiles {
   list-style-type: none;
   margin: 0;
