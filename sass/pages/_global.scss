@@ -1786,3 +1786,47 @@ dd {
 	padding-left: 2em;
 	margin-bottom: 0.5em;
 }
+
+
+// Contentful
+
+.contentful {
+
+	img {
+		width: 100%;
+	}
+
+	width: 640px;
+
+	font-family: Georgia, serif;
+	font-size: 18px;
+	line-height: 1.4;
+
+	h1 {
+		margin-bottom: 2em;
+	}
+
+	h2, h3 {
+		font-family: Georgia, serif;
+		text-transform: none;
+		letter-spacing: 1px;
+		font-weight: normal;
+		line-height: 1.4;
+	}
+
+	h2 {
+		font-size: 27px;
+		font-weight: bold;
+		color: $yellow;
+		margin-top: 2em;
+		font-style: italic;
+	}
+
+	h3 {
+		font-size: 22px;
+		color: $dark_grey;
+		margin-top: 2em;
+		margin-bottom: 0.5em;
+	}
+
+}
