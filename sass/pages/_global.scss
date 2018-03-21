@@ -1802,8 +1802,13 @@ dd {
 	font-size: 18px;
 	line-height: 1.4;
 
+	@include respond-to(phone) {
+		width: 100%;
+		font-size: 16px;
+	}
+
 	h1 {
-		margin-bottom: 2em;
+		margin-bottom: 1em;
 	}
 
 	h2, h3 {
@@ -1818,15 +1823,22 @@ dd {
 		font-size: 27px;
 		font-weight: bold;
 		color: $yellow;
-		margin-top: 2em;
+		margin-top: 1em;
+		margin-bottom: 0.25em;
 		font-style: italic;
+		@include respond-to(phone) {
+			font-size: 24px;
+		}
 	}
 
 	h3 {
 		font-size: 22px;
 		color: $dark_grey;
-		margin-top: 2em;
-		margin-bottom: 0.5em;
+		margin-top: 1em;
+		margin-bottom: 0.25em;
+		@include respond-to(phone) {
+			font-size: 18px;
+		}
 	}
 
 }

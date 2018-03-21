@@ -1782,8 +1782,12 @@ dd {
   line-height: 1.4; }
   .contentful img {
     width: 100%; }
+  @media only screen and (max-width: 420px) {
+    .contentful {
+      width: 100%;
+      font-size: 16px; } }
   .contentful h1 {
-    margin-bottom: 2em; }
+    margin-bottom: 1em; }
   .contentful h2, .contentful h3 {
     font-family: Georgia, serif;
     text-transform: none;
@@ -1794,13 +1798,20 @@ dd {
     font-size: 27px;
     font-weight: bold;
     color: #ffcf06;
-    margin-top: 2em;
+    margin-top: 1em;
+    margin-bottom: 0.25em;
     font-style: italic; }
+    @media only screen and (max-width: 420px) {
+      .contentful h2 {
+        font-size: 24px; } }
   .contentful h3 {
     font-size: 22px;
     color: #484848;
-    margin-top: 2em;
-    margin-bottom: 0.5em; }
+    margin-top: 1em;
+    margin-bottom: 0.25em; }
+    @media only screen and (max-width: 420px) {
+      .contentful h3 {
+        font-size: 18px; } }
 
 .products {
   overflow: hidden;
