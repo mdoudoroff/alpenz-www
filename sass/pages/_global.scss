@@ -1385,6 +1385,17 @@ a.inlineButton:hover, #recipeFiltersMoreButton:hover {
 	margin-right: 0;
 }
 
+.socialIcons span {
+	display: inline-block;
+	background-color: $red;
+	color: white;
+	font-family: $subheading-font;
+	height: 34px;
+	line-height: 34px;
+	border-radius: 17px;
+	padding: 0 9px;
+}
+
 img.socialButton {
 	vertical-align:bottom;
 	height: 37px;

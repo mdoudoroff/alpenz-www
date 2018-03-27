@@ -475,8 +475,9 @@ em, i {
   .sidebarRow .half, .sidebarRowHeader .half {
     border-right: 1px solid #bbbbbb; }
   .sidebarRow .socialIcons, .sidebarRowHeader .socialIcons {
-    text-align: center;
-    padding: 0.1em 0; }
+    text-align: left;
+    margin-left: 1.8em;
+    padding: 0.25em 0; }
 
 .sidebarRowHeader {
   border-top: 2px solid #484848; }
@@ -653,16 +654,26 @@ em, i {
 
 .footer {
   width: 100%;
-  padding: 50px 0;
+  padding: 27px 0;
   background: #fafafa;
   border-top: 1px solid #e3e3e3; }
   @media print {
     .footer {
       display: none; } }
-  .footer div {
-    min-width: 100%;
-    margin: 0 auto;
-    text-align: center; }
+  @media only screen and (max-width: 420px) {
+    .footer {
+      padding: 1em 0 1em 3px; } }
+  .footer div, .footer small {
+    margin: 0 auto; }
+  .footer small {
+    display: block;
+    float: right;
+    line-height: 37px;
+    color: #bbbbbb; }
+    @media only screen and (max-width: 420px) {
+      .footer small {
+        float: none;
+        line-height: inherit; } }
 
 /* This stylesheet mostly fixes missing box-shadows and some minor styling */
 .ie8 .tab_header a.selected,
@@ -1518,6 +1529,16 @@ a.inlineButton:hover, #recipeFiltersMoreButton:hover {
 
 .socialIcons a:last-child {
   margin-right: 0; }
+
+.socialIcons span {
+  display: inline-block;
+  background-color: #a2120f;
+  color: white;
+  font-family: "myriad-pro-condensed", Impact, sans-serif;
+  height: 34px;
+  line-height: 34px;
+  border-radius: 17px;
+  padding: 0 9px; }
 
 img.socialButton {
   vertical-align: bottom;

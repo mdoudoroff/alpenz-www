@@ -1,6 +1,6 @@
 .footer {
 	width: 100%;
-	padding: 50px 0;
+	padding: 27px 0;
 	background: #fafafa;
 	border-top: 1px solid #e3e3e3;
 	
@@ -8,10 +8,25 @@
 		display: none;
 	}
 	
-	div {
-		min-width: 100%;
+	@include respond-to(phone) {
+		padding: 1em 0 1em 3px;
+	}
+
+	div, small {
+		// max-width: 960px;
 		margin: 0 auto;
-		text-align: center;
+	}
+
+	small {
+		display: block;
+		float: right;
+		line-height: 37px;
+		color: $light_grey;
+
+		@include respond-to(phone) {
+			float: none;
+			line-height: inherit;
+		}
 	}
 
 }
