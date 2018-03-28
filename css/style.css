@@ -1038,9 +1038,12 @@ a {
     max-width: 480px;
     line-height: 1.0;
     margin-bottom: 2em;
-    font-size: 100%; }
+    font-size: 14px;
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif; }
     .content .recipeFull p {
       margin-bottom: 1em; }
+    .content .recipeFull img {
+      margin: 0; }
     .content .recipeFull .measure {
       margin-left: 1.5em; }
     @media only screen and (max-width: 420px) {
@@ -1797,12 +1800,9 @@ dd {
   margin-bottom: 0.5em; }
 
 .contentful {
-  width: 640px;
   font-family: Georgia, serif;
   font-size: 18px;
   line-height: 1.4; }
-  .contentful img {
-    width: 100%; }
   @media only screen and (max-width: 420px) {
     .contentful {
       width: 100%;
@@ -1833,6 +1833,19 @@ dd {
     @media only screen and (max-width: 420px) {
       .contentful h3 {
         font-size: 18px; } }
+  .contentful p {
+    width: 640px; }
+  .contentful figure {
+    margin: 1em 0;
+    clear: both; }
+    .contentful figure img {
+      display: inline-block;
+      margin-right: 1em; }
+    .contentful figure figcaption {
+      display: block;
+      clear: both;
+      font-style: italic;
+      text-align: center; }
 
 .products {
   overflow: hidden;

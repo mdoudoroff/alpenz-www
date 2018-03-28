@@ -559,10 +559,15 @@ a {
 
 		line-height: 1.0;
 		margin-bottom: 2em;
-		font-size: 100%;
+		font-size: 14px;
+		font-family: $body-font;
 
 		p {
 			margin-bottom: 1em;
+		}
+
+		img {
+			margin:0;
 		}
 
 		.measure {
@@ -1804,10 +1809,9 @@ dd {
 .contentful {
 
 	img {
-		width: 100%;
+		// the following is problematic
+		// width: 100%;  
 	}
-
-	width: 640px;
 
 	font-family: Georgia, serif;
 	font-size: 18px;
@@ -1850,6 +1854,18 @@ dd {
 		@include respond-to(phone) {
 			font-size: 18px;
 		}
+	}
+
+	p {
+			width: 640px;
+	}
+
+	// this is complete horseshit---must think through
+	figure {
+		margin: 1em 0;
+		clear:both;
+		img { display: inline-block; margin-right: 1em; }
+		figcaption { display: block; clear: both; font-style: italic; text-align: center;}
 	}
 
 }
