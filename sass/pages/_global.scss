@@ -1868,4 +1868,15 @@ dd {
 		figcaption { display: block; clear: both; font-style: italic; text-align: center;}
 	}
 
+	figure.right {
+		width: 50%;
+		margin: 0 0 0 1em;
+		float: right;
+
+		img {
+			width: 100%;
+			margin: 0;
+		}
+	}
+
 }

@@ -203,7 +203,7 @@ em, i {
         top: 11px; } }
   .header #headerTopLayer {
     height: 45px; }
-  .header #searchDropdownNavItem {
+  .header #searchDropdownNavItem, .header #downloadCatalogItem {
     position: absolute;
     right: 0;
     top: 9px;
@@ -212,19 +212,22 @@ em, i {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px; }
-    .header #searchDropdownNavItem a {
+    .header #searchDropdownNavItem a, .header #downloadCatalogItem a {
       display: block;
       padding: 0 18px;
       text-decoration: none;
       position: relative; }
-      .header #searchDropdownNavItem a:hover {
+      .header #searchDropdownNavItem a:hover, .header #downloadCatalogItem a:hover {
         cursor: pointer; }
-    .header #searchDropdownNavItem img {
+    .header #searchDropdownNavItem img, .header #downloadCatalogItem img {
       vertical-align: middle;
       margin-right: 3px; }
     @media only screen and (max-width: 420px) {
-      .header #searchDropdownNavItem {
+      .header #searchDropdownNavItem, .header #downloadCatalogItem {
         display: none; } }
+  .header #downloadCatalogItem {
+    right: 108px;
+    top: 13px; }
   .header ul {
     display: block;
     font-family: "myriad-pro-condensed", Impact, sans-serif;
@@ -1846,6 +1849,13 @@ dd {
       clear: both;
       font-style: italic;
       text-align: center; }
+  .contentful figure.right {
+    width: 50%;
+    margin: 0 0 0 1em;
+    float: right; }
+    .contentful figure.right img {
+      width: 100%;
+      margin: 0; }
 
 .products {
   overflow: hidden;

@@ -132,7 +132,7 @@ $logoheight: 50px;
 		height: 45px;
 	}
 
-	#searchDropdownNavItem {
+	#searchDropdownNavItem, #downloadCatalogItem {
 		position: absolute;
 		right: 0;
 		top: 9px;
@@ -164,6 +164,11 @@ $logoheight: 50px;
 			display: none;
 		}
 
+	}
+
+	#downloadCatalogItem {
+		right: 108px;
+		top: 13px;
 	}
 	
 	/* Main Menu */
