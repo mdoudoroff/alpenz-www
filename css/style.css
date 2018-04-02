@@ -1840,20 +1840,28 @@ dd {
     width: 640px; }
   .contentful figure {
     margin: 1em 0;
-    clear: both; }
+    clear: both;
+    width: 640px; }
     .contentful figure img {
       display: inline-block;
-      margin-right: 1em; }
+      width: 100%;
+      margin: 0; }
     .contentful figure figcaption {
       display: block;
       clear: both;
       font-style: italic;
       text-align: center; }
-  .contentful figure.right {
+  .contentful figure.aside {
     width: 50%;
     margin: 0 0 0 1em;
     float: right; }
-    .contentful figure.right img {
+    .contentful figure.aside img {
+      width: 100%;
+      margin: 0; }
+  .contentful figure.max {
+    width: 100%;
+    margin: 0; }
+    .contentful figure.max img {
       width: 100%;
       margin: 0; }
 

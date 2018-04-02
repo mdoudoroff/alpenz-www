@@ -1864,11 +1864,12 @@ dd {
 	figure {
 		margin: 1em 0;
 		clear:both;
-		img { display: inline-block; margin-right: 1em; }
+		img { display: inline-block; width: 100%; margin: 0;}
 		figcaption { display: block; clear: both; font-style: italic; text-align: center;}
+		width: 640px;
 	}
 
-	figure.right {
+	figure.aside {
 		width: 50%;
 		margin: 0 0 0 1em;
 		float: right;
@@ -1878,5 +1879,16 @@ dd {
 			margin: 0;
 		}
 	}
+
+	figure.max {
+		width: 100%;
+		margin: 0;
+
+		img {
+			width: 100%;
+			margin: 0;
+		}
+	}
+
 
 }
