@@ -1823,7 +1823,53 @@ dd {
 	}
 
 	h1 {
+		text-align: center;
 		margin-bottom: 1em;
+		margin-top: 1em;
+	}
+
+	.articleCategory {
+		margin-top: 1em;
+		text-align: center;
+
+		span {
+			background-color: $dark_grey;
+			color: white;
+			font-family: $subheading-font;
+			font-size: 15px;
+			text-transform: uppercase;
+			padding: 3px 9px;
+			font-weight: bold;
+			letter-spacing: 1px;		
+
+
+			@include respond-to(phone) {
+				font-size: 12px;
+			}
+
+		}
+	}
+
+	.byline {
+		text-align: center;
+		padding-bottom: 1em;
+		border-bottom: 1px solid $light_grey;
+		margin-bottom: 1em;
+		font-family: $body-font;
+		font-size: 15px;
+
+		@include respond-to(phone) {
+			font-size: 12px;
+		}
+
+	}
+
+	.dingbat {
+		text-align: center;
+		color: $light_grey;
+		padding-bottom: 1em;
+		margin-bottom: 1em;
+		font-family: $body-font;
 	}
 
 	h2, h3 {
@@ -1840,7 +1886,6 @@ dd {
 		color: $yellow;
 		margin-top: 1em;
 		margin-bottom: 0.25em;
-		font-style: italic;
 		@include respond-to(phone) {
 			font-size: 24px;
 		}
@@ -1857,20 +1902,44 @@ dd {
 	}
 
 	p {
-			width: 640px;
+		margin-left: 170px;
+		max-width: 620px;
+
+		@include respond-to(phone) {
+			margin-left: inherit;
+
+		}
 	}
 
 	// this is complete horseshit---must think through
 	figure {
+		text-align: center;
 		margin: 1em 0;
 		clear:both;
-		img { display: inline-block; width: 100%; margin: 0;}
-		figcaption { display: block; clear: both; font-style: italic; text-align: center;}
-		width: 640px;
+
+		img { 
+			display: inline-block; 
+			width: 620px; 
+			margin: 0;
+
+			@include respond-to(phone) {
+				width: 100%;
+			}
+
+		}
+		
+		figcaption { 
+			display: block; 
+			clear: both; 
+			text-align: center;
+			color: $grey;
+			font-size: 90%;
+		}
+
 	}
 
 	figure.aside {
-		width: 50%;
+		width: 33%;
 		margin: 0 0 0 1em;
 		float: right;
 
@@ -1878,6 +1947,11 @@ dd {
 			width: 100%;
 			margin: 0;
 		}
+
+		@include respond-to(phone) {
+			width: 40%;
+		}
+
 	}
 
 	figure.max {
