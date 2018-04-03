@@ -1856,17 +1856,24 @@ dd {
     font-weight: bold;
     color: #ffcf06;
     margin-top: 1em;
-    margin-bottom: 0.25em; }
+    margin-bottom: 0.25em;
+    margin-left: 170px;
+    max-width: 620px;
+    text-align: center; }
     @media only screen and (max-width: 420px) {
       .contentful h2 {
+        margin-left: inherit;
         font-size: 24px; } }
   .contentful h3 {
     font-size: 22px;
     color: #484848;
     margin-top: 1em;
-    margin-bottom: 0.25em; }
+    margin-bottom: 0.25em;
+    margin-left: 170px;
+    max-width: 620px; }
     @media only screen and (max-width: 420px) {
       .contentful h3 {
+        margin-left: inherit;
         font-size: 18px; } }
   .contentful p {
     margin-left: 170px;
@@ -1907,6 +1914,17 @@ dd {
     .contentful figure.max img {
       width: 100%;
       margin: 0; }
+  .contentful div.recipeFull {
+    margin-left: 170px;
+    display: block; }
+    .contentful div.recipeFull h1 {
+      margin-top: 0;
+      text-align: left; }
+    .contentful div.recipeFull p {
+      margin-left: 0; }
+    @media only screen and (max-width: 420px) {
+      .contentful div.recipeFull {
+        margin-left: inherit; } }
 
 .products {
   overflow: hidden;
