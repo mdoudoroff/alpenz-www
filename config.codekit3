@@ -30,6 +30,13 @@
 		"oAP": "\/adhoc.Beermuth_Room_11_Updates_the_Amer_Biere.html",
 		"oF": 0
 		},
+	"\/adhoc.How_to_Store_Wines.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/adhoc.How_to_Store_Wines.html",
+		"oF": 0
+		},
 	"\/adhoc.La_Vida_Rancio.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -359,8 +366,7 @@
 		"oF": 0
 		},
 	"\/config.rb": {
-		"cB": 0,
-		"ft": 8192,
+		"ft": 131072,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0
@@ -22529,6 +22535,26 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/test.hyperesources\/hausalpenz_lineup1.jpg": {
+		"ft": 16384,
+		"iS": 85306,
+		"oA": 1,
+		"oAP": "\/test.hyperesources\/hausalpenz_lineup1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/test.hyperesources\/hausalpenz_lineup1_2x.jpg": {
+		"ft": 16384,
+		"iS": 204800,
+		"oA": 1,
+		"oAP": "\/test.hyperesources\/hausalpenz_lineup1_2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/test.hyperesources\/Haymans-Royal-Dock-750ml-edit.jpg": {
 		"ft": 16384,
 		"iS": 144971,
@@ -22625,26 +22651,6 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
-		},
-	"\/test.hyperesources\/white-wine.jpg": {
-		"ft": 16384,
-		"iS": 55479,
-		"oA": 1,
-		"oAP": "\/test.hyperesources\/white-wine.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/test.hyperesources\/white-wine_2x.jpg": {
-		"ft": 16384,
-		"iS": 116008,
-		"oA": 1,
-		"oAP": "\/test.hyperesources\/white-wine_2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
 		}
 	},
 "hooks": [
