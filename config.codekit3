@@ -366,7 +366,8 @@
 		"oF": 0
 		},
 	"\/config.rb": {
-		"ft": 131072,
+		"cB": 0,
+		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0
@@ -21566,6 +21567,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/recipe-0526-0409.html",
+		"oF": 0
+		},
+	"\/recipe-0526-0410.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipe-0526-0410.html",
 		"oF": 0
 		},
 	"\/recipes-Abbe_Rous-Abbe_Rous_Matifoc_Rancio_Sec.html": {

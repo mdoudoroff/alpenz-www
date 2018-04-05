@@ -1844,7 +1844,8 @@ dd {
     color: #e3e3e3;
     padding-bottom: 1em;
     margin-bottom: 1em;
-    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif; }
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+    clear: both; }
   .contentful h2, .contentful h3 {
     font-family: Georgia, serif;
     text-transform: none;
