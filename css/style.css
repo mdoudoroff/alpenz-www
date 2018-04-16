@@ -1646,46 +1646,62 @@ ul.originTiles {
     ul.originTiles li a:hover {
       text-decoration: none; }
 
-ul.producerTiles {
+ul.producerTiles, ul.producerTilesLarge {
   list-style-type: none;
   margin: 0;
   padding: 0;
   margin-bottom: 1em; }
-  ul.producerTiles li {
+  ul.producerTiles li, ul.producerTilesLarge li {
     vertical-align: top;
     margin: 0;
-    width: 150px;
+    width: 110px;
+    height: 146px;
     display: inline-block;
-    height: 189px;
     margin-right: 6px;
     font-family: "myriad-pro-condensed", Impact, sans-serif; }
     @media only screen and (max-width: 420px) {
-      ul.producerTiles li {
+      ul.producerTiles li, ul.producerTilesLarge li {
         font-size: 80%;
-        width: 120px;
-        height: 160px; } }
-    ul.producerTiles li .logo {
+        width: 89px;
+        height: 119px; } }
+    ul.producerTiles li .logo, ul.producerTilesLarge li .logo {
       position: relative;
-      width: 150px;
-      height: 150px;
+      width: 110px;
+      height: 110px;
       padding: 0.5em;
       border: 2px solid #ddd;
       margin-bottom: 0;
       vertical-align: middle; }
-      ul.producerTiles li .logo img {
+      ul.producerTiles li .logo img, ul.producerTilesLarge li .logo img {
         width: 100%;
         height: auto;
         position: relative;
         top: 50%;
         transform: translateY(-50%); }
       @media only screen and (max-width: 420px) {
-        ul.producerTiles li .logo {
-          width: 120px;
-          height: 120px; } }
-    ul.producerTiles li a:hover .logo {
+        ul.producerTiles li .logo, ul.producerTilesLarge li .logo {
+          width: 89px;
+          height: 89px; } }
+    ul.producerTiles li a:hover .logo, ul.producerTilesLarge li a:hover .logo {
       border-color: #eb2f2c; }
-    ul.producerTiles li a:hover {
+    ul.producerTiles li a:hover, ul.producerTilesLarge li a:hover {
       text-decoration: none; }
+
+ul.producerTilesLarge li {
+  width: 150px;
+  height: 189px; }
+  @media only screen and (max-width: 420px) {
+    ul.producerTilesLarge li {
+      font-size: 80%;
+      width: 89px;
+      height: 119px; } }
+  ul.producerTilesLarge li .logo {
+    width: 150px;
+    height: 150px; }
+    @media only screen and (max-width: 420px) {
+      ul.producerTilesLarge li .logo {
+        width: 89px;
+        height: 89px; } }
 
 .country {
   clear: both;

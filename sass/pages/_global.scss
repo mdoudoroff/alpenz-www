@@ -1558,7 +1558,7 @@ ul.originTiles {
 	}
 }
 
-ul.producerTiles {
+ul.producerTiles, ul.producerTilesLarge {
 	list-style-type: none;
 	margin:0;
 	padding:0;
@@ -1566,27 +1566,23 @@ ul.producerTiles {
 	li {
 		vertical-align: top;
 		margin: 0;
-		// width: 180px;
-		width: 150px;
+		width: 110px;
+		height: 146px;
 		display: inline-block;
-		// height: 250px;
-		height: 189px;
 		margin-right: 6px;
 
 		@include respond-to(phone) {
 			font-size: 80%;
-			width: 120px;
-			height: 160px;
+			width: 89px;
+			height: 119px;
 		}
 
 		font-family: $subheading-font;
 
 		.logo {
 			position: relative;
-			// width: 180px;
-			// height: 180px;
-			width: 150px;
-			height: 150px;
+			width: 110px;
+			height: 110px;
 			padding: 0.5em;
 			border: 2px solid #ddd;
 			margin-bottom: 0;
@@ -1604,11 +1600,12 @@ ul.producerTiles {
 			}
 
 			@include respond-to(phone) {
-				width: 120px;
-				height: 120px;			
+				width: 89px;
+				height: 89px;			
 			}
 
 		}
+
 		a:hover .logo {
 			border-color: $link_hover;
 		}
@@ -1618,6 +1615,32 @@ ul.producerTiles {
 	}
 }
 
+ul.producerTilesLarge {
+	li {
+		width: 150px;
+		height: 189px;
+
+		@include respond-to(phone) {
+			font-size: 80%;
+			width: 89px;
+			height: 119px;
+		}
+
+		.logo {
+			width: 150px;
+			height: 150px;
+
+			@include respond-to(phone) {
+				width: 89px;
+				height: 89px;			
+			}
+
+		}
+
+	}
+
+
+}
 
 // stuff for the origin index
 
