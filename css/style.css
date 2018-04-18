@@ -605,7 +605,6 @@ em, i {
   right: 0px;
   margin-left: auto;
   margin-right: auto;
-  min-height: 2000px;
   z-index: 999; }
   @media only screen and (max-width: 420px) {
     #searchOverlay {

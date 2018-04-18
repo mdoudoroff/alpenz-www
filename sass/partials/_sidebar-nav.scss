@@ -230,7 +230,7 @@
 	right: 0px;
 	margin-left: auto;
 	margin-right: auto;
-	min-height: 2000px;
+	// min-height: 2000px;
 	z-index: 999;
 
 	@include respond-to(phone) {
