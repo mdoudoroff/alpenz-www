@@ -5,23 +5,45 @@
 //var searchPrompt = 'Search by ingredient name...';
 var searchPrompt = '';
 
+function dismissSearchOverlay() {
+	$('#searchOverlay').remove();
+	$('#shadowbox').remove();
+}
+
 jQuery(document).ready(function() {
 
+	$(document).keyup(function(e) {
+		if (e.keyCode == 27) { // escape key maps to keycode `27`
+			dismissSearchOverlay();
+    	}	
+	});
+
 	$('#invokeSearchOverlay').click(function() {
-		$('#regularContent').hide();
-		$('#searchOverlay').show();
+		var shadowbox = $('<div id="shadowbox"></div>');
+		var searchoverlay = $('<div id="searchOverlay"><div class="searchBar">Search Haus Alpenz: <input id="searchBox" /></div><span id="dismissSearchOverlay"><img src="gfx/dismiss.png" height="18" width="18" /></span><div id="searchResults"></div></div>')
+		$('#regularContent').append(shadowbox);
+		$('#regularContent').append(searchoverlay);
+		shadowbox.click(function(){
+			dismissSearchOverlay();
+		});
+		$('#dismissSearchOverlay').click(function() {
+			dismissSearchOverlay();
+		});
 		$('#searchBox').focus();
 	});
 
 	$('#invokeSearchOverlayMobile').click(function() {
-		$('#regularContent').hide();
-		$('#searchOverlay').show();
+		var shadowbox = $('<div id="shadowbox"></div>');
+		var searchoverlay = $('<div id="searchOverlay"><div class="searchBar">Search Haus Alpenz: <input id="searchBox" /></div><span id="dismissSearchOverlay"><img src="gfx/dismiss.png" height="18" width="18" /></span><div id="searchResults"></div></div>')
+		$('#regularContent').append(shadowbox);
+		$('#regularContent').append(searchoverlay);
+		shadowbox.click(function(){
+			dismissSearchOverlay();
+		});
+		$('#dismissSearchOverlay').click(function() {
+			dismissSearchOverlay();
+		});
 		$('#searchBox').focus();
-	});
-
-	$('#dismissSearchOverlay').click(function() {
-		$('#regularContent').show();
-		$('#searchOverlay').hide();
 	});
 
 	// dynamic search binding (keyup-based)
