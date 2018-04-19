@@ -3,6 +3,7 @@
 	padding: 27px 0;
 	background: #fafafa;
 	border-top: 1px solid #e3e3e3;
+	position: relative;
 	
 	@include respond-to(print) {
 		display: none;
@@ -27,6 +28,15 @@
 			float: none;
 			line-height: inherit;
 		}
+
+	}
+
+	#buildstamp {
+		color: #fafafa;
+		font-size: 80%;
+		position: absolute;
+		bottom: 0;
+		right: 9px;
 	}
 
 }

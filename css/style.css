@@ -672,7 +672,8 @@ em, i {
   width: 100%;
   padding: 27px 0;
   background: #fafafa;
-  border-top: 1px solid #e3e3e3; }
+  border-top: 1px solid #e3e3e3;
+  position: relative; }
   @media print {
     .footer {
       display: none; } }
@@ -690,6 +691,12 @@ em, i {
       .footer small {
         float: none;
         line-height: inherit; } }
+  .footer #buildstamp {
+    color: #fafafa;
+    font-size: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 9px; }
 
 /* This stylesheet mostly fixes missing box-shadows and some minor styling */
 .ie8 .tab_header a.selected,
@@ -1955,6 +1962,11 @@ dd {
     @media only screen and (max-width: 420px) {
       .contentful div.recipeFull {
         margin-left: inherit; } }
+
+.renderstamp {
+  position: relative;
+  bottom: 0;
+  right: 0; }
 
 .products {
   overflow: hidden;
