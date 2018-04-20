@@ -1963,11 +1963,6 @@ dd {
       .contentful div.recipeFull {
         margin-left: inherit; } }
 
-.renderstamp {
-  position: relative;
-  bottom: 0;
-  right: 0; }
-
 .products {
   overflow: hidden;
   margin: 0 0 2em 0;
