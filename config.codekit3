@@ -30,34 +30,6 @@
 		"oAP": "\/_drafts.html",
 		"oF": 0
 		},
-	"\/adhoc.Beermuth_Room_11_Updates_the_Amer_Biere.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/adhoc.Beermuth_Room_11_Updates_the_Amer_Biere.html",
-		"oF": 0
-		},
-	"\/adhoc.How_to_Store_Wines.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/adhoc.How_to_Store_Wines.html",
-		"oF": 0
-		},
-	"\/adhoc.Royal_Dock_Gin_Returns_to_London.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/adhoc.Royal_Dock_Gin_Returns_to_London.html",
-		"oF": 0
-		},
-	"\/adhoc.The_Revival_of_Rancio_Sec.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/adhoc.The_Revival_of_Rancio_Sec.html",
-		"oF": 0
-		},
 	"\/assets\/app-min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -286,6 +258,13 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/beermuth.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/beermuth.html",
+		"oF": 0
 		},
 	"\/category-aperitif-aromatized_wines.html": {
 		"cB": 0,
@@ -3151,6 +3130,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/grouping-vintage.html",
+		"oF": 0
+		},
+	"\/how_to_store_wines.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/how_to_store_wines.html",
 		"oF": 0
 		},
 	"\/hyperlinking.html": {
@@ -19038,13 +19024,6 @@
 		"oAP": "\/payment.html",
 		"oF": 0
 		},
-	"\/producer-.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/producer-.html",
-		"oF": 0
-		},
 	"\/producer-Abbe_Rous.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -23187,6 +23166,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/robots.txt",
+		"oF": 0
+		},
+	"\/royal_dock_gin_returns_to_london.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/royal_dock_gin_returns_to_london.html",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/07f6263b6fb746b489856741e2c45c7a6c00b70c\/_header.scssc": {
