@@ -519,3 +519,20 @@
 	margin-left: 0.5em;
 	height: 50px;
 }
+
+.viticultureTable {
+	font-size: 12px;
+	margin-top: 0.25em;
+	th {
+		font-weight: bold;
+	}
+	th, td {
+		vertical-align: top;
+		padding: 0.25em 1em 0.25em 0;
+	}
+
+	tr.section td {
+		border-top: 1px solid $light_grey;
+	}
+
+}

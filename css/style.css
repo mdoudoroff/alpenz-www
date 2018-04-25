@@ -2589,6 +2589,17 @@ div.grouping {
   margin-left: 0.5em;
   height: 50px; }
 
+.viticultureTable {
+  font-size: 12px;
+  margin-top: 0.25em; }
+  .viticultureTable th {
+    font-weight: bold; }
+  .viticultureTable th, .viticultureTable td {
+    vertical-align: top;
+    padding: 0.25em 1em 0.25em 0; }
+  .viticultureTable tr.section td {
+    border-top: 1px solid #e3e3e3; }
+
 /*************************************/
 /*   
 /*	Import plugins
