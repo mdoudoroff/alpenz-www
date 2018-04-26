@@ -301,6 +301,15 @@ $logoheight: 50px;
 						font-weight: 700;
 					}
 
+					.menuitemicon {
+						height: 16px;
+						margin-left: 0.3em;
+						margin-right: 0.3em;
+						vertical-align: baseline;
+						position: relative;
+						bottom: -2px;
+					}
+
 
 					/* Vertical Dropdown Menu */
 					ul {

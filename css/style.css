@@ -324,6 +324,13 @@ em, i {
             font-weight: 400; }
           .header ul li ul li a.cat {
             font-weight: 700; }
+          .header ul li ul li .menuitemicon {
+            height: 16px;
+            margin-left: 0.3em;
+            margin-right: 0.3em;
+            vertical-align: baseline;
+            position: relative;
+            bottom: -2px; }
           .header ul li ul li ul {
             display: none;
             position: absolute;
@@ -667,6 +674,21 @@ em, i {
     height: 160px;
     width: auto;
     margin-right: 0; }
+
+.menuitemicon {
+  height: 16px;
+  margin-left: 0.3em;
+  margin-right: 0.3em;
+  vertical-align: baseline;
+  position: relative;
+  bottom: -2px; }
+
+.specialhierarchicalmenulogotype {
+  height: 25px;
+  width: auto;
+  vertical-align: bottom;
+  position: relative;
+  bottom: 5px; }
 
 .footer {
   width: 100%;
@@ -1139,6 +1161,9 @@ a {
   padding-top: 1em; }
   #productSummaryContainer .product_description p {
     max-width: 360px; }
+
+section header {
+  position: relative; }
 
 header.producerindex h1 {
   margin-bottom: 0; }
@@ -1963,6 +1988,26 @@ dd {
       .contentful div.recipeFull {
         margin-left: inherit; } }
 
+.specialIcon h1, .specialIcon h3 {
+  margin-right: 235px; }
+  @media only screen and (max-width: 420px) {
+    .specialIcon h1, .specialIcon h3 {
+      margin-right: 0; } }
+
+.specialIconProductDetail, .specialIconCategoryIndex {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 99;
+  width: 235px;
+  margin-left: 0.5em;
+  height: auto; }
+  @media only screen and (max-width: 420px) {
+    .specialIconProductDetail, .specialIconCategoryIndex {
+      position: relative;
+      display: block;
+      margin: 0 0 3px 0; } }
+
 .products {
   overflow: hidden;
   margin: 0 0 2em 0;
@@ -2576,18 +2621,6 @@ div.grouping {
       padding-bottom: 3px;
       border-top: 1px solid #dddcd8;
       border-bottom: 1px solid #dddcd8; }
-
-.specialIcon h1, .specialIcon h3 {
-  margin-right: 49px; }
-
-.specialIconProductDetail {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 99;
-  width: 40px;
-  margin-left: 0.5em;
-  height: 50px; }
 
 .viticultureTable {
   font-size: 12px;

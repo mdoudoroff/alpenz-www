@@ -739,6 +739,7 @@ a {
 
 section header {
 	// margin: 0 0.5em;
+	position: relative;
 }
 
 header.producerindex {
@@ -2019,3 +2020,28 @@ dd {
 
 }
 
+// special accommodation for Sotolon Selections icon
+.specialIcon {
+	h1,h3 {
+		margin-right: 235px;
+
+		@include respond-to(phone) {
+			margin-right: 0;
+		}	
+	}
+}
+.specialIconProductDetail,.specialIconCategoryIndex {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 99;
+	width: 235px;
+	margin-left: 0.5em;
+	height: auto;
+
+	@include respond-to(phone) {
+		position: relative;
+		display: block;
+		margin: 0 0 3px 0;
+	}	
+}
