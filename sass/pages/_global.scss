@@ -2045,3 +2045,34 @@ dd {
 		margin: 0 0 3px 0;
 	}	
 }
+
+a.tokenlink {
+	display: inline-block;
+	background: $red;
+	padding: 4px 8px;
+	margin: 0 0.5em 0 0;
+	border: 0px;
+	font-size: 12px;
+	line-height: 1em;
+	font-family: $subheading-font;
+	text-transform: uppercase;
+	color: #fff !important;
+	@include box-sizing(border-box);
+	-webkit-appearance: none;
+	@include border-radius(0px);
+	text-decoration: none !important;
+
+	&:hover {
+		cursor: pointer;
+		color: #fff;
+		background: lighten($red, 10%);
+	}
+	
+	&.fullprofile {
+		margin: 20px 0 0 0;
+		
+		@include respond-to(print) {
+			display: none;
+		}
+	}
+}

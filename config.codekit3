@@ -329,6 +329,13 @@
 		"oAP": "\/category-rum.html",
 		"oF": 0
 		},
+	"\/category-sotolon_selections.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/category-sotolon_selections.html",
+		"oF": 0
+		},
 	"\/category-sparkling_wine.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -19455,6 +19462,13 @@
 		"oAP": "\/product-Cocchi-Cocchi_Vermouth_di_Torino.html",
 		"oF": 0
 		},
+	"\/product-Comoz-Comoz_Blanc_Vermouth_de_Chambery.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-Comoz-Comoz_Blanc_Vermouth_de_Chambery.html",
+		"oF": 0
+		},
 	"\/product-Dolin-Dolin_Blanc_Vermouth_de_Chambery.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -23647,11 +23661,60 @@
 		"oAP": "\/sitemap.txt",
 		"oF": 0
 		},
+	"\/specialcategory-fortified.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/specialcategory-fortified.html",
+		"oF": 0
+		},
+	"\/specialcategory-fully_oxidized.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/specialcategory-fully_oxidized.html",
+		"oF": 0
+		},
+	"\/specialcategory-oxidative.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/specialcategory-oxidative.html",
+		"oF": 0
+		},
+	"\/specialcategory-oxidative_biological.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/specialcategory-oxidative_biological.html",
+		"oF": 0
+		},
+	"\/specialcategory-reductive.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/specialcategory-reductive.html",
+		"oF": 0
+		},
+	"\/specialcategory-reductive_biological.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/specialcategory-reductive_biological.html",
+		"oF": 0
+		},
 	"\/specialcategory-sotolon.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/specialcategory-sotolon.html",
+		"oF": 0
+		},
+	"\/specialcategory-unfortified.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/specialcategory-unfortified.html",
 		"oF": 0
 		},
 	"\/subcategory-americano.html": {
