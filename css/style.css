@@ -681,11 +681,10 @@ em, i {
   white-space: nowrap;
   position: relative;
   width: 160px;
-  height: 160px;
   text-align: center;
   background-color: white; }
   #searchResults .logo img {
-    width: 160px;
+    width: 100%;
     height: auto;
     margin-right: 0; }
 
