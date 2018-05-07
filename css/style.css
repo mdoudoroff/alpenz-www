@@ -683,6 +683,9 @@ em, i {
   width: 160px;
   text-align: center;
   background-color: white; }
+  @media only screen and (max-width: 420px) {
+    #searchResults .logo {
+      width: 120px; } }
   #searchResults .logo img {
     width: 100%;
     height: auto;

@@ -353,6 +353,7 @@
 	background-color: white;
 
 	@include respond-to(phone) {
+		width: 120px;
 	}
 
 	img {
