@@ -259,7 +259,7 @@
 }
 
 #searchResults {
-	padding: 1em;
+	// padding: 1em;
 	display: none; //hidden by default
 
 	a {
@@ -271,9 +271,10 @@
 	}
 
 	.match {
-		padding: 0.25em;
-		border-top: 1px solid $off-grey-dark;
+		padding: 0.5em;
+		border: 2px solid $off-grey-dark;
 		clear: both;
+		background-color: #fff;
 
 		.icons {
 			display: table-cell;
@@ -293,7 +294,8 @@
 	}
 
 	.match:hover {
-		background-color: $off-grey-dark;
+		// background-color: $off-grey-dark;
+		border: 2px solid $red;
 	}
 
 	@include respond-to(phone) {

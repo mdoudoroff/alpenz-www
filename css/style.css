@@ -635,16 +635,16 @@ em, i {
   font-size: 16px; }
 
 #searchResults {
-  padding: 1em;
   display: none; }
   #searchResults a {
     color: black; }
   #searchResults a:hover {
     text-decoration: none; }
   #searchResults .match {
-    padding: 0.25em;
-    border-top: 1px solid #dddcd8;
-    clear: both; }
+    padding: 0.5em;
+    border: 2px solid #dddcd8;
+    clear: both;
+    background-color: #fff; }
     #searchResults .match .icons {
       display: table-cell;
       width: 90px;
@@ -656,7 +656,7 @@ em, i {
       font-weight: bold;
       font-size: 16px; }
   #searchResults .match:hover {
-    background-color: #dddcd8; }
+    border: 2px solid #a2120f; }
   @media only screen and (max-width: 420px) {
     #searchResults {
       padding: 0; } }
