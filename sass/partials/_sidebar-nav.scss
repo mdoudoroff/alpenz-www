@@ -302,6 +302,7 @@
 }
 
 
+// used in search results (rename this class?)
 .clusterbottle2 {
 	display: block;
 	float: right;
@@ -335,11 +336,32 @@
 
 }
 
-// .clusterbottle2:after {
-//      content: "";
-//      float: left;
-//      margin-top: 100%;
-//  }
+#searchResults .logo {
+	display: block;
+	float: right;
+
+	white-space: nowrap;
+
+    position: relative;
+
+	// height:50px;
+	width: 160px;
+	height: 160px;
+	text-align: center;
+
+	background-color: white;
+
+	@include respond-to(phone) {
+	}
+
+	img {
+
+		width: 160px;
+		height: auto;
+		margin-right: 0;
+
+	}
+}
 
 .menuitemicon {
 	height: 16px;

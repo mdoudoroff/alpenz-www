@@ -675,6 +675,20 @@ em, i {
     width: auto;
     margin-right: 0; }
 
+#searchResults .logo {
+  display: block;
+  float: right;
+  white-space: nowrap;
+  position: relative;
+  width: 160px;
+  height: 160px;
+  text-align: center;
+  background-color: white; }
+  #searchResults .logo img {
+    width: 160px;
+    height: auto;
+    margin-right: 0; }
+
 .menuitemicon {
   height: 16px;
   margin-left: 0.3em;
