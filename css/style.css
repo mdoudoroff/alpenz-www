@@ -2034,7 +2034,7 @@ a.tokenlink {
   line-height: 1em;
   font-family: "myriad-pro-condensed", Impact, sans-serif;
   text-transform: uppercase;
-  font-weight: normal;
+  font-weight: normal !important;
   color: #fff !important;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
