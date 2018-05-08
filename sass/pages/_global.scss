@@ -2056,6 +2056,7 @@ a.tokenlink {
 	line-height: 1em;
 	font-family: $subheading-font;
 	text-transform: uppercase;
+	font-weight: normal;
 	color: #fff !important;
 	@include box-sizing(border-box);
 	-webkit-appearance: none;

@@ -344,8 +344,7 @@
 		"oF": 0
 		},
 	"\/config.rb": {
-		"cB": 0,
-		"ft": 8192,
+		"ft": 131072,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0
@@ -1207,12 +1206,12 @@
 		"oAP": "\/downloads\/Falernum.velvet-falernum.talker.pdf",
 		"oF": 0
 		},
-	"\/downloads\/Genepy.bottle.genepy-chamois.jpg": {
+	"\/downloads\/Genepy.bottle.Genepy-le-Chamois.jpg": {
 		"ft": 16384,
-		"iS": 203489,
+		"iS": 146572,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/downloads\/Genepy.bottle.genepy-chamois.jpg",
+		"oAP": "\/downloads\/Genepy.bottle.Genepy-le-Chamois.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -5030,6 +5029,39 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/Comoz_Blanc.bottle.Vermouth-COMOZ-Export.jpg": {
+		"ft": 16384,
+		"iS": 184487,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/images\/Comoz_Blanc.bottle.Vermouth-COMOZ-Export.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/Comoz_Blanc.context.Comoz-postcard.jpg": {
+		"ft": 16384,
+		"iS": 1000883,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/images\/Comoz_Blanc.context.Comoz-postcard.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/Comoz_Blanc.label.COMOZ.jpg": {
+		"ft": 16384,
+		"iS": 476878,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/images\/Comoz_Blanc.label.COMOZ.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/Dolin_Blanc.blanc-bottle.jpg": {
 		"ft": 16384,
 		"iS": 777499,
@@ -5393,12 +5425,12 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/Genepy.bottle.genepy-chamois.jpg": {
+	"\/images\/Genepy.bottle.Genepy-le-Chamois.jpg": {
 		"ft": 16384,
-		"iS": 171966,
+		"iS": 146572,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/images\/Genepy.bottle.genepy-chamois.jpg",
+		"oAP": "\/images\/Genepy.bottle.Genepy-le-Chamois.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -23674,6 +23706,20 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/specialcategory-fully_oxidized.html",
+		"oF": 0
+		},
+	"\/specialcategory-methode_charmat.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/specialcategory-methode_charmat.html",
+		"oF": 0
+		},
+	"\/specialcategory-methode_traditionnelle.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/specialcategory-methode_traditionnelle.html",
 		"oF": 0
 		},
 	"\/specialcategory-oxidative.html": {
