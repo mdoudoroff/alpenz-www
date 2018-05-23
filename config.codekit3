@@ -6085,6 +6085,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/London_Dry.bottle.Haymans-London-Dry-750ml.jpg": {
+		"ft": 16384,
+		"iS": 226096,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/images\/London_Dry.bottle.Haymans-London-Dry-750ml.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/London_Dry.context.haymans-london-dry-gin.jpg": {
 		"ft": 16384,
 		"iS": 38948,
@@ -6096,23 +6107,12 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/London_Dry.hayman-LD.bottle.jpg": {
+	"\/images\/London_Dry.label.Haymans-London-Dry-750ml.jpg": {
 		"ft": 16384,
-		"iS": 211485,
+		"iS": 114394,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/images\/London_Dry.hayman-LD.bottle.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/London_Dry.label.london-dry.jpg": {
-		"ft": 16384,
-		"iS": 70246,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/images\/London_Dry.label.london-dry.jpg",
+		"oAP": "\/images\/London_Dry.label.Haymans-London-Dry-750ml.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -6547,6 +6547,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/Old_Tom.bottle.Haymans-Old-Tom-750ml.jpg": {
+		"ft": 16384,
+		"iS": 221420,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/images\/Old_Tom.bottle.Haymans-Old-Tom-750ml.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/Old_Tom.Cat.jpg": {
 		"ft": 16384,
 		"iS": 248795,
@@ -6569,23 +6580,12 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/Old_Tom.hayman-OT.bottle.jpg": {
+	"\/images\/Old_Tom.label.Haymans-Old-Tom-750ml.jpg": {
 		"ft": 16384,
-		"iS": 215742,
+		"iS": 126926,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/images\/Old_Tom.hayman-OT.bottle.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/Old_Tom.label.old-tom.jpg": {
-		"ft": 16384,
-		"iS": 62699,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/images\/Old_Tom.label.old-tom.jpg",
+		"oAP": "\/images\/Old_Tom.label.Haymans-Old-Tom-750ml.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -9897,6 +9897,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/Royal_Dock.bottle.Haymans-Royal-Dock-750ml.jpg": {
+		"ft": 16384,
+		"iS": 249059,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/images\/Royal_Dock.bottle.Haymans-Royal-Dock-750ml.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/Royal_Dock.burroughs-senior-service-960x701.jpg": {
 		"ft": 16384,
 		"iS": 431576,
@@ -9974,23 +9985,12 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/Royal_Dock.haymans-royal-dock-bottle-web.png": {
-		"ft": 32768,
-		"iS": 561926,
-		"oA": 1,
-		"oAP": "\/images\/Royal_Dock.haymans-royal-dock-bottle-web.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/Royal_Dock.label.royal-dock.jpg": {
+	"\/images\/Royal_Dock.label.Haymans-Royal-Dock-750ml.jpg": {
 		"ft": 16384,
-		"iS": 77195,
+		"iS": 121202,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/images\/Royal_Dock.label.royal-dock.jpg",
+		"oAP": "\/images\/Royal_Dock.label.Haymans-Royal-Dock-750ml.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -10392,6 +10392,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/Sloe_Gin.bottle.Haymans-Sloe-Gin-750ml.jpg": {
+		"ft": 16384,
+		"iS": 227399,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/images\/Sloe_Gin.bottle.Haymans-Sloe-Gin-750ml.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/Sloe_Gin.Closeup_of_blackthorn_aka_sloe_aka_prunus_spinosa_sweden_20050924-960x720.jpg": {
 		"ft": 16384,
 		"iS": 454766,
@@ -10409,17 +10420,6 @@
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/images\/Sloe_Gin.context.sloe-wikimedia-commons.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/Sloe_Gin.hayman-SG.bottle.jpg": {
-		"ft": 16384,
-		"iS": 218217,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/images\/Sloe_Gin.hayman-SG.bottle.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -10469,12 +10469,12 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/Sloe_Gin.label.sloe-gin.jpg": {
+	"\/images\/Sloe_Gin.label.Haymans-Sloe-Gin-750ml.jpg": {
 		"ft": 16384,
-		"iS": 75733,
+		"iS": 142880,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/images\/Sloe_Gin.label.sloe-gin.jpg",
+		"oAP": "\/images\/Sloe_Gin.label.Haymans-Sloe-Gin-750ml.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -18746,11 +18746,25 @@
 		"oAP": "\/originBranch-West_Indies.html",
 		"oF": 0
 		},
+	"\/originCat-Alta_Langa_DOCG-sparkling_wine.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Alta_Langa_DOCG-sparkling_wine.html",
+		"oF": 0
+		},
 	"\/originCat-Asti_DOCG-methode_charmat.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/originCat-Asti_DOCG-methode_charmat.html",
+		"oF": 0
+		},
+	"\/originCat-Asti_DOCG-sparkling_wine.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Asti_DOCG-sparkling_wine.html",
 		"oF": 0
 		},
 	"\/originCat-Austria-floral_herbal_amaro.html": {
@@ -18779,6 +18793,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/originCat-Brachetto_dAcqui_DOCG-methode_charmat.html",
+		"oF": 0
+		},
+	"\/originCat-Brachetto_dAcqui_DOCG-sparkling_wine.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Brachetto_dAcqui_DOCG-sparkling_wine.html",
 		"oF": 0
 		},
 	"\/originCat-Catalunya-rancio_sec.html": {
@@ -18961,6 +18982,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/originCat-Piemonte_DOC-methode_charmat.html",
+		"oF": 0
+		},
+	"\/originCat-Piemonte_DOC-sparkling_wine.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/originCat-Piemonte_DOC-sparkling_wine.html",
 		"oF": 0
 		},
 	"\/originCat-Roussillon-quina.html": {
@@ -19164,6 +19192,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/producer-Cocchi.html",
+		"oF": 0
+		},
+	"\/producer-Comoz.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/producer-Comoz.html",
 		"oF": 0
 		},
 	"\/producer-Dolin.html": {
@@ -19920,6 +19955,20 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/product-Other-Batavia_Arrack_van_Oosten.html",
+		"oF": 0
+		},
+	"\/product-Other-Comoz_Blanc_Vermouth_de_Chambery.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-Other-Comoz_Blanc_Vermouth_de_Chambery.html",
+		"oF": 0
+		},
+	"\/product-Other-Kronan_Swedish_Punsch.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-Other-Kronan_Swedish_Punsch.html",
 		"oF": 0
 		},
 	"\/product-Other-The_Scarlet_Ibis_Trinidad_Rum.html": {
@@ -22890,6 +22939,27 @@
 		"oAP": "\/recipe-0526-0410.html",
 		"oF": 0
 		},
+	"\/recipe-0526-0411.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipe-0526-0411.html",
+		"oF": 0
+		},
+	"\/recipe-0526-0412.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipe-0526-0412.html",
+		"oF": 0
+		},
+	"\/recipe-0526-0413.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipe-0526-0413.html",
+		"oF": 0
+		},
 	"\/recipes-Abbe_Rous-Abbe_Rous_Matifoc_Rancio_Sec.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -23007,6 +23077,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/recipes-Cocchi-Cocchi_Vermouth_di_Torino.html",
+		"oF": 0
+		},
+	"\/recipes-Comoz-Comoz_Blanc_Vermouth_de_Chambery.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Comoz-Comoz_Blanc_Vermouth_de_Chambery.html",
 		"oF": 0
 		},
 	"\/recipes-Dolin-Dolin_Blanc_Vermouth_de_Chambery.html": {
@@ -23133,6 +23210,20 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/recipes-Other-Batavia_Arrack_van_Oosten.html",
+		"oF": 0
+		},
+	"\/recipes-Other-Comoz_Blanc_Vermouth_de_Chambery.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Other-Comoz_Blanc_Vermouth_de_Chambery.html",
+		"oF": 0
+		},
+	"\/recipes-Other-Kronan_Swedish_Punsch.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipes-Other-Kronan_Swedish_Punsch.html",
 		"oF": 0
 		},
 	"\/recipes-Other-The_Scarlet_Ibis_Trinidad_Rum.html": {

@@ -233,17 +233,17 @@
 			
 	}
 
-	.categorization {
+	p.categorization {
 
-		margin-top: 0.25em;
+		font-size: 12px;
 
-		text-transform: uppercase;
-		font-weight: 700;		
+		margin: 0;
 
-		font-size: 90%;
+		// text-transform: uppercase;
+		// font-weight: 700;		
+		font-weight: normal;
 
 		@include respond-to(phone) {
-			font-size: 80%;
 		}
 	}
 
@@ -253,6 +253,7 @@
 				display: none;
 		}
 	}
+
 
 }
 
