@@ -2090,6 +2090,17 @@
 		"oAP": "\/downloads\/Zirbenz.zirbenz.talker.pdf",
 		"oF": 0
 		},
+	"\/gfx\/bottle-placeholder.jpg": {
+		"ft": 16384,
+		"iS": 8930,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/gfx\/bottle-placeholder.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/gfx\/combo-pitcher.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2109,6 +2120,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/gfx\/context-placeholder.jpg": {
+		"ft": 16384,
+		"iS": 1469,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/gfx\/context-placeholder.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/gfx\/dismiss.png": {
 		"ft": 32768,
@@ -2331,6 +2353,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/gfx\/label-placeholder.jpg": {
+		"ft": 16384,
+		"iS": 1469,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/gfx\/label-placeholder.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/gfx\/logotype.sotolon-selections-white.svg": {
 		"ft": 2097152,
