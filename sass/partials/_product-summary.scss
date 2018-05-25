@@ -296,7 +296,9 @@
 
 .subcatMenuDesktop {
 
-	display: inline;
+	display: inline-block;
+	width: 600px;
+	vertical-align: top;
 	
 	a {
 		display: inline-block;

@@ -2189,7 +2189,9 @@ a.tokenlink.fullprofile {
       font-weight: bold; } }
 
 .subcatMenuDesktop {
-  display: inline; }
+  display: inline-block;
+  width: 600px;
+  vertical-align: top; }
   .subcatMenuDesktop a {
     display: inline-block;
     position: relative;
