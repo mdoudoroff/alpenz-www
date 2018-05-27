@@ -3127,6 +3127,13 @@
 		"oAP": "\/glossary.html",
 		"oF": 0
 		},
+	"\/grouping-.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/grouping-.html",
+		"oF": 0
+		},
 	"\/grouping-age-statement.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -19983,6 +19990,34 @@
 		"oAP": "\/product-Domaine_du_Mas_Blanc-Domaine_du_Mas_Blanc_Banyuls_Vieilles_Vignes_2000.html",
 		"oF": 0
 		},
+	"\/product-Domaine_du_Mas_Blanc-Domaine_du_Mas_Blanc_Rimage_Diademe_de_la_Coume_2008.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-Domaine_du_Mas_Blanc-Domaine_du_Mas_Blanc_Rimage_Diademe_de_la_Coume_2008.html",
+		"oF": 0
+		},
+	"\/product-Domaine_du_Mas_Blanc-Domaine_du_Mas_Blanc_Rimage_La_Coume_1985.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-Domaine_du_Mas_Blanc-Domaine_du_Mas_Blanc_Rimage_La_Coume_1985.html",
+		"oF": 0
+		},
+	"\/product-Domaine_du_Mas_Blanc-Domaine_du_Mas_Blanc_Rimage_La_Coume_1993.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-Domaine_du_Mas_Blanc-Domaine_du_Mas_Blanc_Rimage_La_Coume_1993.html",
+		"oF": 0
+		},
+	"\/product-Domaine_du_Mas_Blanc-Domaine_du_Mas_Blanc_Rimage_La_Coume_2001.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-Domaine_du_Mas_Blanc-Domaine_du_Mas_Blanc_Rimage_La_Coume_2001.html",
+		"oF": 0
+		},
 	"\/product-Domaine_du_Mas_Blanc-Mas_Blanc_Rimage_Diademe_de_la_Coume.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -24712,6 +24747,13 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/widget.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/widget.html",
+		"oF": 0
 		}
 	},
 "hooks": [

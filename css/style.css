@@ -2225,6 +2225,13 @@ a.tokenlink.fullprofile {
   .cluster {
     -moz-column-count: 1;
     column-count: 1; } }
+.cluster h2 {
+  margin-bottom: 0;
+  font-weight: bold; }
+
+.groupdetail h2 {
+  margin-bottom: 0;
+  font-weight: bold; }
 
 .cluster2 {
   -moz-column-count: 2;
@@ -2272,7 +2279,7 @@ a.tokenlink.fullprofile {
     background-color: green; }
 
 div.grouping {
-  padding-bottom: 1em;
+  margin: 1em 0;
   -webkit-column-break-inside: avoid;
   page-break-inside: avoid;
   break-inside: avoid-column;
@@ -2340,6 +2347,23 @@ div.grouping {
       cursor: inherit;
       color: inherit;
       background: inherit; }
+
+h5 {
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #dddcd8;
+  border-top: 1px solid #dddcd8;
+  border-bottom: 1px solid #dddcd8;
+  text-align: center;
+  margin: 1em 0;
+  padding: 0.5em 0;
+  text-transform: uppercase; }
+
+h5:first-of-type {
+  border-top: none;
+  margin-top: -0.5em; }
 
 #printlogotype {
   display: none;

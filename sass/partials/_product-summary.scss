@@ -98,6 +98,7 @@
 				font-weight: bold;
 				margin: 0;
 			}
+
 			h3 {
 				font-size: 11px;
 				color: #999;
@@ -348,6 +349,18 @@
 		-moz-column-count: 1;
 		column-count: 1;
 	}
+
+
+	h2 {
+		margin-bottom: 0;
+		font-weight: bold;
+	}
+
+}
+
+.groupdetail h2 {
+	margin-bottom: 0;
+	font-weight: bold;
 }
 
 .cluster2 {
@@ -436,11 +449,10 @@
 }
 
 div.grouping {
- 	padding-bottom: 1em;
+ 	margin: 1em 0;
   	-webkit-column-break-inside: avoid;
 	page-break-inside: avoid;
 	break-inside: avoid-column;
-
 	clear: both;
 
 	// used for index pages
@@ -533,3 +545,23 @@ div.grouping {
 	}
 
  }
+
+
+h5 {
+	font-family: $heading-font;
+	font-size: 22px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: $off-grey-dark;
+	border-top: 1px solid $off-grey-dark;
+	border-bottom: 1px solid $off-grey-dark;
+	text-align: center;
+	margin: 1em 0;
+	padding: 0.5em 0;
+	text-transform: uppercase;
+}
+
+h5:first-of-type {
+	border-top: none;
+	margin-top: -0.5em;
+}
