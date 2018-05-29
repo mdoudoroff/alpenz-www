@@ -300,6 +300,7 @@
 	display: inline-block;
 	width: 600px;
 	vertical-align: top;
+	padding-top: 4px;
 	
 	a {
 		display: inline-block;
@@ -553,15 +554,15 @@ h5 {
 	font-weight: bold;
 	letter-spacing: 1px;
 	color: $off-grey-dark;
-	border-top: 1px solid $off-grey-dark;
-	border-bottom: 1px solid $off-grey-dark;
+	border-top: 2px solid $off-grey-dark;
+	border-bottom: 2px solid $off-grey-dark;
 	text-align: center;
 	margin: 1em 0;
-	padding: 0.5em 0;
+	padding: 0.25em 0;
 	text-transform: uppercase;
 }
 
 h5:first-of-type {
 	border-top: none;
-	margin-top: -0.5em;
+	margin-top: -0.70em;
 }

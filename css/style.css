@@ -2191,7 +2191,8 @@ a.tokenlink.fullprofile {
 .subcatMenuDesktop {
   display: inline-block;
   width: 600px;
-  vertical-align: top; }
+  vertical-align: top;
+  padding-top: 4px; }
   .subcatMenuDesktop a {
     display: inline-block;
     position: relative;
@@ -2354,16 +2355,16 @@ h5 {
   font-weight: bold;
   letter-spacing: 1px;
   color: #dddcd8;
-  border-top: 1px solid #dddcd8;
-  border-bottom: 1px solid #dddcd8;
+  border-top: 2px solid #dddcd8;
+  border-bottom: 2px solid #dddcd8;
   text-align: center;
   margin: 1em 0;
-  padding: 0.5em 0;
+  padding: 0.25em 0;
   text-transform: uppercase; }
 
 h5:first-of-type {
   border-top: none;
-  margin-top: -0.5em; }
+  margin-top: -0.70em; }
 
 #printlogotype {
   display: none;
