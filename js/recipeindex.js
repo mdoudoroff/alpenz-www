@@ -1,6 +1,4 @@
-
-//var searchPrompt = 'Search by ingredient name...';
-var searchPrompt = '';
+// @codekit-prepend "page.js";
 
 function setCookie(name,value,days) {
     var expires = "";
@@ -125,90 +123,6 @@ function refilterRecipes() {
 
 
 jQuery(document).ready(function() {
-
-	$('#invokeSearchOverlay').click(function() {
-		$('#regularContent').hide();
-		$('#searchOverlay').show();
-		$('#searchBox').focus();
-	});
-
-	$('#invokeSearchOverlayMobile').click(function() {
-		$('#regularContent').hide();
-		$('#searchOverlay').show();
-		$('#searchBox').focus();
-	});
-	$('#dismissSearchOverlay').click(function() {
-		$('#regularContent').show();
-		$('#searchOverlay').hide();
-	});
-
-	// dynamic search binding (keyup-based)
-	$('#searchBox').keyup(function() {
-		
-		var searchStr = $('#searchBox').val();
-		var searchStrLeadTerm = searchStr.toLowerCase().split(' ')[0];
-		var searchResults = $('#searchResults');
-
-		searchResults.hide();
-
-		if (searchStr.length > 1) {
-			$.getJSON('/search/'+searchStr,function(msg) {
-
-				searchResults.empty();
-
-				if (msg.length>0) {
-
-					// list results
-					for (var i = 0; i < msg.length; i++) {
-
-						if (msg[i].icons) {
-							searchResults.append($('<a href="'+msg[i].url+'"><div class="match"><div class="icons">'+msg[i].icons+'</div><div class="summary"><p><strong>'+msg[i].name+'</strong><br />'+msg[i].summary+'</p></div></div></a>'));
-						} else {
-							searchResults.append($('<a href="'+msg[i].url+'"><div class="match"><div class="summary"><p><strong>'+msg[i].name+'</strong><br />'+msg[i].summary+'</p></div></div></a>'));	
-						}
-						
-					}
-					searchResults.show();
-				}
-				else if (searchStr.length > 0) {
-					searchResults.append($('<p><a href=""><em>No matches. Try searching on the first few letters of a product or category.</em></a></p>'));
-					searchResults.show();
-				} else {
-				}
-			});
-		}
-		else {
-		}
-
-	});
-
-	//
-
-
-
-	$("#sidebar-menu ul").hide();                                                       
-
-	$("#sidebar-menu li").prepend("<span class='handle'></span>");
-
-	$("#sidebar-menu li:has(ul)")
-		.children(":first-child").addClass("collapsed")
-		.click(function(){    
-		  $(this).toggleClass("collapsed expanded")
-		    .siblings("ul").toggle();
-	});                                                                                            
-
-	$(".toggle").click(function() {
-		$("#modal").toggle();
-		$(".sidebar2").toggle();
-	});
-	$("#modal").click(function() {
-		$("#modal").toggle();
-		$(".sidebar2").toggle();
-	});
-
-
-
-
 
 	// recipe index filtration
 	var x = getCookie('harecipesform');

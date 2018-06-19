@@ -1,10 +1,6 @@
 // @codekit-prepend "photoswipe.js";
 // @codekit-prepend "photoswipe-ui-default.js";
 
-
-//var searchPrompt = 'Search by ingredient name...';
-var searchPrompt = '';
-
 function dismissSearchOverlay() {
 	$('#searchOverlay').remove();
 	$('#shadowbox').remove();
@@ -76,81 +72,11 @@ jQuery(document).ready(function() {
 
 	$('#invokeSearchOverlay').click(function() {
 		createSearchOverlay();
-		// var shadowbox = $('<div id="shadowbox"></div>');
-		// var searchoverlay = $('<div id="searchOverlay"><div class="searchBar">Search Haus Alpenz: <input id="searchBox" /></div><span id="dismissSearchOverlay"><img src="gfx/dismiss.png" height="18" width="18" /></span><div id="searchResults"></div></div>')
-		// $('#regularContent').append(shadowbox);
-		// $('#regularContent').append(searchoverlay);
-		// shadowbox.click(function(){
-		// 	dismissSearchOverlay();
-		// });
-		// $('#dismissSearchOverlay').click(function() {
-		// 	dismissSearchOverlay();
-		// });
-		// $('#searchBox').focus();
-
-		// // dynamic search binding (keyup-based)
-		// $('#searchBox').keyup(function() {
-			
-		// 	var searchStr = $('#searchBox').val();
-		// 	var searchStrLeadTerm = searchStr.toLowerCase().split(' ')[0];
-		// 	var searchResults = $('#searchResults');
-
-		// 	searchResults.hide();
-
-		// 	if (searchStr.length > 1) {
-		// 		$.getJSON('/search/'+searchStr,function(msg) {
-
-		// 			// window.console.log(msg);
-
-		// 			searchResults.empty();
-
-		// 			if (msg.length>0) {
-
-		// 				searchResults.append($('<p>'+msg.length+' matches</p>'));
-
-		// 				// list results
-		// 				for (var i = 0; i < msg.length; i++) {
-
-		// 					if (msg[i].icons) {
-		// 						searchResults.append($('<a href="'+msg[i].url+'"><div class="match clr"><div class="icons">'+msg[i].icons+'</div><div class="summary"><p><strong>'+msg[i].name+'</strong><br />'+msg[i].summary+'</p></div></div></a>'));
-		// 					} else {
-		// 						searchResults.append($('<a href="'+msg[i].url+'"><div class="match clr"><div class="summary"><p><strong>'+msg[i].name+'</strong><br />'+msg[i].summary+'</p></div></div></a>'));	
-		// 					}
-							
-		// 				}
-		// 				searchResults.show();
-		// 			}
-		// 			else if (searchStr.length > 0) {
-		// 				searchResults.append($('<p><a href=""><em>No matches. Try searching on the first few letters of a product or category.</em></a></p>'));
-		// 				searchResults.show();
-		// 			} else {
-		// 			}
-		// 		});
-		// 	}
-		// 	else {
-		// 	}
-
-		// });
-
 	});
 
 	$('#invokeSearchOverlayMobile').click(function() {
 		createSearchOverlay();
-		// var shadowbox = $('<div id="shadowbox"></div>');
-		// var searchoverlay = $('<div id="searchOverlay"><div class="searchBar">Search Haus Alpenz: <input id="searchBox" /></div><span id="dismissSearchOverlay"><img src="gfx/dismiss.png" height="18" width="18" /></span><div id="searchResults"></div></div>')
-		// $('#regularContent').append(shadowbox);
-		// $('#regularContent').append(searchoverlay);
-		// shadowbox.click(function(){
-		// 	dismissSearchOverlay();
-		// });
-		// $('#dismissSearchOverlay').click(function() {
-		// 	dismissSearchOverlay();
-		// });
-		// $('#searchBox').focus();
 	});
-
-
-	//
 
 	$("#sidebar-menu ul").hide();                                                       
 
@@ -175,19 +101,6 @@ jQuery(document).ready(function() {
 		$("#modal").toggle();
 		$(".sidebar2").toggle();
 	});
-
-	// $(".morebutton").click(function() {
-	// 	var target = $(this).prev();
-	// 	if (target.data('expanded') === 'yes') {
-	// 		target.css('max-height','7.25em');
-	// 		target.data('expanded','no');
-	// 		$(this).text('Expand ▾');
-	// 	} else {
-	// 		target.css('max-height','100em');
-	// 		target.data('expanded','yes');
-	// 		$(this).text('Collapse ▴');
-	// 	}
-	// });
 
 	var madeiraSwitchState = 'groupingFamily';
 	$('.madeiraSwitch').click(function() {
@@ -229,39 +142,11 @@ jQuery(document).ready(function() {
 
 	});
 
-	// $(document).on("keypress", function (e) {
-
- //    	var lat = window.mainmap.getCenter().lat();
- //    	var lng = window.mainmap.getCenter().lng();
-
- //    	if (e.which==119) {
- //    		// up
- //    		window.mainmap.setCenter(new google.maps.LatLng(lat+0.5, lng));
- //    		$('#mapCoords').text(window.mainmap.getCenter());
- //    	}
- //    	else if (e.which==100) {
- //    		// right
- //    		window.mainmap.setCenter(new google.maps.LatLng(lat, lng+1));
- //    		$('#mapCoords').text(window.mainmap.getCenter());
- //    	}
- //    	else if (e.which==115) {
- //    		// down
- //    		window.mainmap.setCenter(new google.maps.LatLng(lat-0.5, lng));
- //    		$('#mapCoords').text(window.mainmap.getCenter());
- //    	}
- //    	else if (e.which==97) {
- //    		// left
- //    		window.mainmap.setCenter(new google.maps.LatLng(lat, lng-1));
- //    		$('#mapCoords').text(window.mainmap.getCenter());
- //    	}
-
-	// });
-
-	window.console.log(window.location.hash);
-	if (window.location.hash.indexOf('unfolded')>-1) {
-		$('.revealfold').hide();
-		$('.folded').show();
-	}
+	// window.console.log(window.location.hash);
+	// if (window.location.hash.indexOf('unfolded')>-1) {
+	// 	$('.revealfold').hide();
+	// 	$('.folded').show();
+	// }
 
 	var initPhotoSwipeFromDOM = function(gallerySelector) {
 
