@@ -2077,3 +2077,47 @@ a.tokenlink {
 		}
 	}
 }
+
+ul.articleCategories {
+	margin: 0;
+
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.xrefTiles {
+	clear: both;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;	
+}
+
+.articlebox {
+
+	display: flex;
+	align-items: flex-start;
+
+	h2 {
+		margin-bottom: 0;
+	}
+
+	h2 {
+		a {	color: $dark_grey; }
+		a:hover { color: $link_hover; }
+	}
+
+	.articlephoto {
+		margin-right: 0.5rem;
+		width: 110px;
+		height: 110px;
+		overflow: hidden;
+
+		// border: 2px solid $light_grey;
+
+		img {
+			width: 100%;
+			height: auto;
+		}
+
+	}
+}

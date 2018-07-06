@@ -2030,6 +2030,34 @@ a.tokenlink.fullprofile {
     a.tokenlink.fullprofile {
       display: none; } }
 
+ul.articleCategories {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; }
+
+.xrefTiles {
+  clear: both;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; }
+
+.articlebox {
+  display: flex;
+  align-items: flex-start; }
+  .articlebox h2 {
+    margin-bottom: 0; }
+  .articlebox h2 a {
+    color: #484848; }
+  .articlebox h2 a:hover {
+    color: #eb2f2c; }
+  .articlebox .articlephoto {
+    margin-right: 0.5rem;
+    width: 110px;
+    height: 110px;
+    overflow: hidden; }
+    .articlebox .articlephoto img {
+      width: 100%;
+      height: auto; }
+
 .products {
   overflow: hidden;
   margin: 0 0 2em 0;

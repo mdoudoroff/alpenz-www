@@ -372,7 +372,8 @@
 		"oF": 0
 		},
 	"\/config.rb": {
-		"ft": 131072,
+		"cB": 0,
+		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0
@@ -10499,12 +10500,12 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/Sercial_bottled_1964.bottle.HH-Sercial-OldReserve.jpg": {
+	"\/images\/Sercial_bottled_1965.bottle.HH-Sercial-OldReserve.jpg": {
 		"ft": 16384,
 		"iS": 10912,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/images\/Sercial_bottled_1964.bottle.HH-Sercial-OldReserve.jpg",
+		"oAP": "\/images\/Sercial_bottled_1965.bottle.HH-Sercial-OldReserve.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -25305,6 +25306,201 @@
 		"oA": 2,
 		"oAP": "\/supercategory-wines.html",
 		"oF": 0
+		},
+	"\/test.hyperesources\/4619AC-restorable.plist": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/test.hyperesources\/4619AC-restorable.plist",
+		"oF": 0
+		},
+	"\/test.hyperesources\/beermuth-cocktail-byrrh.jpg": {
+		"ft": 16384,
+		"iS": 59595,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/test.hyperesources\/beermuth-cocktail-byrrh.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/test.hyperesources\/blank.gif": {
+		"ft": 4194304,
+		"iS": 42,
+		"oA": 1,
+		"oAP": "\/test.hyperesources\/blank.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/test.hyperesources\/burroughs-senior-service.jpg": {
+		"ft": 16384,
+		"iS": 197796,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/test.hyperesources\/burroughs-senior-service.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/test.hyperesources\/burroughs-senior-service_2x.jpg": {
+		"ft": 16384,
+		"iS": 482531,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/test.hyperesources\/burroughs-senior-service_2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/test.hyperesources\/FamilybyMarjorie-crop.jpg": {
+		"ft": 16384,
+		"iS": 193031,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/test.hyperesources\/FamilybyMarjorie-crop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/test.hyperesources\/FamilybyMarjorie-crop_2x.jpg": {
+		"ft": 16384,
+		"iS": 473840,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/test.hyperesources\/FamilybyMarjorie-crop_2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/test.hyperesources\/hausalpenz_lineup1.jpg": {
+		"ft": 16384,
+		"iS": 85306,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/test.hyperesources\/hausalpenz_lineup1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/test.hyperesources\/hausalpenz_lineup1_2x.jpg": {
+		"ft": 16384,
+		"iS": 204800,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/test.hyperesources\/hausalpenz_lineup1_2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/test.hyperesources\/Haymans-Royal-Dock-750ml-edit.jpg": {
+		"ft": 16384,
+		"iS": 144971,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/test.hyperesources\/Haymans-Royal-Dock-750ml-edit.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/test.hyperesources\/HYPE-584.full.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/test.hyperesources\/HYPE-584.full.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/test.hyperesources\/HYPE-584.thin.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/test.hyperesources\/HYPE-584.thin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/test.hyperesources\/old deptford map.jpg": {
+		"ft": 16384,
+		"iS": 320042,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/test.hyperesources\/old deptford map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/test.hyperesources\/PIE.htc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/test.hyperesources\/PIE.htc",
+		"oF": 0
+		},
+	"\/test.hyperesources\/punch-logo.jpg": {
+		"ft": 16384,
+		"iS": 4475,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/test.hyperesources\/punch-logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/test.hyperesources\/punch-logo_2x.jpg": {
+		"ft": 16384,
+		"iS": 7929,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/test.hyperesources\/punch-logo_2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/test.hyperesources\/Slide6-Rancio-Sec.jpg": {
+		"ft": 16384,
+		"iS": 115853,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/test.hyperesources\/Slide6-Rancio-Sec.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/test.hyperesources\/Slide6-Rancio-Sec_2x.jpg": {
+		"ft": 16384,
+		"iS": 327974,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/test.hyperesources\/Slide6-Rancio-Sec_2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/test.hyperesources\/test_hype_generated_script.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/test.hyperesources\/test_hype_generated_script-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/widget.html": {
 		"cB": 0,
