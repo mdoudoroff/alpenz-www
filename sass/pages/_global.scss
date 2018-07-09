@@ -2079,23 +2079,28 @@ a.tokenlink {
 }
 
 ul.articleCategories {
-	margin: 0;
+	margin: 0 0 1rem 0;
 
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
 
 }
 
 .xrefTiles {
 	clear: both;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;	
+	grid-template-columns: 1fr 1fr;	
 }
 
 .articlebox {
 
 	display: flex;
 	align-items: flex-start;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+
+	background-color: $off-grey;
+	padding: 0.5rem;
 
 	h2 {
 		margin-bottom: 0;

@@ -2031,18 +2031,22 @@ a.tokenlink.fullprofile {
       display: none; } }
 
 ul.articleCategories {
-  margin: 0;
+  margin: 0 0 1rem 0;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr; }
+  grid-template-columns: 1fr 1fr; }
 
 .xrefTiles {
   clear: both;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr; }
+  grid-template-columns: 1fr 1fr; }
 
 .articlebox {
   display: flex;
-  align-items: flex-start; }
+  align-items: flex-start;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  background-color: #edece8;
+  padding: 0.5rem; }
   .articlebox h2 {
     margin-bottom: 0; }
   .articlebox h2 a {
