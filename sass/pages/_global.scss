@@ -2090,6 +2090,15 @@ ul.articleCategories {
 	clear: both;
 	display: grid;
 	grid-template-columns: 1fr 1fr;	
+
+	@include respond-to(phone) {
+		display: block;
+	}
+
+	@include respond-to(print) {
+		display: none;
+	}
+
 }
 
 .articlebox {
@@ -2104,6 +2113,7 @@ ul.articleCategories {
 
 	h2 {
 		margin-bottom: 0;
+		font-weight: bold;
 	}
 
 	h2 {

@@ -2039,6 +2039,12 @@ ul.articleCategories {
   clear: both;
   display: grid;
   grid-template-columns: 1fr 1fr; }
+  @media only screen and (max-width: 420px) {
+    .xrefTiles {
+      display: block; } }
+  @media print {
+    .xrefTiles {
+      display: none; } }
 
 .articlebox {
   display: flex;
@@ -2048,7 +2054,8 @@ ul.articleCategories {
   background-color: #edece8;
   padding: 0.5rem; }
   .articlebox h2 {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    font-weight: bold; }
   .articlebox h2 a {
     color: #484848; }
   .articlebox h2 a:hover {
