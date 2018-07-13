@@ -2136,3 +2136,30 @@ ul.articleCategories {
 
 	}
 }
+
+table.contentReport {
+
+	margin-bottom: 2rem;
+
+	th, td {
+		text-align: center;
+		padding: 1px 0.25rem;		
+	}
+
+	th {
+		background-color: $off-grey-dark;
+		color: $black;
+	}
+
+	td { text-align: center;  }
+
+
+
+}
+
+#productContentReport {
+	td:nth-child(6),td:nth-child(7),td:nth-child(8) {
+		background-color: $off-grey;
+	}
+
+}

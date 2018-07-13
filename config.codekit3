@@ -406,6 +406,13 @@
 		"oAP": "\/contact.html",
 		"oF": 0
 		},
+	"\/content.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content.html",
+		"oF": 0
+		},
 	"\/css\/default-skin\/default-skin.css": {
 		"aP": 0,
 		"bl": 0,

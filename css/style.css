@@ -2069,6 +2069,20 @@ ul.articleCategories {
       width: 100%;
       height: auto; }
 
+table.contentReport {
+  margin-bottom: 2rem; }
+  table.contentReport th, table.contentReport td {
+    text-align: center;
+    padding: 1px 0.25rem; }
+  table.contentReport th {
+    background-color: #dddcd8;
+    color: #000000; }
+  table.contentReport td {
+    text-align: center; }
+
+#productContentReport td:nth-child(6), #productContentReport td:nth-child(7), #productContentReport td:nth-child(8) {
+  background-color: #edece8; }
+
 .products {
   overflow: hidden;
   margin: 0 0 2em 0;
