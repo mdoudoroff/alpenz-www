@@ -393,8 +393,7 @@
 		"oF": 0
 		},
 	"\/config.rb": {
-		"cB": 0,
-		"ft": 8192,
+		"ft": 131072,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0
@@ -1048,6 +1047,17 @@
 		"oA": 2,
 		"oAP": "\/downloads\/Cocchi_Rosa.cocchi-rosa.talker.pdf",
 		"oF": 0
+		},
+	"\/downloads\/Cocchi_Rosa.COCCHIROSA.jpg": {
+		"ft": 16384,
+		"iS": 698501,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/downloads\/Cocchi_Rosa.COCCHIROSA.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/downloads\/Cocchi_Rosa.label-high-res.jpg": {
 		"ft": 16384,
@@ -4769,17 +4779,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/category.aperitif-aromatized_wines.gentian.jpg": {
-		"ft": 16384,
-		"iS": 44099,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/images\/category.aperitif-aromatized_wines.gentian.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/images\/category.aperitif-aromatized_wines.jpg": {
 		"ft": 16384,
 		"iS": 112585,
@@ -4808,6 +4807,17 @@
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/images\/category.aperitif-aromatized_wines.wormwood.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/category.aromatized.gentian.jpg": {
+		"ft": 16384,
+		"iS": 14646,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/images\/category.aromatized.gentian.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -5143,15 +5153,15 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/Cocchi_Rosa.cocchi-americano-rosa-bottle-web.png": {
-		"ft": 32768,
-		"iS": 389630,
+	"\/images\/Cocchi_Rosa.cocchi-rosa-bottle-web.jpg": {
+		"ft": 16384,
+		"iS": 695961,
+		"jF": 0,
 		"oA": 1,
-		"oAP": "\/images\/Cocchi_Rosa.cocchi-americano-rosa-bottle-web.png",
+		"oAP": "\/images\/Cocchi_Rosa.cocchi-rosa-bottle-web.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"\/images\/Cocchi_Rosa.context.Cocchi-distillery.jpg": {
@@ -10814,122 +10824,12 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/subcategory.madeira.estufagem-canteiro.jpg": {
+	"\/images\/subcategory.madeira.collage.jpg": {
 		"ft": 16384,
-		"iS": 61441,
+		"iS": 138550,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/images\/subcategory.madeira.estufagem-canteiro.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/subcategory.madeira.festadovinhomadeiravoltaaofunchal.jpg": {
-		"ft": 16384,
-		"iS": 54108,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/images\/subcategory.madeira.festadovinhomadeiravoltaaofunchal.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/subcategory.madeira.founding-fathers.jpg": {
-		"ft": 16384,
-		"iS": 65790,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/images\/subcategory.madeira.founding-fathers.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/subcategory.madeira.independence.jpg": {
-		"ft": 16384,
-		"iS": 104404,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/images\/subcategory.madeira.independence.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/subcategory.madeira.map.jpg": {
-		"ft": 16384,
-		"iS": 36036,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/images\/subcategory.madeira.map.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/subcategory.madeira.Quinta-Grande-Vineyards.jpg": {
-		"ft": 16384,
-		"iS": 75100,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/images\/subcategory.madeira.Quinta-Grande-Vineyards.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/subcategory.madeira.Quinta-Grandexx.jpg": {
-		"ft": 16384,
-		"iS": 440020,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/images\/subcategory.madeira.Quinta-Grandexx.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/subcategory.madeira.Vineyard-in-Estreito-de-Camara-de-Lobos.jpg": {
-		"ft": 16384,
-		"iS": 94957,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/images\/subcategory.madeira.Vineyard-in-Estreito-de-Camara-de-Lobos.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/subcategory.madeira.vineyard-plot.jpg": {
-		"ft": 16384,
-		"iS": 93192,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/images\/subcategory.madeira.vineyard-plot.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/subcategory.madeira.vintage.jpg": {
-		"ft": 16384,
-		"iS": 60342,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/images\/subcategory.madeira.vintage.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/subcategory.madeira.wide-view.jpg": {
-		"ft": 16384,
-		"iS": 80002,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/images\/subcategory.madeira.wide-view.jpg",
+		"oAP": "\/images\/subcategory.madeira.collage.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

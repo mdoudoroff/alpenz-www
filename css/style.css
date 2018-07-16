@@ -2082,6 +2082,8 @@ table.contentReport {
 
 #productContentReport td:nth-child(6), #productContentReport td:nth-child(7), #productContentReport td:nth-child(8) {
   background-color: #edece8; }
+#productContentReport td:nth-child(15), #productContentReport td:nth-child(16), #productContentReport td:nth-child(17) {
+  background-color: #edece8; }
 
 .products {
   overflow: hidden;
