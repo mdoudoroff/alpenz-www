@@ -2085,6 +2085,34 @@ table.contentReport {
 #productContentReport td:nth-child(15), #productContentReport td:nth-child(16), #productContentReport td:nth-child(17) {
   background-color: #edece8; }
 
+.contentwarning {
+  color: orange;
+  border: 1px solid orange;
+  font-size: 65%;
+  text-transform: uppercase;
+  position: relative;
+  cursor: pointer; }
+  .contentwarning .tooltip {
+    visibility: hidden;
+    width: 300px;
+    background-color: #dddcd8;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 6px;
+    font-size: 100%;
+    text-align: left;
+    text-transform: none;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    right: 6em;
+    z-index: 1; }
+    .contentwarning .tooltip strong {
+      font-size: 13px;
+      font-weight: bold; }
+
+.contentwarning:hover .tooltip {
+  visibility: visible; }
+
 .products {
   overflow: hidden;
   margin: 0 0 2em 0;

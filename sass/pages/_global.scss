@@ -2166,3 +2166,39 @@ table.contentReport {
 	}
 
 }
+
+.contentwarning {
+	color: orange;
+	border: 1px solid orange;
+	font-size: 65%;
+	text-transform: uppercase;
+	position: relative;
+	cursor: pointer;
+
+	.tooltip {
+		visibility: hidden;
+		width: 300px;
+		background-color: $off-grey-dark;
+		color: black;
+		padding: 0.5rem;
+		border-radius: 6px;
+		font-size: 100%;
+		text-align: left;
+		text-transform: none;
+
+		/* Position the tooltip text - see examples below! */
+		position: absolute;
+		right: 6em;
+		z-index: 1;
+
+		strong {
+			font-size: 13px;
+			font-weight: bold;
+		}
+	}
+}
+
+.contentwarning:hover .tooltip {
+	visibility: visible;
+}
+
