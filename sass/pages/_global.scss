@@ -634,15 +634,15 @@ a {
 
 
 
-		// provisional provision for imagery within the blurbs (this stuff probably needs relocation)
-		figure {
+		// // provisional provision for imagery within the blurbs (this stuff probably needs relocation)
+		// figure {
 
-			img {
-				width:100%;
-				height: auto;
-			}
-			width: 100%;
-		}
+		// 	img {
+		// 		width:100%;
+		// 		height: auto;
+		// 	}
+		// 	width: 100%;
+		// }
 
 		figure.right {
 
@@ -1831,6 +1831,13 @@ dd {
 // Contentful
 
 .contentful {
+
+	hr {
+	    border: 0;
+	    height: 2px;
+	    background: #dddcd8;
+	    // background-image: linear-gradient(to right, #ccc, #333, #ccc);
+	}
 
 	img {
 		// the following is problematic

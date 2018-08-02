@@ -1133,11 +1133,6 @@ a {
         .content .main.halfwidth {
           width: 100%;
           padding: 2%; } }
-    .content .main figure {
-      width: 100%; }
-      .content .main figure img {
-        width: 100%;
-        height: auto; }
     .content .main figure.right {
       width: 80%;
       float: none;
@@ -1883,6 +1878,10 @@ dd {
   font-family: Georgia, serif;
   font-size: 18px;
   line-height: 1.4; }
+  .contentful hr {
+    border: 0;
+    height: 2px;
+    background: #dddcd8; }
   @media only screen and (max-width: 420px) {
     .contentful {
       width: 100%;
