@@ -29,6 +29,9 @@ function scrapeFilters() {
 	if ($('#ingredientChooser').val().length>0) {
 		groups.push('.'+$('#ingredientChooser').val());
 	}
+	if ($('#licenseChooser').val().length>0) {
+		groups.push('.'+$('#licenseChooser').val());
+	}
 	for (var x=1;x<$('fieldset').length+1;x++) {
 		kws = '';
 		$('#filtergroup'+x+' input:checked').each(function() {
@@ -53,6 +56,8 @@ function restoreFilters(vals) {
 	$.each(vals.split(','),function(idx,val){
 		if (val.indexOf('iid')==1) {
 			$("#ingredientChooser").val(val.slice(1));
+		} else if (val.indexOf('license_')==1) {
+			$("#licenseChooser").val(val.slice(1));
 		} else {
 			$("input[name="+val.slice(1)+"]").each(function() {$(this).prop("checked", true);});
 		}
@@ -62,6 +67,7 @@ function restoreFilters(vals) {
 function resetFilters() {
 	$("input").prop("checked",false);
 	$("#ingredientChooser").val("");
+	$("#licenseChooser").val("");
 	eraseCookie('harecipesform');
 }
 
