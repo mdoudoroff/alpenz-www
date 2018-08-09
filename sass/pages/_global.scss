@@ -859,8 +859,12 @@ header.producerindex {
 	.producerTrio {
 		clear: both;
 
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+
 		figure {
-			display: inline-block;
+			display: block;
 			width: 33%;
 
 			img {
@@ -904,38 +908,6 @@ header.producerindex {
 
 		}
 
-		.producerDetailGmap {
-			width: 33%;
-			float: right;
-			position:relative;
-
-			@include respond-to(phone) {
-				width: 100%;
-				float: none;
-			}
-
-			.mapinset {
-				position: absolute;
-				top:0px;
-				right:0px;
-				border-left: 5px solid white;
-				border-bottom: 5px solid white;
-			}
-
-			height: 230px;
-			overflow: hidden;
-
-		}
-
-		.producerDetailGmap_canvas {
-			height: 230px;
-			margin: 0;
-			box-shadow: none;
-
-			@include respond-to(phone) {
-				width: 100%;
-			}
-		}
 	}
 
     figure {

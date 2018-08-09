@@ -451,53 +451,50 @@
 
 #infographic {
 
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
 	margin-top: 1em;
 	width: 100%;
 
-	.infographicRow {
-		display: table-row;
-	}
-
 	.infographicSegment {
-		font-family: $body-font;
-		font-size: 14px;
 
-		width: 153px;  // was 155px
-		height: 70px;
-		display: inline-table;
-		border-right: 1px solid $off-grey-dark;
-		border-left: 1px solid $off-grey-dark;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		flex-wrap: nowrap;
+
+		width: 32%;
+		padding: 0.5em;
+
+		font-family: $body-font;
 
 		background-color: $off-grey;
 
 		@include respond-to(phone) {
-			display: table;
 			width: 100%;
 		}
 	
 		.infographicSectionText {
-			display: table-cell;
-			padding-top: 3px;
-			padding-bottom: 3px;
+			width: auto;
 			text-align: center;
-			border-top: 1px solid $off-grey-dark;
-			border-bottom: 1px solid $off-grey-dark;
-			vertical-align: middle;
 			font-size: 12px;
+			flex: 1 1 auto;
 
 		}
 
 		.infographicSectionIcons {
-			display: table-cell;
-			overflow: hidden;
-			vertical-align: bottom;
-			padding-right: 0;
-			padding-top: 3px;
-			padding-bottom: 3px;
-			// display: none;
-			border-top: 1px solid $off-grey-dark;
-			border-bottom: 1px solid $off-grey-dark;
 
+			display: flex;
+			flex-direction: row;
+			justify-content: space-evenly;
+			flex-wrap: nowrap;
+			align-items: flex-end;
+
+			overflow: hidden;
+			text-align: center;
+			flex: 1 1 auto;
 		}
 
 	}

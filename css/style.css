@@ -1235,9 +1235,12 @@ header.producerindex .images {
     .catblurb .blurb {
       width: 100%; } }
 .catblurb .producerTrio {
-  clear: both; }
+  clear: both;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
   .catblurb .producerTrio figure {
-    display: inline-block;
+    display: block;
     width: 33%;
     height: 230px;
     overflow: hidden; }
@@ -1260,29 +1263,6 @@ header.producerindex .images {
   @media only screen and (max-width: 420px) {
     .catblurb .producerTrio figure.peopleImage {
       float: right; } }
-  .catblurb .producerTrio .producerDetailGmap {
-    width: 33%;
-    float: right;
-    position: relative;
-    height: 230px;
-    overflow: hidden; }
-    @media only screen and (max-width: 420px) {
-      .catblurb .producerTrio .producerDetailGmap {
-        width: 100%;
-        float: none; } }
-    .catblurb .producerTrio .producerDetailGmap .mapinset {
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      border-left: 5px solid white;
-      border-bottom: 5px solid white; }
-  .catblurb .producerTrio .producerDetailGmap_canvas {
-    height: 230px;
-    margin: 0;
-    box-shadow: none; }
-    @media only screen and (max-width: 420px) {
-      .catblurb .producerTrio .producerDetailGmap_canvas {
-        width: 100%; } }
 .catblurb figure {
   width: 100%;
   text-align: center;
@@ -2713,41 +2693,37 @@ h5:first-of-type {
   clear: both; }
 
 #infographic {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   margin-top: 1em;
   width: 100%; }
-  #infographic .infographicRow {
-    display: table-row; }
   #infographic .infographicSegment {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    width: 32%;
+    padding: 0.5em;
     font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-    font-size: 14px;
-    width: 153px;
-    height: 70px;
-    display: inline-table;
-    border-right: 1px solid #dddcd8;
-    border-left: 1px solid #dddcd8;
     background-color: #edece8; }
     @media only screen and (max-width: 420px) {
       #infographic .infographicSegment {
-        display: table;
         width: 100%; } }
     #infographic .infographicSegment .infographicSectionText {
-      display: table-cell;
-      padding-top: 3px;
-      padding-bottom: 3px;
+      width: auto;
       text-align: center;
-      border-top: 1px solid #dddcd8;
-      border-bottom: 1px solid #dddcd8;
-      vertical-align: middle;
-      font-size: 12px; }
+      font-size: 12px;
+      flex: 1 1 auto; }
     #infographic .infographicSegment .infographicSectionIcons {
-      display: table-cell;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      flex-wrap: nowrap;
+      align-items: flex-end;
       overflow: hidden;
-      vertical-align: bottom;
-      padding-right: 0;
-      padding-top: 3px;
-      padding-bottom: 3px;
-      border-top: 1px solid #dddcd8;
-      border-bottom: 1px solid #dddcd8; }
+      text-align: center;
+      flex: 1 1 auto; }
 
 .viticultureTable {
   font-size: 12px;
