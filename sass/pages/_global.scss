@@ -944,7 +944,7 @@ header.producerindex {
     	margin-bottom: 1em;
 
     	img {
-    		width: 75%;
+    		width: 100%;
 
     		@include respond-to(phone) {
     			width: 100%;
