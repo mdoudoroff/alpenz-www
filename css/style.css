@@ -1170,8 +1170,6 @@ a {
   border-top: 2px solid #dddcd8;
   margin-top: 0.5em;
   padding-top: 1em; }
-  #productSummaryContainer .product_description p {
-    max-width: 360px; }
 
 section header {
   position: relative; }
@@ -2160,7 +2158,8 @@ table.contentReport {
         font-size: 11px;
         color: #999; }
       .products .type-product .product_text p {
-        margin-top: 0.25em; }
+        margin-top: 0.25em;
+        max-width: 360px; }
     .products .type-product .bottle {
       -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;

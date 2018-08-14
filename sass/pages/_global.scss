@@ -729,11 +729,6 @@ a {
 	border-top: 2px solid $off-grey-dark;
 	margin-top: 0.5em;
 	padding-top: 1em;
-	// this is a little tricky and may need to be removed, but it’s basically to prevent
-	// the text from flowing beneath the bottle
-	.product_description p {
-		max-width: 360px;
-	}
 
 }
 
