@@ -48,12 +48,13 @@ a {
 .button {
 	display: inline-block;
 	background: $red;
-	padding: 8px 16px;
+	padding: 0.5rem 1rem;
 	margin: 0;
 	border: 0px;
 	font-size: 18px;
 	line-height: 1em;
 	font-family: $subheading-font;
+	letter-spacing: 1px;
 	text-transform: uppercase;
 	color: #fff;
 	@include box-sizing(border-box);
@@ -74,6 +75,13 @@ a {
 			display: none;
 		}
 	}
+
+	@include respond-to(phone) {
+		font-size: 13px;
+		font-weight: bold;
+	}
+
+
 }	
 
 .hero {
@@ -2176,3 +2184,289 @@ table.contentReport {
 	visibility: visible;
 }
 
+
+
+// Experimental home page
+
+.cgrid {
+	display: grid;
+	grid-template-columns: repeat(14,1fr);
+	grid-gap: 1em;
+	grid-template-rows: 420px 287px;
+
+	@include respond-to(phone) {
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(4,62vw);
+	}
+}
+
+.gridfeature {
+	background-color: #999;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+
+	.bkgd {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		transition: width 0.5s, height 0.5s, left 0.5s, top 0.5s;
+		top: 0;
+		left: 0;
+	}
+}
+
+.gridfeature1 {
+	grid-column: 1/11;
+	grid-row: 1/2;
+
+	@include respond-to(phone) {
+		grid-column: 1/2;
+		grid-row: 1/2;
+	}
+ 	
+	img {
+		width: 100%;
+		height: auto;
+	}
+
+}
+
+.gridfeature1:hover .bkgd1, .gridfeature2:hover .bkgd2, .gridfeature3:hover .bkgd3, .gridfeature4:hover .bkgd4 {
+	top: -5%;
+	width: 110%;
+	height: 110%;
+	left: -5%;
+}
+
+.gridfeature2 {
+	grid-column: 11/15;
+	grid-row: 1/2;
+
+	@include respond-to(phone) {
+		grid-column: 1/2;
+		grid-row: 2/3;
+	}
+
+	.bkgd2 {
+		img {
+			position: relative;
+			height: 100%;
+			width: auto;
+			left: -30%;
+
+		  @include respond-to(phone) {
+		  	width: 120%;
+		  	height: auto;
+		  	left: 0;
+		  	top: -45%;
+		  }
+		}
+	}
+}
+
+.gridfeature3 {
+	grid-column: 1/8;
+	grid-row: 2/3;
+
+	@include respond-to(phone) {
+		grid-column: 1/2;
+		grid-row: 3/4;
+	}
+
+	.bkgd3 {
+		img {
+			position: relative;
+			height: auto;
+			width: 100%;
+			top: -25%;
+
+			@include respond-to(phone) {
+				width: 110%;
+				height: auto;
+				left: 0;
+				top: -15%;
+			}
+
+		}
+	}
+}
+
+.gridfeature4 {
+	grid-column: 8/15;
+	grid-row: 2/3;
+
+	@include respond-to(phone) {
+		grid-column: 1/2;
+		grid-row: 4/5;
+	}
+
+	.bkgd4 {
+		img {
+			position: relative;
+			height: auto;
+			width: 100%;
+			// top: -25%;
+
+			@include respond-to(phone) {
+				width: auto;
+				height: 100%;
+				left: 0;
+				top: 0;
+			}
+
+		}
+	}
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;	
+
+	@include respond-to(phone) {
+		// justify-content: flex-end;
+	}
+
+}
+
+.overlayB {
+
+	position: absolute;
+	top: 0;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	width: 100%;
+
+	background: none;
+
+	.resourceType {
+	  margin-top: 0.5rem;
+	}
+
+}
+
+
+.overlay1 {
+	background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 65%, rgb(0, 0, 0) 125%);
+
+	.title {
+	  text-align: center;
+	  font-size: 36px;
+	  line-height: 42px;
+	  padding: 0 1em;
+	  font-family: $heading-font;
+	  text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+	  font-weight: bold;
+
+	  margin-top: 140px;
+
+	  @include respond-to(phone) {
+		font-size: 24px;
+	  	margin-top: 18vw;
+	  	line-height: 24px;
+      }
+
+	  @include respond-to(smallphone) {
+		font-size: 18px;
+	  	margin-top: 18vw;
+	  	line-height: 18px;
+      }
+
+
+
+	}
+}
+
+.overlay2 {
+	background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 65%, rgb(0, 0, 0) 125%);
+
+	.title {
+	  text-align: left;
+	  font-size: 27px;
+	  line-height: 32px;
+	  padding: 0 1em;
+	  font-family: $heading-font;
+	  text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+
+		margin-top: 120px;
+
+	  @include respond-to(phone) {
+		font-size: 24px;
+	  	margin-top: 18vw;
+	  	line-height: 24px;
+      }
+
+	  @include respond-to(smallphone) {
+		font-size: 18px;
+	  	margin-top: 18vw;
+	  	line-height: 18px;
+      }
+
+	}
+}
+
+.overlay3 {
+	background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 65%, rgb(0, 0, 0) 125%);
+
+	.title {
+	  text-align: center;
+	  font-size: 36px;
+	  line-height: 36px;
+	  padding: 0 1em;
+	  font-family: $heading-font;
+		text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+		font-weight: bold;
+
+	margin-top: 100px;
+
+	  @include respond-to(phone) {
+		font-size: 27px;
+	  	margin-top: 21vw;
+	  	line-height: 27px;
+      }
+
+	  @include respond-to(smallphone) {
+		font-size: 18px;
+	  	margin-top: 18vw;
+	  	line-height: 18px;
+      }
+
+
+
+	}
+}
+.overlay4 {
+	background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 65%, rgb(0, 0, 0) 125%);
+
+	.title {
+	  text-align: center;
+	  font-size: 32px;
+	  line-height: 32px;
+	  padding: 0 1em;
+	  font-family: $heading-font;
+		text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+
+		// margin-top: 2rem;
+
+	  @include respond-to(phone) {
+		font-size: 24px;
+	  	margin-top: 16vw;
+	  	line-height: 24px;
+      }
+
+	  @include respond-to(smallphone) {
+		font-size: 18px;
+	  	margin-top: 18vw;
+	  	line-height: 18px;
+      }
+
+	}
+}

@@ -63,6 +63,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/alpenz-download-product-bottle\/banyuls_rancio_1970.bottle.jpg": {
+		"ft": 16384,
+		"iS": 247934,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/alpenz-download-product-bottle\/banyuls_rancio_1970.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/alpenz-download-product-bottle\/banyuls_sec_1978.bottle.jpg": {
+		"ft": 16384,
+		"iS": 246550,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/alpenz-download-product-bottle\/banyuls_sec_1978.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/alpenz-download-product-bottle\/batavia.bottle.jpg": {
 		"ft": 16384,
 		"iS": 465881,
@@ -195,6 +217,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/alpenz-download-product-bottle\/clos_du_moulin.bottle.jpg": {
+		"ft": 16384,
+		"iS": 241571,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/alpenz-download-product-bottle\/clos_du_moulin.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/alpenz-download-product-bottle\/cocchi_americano.bottle.jpg": {
 		"ft": 16384,
 		"iS": 62152,
@@ -234,6 +267,50 @@
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/alpenz-download-product-bottle\/cocchi_vdt.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/alpenz-download-product-bottle\/collection_1978.bottle.jpg": {
+		"ft": 16384,
+		"iS": 271151,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/alpenz-download-product-bottle\/collection_1978.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/alpenz-download-product-bottle\/csm_1969.bottle.jpg": {
+		"ft": 16384,
+		"iS": 259141,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/alpenz-download-product-bottle\/csm_1969.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/alpenz-download-product-bottle\/dantan_2006.bottle.jpg": {
+		"ft": 16384,
+		"iS": 278638,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/alpenz-download-product-bottle\/dantan_2006.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/alpenz-download-product-bottle\/diademe_2008.bottle.jpg": {
+		"ft": 16384,
+		"iS": 229484,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/alpenz-download-product-bottle\/diademe_2008.bottle.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -349,6 +426,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/alpenz-download-product-bottle\/la_coume_1993.bottle.jpg": {
+		"ft": 16384,
+		"iS": 224730,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/alpenz-download-product-bottle\/la_coume_1993.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/alpenz-download-product-bottle\/london_dry.bottle.jpg": {
 		"ft": 16384,
 		"iS": 211485,
@@ -388,6 +476,17 @@
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/alpenz-download-product-bottle\/mas_peyre_demon.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/alpenz-download-product-bottle\/mas_peyre_maury.bottle.jpg": {
+		"ft": 16384,
+		"iS": 273610,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/alpenz-download-product-bottle\/mas_peyre_maury.bottle.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -547,6 +646,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/alpenz-download-product-bottle\/rimage_1996.bottle.jpg": {
+		"ft": 16384,
+		"iS": 234454,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/alpenz-download-product-bottle\/rimage_1996.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/alpenz-download-product-bottle\/rombeau_2008.bottle.jpg": {
 		"ft": 16384,
 		"iS": 576901,
@@ -668,6 +778,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/alpenz-download-product-bottle\/sostrera.bottle.jpg": {
+		"ft": 16384,
+		"iS": 299149,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/alpenz-download-product-bottle\/sostrera.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/alpenz-download-product-bottle\/tabacal.bottle.jpg": {
 		"ft": 16384,
 		"iS": 700743,
@@ -751,6 +872,17 @@
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/alpenz-download-product-bottle\/violette.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/alpenz-download-product-bottle\/vv_1985.bottle.jpg": {
+		"ft": 16384,
+		"iS": 237884,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/alpenz-download-product-bottle\/vv_1985.bottle.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1592,12 +1724,12 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/alpenz-download-product-label\/Sostera.label.jpg": {
+	"\/alpenz-download-product-label\/sostrera.label.jpg": {
 		"ft": 16384,
 		"iS": 73510,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/alpenz-download-product-label\/Sostera.label.jpg",
+		"oAP": "\/alpenz-download-product-label\/sostrera.label.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -3352,12 +3484,12 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/alpenz-web-map\/specialty_drinks.map.jpg": {
+	"\/alpenz-web-map\/speciality_drinks.map.jpg": {
 		"ft": 16384,
 		"iS": 85732,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/alpenz-web-map\/specialty_drinks.map.jpg",
+		"oAP": "\/alpenz-web-map\/speciality_drinks.map.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -3827,11 +3959,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/alpenz-web-producer-logo\/specialty_drinks.logo.png": {
+	"\/alpenz-web-producer-logo\/speciality_drinks.logo.png": {
 		"ft": 32768,
 		"iS": 28671,
 		"oA": 1,
-		"oAP": "\/alpenz-web-producer-logo\/specialty_drinks.logo.png",
+		"oAP": "\/alpenz-web-producer-logo\/speciality_drinks.logo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -4751,6 +4883,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/alpenz-web-product-bottle\/banyuls_rancio_1970.bottle.jpg": {
+		"ft": 16384,
+		"iS": 41421,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/alpenz-web-product-bottle\/banyuls_rancio_1970.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/alpenz-web-product-bottle\/banyuls_sec_1978.bottle.jpg": {
+		"ft": 16384,
+		"iS": 39262,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/alpenz-web-product-bottle\/banyuls_sec_1978.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/alpenz-web-product-bottle\/batavia.bottle.jpg": {
 		"ft": 16384,
 		"iS": 60012,
@@ -4960,6 +5114,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/alpenz-web-product-bottle\/clos_du_moulin.bottle.jpg": {
+		"ft": 16384,
+		"iS": 65822,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/alpenz-web-product-bottle\/clos_du_moulin.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/alpenz-web-product-bottle\/cocchi_americano.bottle.jpg": {
 		"ft": 16384,
 		"iS": 62152,
@@ -5004,12 +5169,67 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/alpenz-web-product-bottle\/collection_1978.bottle.jpg": {
+		"ft": 16384,
+		"iS": 41043,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/alpenz-web-product-bottle\/collection_1978.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/alpenz-web-product-bottle\/comoz_blanc.bottle.jpg": {
 		"ft": 16384,
 		"iS": 184487,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/alpenz-web-product-bottle\/comoz_blanc.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/alpenz-web-product-bottle\/csm_1969.bottle.jpg": {
+		"ft": 16384,
+		"iS": 55755,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/alpenz-web-product-bottle\/csm_1969.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/alpenz-web-product-bottle\/dantan_2006.bottle.jpg": {
+		"ft": 16384,
+		"iS": 43677,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/alpenz-web-product-bottle\/dantan_2006.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/alpenz-web-product-bottle\/dernier_bastion_2007.bottle.jpg": {
+		"ft": 16384,
+		"iS": 59215,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/alpenz-web-product-bottle\/dernier_bastion_2007.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/alpenz-web-product-bottle\/diademe_2008.bottle.jpg": {
+		"ft": 16384,
+		"iS": 41921,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/alpenz-web-product-bottle\/diademe_2008.bottle.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -5175,6 +5395,17 @@
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/alpenz-web-product-bottle\/kronan.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/alpenz-web-product-bottle\/la_coume_1993.bottle.jpg": {
+		"ft": 16384,
+		"iS": 48403,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/alpenz-web-product-bottle\/la_coume_1993.bottle.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -5422,6 +5653,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/alpenz-web-product-bottle\/rimage_1996.bottle.jpg": {
+		"ft": 16384,
+		"iS": 48637,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/alpenz-web-product-bottle\/rimage_1996.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/alpenz-web-product-bottle\/rombeau_2008.bottle.jpg": {
 		"ft": 16384,
 		"iS": 46102,
@@ -5609,6 +5851,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/alpenz-web-product-bottle\/sostrera.bottle.jpg": {
+		"ft": 16384,
+		"iS": 41331,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/alpenz-web-product-bottle\/sostrera.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/alpenz-web-product-bottle\/tabacal.bottle.jpg": {
 		"ft": 16384,
 		"iS": 66083,
@@ -5791,6 +6044,17 @@
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/alpenz-web-product-bottle\/violette.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/alpenz-web-product-bottle\/vv_1985.bottle.jpg": {
+		"ft": 16384,
+		"iS": 41926,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/alpenz-web-product-bottle\/vv_1985.bottle.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -7751,12 +8015,12 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/alpenz-web-product-label\/Sostera.label.jpg": {
+	"\/alpenz-web-product-label\/sostrera.label.jpg": {
 		"ft": 16384,
 		"iS": 73510,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/alpenz-web-product-label\/Sostera.label.jpg",
+		"oAP": "\/alpenz-web-product-label\/sostrera.label.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -8296,7 +8560,8 @@
 		"oF": 0
 		},
 	"\/config.rb": {
-		"ft": 131072,
+		"cB": 0,
+		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0
@@ -19084,11 +19349,25 @@
 		"oAP": "\/origincat-france-floral_herbal_amaro.html",
 		"oF": 0
 		},
+	"\/origincat-france-quina.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/origincat-france-quina.html",
+		"oF": 0
+		},
 	"\/origincat-france-rancio_sec.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/origincat-france-rancio_sec.html",
+		"oF": 0
+		},
+	"\/origincat-france-red_wine.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/origincat-france-red_wine.html",
 		"oF": 0
 		},
 	"\/origincat-france-vermouth.html": {
@@ -19117,6 +19396,20 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/origincat-italy-floral_herbal_amaro.html",
+		"oF": 0
+		},
+	"\/origincat-italy-quina.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/origincat-italy-quina.html",
+		"oF": 0
+		},
+	"\/origincat-italy-red_wine.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/origincat-italy-red_wine.html",
 		"oF": 0
 		},
 	"\/origincat-italy-vermouth.html": {
@@ -19161,11 +19454,32 @@
 		"oAP": "\/origincat-oberosterreich-rum.html",
 		"oF": 0
 		},
+	"\/origincat-piemonte-quina.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/origincat-piemonte-quina.html",
+		"oF": 0
+		},
+	"\/origincat-piemonte-red_wine.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/origincat-piemonte-red_wine.html",
+		"oF": 0
+		},
 	"\/origincat-piemonte-vermouth.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/origincat-piemonte-vermouth.html",
+		"oF": 0
+		},
+	"\/origincat-piemonte-vino_amaro.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/origincat-piemonte-vino_amaro.html",
 		"oF": 0
 		},
 	"\/origincat-piemonte_doc-sparkling.html": {
@@ -19187,6 +19501,20 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/origincat-roussillon-rancio_sec.html",
+		"oF": 0
+		},
+	"\/origincat-roussillon-red_wine.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/origincat-roussillon-red_wine.html",
+		"oF": 0
+		},
+	"\/origincat-ruche_docg-red_wine.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/origincat-ruche_docg-red_wine.html",
 		"oF": 0
 		},
 	"\/origincat-savoie-floral_herbal_amaro.html": {
@@ -19252,11 +19580,25 @@
 		"oAP": "\/origincat-trentino_alto_adige-floral_herbal_amaro.html",
 		"oF": 0
 		},
+	"\/origincat-trentino_alto_adige-vino_amaro.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/origincat-trentino_alto_adige-vino_amaro.html",
+		"oF": 0
+		},
 	"\/origincat-trinidad-rum.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/origincat-trinidad-rum.html",
+		"oF": 0
+		},
+	"\/origincat-vermouth_di_torino_doc-vermouth.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/origincat-vermouth_di_torino_doc-vermouth.html",
 		"oF": 0
 		},
 	"\/origincat-west_indies-rum.html": {
@@ -19523,6 +19865,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/producer-smith_and_cross.html",
+		"oF": 0
+		},
+	"\/producer-speciality_drinks.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/producer-speciality_drinks.html",
 		"oF": 0
 		},
 	"\/producer-specialty_drinks.html": {
@@ -19929,6 +20278,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/product-csm_1965.html",
+		"oF": 0
+		},
+	"\/product-csm_1969.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-csm_1969.html",
 		"oF": 0
 		},
 	"\/product-csm_1972.html": {
@@ -20491,6 +20847,13 @@
 		"oAP": "\/product-sostera.html",
 		"oF": 0
 		},
+	"\/product-sostrera.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-sostrera.html",
+		"oF": 0
+		},
 	"\/product-tabacal.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -21021,6 +21384,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/products.html",
+		"oF": 0
+		},
+	"\/Rancio_Sec_The_Revival_of_Frances_Answer_to_Sherry_Punch_Magazine.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Rancio_Sec_The_Revival_of_Frances_Answer_to_Sherry_Punch_Magazine.html",
 		"oF": 0
 		},
 	"\/recipe-0526-0001.html": {

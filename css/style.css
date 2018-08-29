@@ -789,12 +789,13 @@ a {
 .button {
   display: inline-block;
   background: #a2120f;
-  padding: 8px 16px;
+  padding: 0.5rem 1rem;
   margin: 0;
   border: 0px;
   font-size: 18px;
   line-height: 1em;
   font-family: "myriad-pro-condensed", Impact, sans-serif;
+  letter-spacing: 1px;
   text-transform: uppercase;
   color: #fff;
   -moz-box-sizing: border-box;
@@ -814,6 +815,10 @@ a {
     @media print {
       .button.fullprofile {
         display: none; } }
+  @media only screen and (max-width: 420px) {
+    .button {
+      font-size: 13px;
+      font-weight: bold; } }
 
 .hero {
   width: 100%;
@@ -2090,6 +2095,209 @@ table.contentReport {
 .contentwarning:hover .tooltip {
   visibility: visible; }
 
+.cgrid {
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  grid-gap: 1em;
+  grid-template-rows: 420px 287px; }
+  @media only screen and (max-width: 420px) {
+    .cgrid {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(4, 62vw); } }
+
+.gridfeature {
+  background-color: #999;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer; }
+  .gridfeature .bkgd {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: width 0.5s, height 0.5s, left 0.5s, top 0.5s;
+    top: 0;
+    left: 0; }
+
+.gridfeature1 {
+  grid-column: 1/11;
+  grid-row: 1/2; }
+  @media only screen and (max-width: 420px) {
+    .gridfeature1 {
+      grid-column: 1/2;
+      grid-row: 1/2; } }
+  .gridfeature1 img {
+    width: 100%;
+    height: auto; }
+
+.gridfeature1:hover .bkgd1, .gridfeature2:hover .bkgd2, .gridfeature3:hover .bkgd3, .gridfeature4:hover .bkgd4 {
+  top: -5%;
+  width: 110%;
+  height: 110%;
+  left: -5%; }
+
+.gridfeature2 {
+  grid-column: 11/15;
+  grid-row: 1/2; }
+  @media only screen and (max-width: 420px) {
+    .gridfeature2 {
+      grid-column: 1/2;
+      grid-row: 2/3; } }
+  .gridfeature2 .bkgd2 img {
+    position: relative;
+    height: 100%;
+    width: auto;
+    left: -30%; }
+    @media only screen and (max-width: 420px) {
+      .gridfeature2 .bkgd2 img {
+        width: 120%;
+        height: auto;
+        left: 0;
+        top: -45%; } }
+
+.gridfeature3 {
+  grid-column: 1/8;
+  grid-row: 2/3; }
+  @media only screen and (max-width: 420px) {
+    .gridfeature3 {
+      grid-column: 1/2;
+      grid-row: 3/4; } }
+  .gridfeature3 .bkgd3 img {
+    position: relative;
+    height: auto;
+    width: 100%;
+    top: -25%; }
+    @media only screen and (max-width: 420px) {
+      .gridfeature3 .bkgd3 img {
+        width: 110%;
+        height: auto;
+        left: 0;
+        top: -15%; } }
+
+.gridfeature4 {
+  grid-column: 8/15;
+  grid-row: 2/3; }
+  @media only screen and (max-width: 420px) {
+    .gridfeature4 {
+      grid-column: 1/2;
+      grid-row: 4/5; } }
+  .gridfeature4 .bkgd4 img {
+    position: relative;
+    height: auto;
+    width: 100%; }
+    @media only screen and (max-width: 420px) {
+      .gridfeature4 .bkgd4 img {
+        width: auto;
+        height: 100%;
+        left: 0;
+        top: 0; } }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white; }
+
+.overlayB {
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  background: none; }
+  .overlayB .resourceType {
+    margin-top: 0.5rem; }
+
+.overlay1 {
+  background-image: -webkit-linear-gradient(270deg, transparent, transparent 65%, black 125%); }
+  .overlay1 .title {
+    text-align: center;
+    font-size: 36px;
+    line-height: 42px;
+    padding: 0 1em;
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+    text-shadow: black 2px 2px 2px;
+    font-weight: bold;
+    margin-top: 140px; }
+    @media only screen and (max-width: 420px) {
+      .overlay1 .title {
+        font-size: 24px;
+        margin-top: 18vw;
+        line-height: 24px; } }
+    @media only screen and (max-width: 375px) {
+      .overlay1 .title {
+        font-size: 18px;
+        margin-top: 18vw;
+        line-height: 18px; } }
+
+.overlay2 {
+  background-image: -webkit-linear-gradient(270deg, transparent, transparent 65%, black 125%); }
+  .overlay2 .title {
+    text-align: left;
+    font-size: 27px;
+    line-height: 32px;
+    padding: 0 1em;
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+    text-shadow: black 2px 2px 2px;
+    margin-top: 120px; }
+    @media only screen and (max-width: 420px) {
+      .overlay2 .title {
+        font-size: 24px;
+        margin-top: 18vw;
+        line-height: 24px; } }
+    @media only screen and (max-width: 375px) {
+      .overlay2 .title {
+        font-size: 18px;
+        margin-top: 18vw;
+        line-height: 18px; } }
+
+.overlay3 {
+  background-image: -webkit-linear-gradient(270deg, transparent, transparent 65%, black 125%); }
+  .overlay3 .title {
+    text-align: center;
+    font-size: 36px;
+    line-height: 36px;
+    padding: 0 1em;
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+    text-shadow: black 2px 2px 2px;
+    font-weight: bold;
+    margin-top: 100px; }
+    @media only screen and (max-width: 420px) {
+      .overlay3 .title {
+        font-size: 27px;
+        margin-top: 21vw;
+        line-height: 27px; } }
+    @media only screen and (max-width: 375px) {
+      .overlay3 .title {
+        font-size: 18px;
+        margin-top: 18vw;
+        line-height: 18px; } }
+
+.overlay4 {
+  background-image: -webkit-linear-gradient(270deg, transparent, transparent 65%, black 125%); }
+  .overlay4 .title {
+    text-align: center;
+    font-size: 32px;
+    line-height: 32px;
+    padding: 0 1em;
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+    text-shadow: black 2px 2px 2px; }
+    @media only screen and (max-width: 420px) {
+      .overlay4 .title {
+        font-size: 24px;
+        margin-top: 16vw;
+        line-height: 24px; } }
+    @media only screen and (max-width: 375px) {
+      .overlay4 .title {
+        font-size: 18px;
+        margin-top: 18vw;
+        line-height: 18px; } }
+
 .products {
   overflow: hidden;
   margin: 0 0 2em 0;
@@ -2234,20 +2442,12 @@ table.contentReport {
       display: block; } }
   .subcatMenuMobile a {
     margin: 0.25em; }
-  @media only screen and (max-width: 420px) {
-    .subcatMenuMobile .button {
-      font-size: 13px;
-      font-weight: bold; } }
 
 .subOriginMenu {
   text-align: center;
   margin: 1em; }
   .subOriginMenu a {
     margin: 0.25em; }
-  @media only screen and (max-width: 420px) {
-    .subOriginMenu .button {
-      font-size: 13px;
-      font-weight: bold; } }
 
 .subcatMenuDesktop {
   display: inline-block;
@@ -2264,10 +2464,6 @@ table.contentReport {
   .subcatMenuDesktop .button {
     font-size: 16px;
     padding: 6px 10px; }
-    @media only screen and (max-width: 420px) {
-      .subcatMenuDesktop .button {
-        font-size: 13px;
-        font-weight: bold; } }
   @media only screen and (max-width: 420px) {
     .subcatMenuDesktop {
       display: none; } }

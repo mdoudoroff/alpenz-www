@@ -1,4 +1,5 @@
 // $phone_max:			720px;
+$small_phone_max:	375px;
 $phone_max:			420px;
 // $tablet_min:		768px;
 // $tablet_max:		$site_width;
@@ -6,6 +7,10 @@ $phone_max:			420px;
 $desktop_max:		$site_width;
 
 @mixin respond-to($media) {
+
+	@if $media == smallphone {
+		@media only screen and (max-width: $small_phone_max) { @content; }
+	}
 
 	@if $media == phone {
 		@media only screen and (max-width: $phone_max) { @content; }

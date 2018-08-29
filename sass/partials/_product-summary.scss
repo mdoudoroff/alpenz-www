@@ -272,12 +272,6 @@
 		margin: 0.25em;
 	}
 
-	.button {
-		@include respond-to(phone) {
-			font-size: 13px;
-			font-weight: bold;
-		}
-	}
 }
 
 .subOriginMenu {
@@ -286,13 +280,6 @@
 
 	a {
 		margin: 0.25em;
-	}
-
-	.button {
-		@include respond-to(phone) {
-			font-size: 13px;
-			font-weight: bold;
-		}	
 	}
 }
 
@@ -316,11 +303,6 @@
 		font-size: 16px;
 
 		padding: 6px 10px;
-
-		@include respond-to(phone) {
-			font-size: 13px;
-			font-weight: bold;
-		}	
 	}
 	@include respond-to(phone) {
 		display: none;
