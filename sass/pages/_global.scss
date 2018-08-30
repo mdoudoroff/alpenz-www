@@ -1358,6 +1358,13 @@ a.inlineButton:hover, #recipeFiltersMoreButton:hover {
 	color:$red;
 }
 
+.socialIcons {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+
 .socialIcons a {
 	margin-right: 1em;
 }
@@ -1366,16 +1373,20 @@ a.inlineButton:hover, #recipeFiltersMoreButton:hover {
 	margin-right: 0;
 }
 
-.socialIcons span {
+.socialIcons > div, span.socialButton  {
 	display: inline-block;
+	height: 34px;
+	line-height: 34px;
+	padding: 0 9px;
+}
+
+span.socialButton {
 	background-color: $red;
 	color: white;
 	font-family: $subheading-font;
-	height: 34px;
-	line-height: 34px;
 	border-radius: 17px;
-	padding: 0 9px;
 }
+
 
 img.socialButton {
 	vertical-align:bottom;

@@ -711,15 +711,16 @@ em, i {
   padding: 27px 0;
   background: #fafafa;
   border-top: 1px solid #e3e3e3;
-  position: relative; }
+  position: relative;
+  font-size: 12px; }
   @media print {
     .footer {
       display: none; } }
   @media only screen and (max-width: 420px) {
     .footer {
       padding: 1em 0 1em 3px; } }
-  .footer div, .footer small {
-    margin: 0 auto; }
+  .footer .subfooter {
+    border-top: 1px solid #bbbbbb; }
   .footer small {
     display: block;
     float: right;
@@ -735,6 +736,20 @@ em, i {
     position: absolute;
     bottom: 0;
     right: 9px; }
+  .footer .footerMenu {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .footer .footerMenu ul {
+      margin-right: 1rem;
+      margin-bottom: 1rem; }
+      @media only screen and (max-width: 420px) {
+        .footer .footerMenu ul {
+          width: 40vw; } }
+    .footer .footerMenu ul.subul {
+      margin-bottom: 0;
+      margin-left: 1rem; }
 
 /* This stylesheet mostly fixes missing box-shadows and some minor styling */
 .ie8 .tab_header a.selected,
@@ -1569,21 +1584,29 @@ a.inlineButton:hover, #recipeFiltersMoreButton:hover {
   text-transform: uppercase;
   color: #a2120f; }
 
+.socialIcons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center; }
+
 .socialIcons a {
   margin-right: 1em; }
 
 .socialIcons a:last-child {
   margin-right: 0; }
 
-.socialIcons span {
+.socialIcons > div, span.socialButton {
   display: inline-block;
+  height: 34px;
+  line-height: 34px;
+  padding: 0 9px; }
+
+span.socialButton {
   background-color: #a2120f;
   color: white;
   font-family: "myriad-pro-condensed", Impact, sans-serif;
-  height: 34px;
-  line-height: 34px;
-  border-radius: 17px;
-  padding: 0 9px; }
+  border-radius: 17px; }
 
 img.socialButton {
   vertical-align: bottom;
