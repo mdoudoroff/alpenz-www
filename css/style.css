@@ -2008,6 +2008,12 @@ dd {
     @media only screen and (max-width: 420px) {
       .contentful div.recipeFull {
         margin-left: inherit; } }
+  .contentful div.infographic {
+    margin-left: 170px;
+    margin-bottom: 1em; }
+    @media only screen and (max-width: 420px) {
+      .contentful div.infographic {
+        margin-left: inherit; } }
 
 .specialIcon h1, .specialIcon h3 {
   margin-right: 235px; }

@@ -2011,6 +2011,15 @@ dd {
 		}
 	}
 
+	div.infographic {
+		margin-left: 170px;
+		margin-bottom: 1em;
+		
+		@include respond-to(phone) {
+			margin-left: inherit;
+		}
+	}
+
 }
 
 // special accommodation for Sotolon Selections icon

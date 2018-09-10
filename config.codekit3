@@ -2510,16 +2510,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/alpenz-web-map\/alta_langa_docg.map.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/alpenz-web-map\/alta_langa_docg.map.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/alpenz-web-map\/alta_langa_docg.mapbase.jpg": {
 		"ft": 16384,
 		"iS": 154774,
@@ -2530,6 +2520,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/alpenz-web-map\/alta_langa_docg.rawmap.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/alpenz-web-map\/alta_langa_docg.rawmap.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/alpenz-web-map\/american_gin_company.map.jpg": {
 		"ft": 16384,
@@ -2553,16 +2553,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/alpenz-web-map\/asti_docg.map.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/alpenz-web-map\/asti_docg.map.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/alpenz-web-map\/asti_docg.mapbase.jpg": {
 		"ft": 16384,
 		"iS": 154774,
@@ -2573,6 +2563,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/alpenz-web-map\/asti_docg.rawmap.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/alpenz-web-map\/asti_docg.rawmap.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/alpenz-web-map\/austria.map.svg": {
 		"ft": 2097152,
@@ -2606,16 +2606,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/alpenz-web-map\/auvergne.map.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/alpenz-web-map\/auvergne.map.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/alpenz-web-map\/auvergne.mapbase.jpg": {
 		"ft": 16384,
 		"iS": 97326,
@@ -2627,11 +2617,11 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/alpenz-web-map\/banyuls_aop.map.svg": {
+	"\/alpenz-web-map\/auvergne.rawmap.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/alpenz-web-map\/banyuls_aop.map.svg",
+		"oAP": "\/alpenz-web-map\/auvergne.rawmap.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -2647,6 +2637,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/alpenz-web-map\/banyuls_aop.rawmap.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/alpenz-web-map\/banyuls_aop.rawmap.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/alpenz-web-map\/barbados.map.svg": {
 		"ft": 2097152,
@@ -2691,16 +2691,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/alpenz-web-map\/brachetto_dacqui_docg.map.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/alpenz-web-map\/brachetto_dacqui_docg.map.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/alpenz-web-map\/brachetto_dacqui_docg.mapbase.jpg": {
 		"ft": 16384,
 		"iS": 152633,
@@ -2711,6 +2701,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/alpenz-web-map\/brachetto_dacqui_docg.rawmap.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/alpenz-web-map\/brachetto_dacqui_docg.rawmap.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/alpenz-web-map\/byrrh.map.jpg": {
 		"ft": 16384,
@@ -2725,7 +2725,7 @@
 		},
 	"\/alpenz-web-map\/cappelletti.map.jpg": {
 		"ft": 16384,
-		"iS": 281895,
+		"iS": 383357,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/alpenz-web-map\/cappelletti.map.jpg",
@@ -2809,6 +2809,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/alpenz-web-map\/comoz.map.jpg": {
+		"ft": 16384,
+		"iS": 209234,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/alpenz-web-map\/comoz.map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/alpenz-web-map\/corsica.map.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2830,11 +2841,11 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/alpenz-web-map\/cote_vermeille_igp.map.svg": {
+	"\/alpenz-web-map\/corsica.rawmap.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/alpenz-web-map\/cote_vermeille_igp.map.svg",
+		"oAP": "\/alpenz-web-map\/corsica.rawmap.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -2851,11 +2862,11 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/alpenz-web-map\/cotes_catalanes_igp.map.svg": {
+	"\/alpenz-web-map\/cote_vermeille_igp.rawmap.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/alpenz-web-map\/cotes_catalanes_igp.map.svg",
+		"oAP": "\/alpenz-web-map\/cote_vermeille_igp.rawmap.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -2871,6 +2882,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/alpenz-web-map\/cotes_catalanes_igp.rawmap.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/alpenz-web-map\/cotes_catalanes_igp.rawmap.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/alpenz-web-map\/distillerie_de_la_salers.map.jpg": {
 		"ft": 16384,
@@ -2894,45 +2915,23 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/alpenz-web-map\/domain_du_dernier_bastion.map.jpg": {
+		"ft": 16384,
+		"iS": 119594,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/alpenz-web-map\/domain_du_dernier_bastion.map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/alpenz-web-map\/domain_du_mas_blanc.map.jpg": {
 		"ft": 16384,
-		"iS": 126172,
+		"iS": 128757,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/alpenz-web-map\/domain_du_mas_blanc.map.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/alpenz-web-map\/domaine-de-rombeau.map.jpg": {
-		"ft": 16384,
-		"iS": 169549,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/alpenz-web-map\/domaine-de-rombeau.map.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/alpenz-web-map\/domaine-du-sau.map.jpg": {
-		"ft": 16384,
-		"iS": 167097,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/alpenz-web-map\/domaine-du-sau.map.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/alpenz-web-map\/domaine-jorel.map.jpg": {
-		"ft": 16384,
-		"iS": 167522,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/alpenz-web-map\/domaine-jorel.map.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2944,6 +2943,17 @@
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/alpenz-web-map\/domaine_de_rombeau.map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/alpenz-web-map\/domaine_du_dernier_bastion.map.jpg": {
+		"ft": 16384,
+		"iS": 119881,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/alpenz-web-map\/domaine_du_dernier_bastion.map.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -3057,19 +3067,9 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/alpenz-web-map\/france.map.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/alpenz-web-map\/france.map.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/alpenz-web-map\/france.mapbase.jpg": {
 		"ft": 16384,
-		"iS": 75805,
+		"iS": 226900,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/alpenz-web-map\/france.mapbase.jpg",
@@ -3088,6 +3088,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/alpenz-web-map\/france.rawmap.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/alpenz-web-map\/france.rawmap.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/alpenz-web-map\/guyana.map.jpg": {
 		"ft": 16384,
@@ -3122,16 +3132,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/alpenz-web-map\/italy.map.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/alpenz-web-map\/italy.map.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/alpenz-web-map\/italy.mapbase.jpg": {
 		"ft": 16384,
 		"iS": 88726,
@@ -3153,6 +3153,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/alpenz-web-map\/italy.rawmap.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/alpenz-web-map\/italy.rawmap.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/alpenz-web-map\/jamaica.map.jpg": {
 		"ft": 16384,
@@ -3241,16 +3251,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/alpenz-web-map\/maury_aop.map.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/alpenz-web-map\/maury_aop.map.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/alpenz-web-map\/maury_aop.mapbase.jpg": {
 		"ft": 16384,
 		"iS": 109492,
@@ -3261,6 +3261,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/alpenz-web-map\/maury_aop.rawmap.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/alpenz-web-map\/maury_aop.rawmap.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/alpenz-web-map\/new_york.map.svg": {
 		"ft": 2097152,
@@ -3326,16 +3336,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/alpenz-web-map\/piemonte.map.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/alpenz-web-map\/piemonte.map.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/alpenz-web-map\/piemonte.mapbase.jpg": {
 		"ft": 16384,
 		"iS": 169874,
@@ -3347,11 +3347,11 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/alpenz-web-map\/piemonte_doc.map.svg": {
+	"\/alpenz-web-map\/piemonte.rawmap.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/alpenz-web-map\/piemonte_doc.map.svg",
+		"oAP": "\/alpenz-web-map\/piemonte.rawmap.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -3367,6 +3367,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/alpenz-web-map\/piemonte_doc.rawmap.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/alpenz-web-map\/piemonte_doc.rawmap.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/alpenz-web-map\/portugal.map.svg": {
 		"ft": 2097152,
@@ -3411,16 +3421,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/alpenz-web-map\/roussillon.map.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/alpenz-web-map\/roussillon.map.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/alpenz-web-map\/roussillon.mapbase.jpg": {
 		"ft": 16384,
 		"iS": 161950,
@@ -3432,11 +3432,11 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/alpenz-web-map\/ruche_docg.map.svg": {
+	"\/alpenz-web-map\/roussillon.rawmap.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/alpenz-web-map\/ruche_docg.map.svg",
+		"oAP": "\/alpenz-web-map\/roussillon.rawmap.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -3453,11 +3453,11 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/alpenz-web-map\/savoie.map.svg": {
+	"\/alpenz-web-map\/ruche_docg.rawmap.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/alpenz-web-map\/savoie.map.svg",
+		"oAP": "\/alpenz-web-map\/ruche_docg.rawmap.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -3465,7 +3465,7 @@
 		},
 	"\/alpenz-web-map\/savoie.mapbase.jpg": {
 		"ft": 16384,
-		"iS": 187509,
+		"iS": 214410,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/alpenz-web-map\/savoie.mapbase.jpg",
@@ -3473,6 +3473,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/alpenz-web-map\/savoie.rawmap.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/alpenz-web-map\/savoie.rawmap.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/alpenz-web-map\/seale.map.jpg": {
 		"ft": 16384,
@@ -3603,16 +3613,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/alpenz-web-map\/trentino_alto_adige.map.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/alpenz-web-map\/trentino_alto_adige.map.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/alpenz-web-map\/trentino_alto_adige.mapbase.jpg": {
 		"ft": 16384,
 		"iS": 284758,
@@ -3623,6 +3623,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/alpenz-web-map\/trentino_alto_adige.rawmap.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/alpenz-web-map\/trentino_alto_adige.rawmap.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/alpenz-web-map\/trinidad.map.jpg": {
 		"ft": 16384,
@@ -3635,16 +3645,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/alpenz-web-map\/vermouth_di_torino_doc.map.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/alpenz-web-map\/vermouth_di_torino_doc.map.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/alpenz-web-map\/vermouth_di_torino_doc.mapbase.jpg": {
 		"ft": 16384,
 		"iS": 167581,
@@ -3655,6 +3655,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/alpenz-web-map\/vermouth_di_torino_doc.rawmap.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/alpenz-web-map\/vermouth_di_torino_doc.rawmap.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/alpenz-web-map\/vermut_de_reus.map.svg": {
 		"ft": 2097152,
@@ -20129,6 +20139,13 @@
 		"oAP": "\/producer-domaine_de_rombeau.html",
 		"oF": 0
 		},
+	"\/producer-domaine_du_dernier_bastion.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/producer-domaine_du_dernier_bastion.html",
+		"oF": 0
+		},
 	"\/producer-domaine_du_sau.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -25082,6 +25099,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sitemap.txt",
+		"oF": 0
+		},
+	"\/ssinfographic_embedding_test.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/ssinfographic_embedding_test.html",
 		"oF": 0
 		},
 	"\/subcategory-americano.html": {
