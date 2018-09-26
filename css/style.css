@@ -2181,11 +2181,10 @@ table.contentReport {
   .gridfeature2 .bkgd2 img {
     position: relative;
     height: 100%;
-    width: auto;
-    left: -30%; }
+    width: auto; }
     @media only screen and (max-width: 420px) {
       .gridfeature2 .bkgd2 img {
-        width: 120%;
+        width: 100%;
         height: auto;
         left: 0;
         top: -45%; } }
@@ -2246,6 +2245,9 @@ table.contentReport {
   justify-content: center;
   width: 100%;
   background: none; }
+  .overlayB .button {
+    font-size: 16px;
+    padding: 6px 10px; }
   .overlayB .resourceType {
     margin-top: 0.5rem; }
 
@@ -2280,7 +2282,7 @@ table.contentReport {
     padding: 0 1em;
     font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
     text-shadow: black 2px 2px 2px;
-    margin-top: 120px; }
+    margin-top: 136px; }
     @media only screen and (max-width: 420px) {
       .overlay2 .title {
         font-size: 24px;
