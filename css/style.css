@@ -1966,21 +1966,28 @@ dd {
         margin-left: inherit; } }
   .contentful figure {
     text-align: center;
-    margin: 1em 0;
-    clear: both; }
+    margin: 1em auto 1em auto;
+    clear: both;
+    width: 620px; }
     .contentful figure img {
       display: inline-block;
-      width: 620px;
+      width: 100%;
       margin: 0; }
-      @media only screen and (max-width: 420px) {
-        .contentful figure img {
-          width: 100%; } }
     .contentful figure figcaption {
       display: block;
       clear: both;
       text-align: center;
       color: #666666;
-      font-size: 90%; }
+      font-size: 80%;
+      font-style: italic; }
+    @media only screen and (max-width: 420px) {
+      .contentful figure {
+        width: 100%; } }
+  .contentful figure.smaller {
+    width: 480px; }
+    @media only screen and (max-width: 420px) {
+      .contentful figure.smaller {
+        width: 100%; } }
   .contentful figure.aside {
     width: 33%;
     margin: 0 0 0 1em;
@@ -1993,7 +2000,7 @@ dd {
         width: 40%; } }
   .contentful figure.max {
     width: 100%;
-    margin: 0; }
+    margin: 1em 0; }
     .contentful figure.max img {
       width: 100%;
       margin: 0; }

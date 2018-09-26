@@ -1940,21 +1940,16 @@ dd {
 		}
 	}
 
-	// this is complete horseshit---must think through
 	figure {
 		text-align: center;
-		margin: 1em 0;
+		margin: 1em auto 1em auto;
 		clear:both;
+		width: 620px;
 
 		img { 
 			display: inline-block; 
-			width: 620px; 
+			width: 100%;
 			margin: 0;
-
-			@include respond-to(phone) {
-				width: 100%;
-			}
-
 		}
 		
 		figcaption { 
@@ -1962,9 +1957,22 @@ dd {
 			clear: both; 
 			text-align: center;
 			color: $grey;
-			font-size: 90%;
+			font-size: 80%;
+			font-style: italic;
 		}
 
+		@include respond-to(phone) {
+			width: 100%;
+		}
+
+	}
+
+	figure.smaller {
+		width: 480px;
+
+		@include respond-to(phone) {
+			width: 100%;
+		}
 	}
 
 	figure.aside {
@@ -1985,7 +1993,7 @@ dd {
 
 	figure.max {
 		width: 100%;
-		margin: 0;
+		margin: 1em 0;
 
 		img {
 			width: 100%;
