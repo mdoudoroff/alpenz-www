@@ -2083,6 +2083,9 @@ ul.articleCategories {
   margin: 0 0 1rem 0;
   display: grid;
   grid-template-columns: 1fr 1fr; }
+  @media only screen and (max-width: 420px) {
+    ul.articleCategories {
+      display: block; } }
 
 .xrefTiles {
   clear: both;
@@ -2105,10 +2108,16 @@ ul.articleCategories {
   .articlebox h2 {
     margin-bottom: 0;
     font-weight: bold; }
-  .articlebox h2 a {
-    color: #484848; }
-  .articlebox h2 a:hover {
-    color: #eb2f2c; }
+    .articlebox h2 a {
+      color: #484848; }
+    .articlebox h2 a:hover {
+      color: #eb2f2c; }
+    @media only screen and (max-width: 420px) {
+      .articlebox h2 {
+        font-size: 18px; } }
+  @media only screen and (max-width: 420px) {
+    .articlebox {
+      margin-right: 0; } }
   .articlebox .articlephoto {
     margin-right: 0.5rem;
     width: 110px;
@@ -2976,12 +2985,16 @@ h5:first-of-type {
     background-color: #edece8; }
     @media only screen and (max-width: 420px) {
       .infographic .infographicSegment {
-        width: 100%; } }
+        width: 100%;
+        padding: 0.25em; } }
     .infographic .infographicSegment .infographicSectionText {
       width: auto;
       text-align: center;
       font-size: 12px;
       flex: 1 1 auto; }
+      @media only screen and (max-width: 420px) {
+        .infographic .infographicSegment .infographicSectionText {
+          font-size: 10px; } }
     .infographic .infographicSegment .infographicSectionIcons {
       display: flex;
       flex-direction: row;

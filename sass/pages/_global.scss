@@ -2111,6 +2111,10 @@ ul.articleCategories {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 
+	@include respond-to(phone) {
+		display: block;
+	}
+
 }
 
 .xrefTiles {
@@ -2141,11 +2145,17 @@ ul.articleCategories {
 	h2 {
 		margin-bottom: 0;
 		font-weight: bold;
-	}
 
-	h2 {
 		a {	color: $dark_grey; }
 		a:hover { color: $link_hover; }
+
+		@include respond-to(phone) {
+			font-size: 18px;
+		}
+	}
+
+	@include respond-to(phone) {
+		margin-right: 0;
 	}
 
 	.articlephoto {
