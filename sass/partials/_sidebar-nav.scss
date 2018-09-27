@@ -12,13 +12,43 @@
 
 }
 
+#sidebarheader {
+	height: 40px;
+
+	h1 {
+		// margin: 8px 0 7px 5px;
+		margin: 0;
+		padding-top: 10px;
+		// width: $logowidth / 2;
+		// height: $logoheight / 2;
+		// left: 54px;
+		// top: 0px;
+
+		a { 
+			@include hide-text(left);
+			display: block;
+			// width: 100%;
+			height: 100%;
+			width: $logowidth;
+			margin: 0 auto 0 auto;
+			background: url('../assets/logo-wide.png') no-repeat;
+			background-size: $logowidth $logoheight;
+
+			@include respond-to(phone) {
+				width: $logowidth/2;
+				background-size: ($logowidth / 2) ($logoheight / 2);
+			}
+		}
+	}
+}
+
 #sidebarlogo {
 	margin-top: 0.2em;
 	margin-left: 0.25em;
-	height: 30px;
+	height: 25px;
 
 	@include respond-to(phone) {
-		height: 34px;
+		height: 25px;
 	}
 
 }
@@ -76,14 +106,17 @@
 }
 
 #dismissMenu {
+	position: absolute;
 	height: 18px;
 	width: 18px;
-	float: right;
-	margin-right: 0.7em;
-	margin-top: 0.7em;
+	top: 12px;
+	left: 10px;
+	// float: left;
+	// margin-left: 0.7em;
+	// margin-top: 0.7em;
 
 	@include respond-to(phone) {
-		margin-top: 0.9em;
+		// margin-top: 0.9em;
 	}
 
 }

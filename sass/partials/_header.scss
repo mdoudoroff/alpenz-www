@@ -49,30 +49,40 @@ $logoheight: 50px;
 		line-height: 70px;
 
 		position: absolute;
-		// top: 13px;
-		// left: 90px;
 		top: 3px; // new header
 		left: 8px; // new header
 
 		@include respond-to(phone) {
-			margin: 8px 0 7px 5px;
-			width: $logowidth / 2;
-			height: $logoheight / 2;
 
-			left: 70px;
-			top: 0px;
+			// undo the above
+			position: relative;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 40px;
 
+			// margin: 8px 0 7px 5px;
+			margin: 0;
+			padding-top: 10px;
+
+			// width: $logowidth / 2;
+			// height: $logoheight / 2;
+			// left: 54px;
+			// top: 0px;
 		}
 				
 		a { 
 			@include hide-text(left);
 			display: block;
-			width: 100%;
+			// width: 100%;
 			height: 100%;
+			width: $logowidth;
 			background: url('../assets/logo-wide.png') no-repeat;
 			background-size: $logowidth $logoheight;
 
 			@include respond-to(phone) {
+				margin: 0 auto;
+				width: $logowidth/2;
 				background-size: ($logowidth / 2) ($logoheight / 2);
 			}
 		}
@@ -98,11 +108,11 @@ $logoheight: 50px;
 		left: 0;
 		font-family: $subheading-font;
 		font-weight: bold;
-		line-height: 40px;
 		line-height: 70px;
+		width: 40px;
+		text-align: center;
 		background: $red;
 		color: #fff;
-		padding: 0 20px;
 		text-transform: uppercase;
 		
 		@include respond-to(phone) {
