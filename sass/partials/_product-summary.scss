@@ -536,13 +536,18 @@ h5 {
 	font-size: 22px;
 	font-weight: bold;
 	letter-spacing: 1px;
-	color: $off-grey-dark;
+	color: darken($off-grey-dark,10%);
 	border-top: 2px solid $off-grey-dark;
 	border-bottom: 2px solid $off-grey-dark;
 	text-align: center;
 	margin: 1em 0;
 	padding: 0.25em 0;
 	text-transform: uppercase;
+
+	@include respond-to(phone) {
+		font-size: 18px;
+	}
+
 }
 
 h5:first-of-type {

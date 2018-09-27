@@ -130,8 +130,8 @@ a {
 	}
 	@include respond-to(phone) {
 		// minimal padding around everything (except top menu and footer) for mobile
-		margin-left: 3px;
-		margin-right: 3px;
+		margin-left: 5px;
+		margin-right: 5px;
 
 	}
 	
@@ -1367,6 +1367,7 @@ a.inlineButton:hover, #recipeFiltersMoreButton:hover {
 
 .socialIcons a {
 	margin-right: 1em;
+	margin-bottom: 0.5em;
 }
 
 .socialIcons a:last-child {
@@ -1405,6 +1406,22 @@ img.socialButton {
 
 	tr.section td {
 		border-top: 1px solid $light_grey;
+	}
+}
+
+.distState {
+
+	@include respond-to(phone) {
+	    vertical-align: bottom;
+  		text-align: center;
+
+	  	div {
+		    // -ms-writing-mode: tb-rl;
+	  		// wdeprecated---canebkit-writing-mode: vertical-rl;
+	  		writing-mode: vertical-rl;
+	  		transform: rotate(180deg);
+	  		white-space: nowrap;	
+	    }
 	}
 }
 

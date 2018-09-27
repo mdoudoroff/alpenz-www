@@ -530,7 +530,6 @@ em, i {
   z-index: 99000;
   background-color: #edece8;
   font-family: "myriad-pro-condensed", Impact, sans-serif;
-  min-height: 6000px;
   width: 360px;
   left: 0px;
   top: 0px; }
@@ -880,8 +879,8 @@ a {
   /* this is actually the half-assed organization of the two columns on product detail page */ }
   @media only screen and (max-width: 420px) {
     .content {
-      margin-left: 3px;
-      margin-right: 3px; } }
+      margin-left: 5px;
+      margin-right: 5px; } }
   .content .wrap {
     padding: 18px 0;
     background: #ffffff; }
@@ -1613,7 +1612,8 @@ a.inlineButton:hover, #recipeFiltersMoreButton:hover {
   align-items: center; }
 
 .socialIcons a {
-  margin-right: 1em; }
+  margin-right: 1em;
+  margin-bottom: 0.5em; }
 
 .socialIcons a:last-child {
   margin-right: 0; }
@@ -1641,6 +1641,15 @@ img.socialButton {
   padding: 0.5em 1em; }
 .generalTable tr.section td {
   border-top: 1px solid #e3e3e3; }
+
+@media only screen and (max-width: 420px) {
+  .distState {
+    vertical-align: bottom;
+    text-align: center; }
+    .distState div {
+      writing-mode: vertical-rl;
+      transform: rotate(180deg);
+      white-space: nowrap; } }
 
 .generalForm {
   display: block;
@@ -2671,13 +2680,16 @@ h5 {
   font-size: 22px;
   font-weight: bold;
   letter-spacing: 1px;
-  color: #dddcd8;
+  color: #c5c4bd;
   border-top: 2px solid #dddcd8;
   border-bottom: 2px solid #dddcd8;
   text-align: center;
   margin: 1em 0;
   padding: 0.25em 0;
   text-transform: uppercase; }
+  @media only screen and (max-width: 420px) {
+    h5 {
+      font-size: 18px; } }
 
 h5:first-of-type {
   border-top: none;

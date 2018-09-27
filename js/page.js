@@ -90,14 +90,17 @@ jQuery(document).ready(function() {
 	});                                                                                            
 
 	$(".toggle").click(function() {
+		$("#regularContent").toggle();
 		$("#modal").toggle();
 		$(".sidebar2").toggle();
 	});
 	$("#modal").click(function() {
+		$("#regularContent").toggle();
 		$("#modal").toggle();
 		$(".sidebar2").toggle();
 	});
 	$("#dismissMenu").click(function() {
+		$("#regularContent").toggle();
 		$("#modal").toggle();
 		$(".sidebar2").toggle();
 	});
