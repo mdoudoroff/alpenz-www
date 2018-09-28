@@ -2130,8 +2130,27 @@ dd {
 
 	}
 
+	figure.portrait {
+		width: auto;
+		img {
+			width: auto;
+			height: 620px;
+		}
+	}
+
 	figure.smaller {
 		width: 480px;
+		@include respond-to(phone) {
+			width: 100%;
+		}
+	}
+	figure.smaller-portrait {
+		width: auto;
+
+		img {
+			width: auto;
+			height: 480px;
+		}
 
 		@include respond-to(phone) {
 			width: 100%;
@@ -2142,16 +2161,34 @@ dd {
 		width: 33%;
 		margin: 0 0 0 1em;
 		float: right;
-
 		img {
 			width: 100%;
 			margin: 0;
 		}
-
 		@include respond-to(phone) {
 			width: 40%;
 		}
+	}	
+	figure.aside-portrait {
+		width: auto;
+		margin: 0 0 0 1em;
+		float: right;
+		img {
+			width: auto;
+			height: 480px;
+			margin: 0;
+		}
+		@include respond-to(phone) {
+			width: 40%;
+			margin: 0 0 0 0.5em;
+			img {
+				width: 100%;
+				height: auto;
+				margin: 0;
+			}
 
+
+		}
 	}
 
 	figure.max {

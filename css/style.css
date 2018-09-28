@@ -2104,10 +2104,23 @@ dd {
     @media only screen and (max-width: 420px) {
       .contentful figure {
         width: 100%; } }
+  .contentful figure.portrait {
+    width: auto; }
+    .contentful figure.portrait img {
+      width: auto;
+      height: 620px; }
   .contentful figure.smaller {
     width: 480px; }
     @media only screen and (max-width: 420px) {
       .contentful figure.smaller {
+        width: 100%; } }
+  .contentful figure.smaller-portrait {
+    width: auto; }
+    .contentful figure.smaller-portrait img {
+      width: auto;
+      height: 480px; }
+    @media only screen and (max-width: 420px) {
+      .contentful figure.smaller-portrait {
         width: 100%; } }
   .contentful figure.aside {
     width: 33%;
@@ -2119,6 +2132,22 @@ dd {
     @media only screen and (max-width: 420px) {
       .contentful figure.aside {
         width: 40%; } }
+  .contentful figure.aside-portrait {
+    width: auto;
+    margin: 0 0 0 1em;
+    float: right; }
+    .contentful figure.aside-portrait img {
+      width: auto;
+      height: 480px;
+      margin: 0; }
+    @media only screen and (max-width: 420px) {
+      .contentful figure.aside-portrait {
+        width: 40%;
+        margin: 0 0 0 0.5em; }
+        .contentful figure.aside-portrait img {
+          width: 100%;
+          height: auto;
+          margin: 0; } }
   .contentful figure.max {
     width: 100%;
     margin: 1em 0; }

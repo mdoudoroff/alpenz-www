@@ -7,7 +7,7 @@
 		"uuidString": "B5ADC2AB-4759-4D37-B9EB-92E440ECE0B5"
 		}
 	],
-"creatorBuild": "28815",
+"creatorBuild": "28901",
 "files": {
 	"/.gitignore": {
 		"cB": 0,
@@ -8978,7 +8978,8 @@
 		"oF": 0
 		},
 	"/config.rb": {
-		"ft": 131072,
+		"cB": 0,
+		"ft": 8192,
 		"oA": 0,
 		"oAP": "/config.rb",
 		"oF": 0
