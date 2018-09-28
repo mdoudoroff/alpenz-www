@@ -3073,10 +3073,19 @@ h5:first-of-type {
     padding: 0.5em;
     font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
     background-color: #edece8; }
+    .infographic .infographicSegment .desktopIcon {
+      display: block; }
+      @media only screen and (max-width: 420px) {
+        .infographic .infographicSegment .desktopIcon {
+          display: none; } }
+    .infographic .infographicSegment .mobileIcon {
+      display: none; }
+      @media only screen and (max-width: 420px) {
+        .infographic .infographicSegment .mobileIcon {
+          display: block; } }
     @media only screen and (max-width: 420px) {
       .infographic .infographicSegment {
-        width: 100%;
-        padding: 0.25em; } }
+        padding: 1%; } }
     .infographic .infographicSegment .infographicSectionText {
       width: auto;
       text-align: center;
@@ -3094,6 +3103,10 @@ h5:first-of-type {
       overflow: hidden;
       text-align: center;
       flex: 1 1 auto; }
+      @media only screen and (max-width: 420px) {
+        .infographic .infographicSegment .infographicSectionIcons {
+          padding-top: 3px;
+          padding-bottom: 3px; } }
 
 .viticultureTable {
   font-size: 12px;

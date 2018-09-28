@@ -472,9 +472,26 @@
 
 		background-color: $off-grey;
 
+		.desktopIcon {
+			display: block;
+
+			@include respond-to(phone) {
+				display: none;
+			}
+		}
+
+		.mobileIcon { 
+			display: none; 
+
+			@include respond-to(phone) {
+				display: block;
+			}
+		}
+
 		@include respond-to(phone) {
-			width: 100%;
-			padding: 0.25em;
+			// width: 100%;
+			// padding: 0.25em;
+			padding: 1%;
 		}
 	
 		.infographicSectionText {
@@ -500,7 +517,14 @@
 			overflow: hidden;
 			text-align: center;
 			flex: 1 1 auto;
+
+			@include respond-to(phone) {
+				padding-top: 3px;
+				padding-bottom: 3px;
+			}
 		}
+
+
 
 	}
 
