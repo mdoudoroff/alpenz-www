@@ -1645,7 +1645,7 @@ td.combo {
   font-size: 11px;
   line-height: 15px;
   position: relative;
-  bottom: 2px; }
+  bottom: 0px; }
   @media print {
     .inlineButton, #recipeFiltersMoreButton {
       display: none; } }
@@ -2225,6 +2225,7 @@ ul.articleCategories {
   background-color: #edece8;
   padding: 0.5rem; }
   .articlebox h2 {
+    font-size: 18px;
     margin-bottom: 0;
     font-weight: bold; }
     .articlebox h2 a {
@@ -2233,7 +2234,7 @@ ul.articleCategories {
       color: #eb2f2c; }
     @media only screen and (max-width: 420px) {
       .articlebox h2 {
-        font-size: 18px; } }
+        font-size: 16px; } }
   @media only screen and (max-width: 420px) {
     .articlebox {
       margin-right: 0; } }
@@ -2245,6 +2246,9 @@ ul.articleCategories {
     .articlebox .articlephoto img {
       width: 100%;
       height: auto; }
+
+.articlebox.press-item {
+  background-color: none; }
 
 table.contentReport {
   margin-bottom: 2rem; }
@@ -2408,7 +2412,8 @@ table.contentReport {
     font-size: 16px;
     padding: 6px 10px; }
   .overlayB .resourceType {
-    margin-top: 0.5rem; }
+    margin-top: 0.5rem;
+    z-index: 999; }
 
 .overlay1 {
   background-image: -webkit-linear-gradient(270deg, transparent, transparent 65%, black 125%); }
@@ -2819,7 +2824,7 @@ h5 {
     h5 {
       font-size: 18px; } }
 
-h5:first-of-type {
+#productSummaryContainer > h5:first-of-type {
   border-top: none;
   margin-top: -0.70em; }
 

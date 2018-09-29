@@ -5037,15 +5037,15 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/alpenz-web-product-bottle/black_tot.bottle.png": {
-		"ft": 32768,
-		"iS": 242875,
+	"/alpenz-web-product-bottle/black_tot.bottle.jpg": {
+		"ft": 16384,
+		"iS": 25736,
+		"jF": 0,
 		"oA": 1,
-		"oAP": "/alpenz-web-product-bottle/black_tot.bottle.png",
+		"oAP": "/alpenz-web-product-bottle/black_tot.bottle.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"/alpenz-web-product-bottle/blume_marillen.bottle.jpg": {
@@ -6192,15 +6192,15 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/alpenz-web-product-bottle/smith_and_cross.bottle.png": {
-		"ft": 32768,
-		"iS": 365190,
+	"/alpenz-web-product-bottle/smith_and_cross.bottle.jpg": {
+		"ft": 16384,
+		"iS": 28264,
+		"jF": 0,
 		"oA": 1,
-		"oAP": "/alpenz-web-product-bottle/smith_and_cross.bottle.png",
+		"oAP": "/alpenz-web-product-bottle/smith_and_cross.bottle.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"/alpenz-web-product-bottle/sostrera.bottle.jpg": {
@@ -21879,6 +21879,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/products.html",
+		"oF": 0
+		},
+	"/Rancio_Sec_The_Revival_of_Frances_Answer_to_Sherry.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/Rancio_Sec_The_Revival_of_Frances_Answer_to_Sherry.html",
 		"oF": 0
 		},
 	"/Rancio_Sec_The_Revival_of_Frances_Answer_to_Sherry_Punch_Magazine.html": {

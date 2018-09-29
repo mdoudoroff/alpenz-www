@@ -1338,7 +1338,7 @@ td.combo {
 
 	// this is to actually move the element up to the baseline
 	position: relative;
-	bottom: 2px; 
+	bottom: 0px; 
 
 	@include respond-to(print) {
 		display: none;
@@ -2326,6 +2326,7 @@ ul.articleCategories {
 	padding: 0.5rem;
 
 	h2 {
+		font-size: 18px;
 		margin-bottom: 0;
 		font-weight: bold;
 
@@ -2333,7 +2334,7 @@ ul.articleCategories {
 		a:hover { color: $link_hover; }
 
 		@include respond-to(phone) {
-			font-size: 18px;
+			font-size: 16px;
 		}
 	}
 
@@ -2353,8 +2354,11 @@ ul.articleCategories {
 			width: 100%;
 			height: auto;
 		}
-
 	}
+}
+
+.articlebox.press-item {
+	background-color: none;
 }
 
 table.contentReport {
@@ -2592,6 +2596,7 @@ table.contentReport {
 
 	.resourceType {
 	  margin-top: 0.5rem;
+	  z-index: 999;
 	}
 
 }
