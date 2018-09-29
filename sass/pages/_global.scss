@@ -2357,10 +2357,6 @@ ul.articleCategories {
 	}
 }
 
-.articlebox.press-item {
-	background-color: none;
-}
-
 table.contentReport {
 
 	margin-bottom: 2rem;
@@ -2581,7 +2577,7 @@ table.contentReport {
 .overlayB {
 
 	position: absolute;
-	top: 0;
+	top: 9px;
 	display: flex;
 	align-items: flex-start;
 	justify-content: center;
@@ -2603,7 +2599,11 @@ table.contentReport {
 
 
 .overlay1 {
-	background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 65%, rgb(0, 0, 0) 125%);
+	// background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 75%, rgb(0, 0, 0) 125%);
+	background-image: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    );
 
 	.title {
 	  text-align: center;
@@ -2611,21 +2611,22 @@ table.contentReport {
 	  line-height: 42px;
 	  padding: 0 1em;
 	  font-family: $heading-font;
-	  text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+	  // text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+	  text-shadow: rgb(0, 0, 0) 0px 0px 9px;
 	  font-weight: bold;
 
-	  margin-top: 140px;
+	  // margin-top: 140px;
 
 	  @include respond-to(phone) {
 		font-size: 24px;
-	  	margin-top: 18vw;
+	  	// margin-top: 18vw;
 	  	line-height: 24px;
       }
 
 	  @include respond-to(smallphone) {
-		font-size: 18px;
-	  	margin-top: 18vw;
-	  	line-height: 18px;
+		font-size: 22px;
+	  	// margin-top: 18vw;
+	  	line-height: 22px;
       }
 
 
@@ -2634,27 +2635,33 @@ table.contentReport {
 }
 
 .overlay2 {
-	background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 65%, rgb(0, 0, 0) 125%);
+	// background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 65%, rgb(0, 0, 0) 125%);
+	background-image: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    );
 
 	.title {
-	  text-align: left;
+	  // text-align: left;
+	  text-align: center;
 	  font-size: 27px;
 	  line-height: 32px;
 	  padding: 0 1em;
 	  font-family: $heading-font;
-	  text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+	  text-shadow: rgb(0, 0, 0) 0px 0px 9px;
+	  font-weight: bold;
 
-		margin-top: 136px;
+		// margin-top: 136px;
 
 	  @include respond-to(phone) {
 		font-size: 24px;
-	  	margin-top: 18vw;
+	  	// margin-top: 18vw;
 	  	line-height: 24px;
       }
 
 	  @include respond-to(smallphone) {
 		font-size: 18px;
-	  	margin-top: 18vw;
+	  	// margin-top: 18vw;
 	  	line-height: 18px;
       }
 
@@ -2662,7 +2669,11 @@ table.contentReport {
 }
 
 .overlay3 {
-	background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 65%, rgb(0, 0, 0) 125%);
+	// background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 65%, rgb(0, 0, 0) 125%);
+	background-image: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    );
 
 	.title {
 	  text-align: center;
@@ -2670,20 +2681,20 @@ table.contentReport {
 	  line-height: 36px;
 	  padding: 0 1em;
 	  font-family: $heading-font;
-		text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+		text-shadow: rgb(0, 0, 0) 0px 0px 9px;
 		font-weight: bold;
 
-	margin-top: 100px;
+	// margin-top: 100px;
 
 	  @include respond-to(phone) {
 		font-size: 27px;
-	  	margin-top: 21vw;
+	  	// margin-top: 21vw;
 	  	line-height: 27px;
       }
 
 	  @include respond-to(smallphone) {
 		font-size: 18px;
-	  	margin-top: 18vw;
+	  	// margin-top: 18vw;
 	  	line-height: 18px;
       }
 
@@ -2692,7 +2703,11 @@ table.contentReport {
 	}
 }
 .overlay4 {
-	background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 65%, rgb(0, 0, 0) 125%);
+	// background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 65%, rgb(0, 0, 0) 125%);
+	background-image: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    );
 
 	.title {
 	  text-align: center;
@@ -2700,19 +2715,20 @@ table.contentReport {
 	  line-height: 32px;
 	  padding: 0 1em;
 	  font-family: $heading-font;
-		text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+	  text-shadow: rgb(0, 0, 0) 0px 0px 9px;
+	  font-weight: bold;
 
 		// margin-top: 2rem;
 
 	  @include respond-to(phone) {
 		font-size: 24px;
-	  	margin-top: 16vw;
+	  	// margin-top: 16vw;
 	  	line-height: 24px;
       }
 
 	  @include respond-to(smallphone) {
 		font-size: 18px;
-	  	margin-top: 18vw;
+	  	// margin-top: 18vw;
 	  	line-height: 18px;
       }
 
