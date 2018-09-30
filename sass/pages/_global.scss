@@ -2135,6 +2135,12 @@ dd {
 		img {
 			width: auto;
 			height: 620px;
+
+			@include respond-to(phone) {
+				width: 100%;
+				height: auto;
+			}
+
 		}
 	}
 
@@ -2142,6 +2148,7 @@ dd {
 		width: 480px;
 		@include respond-to(phone) {
 			width: 100%;
+			height: auto;
 		}
 	}
 	figure.smaller-portrait {
@@ -2150,11 +2157,16 @@ dd {
 		img {
 			width: auto;
 			height: 480px;
+
+			@include respond-to(phone) {
+				width: 80%;
+				height: auto;
+			}
 		}
 
-		@include respond-to(phone) {
-			width: 100%;
-		}
+		// @include respond-to(phone) {
+		// 	width: 100%;
+		// }
 	}
 
 	figure.aside {

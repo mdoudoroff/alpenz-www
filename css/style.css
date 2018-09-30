@@ -2109,19 +2109,25 @@ dd {
     .contentful figure.portrait img {
       width: auto;
       height: 620px; }
+      @media only screen and (max-width: 420px) {
+        .contentful figure.portrait img {
+          width: 100%;
+          height: auto; } }
   .contentful figure.smaller {
     width: 480px; }
     @media only screen and (max-width: 420px) {
       .contentful figure.smaller {
-        width: 100%; } }
+        width: 100%;
+        height: auto; } }
   .contentful figure.smaller-portrait {
     width: auto; }
     .contentful figure.smaller-portrait img {
       width: auto;
       height: 480px; }
-    @media only screen and (max-width: 420px) {
-      .contentful figure.smaller-portrait {
-        width: 100%; } }
+      @media only screen and (max-width: 420px) {
+        .contentful figure.smaller-portrait img {
+          width: 80%;
+          height: auto; } }
   .contentful figure.aside {
     width: 33%;
     margin: 0 0 0 1em;
