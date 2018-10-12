@@ -88,6 +88,19 @@ $logoheight: 50px;
 		}
 	}
 	
+	h1.dev {
+		a {
+			background: url('../assets/logo-wide-dev.png') no-repeat;
+			background-size: $logowidth $logoheight;
+
+			@include respond-to(phone) {
+				margin: 0 auto;
+				width: $logowidth/2;
+				background: url('../assets/logo-wide-dev.png') no-repeat;
+				background-size: ($logowidth / 2) ($logoheight / 2);
+			}
+		}
+	}
 
 	h2 {
 		float: right;

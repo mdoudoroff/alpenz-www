@@ -170,6 +170,15 @@ em, i {
           margin: 0 auto;
           width: 197.5px;
           background-size: 197.5px 25px; } }
+  .header h1.dev a {
+    background: url("../assets/logo-wide-dev.png") no-repeat;
+    background-size: 395px 50px; }
+    @media only screen and (max-width: 420px) {
+      .header h1.dev a {
+        margin: 0 auto;
+        width: 197.5px;
+        background: url("../assets/logo-wide-dev.png") no-repeat;
+        background-size: 197.5px 25px; } }
   .header h2 {
     float: right;
     font-size: 20px;

@@ -7,7 +7,7 @@
 		"uuidString": "B5ADC2AB-4759-4D37-B9EB-92E440ECE0B5"
 		}
 	],
-"creatorBuild": "28901",
+"creatorBuild": "28905",
 "files": {
 	"/.gitignore": {
 		"cB": 0,
@@ -2444,17 +2444,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/alpenz-web-category/red_wine.category.jpg": {
-		"ft": 16384,
-		"iS": 224306,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "/alpenz-web-category/red_wine.category.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/alpenz-web-category/rum.category.jpg": {
 		"ft": 16384,
 		"iS": 141509,
@@ -2830,6 +2819,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/alpenz-web-map/collioure_aop.rawmap.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/alpenz-web-map/collioure_aop.rawmap.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/alpenz-web-map/comoz.map.jpg": {
 		"ft": 16384,
@@ -3797,6 +3796,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/alpenz-web-producer-logo/belem.logo.jpg": {
+		"ft": 16384,
+		"iS": 74740,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/alpenz-web-producer-logo/belem.logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/alpenz-web-producer-logo/bonal.logo.png": {
 		"ft": 32768,
 		"iS": 34026,
@@ -3874,6 +3884,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/alpenz-web-producer-logo/comoz.logo.jpg": {
+		"ft": 16384,
+		"iS": 107877,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/alpenz-web-producer-logo/comoz.logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/alpenz-web-producer-logo/distillerie_de_la_salers.logo.jpg": {
 		"ft": 16384,
 		"iS": 191542,
@@ -3893,6 +3914,17 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"/alpenz-web-producer-logo/domain_du_mas_blanc.logo.jpg": {
+		"ft": 16384,
+		"iS": 31905,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/alpenz-web-producer-logo/domain_du_mas_blanc.logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/alpenz-web-producer-logo/domaine_de_rombeau.logo.png": {
 		"ft": 32768,
 		"iS": 75310,
@@ -3902,6 +3934,17 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/alpenz-web-producer-logo/domaine_du_dernier_bastion.logo.jpg": {
+		"ft": 16384,
+		"iS": 48084,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/alpenz-web-producer-logo/domaine_du_dernier_bastion.logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/alpenz-web-producer-logo/domaine_du_sau.logo.jpg": {
@@ -4023,6 +4066,17 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/alpenz-web-producer-logo/saveiro.logo.jpg": {
+		"ft": 16384,
+		"iS": 123619,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/alpenz-web-producer-logo/saveiro.logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/alpenz-web-producer-logo/seale.logo.jpg": {
@@ -8821,6 +8875,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/logo-wide-dev.png": {
+		"ft": 32768,
+		"iS": 38416,
+		"oA": 1,
+		"oAP": "/assets/logo-wide-dev.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/logo-wide.png": {
 		"ft": 32768,
 		"iS": 38416,
@@ -8978,8 +9043,7 @@
 		"oF": 0
 		},
 	"/config.rb": {
-		"cB": 0,
-		"ft": 8192,
+		"ft": 131072,
 		"oA": 0,
 		"oAP": "/config.rb",
 		"oF": 0
@@ -11787,13 +11851,6 @@
 		"oAP": "/glossary.html",
 		"oF": 0
 		},
-	"/grouping-banyuls_horsdage.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/grouping-banyuls_horsdage.html",
-		"oF": 0
-		},
 	"/grouping-banyuls_rimage.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -11892,25 +11949,11 @@
 		"oAP": "/grouping-maderia-ancient solera.txt",
 		"oF": 0
 		},
-	"/how_to_store_wines.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/how_to_store_wines.html",
-		"oF": 0
-		},
 	"/hyperlinking.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/hyperlinking.html",
-		"oF": 0
-		},
-	"/image_tests.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/image_tests.html",
 		"oF": 0
 		},
 	"/images/.mostrecent.pickle": {
@@ -19264,18 +19307,18 @@
 		"oAP": "/index-mobile.html",
 		"oF": 0
 		},
+	"/index-offline.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/index-offline.html",
+		"oF": 0
+		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/index.html",
-		"oF": 0
-		},
-	"/index2.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/index2.html",
 		"oF": 0
 		},
 	"/infographics.html": {
@@ -19375,20 +19418,6 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"/license-full.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/license-full.html",
-		"oF": 0
-		},
-	"/licenses.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/licenses.html",
-		"oF": 0
-		},
 	"/madeira_a_wine_for_the_ages.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -19408,13 +19437,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/mission.html",
-		"oF": 0
-		},
-	"/origin-.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/origin-.html",
 		"oF": 0
 		},
 	"/origin-alta_langa_docg.html": {
@@ -19478,6 +19500,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/origin-catalunya.html",
+		"oF": 0
+		},
+	"/origin-collioure_aop.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/origin-collioure_aop.html",
 		"oF": 0
 		},
 	"/origin-corsica.html": {
@@ -19548,13 +19577,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/origin-java.html",
-		"oF": 0
-		},
-	"/origin-madeira_do.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/origin-madeira_do.html",
 		"oF": 0
 		},
 	"/origin-madeira_doc.html": {
@@ -19718,13 +19740,6 @@
 		"oAP": "/origincat-austria-floral_herbal_amaro.html",
 		"oF": 0
 		},
-	"/origincat-austria-fruit_liqueurs.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/origincat-austria-fruit_liqueurs.html",
-		"oF": 0
-		},
 	"/origincat-austria-rum.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -19765,6 +19780,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/origincat-catalunya-vermouth.html",
+		"oF": 0
+		},
+	"/origincat-collioure_aop-red_wine.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/origincat-collioure_aop-red_wine.html",
 		"oF": 0
 		},
 	"/origincat-corsica-quina.html": {
@@ -19893,13 +19915,6 @@
 		"oAP": "/origincat-java-rum.html",
 		"oF": 0
 		},
-	"/origincat-new_york-fruit_liqueurs.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/origincat-new_york-fruit_liqueurs.html",
-		"oF": 0
-		},
 	"/origincat-new_york-gin.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -19912,13 +19927,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/origincat-oberosterreich-floral_herbal_amaro.html",
-		"oF": 0
-		},
-	"/origincat-oberosterreich-fruit_liqueurs.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/origincat-oberosterreich-fruit_liqueurs.html",
 		"oF": 0
 		},
 	"/origincat-oberosterreich-rum.html": {
@@ -20117,13 +20125,6 @@
 		"oAP": "/producer-abbe_rous.html",
 		"oF": 0
 		},
-	"/producer-alagna.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/producer-alagna.html",
-		"oF": 0
-		},
 	"/producer-american_gin_company.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -20213,13 +20214,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/producer-dolin.html",
-		"oF": 0
-		},
-	"/producer-domain_du_dernier_bastion.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/producer-domain_du_dernier_bastion.html",
 		"oF": 0
 		},
 	"/producer-domain_du_mas_blanc.html": {
@@ -20327,13 +20321,6 @@
 		"oAP": "/producer-purkhart.html",
 		"oF": 0
 		},
-	"/producer-quinta_dos_pesos.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/producer-quinta_dos_pesos.html",
-		"oF": 0
-		},
 	"/producer-saveiro.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -20362,25 +20349,11 @@
 		"oAP": "/producer-speciality_drinks.html",
 		"oF": 0
 		},
-	"/producer-specialty_drinks.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/producer-specialty_drinks.html",
-		"oF": 0
-		},
 	"/producer-terres_des_templiers.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/producer-terres_des_templiers.html",
-		"oF": 0
-		},
-	"/producer-villa_oeiras.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/producer-villa_oeiras.html",
 		"oF": 0
 		},
 	"/producermaps.html": {
@@ -20395,20 +20368,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/producers.html",
-		"oF": 0
-		},
-	"/product-alagna_dolce.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/product-alagna_dolce.html",
-		"oF": 0
-		},
-	"/product-alagna_secco.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/product-alagna_secco.html",
 		"oF": 0
 		},
 	"/product-allspice.html": {
@@ -20705,13 +20664,6 @@
 		"oAP": "/product-comoz_blanc.html",
 		"oF": 0
 		},
-	"/product-csm_1947-or.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/product-csm_1947-or.html",
-		"oF": 0
-		},
 	"/product-csm_1947.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -20843,62 +20795,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/product-dopo.html",
-		"oF": 0
-		},
-	"/product-dos_pesos_1987.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/product-dos_pesos_1987.html",
-		"oF": 0
-		},
-	"/product-dos_pesos_1988.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/product-dos_pesos_1988.html",
-		"oF": 0
-		},
-	"/product-dos_pesos_1989.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/product-dos_pesos_1989.html",
-		"oF": 0
-		},
-	"/product-dos_pesos_1990.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/product-dos_pesos_1990.html",
-		"oF": 0
-		},
-	"/product-dos_pesos_1991.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/product-dos_pesos_1991.html",
-		"oF": 0
-		},
-	"/product-dos_pesos_1996.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/product-dos_pesos_1996.html",
-		"oF": 0
-		},
-	"/product-dos_pesos_1997.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/product-dos_pesos_1997.html",
-		"oF": 0
-		},
-	"/product-dos_pesos_1998.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/product-dos_pesos_1998.html",
 		"oF": 0
 		},
 	"/product-espodol_garnatxa.html": {
@@ -21153,13 +21049,6 @@
 		"oAP": "/product-rainwater.html",
 		"oF": 0
 		},
-	"/product-rimage_1976.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/product-rimage_1976.html",
-		"oF": 0
-		},
 	"/product-rimage_1988.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -21221,41 +21110,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/product-sau_rancio.html",
-		"oF": 0
-		},
-	"/product-sau_rivesaltes_1998.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/product-sau_rivesaltes_1998.html",
-		"oF": 0
-		},
-	"/product-sau_rivesaltes_1999.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/product-sau_rivesaltes_1999.html",
-		"oF": 0
-		},
-	"/product-sau_rivesaltes_2000.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/product-sau_rivesaltes_2000.html",
-		"oF": 0
-		},
-	"/product-sau_rivesaltes_2001.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/product-sau_rivesaltes_2001.html",
-		"oF": 0
-		},
-	"/product-sau_rivesaltes_2002.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/product-sau_rivesaltes_2002.html",
 		"oF": 0
 		},
 	"/product-saveiro_oeste.html": {
@@ -21328,32 +21182,11 @@
 		"oAP": "/product-smith_and_cross.html",
 		"oF": 0
 		},
-	"/product-sostera.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/product-sostera.html",
-		"oF": 0
-		},
-	"/product-sostrera.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/product-sostrera.html",
-		"oF": 0
-		},
 	"/product-tabacal.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/product-tabacal.html",
-		"oF": 0
-		},
-	"/product-tabacal_dos.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/product-tabacal_dos.html",
 		"oF": 0
 		},
 	"/product-templiers.html": {
@@ -21382,13 +21215,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/product-terrantez_20.html",
-		"oF": 0
-		},
-	"/product-testp.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/product-testp.html",
 		"oF": 0
 		},
 	"/product-tinta_negra_50.html": {
@@ -21459,13 +21285,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/product-verdelho_solera_1898.html",
-		"oF": 0
-		},
-	"/product-villa_oeiras.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/product-villa_oeiras.html",
 		"oF": 0
 		},
 	"/product-violette.html": {
@@ -21886,13 +21705,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/Rancio_Sec_The_Revival_of_Frances_Answer_to_Sherry.html",
-		"oF": 0
-		},
-	"/Rancio_Sec_The_Revival_of_Frances_Answer_to_Sherry_Punch_Magazine.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/Rancio_Sec_The_Revival_of_Frances_Answer_to_Sherry_Punch_Magazine.html",
 		"oF": 0
 		},
 	"/recipe-0526-0001.html": {
@@ -25212,11 +25024,11 @@
 		"oAP": "/sitemap.txt",
 		"oF": 0
 		},
-	"/ssinfographic_embedding_test.html": {
+	"/storage_and_handling_guidance.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "/ssinfographic_embedding_test.html",
+		"oAP": "/storage_and_handling_guidance.html",
 		"oF": 0
 		},
 	"/subcategory-americano.html": {
@@ -25233,13 +25045,6 @@
 		"oAP": "/subcategory-banyuls.html",
 		"oF": 0
 		},
-	"/subcategory-carcavelos.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/subcategory-carcavelos.html",
-		"oF": 0
-		},
 	"/subcategory-garnatxa.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -25252,13 +25057,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/subcategory-madeira.html",
-		"oF": 0
-		},
-	"/subcategory-marsala.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/subcategory-marsala.html",
 		"oF": 0
 		},
 	"/subcategory-maury.html": {
@@ -25280,13 +25078,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/subcategory-rancio_sec.html",
-		"oF": 0
-		},
-	"/subcategory-rivesaltes.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/subcategory-rivesaltes.html",
 		"oF": 0
 		},
 	"/subcategory-vermouth.html": {
@@ -25322,13 +25113,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/Swedish_Punsch_in_History_and_Mixology.html",
-		"oF": 0
-		},
-	"/tag-.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/tag-.html",
 		"oF": 0
 		},
 	"/tag-fortified.html": {
@@ -27557,7 +27341,7 @@
 	"languageDefaultsUserDefined": [
 		],
 	"overrideExternalServerCSS": 0,
-	"previewPathAddition": "/index2.html",
+	"previewPathAddition": "/index.html",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, /storage/framework/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
