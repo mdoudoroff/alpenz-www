@@ -5289,6 +5289,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/alpenz-web-product-bottle/cocchi_bianc_2009.bottle.jpg": {
+		"ft": 16384,
+		"iS": 504626,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/alpenz-web-product-bottle/cocchi_bianc_2009.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/alpenz-web-product-bottle/cocchi_bianc_2010.bottle.jpg": {
+		"ft": 16384,
+		"iS": 504626,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/alpenz-web-product-bottle/cocchi_bianc_2010.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/alpenz-web-product-bottle/cocchi_brut.bottle.png": {
 		"ft": 32768,
 		"iS": 115297,
@@ -5575,6 +5597,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/alpenz-web-product-bottle/dernier_bastion_2008.bottle.jpg": {
+		"ft": 16384,
+		"iS": 59186,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/alpenz-web-product-bottle/dernier_bastion_2008.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/alpenz-web-product-bottle/diademe_2008.bottle.jpg": {
 		"ft": 16384,
 		"iS": 41921,
@@ -5652,15 +5685,15 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/alpenz-web-product-bottle/falernum.bottle.png": {
-		"ft": 32768,
-		"iS": 367804,
+	"/alpenz-web-product-bottle/falernum.bottle.jpg": {
+		"ft": 16384,
+		"iS": 539445,
+		"jF": 0,
 		"oA": 1,
-		"oAP": "/alpenz-web-product-bottle/falernum.bottle.png",
+		"oAP": "/alpenz-web-product-bottle/falernum.bottle.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"/alpenz-web-product-bottle/founders_solera_1894.bottle.jpg": {
@@ -6752,6 +6785,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/alpenz-web-product-context/cocchi_bianc_2009.context.jpg": {
+		"ft": 16384,
+		"iS": 3343140,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/alpenz-web-product-context/cocchi_bianc_2009.context.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/alpenz-web-product-context/cocchi_bianc_2010.context.jpg": {
+		"ft": 16384,
+		"iS": 3343140,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/alpenz-web-product-context/cocchi_bianc_2010.context.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/alpenz-web-product-context/cocchi_brut.context.jpg": {
 		"ft": 16384,
 		"iS": 248279,
@@ -7572,6 +7627,28 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/alpenz-web-product-label/cocchi_bianc_2009.label.jpg": {
+		"ft": 16384,
+		"iS": 95617,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/alpenz-web-product-label/cocchi_bianc_2009.label.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/alpenz-web-product-label/cocchi_bianc_2010.label.jpg": {
+		"ft": 16384,
+		"iS": 95617,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/alpenz-web-product-label/cocchi_bianc_2010.label.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/alpenz-web-product-label/cocchi_brut.label.jpg": {
@@ -10812,6 +10889,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/downloads/Zirbenz.zirbenz.talker.pdf",
+		"oF": 0
+		},
+	"/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/favicon.ico",
 		"oF": 0
 		},
 	"/gfx/bottle-placeholder.jpg": {
@@ -21047,6 +21131,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/product-rainwater.html",
+		"oF": 0
+		},
+	"/product-rimage_1976.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/product-rimage_1976.html",
 		"oF": 0
 		},
 	"/product-rimage_1988.html": {

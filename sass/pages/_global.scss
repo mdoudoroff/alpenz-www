@@ -2746,3 +2746,25 @@ table.contentReport {
 
 	}
 }
+
+// these should be moved out to a page-specific file
+.contactwell {
+	width: 50%;
+	float: left;
+	@include respond-to(phone) {
+		width: 100%;
+		float: none;
+	}
+}
+
+.missionwell {
+	width: 50%;
+	float: right;
+	background-color: $off-grey;
+	padding: 0.5rem;
+
+	@include respond-to(phone) {
+		width: 100%;
+		float: none;
+	}
+}

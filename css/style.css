@@ -2503,6 +2503,24 @@ table.contentReport {
         font-size: 18px;
         line-height: 18px; } }
 
+.contactwell {
+  width: 50%;
+  float: left; }
+  @media only screen and (max-width: 420px) {
+    .contactwell {
+      width: 100%;
+      float: none; } }
+
+.missionwell {
+  width: 50%;
+  float: right;
+  background-color: #edece8;
+  padding: 0.5rem; }
+  @media only screen and (max-width: 420px) {
+    .missionwell {
+      width: 100%;
+      float: none; } }
+
 .products {
   overflow: hidden;
   margin: 0 0 2em 0;
