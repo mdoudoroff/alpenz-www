@@ -2182,7 +2182,8 @@ dd {
         margin-left: inherit; } }
   .contentful div.infographic {
     margin-left: 170px;
-    margin-bottom: 1em; }
+    margin-bottom: 1em;
+    max-width: 470px; }
     @media only screen and (max-width: 420px) {
       .contentful div.infographic {
         margin-left: inherit; } }

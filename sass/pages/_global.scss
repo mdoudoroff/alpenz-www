@@ -2234,7 +2234,9 @@ dd {
 	div.infographic {
 		margin-left: 170px;
 		margin-bottom: 1em;
-		
+
+		max-width: 470px; // this is critical or it freaks out
+
 		@include respond-to(phone) {
 			margin-left: inherit;
 		}
