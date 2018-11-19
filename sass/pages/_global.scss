@@ -2237,6 +2237,9 @@ dd {
 
 		max-width: 470px; // this is critical or it freaks out
 
+		break-inside: avoid-column;
+		-webkit-column-break-inside: avoid;
+
 		@include respond-to(phone) {
 			margin-left: inherit;
 		}

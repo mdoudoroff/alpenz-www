@@ -2183,7 +2183,9 @@ dd {
   .contentful div.infographic {
     margin-left: 170px;
     margin-bottom: 1em;
-    max-width: 470px; }
+    max-width: 470px;
+    break-inside: avoid-column;
+    -webkit-column-break-inside: avoid; }
     @media only screen and (max-width: 420px) {
       .contentful div.infographic {
         margin-left: inherit; } }
@@ -3119,7 +3121,9 @@ h5 {
   flex-direction: row;
   justify-content: space-between;
   margin-top: 1em;
-  width: 100%; }
+  width: 100%;
+  break-inside: avoid-column;
+  -webkit-column-break-inside: avoid; }
   .infographic .infographicSegment {
     display: flex;
     flex-direction: row;

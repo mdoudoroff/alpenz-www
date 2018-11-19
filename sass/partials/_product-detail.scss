@@ -458,6 +458,9 @@
 	margin-top: 1em;
 	width: 100%;
 
+	break-inside: avoid-column;
+	-webkit-column-break-inside: avoid;
+
 	.infographicSegment {
 
 		display: flex;
