@@ -570,8 +570,19 @@ a {
 		font-size: 14px;
 		font-family: $body-font;
 
+		span.recIcon {
+			display: inline-block;
+			float: right;
+			font-size: 14px;
+		}
+
+		h1 {
+			font-size: 27px;
+		}
+
 		p {
 			margin-bottom: 1em;
+			line-height: 1.4;
 		}
 
 		img {
@@ -1306,6 +1317,10 @@ td.combo, td.protocol, td.vessel {
 
 td.combo {
 	min-width: 108px;
+}
+
+td.ing {
+	font-size: 14px;
 }
 
 .mainalt {
@@ -2222,6 +2237,15 @@ dd {
 			margin-top: 0;
 			text-align: left;
 		}
+
+		span.recIcon {
+			display: inline-block;
+			float: right;
+			font-size: 14px;
+			background-color: green;
+		}
+
+
 		p {
 			margin-left: 0;
 		}

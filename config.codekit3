@@ -21549,6 +21549,13 @@
 		"oAP": "/productrecipes-cocchi_americano.html",
 		"oF": 0
 		},
+	"/productrecipes-cocchi_brut.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/productrecipes-cocchi_brut.html",
+		"oF": 0
+		},
 	"/productrecipes-cocchi_rosa.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -24662,6 +24669,195 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/recipe-0526-0413.html",
+		"oF": 0
+		},
+	"/recipe-0526-0414.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/recipe-0526-0414.html",
+		"oF": 0
+		},
+	"/recipe-0526-0415.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/recipe-0526-0415.html",
+		"oF": 0
+		},
+	"/recipe-0526-0416.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/recipe-0526-0416.html",
+		"oF": 0
+		},
+	"/recipe-0526-0417.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/recipe-0526-0417.html",
+		"oF": 0
+		},
+	"/recipe-0526-0418.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/recipe-0526-0418.html",
+		"oF": 0
+		},
+	"/recipe-0526-0419.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/recipe-0526-0419.html",
+		"oF": 0
+		},
+	"/recipe-0526-0420.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/recipe-0526-0420.html",
+		"oF": 0
+		},
+	"/recipe-0526-0421.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/recipe-0526-0421.html",
+		"oF": 0
+		},
+	"/recipe-0526-0422.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/recipe-0526-0422.html",
+		"oF": 0
+		},
+	"/recipe-0526-0423.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/recipe-0526-0423.html",
+		"oF": 0
+		},
+	"/recipe-0526-0424.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/recipe-0526-0424.html",
+		"oF": 0
+		},
+	"/recipe-0526-0425.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/recipe-0526-0425.html",
+		"oF": 0
+		},
+	"/recipe-0526-0426.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/recipe-0526-0426.html",
+		"oF": 0
+		},
+	"/recipe-0526-0427.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/recipe-0526-0427.html",
+		"oF": 0
+		},
+	"/recipe-0526-0428.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/recipe-0526-0428.html",
+		"oF": 0
+		},
+	"/recipe-0526-0429.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/recipe-0526-0429.html",
+		"oF": 0
+		},
+	"/recipe-0526-0430.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/recipe-0526-0430.html",
+		"oF": 0
+		},
+	"/recipe-0526-0431.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/recipe-0526-0431.html",
+		"oF": 0
+		},
+	"/recipe-0526-0432.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/recipe-0526-0432.html",
+		"oF": 0
+		},
+	"/recipe-0526-0433.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/recipe-0526-0433.html",
+		"oF": 0
+		},
+	"/recipe-0526-0434.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/recipe-0526-0434.html",
+		"oF": 0
+		},
+	"/recipe-0526-0435.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/recipe-0526-0435.html",
+		"oF": 0
+		},
+	"/recipe-0526-0436.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/recipe-0526-0436.html",
+		"oF": 0
+		},
+	"/recipe-0526-0437.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/recipe-0526-0437.html",
+		"oF": 0
+		},
+	"/recipe-0526-0438.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/recipe-0526-0438.html",
+		"oF": 0
+		},
+	"/recipe-0526-0439.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/recipe-0526-0439.html",
+		"oF": 0
+		},
+	"/recipe-0526-0440.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/recipe-0526-0440.html",
 		"oF": 0
 		},
 	"/recipes-proofing.html": {

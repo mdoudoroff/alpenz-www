@@ -1205,8 +1205,15 @@ a {
     margin-bottom: 2em;
     font-size: 14px;
     font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif; }
+    .content .recipeFull span.recIcon {
+      display: inline-block;
+      float: right;
+      font-size: 14px; }
+    .content .recipeFull h1 {
+      font-size: 27px; }
     .content .recipeFull p {
-      margin-bottom: 1em; }
+      margin-bottom: 1em;
+      line-height: 1.4; }
     .content .recipeFull img {
       margin: 0; }
     .content .recipeFull .measure {
@@ -1634,6 +1641,9 @@ td.combo, td.protocol, td.vessel {
 
 td.combo {
   min-width: 108px; }
+
+td.ing {
+  font-size: 14px; }
 
 .mainalt {
   width: 100%; }
@@ -2175,6 +2185,11 @@ dd {
     .contentful div.recipeFull h1 {
       margin-top: 0;
       text-align: left; }
+    .contentful div.recipeFull span.recIcon {
+      display: inline-block;
+      float: right;
+      font-size: 14px;
+      background-color: green; }
     .contentful div.recipeFull p {
       margin-left: 0; }
     @media only screen and (max-width: 420px) {
