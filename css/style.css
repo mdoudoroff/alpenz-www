@@ -2363,6 +2363,11 @@ table.contentReport {
   height: 110%;
   left: -5%; }
 
+@media only screen and (max-width: 420px) {
+  .gridfeature1 .bkgd1 img {
+    width: 125%;
+    height: auto; } }
+
 .gridfeature2 {
   grid-column: 11/15;
   grid-row: 1/2; }
@@ -2373,13 +2378,13 @@ table.contentReport {
   .gridfeature2 .bkgd2 img {
     position: relative;
     height: 100%;
-    width: auto; }
+    width: auto;
+    left: -55%; }
     @media only screen and (max-width: 420px) {
       .gridfeature2 .bkgd2 img {
         width: 100%;
         height: auto;
-        left: 0;
-        top: -45%; } }
+        left: 0; } }
 
 .gridfeature3 {
   grid-column: 1/8;

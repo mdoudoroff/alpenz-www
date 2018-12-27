@@ -2517,6 +2517,17 @@ table.contentReport {
 	left: -5%;
 }
 
+.gridfeature1 {
+	.bkgd1 {
+		img{
+			@include respond-to(phone) {
+				width: 125%;
+				height: auto;
+			}
+		}
+	}
+}
+
 .gridfeature2 {
 	grid-column: 11/15;
 	grid-row: 1/2;
@@ -2531,13 +2542,13 @@ table.contentReport {
 			position: relative;
 			height: 100%;
 			width: auto;
-			// left: -30%;
+			left: -55%;
 
 		  @include respond-to(phone) {
 		  	width: 100%;
 		  	height: auto;
 		  	left: 0;
-		  	top: -45%;
+		  	// top: -45%;
 		  }
 		}
 	}
