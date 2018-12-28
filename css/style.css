@@ -2415,11 +2415,13 @@ table.contentReport {
   .gridfeature4 .bkgd4 img {
     position: relative;
     height: auto;
-    width: 100%; }
+    width: 100%;
+    top: -10%;
+    right: 0; }
     @media only screen and (max-width: 420px) {
       .gridfeature4 .bkgd4 img {
-        width: auto;
-        height: 100%;
+        width: 100%;
+        height: auto;
         left: 0;
         top: 0; } }
 
@@ -2469,7 +2471,7 @@ table.contentReport {
         line-height: 22px; } }
 
 .overlay2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)); }
   .overlay2 .title {
     text-align: center;
     font-size: 27px;
@@ -2507,7 +2509,7 @@ table.contentReport {
         line-height: 18px; } }
 
 .overlay4 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)); }
   .overlay4 .title {
     text-align: center;
     font-size: 32px;
