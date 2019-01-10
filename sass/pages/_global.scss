@@ -2502,7 +2502,7 @@ table.contentReport {
 		grid-column: 1/2;
 		grid-row: 1/2;
 	}
- 	
+
 	img {
 		width: 100%;
 		height: auto;
@@ -2515,17 +2515,6 @@ table.contentReport {
 	width: 110%;
 	height: 110%;
 	left: -5%;
-}
-
-.gridfeature1 {
-	.bkgd1 {
-		img{
-			@include respond-to(phone) {
-				width: 125%;
-				height: auto;
-			}
-		}
-	}
 }
 
 .gridfeature2 {
@@ -2542,13 +2531,13 @@ table.contentReport {
 			position: relative;
 			height: 100%;
 			width: auto;
-			left: -55%;
+			// left: -30%;
 
 		  @include respond-to(phone) {
 		  	width: 100%;
 		  	height: auto;
 		  	left: 0;
-		  	// top: -45%;
+		  	top: -45%;
 		  }
 		}
 	}
@@ -2595,12 +2584,11 @@ table.contentReport {
 			position: relative;
 			height: auto;
 			width: 100%;
-			top: -10%;
-			right: 0;
+			// top: -25%;
 
 			@include respond-to(phone) {
-				width: 100%;
-				height: auto;
+				width: auto;
+				height: 100%;
 				left: 0;
 				top: 0;
 			}
@@ -2618,7 +2606,7 @@ table.contentReport {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	color: white;	
+	color: white;
 
 	@include respond-to(phone) {
 		// justify-content: flex-end;
@@ -2689,8 +2677,8 @@ table.contentReport {
 .overlay2 {
 	// background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 65%, rgb(0, 0, 0) 125%);
 	background-image: linear-gradient(
-      rgba(0, 0, 0, 0.1),
-      rgba(0, 0, 0, 0.1)
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
     );
 
 	.title {
@@ -2757,8 +2745,8 @@ table.contentReport {
 .overlay4 {
 	// background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 65%, rgb(0, 0, 0) 125%);
 	background-image: linear-gradient(
-      rgba(0, 0, 0, 0.1),
-      rgba(0, 0, 0, 0.1)
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
     );
 
 	.title {
