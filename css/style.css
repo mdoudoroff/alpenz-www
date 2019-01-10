@@ -242,7 +242,10 @@ em, i {
     right: 108px;
     top: 13px; }
   .header ul {
-    display: block;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: baseline;
     font-family: "myriad-pro-condensed", Impact, sans-serif;
     font-size: 15px;
     font-weight: 700;
