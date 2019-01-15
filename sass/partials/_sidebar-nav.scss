@@ -42,6 +42,24 @@
 	}
 }
 
+#sidebarheader {
+	h1.sotolon {
+
+		height: 40px;
+		a {
+			position: relative;
+
+			@include respond-to(phone) {
+				background: url('../assets/logotype-sotolon.png') no-repeat;
+				margin: 0 auto;
+				width: 89px;
+				background-size: 89px 30px;
+				top: -3px;
+			}
+		}
+	}
+}
+
 #sidebarlogo {
 	margin-top: 0.2em;
 	margin-left: 0.25em;

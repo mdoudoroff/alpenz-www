@@ -8941,6 +8941,28 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/assets/logo-sotolon-wide-dev.png": {
+		"ft": 32768,
+		"iS": 46687,
+		"oA": 1,
+		"oAP": "/assets/logo-sotolon-wide-dev.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/logo-sotolon-wide.png": {
+		"ft": 32768,
+		"iS": 46687,
+		"oA": 1,
+		"oAP": "/assets/logo-sotolon-wide.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/logo-wide-centered.png": {
 		"ft": 32768,
 		"iS": 39300,
@@ -8968,6 +8990,17 @@
 		"iS": 38416,
 		"oA": 1,
 		"oAP": "/assets/logo-wide.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/logotype-sotolon.png": {
+		"ft": 32768,
+		"iS": 21581,
+		"oA": 1,
+		"oAP": "/assets/logotype-sotolon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -9120,8 +9153,7 @@
 		"oF": 0
 		},
 	"/config.rb": {
-		"cB": 0,
-		"ft": 8192,
+		"ft": 131072,
 		"oA": 0,
 		"oAP": "/config.rb",
 		"oF": 0

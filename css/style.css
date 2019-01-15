@@ -170,6 +170,41 @@ em, i {
           margin: 0 auto;
           width: 197.5px;
           background-size: 197.5px 25px; } }
+  .header h1.sotolon {
+    display: block;
+    width: 156px;
+    height: 112px;
+    line-height: 70px;
+    position: absolute;
+    top: 3px;
+    left: 8px; }
+    @media only screen and (max-width: 420px) {
+      .header h1.sotolon {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 40px;
+        margin: 0;
+        padding-top: 10px; } }
+    .header h1.sotolon a {
+      text-indent: -119988px;
+      overflow: hidden;
+      text-align: left;
+      text-transform: capitalize;
+      display: block;
+      position: relative;
+      height: 100%;
+      width: 156px;
+      background: url("../assets/logo-sotolon-wide.png") no-repeat;
+      background-size: 156px 112px; }
+      @media only screen and (max-width: 420px) {
+        .header h1.sotolon a {
+          background: url("../assets/logotype-sotolon.png") no-repeat;
+          margin: 0 auto;
+          width: 89px;
+          background-size: 89px 30px;
+          top: -3px; } }
   .header h1.dev a {
     background: url("../assets/logo-wide-dev.png") no-repeat;
     background-size: 395px 50px; }
@@ -179,6 +214,16 @@ em, i {
         width: 197.5px;
         background: url("../assets/logo-wide-dev.png") no-repeat;
         background-size: 197.5px 25px; } }
+  .header h1.dev.sotolon a {
+    background: url("../assets/logo-sotolon-wide-dev.png") no-repeat;
+    background-size: 156px 112px; }
+    @media only screen and (max-width: 420px) {
+      .header h1.dev.sotolon a {
+        background: url("../assets/logotype-sotolon.png") no-repeat;
+        margin: 0 auto;
+        width: 89px;
+        background-size: 89px 30px;
+        top: -3px; } }
   .header h2 {
     float: right;
     font-size: 20px;
@@ -378,12 +423,21 @@ em, i {
         display: block; }
         .header ul li:hover ul ul {
           display: none; }
+  .header ul.sotolon {
+    margin-top: 37px;
+    margin-left: 150px; }
   .header.short {
     position: relative;
     top: 0;
     left: 0;
     z-index: 1000;
     opacity: .95; }
+
+.header.sotolon {
+  height: 118px; }
+  @media only screen and (max-width: 420px) {
+    .header.sotolon {
+      height: 40px; } }
 
 .navigation {
   width: 100%;
@@ -490,6 +544,18 @@ em, i {
         #sidebarheader h1 a {
           width: 197.5px;
           background-size: 197.5px 25px; } }
+
+#sidebarheader h1.sotolon {
+  height: 40px; }
+  #sidebarheader h1.sotolon a {
+    position: relative; }
+    @media only screen and (max-width: 420px) {
+      #sidebarheader h1.sotolon a {
+        background: url("../assets/logotype-sotolon.png") no-repeat;
+        margin: 0 auto;
+        width: 89px;
+        background-size: 89px 30px;
+        top: -3px; } }
 
 #sidebarlogo {
   margin-top: 0.2em;
