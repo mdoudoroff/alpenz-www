@@ -1969,6 +1969,13 @@
 		"oAP": "/alpenz-download-product-talker/cocchi_vdt.talker.pdf",
 		"oF": 0
 		},
+	"/alpenz-download-product-talker/comoz_blanc.talker.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/alpenz-download-product-talker/comoz_blanc.talker.pdf",
+		"oF": 0
+		},
 	"/alpenz-download-product-talker/dolin_blanc.talker.pdf": {
 		"cB": 0,
 		"ft": 8192,
@@ -8795,6 +8802,13 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/Alpine_Cocoa_Verte_Chaud.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/Alpine_Cocoa_Verte_Chaud.html",
+		"oF": 0
+		},
 	"/aromatized_wines_primer.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -9150,6 +9164,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/category-sparkling.html",
+		"oF": 0
+		},
+	"/Comoz_and_the_Art_of_the_Poster.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/Comoz_and_the_Art_of_the_Poster.html",
 		"oF": 0
 		},
 	"/config.rb": {
@@ -11978,6 +11999,13 @@
 		"oAP": "/glossary.html",
 		"oF": 0
 		},
+	"/grouping-banyuls_horsdage.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/grouping-banyuls_horsdage.html",
+		"oF": 0
+		},
 	"/grouping-banyuls_rimage.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -12081,6 +12109,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/hyperlinking.html",
+		"oF": 0
+		},
+	"/image_demo.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/image_demo.html",
 		"oF": 0
 		},
 	"/images/.mostrecent.pickle": {
@@ -19566,6 +19601,13 @@
 		"oAP": "/mission.html",
 		"oF": 0
 		},
+	"/origin-.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/origin-.html",
+		"oF": 0
+		},
 	"/origin-alta_langa_docg.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -20252,6 +20294,13 @@
 		"oAP": "/producer-abbe_rous.html",
 		"oF": 0
 		},
+	"/producer-alagna.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/producer-alagna.html",
+		"oF": 0
+		},
 	"/producer-american_gin_company.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -20448,6 +20497,13 @@
 		"oAP": "/producer-purkhart.html",
 		"oF": 0
 		},
+	"/producer-quinta_dos_pesos.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/producer-quinta_dos_pesos.html",
+		"oF": 0
+		},
 	"/producer-saveiro.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -20483,6 +20539,13 @@
 		"oAP": "/producer-terres_des_templiers.html",
 		"oF": 0
 		},
+	"/producer-villa_oeiras.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/producer-villa_oeiras.html",
+		"oF": 0
+		},
 	"/producermaps.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -20495,6 +20558,20 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/producers.html",
+		"oF": 0
+		},
+	"/product-alagna_dolce.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/product-alagna_dolce.html",
+		"oF": 0
+		},
+	"/product-alagna_secco.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/product-alagna_secco.html",
 		"oF": 0
 		},
 	"/product-allspice.html": {
@@ -20791,6 +20868,13 @@
 		"oAP": "/product-comoz_blanc.html",
 		"oF": 0
 		},
+	"/product-csm_1947-or.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/product-csm_1947-or.html",
+		"oF": 0
+		},
 	"/product-csm_1947.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -20922,6 +21006,62 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/product-dopo.html",
+		"oF": 0
+		},
+	"/product-dos_pesos_1987.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/product-dos_pesos_1987.html",
+		"oF": 0
+		},
+	"/product-dos_pesos_1988.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/product-dos_pesos_1988.html",
+		"oF": 0
+		},
+	"/product-dos_pesos_1989.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/product-dos_pesos_1989.html",
+		"oF": 0
+		},
+	"/product-dos_pesos_1990.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/product-dos_pesos_1990.html",
+		"oF": 0
+		},
+	"/product-dos_pesos_1991.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/product-dos_pesos_1991.html",
+		"oF": 0
+		},
+	"/product-dos_pesos_1996.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/product-dos_pesos_1996.html",
+		"oF": 0
+		},
+	"/product-dos_pesos_1997.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/product-dos_pesos_1997.html",
+		"oF": 0
+		},
+	"/product-dos_pesos_1998.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/product-dos_pesos_1998.html",
 		"oF": 0
 		},
 	"/product-espodol_garnatxa.html": {
@@ -21246,6 +21386,41 @@
 		"oAP": "/product-sau_rancio.html",
 		"oF": 0
 		},
+	"/product-sau_rivesaltes_1998.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/product-sau_rivesaltes_1998.html",
+		"oF": 0
+		},
+	"/product-sau_rivesaltes_1999.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/product-sau_rivesaltes_1999.html",
+		"oF": 0
+		},
+	"/product-sau_rivesaltes_2000.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/product-sau_rivesaltes_2000.html",
+		"oF": 0
+		},
+	"/product-sau_rivesaltes_2001.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/product-sau_rivesaltes_2001.html",
+		"oF": 0
+		},
+	"/product-sau_rivesaltes_2002.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/product-sau_rivesaltes_2002.html",
+		"oF": 0
+		},
 	"/product-saveiro_oeste.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -21316,11 +21491,25 @@
 		"oAP": "/product-smith_and_cross.html",
 		"oF": 0
 		},
+	"/product-sostrera.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/product-sostrera.html",
+		"oF": 0
+		},
 	"/product-tabacal.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/product-tabacal.html",
+		"oF": 0
+		},
+	"/product-tabacal_dos.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/product-tabacal_dos.html",
 		"oF": 0
 		},
 	"/product-templiers.html": {
@@ -21419,6 +21608,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/product-verdelho_solera_1898.html",
+		"oF": 0
+		},
+	"/product-villa_oeiras.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/product-villa_oeiras.html",
 		"oF": 0
 		},
 	"/product-violette.html": {
@@ -25354,6 +25550,13 @@
 		"oAP": "/sitemap.txt",
 		"oF": 0
 		},
+	"/ssinfographic_embedding_test.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/ssinfographic_embedding_test.html",
+		"oF": 0
+		},
 	"/storage_and_handling_guidance.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -25375,6 +25578,13 @@
 		"oAP": "/subcategory-banyuls.html",
 		"oF": 0
 		},
+	"/subcategory-carcavelos.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/subcategory-carcavelos.html",
+		"oF": 0
+		},
 	"/subcategory-garnatxa.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -25387,6 +25597,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/subcategory-madeira.html",
+		"oF": 0
+		},
+	"/subcategory-marsala.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/subcategory-marsala.html",
 		"oF": 0
 		},
 	"/subcategory-maury.html": {
@@ -25408,6 +25625,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/subcategory-rancio_sec.html",
+		"oF": 0
+		},
+	"/subcategory-rivesaltes.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/subcategory-rivesaltes.html",
 		"oF": 0
 		},
 	"/subcategory-vermouth.html": {
@@ -25443,6 +25667,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/Swedish_Punsch_in_History_and_Mixology.html",
+		"oF": 0
+		},
+	"/tag-.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/tag-.html",
 		"oF": 0
 		},
 	"/tag-fortified.html": {
@@ -25674,6 +25905,13 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"/There_Is_No_Family_Quite_as_Connected_as_a_Family_That_Makes_Gin._This_Is_Proof..html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/There_Is_No_Family_Quite_as_Connected_as_a_Family_That_Makes_Gin._This_Is_Proof..html",
+		"oF": 0
 		}
 	},
 "hooks": [

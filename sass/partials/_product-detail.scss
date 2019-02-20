@@ -467,6 +467,7 @@
 		flex-direction: row;
 		justify-content: space-evenly;
 		flex-wrap: nowrap;
+		align-items: center;
 
 		width: 32%;
 		padding: 0.5em;
@@ -502,6 +503,8 @@
 			text-align: center;
 			font-size: 12px;
 			flex: 1 1 auto;
+			margin-left: 0.25em;
+			margin-right: 0.25em;
 
 			@include respond-to(phone) {
 				font-size: 10px;
@@ -519,7 +522,7 @@
 
 			overflow: hidden;
 			text-align: center;
-			flex: 1 1 auto;
+			flex: 1 0 auto;
 
 			@include respond-to(phone) {
 				padding-top: 3px;

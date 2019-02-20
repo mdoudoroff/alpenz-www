@@ -3212,6 +3212,7 @@ h5 {
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: nowrap;
+    align-items: center;
     width: 32%;
     padding: 0.5em;
     font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
@@ -3233,7 +3234,9 @@ h5 {
       width: auto;
       text-align: center;
       font-size: 12px;
-      flex: 1 1 auto; }
+      flex: 1 1 auto;
+      margin-left: 0.25em;
+      margin-right: 0.25em; }
       @media only screen and (max-width: 420px) {
         .infographic .infographicSegment .infographicSectionText {
           font-size: 10px; } }
@@ -3245,7 +3248,7 @@ h5 {
       align-items: flex-end;
       overflow: hidden;
       text-align: center;
-      flex: 1 1 auto; }
+      flex: 1 0 auto; }
       @media only screen and (max-width: 420px) {
         .infographic .infographicSegment .infographicSectionIcons {
           padding-top: 3px;
