@@ -743,14 +743,18 @@ em, i {
     padding: 0.5em;
     border: 2px solid #dddcd8;
     clear: both;
-    background-color: #fff; }
-    #searchResults .match .icons {
-      display: table-cell;
-      width: 90px;
-      float: right;
-      text-align: right; }
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; }
     #searchResults .match .summary {
       font-size: 90%; }
+    #searchResults .match .logo {
+      width: 160px;
+      height: auto; }
+    #searchResults .match .clusterbottle2 {
+      width: 90px;
+      height: 160px; }
     #searchResults .match strong {
       font-weight: bold;
       font-size: 16px; }

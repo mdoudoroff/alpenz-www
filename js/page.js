@@ -43,9 +43,11 @@ function createSearchOverlay() {
 					for (var i = 0; i < msg.length; i++) {
 
 						if (msg[i].icons) {
-							searchResults.append($('<a href="'+msg[i].url+'"><div class="match clr"><div class="icons">'+msg[i].icons+'</div><div class="summary"><p><strong>'+msg[i].name+'</strong><br />'+msg[i].summary+'</p></div></div></a>'));
+							//searchResults.append($('<a href="'+msg[i].url+'"><div class="match clr"><div class="icons">'+msg[i].icons+'</div><div class="summary"><p><strong>'+msg[i].name+'</strong><br />'+msg[i].summary+'</p></div></div></a>'));
+							searchResults.append($('<a href="'+msg[i].url+'"><div class="match"><div class="summary"><p><strong>'+msg[i].name+'</strong><br />'+msg[i].summary+'</p></div>'+msg[i].icons+'</div></a>'));
 						} else {
-							searchResults.append($('<a href="'+msg[i].url+'"><div class="match clr"><div class="summary"><p><strong>'+msg[i].name+'</strong><br />'+msg[i].summary+'</p></div></div></a>'));	
+							//searchResults.append($('<a href="'+msg[i].url+'"><div class="match clr"><div class="summary"><p><strong>'+msg[i].name+'</strong><br />'+msg[i].summary+'</p></div></div></a>'));	
+							searchResults.append($('<a href="'+msg[i].url+'"><div class="match"><div class="summary"><p><strong>'+msg[i].name+'</strong><br />'+msg[i].summary+'</p></div></div></a>'));	
 						}
 						
 					}

@@ -327,14 +327,29 @@
 		clear: both;
 		background-color: #fff;
 
-		.icons {
-			display: table-cell;
-			width: 90px;
-			float: right;
-			text-align: right;
-		}
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+
+		// .icons {
+		// 	display: table-cell;
+		// 	width: 90px;
+		// 	float: right;
+		// 	text-align: right;
+		// }
+
 		.summary {
 			font-size: 90%
+		}
+
+		.logo {
+			width: 160px;
+			height: auto;
+		}
+
+		.clusterbottle2 {
+			width: 90px;
+			height: 160px;
 		}
 
 
