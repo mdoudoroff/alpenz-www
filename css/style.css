@@ -747,6 +747,11 @@ em, i {
     display: flex;
     justify-content: space-between;
     align-items: flex-start; }
+    #searchResults .match .icons {
+      display: table-cell;
+      float: right;
+      text-align: right;
+      flex-shrink: 0; }
     #searchResults .match .summary {
       font-size: 90%; }
     #searchResults .match .logo {

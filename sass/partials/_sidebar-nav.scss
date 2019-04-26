@@ -331,12 +331,13 @@
 		justify-content: space-between;
 		align-items: flex-start;
 
-		// .icons {
-		// 	display: table-cell;
-		// 	width: 90px;
-		// 	float: right;
-		// 	text-align: right;
-		// }
+		.icons {
+			display: table-cell;
+			// width: 90px;
+			float: right;
+			text-align: right;
+			flex-shrink: 0;
+		}
 
 		.summary {
 			font-size: 90%
