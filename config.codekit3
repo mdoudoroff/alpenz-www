@@ -25,14 +25,6 @@
 		"oAP": "/404.html",
 		"oF": 0
 		},
-	"/_drafts.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_drafts.html",
-		"oF": 0
-		},
 	"/alpenz-download-product-bottle/allspice.bottle.jpg": {
 		"ft": 16384,
 		"iS": 1041108,
@@ -8879,12 +8871,12 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/Alpine_Cocoa_Verte_Chaud.html": {
+	"/alpine_cocoa.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/Alpine_Cocoa_Verte_Chaud.html",
+		"oAP": "/alpine_cocoa.html",
 		"oF": 0
 		},
 	"/aromatized_wines_primer.html": {
@@ -9264,12 +9256,20 @@
 		"oAP": "/category-sparkling.html",
 		"oF": 0
 		},
-	"/Comoz_and_the_Art_of_the_Poster.html": {
+	"/comoz_art_of_the_poster.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/Comoz_and_the_Art_of_the_Poster.html",
+		"oAP": "/comoz_art_of_the_poster.html",
+		"oF": 0
+		},
+	"/comoz_missing_link.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/comoz_missing_link.html",
 		"oF": 0
 		},
 	"/config.rb": {
@@ -9278,6 +9278,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/config.rb",
+		"oF": 0
+		},
+	"/connected_family_makes_gin.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/connected_family_makes_gin.html",
 		"oF": 0
 		},
 	"/contact.html": {
@@ -9405,12 +9413,12 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"/Cuba_meets_Chambery_El_Presidente.html": {
+	"/cuba_meets_chambery.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/Cuba_meets_Chambery_El_Presidente.html",
+		"oAP": "/cuba_meets_chambery.html",
 		"oF": 0
 		},
 	"/distribution.html": {
@@ -12351,14 +12359,6 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/image-demo.html",
-		"oF": 0
-		},
-	"/image_demo.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/image_demo.html",
 		"oF": 0
 		},
 	"/images/.mostrecent.pickle": {
@@ -19853,14 +19853,6 @@
 		"oAP": "/maptool.html",
 		"oF": 0
 		},
-	"/mission.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/mission.html",
-		"oF": 0
-		},
 	"/origin-.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -21123,6 +21115,14 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/product-boal_1954.html",
+		"oF": 0
+		},
+	"/product-boal_1957.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/product-boal_1957.html",
 		"oF": 0
 		},
 	"/product-boal_1980.html": {
@@ -22677,12 +22677,12 @@
 		"oAP": "/products.html",
 		"oF": 0
 		},
-	"/Rancio_Sec_The_Revival_of_Frances_Answer_to_Sherry.html": {
+	"/rancio_sec_revival.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/Rancio_Sec_The_Revival_of_Frances_Answer_to_Sherry.html",
+		"oAP": "/rancio_sec_revival.html",
 		"oF": 0
 		},
 	"/recipe-0526-0001.html": {
@@ -23019,14 +23019,6 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/recipe-0526-0042.html",
-		"oF": 0
-		},
-	"/recipe-0526-0043.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/recipe-0526-0043.html",
 		"oF": 0
 		},
 	"/recipe-0526-0044.html": {
@@ -23595,14 +23587,6 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/recipe-0526-0114.html",
-		"oF": 0
-		},
-	"/recipe-0526-0115.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/recipe-0526-0115.html",
 		"oF": 0
 		},
 	"/recipe-0526-0116.html": {
@@ -24283,14 +24267,6 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/recipe-0526-0201.html",
-		"oF": 0
-		},
-	"/recipe-0526-0202.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/recipe-0526-0202.html",
 		"oF": 0
 		},
 	"/recipe-0526-0203.html": {
@@ -25549,14 +25525,6 @@
 		"oAP": "/recipe-0526-0361.html",
 		"oF": 0
 		},
-	"/recipe-0526-0362.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/recipe-0526-0362.html",
-		"oF": 0
-		},
 	"/recipe-0526-0363.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -26766,12 +26734,12 @@
 		"oAP": "/supercategory-wines.html",
 		"oF": 0
 		},
-	"/Swedish_Punsch_in_History_and_Mixology.html": {
+	"/swedish_punsch_in_history.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/Swedish_Punsch_in_History_and_Mixology.html",
+		"oAP": "/swedish_punsch_in_history.html",
 		"oF": 0
 		},
 	"/tag-.html": {
@@ -27022,28 +26990,12 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"/The_Venerable_Tom_Collins.html": {
+	"/venerable_tom_collins.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/The_Venerable_Tom_Collins.html",
-		"oF": 0
-		},
-	"/There_Is_No_Family_Quite_as_Connected_as_a_Family_That_Makes_Gin._This_Is_Proof..html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/There_Is_No_Family_Quite_as_Connected_as_a_Family_That_Makes_Gin._This_Is_Proof..html",
-		"oF": 0
-		},
-	"/Vermouth_Comoz_The_Missing_Link.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/Vermouth_Comoz_The_Missing_Link.html",
+		"oAP": "/venerable_tom_collins.html",
 		"oF": 0
 		}
 	},

@@ -2494,7 +2494,7 @@ table.contentReport {
 	}
 }
 
-.gridfeature1 {
+.gridfeature1, .gridfeature1equal {
 	grid-column: 1/11;
 	grid-row: 1/2;
 
@@ -2510,7 +2510,13 @@ table.contentReport {
 
 }
 
-.gridfeature1:hover .bkgd1, .gridfeature2:hover .bkgd2, .gridfeature3:hover .bkgd3, .gridfeature4:hover .bkgd4 {
+
+.gridfeature1:hover .bkgd1, 
+.gridfeature1equal:hover .bkgd1, 
+.gridfeature2:hover .bkgd2, 
+.gridfeature2equal:hover .bkgd2, 
+.gridfeature3:hover .bkgd3, 
+.gridfeature4:hover .bkgd4 {
 	top: -5%;
 	width: 110%;
 	height: 110%;
@@ -2541,6 +2547,35 @@ table.contentReport {
 		  }
 		}
 	}
+}
+
+.gridfeature1equal {
+	grid-column: 1/8;
+}
+
+.gridfeature2equal {
+	grid-column: 8/15;
+	grid-row: 1/2;
+
+	@include respond-to(phone) {
+		grid-column: 1/2;
+		grid-row: 2/3;
+	}
+
+	.bkgd2 {
+		position: relative;
+		width: 100%;
+		height: auto;
+		transition: width 0.5s, height 0.5s, left 0.5s, top 0.5s;
+		top: 0;
+		left: 0;
+
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+
 }
 
 .gridfeature3 {
@@ -2706,6 +2741,10 @@ table.contentReport {
       }
 
 	}
+}
+
+.gridfeature2equal .overlay2 .title {
+	font-size: 36px;
 }
 
 .overlay3 {
