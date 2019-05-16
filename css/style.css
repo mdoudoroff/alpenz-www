@@ -2423,6 +2423,9 @@ table.contentReport {
     transition: width 0.5s, height 0.5s, left 0.5s, top 0.5s;
     top: 0;
     left: 0; }
+  .gridfeature img {
+    width: 100%;
+    height: auto; }
 
 .gridfeature1, .gridfeature1equal {
   grid-column: 1/11;
@@ -2431,9 +2434,6 @@ table.contentReport {
     .gridfeature1, .gridfeature1equal {
       grid-column: 1/2;
       grid-row: 1/2; } }
-  .gridfeature1 img, .gridfeature1equal img {
-    width: 100%;
-    height: auto; }
 
 .gridfeature1:hover .bkgd1,
 .gridfeature1equal:hover .bkgd1,
@@ -2453,19 +2453,13 @@ table.contentReport {
     .gridfeature2 {
       grid-column: 1/2;
       grid-row: 2/3; } }
-  .gridfeature2 .bkgd2 img {
-    position: relative;
-    height: 100%;
-    width: auto; }
-    @media only screen and (max-width: 420px) {
-      .gridfeature2 .bkgd2 img {
-        width: 100%;
-        height: auto;
-        left: 0;
-        top: -45%; } }
 
 .gridfeature1equal {
   grid-column: 1/8; }
+  @media only screen and (max-width: 420px) {
+    .gridfeature1equal {
+      grid-column: 1/2;
+      grid-row: 1/2; } }
 
 .gridfeature2equal {
   grid-column: 8/15;
@@ -2474,16 +2468,6 @@ table.contentReport {
     .gridfeature2equal {
       grid-column: 1/2;
       grid-row: 2/3; } }
-  .gridfeature2equal .bkgd2 {
-    position: relative;
-    width: 100%;
-    height: auto;
-    transition: width 0.5s, height 0.5s, left 0.5s, top 0.5s;
-    top: 0;
-    left: 0; }
-    .gridfeature2equal .bkgd2 img {
-      width: 100%;
-      height: auto; }
 
 .gridfeature3 {
   grid-column: 1/8;
@@ -2492,17 +2476,6 @@ table.contentReport {
     .gridfeature3 {
       grid-column: 1/2;
       grid-row: 3/4; } }
-  .gridfeature3 .bkgd3 img {
-    position: relative;
-    height: auto;
-    width: 100%;
-    top: -25%; }
-    @media only screen and (max-width: 420px) {
-      .gridfeature3 .bkgd3 img {
-        width: 110%;
-        height: auto;
-        left: 0;
-        top: -15%; } }
 
 .gridfeature4 {
   grid-column: 8/15;
@@ -2511,16 +2484,6 @@ table.contentReport {
     .gridfeature4 {
       grid-column: 1/2;
       grid-row: 4/5; } }
-  .gridfeature4 .bkgd4 img {
-    position: relative;
-    height: auto;
-    width: 100%; }
-    @media only screen and (max-width: 420px) {
-      .gridfeature4 .bkgd4 img {
-        width: auto;
-        height: 100%;
-        left: 0;
-        top: 0; } }
 
 .overlay {
   position: absolute;
@@ -2532,6 +2495,23 @@ table.contentReport {
   align-items: center;
   justify-content: center;
   color: white; }
+  .overlay .title {
+    text-align: center;
+    font-size: 36px;
+    line-height: 42px;
+    padding: 0 1em;
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+    text-shadow: black 0px 0px 9px;
+    font-weight: bold;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)); }
+    @media only screen and (max-width: 420px) {
+      .overlay .title {
+        font-size: 24px;
+        line-height: 24px; } }
+    @media only screen and (max-width: 375px) {
+      .overlay .title {
+        font-size: 22px;
+        line-height: 22px; } }
 
 .overlayB {
   position: absolute;
@@ -2547,85 +2527,6 @@ table.contentReport {
   .overlayB .resourceType {
     margin-top: 0.5rem;
     z-index: 999; }
-
-.overlay1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)); }
-  .overlay1 .title {
-    text-align: center;
-    font-size: 36px;
-    line-height: 42px;
-    padding: 0 1em;
-    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-    text-shadow: black 0px 0px 9px;
-    font-weight: bold; }
-    @media only screen and (max-width: 420px) {
-      .overlay1 .title {
-        font-size: 24px;
-        line-height: 24px; } }
-    @media only screen and (max-width: 375px) {
-      .overlay1 .title {
-        font-size: 22px;
-        line-height: 22px; } }
-
-.overlay2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)); }
-  .overlay2 .title {
-    text-align: center;
-    font-size: 27px;
-    line-height: 32px;
-    padding: 0 1em;
-    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-    text-shadow: black 0px 0px 9px;
-    font-weight: bold; }
-    @media only screen and (max-width: 420px) {
-      .overlay2 .title {
-        font-size: 24px;
-        line-height: 24px; } }
-    @media only screen and (max-width: 375px) {
-      .overlay2 .title {
-        font-size: 18px;
-        line-height: 18px; } }
-
-.gridfeature2equal .overlay2 .title {
-  font-size: 36px; }
-
-.overlay3 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)); }
-  .overlay3 .title {
-    text-align: center;
-    font-size: 36px;
-    line-height: 36px;
-    padding: 0 1em;
-    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-    text-shadow: black 0px 0px 9px;
-    font-weight: bold; }
-    @media only screen and (max-width: 420px) {
-      .overlay3 .title {
-        font-size: 27px;
-        line-height: 27px; } }
-    @media only screen and (max-width: 375px) {
-      .overlay3 .title {
-        font-size: 18px;
-        line-height: 18px; } }
-
-.overlay4 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)); }
-  .overlay4 .title {
-    text-align: center;
-    font-size: 32px;
-    line-height: 32px;
-    padding: 0 1em;
-    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-    text-shadow: black 0px 0px 9px;
-    font-weight: bold; }
-    @media only screen and (max-width: 420px) {
-      .overlay4 .title {
-        font-size: 24px;
-        line-height: 24px; } }
-    @media only screen and (max-width: 375px) {
-      .overlay4 .title {
-        font-size: 18px;
-        line-height: 18px; } }
 
 .contactwell {
   width: 50%;

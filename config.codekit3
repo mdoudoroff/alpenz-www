@@ -5222,6 +5222,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/alpenz-web-product-bottle/boal_1957.bottle.jpg": {
+		"ft": 16384,
+		"iS": 12971,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/alpenz-web-product-bottle/boal_1957.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/alpenz-web-product-bottle/boal_1980.bottle.jpg": {
 		"ft": 16384,
 		"iS": 11660,
@@ -5250,6 +5261,17 @@
 		"jF": 0,
 		"oA": 1,
 		"oAP": "/alpenz-web-product-bottle/bonal.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/alpenz-web-product-bottle/bottle.boal_1957.jpg": {
+		"ft": 16384,
+		"iS": 12971,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/alpenz-web-product-bottle/bottle.boal_1957.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -26716,6 +26738,14 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/subcategory-vino_amaro.html",
+		"oF": 0
+		},
+	"/summer_serve_the_tom_collins.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/summer_serve_the_tom_collins.html",
 		"oF": 0
 		},
 	"/supercategory-spirits.html": {

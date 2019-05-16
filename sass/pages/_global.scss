@@ -4,10 +4,10 @@
 
 @page  
 { 
-    size: A4;   /* auto is the initial value */ 
+	size: A4;   /* auto is the initial value */ 
 
-    /* this affects the margin in the printer settings */ 
-    margin: 0.25in 0 0.5in 0;  
+	/* this affects the margin in the printer settings */ 
+	margin: 0.25in 0 0.5in 0;  
 } 
 
 body { 
@@ -724,7 +724,7 @@ a {
 				// float: none;
 				// clear: all;
 			}
- 		}
+		}
 		
 		&.product-nav {
 		
@@ -924,43 +924,43 @@ header.producerindex {
 
 	}
 
-    figure {
-    	width: 100%;
-    	text-align: center;
-    	margin-bottom: 1em;
-
-    	img {
-    		width: 100%;
-
-    		@include respond-to(phone) {
-    			width: 100%;
-    		}
-    	}
-    }
-    figure.left {
-    	width: 33%;
-    	float: left;
-
-    	img {
-    		width: 100%;
-    	}
-
-    	@include respond-to(phone) {
-    		width: 100%;
-    	}
-    }
-    figure.right {
-    	width: 33%;
-    	float: right;
+	figure {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 1em;
 
 		img {
-    		width: 100%;
-    	}
+			width: 100%;
 
-    	@include respond-to(phone) {
-    		width: 100%;
-    	}
-    }
+			@include respond-to(phone) {
+				width: 100%;
+			}
+		}
+	}
+	figure.left {
+		width: 33%;
+		float: left;
+
+		img {
+			width: 100%;
+		}
+
+		@include respond-to(phone) {
+			width: 100%;
+		}
+	}
+	figure.right {
+		width: 33%;
+		float: right;
+
+		img {
+			width: 100%;
+		}
+
+		@include respond-to(phone) {
+			width: 100%;
+		}
+	}
 
 }
 
@@ -1057,7 +1057,7 @@ header.producerindex {
 	max-height: 7.25em;
 	border-bottom: 2px solid black;
 	position: relative;
-    transition: max-height 1s;
+	transition: max-height 1s;
 }
 
 .morebutton {
@@ -1254,7 +1254,7 @@ header.producerindex {
 		// position: relative;
 	 //    transition: max-height 1s;
 
-	 	display: none;
+		display: none;
 		padding: 1em;
 		width: 100%;
 		max-width: 640px;
@@ -1427,16 +1427,16 @@ img.socialButton {
 .distState {
 
 	@include respond-to(phone) {
-	    vertical-align: bottom;
-  		text-align: center;
+		vertical-align: bottom;
+		text-align: center;
 
-	  	div {
-		    // -ms-writing-mode: tb-rl;
-	  		// wdeprecated---canebkit-writing-mode: vertical-rl;
-	  		writing-mode: vertical-rl;
-	  		transform: rotate(180deg);
-	  		white-space: nowrap;	
-	    }
+		div {
+			// -ms-writing-mode: tb-rl;
+			// wdeprecated---canebkit-writing-mode: vertical-rl;
+			writing-mode: vertical-rl;
+			transform: rotate(180deg);
+			white-space: nowrap;	
+		}
 	}
 }
 
@@ -1559,7 +1559,7 @@ ul.originTiles {
 				// trying this method
 				position: relative;
 				top: 50%;
-                transform: translateY(-50%);
+				transform: translateY(-50%);
 			}
 
 			@include respond-to(phone) {
@@ -1659,7 +1659,7 @@ ul.producerTiles {
 				// trying this method
 				position: relative;
 				top: 50%;
-                transform: translateY(-50%);
+				transform: translateY(-50%);
 			}
 
 		}
@@ -1955,7 +1955,7 @@ figure.productDetailMasterMap {
 		// trying this method
 		position: relative;
 		top: 50%;
-        transform: translateY(-50%);
+		transform: translateY(-50%);
 	}
 	border: 2px solid #ddd;
 	padding: 3px;
@@ -1997,10 +1997,10 @@ dd {
 .contentful {
 
 	hr {
-	    border: 0;
-	    height: 2px;
-	    background: #dddcd8;
-	    // background-image: linear-gradient(to right, #ccc, #333, #ccc);
+		border: 0;
+		height: 2px;
+		background: #dddcd8;
+		// background-image: linear-gradient(to right, #ccc, #333, #ccc);
 	}
 
 	img {
@@ -2492,6 +2492,12 @@ table.contentReport {
 		top: 0;
 		left: 0;
 	}
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+
 }
 
 .gridfeature1, .gridfeature1equal {
@@ -2503,10 +2509,6 @@ table.contentReport {
 		grid-row: 1/2;
 	}
 
-	img {
-		width: 100%;
-		height: auto;
-	}
 
 }
 
@@ -2531,26 +2533,16 @@ table.contentReport {
 		grid-column: 1/2;
 		grid-row: 2/3;
 	}
-
-	.bkgd2 {
-		img {
-			position: relative;
-			height: 100%;
-			width: auto;
-			// left: -30%;
-
-		  @include respond-to(phone) {
-		  	width: 100%;
-		  	height: auto;
-		  	left: 0;
-		  	top: -45%;
-		  }
-		}
-	}
 }
 
 .gridfeature1equal {
 	grid-column: 1/8;
+
+	@include respond-to(phone) {
+		grid-column: 1/2;
+		grid-row: 1/2;
+	}
+
 }
 
 .gridfeature2equal {
@@ -2561,21 +2553,6 @@ table.contentReport {
 		grid-column: 1/2;
 		grid-row: 2/3;
 	}
-
-	.bkgd2 {
-		position: relative;
-		width: 100%;
-		height: auto;
-		transition: width 0.5s, height 0.5s, left 0.5s, top 0.5s;
-		top: 0;
-		left: 0;
-
-		img {
-			width: 100%;
-			height: auto;
-		}
-	}
-
 }
 
 .gridfeature3 {
@@ -2586,23 +2563,6 @@ table.contentReport {
 		grid-column: 1/2;
 		grid-row: 3/4;
 	}
-
-	.bkgd3 {
-		img {
-			position: relative;
-			height: auto;
-			width: 100%;
-			top: -25%;
-
-			@include respond-to(phone) {
-				width: 110%;
-				height: auto;
-				left: 0;
-				top: -15%;
-			}
-
-		}
-	}
 }
 
 .gridfeature4 {
@@ -2612,23 +2572,6 @@ table.contentReport {
 	@include respond-to(phone) {
 		grid-column: 1/2;
 		grid-row: 4/5;
-	}
-
-	.bkgd4 {
-		img {
-			position: relative;
-			height: auto;
-			width: 100%;
-			// top: -25%;
-
-			@include respond-to(phone) {
-				width: auto;
-				height: 100%;
-				left: 0;
-				top: 0;
-			}
-
-		}
 	}
 }
 
@@ -2643,9 +2586,35 @@ table.contentReport {
 	justify-content: center;
 	color: white;
 
-	@include respond-to(phone) {
-		// justify-content: flex-end;
+	.title {
+	  text-align: center;
+	  font-size: 36px;
+	  line-height: 42px;
+	  padding: 0 1em;
+	  font-family: $heading-font;
+	  text-shadow: rgb(0, 0, 0) 0px 0px 9px;
+	  font-weight: bold;
+
+
+	background-image: linear-gradient(
+	  rgba(0, 0, 0, 0.2),
+	  rgba(0, 0, 0, 0.2)
+	);
+
+	  @include respond-to(phone) {
+		font-size: 24px;
+		// margin-top: 18vw;
+		line-height: 24px;
+	  }
+
+	  @include respond-to(smallphone) {
+		font-size: 22px;
+		// margin-top: 18vw;
+		line-height: 22px;
+	  }
+
 	}
+
 
 }
 
@@ -2673,146 +2642,6 @@ table.contentReport {
 }
 
 
-.overlay1 {
-	// background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 75%, rgb(0, 0, 0) 125%);
-	background-image: linear-gradient(
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2)
-    );
-
-	.title {
-	  text-align: center;
-	  font-size: 36px;
-	  line-height: 42px;
-	  padding: 0 1em;
-	  font-family: $heading-font;
-	  // text-shadow: rgb(0, 0, 0) 2px 2px 2px;
-	  text-shadow: rgb(0, 0, 0) 0px 0px 9px;
-	  font-weight: bold;
-
-	  // margin-top: 140px;
-
-	  @include respond-to(phone) {
-		font-size: 24px;
-	  	// margin-top: 18vw;
-	  	line-height: 24px;
-      }
-
-	  @include respond-to(smallphone) {
-		font-size: 22px;
-	  	// margin-top: 18vw;
-	  	line-height: 22px;
-      }
-
-
-
-	}
-}
-
-.overlay2 {
-	// background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 65%, rgb(0, 0, 0) 125%);
-	background-image: linear-gradient(
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2)
-    );
-
-	.title {
-	  // text-align: left;
-	  text-align: center;
-	  font-size: 27px;
-	  line-height: 32px;
-	  padding: 0 1em;
-	  font-family: $heading-font;
-	  text-shadow: rgb(0, 0, 0) 0px 0px 9px;
-	  font-weight: bold;
-
-		// margin-top: 136px;
-
-	  @include respond-to(phone) {
-		font-size: 24px;
-	  	// margin-top: 18vw;
-	  	line-height: 24px;
-      }
-
-	  @include respond-to(smallphone) {
-		font-size: 18px;
-	  	// margin-top: 18vw;
-	  	line-height: 18px;
-      }
-
-	}
-}
-
-.gridfeature2equal .overlay2 .title {
-	font-size: 36px;
-}
-
-.overlay3 {
-	// background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 65%, rgb(0, 0, 0) 125%);
-	background-image: linear-gradient(
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2)
-    );
-
-	.title {
-	  text-align: center;
-	  font-size: 36px;
-	  line-height: 36px;
-	  padding: 0 1em;
-	  font-family: $heading-font;
-		text-shadow: rgb(0, 0, 0) 0px 0px 9px;
-		font-weight: bold;
-
-	// margin-top: 100px;
-
-	  @include respond-to(phone) {
-		font-size: 27px;
-	  	// margin-top: 21vw;
-	  	line-height: 27px;
-      }
-
-	  @include respond-to(smallphone) {
-		font-size: 18px;
-	  	// margin-top: 18vw;
-	  	line-height: 18px;
-      }
-
-
-
-	}
-}
-.overlay4 {
-	// background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 65%, rgb(0, 0, 0) 125%);
-	background-image: linear-gradient(
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2)
-    );
-
-	.title {
-	  text-align: center;
-	  font-size: 32px;
-	  line-height: 32px;
-	  padding: 0 1em;
-	  font-family: $heading-font;
-	  text-shadow: rgb(0, 0, 0) 0px 0px 9px;
-	  font-weight: bold;
-
-		// margin-top: 2rem;
-
-	  @include respond-to(phone) {
-		font-size: 24px;
-	  	// margin-top: 16vw;
-	  	line-height: 24px;
-      }
-
-	  @include respond-to(smallphone) {
-		font-size: 18px;
-	  	// margin-top: 18vw;
-	  	line-height: 18px;
-      }
-
-	}
-}
 
 // these should be moved out to a page-specific file
 .contactwell {
