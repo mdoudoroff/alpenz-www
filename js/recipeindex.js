@@ -103,7 +103,8 @@ function refilterRecipes() {
 			$('#matchesAnnotation').text(matches.length + ' matches out of '+$('.recipeSummaries tr').length);	
 			$('#matchesAnnotation').append($('<a class="inlineButton" style="margin-left: 1em; cursor: pointer;">RESET / SHOW ALL</a>'));
 		} else {
-			$('#matchesAnnotation').text(matches.length + ' match out of '+$('.recipeSummaries tr').length);	
+			$('#matchesAnnotation').text(matches.length + ' match out of '+$('.recipeSummaries tr').length);
+			$('#matchesAnnotation').append($('<a class="inlineButton" style="margin-left: 1em; cursor: pointer;">RESET / SHOW ALL</a>'));
 		}
 
 		// impose tabular nav (if at least sixteen matches)
