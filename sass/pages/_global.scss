@@ -120,6 +120,8 @@ a {
 	position: relative;
 	z-index: 1;
 	
+	padding: 0 0.5em;
+
 	// padding-top: 70px;
 	
 	@include respond-to(largetablet) {

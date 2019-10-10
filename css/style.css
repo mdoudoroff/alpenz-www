@@ -1016,6 +1016,7 @@ a {
   background: #fff;
   position: relative;
   z-index: 1;
+  padding: 0 0.5em;
   /* Single Product Overview page*/
   /* this is actually the half-assed organization of the two columns on product detail page */ }
   @media only screen and (max-width: 420px) {
