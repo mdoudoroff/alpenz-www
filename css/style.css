@@ -1025,6 +1025,9 @@ a {
   .content .wrap {
     padding: 18px 9px;
     background: #ffffff; }
+    @media only screen and (max-width: 420px) {
+      .content .wrap {
+        padding: 18px 0; } }
   .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
     line-height: 1em; }
   .content h1 {

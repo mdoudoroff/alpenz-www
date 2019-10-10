@@ -137,6 +137,12 @@ a {
 	.wrap {
 		padding: $gutter 9px;
 		background: #ffffff;
+
+		@include respond-to(phone) {
+			padding: $gutter 0;
+		}
+
+
 	}
 	
 	h1, h2, h3, h4, h5, h6 {
