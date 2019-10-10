@@ -1016,7 +1016,6 @@ a {
   background: #fff;
   position: relative;
   z-index: 1;
-  padding: 0 9px;
   /* Single Product Overview page*/
   /* this is actually the half-assed organization of the two columns on product detail page */ }
   @media only screen and (max-width: 420px) {
@@ -1024,7 +1023,7 @@ a {
       margin-left: 5px;
       margin-right: 5px; } }
   .content .wrap {
-    padding: 18px 0;
+    padding: 18px 9px;
     background: #ffffff; }
   .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
     line-height: 1em; }
