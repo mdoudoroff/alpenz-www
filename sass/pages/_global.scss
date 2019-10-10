@@ -120,8 +120,7 @@ a {
 	position: relative;
 	z-index: 1;
 	
-	padding: 0 0.5em;
-
+	padding: 0 4px;
 	// padding-top: 70px;
 	
 	@include respond-to(largetablet) {
@@ -134,7 +133,6 @@ a {
 		// minimal padding around everything (except top menu and footer) for mobile
 		margin-left: 5px;
 		margin-right: 5px;
-
 	}
 	
 	.wrap {

@@ -68,7 +68,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   float: right; }
 
 .wrap {
-  width: 960px;
+  width: 968px;
   height: 100%;
   margin: 0 auto;
   position: relative;
@@ -107,7 +107,7 @@ em, i {
 /*@import "partials/sprites";*/
 .header {
   width: 100%;
-  min-width: 960px;
+  min-width: 968px;
   position: relative;
   padding: 0;
   background: #edece8;
@@ -1016,7 +1016,7 @@ a {
   background: #fff;
   position: relative;
   z-index: 1;
-  padding: 0 0.5em;
+  padding: 0 4px;
   /* Single Product Overview page*/
   /* this is actually the half-assed organization of the two columns on product detail page */ }
   @media only screen and (max-width: 420px) {
@@ -1301,7 +1301,7 @@ a {
       .content .recipeFull h1 {
         font-size: 24px; } }
   .content .main {
-    width: 735.6px;
+    width: 742px;
     float: right;
     margin-left: 18px; }
     @media only screen and (max-width: 420px) {
@@ -1316,7 +1316,7 @@ a {
       float: none;
       margin: 0; }
     .content .main.halfwidth {
-      width: 358.8px;
+      width: 362px;
       float: left;
       margin: 0; }
       @media only screen and (max-width: 420px) {
@@ -1337,7 +1337,7 @@ a {
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
     page-break-inside: avoid; }
   .content .sidebar {
-    width: 170.4px;
+    width: 172px;
     float: left;
     margin: 0 0 0 0; }
     @media only screen and (max-width: 420px) {
@@ -1345,7 +1345,7 @@ a {
         float: none;
         width: 100%; } }
     .content .sidebar.halfwidth {
-      width: 547.2px;
+      width: 552px;
       float: right; }
       @media only screen and (max-width: 420px) {
         .content .sidebar.halfwidth {
