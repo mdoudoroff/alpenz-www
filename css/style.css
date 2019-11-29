@@ -1302,6 +1302,40 @@ a {
     @media only screen and (max-width: 420px) {
       .content .recipeFull h1 {
         font-size: 24px; } }
+  .content .recipePhoto {
+    max-width: 480px;
+    padding-left: 1em;
+    float: right; }
+    .content .recipePhoto img {
+      width: 100%;
+      height: auto; }
+    @media only screen and (max-width: 420px) {
+      .content .recipePhoto {
+        float: none;
+        padding: 0;
+        margin-bottom: 0.25em;
+        margin-top: 0.25em; } }
+  .content .recipePhotoNarrow {
+    width: 480px;
+    height: 480px;
+    padding-left: 1em;
+    float: right;
+    text-align: left; }
+    .content .recipePhotoNarrow img {
+      height: 100%;
+      width: auto; }
+    @media only screen and (max-width: 420px) {
+      .content .recipePhotoNarrow {
+        width: 100%;
+        height: 320px;
+        text-align: center;
+        float: none;
+        padding: 0;
+        margin-bottom: 0.5em;
+        margin-top: 0.25em; }
+        .content .recipePhotoNarrow img {
+          height: 320px;
+          width: auto; } }
   .content .main {
     width: 750px;
     float: right;

@@ -599,12 +599,61 @@ a {
 		}
 
 		@include respond-to(phone) {
-
 			h1 {
 				font-size: 24px;
 			}
+		}
+
+	}
+
+	.recipePhoto {
+		max-width: 480px;
+		padding-left: 1em;
+		float: right;
+
+		img {
+			width: 100%;
+			height: auto;
+		}
+	
+		@include respond-to(phone) {
+			float: none;
+			padding: 0;
+			margin-bottom: 0.25em;
+			margin-top: 0.25em;
+		}
+
+
+	}
+	
+	.recipePhotoNarrow {
+		width: 480px;
+		height: 480px;
+		padding-left: 1em;
+		float: right;
+		text-align: left;
+
+		img {
+			height: 100%;
+			width: auto;
+		}
+	
+		@include respond-to(phone) {
+			width: 100%;
+			height: 320px;
+			text-align: center;
+			float: none;
+			padding: 0;
+			margin-bottom: 0.5em;
+			margin-top: 0.25em;
+
+			img {
+				height: 320px;
+				width: auto;
+			}
 
 		}
+
 
 	}
 	
