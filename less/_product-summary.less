@@ -1,3 +1,4 @@
+@import "_config.less";
 
 .products {
 	overflow: hidden;
@@ -7,9 +8,9 @@
 
 	// padding-top: 0.5em;
 	// padding-bottom: 0.5em;
-	// border-top: 2px solid $light_grey;
+	// border-top: 2px solid @light_grey;
 	
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		margin: 0 0 0 0;
 	}
 
@@ -17,12 +18,12 @@
 	.type-product {
 		padding: 0;
 		list-style-type: none;
-		@include box-sizing(border-box);
+		
 		page-break-inside: avoid;
 		width: 100%;
 		margin: 0 0 0 0;
 		// padding: 20px 0;
-		border-bottom: 1px solid $body-background;
+		border-bottom: 1px solid @body_background;
 		
 		// background-color: yellow;
 
@@ -37,7 +38,7 @@
 			// margin: 0 20px 0 0;
 			margin: 0 20px 0 0;
 			
-			@include respond-to(phone) {
+			@media only screen and (max-width: @sizes[mobile])  {
 				display: none;
 			}
 			
@@ -74,14 +75,14 @@
 
 		.product_text {
 			float: left;
-			@include box-sizing(border-box);
+			
 			padding: 0 0;
 			// margin-right: 0.5em;
 			
 			width: 478px;
 			width: 480px;
 
-			@include respond-to(phone) {
+			@media only screen and (max-width: @sizes[mobile])  {
 				width: 100%;
 				padding: 0;
 				margin: 0 0 20px 0;
@@ -111,7 +112,7 @@
 		}
 		
 		.bottle {
-			@include box-sizing(border-box);
+			
 			float: right;
 			text-align: center;
 			width: 108px;
@@ -123,7 +124,7 @@
 
 			overflow: hidden;
 
-			@include respond-to(phone) {
+			@media only screen and (max-width: @sizes[mobile])  {
 				min-width: 108px;
 				// width: 12.5%;
 				width: 108px;
@@ -145,7 +146,7 @@
 		}
 		
 		.context {
-			@include box-sizing(border-box);
+			
 			float: left;
 			text-align: center;
 			width: 230px;
@@ -171,20 +172,10 @@
 				height: auto;
 			}
 			
-			@include respond-to(phone) {
+			@media only screen and (max-width: @sizes[mobile])  {
 				display: none;
 				float: right;
 			}
-			// @include respond-to(smalltablet) {
-			// 	display: none;
-			// }
-			// @include respond-to(largetablet) {
-			// 	display: none;
-			// }
-			// @include respond-to(widescreen) {
-			// 	width: 200px;
-			// 	height: 230px;
-			// }
 		}
 		
 
@@ -193,14 +184,14 @@
 			width: 100%;
 			margin: 10px 0 0 0;
 
-			@include box-sizing(border-box);
+			
 			text-align: left;
 			
 			span {
 				margin-right: 15px;
 				
 				a {
-					// color: $text_color;
+					// color: @text_color;
 				}
 			}
 		}
@@ -211,17 +202,17 @@
 			
 		// 	table {
 		// 		width: 100%;
-		// 		border-top: 1px solid $body_background;
-		// 		border-left: 1px solid $body_background;
-		// 		font-family: $subheading-font;
+		// 		border-top: 1px solid @body_background;
+		// 		border-left: 1px solid @body_background;
+		// 		font-family: @subheading-font;
 			
 		// 		th,td {
-		// 			border-right: 1px solid $body_background;
-		// 			border-bottom: 1px solid $body_background;
+		// 			border-right: 1px solid @body_background;
+		// 			border-bottom: 1px solid @body_background;
 		// 			padding: 3px;
 		// 		}
 		// 		th {
-		// 			background: lighten($body_background, 5%);
+		// 			background: lighten(@body_background, 5%);
 		// 			font-weight: 700;
 		// 			text-transform: uppercase;
 		// 			font-size: 13px;
@@ -245,13 +236,13 @@
 		// font-weight: 700;		
 		font-weight: normal;
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 		}
 	}
 
 	.licenses {
 		display: none;
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 				display: none;
 		}
 	}
@@ -264,7 +255,7 @@
 	margin: 1em;
 	display: none;
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		display: block;
 	}
 
@@ -304,20 +295,20 @@
 		padding: 6px 10px;
 	}
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		display: none;
 	}
 }
 
 .bracket {
 	display: inline-block;
-	color: $light_grey;
+	color: @light_grey;
 	position: relative;
 	font-size: 140%;
 	font-weight: normal;
 	margin-right: 5px;
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		display: none;
 	}
 
@@ -329,7 +320,7 @@
 	// column-count: 2;
 
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		-moz-column-count: 1;
 		column-count: 1;
 	}
@@ -353,7 +344,7 @@
 	column-count: 2;
 
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		-moz-column-count: 1;
 		column-count: 1;
 	}
@@ -365,7 +356,7 @@
    	display: block;
     overflow: hidden;
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		margin-left: 0;
 	}
 
@@ -382,7 +373,7 @@
 
 	background-color: green;
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 	}
 
 	img {
@@ -445,7 +436,7 @@ div.grouping {
 		float: right;
 		text-align: right;
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			display: none;
 		}
 	}
@@ -455,7 +446,7 @@ div.grouping {
 
 		margin-top: 0.5em;
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			display: none;
 		}
 	}
@@ -483,10 +474,10 @@ div.grouping {
 	text-align: center;
 	clear: both;
 	margin-bottom: 1em;
-	font-family: $subheading-font;
+	font-family: @subheading-font;
 	text-transform: uppercase;
 	font-size: 18px;
-	color: $dark_grey;
+	color: @dark_grey;
 
 	span, span.selected {
 		display: inline-block;
@@ -494,30 +485,30 @@ div.grouping {
 		margin: 0;
 		font-size: 18px;
 		line-height: 1em;
-		font-family: $subheading-font;
+		font-family: @subheading-font;
 		text-transform: uppercase;
-		@include box-sizing(border-box);
+		
 		-webkit-appearance: none;
-		@include border-radius(0px);
+		
 		// text-decoration: none !important;
-		color: $red;
+		color: @red;
 
 		&:hover {
 			cursor: pointer;
 			color: #fff;
-			background: lighten($red, 10%);
+			background: lighten(@red, 10%);
 		}
 		
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			font-size: 16px;
 			padding: 6px 14px;
 		}
 	}	
 
 	span.selected {
-		// background: $red;
+		// background: @red;
 		// color: #fff;
-		color: $dark_grey;
+		color: @dark_grey;
 		text-decoration: underline;
 
 		&:hover {
@@ -532,19 +523,19 @@ div.grouping {
 
 
 h5 {
-	font-family: $heading-font;
+	font-family: @heading-font;
 	font-size: 22px;
 	font-weight: bold;
 	letter-spacing: 1px;
-	color: darken($off-grey-dark,10%);
-	border-top: 2px solid $off-grey-dark;
-	border-bottom: 2px solid $off-grey-dark;
+	color: darken(@off-grey-dark,10%);
+	border-top: 2px solid @off-grey-dark;
+	border-bottom: 2px solid @off-grey-dark;
 	text-align: center;
 	margin: 1em 0;
 	padding: 0.25em 0;
 	text-transform: uppercase;
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		font-size: 18px;
 	}
 

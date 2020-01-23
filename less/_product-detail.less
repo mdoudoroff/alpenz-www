@@ -1,10 +1,11 @@
+@import "_config.less";
 
 #printlogotype {
 	display: none;
 	float: right;
 	width: 15em;
 
-	@include respond-to(print) {
+	@media print {
   		display: block;
   	}
 }
@@ -20,12 +21,12 @@
 	column-count: 2;
 	column-gap: 1.5em;
 
-	@include respond-to(print) {
+	@media print {
 		-moz-column-count: 2;
 		column-count: 2;
 	}
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		-moz-column-count: 1;
 		column-count: 1;
 	}
@@ -34,14 +35,14 @@
 		width: 100%;
 		margin: 10px 0 0 0;
 		// line-height: 20px;
-		@include box-sizing(border-box);
+		
 		text-align: left;
 		
 		span {
 			margin-right: 15px;
 			
 			a {
-				// color: $text_color;
+				// color: @text_color;
 			}
 		}
 	}
@@ -51,13 +52,7 @@
 		// font-size: 100%;
 		line-height: 1.4;
 
-		@include respond-to(largetablet) {
-			// font-size: 100%;
-		}
-		@include respond-to(smalltablet) {
-			// font-size: 100%;
-		}
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			// font-size: 80%;
 		}
 
@@ -77,7 +72,7 @@
 	th.categorization {
 		padding-right: 1em;
 		vertical-align: top;
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			// display: none;
 		}
 	}
@@ -85,15 +80,15 @@
 	.highlights {
 		margin: 0;
 		padding: 1em;
-		background-color: $off-grey;
+		background-color: @off-grey;
 
 		li {
 			margin-left: 1em;
 		}
 		margin-bottom: 0.5em;
 
-		@include respond-to(print) {
-			border: 2px solid $off-grey-dark;
+		@media print {
+			border: 2px solid @off-grey-dark;
 		}
 	}
 
@@ -115,7 +110,7 @@
 	clear: all;
 	margin-top: 0.5em;
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		width: 100%;
 		float: none;
 	}
@@ -182,7 +177,7 @@
 }
 
 #productImageryCluster {
-	@include respond-to(print) {
+	@media print {
 		float: right;
 		width: 60%;
 		// margin-left: auto;
@@ -219,48 +214,47 @@
 	clear: both;
 	overflow-x: auto;
 
-	border-top: 2px solid $off-grey-dark;
+	border-top: 2px solid @off-grey-dark;
 	margin-top: 0.5em;
 	padding-top: 0.5em;
 
 	table {
+		border-collapse: collapse;
 		width: auto;
-		border-top: 1px solid $body_background;
-		border-left: 1px solid $body_background;
-		font-family: $subheading-font;
+		border-top: 1px solid @body_background;
+		border-left: 1px solid @body_background;
+		font-family: @subheading-font;
 	
 		th,td {
-			border-right: 1em solid $body_background;
-			border-bottom: 1px solid $body_background;
+			border-right: 1em solid @body_background;
+			border-bottom: 1px solid @body_background;
 			white-space: nowrap;
+			text-align: left;
 		}
 		th {
-			background: lighten($body_background, 5%);
+			background: lighten(@body_background, 5%);
 			font-weight: 700;
 			text-transform: uppercase;
 			font-size: 13px;
-			font-family: $subheading-font;
+			font-family: @subheading-font;
 		}
 		td {
 			font-size: 14px;
-			font-family: $body-font;
+			font-family: @body-font;
 		}
 	}
 
-	@include respond-to(smalltablet) {
-		overflow-x: auto;
-	}
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		overflow-x: auto;
 	}
 
-	@include respond-to(print) {
+	@media print {
 		overflow-x: visible;
 	}
 }
 
 .downloadsCorral {
-	@include respond-to(print) {
+	@media print {
 		display: none;
 	}
 }
@@ -272,7 +266,7 @@
 
 	.artwork2 {
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			columns: 2;
 		}
 
@@ -288,7 +282,7 @@
 			height: 200px;
 			width: auto;
 
-			@include respond-to(phone) {
+			@media only screen and (max-width: @sizes[mobile])  {
 				width: 100%;
 				height: auto;
 			}
@@ -298,7 +292,7 @@
 
 .recipeCorral {
 
-	border-top: 2px solid $off-grey-dark;
+	border-top: 2px solid @off-grey-dark;
 	margin-top: 0.5em;
 	padding-top: 1em;
 
@@ -325,7 +319,7 @@
 	.recipe {
 
 		
-		// @include box-sizing(border-box);
+		// 
 
 		padding: 0;
 		margin: 0 1em 1em 0;
@@ -334,7 +328,7 @@
 		display: inline-block;
 		width: 15%;
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			width: 45%;
 		}
 
@@ -347,19 +341,19 @@
 		}
 
 		h4 {
-			font-family: $body-font;
+			font-family: @body-font;
 			font-size: 14px;
 			font-weight: bold;
 			line-height: 1.0;
 			margin-bottom: 0.5em;
 
-			@include respond-to(print) {
+			@media print {
 				font-size: 12px;
 			}
 		}
 
 		p {
-			font-family: $body-font;
+			font-family: @body-font;
 			font-size: 11px;
 			// line-height: 18px;
 			margin: 0 0 10px 0;
@@ -368,7 +362,7 @@
 				margin: 0;
 			}
 
-			@include respond-to(print) {
+			@media print {
 				font-size: 10px;
 			}
 		}
@@ -377,13 +371,13 @@
 
 .recipeInfoForPrint {
 	display: none;
-	font-family: $body-font;
+	font-family: @body-font;
 	font-size: 11px;
 	letter-spacing: normal;
 	text-transform: none;
 	font-weight: normal;
 	float: right;
-	@include respond-to(print) {
+	@media print {
 		// display: inline-block;	// uncomment this for production
 
 	}
@@ -396,7 +390,7 @@
 		column-count: 2;
 		margin: 1em 0;
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			-moz-column-count: 1;
 			column-count: 1;
 		}
@@ -408,7 +402,7 @@
 		float: right;
 		margin-left: 1em;
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			width: 100%;
 			float: none;
 			margin-left: 0;
@@ -418,8 +412,8 @@
 	.productDetailGmap_canvas {
 		width: 100%; 
 		height: 300px;
-		margin: 0 0 $gutter 0;
-		@include box-shadow(0 0 3px rgba(0,0,0,.3));
+		margin: 0 0 @gutter 0;
+		//@include box-shadow(0 0 3px rgba(0,0,0,.3));
 		page-break-inside: avoid;
 	}
 
@@ -429,7 +423,7 @@
 		float: right;
 		margin-left: 1em;
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			width: 100%;
 			float: none;
 			margin-left: 0;
@@ -472,14 +466,14 @@
 		width: 32%;
 		padding: 0.5em;
 
-		font-family: $body-font;
+		font-family: @body-font;
 
-		background-color: $off-grey;
+		background-color: @off-grey;
 
 		.desktopIcon {
 			display: block;
 
-			@include respond-to(phone) {
+			@media only screen and (max-width: @sizes[mobile])  {
 				display: none;
 			}
 		}
@@ -487,12 +481,12 @@
 		.mobileIcon { 
 			display: none; 
 
-			@include respond-to(phone) {
+			@media only screen and (max-width: @sizes[mobile])  {
 				display: block;
 			}
 		}
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			// width: 100%;
 			// padding: 0.25em;
 			padding: 1%;
@@ -506,7 +500,7 @@
 			margin-left: 0.25em;
 			margin-right: 0.25em;
 
-			@include respond-to(phone) {
+			@media only screen and (max-width: @sizes[mobile])  {
 				font-size: 10px;
 			}
 
@@ -524,7 +518,7 @@
 			text-align: center;
 			flex: 1 0 auto;
 
-			@include respond-to(phone) {
+			@media only screen and (max-width: @sizes[mobile])  {
 				padding-top: 3px;
 				padding-bottom: 3px;
 			}
@@ -538,10 +532,12 @@
 
 
 .viticultureTable {
+	border-collapse: collapse;
 	font-size: 12px;
 	margin-top: 0.25em;
 	th {
 		font-weight: bold;
+		text-align: left;
 	}
 	th, td {
 		vertical-align: top;
@@ -549,7 +545,34 @@
 	}
 
 	tr.section td {
-		border-top: 1px solid $light_grey;
+		border-top: 1px solid @light_grey;
+	}
+
+}
+
+.presslink {
+	margin: 0.5em 0;
+	display: flex;
+	background-color: @off-grey;
+	padding: 0.5em;
+	align-items: center;
+
+	img {
+		width: 100px;
+		height: auto;
+	}
+	.presstext {
+		padding: 0 0.5em;
+		font-size: 90%;
+		line-height: 1.2;
+
+		a {
+			color: @link_color;
+		}
+	}
+
+	@media print {
+		display: none;
 	}
 
 }

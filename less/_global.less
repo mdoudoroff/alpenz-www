@@ -1,5 +1,10 @@
+
+@import "_config.less";
+
 * {
 	box-sizing: border-box;
+	padding:0;
+	margin:0;
 }
 
 @page  
@@ -11,20 +16,20 @@
 } 
 
 body { 
-	font-family: $body_font;
+	font-family: @body-font;
 	font-size: 14px;
 	line-height: 1.4;
 	margin: 0;
 	padding: 0;
-	background: $body_background;
-	color: $text_color;
+	background: @body_background;
+	color: @text_color;
 	position: relative;
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		font-size: 80%;
 	}
 
-	@include respond-to(print) {
+	@media print {
 		margin: 0;
 	}
 
@@ -32,11 +37,11 @@ body {
 
 
 a {
-	color: $link_color;
+	color: @link_color;
 	text-decoration: none;
 	
 	&:hover {
-		color: $link_hover;
+		color: @link_hover;
 		text-decoration: underline;
 	}
 
@@ -47,36 +52,36 @@ a {
 
 .button {
 	display: inline-block;
-	background: $red;
+	background: @red;
 	padding: 0.5rem 1rem;
 	margin: 0;
 	border: 0px;
 	font-size: 18px;
 	line-height: 1em;
-	font-family: $subheading-font;
+	font-family: @subheading-font;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	color: #fff;
-	@include box-sizing(border-box);
+	
 	-webkit-appearance: none;
-	@include border-radius(0px);
+	
 	text-decoration: none !important;
 
 	&:hover {
 		cursor: pointer;
 		color: #fff;
-		background: lighten($red, 10%);
+		background: lighten(@red, 10%);
 	}
 	
 	&.fullprofile {
 		margin: 20px 0 0 0;
 		
-		@include respond-to(print) {
+		@media print {
 			display: none;
 		}
 	}
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		font-size: 13px;
 		font-weight: bold;
 	}
@@ -91,13 +96,7 @@ a {
 	background-size: cover;
 	background-position: center center;
 	
-	@include respond-to(largetablet) {
-		height: 440px;
-	}
-	@include respond-to(smalltablet) {
-		height: 320px;
-	}
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		height: 200px;
 	}
 	
@@ -122,24 +121,18 @@ a {
 	
 	// padding-top: 70px;
 	
-	@include respond-to(largetablet) {
-		// padding-top: 50px;
-	}
-	@include respond-to(smalltablet) {
-		// padding-top: 50px;
-	}
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		// minimal padding around everything (except top menu and footer) for mobile
 		margin-left: 5px;
 		margin-right: 5px;
 	}
 	
 	.wrap {
-		padding: $gutter 9px;
+		padding: @gutter 9px;
 		background: #ffffff;
 
-		@include respond-to(phone) {
-			padding: $gutter 0;
+		@media only screen and (max-width: @sizes[mobile])  {
+			padding: @gutter 0;
 		}
 
 
@@ -149,15 +142,12 @@ a {
 		line-height: 1em;
 	}
 	h1 {
-		font-family: $heading-font;
+		font-family: @heading-font;
 		font-size: 36px;
 		font-weight: 700;
 		margin: 0 0 10px 0;
 		
-		// @include respond-to(smalltablet) {
-		// 	font-size: 52px;
-		// }
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			font-size: 24px;
 			margin: 0 0 12px 0;
 		}
@@ -165,17 +155,17 @@ a {
 		position: relative; // this is so we can put things next to it
 	}
 	h2 {
-		font-family: $heading-font;
+		font-family: @heading-font;
 		font-size: 22px;
 		font-weight: 400;
 		margin: 0 0 24px 0;
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			font-size: 20px;
 		}
 	}
 	h3 {
-		font-family: $subheading-font;
+		font-family: @subheading-font;
 		font-size: 14px;
 		line-height: 1.0;
 		font-weight: 700;
@@ -188,7 +178,7 @@ a {
 			line-height: 1em;
 		}
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			font-size: 12px;
 		}
 
@@ -215,7 +205,7 @@ a {
 		font-weight: 300;
 		margin: 0 0 20px 0;
 		
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			// font-size: 17px;
 			// line-height: 22px;
 		}
@@ -227,10 +217,10 @@ a {
 			font-weight: bold;
 		}
 		a {
-			color: $red;
+			color: @red;
 			font-weight: 700;
 
-			@include respond-to(print) {
+			@media print {
 				color: inherit;
 			}
 
@@ -247,13 +237,7 @@ a {
 
 		}
 		/*
-		@include respond-to(smalltablet) {
-			float: none;
-			width: 100% !important;
-			height: auto !important;
-			margin: 0;
-		}
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			float: none;
 			width: 100% !important;
 			height: auto !important;
@@ -267,11 +251,11 @@ a {
 	.catalogue {
 		float: right;
 		
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			font-size: 12px;
 		}
 
-		@include respond-to(print) {
+		@media print {
 			display: none;
 		}
 		
@@ -297,18 +281,12 @@ a {
 			margin: 0 0 20px 0;
 			overflow: hidden; 
 
-			@include respond-to(smalltablet) {
-				min-height: 0px;
-			}
-			@include respond-to(largetablet) {
-				min-height: 0px;
-			}
-			@include respond-to(phone) {
+			@media only screen and (max-width: @sizes[mobile])  {
 				min-height: 0;
 				position: relative;
 			}
 			
-			@include respond-to(print) {
+			@media print {
 				min-height: 0;
 				height: auto;
 				margin: 0;
@@ -316,18 +294,10 @@ a {
 
 			img {
 			
-				@include respond-to(smalltablet) {
-					width: 100%;
-					height: auto;
-				}
-				@include respond-to(largetablet) {
-					width: 100%;
-					height: auto;
-				}
-				@include respond-to(phone) {
+				@media only screen and (max-width: @sizes[mobile])  {
 					display: none;
 				}
-				@include respond-to(print) {
+				@media print {
 					display: none;
 				}
 
@@ -340,17 +310,17 @@ a {
 				left: 0px;
 				bottom: 0px;
 				color: #fff;
-				@include box-sizing(border-box);
-				@include background-image(linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.5)));
 				
-				@include respond-to(print) {
+				// @include background-image(linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.5)));
+				
+				@media print {
 					background: none;
 					position: relative;
 					color: black;
 					text-shadow: none;
 				}
 
-				@include respond-to(phone) {
+				@media only screen and (max-width: @sizes[mobile])  {
 					background: none;
 					position: relative;
 					color: black;
@@ -371,13 +341,13 @@ a {
 					margin: 0;
 					line-height: 1em;
 
-					@include respond-to(print) {
+					@media print {
 						background: none;
 						position: relative;
 						color: black;
 						text-shadow: none;
 					}
-					@include respond-to(phone) {
+					@media only screen and (max-width: @sizes[mobile])  {
 						background: none;
 						position: relative;
 						color: black;
@@ -393,7 +363,7 @@ a {
 						color: #fff;
 					}
 
-					@include respond-to(print) {
+					@media print {
 						background: none;
 						position: relative;
 						color: black;
@@ -402,7 +372,7 @@ a {
 							color: black;
 						}
 					}
-					@include respond-to(phone) {
+					@media only screen and (max-width: @sizes[mobile])  {
 						background: none;
 						position: relative;
 						color: black;
@@ -434,7 +404,7 @@ a {
 					color: black;
 					text-shadow: none;
 
-					@include respond-to(print) {
+					@media print {
 						display: none;
 					}
 
@@ -446,7 +416,7 @@ a {
 		
 		.artwork {
 
-			@include respond-to(phone) {
+			@media only screen and (max-width: @sizes[mobile])  {
 				width: 100%;
 				margin: 1em 0;
 			}
@@ -467,14 +437,14 @@ a {
 				// width: 46%;
 				// float: left;
 				// &.grid-sizer {
-				// 	width: $col;
+				// 	width: @col;
 				// }
-				@include box-shadow(0 0 3px rgba(0,0,0,.3));
+				//@include box-shadow(0 0 3px rgba(0,0,0,.3));
 				
-				@include respond-to(print) {
-					@include box-shadow(none);
+				@media print {
+					//@include box-shadow(none);
 				}
-				// @include respond-to(phone) {
+				// @media only screen and (max-width: @sizes[mobile])  {
 				// 	float: left;
 				// 	width: 45%;
 				// }
@@ -505,7 +475,7 @@ a {
 	
 	div.recipes {
 		
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			width: 100%;
 			margin: 1em 0;
 		}
@@ -523,7 +493,7 @@ a {
 		.recipe {
 
 			
-			// @include box-sizing(border-box);
+			// 
 
 			background: #f3f3f3;
 			padding: 0.5em;
@@ -542,7 +512,7 @@ a {
 			}
 
 			h4 {
-				font-family: $body-font;
+				font-family: @body-font;
 				font-size: 14px;
 				font-weight: bold;
 				line-height: 1.0;
@@ -550,7 +520,7 @@ a {
 			}
 
 			p {
-				font-family: $body-font;
+				font-family: @body-font;
 				font-size: 11px;
 				// line-height: 18px;
 				margin: 0 0 10px 0;
@@ -566,14 +536,14 @@ a {
 	
 	.recipeFull {
 
-		background-color: $off-grey;
+		background-color: @off-grey;
 		padding: 1em;
 		max-width: 480px;
 
 		line-height: 1.0;
 		margin-bottom: 2em;
 		font-size: 14px;
-		font-family: $body-font;
+		font-family: @body-font;
 
 		span.recIcon {
 			display: inline-block;
@@ -598,7 +568,7 @@ a {
 			margin-left: 1.5em;
 		}
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			h1 {
 				font-size: 24px;
 			}
@@ -616,7 +586,7 @@ a {
 			height: auto;
 		}
 	
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			float: none;
 			padding: 0;
 			margin-bottom: 0.25em;
@@ -638,7 +608,7 @@ a {
 			width: auto;
 		}
 	
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			width: 100%;
 			height: 320px;
 			text-align: center;
@@ -659,22 +629,15 @@ a {
 	
 
 	.main {
-		width: $fourcol;
+		width: @fourcol;
 		float: right;
-		margin-left: $gutter;
+		margin-left: @gutter;
 		
-		@include respond-to(smalltablet) {
-			width: 73%;
-			margin: 0;
-		}
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			float: none;
 			width: 100%;
 		}
-		@include respond-to(widescreen) {
-			width: $fivecol;
-		}
-		@include respond-to(print) {
+		@media print {
 			width: 100%;
 		}
 		
@@ -684,23 +647,13 @@ a {
 			margin: 0;
 		}
 		&.halfwidth {
-			width: $twocol;
+			width: @twocol;
 			float: left;
 			margin: 0;
 			
-			@include respond-to(phone) {
+			@media only screen and (max-width: @sizes[mobile])  {
 				width: 100%;
 				padding: 2%;
-			}
-			@include respond-to(smalltablet) {
-				width: 49%;
-			}
-			@include respond-to(largetablet) {
-				width: 49%;
-				padding: 0 2%;
-			}
-			@include respond-to(widescreen) {
-				width: $threecol;
 			}
 		}
 
@@ -733,47 +686,37 @@ a {
 	#map_canvas {
 		width: 100%; 
 		height: 300px;
-		margin: 0 0 $gutter 0;
-		@include box-shadow(0 0 3px rgba(0,0,0,.3));
+		margin: 0 0 @gutter 0;
+		//@include box-shadow(0 0 3px rgba(0,0,0,.3));
 		page-break-inside: avoid;
 	}
 	
 
 	/* this is actually the half-assed organization of the two columns on product detail page */
 	.sidebar {
-		width: $col;
+		width: @col;
 		float: left;
 		margin: 0 0 0 0;
 
-		@include respond-to(smalltablet) {
-			width: 23%;
-		}
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			float: none;
 			width: 100%;
 		}
-		@include respond-to(print) {
+		@media print {
 			// width: 100%;
 			// float: none;
 		}
 		
 		&.halfwidth {
-			width: $threecol;
+			width: @threecol;
 			float: right;
 			
-			@include respond-to(phone) {
+			@media only screen and (max-width: @sizes[mobile])  {
 				width: 100%;
 				padding: 2%;
 			}
-			@include respond-to(smalltablet) {
-				width: 49%;
-			}
-			@include respond-to(largetablet) {
-				width: 49%;
-				padding: 0 2%;
-			}
 
-			@include respond-to(print) {
+			@media print {
 				// width: 100%;
 				// float: none;
 				// clear: all;
@@ -782,7 +725,7 @@ a {
 		
 		&.product-nav {
 		
-			@include respond-to(print) {
+			@media print {
 				display: none;
 			}
 		}
@@ -799,7 +742,7 @@ a {
 #productSummaryContainer {
 	margin: 0.5em 0 0.5em 0;
 
-	border-top: 2px solid $off-grey-dark;
+	border-top: 2px solid @off-grey-dark;
 	margin-top: 0.5em;
 	padding-top: 1em;
 
@@ -848,7 +791,7 @@ header.producerindex {
 				// height: auto;
 			}
 
-			@include respond-to(phone) {
+			@media only screen and (max-width: @sizes[mobile])  {
 				// width: 100%;
 				// height: auto;
 				line-height: 1;
@@ -858,7 +801,7 @@ header.producerindex {
 
 
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			width: 50%;
 			float: right;
 		}
@@ -918,7 +861,7 @@ header.producerindex {
 			float: right;
 		}
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			width: 100%;
 		}
 
@@ -943,7 +886,7 @@ header.producerindex {
 			height: 230px;
 			overflow: hidden;
 
-			@include respond-to(phone) {
+			@media only screen and (max-width: @sizes[mobile])  {
 				width: 49%;
 				height: auto;
 			}
@@ -955,7 +898,7 @@ header.producerindex {
 
 			margin-right: 4px;
 
-			@include respond-to(phone) {
+			@media only screen and (max-width: @sizes[mobile])  {
 				margin-right: 0;
 			}
 		}
@@ -964,13 +907,13 @@ header.producerindex {
 
 			margin-right: 4px;
 
-			@include respond-to(phone) {
+			@media only screen and (max-width: @sizes[mobile])  {
 				float: right;
 			}
 
 		}
 		figure.peopleImage {
-			@include respond-to(phone) {
+			@media only screen and (max-width: @sizes[mobile])  {
 				float: right;
 			}
 
@@ -986,7 +929,7 @@ header.producerindex {
 		img {
 			width: 100%;
 
-			@include respond-to(phone) {
+			@media only screen and (max-width: @sizes[mobile])  {
 				width: 100%;
 			}
 		}
@@ -999,7 +942,7 @@ header.producerindex {
 			width: 100%;
 		}
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			width: 100%;
 		}
 	}
@@ -1011,7 +954,7 @@ header.producerindex {
 			width: 100%;
 		}
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			width: 100%;
 		}
 	}
@@ -1024,12 +967,12 @@ header.producerindex {
 	column-count: 2;
 	column-gap: 1.5em;
 
-	@include respond-to(print) {
+	@media print {
 		-moz-column-count: 2;
 		column-count: 2;
 	}
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		-moz-column-count: 1;
 		column-count: 1;
 	}	
@@ -1045,7 +988,7 @@ header.producerindex {
 
 	.box {
 		clear: both;
-		background-color: $off-grey;
+		background-color: @off-grey;
 		padding: 0.5em 0.75em;
 	}
 }
@@ -1067,7 +1010,7 @@ header.producerindex {
 		width: 50%;
 		float: left;
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			float: none;
 			width: 100%;
 		}
@@ -1086,14 +1029,14 @@ header.producerindex {
 		baseline:bottom;
 		font-weight: bold;
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			font-size: 80%;
 		}
 	}
 	.secondfeatures figure .caption {
 		font-size: 125%;
 		width: 100%;
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			font-size: 80%;
 		}
 	}
@@ -1130,7 +1073,7 @@ header.producerindex {
 	width: 200px;
 	padding: 0.25em 1em;
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		font-size: 12px;
 	}
 }
@@ -1139,6 +1082,8 @@ header.producerindex {
 // setup page
 
 .fullsetuptable {
+	border-collapse: collapse; 
+
 	td {
 		white-space: nowrap;
 		padding-right: 0.5em;
@@ -1148,7 +1093,8 @@ header.producerindex {
 	th {
 		font-weight: bold;
 		padding-right: 0.5em;
-		background-color: $off-grey;
+		background-color: @off-grey;
+		text-align: left;
 	}
 }
 
@@ -1163,7 +1109,7 @@ header.producerindex {
 			color: black;
 		}
 		a:hover {
-			color: $link_hover;
+			color: @link_hover;
 		}
 
 	}
@@ -1172,13 +1118,13 @@ header.producerindex {
 		margin-top: 1em;
 		margin-bottom: 0;
 		padding: 0.5em;
-		background-color: $off-grey;
+		background-color: @off-grey;
 
 		a {
 			color: black;
 		}
 		a:hover {
-			color: $link_hover;
+			color: @link_hover;
 		}
 
 	}
@@ -1196,25 +1142,25 @@ header.producerindex {
 	.setup2 {
 		margin-top: 0;
 		margin-bottom: 0;
-		font-family: $subheading-font;
+		font-family: @subheading-font;
 
 		div {
 			display: inline-block;
 			margin: 1px;
-			background: $off-grey;
+			background: @off-grey;
 			padding: 1px 0.5em;
 			font-weight: bold;
 
 			.fieldname {
 				text-transform: uppercase;
 				display:block;
-				color: $black;
+				color: @black;
 				font-weight: normal;
 			}
 		}
 
 		div.sku {
-			background-color: $off-grey-dark;
+			background-color: @off-grey-dark;
 		}
 
 	}
@@ -1225,30 +1171,30 @@ header.producerindex {
 // faux button
 .setupDownload {
 	display: inline-block;
-	background: $light_grey;
+	background: @light_grey;
 	padding: 4px 9px;
 	margin: 0;
 	border: 0px;
 	font-size: 14px;
 	line-height: 1em;
-	font-family: $subheading-font;
+	font-family: @subheading-font;
 	text-transform: uppercase;
-	color: $dark_grey;
-	@include box-sizing(border-box);
+	color: @dark_grey;
+	
 	-webkit-appearance: none;
-	@include border-radius(0px);
+	
 	text-decoration: none !important;
 
 	&:hover {
 		cursor: pointer;
 		color: #fff;
-		background: lighten($red, 10%);
+		background: lighten(@red, 10%);
 	}
 	
 	&.fullprofile {
 		margin: 20px 0 0 0;
 		
-		@include respond-to(print) {
+		@media print {
 			display: none;
 		}
 	}
@@ -1282,7 +1228,7 @@ header.producerindex {
 #tabularnav a {
 	margin-right: 0.75em;
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		margin-right: 0.25em;
 	}
 }
@@ -1292,12 +1238,12 @@ header.producerindex {
 }
 
 #recipefilters {
-	background-color: $off-grey;
+	background-color: @off-grey;
 	padding: 0.5em;
 	width: 270px;
 	float: left;
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		width: 100%;
 
 		// overflow-x: hidden;
@@ -1334,7 +1280,7 @@ header.producerindex {
 #recipeFiltersMoreButton {
 	display: none;
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		display: inline-block;
 		cursor: pointer;
 	}
@@ -1344,7 +1290,7 @@ header.producerindex {
 #recipeResultsBlock {
 	margin-left: 290px;
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		margin-left: 0;
 	}
 
@@ -1396,12 +1342,12 @@ td.ing {
 	letter-spacing: 0;
 
 	font-weight: 700;
-	color:$red;
+	color:@red;
 
 	padding-top: 1px;  // fine-tuning
 	padding-left: 6px;
 	padding-right: 6px;
-	border: 1px solid $red;
+	border: 1px solid @red;
 	font-size: 11px;
 	line-height: 15px; // this may have to change if body paragraph line height changes
 
@@ -1409,7 +1355,7 @@ td.ing {
 	position: relative;
 	bottom: 0px; 
 
-	@include respond-to(print) {
+	@media print {
 		display: none;
 	}
 
@@ -1417,14 +1363,14 @@ td.ing {
 
 a.inlineButton:hover, #recipeFiltersMoreButton:hover {
 	color: white;
-	background-color: $red;
+	background-color: @red;
 	text-decoration: none;
 }
 
 
 .revealfold {
 	text-transform: uppercase;
-	color:$red;
+	color:@red;
 }
 
 .socialIcons {
@@ -1451,9 +1397,9 @@ a.inlineButton:hover, #recipeFiltersMoreButton:hover {
 }
 
 span.socialButton {
-	background-color: $red;
+	background-color: @red;
 	color: white;
-	font-family: $subheading-font;
+	font-family: @subheading-font;
 	border-radius: 17px;
 }
 
@@ -1465,8 +1411,10 @@ img.socialButton {
 }
 
 .generalTable {
+	border-collapse: collapse;
 	th {
 		font-weight: bold;
+		text-align: left;
 	}
 	th, td {
 		vertical-align: top;
@@ -1474,13 +1422,13 @@ img.socialButton {
 	}
 
 	tr.section td {
-		border-top: 1px solid $light_grey;
+		border-top: 1px solid @light_grey;
 	}
 }
 
 .distState {
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		vertical-align: bottom;
 		text-align: center;
 
@@ -1497,10 +1445,10 @@ img.socialButton {
 .generalForm {
 
 	display: block;
-	background-color: $off-grey;
+	background-color: @off-grey;
 	padding: 1em;
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		padding: 0.5em 0.5em;
 		// background: none;
 	}
@@ -1518,7 +1466,7 @@ img.socialButton {
 		width: 30em;
 		font-size: 14px;
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			font-size: 12px;
 			width: 100%;
 		}
@@ -1534,7 +1482,7 @@ img.socialButton {
 		height: 36px;
 		vertical-align: top;
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			display: block;
 			float: left;
 		}
@@ -1554,7 +1502,7 @@ img.socialButton {
 		line-height: 36px;
 		vertical-align: top;
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			display: block;
 			line-height: inherit;
 			height: auto;	
@@ -1586,13 +1534,13 @@ ul.originTiles {
 		height: 189px;
 		margin-right: 6px;
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			font-size: 80%;
 			width: 120px;
 			height: 160px;
 		}
 
-		font-family: $subheading-font;
+		font-family: @subheading-font;
 
 		.maplet {
 			position: relative;
@@ -1616,14 +1564,14 @@ ul.originTiles {
 				transform: translateY(-50%);
 			}
 
-			@include respond-to(phone) {
+			@media only screen and (max-width: @sizes[mobile])  {
 				width: 120px;
 				height: 120px;			
 			}
 
 		}
 		a:hover .maplet {
-			border-color: $link_hover;
+			border-color: @link_hover;
 		}
 		a:hover {
 			text-decoration: none;
@@ -1642,17 +1590,17 @@ ul.producerTilesLarge {
 		display: flex;
 		flex-basis: 15%;
 
-		font-family: $subheading-font;
+		font-family: @subheading-font;
 		padding-bottom: 1em;
 
 		a:hover .logo {
-			border-color: $link_hover;
+			border-color: @link_hover;
 		}
 		a:hover {
 			text-decoration: none;
 		}
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			flex-basis: 32%
 		}
 
@@ -1669,7 +1617,7 @@ ul.producerTilesLarge {
 				height: auto;
 			}
 
-			@include respond-to(phone) {
+			@media only screen and (max-width: @sizes[mobile])  {
 				width: 30vw;
 				height: 30vw;
 			}
@@ -1694,7 +1642,7 @@ ul.producerTiles {
 		display: inline-block;
 		margin-right: 6px;
 
-		font-family: $subheading-font;
+		font-family: @subheading-font;
 
 		.logo {
 			position: relative;
@@ -1719,14 +1667,14 @@ ul.producerTiles {
 		}
 
 		a:hover .logo {
-			border-color: $link_hover;
+			border-color: @link_hover;
 		}
 		a:hover {
 			text-decoration: none;
 		}
 	}
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 
 		margin-left: 0;
 		display: flex;
@@ -1737,7 +1685,7 @@ ul.producerTiles {
 			display: flex;
 			flex-basis: 30%;
 
-			font-family: $subheading-font;
+			font-family: @subheading-font;
 			margin-bottom: 1em;
 			margin-right: 0;
 			// padding-right: 0.5em;
@@ -1745,7 +1693,7 @@ ul.producerTiles {
 			// background-color: yellow;
 		
 			a:hover .logo {
-				border-color: $link_hover;
+				border-color: @link_hover;
 			}
 			a:hover {
 				text-decoration: none;
@@ -1786,13 +1734,13 @@ ul.producerTiles {
 // 		display: inline-block;
 // 		margin-right: 6px;
 
-// 		@include respond-to(phone) {
+// 		@media only screen and (max-width: @sizes[mobile])  {
 // 			font-size: 80%;
 // 			width: 89px;
 // 			height: 119px;
 // 		}
 
-// 		font-family: $subheading-font;
+// 		font-family: @subheading-font;
 
 // 		.logo {
 // 			position: relative;
@@ -1814,7 +1762,7 @@ ul.producerTiles {
 //                 transform: translateY(-50%);
 // 			}
 
-// 			@include respond-to(phone) {
+// 			@media only screen and (max-width: @sizes[mobile])  {
 // 				width: 89px;
 // 				height: 89px;			
 // 			}
@@ -1822,7 +1770,7 @@ ul.producerTiles {
 // 		}
 
 // 		a:hover .logo {
-// 			border-color: $link_hover;
+// 			border-color: @link_hover;
 // 		}
 // 		a:hover {
 // 			text-decoration: none;
@@ -1835,7 +1783,7 @@ ul.producerTiles {
 // 		width: 150px;
 // 		height: 189px;
 
-// 		@include respond-to(phone) {
+// 		@media only screen and (max-width: @sizes[mobile])  {
 // 			font-size: 80%;
 // 			// width: 89px;
 // 			// height: 119px;
@@ -1847,7 +1795,7 @@ ul.producerTiles {
 // 			width: 150px;
 // 			height: 150px;
 
-// 			@include respond-to(phone) {
+// 			@media only screen and (max-width: @sizes[mobile])  {
 // 				// width: 89px;
 // 				// height: 89px;
 // 				width: 100%;
@@ -1875,7 +1823,7 @@ ul.producerTiles {
 	.logoCorral {
 		// margin-left: 500px;
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			margin-left: 0;
 		}
 	}
@@ -1888,7 +1836,7 @@ ul.producerTiles {
 	margin-left: 1em;
 	margin-right: 0;
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		float: none;
 		margin: 0 0 0.5em 0;
 	}
@@ -1897,7 +1845,7 @@ ul.producerTiles {
 		display: block;
 		position: relative;
 		font-size: 70%;
-		color: $grey;
+		color: @grey;
 		text-align: right;
 		top: -3px;
 	}
@@ -1907,7 +1855,7 @@ ul.producerTiles {
 					  // accomodate producer logo tiles
 		height: auto;
 					  
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			width: 100%;
 			height: auto;
 		}
@@ -1918,7 +1866,7 @@ ul.producerTiles {
 					  // accomodate producer logo tiles
 		height: auto;
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			width: 100%;
 			height: auto;
 		}
@@ -1933,7 +1881,7 @@ figure.productDetailMasterMap {
 
 	width: 50%;
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		float: right;
 	}
 
@@ -1947,7 +1895,7 @@ figure.productDetailMasterMap {
 	}
 
 
-	@include respond-to(print) {
+	@media print {
 		width: 50%;
 	}
 
@@ -1959,7 +1907,7 @@ figure.productDetailMasterMap {
 			float: right;
 			position:relative;
 
-			@include respond-to(phone) {
+			@media only screen and (max-width: @sizes[mobile])  {
 				width: 100%;
 				float: none;
 			}
@@ -1973,8 +1921,8 @@ figure.productDetailMasterMap {
 			height: 288px;
 			margin: 0;
 			box-shadow: none;
-			border-bottom: 2px solid $dark_grey;
-			@include respond-to(phone) {
+			border-bottom: 2px solid @dark_grey;
+			@media only screen and (max-width: @sizes[mobile])  {
 				width: 100%;
 			}
 
@@ -2054,6 +2002,7 @@ dd {
 		border: 0;
 		height: 2px;
 		background: #dddcd8;
+		margin: 0.5em 0;
 		// background-image: linear-gradient(to right, #ccc, #333, #ccc);
 	}
 
@@ -2066,7 +2015,7 @@ dd {
 	font-size: 18px;
 	line-height: 1.4;
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		width: 100%;
 		font-size: 16px;
 	}
@@ -2082,9 +2031,9 @@ dd {
 		text-align: center;
 
 		span {
-			background-color: $dark_grey;
+			background-color: @dark_grey;
 			color: white;
-			font-family: $subheading-font;
+			font-family: @subheading-font;
 			font-size: 15px;
 			text-transform: uppercase;
 			padding: 3px 9px;
@@ -2092,7 +2041,7 @@ dd {
 			letter-spacing: 1px;		
 
 
-			@include respond-to(phone) {
+			@media only screen and (max-width: @sizes[mobile])  {
 				font-size: 12px;
 			}
 
@@ -2102,12 +2051,12 @@ dd {
 	.byline {
 		text-align: center;
 		padding-bottom: 1em;
-		border-bottom: 1px solid $light_grey;
+		border-bottom: 1px solid @light_grey;
 		margin-bottom: 1em;
-		font-family: $body-font;
+		font-family: @body-font;
 		font-size: 15px;
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			font-size: 12px;
 		}
 
@@ -2115,10 +2064,10 @@ dd {
 
 	.dingbat {
 		text-align: center;
-		color: $light_grey;
+		color: @light_grey;
 		padding-bottom: 1em;
 		margin-bottom: 1em;
-		font-family: $body-font;
+		font-family: @body-font;
 		clear: both;
 	}
 
@@ -2133,7 +2082,7 @@ dd {
 	h2 {
 		font-size: 27px;
 		font-weight: bold;
-		color: $yellow;
+		color: @yellow;
 		margin-top: 1em;
 		margin-bottom: 0.25em;
 
@@ -2142,7 +2091,7 @@ dd {
 
 		text-align: center;
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			margin-left: inherit;
 			font-size: 24px;
 		}
@@ -2150,14 +2099,14 @@ dd {
 
 	h3 {
 		font-size: 22px;
-		color: $dark_grey;
+		color: @dark_grey;
 		margin-top: 1em;
 		margin-bottom: 0.25em;
 
 		margin-left: 170px;
 		max-width: 620px;
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			margin-left: inherit;
 			font-size: 18px;
 		}
@@ -2167,7 +2116,7 @@ dd {
 		margin-left: 170px;
 		max-width: 620px;
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			margin-left: inherit;
 		}
 	}
@@ -2188,12 +2137,12 @@ dd {
 			display: block; 
 			clear: both; 
 			text-align: center;
-			color: $grey;
+			color: @grey;
 			font-size: 80%;
 			font-style: italic;
 		}
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			width: 100%;
 		}
 
@@ -2205,7 +2154,7 @@ dd {
 			width: auto;
 			height: 620px;
 
-			@include respond-to(phone) {
+			@media only screen and (max-width: @sizes[mobile])  {
 				width: 100%;
 				height: auto;
 			}
@@ -2215,7 +2164,7 @@ dd {
 
 	figure.smaller {
 		width: 480px;
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			width: 100%;
 			height: auto;
 		}
@@ -2227,13 +2176,13 @@ dd {
 			width: auto;
 			height: 480px;
 
-			@include respond-to(phone) {
+			@media only screen and (max-width: @sizes[mobile])  {
 				width: 80%;
 				height: auto;
 			}
 		}
 
-		// @include respond-to(phone) {
+		// @media only screen and (max-width: @sizes[mobile])  {
 		// 	width: 100%;
 		// }
 	}
@@ -2246,7 +2195,7 @@ dd {
 			width: 100%;
 			margin: 0;
 		}
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			width: 40%;
 		}
 	}	
@@ -2259,7 +2208,7 @@ dd {
 			height: 480px;
 			margin: 0;
 		}
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			width: 40%;
 			margin: 0 0 0 0.5em;
 			img {
@@ -2303,7 +2252,7 @@ dd {
 			margin-left: 0;
 		}
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			margin-left: inherit;
 		}
 	}
@@ -2317,7 +2266,7 @@ dd {
 		break-inside: avoid-column;
 		-webkit-column-break-inside: avoid;
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			margin-left: inherit;
 		}
 	}
@@ -2329,7 +2278,7 @@ dd {
 	h1,h3 {
 		margin-right: 235px;
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			margin-right: 0;
 		}	
 	}
@@ -2343,7 +2292,7 @@ dd {
 	margin-left: 0.5em;
 	height: auto;
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		position: relative;
 		display: block;
 		margin: 0 0 3px 0;
@@ -2352,31 +2301,31 @@ dd {
 
 a.tokenlink {
 	// display: inline-block;
-	// background: $off-grey;
+	// background: @off-grey;
 	// padding: 2px 4px;
 	// margin: 0 0.5em 0 0;
 	// border: 0px;
 	// font-size: 12px;
 	// line-height: 1em;
-	// font-family: $subheading-font;
+	// font-family: @subheading-font;
 	// text-transform: uppercase;
 	// font-weight: normal !important;
 	// color: #fff !important;
-	// @include box-sizing(border-box);
+	// 
 	// -webkit-appearance: none;
-	// @include border-radius(0px);
+	// 
 	// text-decoration: none !important;
 
 	// &:hover {
 	// 	cursor: pointer;
 	// 	color: #fff;
-	// 	background: lighten($red, 10%);
+	// 	background: lighten(@red, 10%);
 	// }
 	
 	&.fullprofile {
 		margin: 20px 0 0 0;
 		
-		@include respond-to(print) {
+		@media print {
 			display: none;
 		}
 	}
@@ -2388,7 +2337,7 @@ ul.articleCategories {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		display: block;
 	}
 
@@ -2399,11 +2348,11 @@ ul.articleCategories {
 	display: grid;
 	grid-template-columns: 1fr 1fr;	
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		display: block;
 	}
 
-	@include respond-to(print) {
+	@media print {
 		display: none;
 	}
 
@@ -2416,7 +2365,7 @@ ul.articleCategories {
 	margin-right: 1rem;
 	margin-bottom: 1rem;
 
-	background-color: $off-grey;
+	background-color: @off-grey;
 	padding: 0.5rem;
 
 	h2 {
@@ -2424,15 +2373,15 @@ ul.articleCategories {
 		margin-bottom: 0;
 		font-weight: bold;
 
-		a {	color: $dark_grey; }
-		a:hover { color: $link_hover; }
+		a {	color: @dark_grey; }
+		a:hover { color: @link_hover; }
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			font-size: 16px;
 		}
 	}
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		margin-right: 0;
 	}
 
@@ -2442,7 +2391,7 @@ ul.articleCategories {
 		height: 110px;
 		overflow: hidden;
 
-		// border: 2px solid $light_grey;
+		// border: 2px solid @light_grey;
 
 		img {
 			width: 100%;
@@ -2461,8 +2410,8 @@ table.contentReport {
 	}
 
 	th {
-		background-color: $off-grey-dark;
-		color: $black;
+		background-color: @off-grey-dark;
+		color: @black;
 	}
 
 	td { text-align: center;  }
@@ -2473,10 +2422,10 @@ table.contentReport {
 
 #productContentReport {
 	td:nth-child(6),td:nth-child(7),td:nth-child(8) {
-		background-color: $off-grey;
+		background-color: @off-grey;
 	}
 	td:nth-child(15),td:nth-child(16),td:nth-child(17) {
-		background-color: $off-grey;
+		background-color: @off-grey;
 	}
 
 }
@@ -2492,7 +2441,7 @@ table.contentReport {
 	.tooltip {
 		visibility: hidden;
 		width: 300px;
-		background-color: $off-grey-dark;
+		background-color: @off-grey-dark;
 		color: black;
 		padding: 0.5rem;
 		border-radius: 6px;
@@ -2526,7 +2475,7 @@ table.contentReport {
 	grid-gap: 1em;
 	grid-template-rows: 420px 287px;
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		grid-template-columns: 1fr;
 		grid-template-rows: repeat(4,62vw);
 	}
@@ -2558,7 +2507,7 @@ table.contentReport {
 	grid-column: 1/11;
 	grid-row: 1/2;
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		grid-column: 1/2;
 		grid-row: 1/2;
 	}
@@ -2583,7 +2532,7 @@ table.contentReport {
 	grid-column: 11/15;
 	grid-row: 1/2;
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		grid-column: 1/2;
 		grid-row: 2/3;
 	}
@@ -2592,7 +2541,7 @@ table.contentReport {
 .gridfeature1equal {
 	grid-column: 1/8;
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		grid-column: 1/2;
 		grid-row: 1/2;
 	}
@@ -2603,7 +2552,7 @@ table.contentReport {
 	grid-column: 8/15;
 	grid-row: 1/2;
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		grid-column: 1/2;
 		grid-row: 2/3;
 	}
@@ -2613,7 +2562,7 @@ table.contentReport {
 	grid-column: 1/8;
 	grid-row: 2/3;
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		grid-column: 1/2;
 		grid-row: 3/4;
 	}
@@ -2623,7 +2572,7 @@ table.contentReport {
 	grid-column: 8/15;
 	grid-row: 2/3;
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		grid-column: 1/2;
 		grid-row: 4/5;
 	}
@@ -2645,7 +2594,7 @@ table.contentReport {
 	  font-size: 36px;
 	  line-height: 42px;
 	  padding: 0 1em;
-	  font-family: $heading-font;
+	  font-family: @heading-font;
 	  text-shadow: rgb(0, 0, 0) 0px 0px 9px;
 	  font-weight: bold;
 
@@ -2655,17 +2604,12 @@ table.contentReport {
 	  rgba(0, 0, 0, 0.2)
 	);
 
-	  @include respond-to(phone) {
+	  @media only screen and (max-width: @sizes[mobile])  {
 		font-size: 24px;
 		// margin-top: 18vw;
 		line-height: 24px;
 	  }
 
-	  @include respond-to(smallphone) {
-		font-size: 22px;
-		// margin-top: 18vw;
-		line-height: 22px;
-	  }
 
 	}
 
@@ -2701,7 +2645,7 @@ table.contentReport {
 .contactwell {
 	width: 50%;
 	float: left;
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		width: 100%;
 		float: none;
 	}
@@ -2710,11 +2654,48 @@ table.contentReport {
 .missionwell {
 	width: 50%;
 	float: right;
-	background-color: $off-grey;
+	background-color: @off-grey;
 	padding: 0.5rem;
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		width: 100%;
 		float: none;
 	}
+}
+
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.wrap {
+	width: @sizes[desktop];
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+	padding: 0;
+
+	@media only screen and (max-width: @sizes[mobile])  {
+		width: 100%;
+	}
+}
+// this is for the special case of the setup table, where the table is very wide
+.wrapspecial {
+	height: 100%;
+	margin: 0 1em;
+	position: relative;
+	padding: 0;
+	@media only screen and (max-width: @sizes[mobile])  {
+		width: 100%;
+	}
+}
+.clr {
+	//@include pie-clearfix();
+}
+strong, b {
+	font-weight: bold;
+}
+em, i {
+	font-style: italic;
 }

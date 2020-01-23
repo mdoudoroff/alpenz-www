@@ -1,3 +1,5 @@
+@import "_config.less";
+
 #modal {
 	display: none;
 	position: fixed;
@@ -16,27 +18,22 @@
 	height: 40px;
 
 	h1 {
-		// margin: 8px 0 7px 5px;
 		margin: 0;
 		padding-top: 10px;
-		// width: $logowidth / 2;
-		// height: $logoheight / 2;
-		// left: 54px;
-		// top: 0px;
 
 		a { 
-			@include hide-text(left);
+			text-indent: -119988px;
+			overflow: hidden;
 			display: block;
-			// width: 100%;
 			height: 100%;
-			width: $logowidth;
+			width: @logowidth;
 			margin: 0 auto 0 auto;
 			background: url('../assets/logo-wide.png') no-repeat;
-			background-size: $logowidth $logoheight;
+			background-size: @logowidth @logoheight;
 
-			@include respond-to(phone) {
-				width: $logowidth/2;
-				background-size: ($logowidth / 2) ($logoheight / 2);
+			@media only screen and (max-width: @sizes[mobile])  {
+				width: calc(@logowidth/2);
+				background-size: calc(@logowidth / 2) calc(@logoheight / 2);
 			}
 		}
 	}
@@ -47,9 +44,11 @@
 
 		height: 40px;
 		a {
+			text-indent: -119988px;
+			overflow: hidden;
 			position: relative;
 
-			@include respond-to(phone) {
+			@media only screen and (max-width: @sizes[mobile])  {
 				background: url('../assets/logotype-sotolon.png') no-repeat;
 				margin: 0 auto;
 				width: 89px;
@@ -65,7 +64,7 @@
 	margin-left: 0.25em;
 	height: 25px;
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		height: 25px;
 	}
 
@@ -73,11 +72,11 @@
 
 .sidebarRow, .sidebarRowHeader {
 
-	border-top: 1px solid $light_grey;
+	border-top: 1px solid @light_grey;
 
 	.sidebarsection {
 		text-align: center;
-		color: $dark_grey;
+		color: @dark_grey;
 		text-transform: uppercase;
 		font-weight: 700;
 	}
@@ -88,7 +87,7 @@
 		font-weight: 700;
 		line-height: 2.0;
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			font-size: 140%;
 		}
 
@@ -107,7 +106,7 @@
 	}
 
 	.half {
-		border-right: 1px solid $light_grey;
+		border-right: 1px solid @light_grey;
 	}
 
 	.socialIcons {
@@ -119,7 +118,7 @@
 }
 
 .sidebarRowHeader {
-	border-top: 2px solid $dark_grey;
+	border-top: 2px solid @dark_grey;
 
 }
 
@@ -133,7 +132,7 @@
 	// margin-left: 0.7em;
 	// margin-top: 0.7em;
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		// margin-top: 0.9em;
 	}
 
@@ -143,15 +142,15 @@
 	display: none;
 	position: absolute;
 	z-index: 99000;
-	background-color: $off-grey;
-	font-family: $subheading-font;
+	background-color: @off-grey;
+	font-family: @subheading-font;
 	// min-height: 6000px;
 	// padding-top: 0.5em;
 	width: 360px;
 	left:0px;
 	top: 0px;
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		width: 100%;
 	}
 }
@@ -163,12 +162,12 @@
 
 	li {
 		margin-left: 0.75em;
-		border-bottom: 1px solid $off-grey-dark;
+		border-bottom: 1px solid @off-grey-dark;
 		font-weight: 700;
 		line-height: 2.0;
 	}
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		font-size: 140%;
 	}
 }
@@ -227,14 +226,14 @@
 	line-height: 2.0;
 	text-transform: uppercase;
 	font-weight: 700;
-	border-top: 1px solid $light_grey;
+	border-top: 1px solid @light_grey;
 }
 
 .typeBrowserCat1 {
 	margin-left: 2em;
-	border-bottom: 1px solid $off-grey-dark;
+	border-bottom: 1px solid @off-grey-dark;
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		font-size: 140%;
 	}
 }
@@ -242,9 +241,9 @@
 .typeBrowserCat2 {
 	font-weight: 400;
 	margin-left: 3em;
-	border-bottom: 1px solid $off-grey-dark;
+	border-bottom: 1px solid @off-grey-dark;
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		font-size: 140%;
 	}
 }
@@ -255,7 +254,7 @@
 	transform-origin: left top 0;
 	line-height: 1.0;
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		font-size: 140%;
 	}	
 }
@@ -272,7 +271,7 @@
 
 #searchOverlay {
 	padding: 1em;
-	background-color: $off-grey;
+	background-color: @off-grey;
 	width: 100%;
 	max-width: 640px;
 	position: absolute;
@@ -284,7 +283,7 @@
 	// min-height: 2000px;
 	z-index: 999;
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		top: 0px;
 		padding-left: 0.5em;
 		padding-right: 0.5em;
@@ -323,7 +322,7 @@
 
 	.match {
 		padding: 0.5em;
-		border: 2px solid $off-grey-dark;
+		border: 2px solid @off-grey-dark;
 		clear: both;
 		background-color: #fff;
 
@@ -361,11 +360,11 @@
 	}
 
 	.match:hover {
-		// background-color: $off-grey-dark;
-		border: 2px solid $red;
+		// background-color: @off-grey-dark;
+		border: 2px solid @red;
 	}
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		padding: 0;
 	}
 }
@@ -387,7 +386,7 @@
 
 	background-color: white;
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 	}
 
 	img {
@@ -419,7 +418,7 @@
 
 	background-color: white;
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		width: 120px;
 	}
 

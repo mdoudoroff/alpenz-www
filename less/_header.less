@@ -1,30 +1,31 @@
-$logowidth: 395px;
-$logoheight: 50px;
+@import "_config.less";
 
-$sotolonlogowidth: 156px;
-$sotolonlogoheight: 112px;
+@logowidth: 395px;
+@logoheight: 50px;
+
+@sotolonlogowidth: 156px;
+@sotolonlogoheight: 112px;
 
 .header {
 	width: 100%;
-	min-width: $site_width;
+	min-width: @site_width;
 	position: relative; // fixed;
 	// z-index: 100;
 	padding: 0;
-	background: $off-grey;
-	@include box-sizing(border-box);
-	@include pie-clearfix;
+	background: @off-grey;
+	
 	box-shadow: 0 0 15px rgba(0,0,0,.2);
 
 
 	height: 81px; // new header
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		height: 40px;
 		width: 100%;
 		min-width: 100%;
 	}
 
-	@include respond-to(print) {
+	@media print {
 		display: none;
 	}
 
@@ -32,7 +33,7 @@ $sotolonlogoheight: 112px;
 
 
 
-	@include respond-to(print) {
+	@media print {
 		background: #fff;
 	}
 	
@@ -45,8 +46,8 @@ $sotolonlogoheight: 112px;
 		
 	h1,	.logo {
 		display: block;
-		width: $logowidth;
-		height: $logoheight;
+		width: @logowidth;
+		height: @logoheight;
 
 		line-height: 70px;
 
@@ -54,7 +55,7 @@ $sotolonlogoheight: 112px;
 		top: 3px; // new header
 		left: 8px; // new header
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 
 			// undo the above
 			position: relative;
@@ -67,33 +68,34 @@ $sotolonlogoheight: 112px;
 			margin: 0;
 			padding-top: 10px;
 
-			// width: $logowidth / 2;
-			// height: $logoheight / 2;
+			// width: @logowidth / 2;
+			// height: @logoheight / 2;
 			// left: 54px;
 			// top: 0px;
 		}
 				
 		a { 
-			@include hide-text(left);
+			// @include hide-text(left);
+			font-size: 0;
 			display: block;
 			// width: 100%;
 			height: 100%;
-			width: $logowidth;
+			width: @logowidth;
 			background: url('../assets/logo-wide.png') no-repeat;
-			background-size: $logowidth $logoheight;
+			background-size: @logowidth @logoheight;
 
-			@include respond-to(phone) {
+			@media only screen and (max-width: @sizes[mobile])  {
 				margin: 0 auto;
-				width: $logowidth/2;
-				background-size: ($logowidth / 2) ($logoheight / 2);
+				width: @logowidth/2;
+				background-size: (@logowidth / 2) (@logoheight / 2);
 			}
 		}
 	}
 	
 	h1.sotolon {
 		display: block;
-		width: $sotolonlogowidth;
-		height: $sotolonlogoheight;
+		width: @sotolonlogowidth;
+		height: @sotolonlogoheight;
 
 		line-height: 70px;
 
@@ -101,36 +103,31 @@ $sotolonlogoheight: 112px;
 		top: 3px; // new header
 		left: 8px; // new header
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 
-			// undo the above
 			position: relative;
 			top: 0;
 			left: 0;
 			width: 100%;
 			height: 40px;
 
-			// margin: 8px 0 7px 5px;
 			margin: 0;
 			padding-top: 10px;
 
-			// width: $logowidth / 2;
-			// height: $logoheight / 2;
-			// left: 54px;
-			// top: 0px;
 		}
 				
 		a { 
-			@include hide-text(left);
+			//@include hide-text(left);
+			font-size:0;
 			display: block;
 			position: relative;
 			// width: 100%;
 			height: 100%;
-			width: $sotolonlogowidth;
+			width: @sotolonlogowidth;
 			background: url('../assets/logo-sotolon-wide.png') no-repeat;
-			background-size: $sotolonlogowidth $sotolonlogoheight;
+			background-size: @sotolonlogowidth @sotolonlogoheight;
 
-			@include respond-to(phone) {
+			@media only screen and (max-width: @sizes[mobile])  {
 				background: url('../assets/logotype-sotolon.png') no-repeat;
 				margin: 0 auto;
 				width: 89px;
@@ -143,13 +140,13 @@ $sotolonlogoheight: 112px;
 	h1.dev {
 		a {
 			background: url('../assets/logo-wide-dev.png') no-repeat;
-			background-size: $logowidth $logoheight;
+			background-size: @logowidth @logoheight;
 
-			@include respond-to(phone) {
+			@media only screen and (max-width: @sizes[mobile])  {
 				margin: 0 auto;
-				width: $logowidth/2;
+				width: calc(@logowidth/2);
 				background: url('../assets/logo-wide-dev.png') no-repeat;
-				background-size: ($logowidth / 2) ($logoheight / 2);
+				background-size: calc(@logowidth / 2) calc(@logoheight / 2);
 			}
 		}
 	}
@@ -157,9 +154,9 @@ $sotolonlogoheight: 112px;
 	h1.dev.sotolon {
 		a {
 			background: url('../assets/logo-sotolon-wide-dev.png') no-repeat;
-			background-size: $sotolonlogowidth $sotolonlogoheight;
+			background-size: @sotolonlogowidth @sotolonlogoheight;
 
-			@include respond-to(phone) {
+			@media only screen and (max-width: @sizes[mobile])  {
 				background: url('../assets/logotype-sotolon.png') no-repeat;
 				margin: 0 auto;
 				width: 89px;
@@ -174,7 +171,7 @@ $sotolonlogoheight: 112px;
 		font-size: 20px;
 		font-style: italic;
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			display: none;
 		}
 	}
@@ -186,16 +183,16 @@ $sotolonlogoheight: 112px;
 		position: absolute;
 		top: 0px;
 		left: 0;
-		font-family: $subheading-font;
+		font-family: @subheading-font;
 		font-weight: bold;
 		line-height: 70px;
 		width: 40px;
 		text-align: center;
-		background: $red;
+		background: @red;
 		color: #fff;
 		text-transform: uppercase;
 		
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			line-height: 40px;
 			display: block;
 		}
@@ -210,7 +207,7 @@ $sotolonlogoheight: 112px;
 		display: none;
 		cursor: pointer;
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			display: block;
 			position: absolute;
 			right: 8px;
@@ -227,7 +224,7 @@ $sotolonlogoheight: 112px;
 		right: 0;
 		top: 9px;
 
-		font-family: $subheading-font;
+		font-family: @subheading-font;
 		font-size: 15px;
 		font-weight: 700;
 		text-transform: uppercase;
@@ -235,7 +232,7 @@ $sotolonlogoheight: 112px;
 
 		a { 
 			display: block;
-			padding: 0 $gutter;
+			padding: 0 @gutter;
 			text-decoration: none;
 			position: relative;
 			
@@ -250,7 +247,7 @@ $sotolonlogoheight: 112px;
 		}
 		
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			display: none;
 		}
 
@@ -270,15 +267,15 @@ $sotolonlogoheight: 112px;
 		justify-content: space-evenly;
 		align-items: baseline;
 
-		font-family: $subheading-font;
+		font-family: @subheading-font;
 		font-size: 15px;
 		font-weight: 700;
 		text-transform: uppercase;
 		text-align: left;
 		// margin: 0 auto;
-		@include box-sizing(border-box);
+		
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			width: 100%;
 			display: none;
 			clear: both;
@@ -292,7 +289,7 @@ $sotolonlogoheight: 112px;
 			line-height: 36px;
 			letter-spacing: 1px;
 			
-			@include respond-to(phone) {
+			@media only screen and (max-width: @sizes[mobile])  {
 				width: 100%;
 				display: block;
 				line-height: 40px;
@@ -300,7 +297,7 @@ $sotolonlogoheight: 112px;
 		
 			a { 
 				display: block;
-				padding: 0 $gutter;
+				padding: 0 @gutter;
 				text-decoration: none;
 				color: #333;
 				position: relative;
@@ -312,7 +309,7 @@ $sotolonlogoheight: 112px;
 			&.current-menu-parent a,
 			&.current-menu-item a,
 			&:hover a {
-				color: $red;
+				color: @red;
 			}
 			
 			&.menu-item-has-children:hover {
@@ -380,7 +377,7 @@ $sotolonlogoheight: 112px;
 						white-space: nowrap;
 						
 						&:hover {
-							background: $red;
+							background: @red;
 						}
 						&:after {
 							display: none !important;
@@ -492,7 +489,7 @@ $sotolonlogoheight: 112px;
 .header.sotolon {
 	height: 118px;
 
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		height: 40px;
 	}
 
@@ -503,16 +500,13 @@ $sotolonlogoheight: 112px;
 // what is this?
 .navigation {
 	width: 100%;
-	background: $dark_grey;
+	background: @dark_grey;
 	
-	@include respond-to(print) {
+	@media print {
 		display: none;
 	}
-	@include respond-to(smalltablet) {
-		clear: both;
-	}
 	
-	@include respond-to(phone) {
+	@media only screen and (max-width: @sizes[mobile])  {
 		display: none;
 		width: 100%;
 		position: static;
@@ -527,142 +521,7 @@ $sotolonlogoheight: 112px;
 		z-index: 1000;
 	}
 	
-	// /* Main Menu */
-	// ul { 
-	// 	display: block;
-	// 	font-family: $subheading-font;
-	// 	font-size: 15px;
-	// 	font-weight: 700;
-	// 	text-transform: uppercase;
-	// 	text-align: center;
-	// 	margin-left: -$gutter;
-		
-	// 	@include respond-to(smalltablet) {
-	// 		float: none;
-	// 		text-align: center;
-	// 		margin-left: (-$gutter / 2);
-	// 	}
-	// 	@include respond-to(phone) {
-	// 		width: 100%;
-	// 	}
-	
-	// 	li { 
-	// 		display: inline;
-	// 		float: left;
-	// 		text-align: center;
-	// 		padding: 0;
-	// 		line-height: 40px;
-	// 		letter-spacing: 1px;
-			
-	// 		@include respond-to(phone) {
-	// 			width: 100%;
-	// 			display: block;
-	// 		}
-		
-	// 		a { 
-	// 			display: block;
-	// 			padding: 0 $gutter;
-	// 			text-decoration: none;
-	// 			color: #fff;
-				
-	// 			@include respond-to(smalltablet) {
-	// 				padding: 0 ($gutter / 2);
-	// 			}
-	// 		}
-	// 		&.current-menu-parent a,
-	// 		&.current-menu-item a,
-	// 		&.here a,
-	// 		a:hover,
-	// 		&:hover a {
-	// 			color: #fff;
-	// 			background: $red;
-	// 		}
-	// 		&#nav-home.here a {
-	// 			background: none !important;
-	// 		}
-			
-	// 		/* Horizontal Sub Menu */
-	// 		ul {
-	// 			display: none;
-	// 			margin: 0;
-	// 			top: 100%;
-	// 			left: 0;
-	// 			position: absolute;
-	// 			z-index: 2000;
-	// 			background: $red;
-				
-	// 			li {
-	// 				float: left;
-	// 				white-space: nowrap;
-	// 				text-align: left;
-	// 				position: relative;
-	// 				white-space: nowrap;
-					
-	// 				a {
-	// 					padding: 0 20px;
-						
-	// 					&:hover {
-	// 						background: $red;
-	// 					}
-	// 				}
-					
-	// 				/* Vertical Dropdown Menu */
-	// 				ul {
-	// 					display: none;
-	// 					position: absolute;
-	// 					top: 100%;
-	// 					left: 0;
-	// 					font-size: 13px;
-	// 					font-weight: 400;
-	// 					overflow: visible;
-						
-	// 					li {
-	// 						display: block;
-	// 						line-height: 30px;
-	// 						float: none;
-	// 						white-space: nowrap;
-							
-	// 						a {
-								
-	// 							padding: 0 20px 0 20px;
-	// 						}
-	// 					}
-	// 				}
-	// 				/* If sub menu is hovered, show options */
-	// 				&:hover {
-				
-	// 					ul {
-	// 						display: block;
-							
-							
-	// 					}
-	// 				}
-	// 			}
-	// 		}
-			
-	// 		&.current-menu-item ul,
-	// 		&.current-menu-parent ul {
-	// 			display: block;
-	// 		}
-			
-	// 		&.current-menu-item ul ul,
-	// 		&.current-menu-parent ul ul {
-	// 			display: none;
-	// 		}
-			
-	// 		/* If main menu is hovered, show sub menu, but not sub menu options */
-	// 		&:hover {
-				
-	// 			ul {
-	// 				display: block;
-					
-	// 				ul {
-	// 					display: none;
-	// 				}
-	// 			}
-	// 		}
-	// 	}
-	// }
+
 }
 
 
@@ -682,7 +541,7 @@ $sotolonlogoheight: 112px;
 
 .breadcrumb {
 	width: 100%;
-	background: $body_background;
+	background: @body_background;
 	
 	&.short {
 		position: fixed;
@@ -694,7 +553,7 @@ $sotolonlogoheight: 112px;
 	p {
 		color: #333;
 		font-size: 11px;
-		line-height: $gutter;
+		line-height: @gutter;
 		margin: 0 0 0 0;
 		font-weight: 700;
 		
@@ -706,7 +565,7 @@ $sotolonlogoheight: 112px;
 			}
 		}
 
-		@include respond-to(phone) {
+		@media only screen and (max-width: @sizes[mobile])  {
 			font-size: 12px;
 			text-align: center;
 		}
@@ -720,7 +579,7 @@ $sotolonlogoheight: 112px;
 	float: right;
 	margin-top: 20px;
 	
-	@include respond-to(print) {
+	@media print {
 		display: none;
 	}
 	
@@ -729,7 +588,7 @@ $sotolonlogoheight: 112px;
 		padding: 0;
 		border: 0;
 		display: inline-block;
-		@include box-sizing(border-box);
+		
 		font-size: 12px;
 		padding: 0 10px;
 		line-height: 25px;
@@ -738,7 +597,7 @@ $sotolonlogoheight: 112px;
 	input[type='text'] {
 	}
 	input[type='submit'] {
-		background: $red;
+		background: @red;
 		color: #fff;
 	}
 }
