@@ -993,6 +993,7 @@ header.producerindex .images figure.logo {
   margin-bottom: 0.2em;
 }
 #recipefilters fieldset {
+  border: none;
   margin-bottom: 0.5em;
 }
 #recipeFiltersMoreButton {

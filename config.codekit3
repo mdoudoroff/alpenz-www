@@ -10534,6 +10534,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/css/product_summary.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "/css/product_summary-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/css/screen.css": {
 		"aP": 0,
 		"bl": 0,
