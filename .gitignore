@@ -1,6 +1,11 @@
+alpenz-download-*
+alpenz-web-*
+alpenz-recipes
 .DS_Store
 *.pyc
 www/*
 images/*
 downloads/*
 *.html
+robots.txt
+sitemap.txt
