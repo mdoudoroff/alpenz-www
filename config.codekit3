@@ -11866,6 +11866,17 @@
 		"oAP": "/infographics.html",
 		"oF": 0
 		},
+	"/js/gallery-overlay.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/js/gallery-overlay-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/js/page-min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -11950,6 +11961,17 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/js/recipeindex-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/js/site-search.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/js/site-search-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0

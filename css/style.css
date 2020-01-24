@@ -1070,10 +1070,6 @@ a.inlineButton:hover,
   background-color: #a2120f;
   text-decoration: none;
 }
-.revealfold {
-  text-transform: uppercase;
-  color: #a2120f;
-}
 .socialIcons {
   display: flex;
   flex-wrap: wrap;
