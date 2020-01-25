@@ -2542,6 +2542,39 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/alpenz-recipes/0526-0453.drink-photo.jpg": {
+		"ft": 16384,
+		"iS": 61062,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/alpenz-recipes/0526-0453.drink-photo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/alpenz-recipes/0526-0454.drink-photo.jpg": {
+		"ft": 16384,
+		"iS": 33654,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/alpenz-recipes/0526-0454.drink-photo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/alpenz-recipes/0526-0456.drink-photo.jpg": {
+		"ft": 16384,
+		"iS": 104124,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/alpenz-recipes/0526-0456.drink-photo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/alpenz-web-category/americano.subcategory.jpg": {
 		"ft": 16384,
 		"iS": 167359,
@@ -18617,6 +18650,14 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/recipe-0526-0455.html",
+		"oF": 0
+		},
+	"/recipe-0526-0456.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0456.html",
 		"oF": 0
 		},
 	"/recipes-proofing.html": {

@@ -462,6 +462,14 @@ a h2 {
     font-size: 24px;
   }
 }
+.content .photoattribution {
+  display: block;
+  position: relative;
+  font-size: 70%;
+  color: #666666;
+  text-align: left;
+  top: -3px;
+}
 .content .recipePhoto {
   max-width: 480px;
   padding-left: 1em;
