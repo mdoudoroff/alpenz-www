@@ -2113,6 +2113,13 @@ table.contentReport td {
     width: 100%;
   }
 }
+.clr:after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
 strong,
 b {
   font-weight: bold;
