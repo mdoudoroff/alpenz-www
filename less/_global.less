@@ -2701,3 +2701,69 @@ strong, b {
 em, i {
 	font-style: italic;
 }
+
+ul.vintagePageLinks {
+
+	list-style: none;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	margin: 0;
+
+	li {
+		text-align: center;
+		clear: both;
+		// margin-bottom: 1em;
+		font-family: @subheading-font;
+		// text-transform: uppercase;
+		font-size: 18px;
+		color: @dark_grey;
+		padding: 0 0.5em;
+
+	// span, span.selected {
+	// 	display: inline-block;
+	// 	padding: 8px 16px;
+	// 	margin: 0;
+	// 	font-size: 18px;
+	// 	line-height: 1em;
+	// 	font-family: @subheading-font;
+	// 	text-transform: uppercase;
+		
+		// -webkit-appearance: none;
+		
+		// text-decoration: none !important;
+	// 	color: @red;
+
+		&:hover {
+			cursor: pointer;
+			color: #fff;
+			background: @link_color;
+		}
+
+		&:hover a {
+			color: #fff;
+			text-decoration: none !important;
+		}
+		
+		@media only screen and (max-width: @sizes[mobile])  {
+			font-size: 16px;
+			padding: 6px 14px;
+		}
+
+	}	
+
+	li.selected {
+		// background: @red;
+		// color: #fff;
+		color: @dark_grey;
+		text-decoration: underline;
+
+		&:hover {
+			cursor: inherit;
+			color: inherit;
+			background: inherit;
+		}
+	}
+
+
+}
