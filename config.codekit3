@@ -278,6 +278,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/alpenz-download-product-bottle/comoz_blanc.bottle.jpg": {
+		"ft": 16384,
+		"iS": 2457904,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/alpenz-download-product-bottle/comoz_blanc.bottle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/alpenz-download-product-bottle/csm_1969.bottle.jpg": {
 		"ft": 16384,
 		"iS": 259141,
@@ -1373,6 +1384,17 @@
 		"jF": 0,
 		"oA": 1,
 		"oAP": "/alpenz-download-product-label/Collection_2002.label.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/alpenz-download-product-label/comoz_blanc.label.jpg": {
+		"ft": 16384,
+		"iS": 115028,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/alpenz-download-product-label/comoz_blanc.label.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2520,6 +2542,39 @@
 		"oAP": "/alpenz-download-product-talker/zirbenz.talker.pdf",
 		"oF": 0
 		},
+	"/alpenz-recipes/0526-0015.drink-photo.jpg": {
+		"ft": 16384,
+		"iS": 106372,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/alpenz-recipes/0526-0015.drink-photo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/alpenz-recipes/0526-0069.drink-photo.jpg": {
+		"ft": 16384,
+		"iS": 178132,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/alpenz-recipes/0526-0069.drink-photo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/alpenz-recipes/0526-0086.drink-photo.jpg": {
+		"ft": 16384,
+		"iS": 106186,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/alpenz-recipes/0526-0086.drink-photo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/alpenz-recipes/0526-0171.drink-photo.jpg": {
 		"ft": 16384,
 		"iS": 431105,
@@ -2531,12 +2586,111 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/alpenz-recipes/0526-0250.drink-photo.jpg": {
+		"ft": 16384,
+		"iS": 102957,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/alpenz-recipes/0526-0250.drink-photo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/alpenz-recipes/0526-0258.drink-photo.jpg": {
+		"ft": 16384,
+		"iS": 98865,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/alpenz-recipes/0526-0258.drink-photo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/alpenz-recipes/0526-0274.drink-photo.jpg": {
+		"ft": 16384,
+		"iS": 129146,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/alpenz-recipes/0526-0274.drink-photo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/alpenz-recipes/0526-0317.drink-photo.jpg": {
+		"ft": 16384,
+		"iS": 234109,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/alpenz-recipes/0526-0317.drink-photo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/alpenz-recipes/0526-0348.drink-photo.jpg": {
+		"ft": 16384,
+		"iS": 197142,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/alpenz-recipes/0526-0348.drink-photo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/alpenz-recipes/0526-0407.drink-photo.jpg": {
+		"ft": 16384,
+		"iS": 68039,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/alpenz-recipes/0526-0407.drink-photo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/alpenz-recipes/0526-0410.drink-photo.jpg": {
 		"ft": 16384,
 		"iS": 50518,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "/alpenz-recipes/0526-0410.drink-photo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/alpenz-recipes/0526-0433.drink-photo.jpg": {
+		"ft": 16384,
+		"iS": 70456,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/alpenz-recipes/0526-0433.drink-photo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/alpenz-recipes/0526-0442.drink-photo.jpg": {
+		"ft": 16384,
+		"iS": 60620,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/alpenz-recipes/0526-0442.drink-photo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/alpenz-recipes/0526-0443.drink-photo.jpg": {
+		"ft": 16384,
+		"iS": 218831,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/alpenz-recipes/0526-0443.drink-photo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2570,6 +2724,17 @@
 		"jF": 0,
 		"oA": 1,
 		"oAP": "/alpenz-recipes/0526-0456.drink-photo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/alpenz-recipes/0526-0458.drink-photo.jpg": {
+		"ft": 16384,
+		"iS": 25509,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/alpenz-recipes/0526-0458.drink-photo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -10611,6 +10776,14 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/distribution.html",
+		"oF": 0
+		},
+	"/drinks_international_2020_02_making_madeira_more_meaningful.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/drinks_international_2020_02_making_madeira_more_meaningful.html",
 		"oF": 0
 		},
 	"/favicon.ico": {
@@ -18658,6 +18831,22 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/recipe-0526-0456.html",
+		"oF": 0
+		},
+	"/recipe-0526-0457.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0457.html",
+		"oF": 0
+		},
+	"/recipe-0526-0458.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0458.html",
 		"oF": 0
 		},
 	"/recipes-proofing.html": {

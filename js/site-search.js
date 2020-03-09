@@ -6,7 +6,7 @@ function dismissSearchOverlay() {
 
 function createSearchOverlay() {
 	var shadowbox = $('<div id="shadowbox"></div>');
-	var searchoverlay = $('<div id="searchOverlay"><div class="searchBar">Search Haus Alpenz: <input id="searchBox" /></div><span id="dismissSearchOverlay"><img src="gfx/dismiss.png" height="18" width="18" /></span><div id="searchResults"></div></div>');
+	var searchoverlay = $('<div id="searchOverlay"><div class="searchBar">Search Haus Alpenz (just try a few letters): <input id="searchBox" /></div><span id="dismissSearchOverlay"><img src="gfx/dismiss.png" height="18" width="18" /></span><div id="searchResults"></div></div>');
 	$('#regularContent').append(shadowbox);
 	$('#regularContent').append(searchoverlay);
 	shadowbox.click(function(){

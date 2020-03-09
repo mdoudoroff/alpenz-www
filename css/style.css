@@ -3063,6 +3063,7 @@ ul.vintagePageLinks li.selected:hover {
 #searchBox {
   width: 100%;
   font-size: 16px;
+  margin-top: 3px;
 }
 #searchResults {
   display: none;
