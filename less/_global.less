@@ -2469,7 +2469,7 @@ table.contentReport {
 	display: grid;
 	grid-template-columns: repeat(14,1fr);
 	grid-gap: 1em;
-	grid-template-rows: 420px 287px;
+	grid-template-rows: 420px 287px 200px;
 
 	@media only screen and (max-width: @sizes[mobile])  {
 		grid-template-columns: 1fr;
@@ -2517,7 +2517,9 @@ table.contentReport {
 .gridfeature2:hover .bkgd2, 
 .gridfeature2equal:hover .bkgd2, 
 .gridfeature3:hover .bkgd3, 
-.gridfeature4:hover .bkgd4 {
+.gridfeature4:hover .bkgd,
+.gridfeature5:hover .bkgd,
+.gridfeature6:hover .bkgd {
 	top: -5%;
 	width: 110%;
 	height: 110%;
@@ -2571,6 +2573,26 @@ table.contentReport {
 	@media only screen and (max-width: @sizes[mobile])  {
 		grid-column: 1/2;
 		grid-row: 4/5;
+	}
+}
+
+.gridfeature5 {
+	grid-column: 1/8;
+	grid-row: 3/4;
+
+	@media only screen and (max-width: @sizes[mobile])  {
+		grid-column: 1/2;
+		grid-row: 5/6;
+	}
+}
+
+.gridfeature6 {
+	grid-column: 8/15;
+	grid-row: 3/4;
+
+	@media only screen and (max-width: @sizes[mobile])  {
+		grid-column: 1/2;
+		grid-row: 7/8;
 	}
 }
 
@@ -2633,6 +2655,30 @@ table.contentReport {
 	  z-index: 999;
 	}
 
+}
+
+#vintageFeatures {
+	display: flex;
+	justify-content: space-between;
+	margin: 1em 0;
+
+	div {
+		flex: flex-grow;
+		text-align: center;
+		font-size: 16px;
+		line-height: 16px;
+		padding: 0 1em;
+		font-family: @heading-font;
+		text-shadow: rgb(0, 0, 0) 0px 0px 9px;
+		font-weight: bold;
+
+		padding: 1em 1em;
+		background: url(//images.ctfassets.net/pd1o4v2w7ato/26AnPvmdZbj46BixWRycKx/2ee7154f82a8740e84df718c24a10bb5/smithsonian-wine-cellar.jpg);
+
+		a {
+			color: white;
+		}
+	}
 }
 
 
