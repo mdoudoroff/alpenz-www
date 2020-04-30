@@ -1925,7 +1925,7 @@ table.contentReport td {
 @media only screen and (max-width: 420px) {
   .cgrid {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 62vw);
+    grid-template-rows: repeat(4, 52vw) repeat(2, 32vw);
   }
 }
 .gridfeature {
@@ -2037,7 +2037,7 @@ table.contentReport td {
 @media only screen and (max-width: 420px) {
   .gridfeature6 {
     grid-column: 1/2;
-    grid-row: 7/8;
+    grid-row: 6/7;
   }
 }
 .overlay {
