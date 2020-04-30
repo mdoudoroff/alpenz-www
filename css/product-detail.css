@@ -2268,7 +2268,6 @@ ul.vintagePageLinks li.selected:hover {
 .header .logo a {
   font-size: 0;
   display: block;
-  width: calc(395px/2);
   height: 100%;
   background: url('../assets/logo-wide.png') no-repeat;
   background-size: 395px 50px;
@@ -2277,7 +2276,7 @@ ul.vintagePageLinks li.selected:hover {
   .header h1 a,
   .header .logo a {
     margin: 0 auto;
-    width: 395px/2;
+    width: calc(395px/2);
     background-size: 197.5px 25px;
   }
 }

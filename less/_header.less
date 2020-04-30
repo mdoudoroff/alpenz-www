@@ -79,7 +79,6 @@
 			font-size: 0;
 			display: block;
 			// width: 100%;
-			width: calc(@logowidth/2);
 			height: 100%;
 			// width: @logowidth;
 			background: url('../assets/logo-wide.png') no-repeat;
@@ -87,7 +86,8 @@
 
 			@media only screen and (max-width: @sizes[mobile])  {
 				margin: 0 auto;
-				width: @logowidth/2;
+				width: calc(@logowidth/2);
+
 				background-size: (@logowidth / 2) (@logoheight / 2);
 			}
 		}
