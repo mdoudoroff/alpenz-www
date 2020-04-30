@@ -2268,8 +2268,8 @@ ul.vintagePageLinks li.selected:hover {
 .header .logo a {
   font-size: 0;
   display: block;
+  width: calc(395px/2);
   height: 100%;
-  width: 395px;
   background: url('../assets/logo-wide.png') no-repeat;
   background-size: 395px 50px;
 }
