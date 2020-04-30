@@ -10352,6 +10352,17 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/assets/logo-combo.png": {
+		"ft": 32768,
+		"iS": 38358,
+		"oA": 1,
+		"oAP": "/assets/logo-combo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/logo-sotolon-wide-dev.png": {
 		"ft": 32768,
 		"iS": 46687,

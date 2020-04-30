@@ -3,6 +3,9 @@
 @logowidth: 395px;
 @logoheight: 50px;
 
+@combologowidth: 284px;
+@combologoheight: 90px;
+
 @sotolonlogowidth: 156px;
 @sotolonlogoheight: 112px;
 
@@ -17,7 +20,7 @@
 	box-shadow: 0 0 15px rgba(0,0,0,.2);
 
 
-	height: 81px; // new header
+	height: 127px; // new header
 
 	@media only screen and (max-width: @sizes[mobile])  {
 		height: 40px;
@@ -46,8 +49,8 @@
 		
 	h1,	.logo {
 		display: block;
-		width: @logowidth;
-		height: @logoheight;
+		width: @combologowidth;
+		height: @combologoheight;
 
 		line-height: 70px;
 
@@ -81,10 +84,11 @@
 			// width: 100%;
 			height: 100%;
 			// width: @logowidth;
-			background: url('../assets/logo-wide.png') no-repeat;
+			background: url('../assets/logo-combo.png') no-repeat;
 			background-size: @logowidth @logoheight;
 
 			@media only screen and (max-width: @sizes[mobile])  {
+				background: url('../assets/logo-wide.png') no-repeat;
 				margin: 0 auto;
 				width: calc(@logowidth/2);
 
@@ -140,13 +144,13 @@
 
 	h1.dev {
 		a {
-			background: url('../assets/logo-wide-dev.png') no-repeat;
-			background-size: @logowidth @logoheight;
+			background: url('../assets/logo-combo.png') no-repeat;
+			background-size: @combologowidth @combologoheight;
 
 			@media only screen and (max-width: @sizes[mobile])  {
 				margin: 0 auto;
 				width: calc(@logowidth/2);
-				background: url('../assets/logo-wide-dev.png') no-repeat;
+				background: url('../assets/logo-wide.png') no-repeat;
 				background-size: calc(@logowidth / 2) calc(@logoheight / 2);
 			}
 		}
@@ -217,7 +221,7 @@
 	}
 	
 	#headerTopLayer {
-		height: 45px;
+		height: 91px;
 	}
 
 	#searchDropdownNavItem, #downloadCatalogItem {

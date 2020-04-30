@@ -2216,7 +2216,7 @@ ul.vintagePageLinks li.selected:hover {
   padding: 0;
   background: #edece8;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-  height: 81px;
+  height: 127px;
   /* Main Menu */
 }
 @media only screen and (max-width: 420px) {
@@ -2245,8 +2245,8 @@ ul.vintagePageLinks li.selected:hover {
 .header h1,
 .header .logo {
   display: block;
-  width: 395px;
-  height: 50px;
+  width: 284px;
+  height: 90px;
   line-height: 70px;
   position: absolute;
   top: 3px;
@@ -2269,12 +2269,13 @@ ul.vintagePageLinks li.selected:hover {
   font-size: 0;
   display: block;
   height: 100%;
-  background: url('../assets/logo-wide.png') no-repeat;
+  background: url('../assets/logo-combo.png') no-repeat;
   background-size: 395px 50px;
 }
 @media only screen and (max-width: 420px) {
   .header h1 a,
   .header .logo a {
+    background: url('../assets/logo-wide.png') no-repeat;
     margin: 0 auto;
     width: calc(395px/2);
     background-size: 197.5px 25px;
@@ -2319,14 +2320,14 @@ ul.vintagePageLinks li.selected:hover {
   }
 }
 .header h1.dev a {
-  background: url('../assets/logo-wide-dev.png') no-repeat;
-  background-size: 395px 50px;
+  background: url('../assets/logo-combo.png') no-repeat;
+  background-size: 284px 90px;
 }
 @media only screen and (max-width: 420px) {
   .header h1.dev a {
     margin: 0 auto;
     width: calc(395px/2);
-    background: url('../assets/logo-wide-dev.png') no-repeat;
+    background: url('../assets/logo-wide.png') no-repeat;
     background-size: calc(395px / 2) calc(50px / 2);
   }
 }
@@ -2389,7 +2390,7 @@ ul.vintagePageLinks li.selected:hover {
   }
 }
 .header #headerTopLayer {
-  height: 45px;
+  height: 91px;
 }
 .header #searchDropdownNavItem,
 .header #downloadCatalogItem {
