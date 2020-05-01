@@ -20,7 +20,8 @@
 	box-shadow: 0 0 15px rgba(0,0,0,.2);
 
 
-	height: 127px; // new header
+	// height: 127px; // new header
+	height: 81px; // new header
 
 	@media only screen and (max-width: @sizes[mobile])  {
 		height: 40px;
@@ -49,8 +50,10 @@
 		
 	h1,	.logo {
 		display: block;
-		width: @combologowidth;
-		height: @combologoheight;
+		// width: @combologowidth;
+		// height: @combologoheight;
+		width: @logowidth;
+		height: @logoheight;
 
 		line-height: 70px;
 
@@ -84,7 +87,8 @@
 			// width: 100%;
 			height: 100%;
 			// width: @logowidth;
-			background: url('../assets/logo-combo.png') no-repeat;
+			// background: url('../assets/logo-combo.png') no-repeat;
+			background: url('../assets/logo-wide.png') no-repeat;
 			background-size: @logowidth @logoheight;
 
 			@media only screen and (max-width: @sizes[mobile])  {
@@ -144,8 +148,10 @@
 
 	h1.dev {
 		a {
-			background: url('../assets/logo-combo.png') no-repeat;
-			background-size: @combologowidth @combologoheight;
+			// background: url('../assets/logo-combo.png') no-repeat;
+			background: url('../assets/logo-wide-dev.png') no-repeat;
+			// background-size: @combologowidth @combologoheight;
+			background-size: @logowidth @logoheight;
 
 			@media only screen and (max-width: @sizes[mobile])  {
 				margin: 0 auto;
@@ -221,7 +227,8 @@
 	}
 	
 	#headerTopLayer {
-		height: 91px;
+		// height: 91px;
+		height: 45px;
 	}
 
 	#searchDropdownNavItem, #downloadCatalogItem {

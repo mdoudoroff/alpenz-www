@@ -2216,7 +2216,7 @@ ul.vintagePageLinks li.selected:hover {
   padding: 0;
   background: #edece8;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-  height: 127px;
+  height: 81px;
   /* Main Menu */
 }
 @media only screen and (max-width: 420px) {
@@ -2245,8 +2245,8 @@ ul.vintagePageLinks li.selected:hover {
 .header h1,
 .header .logo {
   display: block;
-  width: 284px;
-  height: 90px;
+  width: 395px;
+  height: 50px;
   line-height: 70px;
   position: absolute;
   top: 3px;
@@ -2269,7 +2269,7 @@ ul.vintagePageLinks li.selected:hover {
   font-size: 0;
   display: block;
   height: 100%;
-  background: url('../assets/logo-combo.png') no-repeat;
+  background: url('../assets/logo-wide.png') no-repeat;
   background-size: 395px 50px;
 }
 @media only screen and (max-width: 420px) {
@@ -2320,8 +2320,8 @@ ul.vintagePageLinks li.selected:hover {
   }
 }
 .header h1.dev a {
-  background: url('../assets/logo-combo.png') no-repeat;
-  background-size: 284px 90px;
+  background: url('../assets/logo-wide-dev.png') no-repeat;
+  background-size: 395px 50px;
 }
 @media only screen and (max-width: 420px) {
   .header h1.dev a {
@@ -2390,7 +2390,7 @@ ul.vintagePageLinks li.selected:hover {
   }
 }
 .header #headerTopLayer {
-  height: 91px;
+  height: 45px;
 }
 .header #searchDropdownNavItem,
 .header #downloadCatalogItem {
