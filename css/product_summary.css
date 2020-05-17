@@ -3515,10 +3515,12 @@ div.grouping .corralBottle img {
   height: 230px;
   width: auto;
 }
-#groupingVarietal {
+#groupingVarietal,
+#groupingCategory {
   display: none;
 }
-.madeiraSwitch {
+.madeiraSwitch,
+.vintageSwitch {
   text-align: center;
   clear: both;
   margin-bottom: 1em;
@@ -3528,7 +3530,9 @@ div.grouping .corralBottle img {
   color: #484848;
 }
 .madeiraSwitch span,
-.madeiraSwitch span.selected {
+.vintageSwitch span,
+.madeiraSwitch span.selected,
+.vintageSwitch span.selected {
   display: inline-block;
   padding: 8px 16px;
   margin: 0;
@@ -3540,23 +3544,29 @@ div.grouping .corralBottle img {
   color: #a2120f;
 }
 .madeiraSwitch span:hover,
-.madeiraSwitch span.selected:hover {
+.vintageSwitch span:hover,
+.madeiraSwitch span.selected:hover,
+.vintageSwitch span.selected:hover {
   cursor: pointer;
   color: #fff;
   background: #d11713;
 }
 @media only screen and (max-width: 420px) {
   .madeiraSwitch span,
-  .madeiraSwitch span.selected {
+  .vintageSwitch span,
+  .madeiraSwitch span.selected,
+  .vintageSwitch span.selected {
     font-size: 16px;
     padding: 6px 14px;
   }
 }
-.madeiraSwitch span.selected {
+.madeiraSwitch span.selected,
+.vintageSwitch span.selected {
   color: #484848;
   text-decoration: underline;
 }
-.madeiraSwitch span.selected:hover {
+.madeiraSwitch span.selected:hover,
+.vintageSwitch span.selected:hover {
   cursor: inherit;
   color: inherit;
   background: inherit;

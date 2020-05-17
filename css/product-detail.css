@@ -3374,14 +3374,16 @@ ul.vintagePageLinks li.selected:hover {
   width: 220px;
   display: inline-block;
 }
-.setup {
+.setup,
+.vintagesummary {
   clear: both;
   overflow-x: auto;
   border-top: 2px solid #dddcd8;
   margin-top: 0.5em;
   padding-top: 0.5em;
 }
-.setup table {
+.setup table,
+.vintagesummary table {
   border-collapse: collapse;
   width: auto;
   border-top: 1px solid #fff;
@@ -3389,30 +3391,36 @@ ul.vintagePageLinks li.selected:hover {
   font-family: "myriad-pro-condensed", Impact, sans-serif;
 }
 .setup table th,
-.setup table td {
+.vintagesummary table th,
+.setup table td,
+.vintagesummary table td {
   border-right: 1em solid #fff;
   border-bottom: 1px solid #fff;
   white-space: nowrap;
   text-align: left;
 }
-.setup table th {
+.setup table th,
+.vintagesummary table th {
   background: #ffffff;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 13px;
   font-family: "myriad-pro-condensed", Impact, sans-serif;
 }
-.setup table td {
+.setup table td,
+.vintagesummary table td {
   font-size: 14px;
   font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
 }
 @media only screen and (max-width: 420px) {
-  .setup {
+  .setup,
+  .vintagesummary {
     overflow-x: auto;
   }
 }
 @media print {
-  .setup {
+  .setup,
+  .vintagesummary {
     overflow-x: visible;
   }
 }

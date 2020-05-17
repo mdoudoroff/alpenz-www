@@ -48,6 +48,23 @@ jQuery(document).ready(function() {
 		}
 	});
 
+	var vintageSwitchState = 'groupingYear';
+	$('.vintageSwitch').click(function() {
+		if (vintageSwitchState === 'groupingYear') {
+			vintageSwitchState = 'groupingCategory';
+			$('#groupingYear').hide();
+			$('#groupingCategory').show();
+			$('#yearSwitch').removeClass('selected');
+			$('#categorySwitch').addClass('selected');
+		} else {
+			vintageSwitchState = 'groupingYear';
+			$('#groupingYear').show();
+			$('#groupingCategory').hide();
+			$('#yearSwitch').addClass('selected');
+			$('#categorySwitch').removeClass('selected');
+		}
+	});
+
 	// $(".locSelector").click(function(event) {
 	// 	event.preventDefault();
 	// 	// window.console.log( $(this).data('latitude'), $(this).data('longitude'), $(this).data('zoom') );

@@ -3515,10 +3515,12 @@ div.grouping .corralBottle img {
   height: 230px;
   width: auto;
 }
-#groupingVarietal {
+#groupingVarietal,
+#groupingCategory {
   display: none;
 }
-.madeiraSwitch {
+.madeiraSwitch,
+.vintageSwitch {
   text-align: center;
   clear: both;
   margin-bottom: 1em;
@@ -3528,7 +3530,9 @@ div.grouping .corralBottle img {
   color: #484848;
 }
 .madeiraSwitch span,
-.madeiraSwitch span.selected {
+.vintageSwitch span,
+.madeiraSwitch span.selected,
+.vintageSwitch span.selected {
   display: inline-block;
   padding: 8px 16px;
   margin: 0;
@@ -3540,23 +3544,29 @@ div.grouping .corralBottle img {
   color: #a2120f;
 }
 .madeiraSwitch span:hover,
-.madeiraSwitch span.selected:hover {
+.vintageSwitch span:hover,
+.madeiraSwitch span.selected:hover,
+.vintageSwitch span.selected:hover {
   cursor: pointer;
   color: #fff;
   background: #d11713;
 }
 @media only screen and (max-width: 420px) {
   .madeiraSwitch span,
-  .madeiraSwitch span.selected {
+  .vintageSwitch span,
+  .madeiraSwitch span.selected,
+  .vintageSwitch span.selected {
     font-size: 16px;
     padding: 6px 14px;
   }
 }
-.madeiraSwitch span.selected {
+.madeiraSwitch span.selected,
+.vintageSwitch span.selected {
   color: #484848;
   text-decoration: underline;
 }
-.madeiraSwitch span.selected:hover {
+.madeiraSwitch span.selected:hover,
+.vintageSwitch span.selected:hover {
   cursor: inherit;
   color: inherit;
   background: inherit;
@@ -3754,14 +3764,16 @@ h5 {
   width: 220px;
   display: inline-block;
 }
-.setup {
+.setup,
+.vintagesummary {
   clear: both;
   overflow-x: auto;
   border-top: 2px solid #dddcd8;
   margin-top: 0.5em;
   padding-top: 0.5em;
 }
-.setup table {
+.setup table,
+.vintagesummary table {
   border-collapse: collapse;
   width: auto;
   border-top: 1px solid #fff;
@@ -3769,30 +3781,36 @@ h5 {
   font-family: "myriad-pro-condensed", Impact, sans-serif;
 }
 .setup table th,
-.setup table td {
+.vintagesummary table th,
+.setup table td,
+.vintagesummary table td {
   border-right: 1em solid #fff;
   border-bottom: 1px solid #fff;
   white-space: nowrap;
   text-align: left;
 }
-.setup table th {
+.setup table th,
+.vintagesummary table th {
   background: #ffffff;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 13px;
   font-family: "myriad-pro-condensed", Impact, sans-serif;
 }
-.setup table td {
+.setup table td,
+.vintagesummary table td {
   font-size: 14px;
   font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
 }
 @media only screen and (max-width: 420px) {
-  .setup {
+  .setup,
+  .vintagesummary {
     overflow-x: auto;
   }
 }
 @media print {
-  .setup {
+  .setup,
+  .vintagesummary {
     overflow-x: visible;
   }
 }
