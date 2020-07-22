@@ -496,6 +496,7 @@ a h2 {
 }
 .content .recipePhotoNarrow img {
   height: 100%;
+  max-height: 460px;
   width: auto;
 }
 @media only screen and (max-width: 420px) {

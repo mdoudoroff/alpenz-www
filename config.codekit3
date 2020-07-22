@@ -7,7 +7,7 @@
 		"uuidString": "B5ADC2AB-4759-4D37-B9EB-92E440ECE0B5"
 		}
 	],
-"creatorBuild": "32147",
+"creatorBuild": "32186",
 "files": {
 	"/.gitignore": {
 		"cB": 0,
@@ -2553,6 +2553,50 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/alpenz-recipes/0526-0029.drink-photo.jpg": {
+		"ft": 16384,
+		"iS": 108465,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/alpenz-recipes/0526-0029.drink-photo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/alpenz-recipes/0526-0033.drink-photo.jpg": {
+		"ft": 16384,
+		"iS": 161319,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/alpenz-recipes/0526-0033.drink-photo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/alpenz-recipes/0526-0048.drink-photo.jpg": {
+		"ft": 16384,
+		"iS": 121292,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/alpenz-recipes/0526-0048.drink-photo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/alpenz-recipes/0526-0059.drink-photo.jpg": {
+		"ft": 16384,
+		"iS": 287420,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/alpenz-recipes/0526-0059.drink-photo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/alpenz-recipes/0526-0069.drink-photo.jpg": {
 		"ft": 16384,
 		"iS": 178132,
@@ -2581,6 +2625,17 @@
 		"jF": 0,
 		"oA": 1,
 		"oAP": "/alpenz-recipes/0526-0171.drink-photo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/alpenz-recipes/0526-0244.drink-photo.jpg": {
+		"ft": 16384,
+		"iS": 352878,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/alpenz-recipes/0526-0244.drink-photo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2636,6 +2691,17 @@
 		"jF": 0,
 		"oA": 1,
 		"oAP": "/alpenz-recipes/0526-0348.drink-photo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/alpenz-recipes/0526-0372.drink-photo.jpg": {
+		"ft": 16384,
+		"iS": 387769,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/alpenz-recipes/0526-0372.drink-photo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -18868,6 +18934,478 @@
 		"oAP": "/recipe-0526-0458.html",
 		"oF": 0
 		},
+	"/recipe-0526-0459.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0459.html",
+		"oF": 0
+		},
+	"/recipe-0526-0460.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0460.html",
+		"oF": 0
+		},
+	"/recipe-0526-0461.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0461.html",
+		"oF": 0
+		},
+	"/recipe-0526-0462.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0462.html",
+		"oF": 0
+		},
+	"/recipe-0526-0463.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0463.html",
+		"oF": 0
+		},
+	"/recipe-0526-0464.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0464.html",
+		"oF": 0
+		},
+	"/recipe-0526-0465.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0465.html",
+		"oF": 0
+		},
+	"/recipe-0526-0466.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0466.html",
+		"oF": 0
+		},
+	"/recipe-0526-04667.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-04667.html",
+		"oF": 0
+		},
+	"/recipe-0526-0467.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0467.html",
+		"oF": 0
+		},
+	"/recipe-0526-0468.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0468.html",
+		"oF": 0
+		},
+	"/recipe-0526-0469.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0469.html",
+		"oF": 0
+		},
+	"/recipe-0526-0470.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0470.html",
+		"oF": 0
+		},
+	"/recipe-0526-0471.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0471.html",
+		"oF": 0
+		},
+	"/recipe-0526-0472.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0472.html",
+		"oF": 0
+		},
+	"/recipe-0526-0473.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0473.html",
+		"oF": 0
+		},
+	"/recipe-0526-0474.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0474.html",
+		"oF": 0
+		},
+	"/recipe-0526-0475.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0475.html",
+		"oF": 0
+		},
+	"/recipe-0526-0476.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0476.html",
+		"oF": 0
+		},
+	"/recipe-0526-0477.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0477.html",
+		"oF": 0
+		},
+	"/recipe-0526-0478.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0478.html",
+		"oF": 0
+		},
+	"/recipe-0526-0479.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0479.html",
+		"oF": 0
+		},
+	"/recipe-0526-0480.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0480.html",
+		"oF": 0
+		},
+	"/recipe-0526-0481.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0481.html",
+		"oF": 0
+		},
+	"/recipe-0526-0482.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0482.html",
+		"oF": 0
+		},
+	"/recipe-0526-0483.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0483.html",
+		"oF": 0
+		},
+	"/recipe-0526-0484.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0484.html",
+		"oF": 0
+		},
+	"/recipe-0526-0485.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0485.html",
+		"oF": 0
+		},
+	"/recipe-0526-0486.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0486.html",
+		"oF": 0
+		},
+	"/recipe-0526-0487.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0487.html",
+		"oF": 0
+		},
+	"/recipe-0526-0488.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0488.html",
+		"oF": 0
+		},
+	"/recipe-0526-0489.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0489.html",
+		"oF": 0
+		},
+	"/recipe-0526-0490.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0490.html",
+		"oF": 0
+		},
+	"/recipe-0526-0491.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0491.html",
+		"oF": 0
+		},
+	"/recipe-0526-0492.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0492.html",
+		"oF": 0
+		},
+	"/recipe-0526-0493.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0493.html",
+		"oF": 0
+		},
+	"/recipe-0526-0494.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0494.html",
+		"oF": 0
+		},
+	"/recipe-0526-0495.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0495.html",
+		"oF": 0
+		},
+	"/recipe-0526-0496.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0496.html",
+		"oF": 0
+		},
+	"/recipe-0526-0497.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0497.html",
+		"oF": 0
+		},
+	"/recipe-0526-0498.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0498.html",
+		"oF": 0
+		},
+	"/recipe-0526-0499.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0499.html",
+		"oF": 0
+		},
+	"/recipe-0526-0500.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0500.html",
+		"oF": 0
+		},
+	"/recipe-0526-0501.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0501.html",
+		"oF": 0
+		},
+	"/recipe-0526-0502.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0502.html",
+		"oF": 0
+		},
+	"/recipe-0526-0503.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0503.html",
+		"oF": 0
+		},
+	"/recipe-0526-0504.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0504.html",
+		"oF": 0
+		},
+	"/recipe-0526-0505.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0505.html",
+		"oF": 0
+		},
+	"/recipe-0526-0506.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0506.html",
+		"oF": 0
+		},
+	"/recipe-0526-0507.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0507.html",
+		"oF": 0
+		},
+	"/recipe-0526-0508.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0508.html",
+		"oF": 0
+		},
+	"/recipe-0526-0509.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0509.html",
+		"oF": 0
+		},
+	"/recipe-0526-0510.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0510.html",
+		"oF": 0
+		},
+	"/recipe-0526-0511.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0511.html",
+		"oF": 0
+		},
+	"/recipe-0526-0512.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0512.html",
+		"oF": 0
+		},
+	"/recipe-0526-0513.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0513.html",
+		"oF": 0
+		},
+	"/recipe-0526-0514.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0514.html",
+		"oF": 0
+		},
+	"/recipe-0526-0515.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0515.html",
+		"oF": 0
+		},
+	"/recipe-0526-0516.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipe-0526-0516.html",
+		"oF": 0
+		},
 	"/recipes-proofing.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -19730,6 +20268,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"default-case-last": {
+			"active": 0,
+			"optionString": ""
+			},
 		"default-param-last": {
 			"active": 0,
 			"optionString": ""
@@ -20142,6 +20684,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-loss-of-precision": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-magic-numbers": {
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
@@ -20257,6 +20803,10 @@
 		"no-regex-spaces": {
 			"active": 1,
 			"optionString": ""
+			},
+		"no-restricted-exports": {
+			"active": 0,
+			"optionString": "{'restrictedNamedExports': []}"
 			},
 		"no-restricted-globals": {
 			"active": 0,
@@ -20401,6 +20951,10 @@
 		"no-use-before-define": {
 			"active": 0,
 			"optionString": "{'functions': true, 'classes': true}"
+			},
+		"no-useless-backreference": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-useless-call": {
 			"active": 0,
