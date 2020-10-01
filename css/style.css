@@ -2118,7 +2118,7 @@ table.contentReport td {
   width: 50%;
   float: right;
   background-color: #edece8;
-  padding: 0.5rem;
+  padding: 1rem;
 }
 @media only screen and (max-width: 420px) {
   .missionwell {
