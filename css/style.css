@@ -2209,36 +2209,35 @@ ul.vintagePageLinks li.selected:hover {
   color: inherit;
   background: inherit;
 }
-.recipeThumb {
+.recipeSummaries .recipeThumb {
   max-width: 80px;
   padding-left: 1em;
 }
-.recipeThumb img {
+.recipeSummaries .recipeThumb img {
   width: 100%;
   height: auto;
 }
 @media only screen and (max-width: 420px) {
-  .recipeThumb {
+  .recipeSummaries .recipeThumb {
     float: none;
     padding: 0;
     margin-bottom: 0.25em;
     margin-top: 0.25em;
   }
 }
-.recipeThumbNarrow {
+.recipeSummaries .recipeThumbNarrow {
   width: 80px;
   height: 80px;
   padding-left: 1em;
-  float: right;
   text-align: left;
 }
-.recipeThumbNarrow img {
+.recipeSummaries .recipeThumbNarrow img {
   height: 100%;
   max-height: 80px;
   width: auto;
 }
 @media only screen and (max-width: 420px) {
-  .recipeThumbNarrow {
+  .recipeSummaries .recipeThumbNarrow {
     width: 100%;
     height: 80px;
     float: none;
@@ -2246,7 +2245,51 @@ ul.vintagePageLinks li.selected:hover {
     margin-bottom: 0.5em;
     margin-top: 0.25em;
   }
-  .recipeThumbNarrow img {
+  .recipeSummaries .recipeThumbNarrow img {
+    height: 80px;
+    width: auto;
+  }
+}
+.recipe .recipeThumbPlaceholder {
+  width: 140px;
+  height: 150px;
+}
+.recipe .recipeThumb {
+  width: 140px;
+  height: 150px;
+}
+.recipe .recipeThumb img {
+  width: 100%;
+  height: auto;
+}
+@media only screen and (max-width: 420px) {
+  .recipe .recipeThumb {
+    float: none;
+    padding: 0;
+    margin-bottom: 0.25em;
+    margin-top: 0.25em;
+  }
+}
+.recipe .recipeThumbNarrow {
+  width: 140px;
+  height: 150px;
+  text-align: left;
+}
+.recipe .recipeThumbNarrow img {
+  height: auto;
+  height: 140px;
+  width: auto;
+}
+@media only screen and (max-width: 420px) {
+  .recipe .recipeThumbNarrow {
+    width: 100%;
+    height: 80px;
+    float: none;
+    padding: 0;
+    margin-bottom: 0.5em;
+    margin-top: 0.25em;
+  }
+  .recipe .recipeThumbNarrow img {
     height: 80px;
     width: auto;
   }
