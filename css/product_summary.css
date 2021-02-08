@@ -1058,6 +1058,11 @@ header.producerindex .images figure.logo {
   width: 100%;
   height: auto;
 }
+@media print {
+  .recipeConcise .recipeThumb {
+    display: none;
+  }
+}
 @media only screen and (max-width: 420px) {
   .recipeConcise .recipeThumb {
     width: 100%;
@@ -1076,6 +1081,11 @@ header.producerindex .images figure.logo {
 .recipeConcise .recipeThumbNarrow img {
   height: 140px;
   width: auto;
+}
+@media print {
+  .recipeConcise .recipeThumbNarrow {
+    display: none;
+  }
 }
 @media only screen and (max-width: 420px) {
   .recipeConcise .recipeThumbNarrow {
@@ -1106,6 +1116,11 @@ header.producerindex .images figure.logo {
   .recipeConcise .recipeThumbPlaceholder .recipeThumbPlaceholderBkgd {
     width: 120px;
     height: 100px;
+  }
+}
+@media print {
+  .recipeConcise .recipeThumbPlaceholder {
+    display: none;
   }
 }
 @media only screen and (max-width: 420px) {
