@@ -28153,6 +28153,30 @@
 		"oAP": "/recipe-0526-0560.html",
 		"oF": 0
 		},
+	"/recipePhotoBkgdTest.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipePhotoBkgdTest.html",
+		"oF": 0
+		},
+	"/recipePhotoBkgdTest1.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipePhotoBkgdTest1.html",
+		"oF": 0
+		},
+	"/recipePhotoBkgdTest2.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/recipePhotoBkgdTest2.html",
+		"oF": 0
+		},
 	"/recipes-proofing.html": {
 		"cB": 0,
 		"ft": 8192,
