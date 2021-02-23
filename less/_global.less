@@ -1306,12 +1306,83 @@ header.producerindex {
 
 .recipeSummaries {
 	max-width: 600px;
+
+	.summaryText {
+		padding-left: 1em;
+
+
+		@media only screen and (max-width: @sizes[mobile])  {
+			padding-bottom: 1em;
+		}
+
+
+	}
+
 }
 
-.recipeSummaries td {
-	vertical-align: bottom;
-	border-bottom: 1em solid white;
+// .recipeSummaries td {
+// 	vertical-align: bottom;
+// 	border-bottom: 1em solid white;
+// }
+
+.recipeSummaries {
+
+	td.thumb {
+
+		@media only screen and (max-width: @sizes[mobile])  {
+			vertical-align: top;
+		}
+
+	}
+
+	td.recipeTableIcons {
+		background-color: @off-grey;
+		display: flex;
+		align-items: flex-end;
+		justify-content: space-evenly;
+
+		width: 90px;
+		height: 90px;
+		line-height: 0;
+		border-bottom: none;
+		padding-bottom: 5px;
+
+		@media only screen and (max-width: @sizes[mobile])  {
+			display: none;
+		}
+
+		div {
+			// background-color: yellow;
+			opacity: 50%;
+		}
+	}
+
+	td.recipeTableIcon {
+
+		background-color: @off-grey;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 90px;
+		height: 90px;
+		line-height: 0;
+		border-bottom: none;
+		padding-bottom: 5px;
+
+		@media only screen and (max-width: @sizes[mobile])  {
+			display: none;
+		}
+
+		div {
+			// background-color: yellow;
+			opacity: 50%;
+			font-size: 85%;
+		}
+
+	}
+
 }
+
 
 .recipesConcise {
 	margin: 1em 0;
@@ -1354,11 +1425,13 @@ header.producerindex {
 		}
 
 		@media only screen and (max-width: @sizes[mobile])  {
-			width: 100%;
-			height: 107px; 
+			// width: 100%;
+			// height: 107px; 
+			width: 120px;
+			height: 120px;
 
 			img {
-				height: 100px;
+				height: 120px;
 				width: auto;
 			}
 
@@ -1380,11 +1453,13 @@ header.producerindex {
 		}
 
 		@media only screen and (max-width: @sizes[mobile])  {
-			width: 100%;
-			height: 107px;
+			// width: 100%;
+			// height: 107px;
+			width: 120px;
+			height: 120px;
 
 			img {
-				height: 100px;
+				height: 120px;
 				width: auto;
 			}
 
@@ -1415,7 +1490,7 @@ header.producerindex {
 
 			@media only screen and (max-width: @sizes[mobile])  {
 				width: 120px;
-				height: 100px;
+				height: 120px;
 			}
 		}
 
@@ -1424,9 +1499,13 @@ header.producerindex {
 		}
 
 		@media only screen and (max-width: @sizes[mobile])  {
-			width: 100%;
-			height: 107px; 
+			// width: 100%;
+			// height: 107px; 
 
+			width: 120px;
+			height: 120px;
+
+			margin-bottom: 10px;
 
 		}
 	}
@@ -1440,6 +1519,7 @@ td.combo, td.protocol, td.vessel {
 	text-align: center;
 	min-width: 54px;
 }
+
 
 td.combo {
 	min-width: 108px;
@@ -2951,12 +3031,12 @@ ul.vintagePageLinks {
 // experimental (recipe index page)
 .recipeSummaries .recipeThumb {
 
-	width: 80px;
-	height: 80px;
+	width: 90px;
+	height: 90px;
 	background-size: cover;
 	background-position: top;
 
-	max-width: 80px;
+	max-width: 90px;
 	padding-left: 1em;
 	// float: right;
 
@@ -2970,35 +3050,42 @@ ul.vintagePageLinks {
 		padding: 0;
 		margin-bottom: 0.25em;
 		margin-top: 0.25em;
+		width: 80px;
+		height: 80px;
+
 	}
 
 
 }
 
 .recipeSummaries .recipeThumbNarrow {
-	width: 80px;
-	height: 80px;
+
+	width: 90px;
+	height: 90px;
 	padding-left: 1em;
 	// float: right;
 	text-align: left;
 
 	img {
 		height: 100%;
-		max-height: 80px; // allows for attribution 
+		max-height: 90px; // allows for attribution 
 		width: auto;
 	}
 
 	@media only screen and (max-width: @sizes[mobile])  {
-		width: 100%;
-		height: 80px;
+		// width: 100%;
+		// height: 90px;
 		// text-align: center;
+		width: 80px;
+		height: 80px;
+
 		float: none;
 		padding: 0;
 		margin-bottom: 0.5em;
 		margin-top: 0.25em;
 
 		img {
-			height: 80px;
+			height: 90px;
 			width: auto;
 		}
 
@@ -3039,14 +3126,14 @@ ul.vintagePageLinks {
 	text-align: left;
 
 	img {
-		height: auto;
-		height: 140px; // allows for attribution 
+		width: 140px;
+		height: 150px; // allows for attribution 
 		width: auto;
 	}
 
 	@media only screen and (max-width: @sizes[mobile])  {
-		width: 100%;
-		height: 80px;
+		// width: 100%;
+		// height: 80px;
 		// text-align: center;
 		float: none;
 		padding: 0;
