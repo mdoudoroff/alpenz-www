@@ -10,7 +10,7 @@
   margin: 0.25in 0 0.5in 0;
 }
 body {
-  font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  font-family: proxima-nova, sans-serif;
   font-size: 14px;
   line-height: 1.4;
   margin: 0;
@@ -48,7 +48,7 @@ a h2 {
   border: 0px;
   font-size: 18px;
   line-height: 1em;
-  font-family: "myriad-pro-condensed", Impact, sans-serif;
+  font-family: proxima-nova-condensed, sans-serif;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #fff;
@@ -123,7 +123,7 @@ a h2 {
   line-height: 1em;
 }
 .content h1 {
-  font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  font-family: skolar-latin, sans-serif;
   font-size: 36px;
   font-weight: 700;
   margin: 0 0 10px 0;
@@ -136,7 +136,7 @@ a h2 {
   }
 }
 .content h2 {
-  font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  font-family: skolar-latin, sans-serif;
   font-size: 22px;
   font-weight: 400;
   margin: 0 0 24px 0;
@@ -147,7 +147,7 @@ a h2 {
   }
 }
 .content h3 {
-  font-family: "myriad-pro-condensed", Impact, sans-serif;
+  font-family: proxima-nova, sans-serif;
   font-size: 14px;
   line-height: 1;
   font-weight: 700;
@@ -416,14 +416,14 @@ a h2 {
   color: black;
 }
 .content div.recipes .recipe h4 {
-  font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  font-family: proxima-nova, sans-serif;
   font-size: 14px;
   font-weight: bold;
   line-height: 1;
   margin-bottom: 0.5em;
 }
 .content div.recipes .recipe p {
-  font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  font-family: proxima-nova, sans-serif;
   font-size: 11px;
   margin: 0 0 10px 0;
 }
@@ -437,7 +437,7 @@ a h2 {
   line-height: 1;
   margin-bottom: 2em;
   font-size: 14px;
-  font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  font-family: proxima-nova, sans-serif;
 }
 .content .recipeFull span.recIcon {
   display: inline-block;
@@ -838,7 +838,7 @@ header.producerindex .images figure.logo {
   transition: max-height 1s;
 }
 .morebutton {
-  font-family: myriad-pro-condensed, Georgia, Times, serif;
+  font-family: nav-font;
   text-transform: uppercase;
   font-weight: bold;
   display: block;
@@ -906,7 +906,7 @@ header.producerindex .images figure.logo {
 .producerSetup .setup2 {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: "myriad-pro-condensed", Impact, sans-serif;
+  font-family: proxima-nova, sans-serif;
 }
 .producerSetup .setup2 div {
   display: inline-block;
@@ -932,7 +932,7 @@ header.producerindex .images figure.logo {
   border: 0px;
   font-size: 14px;
   line-height: 1em;
-  font-family: "myriad-pro-condensed", Impact, sans-serif;
+  font-family: proxima-nova, sans-serif;
   text-transform: uppercase;
   color: #484848;
   -webkit-appearance: none;
@@ -1091,7 +1091,6 @@ header.producerindex .images figure.logo {
 .inlineButton,
 #recipeFiltersMoreButton {
   text-transform: uppercase;
-  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
   letter-spacing: 0;
   font-weight: 700;
   color: #a2120f;
@@ -1139,7 +1138,7 @@ span.socialButton {
 span.socialButton {
   background-color: #a2120f;
   color: white;
-  font-family: "myriad-pro-condensed", Impact, sans-serif;
+  font-family: proxima-nova, sans-serif;
   border-radius: 17px;
 }
 img.socialButton {
@@ -1246,7 +1245,7 @@ ul.originTiles li {
   display: inline-block;
   height: 189px;
   margin-right: 6px;
-  font-family: "myriad-pro-condensed", Impact, sans-serif;
+  font-family: proxima-nova, sans-serif;
 }
 @media only screen and (max-width: 420px) {
   ul.originTiles li {
@@ -1292,7 +1291,7 @@ ul.producerTilesLarge {
 ul.producerTilesLarge li {
   display: flex;
   flex-basis: 15%;
-  font-family: "myriad-pro-condensed", Impact, sans-serif;
+  font-family: proxima-nova, sans-serif;
   padding-bottom: 1em;
 }
 ul.producerTilesLarge li a:hover .logo {
@@ -1337,7 +1336,7 @@ ul.producerTiles li {
   height: 146px;
   display: inline-block;
   margin-right: 6px;
-  font-family: "myriad-pro-condensed", Impact, sans-serif;
+  font-family: proxima-nova, sans-serif;
 }
 ul.producerTiles li .logo {
   position: relative;
@@ -1371,7 +1370,7 @@ ul.producerTiles li a:hover {
   ul.producerTiles li {
     display: flex;
     flex-basis: 30%;
-    font-family: "myriad-pro-condensed", Impact, sans-serif;
+    font-family: proxima-nova, sans-serif;
     margin-bottom: 1em;
     margin-right: 0;
   }
@@ -1556,7 +1555,7 @@ dd {
   margin-bottom: 0.5em;
 }
 .contentful {
-  font-family: Georgia, serif;
+  font-family: skolar-latin, sans-serif;
   font-size: 18px;
   line-height: 1.4;
 }
@@ -1584,7 +1583,7 @@ dd {
 .contentful .resourceCategory span {
   background-color: #484848;
   color: white;
-  font-family: "myriad-pro-condensed", Impact, sans-serif;
+  font-family: proxima-nova, sans-serif;
   font-size: 15px;
   text-transform: uppercase;
   padding: 3px 9px;
@@ -1601,7 +1600,7 @@ dd {
   padding-bottom: 1em;
   border-bottom: 1px solid #bbbbbb;
   margin-bottom: 1em;
-  font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  font-family: proxima-nova, sans-serif;
   font-size: 15px;
 }
 @media only screen and (max-width: 420px) {
@@ -1614,12 +1613,12 @@ dd {
   color: #bbbbbb;
   padding-bottom: 1em;
   margin-bottom: 1em;
-  font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  font-family: proxima-nova, sans-serif;
   clear: both;
 }
 .contentful h2,
 .contentful h3 {
-  font-family: Georgia, serif;
+  font-family: skolar-latin, sans-serif;
   text-transform: none;
   letter-spacing: 1px;
   font-weight: normal;
@@ -2030,7 +2029,7 @@ ul.vintagePageLinks {
 ul.vintagePageLinks li {
   text-align: center;
   clear: both;
-  font-family: "myriad-pro-condensed", Impact, sans-serif;
+  font-family: proxima-nova, sans-serif;
   font-size: 18px;
   color: #484848;
   padding: 0 0.5em;
@@ -2221,7 +2220,7 @@ td.ing {
   position: absolute;
   top: 0px;
   left: 0;
-  font-family: "myriad-pro-condensed", Impact, sans-serif;
+  font-family: proxima-nova, sans-serif;
   font-weight: bold;
   line-height: 70px;
   width: 40px;
@@ -2259,8 +2258,8 @@ td.ing {
   position: absolute;
   right: 0;
   top: 9px;
-  font-family: "myriad-pro-condensed", Impact, sans-serif;
-  font-size: 15px;
+  font-family: skolar-latin, sans-serif;
+  font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -2296,8 +2295,8 @@ td.ing {
   flex-wrap: nowrap;
   justify-content: space-evenly;
   align-items: baseline;
-  font-family: "myriad-pro-condensed", Impact, sans-serif;
-  font-size: 15px;
+  font-family: proxima-nova-condensed, sans-serif;
+  font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
   text-align: left;
@@ -2328,7 +2327,6 @@ td.ing {
 }
 .header ul li a {
   display: block;
-  padding: 0 18px;
   text-decoration: none;
   color: #333;
   position: relative;
@@ -2824,7 +2822,7 @@ td.ing {
   position: absolute;
   z-index: 99000;
   background-color: #edece8;
-  font-family: "myriad-pro-condensed", Impact, sans-serif;
+  font-family: proxima-nova, sans-serif;
   width: 360px;
   left: 0px;
   top: 0px;
@@ -3386,7 +3384,7 @@ div.grouping .corralBottle img {
   text-align: center;
   clear: both;
   margin-bottom: 1em;
-  font-family: "myriad-pro-condensed", Impact, sans-serif;
+  font-family: proxima-nova, sans-serif;
   text-transform: uppercase;
   font-size: 18px;
   color: #484848;
@@ -3400,7 +3398,7 @@ div.grouping .corralBottle img {
   margin: 0;
   font-size: 18px;
   line-height: 1em;
-  font-family: "myriad-pro-condensed", Impact, sans-serif;
+  font-family: proxima-nova, sans-serif;
   text-transform: uppercase;
   -webkit-appearance: none;
   color: #a2120f;
@@ -3434,7 +3432,7 @@ div.grouping .corralBottle img {
   background: inherit;
 }
 h5 {
-  font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  font-family: proxima-nova, sans-serif;
   font-size: 22px;
   font-weight: bold;
   letter-spacing: 1px;

@@ -236,8 +236,14 @@
 		right: 0;
 		top: 9px;
 
-		font-family: @subheading-font;
-		font-size: 15px;
+		// @@ 2021
+		// font-family: @subheading-font;
+		font-family: @nav-font-alt;
+
+		// @@ 2021
+		// font-size: 15px;
+		font-size: 14px;
+
 		font-weight: 700;
 		text-transform: uppercase;
 		letter-spacing: 1px;
@@ -273,18 +279,22 @@
 	/* Main Menu */
 	ul { 
 
-		// display: block;
 		display: flex;
 		flex-wrap: nowrap;
 		justify-content: space-evenly;
 		align-items: baseline;
 
-		font-family: @subheading-font;
-		font-size: 15px;
+		// @@ 2021
+		// font-family: @subheading-font;
+		font-family: @nav-font;
+
+		// @@ 2021
+		// font-size: 15px;
+		font-size: 14px;
+
 		font-weight: 700;
 		text-transform: uppercase;
 		text-align: left;
-		// margin: 0 auto;
 		
 
 		@media only screen and (max-width: @sizes[mobile])  {
@@ -309,7 +319,10 @@
 		
 			a { 
 				display: block;
-				padding: 0 @gutter;
+
+				// @@ 2021
+				// padding: 0 @gutter;
+
 				text-decoration: none;
 				color: #333;
 				position: relative;
