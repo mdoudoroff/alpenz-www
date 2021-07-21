@@ -147,7 +147,7 @@ a h2 {
   }
 }
 .content h3 {
-  font-family: proxima-nova, sans-serif;
+  font-family: charter, sans-serif;
   font-size: 14px;
   line-height: 1;
   font-weight: 700;
@@ -165,6 +165,7 @@ a h2 {
   }
 }
 .content h4 {
+  font-family: charter, sans-serif;
   font-size: 16px;
   line-height: 24px;
   margin: 0 0 0 0;
@@ -2293,8 +2294,10 @@ td.ing {
 .header ul {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: baseline;
+  margin-left: 18px;
+  margin-right: -18px;
   font-family: proxima-nova-condensed, sans-serif;
   font-size: 14px;
   font-weight: 700;
@@ -2311,6 +2314,7 @@ td.ing {
 .header ul li {
   position: relative;
   display: inline-block;
+  list-style: none;
   text-align: center;
   padding: 0;
   line-height: 36px;
@@ -2634,6 +2638,7 @@ td.ing {
   }
 }
 .footer .footerMenu h4 {
+  font-family: charter, sans-serif;
   font-weight: bold;
   border-bottom: 1px solid #484848;
   margin-right: 1em;
