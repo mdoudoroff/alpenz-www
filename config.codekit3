@@ -21597,6 +21597,22 @@
       "oAP" : "\/assets\/catalog.pdf",
       "oF" : 0
     },
+    "\/assets\/charter_bold-webfont.eot" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/charter_bold-webfont.eot",
+      "oF" : 0
+    },
+    "\/assets\/charter_bold-webfont.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/charter_bold-webfont.woff",
+      "oF" : 0
+    },
     "\/assets\/cht0iod.js" : {
       "bF" : 0,
       "ft" : 64,

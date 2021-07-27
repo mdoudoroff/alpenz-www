@@ -181,13 +181,14 @@ a {
 		// @@ 2021
 		// font-family: @subheading-font;
 		font-family: @heading-font-alt;
+		color: black;
 
-		font-size: 14px;
+		font-size: 16px;
 		line-height: 1.0;
-		font-weight: 700;
+		font-weight: 100;
 		margin: 0 0 0 0;
-		text-transform: uppercase;
-		letter-spacing: 2px;
+		// text-transform: uppercase;
+		// letter-spacing: 2px;
 		
 		&.category_title {
 			font-size: 26px;
@@ -199,6 +200,14 @@ a {
 		}
 
 	}
+	h3.breadcrumbs {
+		font-size: 14px;
+		font-family: @heading-font;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
+
 	h4 {
 
 		// @@ 2021
@@ -1118,6 +1127,7 @@ header.producerindex {
 // setup page
 
 .fullsetuptable {
+	font-family: @dense-content-font;
 	border-collapse: collapse; 
 
 	td {
@@ -1294,10 +1304,16 @@ header.producerindex {
 	// flex: none;
 	width: 143px;
 	margin-right: 1em;
+
+	font-family: @dense-content-font;
 	font-size: 11px;
+	color: black;
 
 
-	h4 { font-size: 14px; 
+	h4 { 
+		font-family: @heading-font-alt;
+		font-weight: 100;
+		font-size: 14px; 
 		line-height: 14px; 
 		margin-bottom: 0.5em;
 	}
@@ -1433,15 +1449,17 @@ header.producerindex {
 }
 
 .inlineButton, #recipeFiltersMoreButton {
-	
+
+
 	// font-size:100%;
 	text-transform: uppercase;
 
 	// @@ 2021	
 	// font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 	// font-family: @nav-font;
+	font-family: @nav-font-alt2;
 
-	letter-spacing: 0;
+	letter-spacing: 1px;
 
 	font-weight: 700;
 	color:@red;
@@ -2022,7 +2040,8 @@ dd {
 
 	// @@ 2021
 	// font-family: Georgia, serif;
-	font-family: @article-body-font;
+	// font-family: @article-body-font;
+	font-family: @body-font;
 
 	font-size: 18px;
 	line-height: 1.4;

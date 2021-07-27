@@ -35,6 +35,15 @@
 @fourcol:			( (@col * 4) + (@gutter * 3) );
 @fivecol:			( (@col * 5) + (@gutter * 4) );
 
+@font-face {
+    font-family: 'charterbold';
+    src: url('/assets/charter_bold-webfont.eot');
+    src: url('/assets/charter_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/charter_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 // @@ 2021
 //@heading-font:			'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
 //@subheading-font:		"myriad-pro-condensed", Impact, sans-serif;
@@ -45,7 +54,9 @@
 
 // @@ 2021
 @nav-font:              proxima-nova-condensed, sans-serif;
-@nav-font-alt:          charter, sans-serif;
-@heading-font-alt:      charter, sans-serif;
-@subheading-font-alt:   charter, sans-serif;
-@article-body-font:   charter, sans-serif;
+@dense-content-font:              proxima-nova-condensed, sans-serif;
+@nav-font-alt:          charterbold, serif;
+@nav-font-alt2:          proxima-nova, sans-serif;
+@heading-font-alt:      charterbold, serif;
+@subheading-font-alt:   charterbold, serif;
+@article-body-font:   charterbold, serif;

@@ -17,7 +17,7 @@
 	padding: 0;
 	background: @off-grey;
 	
-	box-shadow: 0 0 15px rgba(0,0,0,.2);
+	// box-shadow: 0 0 15px rgba(0,0,0,.2);
 
 
 	// height: 127px; // new header
@@ -50,8 +50,6 @@
 		
 	h1,	.logo {
 		display: block;
-		// width: @combologowidth;
-		// height: @combologoheight;
 		width: @logowidth;
 		height: @logoheight;
 
@@ -70,24 +68,15 @@
 			width: 100%;
 			height: 40px;
 
-			// margin: 8px 0 7px 5px;
 			margin: 0;
 			padding-top: 10px;
 
-			// width: @logowidth / 2;
-			// height: @logoheight / 2;
-			// left: 54px;
-			// top: 0px;
 		}
 				
 		a { 
-			// @include hide-text(left);
 			font-size: 0;
 			display: block;
-			// width: 100%;
 			height: 100%;
-			// width: @logowidth;
-			// background: url('../assets/logo-combo.png') no-repeat;
 			background: url('../assets/logo-wide.png') no-repeat;
 			background-size: @logowidth @logoheight;
 
@@ -147,18 +136,27 @@
 	}
 
 	h1.dev {
+
+		top: 9px; // new header
+		left: 18px; // new header
+
 		a {
 			// background: url('../assets/logo-combo.png') no-repeat;
 			background: url('../assets/logo-wide-dev.png') no-repeat;
 			// background-size: @combologowidth @combologoheight;
-			background-size: @logowidth @logoheight;
+			background-size: @logowidth auto;
 
 			@media only screen and (max-width: @sizes[mobile])  {
 				margin: 0 auto;
 				width: calc(@logowidth/2);
-				background: url('../assets/logo-wide.png') no-repeat;
-				background-size: calc(@logowidth / 2) calc(@logoheight / 2);
+				background: url('../assets/logo-wide-dev.png') no-repeat;
+				background-size: calc(@logowidth / 2) auto;
 			}
+		}
+
+		@media only screen and (max-width: @sizes[mobile])  {
+			top:4px;
+			left:0;
 		}
 	}
 
