@@ -1151,8 +1151,13 @@ span.socialButton {
 span.socialButton {
   background-color: #a2120f;
   color: white;
-  font-family: proxima-nova, sans-serif;
+  font-family: proxima-nova-condensed, sans-serif;
   border-radius: 17px;
+  text-transform: uppercase;
+  font-size: 10px;
+  height: 32px;
+  margin-top: 3px;
+  margin-bottom: 2px;
 }
 img.socialButton {
   vertical-align: bottom;
@@ -1349,7 +1354,7 @@ ul.producerTiles li {
   height: 146px;
   display: inline-block;
   margin-right: 6px;
-  font-family: proxima-nova, sans-serif;
+  font-family: proxima-nova-condensed, sans-serif;
 }
 ul.producerTiles li .logo {
   position: relative;
@@ -2117,8 +2122,8 @@ td.ing {
 .header h1,
 .header .logo {
   display: block;
-  width: 395px;
-  height: 50px;
+  width: 375px;
+  height: 47px;
   line-height: 70px;
   position: absolute;
   top: 3px;
@@ -2142,15 +2147,15 @@ td.ing {
   display: block;
   height: 100%;
   background: url('../assets/logo-wide.png') no-repeat;
-  background-size: 395px 50px;
+  background-size: 375px 47px;
 }
 @media only screen and (max-width: 420px) {
   .header h1 a,
   .header .logo a {
     background: url('../assets/logo-wide.png') no-repeat;
     margin: 0 auto;
-    width: calc(395px/2);
-    background-size: 197.5px 25px;
+    width: calc(375px/2);
+    background-size: 187.5px 23.5px;
   }
 }
 .header h1.sotolon {
@@ -2197,14 +2202,14 @@ td.ing {
 }
 .header h1.dev a {
   background: url('../assets/logo-wide-dev.png') no-repeat;
-  background-size: 395px auto;
+  background-size: 375px auto;
 }
 @media only screen and (max-width: 420px) {
   .header h1.dev a {
     margin: 0 auto;
-    width: calc(395px/2);
+    width: calc(375px/2);
     background: url('../assets/logo-wide-dev.png') no-repeat;
-    background-size: calc(395px / 2) auto;
+    background-size: calc(375px / 2) auto;
   }
 }
 @media only screen and (max-width: 420px) {
@@ -2279,9 +2284,8 @@ td.ing {
   position: absolute;
   right: 0;
   top: 9px;
-  font-family: charterbold, serif;
+  font-family: proxima-nova-condensed, sans-serif;
   font-size: 14px;
-  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -2749,15 +2753,15 @@ td.ing {
   overflow: hidden;
   display: block;
   height: 100%;
-  width: 395px;
+  width: 375px;
   margin: 0 auto 0 auto;
   background: url('../assets/logo-wide.png') no-repeat;
-  background-size: 395px 50px;
+  background-size: 375px 47px;
 }
 @media only screen and (max-width: 420px) {
   #sidebarheader h1 a {
-    width: calc(395px/2);
-    background-size: calc(395px / 2) calc(50px / 2);
+    width: calc(375px/2);
+    background-size: calc(375px / 2) calc(47px / 2);
   }
 }
 #sidebarheader h1.sotolon {
@@ -3350,6 +3354,12 @@ td.ing {
   padding-top: 1em;
   width: 100%;
 }
+.recipeCorral h2 {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: black;
+}
 .recipeCorral table {
   margin: 1em 0 0 0;
   width: 100%;
@@ -3506,7 +3516,7 @@ td.ing {
 .infographic .infographicSegment .infographicSectionText {
   width: auto;
   text-align: center;
-  font-size: 12px;
+  font-size: 11px;
   flex: 1 1 auto;
   margin-left: 0.25em;
   margin-right: 0.25em;
