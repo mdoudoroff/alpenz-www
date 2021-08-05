@@ -1300,19 +1300,49 @@ header.producerindex {
 
 
 .recipesConcise {
-	margin: 1em 0;
-	display: flex;
-	flex-wrap: wrap;
-	// flex-direction: row;
+	margin: 0;
+	// display: flex;
+	// flex-wrap: wrap;
+
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+	column-gap: 1em;
+
+
+	@media only screen and (max-width: @sizes[mobile])  {	
+		grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) ;
+		column-gap: 0.5em;
+	}
+}
+
+article.product .recipesConcise {
+
+	// hide the sixth and subsequent, because we only have five grid columns in desktop view
+	:nth-child(n+6) {
+		display: none;
+	}
+
+	@media only screen and (max-width: @sizes[mobile])  {	
+
+		// hide the seventh and subsequent, because we only have six grid columns in mobile view
+		:nth-child(6) { 
+			display: block;
+		}
+
+		:nth-child(n+7) {
+			display: none;
+		}
+	}
+
 }
 
 .recipeConcise {
 	// flex: none;
-	width: 143px;
-	margin-right: 1em;
+	// width: 143px;
+	// margin-right: 1em;
 
 	font-family: @dense-content-font;
-	font-size: 12px;
+	font-size: 13px;
 	color: black;
 
 
@@ -1330,8 +1360,10 @@ header.producerindex {
 
 
 	.recipeThumb {
-		width: 140px;
-		height: 140px;
+		// width: 140px;
+		// height: 140px;
+		width: 180px;
+		height: 180px;
 		margin-bottom: 10px;
 		background-size: cover;
 		background-position: top;
@@ -1360,8 +1392,10 @@ header.producerindex {
 	}
 
 	.recipeThumbNarrow {
-		width: 140px;
-		height: 150px;
+		// width: 140px;
+		// height: 150px;
+		width: 180px;
+		height: 190px;
 		text-align: left;
 
 		img {
@@ -1389,12 +1423,16 @@ header.producerindex {
 
 
 	.recipeThumbPlaceholder {
-		width: 140px;
-		height: 150px;
+		// width: 140px;
+		width: 180px;
+		// height: 150px;
+		height: 190px;
 
 		.recipeThumbPlaceholderBkgd {
-			width: 140px;
-			height: 140px;
+			// width: 140px;
+			// height: 140px;
+			width: 180px;
+			height: 180px;
 			background-color: @off-grey;
 			display: flex;
 			align-items: center;
