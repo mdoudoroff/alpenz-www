@@ -5,6 +5,13 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'charteritalic';
+  src: url('/assets/charter_italic-webfont.eot');
+  src: url('/assets/charter_italic-webfont.eot?#iefix') format('embedded-opentype'), url('/assets/charter_italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 * {
   box-sizing: border-box;
   padding: 0;
@@ -1607,7 +1614,7 @@ dd {
 }
 .contentful h1 {
   text-align: center;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
   margin-top: 1em;
 }
 .contentful .resourceCategory {
@@ -1635,7 +1642,7 @@ dd {
   border-bottom: 1px solid #bbbbbb;
   margin-bottom: 1em;
   font-family: proxima-nova, sans-serif;
-  font-size: 15px;
+  font-size: 20px;
 }
 @media only screen and (max-width: 420px) {
   .contentful .byline {
@@ -1680,6 +1687,9 @@ dd {
   margin-bottom: 0.25em;
   margin-left: 170px;
   max-width: 620px;
+  font-family: charteritalic, serif;
+  text-align: center;
+  font-style: normal;
 }
 @media only screen and (max-width: 420px) {
   .contentful h3 {
