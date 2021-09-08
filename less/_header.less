@@ -79,15 +79,20 @@
 			font-size: 0;
 			display: block;
 			height: 100%;
-			background: url('../assets/logo-wide.png') no-repeat;
-			background-size: @logowidth @logoheight;
+			// background: url('../assets/logo-wide.png') no-repeat;
+			background: url('../assets/logo-wide-dev.png') no-repeat;
+			// background-size: @logowidth @logoheight;
+			background-size: @logowidth auto;
 
 			@media only screen and (max-width: @sizes[mobile])  {
-				background: url('../assets/logo-wide.png') no-repeat;
+				// background: url('../assets/logo-wide.png') no-repeat;
 				margin: 0 auto;
 				width: calc(@logowidth/2);
+				// background-size: (@logowidth / 2) (@logoheight / 2);
 
-				background-size: (@logowidth / 2) (@logoheight / 2);
+				background: url('../assets/logo-wide-dev.png') no-repeat;
+				background-size: calc(@logowidth / 2) auto;
+
 			}
 		}
 	}
