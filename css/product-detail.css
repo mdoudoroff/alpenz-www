@@ -10,8 +10,8 @@
   margin: 0.25in 0 0.5in 0;
 }
 body {
-  font-family: lora, serif;
-  font-size: 15px;
+  font-family: open-sans, sans-serif;
+  font-size: 14px;
   line-height: 1.4;
   margin: 0;
   padding: 0;
@@ -45,7 +45,7 @@ a h2 {
   border: 0px;
   font-size: 18px;
   line-height: 1em;
-  font-family: open-sans-condensed, sans-serif;
+  font-family: lora, serif;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #fff;
@@ -120,7 +120,7 @@ a h2 {
   line-height: 1em;
 }
 .content h1 {
-  font-family: open-sans, sans-serif;
+  font-family: lora, serif;
   font-size: 36px;
   font-weight: 600;
   margin: 0 0 10px 0;
@@ -133,7 +133,7 @@ a h2 {
   }
 }
 .content h2 {
-  font-family: open-sans, sans-serif;
+  font-family: lora, serif;
   letter-spacing: 1px;
   font-size: 22px;
   font-weight: 400;
@@ -148,7 +148,7 @@ a h2 {
   }
 }
 .content h3 {
-  font-family: open-sans, sans-serif;
+  font-family: lora, serif;
   font-size: 14px;
   line-height: 1;
   font-weight: 600;
@@ -164,13 +164,13 @@ a h2 {
 }
 .content h3.breadcrumbs {
   font-size: 13px;
-  font-family: open-sans, sans-serif;
+  font-family: lora, serif;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 .content h4 {
-  font-family: open-sans, sans-serif;
+  font-family: lora, serif;
   font-size: 16px;
   line-height: 24px;
   margin: 0 0 0 0;
@@ -422,14 +422,14 @@ a h2 {
   color: black;
 }
 .content div.recipes .recipe h4 {
-  font-family: lora, serif;
+  font-family: open-sans, sans-serif;
   font-size: 14px;
   font-weight: bold;
   line-height: 1;
   margin-bottom: 0.5em;
 }
 .content div.recipes .recipe p {
-  font-family: lora, serif;
+  font-family: open-sans, sans-serif;
   font-size: 11px;
   margin: 0 0 10px 0;
 }
@@ -443,7 +443,7 @@ a h2 {
   line-height: 1;
   margin-bottom: 2em;
   font-size: 14px;
-  font-family: lora, serif;
+  font-family: open-sans, sans-serif;
 }
 .content .recipeFull span.recIcon {
   display: inline-block;
@@ -859,7 +859,7 @@ header.producerindex .images figure.logo {
   }
 }
 .fullsetuptable {
-  font-family: open-sans, sans-serif;
+  font-family: lora, serif;
   border-collapse: collapse;
 }
 .fullsetuptable td {
@@ -907,7 +907,7 @@ header.producerindex .images figure.logo {
 .producerSetup .setup2 {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: open-sans, sans-serif;
+  font-family: lora, serif;
 }
 .producerSetup .setup2 div {
   display: inline-block;
@@ -933,7 +933,7 @@ header.producerindex .images figure.logo {
   border: 0px;
   font-size: 13px;
   line-height: 1em;
-  font-family: open-sans-condensed, sans-serif;
+  font-family: lora, serif;
   font-weight: 600;
   text-transform: uppercase;
   color: #484848;
@@ -1007,11 +1007,11 @@ article.product .recipesConcise :nth-child(n+6) {
   }
 }
 .recipeConcise {
-  font-family: lora, serif;
+  font-family: open-sans, sans-serif;
   font-size: 12px;
 }
 .recipeConcise h4 {
-  font-family: open-sans, sans-serif;
+  font-family: lora, serif;
   font-weight: 700;
   font-size: 15px;
   line-height: 14px;
@@ -1112,7 +1112,7 @@ article.product .recipesConcise :nth-child(n+6) {
 .inlineButton,
 #recipeFiltersMoreButton {
   text-transform: uppercase;
-  font-family: open-sans, sans-serif;
+  font-family: lora, serif;
   letter-spacing: 1px;
   font-weight: 700;
   color: #a2120f;
@@ -1159,7 +1159,7 @@ span.socialButton {
 span.socialButton {
   background-color: #a2120f;
   color: white;
-  font-family: open-sans-condensed, sans-serif;
+  font-family: lora, serif;
   border-radius: 17px;
   text-transform: uppercase;
   font-size: 10px;
@@ -1271,7 +1271,7 @@ ul.originTiles li {
   display: inline-block;
   height: 189px;
   margin-right: 6px;
-  font-family: open-sans, sans-serif;
+  font-family: lora, serif;
 }
 @media only screen and (max-width: 420px) {
   ul.originTiles li {
@@ -1317,7 +1317,7 @@ ul.producerTilesLarge {
 ul.producerTilesLarge li {
   display: flex;
   flex-basis: 15%;
-  font-family: open-sans, sans-serif;
+  font-family: lora, serif;
   padding-bottom: 1em;
 }
 ul.producerTilesLarge li a:hover .logo {
@@ -1362,7 +1362,7 @@ ul.producerTiles li {
   height: 146px;
   display: inline-block;
   margin-right: 6px;
-  font-family: open-sans-condensed, sans-serif;
+  font-family: lora, serif;
 }
 ul.producerTiles li .logo {
   position: relative;
@@ -1396,7 +1396,7 @@ ul.producerTiles li a:hover {
   ul.producerTiles li {
     display: flex;
     flex-basis: 30%;
-    font-family: open-sans, sans-serif;
+    font-family: lora, serif;
     margin-bottom: 1em;
     margin-right: 0;
   }
@@ -1581,7 +1581,7 @@ dd {
   margin-bottom: 0.5em;
 }
 .contentful {
-  font-family: lora, serif;
+  font-family: open-sans, sans-serif;
   font-size: 18px;
   line-height: 1.4;
 }
@@ -1609,7 +1609,7 @@ dd {
 .contentful .resourceCategory span {
   background-color: #484848;
   color: white;
-  font-family: open-sans, sans-serif;
+  font-family: lora, serif;
   font-size: 15px;
   text-transform: uppercase;
   padding: 3px 9px;
@@ -1626,7 +1626,7 @@ dd {
   padding-bottom: 1em;
   border-bottom: 1px solid #bbbbbb;
   margin-bottom: 1em;
-  font-family: lora, serif;
+  font-family: open-sans, sans-serif;
   font-size: 20px;
 }
 @media only screen and (max-width: 420px) {
@@ -1639,12 +1639,12 @@ dd {
   color: #bbbbbb;
   padding-bottom: 1em;
   margin-bottom: 1em;
-  font-family: lora, serif;
+  font-family: open-sans, sans-serif;
   clear: both;
 }
 .contentful h2,
 .contentful h3 {
-  font-family: lora, serif;
+  font-family: open-sans, sans-serif;
   text-transform: none;
   letter-spacing: 1px;
   font-weight: normal;
@@ -2055,7 +2055,7 @@ ul.vintagePageLinks {
 ul.vintagePageLinks li {
   text-align: center;
   clear: both;
-  font-family: open-sans, sans-serif;
+  font-family: lora, serif;
   font-size: 18px;
   color: #484848;
   padding: 0 0.5em;
@@ -2255,7 +2255,7 @@ td.ing {
   position: absolute;
   top: 0px;
   left: 0;
-  font-family: open-sans, sans-serif;
+  font-family: lora, serif;
   font-weight: bold;
   line-height: 70px;
   width: 40px;
@@ -2293,7 +2293,7 @@ td.ing {
   position: absolute;
   right: 0;
   top: 9px;
-  font-family: open-sans-condensed, sans-serif;
+  font-family: lora, serif;
   font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -2331,7 +2331,7 @@ td.ing {
   align-items: baseline;
   margin-left: 18px;
   margin-right: -18px;
-  font-family: open-sans-condensed, sans-serif;
+  font-family: lora, serif;
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
@@ -2672,7 +2672,7 @@ td.ing {
   }
 }
 .footer .footerMenu h4 {
-  font-family: open-sans, sans-serif;
+  font-family: lora, serif;
   font-weight: 100;
   font-size: 14px;
   border-bottom: 1px solid #484848;
@@ -2862,7 +2862,7 @@ td.ing {
   position: absolute;
   z-index: 99000;
   background-color: #edece8;
-  font-family: open-sans, sans-serif;
+  font-family: lora, serif;
   width: 360px;
   left: 0px;
   top: 0px;
@@ -3288,7 +3288,7 @@ td.ing {
   width: auto;
   border-top: 1px solid #fff;
   border-left: 1px solid #fff;
-  font-family: open-sans, sans-serif;
+  font-family: lora, serif;
 }
 .setup table th,
 .vintagesummary table th,
@@ -3305,12 +3305,12 @@ td.ing {
   font-weight: 800;
   text-transform: uppercase;
   font-size: 13px;
-  font-family: open-sans, sans-serif;
+  font-family: lora, serif;
 }
 .setup table td,
 .vintagesummary table td {
   font-size: 14px;
-  font-family: open-sans, sans-serif;
+  font-family: lora, serif;
   font-weight: 100;
 }
 @media only screen and (max-width: 420px) {
@@ -3364,7 +3364,7 @@ td.ing {
   width: 100%;
 }
 .recipeCorral h2 {
-  font-family: open-sans, sans-serif;
+  font-family: lora, serif;
   font-weight: 700;
   letter-spacing: 1.5px;
   color: black;
@@ -3394,7 +3394,7 @@ td.ing {
   color: black;
 }
 .recipeCorral .recipe h4 {
-  font-family: lora, serif;
+  font-family: open-sans, sans-serif;
   font-size: 14px;
   font-weight: bold;
   line-height: 1;
@@ -3406,7 +3406,7 @@ td.ing {
   }
 }
 .recipeCorral .recipe p {
-  font-family: lora, serif;
+  font-family: open-sans, sans-serif;
   font-size: 11px;
   margin: 0 0 10px 0;
 }
@@ -3420,7 +3420,7 @@ td.ing {
 }
 .recipeInfoForPrint {
   display: none;
-  font-family: lora, serif;
+  font-family: open-sans, sans-serif;
   font-size: 11px;
   letter-spacing: normal;
   text-transform: none;
@@ -3498,7 +3498,7 @@ td.ing {
   align-items: center;
   width: 32%;
   padding: 0.5em;
-  font-family: open-sans, sans-serif;
+  font-family: lora, serif;
   background-color: #edece8;
 }
 .infographic .infographicSegment .desktopIcon {
