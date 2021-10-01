@@ -45,7 +45,7 @@ a h2 {
   border: 0px;
   font-size: 18px;
   line-height: 1em;
-  font-family: lora, serif;
+  font-family: open-sans-condensed, sans-serif;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #fff;
@@ -136,7 +136,7 @@ a h2 {
   font-family: lora, serif;
   letter-spacing: 1px;
   font-size: 22px;
-  font-weight: 400;
+  font-weight: 600;
   margin: 0 0 24px 0;
 }
 .content h2 .inlineButton {
@@ -149,9 +149,10 @@ a h2 {
 }
 .content h3 {
   font-family: lora, serif;
+  color: black;
   font-size: 14px;
   line-height: 1;
-  font-weight: 600;
+  font-weight: 900;
   margin: 0 0 0 0;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -164,13 +165,13 @@ a h2 {
 }
 .content h3.breadcrumbs {
   font-size: 13px;
-  font-family: lora, serif;
+  font-family: open-sans, sans-serif;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 .content h4 {
-  font-family: lora, serif;
+  font-family: open-sans, sans-serif;
   font-size: 16px;
   line-height: 24px;
   margin: 0 0 0 0;
@@ -452,6 +453,7 @@ a h2 {
 }
 .content .recipeFull h1 {
   font-size: 27px;
+  margin-bottom: 1em;
 }
 .content .recipeFull p {
   margin-bottom: 1em;
@@ -859,7 +861,7 @@ header.producerindex .images figure.logo {
   }
 }
 .fullsetuptable {
-  font-family: lora, serif;
+  font-family: open-sans-condensed, sans-serif;
   border-collapse: collapse;
 }
 .fullsetuptable td {
@@ -933,7 +935,7 @@ header.producerindex .images figure.logo {
   border: 0px;
   font-size: 13px;
   line-height: 1em;
-  font-family: lora, serif;
+  font-family: open-sans-condensed, sans-serif;
   font-weight: 600;
   text-transform: uppercase;
   color: #484848;
@@ -1112,14 +1114,14 @@ article.product .recipesConcise :nth-child(n+6) {
 .inlineButton,
 #recipeFiltersMoreButton {
   text-transform: uppercase;
-  font-family: lora, serif;
+  font-family: open-sans, sans-serif;
   letter-spacing: 1px;
   font-weight: 700;
   color: #a2120f;
   padding-left: 6px;
   padding-right: 6px;
   border: 1px solid #a2120f;
-  font-size: 11px;
+  font-size: 12px;
   line-height: 15px;
   position: relative;
   bottom: 0px;
@@ -1152,17 +1154,18 @@ a.inlineButton:hover,
 .socialIcons > div,
 span.socialButton {
   display: inline-block;
-  height: 34px;
-  line-height: 34px;
+  height: 32px;
+  line-height: 32px;
   padding: 0 9px;
 }
 span.socialButton {
   background-color: #a2120f;
   color: white;
-  font-family: lora, serif;
+  font-family: open-sans, sans-serif;
+  font-weight: 200;
   border-radius: 17px;
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 13px;
   height: 32px;
   margin-top: 3px;
   margin-bottom: 2px;
@@ -1317,7 +1320,7 @@ ul.producerTilesLarge {
 ul.producerTilesLarge li {
   display: flex;
   flex-basis: 15%;
-  font-family: lora, serif;
+  font-family: open-sans-condensed, sans-serif;
   padding-bottom: 1em;
 }
 ul.producerTilesLarge li a:hover .logo {
@@ -1362,7 +1365,7 @@ ul.producerTiles li {
   height: 146px;
   display: inline-block;
   margin-right: 6px;
-  font-family: lora, serif;
+  font-family: open-sans-condensed, sans-serif;
 }
 ul.producerTiles li .logo {
   position: relative;
@@ -1454,6 +1457,7 @@ ul.producerTiles li a:hover {
 .mapPresentation .mapAttribution,
 .producerDetailMap .mapAttribution,
 .productDetailMasterMap .mapAttribution {
+  font-family: open-sans-condensed, sans-serif;
   display: block;
   position: relative;
   font-size: 70%;
@@ -1582,7 +1586,7 @@ dd {
 }
 .contentful {
   font-family: open-sans, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.4;
 }
 .contentful hr {
@@ -1644,7 +1648,8 @@ dd {
 }
 .contentful h2,
 .contentful h3 {
-  font-family: open-sans, sans-serif;
+  font-family: lora, serif;
+  color: black;
   text-transform: none;
   letter-spacing: 1px;
   font-weight: normal;
@@ -1667,6 +1672,7 @@ dd {
 }
 .contentful h3 {
   font-size: 22px;
+  font-weight: bold;
   color: #484848;
   margin-top: 1em;
   margin-bottom: 0.25em;
@@ -1705,7 +1711,7 @@ dd {
   clear: both;
   text-align: center;
   color: #666666;
-  font-size: 80%;
+  font-size: 90%;
   font-style: italic;
 }
 @media only screen and (max-width: 420px) {
@@ -1982,6 +1988,7 @@ table.contentReport td {
 .contactwell {
   width: 50%;
   float: left;
+  padding-right: 1em;
 }
 @media only screen and (max-width: 420px) {
   .contactwell {
@@ -2293,7 +2300,7 @@ td.ing {
   position: absolute;
   right: 0;
   top: 9px;
-  font-family: lora, serif;
+  font-family: open-sans-condensed, sans-serif;
   font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -2331,7 +2338,7 @@ td.ing {
   align-items: baseline;
   margin-left: 18px;
   margin-right: -18px;
-  font-family: lora, serif;
+  font-family: open-sans-condensed, sans-serif;
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
@@ -2673,7 +2680,7 @@ td.ing {
 }
 .footer .footerMenu h4 {
   font-family: lora, serif;
-  font-weight: 100;
+  font-weight: 700;
   font-size: 14px;
   border-bottom: 1px solid #484848;
   margin-right: 1em;
@@ -2862,7 +2869,7 @@ td.ing {
   position: absolute;
   z-index: 99000;
   background-color: #edece8;
-  font-family: lora, serif;
+  font-family: open-sans, sans-serif;
   width: 360px;
   left: 0px;
   top: 0px;
@@ -3161,6 +3168,7 @@ td.ing {
   margin: 0;
   padding: 1em;
   background-color: #edece8;
+  font-size: 90%;
   margin-bottom: 0.5em;
 }
 .vitals .highlights li {
@@ -3174,6 +3182,7 @@ td.ing {
 .vitals h3 {
   clear: all;
   margin-top: 1.5em;
+  margin-bottom: 0.5em;
 }
 #productImageryCluster,
 #productImageryCluster2 {
@@ -3288,7 +3297,7 @@ td.ing {
   width: auto;
   border-top: 1px solid #fff;
   border-left: 1px solid #fff;
-  font-family: lora, serif;
+  font-family: open-sans, sans-serif;
 }
 .setup table th,
 .vintagesummary table th,
@@ -3305,12 +3314,10 @@ td.ing {
   font-weight: 800;
   text-transform: uppercase;
   font-size: 13px;
-  font-family: lora, serif;
 }
 .setup table td,
 .vintagesummary table td {
   font-size: 14px;
-  font-family: lora, serif;
   font-weight: 100;
 }
 @media only screen and (max-width: 420px) {
@@ -3498,7 +3505,7 @@ td.ing {
   align-items: center;
   width: 32%;
   padding: 0.5em;
-  font-family: lora, serif;
+  font-family: open-sans, sans-serif;
   background-color: #edece8;
 }
 .infographic .infographicSegment .desktopIcon {

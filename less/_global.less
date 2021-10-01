@@ -151,7 +151,7 @@ a {
 
 		// @@ 2021
 		// font-family: @heading-font;
-		font-family: @heading-font-alt;
+		font-family: @heading-font;
 
 		font-size: 36px;
 		font-weight: 600;
@@ -168,11 +168,11 @@ a {
 
 		// @@ 2021
 		// font-family: @heading-font;
-		font-family: @heading-font-alt;
+		font-family: @heading-font;
 		letter-spacing: 1px;
 		
 		font-size: 22px;
-		font-weight: 400;
+		font-weight: 600;
 		margin: 0 0 24px 0;
 
 		.inlineButton {
@@ -188,13 +188,13 @@ a {
 		// @@ 2021
 		font-family: @subheading-font;
 		// font-family: @heading-font-alt;
-		// color: black;
+		color: black;
 
 		// font-size: 16px;
 		font-size: 14px;
 		line-height: 1.0;
 		// font-weight: 100;
-		font-weight: 600;
+		font-weight: 900;
 		margin: 0 0 0 0;
 		text-transform: uppercase;
 		letter-spacing: 2px;
@@ -211,7 +211,7 @@ a {
 	}
 	h3.breadcrumbs {
 		font-size: 13px;
-		font-family: @heading-font;
+		font-family: @heading-font-alt;
 		font-weight: 600;
 		text-transform: uppercase;
 		letter-spacing: 1px;
@@ -592,6 +592,7 @@ a {
 
 		h1 {
 			font-size: 27px;
+			margin-bottom: 1em;
 		}
 
 		p {
@@ -1518,7 +1519,7 @@ article.product .recipesConcise {
 	padding-left: 6px;
 	padding-right: 6px;
 	border: 1px solid @red;
-	font-size: 11px;
+	font-size: 12px;
 	line-height: 15px; // this may have to change if body paragraph line height changes
 
 	// this is to actually move the element up to the baseline
@@ -1555,18 +1556,19 @@ a.inlineButton:hover, #recipeFiltersMoreButton:hover {
 
 .socialIcons > div, span.socialButton  {
 	display: inline-block;
-	height: 34px;
-	line-height: 34px;
+	height: 32px;
+	line-height: 32px;
 	padding: 0 9px;
 }
 
 span.socialButton {
 	background-color: @red;
 	color: white;
-	font-family: @nav-font;
+	font-family: @body-font;
+	font-weight: 200;
 	border-radius: 17px;
 	text-transform: uppercase;
-	font-size: 10px;
+	font-size: 13px;
 	height: 32px;
 	margin-top: 3px;
 	margin-bottom: 2px;
@@ -1759,7 +1761,7 @@ ul.producerTilesLarge {
 		display: flex;
 		flex-basis: 15%;
 
-		font-family: @subheading-font;
+		font-family: @dense-content-font;
 		padding-bottom: 1em;
 
 		a:hover .logo {
@@ -1925,6 +1927,7 @@ ul.producerTiles {
 	}
 
 	.mapAttribution {
+		font-family: @dense-content-font;
 		display: block;
 		position: relative;
 		font-size: 70%;
@@ -2099,7 +2102,7 @@ dd {
 	font-family: @article-body-font;
 	// font-family: @body-font;
 
-	font-size: 18px;
+	font-size: 16px;
 	// line-height: 1.3;
 	line-height: 1.4;
 
@@ -2163,7 +2166,8 @@ dd {
 
 		// @@ 2021
 		// font-family: Georgia, serif;
-		font-family: @article-body-font;
+		font-family: @heading-font;
+		color: black;
 
 		text-transform: none;
 		letter-spacing: 1px;
@@ -2191,6 +2195,7 @@ dd {
 
 	h3 {
 		font-size: 22px;
+		font-weight: bold;
 		color: @dark_grey;
 		margin-top: 1em;
 		margin-bottom: 0.25em;
@@ -2234,7 +2239,7 @@ dd {
 			clear: both; 
 			text-align: center;
 			color: @grey;
-			font-size: 80%;
+			font-size: 90%;
 			font-style: italic;
 		}
 
@@ -2548,6 +2553,7 @@ table.contentReport {
 .contactwell {
 	width: 50%;
 	float: left;
+	padding-right: 1em;
 	@media only screen and (max-width: @sizes[mobile])  {
 		width: 100%;
 		float: none;
