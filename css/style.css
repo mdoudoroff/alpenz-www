@@ -4031,9 +4031,6 @@ h5 {
     display: none;
   }
 }
-.recipeSummaries td.recipeTableIcons div {
-  opacity: 50%;
-}
 .recipeSummaries td.recipeTableIcon {
   background-color: #edece8;
   display: flex;
@@ -4051,7 +4048,6 @@ h5 {
   }
 }
 .recipeSummaries td.recipeTableIcon div {
-  opacity: 50%;
   font-size: 85%;
 }
 .recipeSummaries .recipeThumb {
