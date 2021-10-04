@@ -1084,9 +1084,6 @@ article.product .recipesConcise :nth-child(n+6) {
   align-items: center;
   justify-content: center;
 }
-.recipeConcise .recipeThumbPlaceholder .recipeThumbPlaceholderBkgd .recIcon {
-  opacity: 50%;
-}
 @media only screen and (max-width: 420px) {
   .recipeConcise .recipeThumbPlaceholder .recipeThumbPlaceholderBkgd {
     width: 120px;
