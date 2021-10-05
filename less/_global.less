@@ -63,7 +63,8 @@ a {
 
 	// @@ 2021
 	// font-family: @subheading-font;
-	font-family: @nav-font;
+	font-family: @dense-content-font;
+	font-weight: 600;
 
 	letter-spacing: 1px;
 	text-transform: uppercase;
@@ -155,7 +156,7 @@ a {
 
 		font-size: 36px;
 		font-weight: 600;
-		margin: 0 0 10px 0;
+		margin: 0 0 0.5em 0;
 		
 		@media only screen and (max-width: @sizes[mobile])  {
 			font-size: 24px;
@@ -209,12 +210,14 @@ a {
 		}
 
 	}
+
 	h3.breadcrumbs {
 		font-size: 13px;
 		font-family: @heading-font-alt;
 		font-weight: 600;
 		text-transform: uppercase;
 		letter-spacing: 1px;
+		margin-bottom: 0.5em;
 	}
 
 	h4 {

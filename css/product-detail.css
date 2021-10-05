@@ -46,6 +46,7 @@ a h2 {
   font-size: 18px;
   line-height: 1em;
   font-family: open-sans-condensed, sans-serif;
+  font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #fff;
@@ -123,7 +124,7 @@ a h2 {
   font-family: lora, serif;
   font-size: 36px;
   font-weight: 600;
-  margin: 0 0 10px 0;
+  margin: 0 0 0.5em 0;
   position: relative;
 }
 @media only screen and (max-width: 420px) {
@@ -169,6 +170,7 @@ a h2 {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
+  margin-bottom: 0.5em;
 }
 .content h4 {
   font-family: open-sans, sans-serif;
@@ -935,7 +937,7 @@ header.producerindex .images figure.logo {
   border: 0px;
   font-size: 13px;
   line-height: 1em;
-  font-family: open-sans-condensed, sans-serif;
+  font-family: open-sans, sans-serif;
   font-weight: 600;
   text-transform: uppercase;
   color: #484848;
@@ -1362,7 +1364,7 @@ ul.producerTiles li {
   height: 146px;
   display: inline-block;
   margin-right: 6px;
-  font-family: open-sans-condensed, sans-serif;
+  font-family: open-sans, sans-serif;
 }
 ul.producerTiles li .logo {
   position: relative;
@@ -2140,7 +2142,7 @@ td.ing {
   line-height: 70px;
   position: absolute;
   top: 9px;
-  left: 18px;
+  left: 9px;
 }
 @media only screen and (max-width: 420px) {
   .header h1,
@@ -2211,7 +2213,7 @@ td.ing {
 }
 .header h1.dev {
   top: 9px;
-  left: 18px;
+  left: 9px;
 }
 .header h1.dev a {
   background: url('../assets/logo-wide-dev.png') no-repeat;
@@ -2297,7 +2299,7 @@ td.ing {
   position: absolute;
   right: 0;
   top: 9px;
-  font-family: open-sans-condensed, sans-serif;
+  font-family: open-sans, sans-serif;
   font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -2305,7 +2307,7 @@ td.ing {
 .header #searchDropdownNavItem a,
 .header #downloadCatalogItem a {
   display: block;
-  padding: 0 18px;
+  padding: 0;
   text-decoration: none;
   position: relative;
 }
@@ -2333,9 +2335,9 @@ td.ing {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: baseline;
-  margin-left: 18px;
-  margin-right: -18px;
-  font-family: open-sans-condensed, sans-serif;
+  padding: 0;
+  width: 100%;
+  font-family: open-sans, sans-serif;
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
@@ -2419,9 +2421,9 @@ td.ing {
   white-space: nowrap;
   width: auto;
   min-width: 100%;
-  line-height: 30px;
+  line-height: 27px;
   text-align: center;
-  font-size: 13px;
+  font-size: 12px;
 }
 .header ul li ul li {
   float: none;
@@ -2434,7 +2436,7 @@ td.ing {
   /* If sub menu is hovered, show options */
 }
 .header ul li ul li a {
-  padding: 0 20px;
+  padding: 0 1em;
   color: #fff;
   white-space: nowrap;
 }
@@ -2490,6 +2492,10 @@ td.ing {
 .header ul li ul li:hover ul a:after {
   display: none;
 }
+.header ul li ul.rightedge {
+  right: 0;
+  left: inherit;
+}
 .header ul li.current-menu-item ul ul,
 .header ul li.current-menu-parent ul ul {
   display: none;
@@ -2510,6 +2516,9 @@ td.ing {
   left: 0;
   z-index: 1000;
   opacity: 0.95;
+}
+#menu-main-menu {
+  padding-left: 9px;
 }
 .header.sotolon {
   height: 118px;
@@ -3166,7 +3175,7 @@ td.ing {
   padding: 1em;
   background-color: #edece8;
   font-size: 90%;
-  margin-bottom: 0.5em;
+  margin-bottom: 1rem;
 }
 .vitals .highlights li {
   margin-left: 1em;
@@ -3286,6 +3295,7 @@ td.ing {
   overflow-x: auto;
   border-top: 2px solid #dddcd8;
   margin-top: 0.5em;
+  margin-bottom: 0.5em;
   padding-top: 0.5em;
 }
 .setup table,
