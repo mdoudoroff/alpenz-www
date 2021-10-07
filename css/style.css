@@ -149,11 +149,10 @@ a h2 {
 .content h3 {
   font-family: lora, serif;
   color: black;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1;
   font-weight: 900;
   margin: 0 0 0 0;
-  text-transform: uppercase;
 }
 .content h3.category_title {
   font-size: 26px;
@@ -166,6 +165,7 @@ a h2 {
   font-family: open-sans, sans-serif;
   font-weight: 600;
   text-transform: uppercase;
+  letter-spacing: 0.75px;
   margin-bottom: 0.5em;
 }
 .content h4 {
@@ -1314,7 +1314,7 @@ ul.producerTilesLarge {
 ul.producerTilesLarge li {
   display: flex;
   flex-basis: 15%;
-  font-family: open-sans-condensed, sans-serif;
+  font-family: open-sans, sans-serif;
   padding-bottom: 1em;
 }
 ul.producerTilesLarge li a:hover .logo {
@@ -1360,6 +1360,8 @@ ul.producerTiles li {
   display: inline-block;
   margin-right: 6px;
   font-family: open-sans, sans-serif;
+  font-size: 11px;
+  line-height: 11px;
 }
 ul.producerTiles li .logo {
   position: relative;
@@ -3120,6 +3122,7 @@ td.ing {
 }
 .products h2 {
   letter-spacing: 0;
+  color: black;
 }
 .products .type-product {
   padding: 0;
@@ -3253,10 +3256,24 @@ td.ing {
 .products .type-product p span {
   margin-right: 15px;
 }
-.products p.categorization {
-  font-size: 11px;
-  margin: 0;
-  font-weight: normal;
+.products .type-product p.categorization,
+.products .type-product p.abv {
+  text-transform: uppercase;
+  letter-spacing: 0.25px;
+  color: black;
+  margin-top: 0.5em;
+}
+.products .type-product p.categorization a,
+.products .type-product p.abv a {
+  font-weight: 600;
+  white-space: nowrap;
+}
+.products .type-product p.categorization .abv,
+.products .type-product p.abv .abv {
+  color: #666666;
+}
+.products .type-product p.abv {
+  display: none;
 }
 .products .licenses {
   display: none;
@@ -3555,7 +3572,7 @@ h5 {
 }
 .vitals .highlights {
   margin: 0;
-  padding: 1em;
+  padding: 1em 1em 1em 2em;
   background-color: #edece8;
   font-size: 90%;
   margin-bottom: 1rem;
@@ -3992,7 +4009,6 @@ h5 {
   max-width: 600px;
 }
 .recipeSummaries .summaryText {
-  padding-left: 1em;
   font-weight: 100;
   font-family: open-sans, sans-serif;
 }
@@ -4011,7 +4027,6 @@ h5 {
   }
 }
 .recipeSummaries td.recipeTableIcons {
-  background-color: #edece8;
   display: flex;
   align-items: flex-end;
   justify-content: space-evenly;
@@ -4019,7 +4034,7 @@ h5 {
   height: 90px;
   line-height: 0;
   border-bottom: none;
-  padding-bottom: 5px;
+  padding-bottom: 18px;
 }
 @media only screen and (max-width: 420px) {
   .recipeSummaries td.recipeTableIcons {
@@ -4027,7 +4042,6 @@ h5 {
   }
 }
 .recipeSummaries td.recipeTableIcon {
-  background-color: #edece8;
   display: flex;
   align-items: center;
   justify-content: center;

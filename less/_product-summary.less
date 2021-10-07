@@ -16,6 +16,7 @@
 
 	h2 {
 		letter-spacing: 0;
+		color: black;
 	}
 
 	.type-product {
@@ -200,6 +201,27 @@
 				}
 			}
 		}
+
+		p.categorization, p.abv {
+			text-transform: uppercase;
+			letter-spacing: 0.25px;
+			color: black;
+			// text-indent: 1em hanging;
+			margin-top: 0.5em; 
+			a {
+				font-weight: 600;
+				white-space: nowrap;
+			}
+
+			.abv {
+				color: @grey;
+			}
+
+		}
+
+		p.abv {
+			display: none;
+		}
 		
 		// .setup {
 
@@ -231,19 +253,19 @@
 			
 	}
 
-	p.categorization {
+	// p.categorization {
 
-		font-size: 11px;
+	// 	font-size: 11px;
 
-		margin: 0;
+	// 	margin: 0;
 
-		// text-transform: uppercase;
-		// font-weight: 700;		
-		font-weight: normal;
+	// 	// text-transform: uppercase;
+	// 	// font-weight: 700;		
+	// 	font-weight: normal;
 
-		@media only screen and (max-width: @sizes[mobile])  {
-		}
-	}
+	// 	@media only screen and (max-width: @sizes[mobile])  {
+	// 	}
+	// }
 
 	.licenses {
 		display: none;
