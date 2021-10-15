@@ -1824,6 +1824,11 @@ dd {
     margin-left: inherit;
   }
 }
+.contentful.standalonearticle h3 {
+  text-align: center;
+  font-weight: normal;
+  font-style: italic;
+}
 .specialIcon h1,
 .specialIcon h3 {
   margin-right: 235px;
@@ -2767,16 +2772,15 @@ td.ing {
   text-indent: -119988px;
   overflow: hidden;
   display: block;
-  height: 100%;
   width: 375px;
-  margin: 0 auto 0 auto;
-  background: url('../assets/logo-wide.png') no-repeat;
-  background-size: 375px 47px;
+  margin: 4px auto 0 auto;
+  background: url('../assets/logo-wide-dev.png') no-repeat;
+  background-size: 375px auto;
 }
 @media only screen and (max-width: 420px) {
   #sidebarheader h1 a {
     width: calc(375px/2);
-    background-size: calc(375px / 2) calc(47px / 2);
+    background-size: calc(375px / 2) auto;
   }
 }
 #sidebarheader h1.sotolon {
@@ -2816,10 +2820,14 @@ td.ing {
   color: #484848;
   text-transform: uppercase;
   font-weight: 700;
+  font-family: lora, serif;
+  letter-spacing: 3px;
+  margin: 0.4em 0 0.5em 0;
+  font-size: 100%;
+  line-height: 1;
 }
 .sidebarRow a,
 .sidebarRowHeader a {
-  text-transform: uppercase;
   font-weight: 700;
   line-height: 2;
 }
@@ -2880,7 +2888,6 @@ td.ing {
 }
 #sidebarAdditionalLinks {
   border-top: 1px solid black;
-  text-transform: uppercase;
 }
 #sidebarAdditionalLinks li {
   margin-left: 0.75em;
@@ -2934,7 +2941,6 @@ td.ing {
   clear: both;
   margin-bottom: 1em;
   line-height: 2;
-  text-transform: uppercase;
   font-weight: 700;
   border-top: 1px solid #bbbbbb;
 }
@@ -2957,16 +2963,28 @@ td.ing {
     font-size: 140%;
   }
 }
-.typeBrowserVerticalLeft {
-  transform: translate(1.5em, 0.5em) rotate(90deg);
+#winestypevertical,
+#spiritstypevertical {
   position: absolute;
-  transform-origin: left top 0;
+  transform-origin: top left;
   line-height: 1;
+  text-align: right;
+  font-family: lora, serif;
+  letter-spacing: 3px;
+  color: #666666;
+  text-transform: uppercase;
 }
 @media only screen and (max-width: 420px) {
-  .typeBrowserVerticalLeft {
-    font-size: 140%;
+  #winestypevertical,
+  #spiritstypevertical {
+    font-size: 110%;
   }
+}
+#winestypevertical {
+  transform: translate(12px, 75px) rotate(-90deg);
+}
+#spiritstypevertical {
+  transform: translate(12px, 89px) rotate(-90deg);
 }
 #shadowbox {
   position: fixed;

@@ -25,15 +25,15 @@
 			text-indent: -119988px;
 			overflow: hidden;
 			display: block;
-			height: 100%;
+			// height: 100%;
 			width: @logowidth;
-			margin: 0 auto 0 auto;
-			background: url('../assets/logo-wide.png') no-repeat;
-			background-size: @logowidth @logoheight;
+			margin: 4px auto 0 auto;
+			background: url('../assets/logo-wide-dev.png') no-repeat;
+			background-size: @logowidth auto;
 
 			@media only screen and (max-width: @sizes[mobile])  {
 				width: calc(@logowidth/2);
-				background-size: calc(@logowidth / 2) calc(@logoheight / 2);
+				background-size: calc(@logowidth / 2) auto;
 			}
 		}
 	}
@@ -79,11 +79,17 @@
 		color: @dark_grey;
 		text-transform: uppercase;
 		font-weight: 700;
+		font-family: @subheading-font;
+		letter-spacing: 3px;
+		margin: 0.4em 0 0.5em 0;
+		font-size: 100%;
+		line-height: 1.0;
+
 	}
 
 	a {
 
-		text-transform: uppercase;
+		// text-transform: uppercase;
 		font-weight: 700;
 		line-height: 2.0;
 
@@ -143,7 +149,7 @@
 	position: absolute;
 	z-index: 99000;
 	background-color: @off-grey;
-	font-family: @subheading-font-alt;
+	font-family: @nav-font;
 	// min-height: 6000px;
 	// padding-top: 0.5em;
 	width: 360px;
@@ -158,7 +164,7 @@
 #sidebarAdditionalLinks {
 
 	border-top: 1px solid black;
-	text-transform: uppercase;
+	// text-transform: uppercase;
 
 	li {
 		margin-left: 0.75em;
@@ -224,7 +230,7 @@
 	// margin-top: 1em;
 	margin-bottom: 1em;
 	line-height: 2.0;
-	text-transform: uppercase;
+	// text-transform: uppercase;
 	font-weight: 700;
 	border-top: 1px solid @light_grey;
 }
@@ -248,15 +254,28 @@
 	}
 }
 
-.typeBrowserVerticalLeft {
-	transform: translate(1.5em,0.5em) rotate(90deg);
+#winestypevertical, #spiritstypevertical {
 	position: absolute;
-	transform-origin: left top 0;
+	transform-origin: top left;
 	line-height: 1.0;
+	text-align: right;
+
+	font-family: @subheading-font;
+	letter-spacing: 3px;
+	color: @grey;
+	text-transform: uppercase;
+
 
 	@media only screen and (max-width: @sizes[mobile])  {
-		font-size: 140%;
+	font-size: 110%;
 	}	
+}
+
+#winestypevertical {
+	transform: translate(12px,75px) rotate(-90deg);
+}
+#spiritstypevertical {
+	transform: translate(12px,89px) rotate(-90deg);
 }
 
 #shadowbox {
