@@ -46,9 +46,9 @@
 		border-bottom: none;
 		padding-bottom: 18px;
 
-		@media only screen and (max-width: @sizes[mobile])  {
-			display: none;
-		}
+		// @media only screen and (max-width: @sizes[mobile])  {
+		// 	display: none;
+		// }
 
 		div {
 			// background-color: yellow;
@@ -68,9 +68,9 @@
 		border-bottom: none;
 		padding-bottom: 5px;
 
-		@media only screen and (max-width: @sizes[mobile])  {
-			display: none;
-		}
+		// @media only screen and (max-width: @sizes[mobile])  {
+		// 	display: none;
+		// }
 
 		div {
 			// background-color: yellow;
@@ -81,6 +81,7 @@
 	}
 
 }
+
 
 
 // experimental (recipe index page)
@@ -253,4 +254,17 @@
 		margin-left: 0;
 	}
 
+}
+
+
+.recipeSummaries {
+	@media only screen and (max-width: @sizes[mobile])  {
+
+		td.recipeTableIcons.mobilehide, td.thumb.mobilehide {
+			display: none;
+		}
+		td.recipeTableIcons.mobileshow, td.recipeTableIcons.mobileshow {
+			display: flex;
+		}
+	}	
 }

@@ -7,7 +7,7 @@
       "uuidString" : "B5ADC2AB-4759-4D37-B9EB-92E440ECE0B5"
     }
   ],
-  "creatorBuild" : "34214",
+  "creatorBuild" : "34264",
   "files" : {
     "\/.bust-digest.txt" : {
       "cB" : 0,
@@ -35186,6 +35186,9 @@
       },
       "no-unused-labels" : {
         "active" : 1
+      },
+      "no-unused-private-class-members" : {
+        "active" : 0
       },
       "no-unused-vars" : {
         "active" : 1,
