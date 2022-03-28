@@ -24,13 +24,25 @@ function eraseCookie(name) {
 }
 
 function scrapeFilters() {
+
+	let currentURL = new URL(document.location);
+	let qparams = currentURL.searchParams;
+	qparams.delete('iid');
+	qparams.delete('license');
+	qparams.delete('tag');
+
 	var groups = [];
+	var groupsForCookie = [];
 	var kws;
 	if ($('#ingredientChooser').val().length>0) {
 		groups.push('.'+$('#ingredientChooser').val());
+		groupsForCookie.push($('#ingredientChooser').val());
+		qparams.append('iid',$('#ingredientChooser').val());
 	}
 	if ($('#licenseChooser').val().length>0) {
 		groups.push('.'+$('#licenseChooser').val());
+		groupsForCookie.push($('#licenseChooser').val());
+		qparams.append('license',$('#licenseChooser').val())
 	}
 	for (var x=1;x<$('fieldset').length+1;x++) {
 		kws = '';
@@ -40,6 +52,8 @@ function scrapeFilters() {
 			} else {
 				kws = '.'+($(this).val().replace(' ','_').replace('/','_'));
 			}
+			groupsForCookie.push($(this).val().replace(' ','_').replace('/','_'))
+			qparams.append('tag',$(this).val().replace(' ','_').replace('/','_'))
 		});
 		if (kws.length>0) {
 			groups.push(kws);
@@ -47,21 +61,41 @@ function scrapeFilters() {
 	}
 
 	// cookie!
-	setCookie('harecipesform',groups.join(),7);
+	setCookie('harecipesform',groupsForCookie.join(),7);
+
+	// update the querystring in the browser
+	window.history.pushState({}, '', currentURL);
 
 	return groups;
 }
 
 function restoreFilters(vals) {
-	$.each(vals.split(','),function(idx,val){
-		if (val.indexOf('iid')==1) {
-			$("#ingredientChooser").val(val.slice(1));
-		} else if (val.indexOf('license_')==1) {
-			$("#licenseChooser").val(val.slice(1));
+
+	// fetch the URL and querystring; sanitize
+	let currentURL = new URL(document.location);
+	let qparams = currentURL.searchParams;
+	qparams.delete('iid');
+	qparams.delete('license');
+	qparams.delete('tag');
+
+	$.each(vals,function(idx,val){
+		if (val.indexOf('iid')==0) {
+			$("#ingredientChooser").val(val);
+			qparams.append('iid',val);
+	
+		} else if (val.indexOf('license_')==0) {
+			$("#licenseChooser").val(val);
+			qparams.append('license',val);
+	
 		} else {
-			$("input[name="+val.slice(1)+"]").each(function() {$(this).prop("checked", true);});
+			$("input[name="+val+"]").each(function() {$(this).prop("checked", true);});
+			qparams.append('tag',val)
 		}
 	});
+
+	// update the querystring in the browser
+	window.history.pushState({}, '', currentURL);
+
 }
 
 function resetFilters() {
@@ -131,14 +165,21 @@ function refilterRecipes() {
 
 jQuery(document).ready(function() {
 
-	// recipe index filtration
-	var x = getCookie('harecipesform');
-	if (x) {
-	    restoreFilters(x);
-	    refilterRecipes();
+	// fetch the querystring
+	let currentURL = new URL(document.location);
+	let qparams = currentURL.searchParams;
+
+	// if we have incoming querystring parameters for filtration, use them
+	if (qparams.has('iid') || qparams.has('license') || qparams.has('tag')) {
+		    restoreFilters(Array.from(qparams.values()));
+    // look for a cookie to restore filtration state with
 	} else {
-		refilterRecipes();  // doing this here to force rebuilding of the tabular nav
+		var x = getCookie('harecipesform');
+		if (x) {
+		    restoreFilters(x.split(','));
+		}
 	}
+	refilterRecipes();  // doing this regardless, to force rebuilding of the tabular nav
 
 	$('#recipefilters input').change(function() {
 		refilterRecipes();

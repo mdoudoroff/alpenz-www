@@ -7,7 +7,7 @@
       "uuidString" : "B5ADC2AB-4759-4D37-B9EB-92E440ECE0B5"
     }
   ],
-  "creatorBuild" : "34264",
+  "creatorBuild" : "34335",
   "files" : {
     "\/.bust-digest.txt" : {
       "cB" : 0,
@@ -1255,6 +1255,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/alpenz-download-product-bottle\/villa_oeiras_12.bottle.jpg" : {
+      "ft" : 16384,
+      "iS" : 2595907,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-download-product-bottle\/villa_oeiras_12.bottle.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-download-product-bottle\/villa_oeiras.bottle.jpg" : {
       "ft" : 16384,
       "iS" : 108097,
@@ -2243,6 +2256,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/alpenz-download-product-label\/nux.label.png" : {
+      "ft" : 32768,
+      "iS" : 2229919,
+      "oA" : 1,
+      "oAP" : "\/alpenz-download-product-label\/nux.label.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-download-product-label\/old_tom.label.jpg" : {
       "ft" : 16384,
       "iS" : 126926,
@@ -2369,6 +2395,19 @@
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-download-product-label\/pyror.label.jpg" : {
+      "ft" : 16384,
+      "iS" : 191301,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-download-product-label\/pyror.label.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2574,6 +2613,19 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-download-product-label\/tinta_negra_sh_1997.label.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-download-product-label\/villa_oeiras_12.label.jpg" : {
+      "ft" : 16384,
+      "iS" : 227625,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-download-product-label\/villa_oeiras_12.label.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -2866,6 +2918,14 @@
       "oAP" : "\/alpenz-download-product-talker\/cardamaro.one-sheet.pdf",
       "oF" : 0
     },
+    "\/alpenz-download-product-talker\/cardamaro.talker.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/alpenz-download-product-talker\/cardamaro.talker.pdf",
+      "oF" : 0
+    },
     "\/alpenz-download-product-talker\/chinato.one-sheet.pdf" : {
       "cB" : 0,
       "ft" : 8192,
@@ -3096,6 +3156,14 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/alpenz-download-product-talker\/miro_rojo.talker.pdf",
+      "oF" : 0
+    },
+    "\/alpenz-download-product-talker\/novasalus_aperitivo.one-sheet.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/alpenz-download-product-talker\/novasalus_aperitivo.one-sheet.pdf",
       "oF" : 0
     },
     "\/alpenz-download-product-talker\/novasalus.one-sheet.pdf" : {
@@ -3338,12 +3406,28 @@
       "oAP" : "\/alpenz-download-product-talker\/timbal_extra_dry.one-sheet.pdf",
       "oF" : 0
     },
+    "\/alpenz-download-product-talker\/timbal_extra_dry.talker.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/alpenz-download-product-talker\/timbal_extra_dry.talker.pdf",
+      "oF" : 0
+    },
     "\/alpenz-download-product-talker\/timbal_sweet_red.one-sheet.pdf" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/alpenz-download-product-talker\/timbal_sweet_red.one-sheet.pdf",
+      "oF" : 0
+    },
+    "\/alpenz-download-product-talker\/timbal_sweet_red.talker.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/alpenz-download-product-talker\/timbal_sweet_red.talker.pdf",
       "oF" : 0
     },
     "\/alpenz-download-product-talker\/violette.one-sheet.pdf" : {
@@ -14480,15 +14564,15 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/alpenz-web-category\/gin.category.png" : {
-      "ft" : 32768,
-      "iS" : 53444,
+    "\/alpenz-web-category\/gin.category.jpg" : {
+      "ft" : 16384,
+      "iS" : 97278,
+      "jF" : 0,
       "oA" : 1,
-      "oAP" : "\/alpenz-web-category\/gin.category.png",
+      "oAP" : "\/alpenz-web-category\/gin.category.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -14877,6 +14961,29 @@
       "plM" : 3758088159,
       "prP" : 0
     },
+    "\/alpenz-web-map\/austria.devmap.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/alpenz-web-map\/austria.devmap.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
+    "\/alpenz-web-map\/austria.devmapbase.jpg" : {
+      "ft" : 16384,
+      "iS" : 172058,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/austria.devmapbase.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-map\/austria.mapbase.jpg" : {
       "ft" : 16384,
       "iS" : 82394,
@@ -15086,6 +15193,19 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-web-map\/carcavelos_do.mapbase.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-map\/cardamaro.map.jpg" : {
+      "ft" : 16384,
+      "iS" : 469390,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/cardamaro.map.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -16442,6 +16562,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-producer-logo\/cardamaro.logo.png" : {
+      "ft" : 32768,
+      "iS" : 130384,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-producer-logo\/cardamaro.logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -18344,15 +18477,15 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/alpenz-web-product-bottle\/chinato.bottle.png" : {
-      "ft" : 32768,
-      "iS" : 303123,
+    "\/alpenz-web-product-bottle\/chinato.bottle.jpg" : {
+      "ft" : 16384,
+      "iS" : 137631,
+      "jF" : 0,
       "oA" : 1,
-      "oAP" : "\/alpenz-web-product-bottle\/chinato.bottle.png",
+      "oAP" : "\/alpenz-web-product-bottle\/chinato.bottle.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -18903,6 +19036,58 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/alpenz-web-product-bottle\/dos_pesos_1992.bottle.jpg" : {
+      "ft" : 16384,
+      "iS" : 220737,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-bottle\/dos_pesos_1992.bottle.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-product-bottle\/dos_pesos_1993.bottle.jpg" : {
+      "ft" : 16384,
+      "iS" : 223041,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-bottle\/dos_pesos_1993.bottle.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-product-bottle\/dos_pesos_1994.bottle.jpg" : {
+      "ft" : 16384,
+      "iS" : 222724,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-bottle\/dos_pesos_1994.bottle.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-product-bottle\/dos_pesos_1995.bottle.jpg" : {
+      "ft" : 16384,
+      "iS" : 222092,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-bottle\/dos_pesos_1995.bottle.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-product-bottle\/dos_pesos_1996.bottle.jpg" : {
       "ft" : 16384,
       "iS" : 192470,
@@ -18935,6 +19120,19 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-web-product-bottle\/dos_pesos_1998.bottle.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-product-bottle\/dos_pesos_1999.bottle.jpg" : {
+      "ft" : 16384,
+      "iS" : 220878,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-bottle\/dos_pesos_1999.bottle.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -20060,6 +20258,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/alpenz-web-product-bottle\/villa_oeiras_12.bottle.jpg" : {
+      "ft" : 16384,
+      "iS" : 497004,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-bottle\/villa_oeiras_12.bottle.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-product-bottle\/villa_oeiras.bottle.jpg" : {
       "ft" : 16384,
       "iS" : 108097,
@@ -20658,6 +20869,58 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/alpenz-web-product-context\/dos_pesos_1992.context.jpg" : {
+      "ft" : 16384,
+      "iS" : 275374,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-context\/dos_pesos_1992.context.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-product-context\/dos_pesos_1993.context.jpg" : {
+      "ft" : 16384,
+      "iS" : 275374,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-context\/dos_pesos_1993.context.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-product-context\/dos_pesos_1994.context.jpg" : {
+      "ft" : 16384,
+      "iS" : 275374,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-context\/dos_pesos_1994.context.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-product-context\/dos_pesos_1995.context.jpg" : {
+      "ft" : 16384,
+      "iS" : 275374,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-context\/dos_pesos_1995.context.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-product-context\/dos_pesos_1996.context.jpg" : {
       "ft" : 16384,
       "iS" : 275374,
@@ -20690,6 +20953,19 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-web-product-context\/dos_pesos_1998.context.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-product-context\/dos_pesos_1999.context.jpg" : {
+      "ft" : 16384,
+      "iS" : 275374,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-context\/dos_pesos_1999.context.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -21301,6 +21577,19 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-web-product-context\/tresmontaine_puits.context.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-product-context\/villa_oeiras_12.context.jpg" : {
+      "ft" : 16384,
+      "iS" : 58922,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-context\/villa_oeiras_12.context.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -22205,6 +22494,58 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/alpenz-web-product-label\/dos_pesos_1992.label.jpg" : {
+      "ft" : 16384,
+      "iS" : 181704,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-label\/dos_pesos_1992.label.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-product-label\/dos_pesos_1993.label.jpg" : {
+      "ft" : 16384,
+      "iS" : 181405,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-label\/dos_pesos_1993.label.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-product-label\/dos_pesos_1994.label.jpg" : {
+      "ft" : 16384,
+      "iS" : 181435,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-label\/dos_pesos_1994.label.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-product-label\/dos_pesos_1995.label.jpg" : {
+      "ft" : 16384,
+      "iS" : 181387,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-label\/dos_pesos_1995.label.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-product-label\/dos_pesos_1996.label.jpg" : {
       "ft" : 16384,
       "iS" : 169043,
@@ -22237,6 +22578,19 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-web-product-label\/dos_pesos_1998.label.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-product-label\/dos_pesos_1999.label.jpg" : {
+      "ft" : 16384,
+      "iS" : 181691,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-label\/dos_pesos_1999.label.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -23232,6 +23586,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/alpenz-web-product-label\/villa_oeiras_12.label.jpg" : {
+      "ft" : 16384,
+      "iS" : 217216,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-label\/villa_oeiras_12.label.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-product-label\/villa_oeiras.label.jpg" : {
       "ft" : 16384,
       "iS" : 104102,
@@ -24170,6 +24537,14 @@
       "oAP" : "\/distribution.html",
       "oF" : 0
     },
+    "\/downloads.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/downloads.html",
+      "oF" : 0
+    },
     "\/drinks_international_2020_02_making_madeira_more_meaningful.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -24768,6 +25143,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/gfx\/recipe_icons_2021\/glass-snifter.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
+    "\/gfx\/recipe_icons_2021\/glass-specialty-mug.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/gfx\/recipe_icons_2021\/glass-specialty-mug.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 3758088159,
@@ -27075,6 +27460,14 @@
       "oAP" : "\/producer-cappelletti.html",
       "oF" : 0
     },
+    "\/producer-cardamaro.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/producer-cardamaro.html",
+      "oF" : 0
+    },
     "\/producer-casa_brina.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -27883,6 +28276,38 @@
       "oAP" : "\/product-dos_pesos_1991.html",
       "oF" : 0
     },
+    "\/product-dos_pesos_1992.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/product-dos_pesos_1992.html",
+      "oF" : 0
+    },
+    "\/product-dos_pesos_1993.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/product-dos_pesos_1993.html",
+      "oF" : 0
+    },
+    "\/product-dos_pesos_1994.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/product-dos_pesos_1994.html",
+      "oF" : 0
+    },
+    "\/product-dos_pesos_1995.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/product-dos_pesos_1995.html",
+      "oF" : 0
+    },
     "\/product-dos_pesos_1996.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -27905,6 +28330,14 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/product-dos_pesos_1998.html",
+      "oF" : 0
+    },
+    "\/product-dos_pesos_1999.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/product-dos_pesos_1999.html",
       "oF" : 0
     },
     "\/product-espodol_garnatxa.html" : {
@@ -28593,6 +29026,14 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/product-verdelho_solera_1898.html",
+      "oF" : 0
+    },
+    "\/product-villa_oeiras_12.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/product-villa_oeiras_12.html",
       "oF" : 0
     },
     "\/product-villa_oeiras.html" : {
@@ -33675,6 +34116,158 @@
       "oAP" : "\/recipe-0526-0575.html",
       "oF" : 0
     },
+    "\/recipe-0526-0576.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-0526-0576.html",
+      "oF" : 0
+    },
+    "\/recipe-0526-0577.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-0526-0577.html",
+      "oF" : 0
+    },
+    "\/recipe-0526-0578.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-0526-0578.html",
+      "oF" : 0
+    },
+    "\/recipe-0526-0579.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-0526-0579.html",
+      "oF" : 0
+    },
+    "\/recipe-0526-0580.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-0526-0580.html",
+      "oF" : 0
+    },
+    "\/recipe-0526-0581.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-0526-0581.html",
+      "oF" : 0
+    },
+    "\/recipe-0526-0582.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-0526-0582.html",
+      "oF" : 0
+    },
+    "\/recipe-0526-0583.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-0526-0583.html",
+      "oF" : 0
+    },
+    "\/recipe-0526-0584.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-0526-0584.html",
+      "oF" : 0
+    },
+    "\/recipe-0526-0585.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-0526-0585.html",
+      "oF" : 0
+    },
+    "\/recipe-0526-0586.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-0526-0586.html",
+      "oF" : 0
+    },
+    "\/recipe-0526-0587.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-0526-0587.html",
+      "oF" : 0
+    },
+    "\/recipe-0526-0588.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-0526-0588.html",
+      "oF" : 0
+    },
+    "\/recipe-0526-0589.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-0526-0589.html",
+      "oF" : 0
+    },
+    "\/recipe-0526-0590.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-0526-0590.html",
+      "oF" : 0
+    },
+    "\/recipe-0526-0591.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-0526-0591.html",
+      "oF" : 0
+    },
+    "\/recipe-0526-0592.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-0526-0592.html",
+      "oF" : 0
+    },
+    "\/recipe-0526-0593.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-0526-0593.html",
+      "oF" : 0
+    },
+    "\/recipe-0526-0594.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-0526-0594.html",
+      "oF" : 0
+    },
     "\/recipe-0526-04667.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -33737,6 +34330,22 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/royal_dock_gin_returns_to_london.html",
+      "oF" : 0
+    },
+    "\/seattle202003.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/seattle202003.html",
+      "oF" : 0
+    },
+    "\/seattle202203.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/seattle202203.html",
       "oF" : 0
     },
     "\/setup.html" : {
@@ -34337,144 +34946,6 @@
     "buildFolderActive" : 0,
     "buildFolderName" : "build",
     "cleanBuild" : 1,
-    "coffeeLintFlags2" : {
-      "arrow_spacing" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "camel_case_classes" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "colon_assignment_spacing" : {
-        "active" : 0,
-        "flagValue" : 1
-      },
-      "cyclomatic_complexity" : {
-        "active" : 0,
-        "flagValue" : 10
-      },
-      "duplicate_key" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "empty_constructor_needs_parens" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "ensure_comprehensions" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "indentation" : {
-        "active" : 1,
-        "flagValue" : 2
-      },
-      "line_endings" : {
-        "active" : 0,
-        "flagValue" : 0
-      },
-      "max_line_length" : {
-        "active" : 0,
-        "flagValue" : 150
-      },
-      "missing_fat_arrows" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "newlines_after_classes" : {
-        "active" : 0,
-        "flagValue" : 3
-      },
-      "no_backticks" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_debugger" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_empty_functions" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "no_empty_param_list" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "no_implicit_braces" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_implicit_parens" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "no_interpolation_in_single_quotes" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "no_nested_string_interpolation" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_plusplus" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "no_private_function_fat_arrows" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_stand_alone_at" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_tabs" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_this" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "no_throwing_strings" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_trailing_semicolons" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_trailing_whitespace" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_unnecessary_double_quotes" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "no_unnecessary_fat_arrows" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "non_empty_constructor_needs_parens" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "prefer_english_operator" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "space_operators" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "spacing_after_comma" : {
-        "active" : 1,
-        "flagValue" : -1
-      }
-    },
     "cssoForceMediaMerge" : 0,
     "cssoRestructure" : 1,
     "environmentVariableEntries" : [
@@ -35308,6 +35779,9 @@
       "prefer-numeric-literals" : {
         "active" : 0
       },
+      "prefer-object-has-own" : {
+        "active" : 0
+      },
       "prefer-object-spread" : {
         "active" : 0
       },
@@ -35340,7 +35814,8 @@
         "optionString" : "'always'"
       },
       "require-atomic-updates" : {
-        "active" : 0
+        "active" : 0,
+        "optionString" : "{'allowProperties': false}"
       },
       "require-await" : {
         "active" : 0
@@ -35476,7 +35951,6 @@
       "minifierStyle" : 1,
       "outputStyle" : 0,
       "sourceMapStyle" : 0,
-      "syntaxCheckerStyle" : 1,
       "transpilerStyle" : 1
     },
     "languageDefaultsCSS" : {
