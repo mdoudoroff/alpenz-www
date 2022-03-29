@@ -226,3 +226,37 @@
 	}
 }
 
+
+// this should be bottled up somewhere else
+
+.resourceDownloadsCorral {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	// margin-bottom: 12px;
+
+	div {
+		flex: none;
+		width: 220px;
+		// height: 380px;
+		margin-right: 1em;
+		margin-bottom: 1em;
+		// background-color: @off-grey;
+		padding: 1em;
+
+		img {
+			width: 100%;
+			height: auto;
+			cursor: pointer;
+			border-top: 1px solid lightgray;
+			border-left: 1px solid lightgray;
+			border-right: 2px solid gray;
+			border-bottom: 2px solid gray;
+		}
+
+		@media only screen and (max-width: @sizes[mobile])  {
+			width: 45%;
+		}
+	}
+}

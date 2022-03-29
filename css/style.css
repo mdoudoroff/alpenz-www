@@ -4421,3 +4421,30 @@ h5 {
 #vintageFeatures div a {
   color: white;
 }
+.resourceDownloadsCorral {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.resourceDownloadsCorral div {
+  flex: none;
+  width: 220px;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+.resourceDownloadsCorral div img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  border-top: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+  border-right: 2px solid gray;
+  border-bottom: 2px solid gray;
+}
+@media only screen and (max-width: 420px) {
+  .resourceDownloadsCorral div {
+    width: 45%;
+  }
+}
