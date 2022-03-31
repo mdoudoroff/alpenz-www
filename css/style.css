@@ -4442,6 +4442,9 @@ h5 {
   border-right: 2px solid gray;
   border-bottom: 2px solid gray;
 }
+.resourceDownloadsCorral div p {
+  margin-bottom: 0;
+}
 @media only screen and (max-width: 420px) {
   .resourceDownloadsCorral div {
     width: 45%;
