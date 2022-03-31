@@ -61,7 +61,7 @@ function scrapeFilters() {
 	}
 
 	// cookie!
-	setCookie('harecipesform',groupsForCookie.join(),7);
+	setCookie('harecipesform',groupsForCookie.join(),1);
 
 	// update the querystring in the browser
 	window.history.pushState({}, '', currentURL);

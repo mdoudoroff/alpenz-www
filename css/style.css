@@ -1838,6 +1838,13 @@ dd {
   font-weight: normal;
   font-style: italic;
 }
+.contentful.standalonearticle figure {
+  margin: 1em auto 2em auto;
+}
+.contentful.standalonearticle figcaption {
+  max-width: 600px;
+  margin: 0 auto;
+}
 .specialIcon h1,
 .specialIcon h3 {
   margin-right: 235px;
