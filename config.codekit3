@@ -7,7 +7,7 @@
       "uuidString" : "B5ADC2AB-4759-4D37-B9EB-92E440ECE0B5"
     }
   ],
-  "creatorBuild" : "34335",
+  "creatorBuild" : "34365",
   "files" : {
     "\/.bust-digest.txt" : {
       "cB" : 0,
@@ -312,6 +312,19 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-download-product-bottle\/cocchi_brut.bottle.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-download-product-bottle\/cocchi_dry.bottle.jpg" : {
+      "ft" : 16384,
+      "iS" : 1004652,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-download-product-bottle\/cocchi_dry.bottle.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1586,6 +1599,19 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-download-product-label\/cocchi_brut.label.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-download-product-label\/cocchi_dry.label.jpg" : {
+      "ft" : 16384,
+      "iS" : 136199,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-download-product-label\/cocchi_dry.label.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -2950,6 +2976,22 @@
       "oAP" : "\/alpenz-download-product-talker\/cocchi_americano.talker.pdf",
       "oF" : 0
     },
+    "\/alpenz-download-product-talker\/cocchi_dry.one-sheet.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/alpenz-download-product-talker\/cocchi_dry.one-sheet.pdf",
+      "oF" : 0
+    },
+    "\/alpenz-download-product-talker\/cocchi_dry.talker.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/alpenz-download-product-talker\/cocchi_dry.talker.pdf",
+      "oF" : 0
+    },
     "\/alpenz-download-product-talker\/cocchi_rosa.one-sheet.pdf" : {
       "cB" : 0,
       "ft" : 8192,
@@ -3252,6 +3294,14 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/alpenz-download-product-talker\/orchard_elderberry.one-sheet.pdf",
+      "oF" : 0
+    },
+    "\/alpenz-download-product-talker\/orchard_elderberry.talker.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/alpenz-download-product-talker\/orchard_elderberry.talker.pdf",
       "oF" : 0
     },
     "\/alpenz-download-product-talker\/orchard_peach.one-sheet.pdf" : {
@@ -14863,6 +14913,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/alpenz-web-map\/abbe_rous.devmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 254689,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/abbe_rous.devmap.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-map\/abbe_rous.map.jpg" : {
       "ft" : 16384,
       "iS" : 123061,
@@ -14912,12 +14975,38 @@
       "plM" : 3758088159,
       "prP" : 0
     },
+    "\/alpenz-web-map\/american_gin_company.devmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 339853,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/american_gin_company.devmap.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-map\/american_gin_company.map.jpg" : {
       "ft" : 16384,
       "iS" : 66700,
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-web-map\/american_gin_company.map.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-map\/arnaud_de_villeneuve.devmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 233234,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/arnaud_de_villeneuve.devmap.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -15020,6 +15109,29 @@
       "plM" : 3758088159,
       "prP" : 0
     },
+    "\/alpenz-web-map\/auvergne.devmap.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/alpenz-web-map\/auvergne.devmap.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
+    "\/alpenz-web-map\/auvergne.devmapbase.jpg" : {
+      "ft" : 16384,
+      "iS" : 983241,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/auvergne.devmapbase.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-map\/auvergne.mapbase.jpg" : {
       "ft" : 16384,
       "iS" : 97326,
@@ -15038,6 +15150,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/alpenz-web-map\/auvergne.rawmap.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
+    "\/alpenz-web-map\/banyuls_aop.devmap.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/alpenz-web-map\/banyuls_aop.devmap.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 3758088159,
@@ -15066,6 +15188,19 @@
       "plM" : 3758088159,
       "prP" : 0
     },
+    "\/alpenz-web-map\/banyuls-cotes-vermeille.devmapbase.jpg" : {
+      "ft" : 16384,
+      "iS" : 252677,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/banyuls-cotes-vermeille.devmapbase.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-map\/barbados.mapbase.jpg" : {
       "ft" : 16384,
       "iS" : 38254,
@@ -15089,12 +15224,51 @@
       "plM" : 3758088159,
       "prP" : 0
     },
+    "\/alpenz-web-map\/belem.devmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 188261,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/belem.devmap.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-map\/belem.map.jpg" : {
       "ft" : 16384,
       "iS" : 56210,
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-web-map\/belem.map.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-map\/belems.devmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 188261,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/belems.devmap.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-map\/bonal.devmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 263576,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/bonal.devmap.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -15151,6 +15325,19 @@
       "plM" : 3758088159,
       "prP" : 0
     },
+    "\/alpenz-web-map\/byrrh.devmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 252706,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/byrrh.devmap.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-map\/byrrh.map.jpg" : {
       "ft" : 16384,
       "iS" : 147656,
@@ -15177,6 +15364,29 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/alpenz-web-map\/carcavelos_do.devmap.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/alpenz-web-map\/carcavelos_do.devmap.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
+    "\/alpenz-web-map\/carcavelos_do.devmapbase.jpg" : {
+      "ft" : 16384,
+      "iS" : 420099,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/carcavelos_do.devmapbase.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-map\/carcavelos_do.map.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -15193,6 +15403,29 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-web-map\/carcavelos_do.mapbase.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-map\/carcavelos_doc.devmap.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/alpenz-web-map\/carcavelos_doc.devmap.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
+    "\/alpenz-web-map\/carcavelos_doc.devmapbase.jpg" : {
+      "ft" : 16384,
+      "iS" : 420099,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/carcavelos_doc.devmapbase.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -15226,6 +15459,29 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/alpenz-web-map\/catalunya.devmap.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/alpenz-web-map\/catalunya.devmap.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
+    "\/alpenz-web-map\/catalunya.devmapbase.jpg" : {
+      "ft" : 16384,
+      "iS" : 254942,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/catalunya.devmapbase.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-map\/catalunya.mapbase.jpg" : {
       "ft" : 16384,
       "iS" : 201817,
@@ -15248,6 +15504,19 @@
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
+    },
+    "\/alpenz-web-map\/celler_cooperatiu_despolla.devmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 287600,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/celler_cooperatiu_despolla.devmap.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/alpenz-web-map\/celler_cooperatiu_despolla.map.jpg" : {
       "ft" : 16384,
@@ -15285,12 +15554,48 @@
       "plM" : 3758088159,
       "prP" : 0
     },
+    "\/alpenz-web-map\/comoz.devmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 262818,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/comoz.devmap.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-map\/comoz.map.jpg" : {
       "ft" : 16384,
       "iS" : 209234,
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-web-map\/comoz.map.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-map\/corsica.devmap.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/alpenz-web-map\/corsica.devmap.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
+    "\/alpenz-web-map\/corsica.devmapbase.jpg" : {
+      "ft" : 16384,
+      "iS" : 248884,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/corsica.devmapbase.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -15331,6 +15636,16 @@
       "plM" : 3758088159,
       "prP" : 0
     },
+    "\/alpenz-web-map\/cote_vermeille_igp.devmap.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/alpenz-web-map\/cote_vermeille_igp.devmap.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
     "\/alpenz-web-map\/cote_vermeille_igp.mapbase.jpg" : {
       "ft" : 16384,
       "iS" : 130356,
@@ -15349,6 +15664,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/alpenz-web-map\/cote_vermeille_igp.rawmap.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
+    "\/alpenz-web-map\/cotes_catalanes_igp.devmap.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/alpenz-web-map\/cotes_catalanes_igp.devmap.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 3758088159,
@@ -15377,12 +15702,51 @@
       "plM" : 3758088159,
       "prP" : 0
     },
+    "\/alpenz-web-map\/cotes-catalanes-rivesaltes.mapbase.jpg" : {
+      "ft" : 16384,
+      "iS" : 221239,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/cotes-catalanes-rivesaltes.mapbase.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-map\/distillerie_de_la_salers.devmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 300653,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/distillerie_de_la_salers.devmap.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-map\/distillerie_de_la_salers.map.jpg" : {
       "ft" : 16384,
       "iS" : 96401,
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-web-map\/distillerie_de_la_salers.map.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-map\/dolin.devmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 263484,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/dolin.devmap.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -15429,12 +15793,51 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/alpenz-web-map\/domaine_de_rombeau.devmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 233804,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/domaine_de_rombeau.devmap.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-map\/domaine_de_rombeau.map.jpg" : {
       "ft" : 16384,
       "iS" : 169549,
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-web-map\/domaine_de_rombeau.map.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-map\/domaine_de_sau.devmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 231119,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/domaine_de_sau.devmap.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-map\/domaine_du_dernier_bastion.devmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 190801,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/domaine_du_dernier_bastion.devmap.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -15455,12 +15858,64 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/alpenz-web-map\/domaine_du_mas_blanc.devmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 256836,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/domaine_du_mas_blanc.devmap.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-map\/domaine_du_sau.devmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 232570,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/domaine_du_sau.devmap.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-map\/domaine_du_sau.map.jpg" : {
       "ft" : 16384,
       "iS" : 167097,
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-web-map\/domaine_du_sau.map.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-map\/domaine_fontanel.devmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 231524,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/domaine_fontanel.devmap.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-map\/domaine_jorel.devmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 230952,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/domaine_jorel.devmap.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -15500,6 +15955,32 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-web-map\/domaine_vial_magneres.map.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-map\/domaine_vial-magneres.devmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 256946,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/domaine_vial-magneres.devmap.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-map\/emilio_miro.devmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 265525,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/emilio_miro.devmap.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -15555,7 +16036,7 @@
     },
     "\/alpenz-web-map\/england.devmapbase.jpg" : {
       "ft" : 16384,
-      "iS" : 164938,
+      "iS" : 172970,
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-web-map\/england.devmapbase.jpg",
@@ -15601,6 +16082,29 @@
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
+    },
+    "\/alpenz-web-map\/france.devmap.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/alpenz-web-map\/france.devmap.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
+    "\/alpenz-web-map\/france.devmapbase.jpg" : {
+      "ft" : 16384,
+      "iS" : 203214,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/france.devmapbase.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/alpenz-web-map\/france.mapbase.jpg" : {
       "ft" : 16384,
@@ -15651,6 +16155,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/alpenz-web-map\/hayman_distillers.devmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 193501,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/hayman_distillers.devmap.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-map\/hayman_distillers.map.jpg" : {
       "ft" : 16384,
       "iS" : 79493,
@@ -15664,12 +16181,48 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/alpenz-web-map\/henriques.devmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 192986,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/henriques.devmap.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-map\/henriques.map.jpg" : {
       "ft" : 16384,
       "iS" : 58347,
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-web-map\/henriques.map.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-map\/italy.devmap.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/alpenz-web-map\/italy.devmap.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
+    "\/alpenz-web-map\/italy.devmapbase.jpg" : {
+      "ft" : 16384,
+      "iS" : 232717,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/italy.devmapbase.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -15726,6 +16279,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/alpenz-web-map\/java.devmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 139435,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/java.devmap.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-map\/java.devmapbase.jpg" : {
+      "ft" : 16384,
+      "iS" : 139435,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/java.devmapbase.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-map\/java.map.jpg" : {
       "ft" : 16384,
       "iS" : 56171,
@@ -15739,12 +16318,38 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/alpenz-web-map\/java.mapbase.jpg" : {
+      "ft" : 16384,
+      "iS" : 139435,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/java.mapbase.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-map\/java.maplet.jpg" : {
       "ft" : 16384,
       "iS" : 9963,
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-web-map\/java.maplet.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-map\/josef_hofer.devmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 195309,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/josef_hofer.devmap.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -15771,6 +16376,29 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-web-map\/madeira_do.mapbase.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-map\/madeira_doc.devmap.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/alpenz-web-map\/madeira_doc.devmap.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
+    "\/alpenz-web-map\/madeira_doc.devmapbase.jpg" : {
+      "ft" : 16384,
+      "iS" : 193664,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/madeira_doc.devmapbase.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -15837,6 +16465,19 @@
       "plM" : 3758088159,
       "prP" : 0
     },
+    "\/alpenz-web-map\/mas_peyre.devmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 188705,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/mas_peyre.devmap.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-map\/mas_peyre.map.jpg" : {
       "ft" : 16384,
       "iS" : 167838,
@@ -15850,12 +16491,48 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/alpenz-web-map\/mattei.devmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 258576,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/mattei.devmap.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-map\/mattei.map.jpg" : {
       "ft" : 16384,
       "iS" : 60964,
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-web-map\/mattei.map.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-map\/maury_aop.devmap.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/alpenz-web-map\/maury_aop.devmap.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
+    "\/alpenz-web-map\/maury_aop.devmapbase.jpg" : {
+      "ft" : 16384,
+      "iS" : 174369,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/maury_aop.devmapbase.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -15881,6 +16558,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/alpenz-web-map\/maury_aop.rawmap.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
+    "\/alpenz-web-map\/new_york.devmap.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/alpenz-web-map\/new_york.devmap.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 3758088159,
@@ -15921,6 +16608,55 @@
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
+    },
+    "\/alpenz-web-map\/new-york.devmapbase.jpg" : {
+      "ft" : 16384,
+      "iS" : 186789,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/new-york.devmapbase.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-map\/new-york.mapbase.jpg" : {
+      "ft" : 16384,
+      "iS" : 186789,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/new-york.mapbase.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-map\/oberosterreich.devmap.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/alpenz-web-map\/oberosterreich.devmap.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
+    "\/alpenz-web-map\/oberosterreich.devmapbase.jpg" : {
+      "ft" : 16384,
+      "iS" : 193671,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/oberosterreich.devmapbase.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/alpenz-web-map\/oberosterreich.mapbase.jpg" : {
       "ft" : 16384,
@@ -16004,6 +16740,29 @@
       "plM" : 3758088159,
       "prP" : 0
     },
+    "\/alpenz-web-map\/portugal.devmap.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/alpenz-web-map\/portugal.devmap.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
+    "\/alpenz-web-map\/portugal.devmapbase.jpg" : {
+      "ft" : 16384,
+      "iS" : 173610,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/portugal.devmapbase.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-map\/portugal.mapbase.jpg" : {
       "ft" : 16384,
       "iS" : 84630,
@@ -16040,12 +16799,51 @@
       "plM" : 3758088159,
       "prP" : 0
     },
+    "\/alpenz-web-map\/puig_parahy.devmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 231391,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/puig_parahy.devmap.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-map\/purkhart.devmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 227979,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/purkhart.devmap.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-map\/purkhart.map.jpg" : {
       "ft" : 16384,
       "iS" : 106734,
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-web-map\/purkhart.map.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-map\/quinta_dos_pesos.devmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 465585,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/quinta_dos_pesos.devmap.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -16066,6 +16864,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/alpenz-web-map\/rivesaltes_aop.devmap.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/alpenz-web-map\/rivesaltes_aop.devmap.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
     "\/alpenz-web-map\/rivesaltes_aop.mapbase.jpg" : {
       "ft" : 16384,
       "iS" : 199794,
@@ -16084,6 +16892,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/alpenz-web-map\/rivesaltes_aop.rawmap.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
+    "\/alpenz-web-map\/roussillon.devmap.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/alpenz-web-map\/roussillon.devmap.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 3758088159,
@@ -16135,12 +16953,48 @@
       "plM" : 3758088159,
       "prP" : 0
     },
+    "\/alpenz-web-map\/saveiro.devmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 189951,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/saveiro.devmap.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-map\/saveiro.map.jpg" : {
       "ft" : 16384,
       "iS" : 57908,
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-web-map\/saveiro.map.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-map\/savoie.devmap.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/alpenz-web-map\/savoie.devmap.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
+    "\/alpenz-web-map\/savoie.devmapbase.jpg" : {
+      "ft" : 16384,
+      "iS" : 264827,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/savoie.devmapbase.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -16207,12 +17061,48 @@
       "plM" : 3758088159,
       "prP" : 0
     },
+    "\/alpenz-web-map\/smith_and_cross.devmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 204549,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/smith_and_cross.devmap.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-map\/smith_and_cross.map.jpg" : {
       "ft" : 16384,
       "iS" : 79086,
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-web-map\/smith_and_cross.map.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-map\/spain.devmap.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/alpenz-web-map\/spain.devmap.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
+    "\/alpenz-web-map\/spain.devmapbase.jpg" : {
+      "ft" : 16384,
+      "iS" : 181748,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/spain.devmapbase.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -16269,6 +17159,29 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/alpenz-web-map\/steiermark.devmap.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/alpenz-web-map\/steiermark.devmap.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
+    "\/alpenz-web-map\/steiermark.devmapbase.jpg" : {
+      "ft" : 16384,
+      "iS" : 178662,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/steiermark.devmapbase.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-map\/steiermark.mapbase.jpg" : {
       "ft" : 16384,
       "iS" : 107202,
@@ -16292,12 +17205,51 @@
       "plM" : 3758088159,
       "prP" : 0
     },
+    "\/alpenz-web-map\/sweden.devmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 194594,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/sweden.devmap.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-map\/sweden.devmapbase.jpg" : {
+      "ft" : 16384,
+      "iS" : 194594,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/sweden.devmapbase.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-map\/sweden.map.jpg" : {
       "ft" : 16384,
       "iS" : 134771,
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-web-map\/sweden.map.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-map\/sweden.mapbase.jpg" : {
+      "ft" : 16384,
+      "iS" : 194594,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/sweden.mapbase.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -16318,12 +17270,48 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/alpenz-web-map\/terres_des_templiers.devmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 256252,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/terres_des_templiers.devmap.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-map\/terres_des_templiers.map.jpg" : {
       "ft" : 16384,
       "iS" : 123247,
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-web-map\/terres_des_templiers.map.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-map\/trentino_alto_adige.devmap.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/alpenz-web-map\/trentino_alto_adige.devmap.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
+    "\/alpenz-web-map\/trentino_alto_adige.devmapbase.jpg" : {
+      "ft" : 16384,
+      "iS" : 299414,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/trentino_alto_adige.devmapbase.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -16413,6 +17401,19 @@
       "plM" : 3758088159,
       "prP" : 0
     },
+    "\/alpenz-web-map\/villa_oeiras.devmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 462224,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/villa_oeiras.devmap.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-map\/villa_oeiras.map.jpg" : {
       "ft" : 16384,
       "iS" : 113943,
@@ -16425,6 +17426,16 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/alpenz-web-map\/west indies.devmap.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/alpenz-web-map\/west indies.devmap.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
     },
     "\/alpenz-web-map\/west indies.rawmap.svg" : {
       "ft" : 2097152,
@@ -16455,6 +17466,32 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-web-map\/west_indies.maplet.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-map\/west-indies.devmapbase.jpg" : {
+      "ft" : 16384,
+      "iS" : 269650,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/west-indies.devmapbase.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-map\/west-indies.mapbase.jpg" : {
+      "ft" : 16384,
+      "iS" : 269650,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/west-indies.mapbase.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -18548,6 +19585,19 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-web-product-bottle\/cocchi_brut.bottle.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-product-bottle\/cocchi_dry.bottle.jpg" : {
+      "ft" : 16384,
+      "iS" : 126505,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-bottle\/cocchi_dry.bottle.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -20687,6 +21737,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/alpenz-web-product-context\/cocchi_dry.context.jpg" : {
+      "ft" : 16384,
+      "iS" : 591628,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-context\/cocchi_dry.context.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-product-context\/cocchi_rosa.context.jpg" : {
       "ft" : 16384,
       "iS" : 524077,
@@ -21883,12 +22946,38 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/alpenz-web-product-label\/cap_corse_blanc.label.detail.jpg" : {
+      "ft" : 16384,
+      "iS" : 152270,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-label\/cap_corse_blanc.label.detail.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-product-label\/cap_corse_blanc.label.jpg" : {
       "ft" : 16384,
       "iS" : 66979,
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-web-product-label\/cap_corse_blanc.label.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-product-label\/cap_corse_rouge.label.detail.jpg" : {
+      "ft" : 16384,
+      "iS" : 143718,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-label\/cap_corse_rouge.label.detail.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -22013,12 +23102,64 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/alpenz-web-product-label\/cocchi_dry.label.detail.jpg" : {
+      "ft" : 16384,
+      "iS" : 80448,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-label\/cocchi_dry.label.detail.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-product-label\/cocchi_dry.label.jpg" : {
+      "ft" : 16384,
+      "iS" : 55405,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-label\/cocchi_dry.label.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-product-label\/cocchi_rosa.label.jpg" : {
       "ft" : 16384,
       "iS" : 72257,
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-web-product-label\/cocchi_rosa.label.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-product-label\/cocchi_vdt.label.detail.jpeg" : {
+      "ft" : 16384,
+      "iS" : 83299,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-label\/cocchi_vdt.label.detail.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-product-label\/cocchi_vdt.label.detail.jpg" : {
+      "ft" : 16384,
+      "iS" : 640078,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-label\/cocchi_vdt.label.detail.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -22136,6 +23277,19 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-web-product-label\/colloque_NV.label.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-product-label\/comoz_blanc.label.detail.jpg" : {
+      "ft" : 16384,
+      "iS" : 101794,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-label\/comoz_blanc.label.detail.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -22409,6 +23563,19 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-web-product-label\/dolin_rouge.label.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-product-label\/dopo.label.detail.jpg" : {
+      "ft" : 16384,
+      "iS" : 83034,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-label\/dopo.label.detail.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -24336,6 +25503,14 @@
       "oAP" : "\/category-sparkling.html",
       "oF" : 0
     },
+    "\/christopher-hayman-50-yr.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/christopher-hayman-50-yr.html",
+      "oF" : 0
+    },
     "\/comoz_art_of_the_poster.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -26235,6 +27410,17 @@
       "oAP" : "\/infographics.html",
       "oF" : 0
     },
+    "\/js\/debounce.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/js\/debounce-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/js\/gallery-overlay.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -28012,6 +29198,14 @@
       "oAP" : "\/product-cocchi_brut.html",
       "oF" : 0
     },
+    "\/product-cocchi_dry.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/product-cocchi_dry.html",
+      "oF" : 0
+    },
     "\/product-cocchi_rosa.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -29268,6 +30462,14 @@
       "oAP" : "\/productrecipes-cocchi_brut.html",
       "oF" : 0
     },
+    "\/productrecipes-cocchi_dry.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/productrecipes-cocchi_dry.html",
+      "oF" : 0
+    },
     "\/productrecipes-cocchi_rosa.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -29602,6 +30804,14 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/products.html",
+      "oF" : 0
+    },
+    "\/quinquina-seminar.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/quinquina-seminar.html",
       "oF" : 0
     },
     "\/rancio_sec_revival.html" : {
@@ -34292,6 +35502,38 @@
       "oAP" : "\/recipe-0526-0594.html",
       "oF" : 0
     },
+    "\/recipe-0526-0595.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-0526-0595.html",
+      "oF" : 0
+    },
+    "\/recipe-0526-0596.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-0526-0596.html",
+      "oF" : 0
+    },
+    "\/recipe-0526-0597.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-0526-0597.html",
+      "oF" : 0
+    },
+    "\/recipe-0526-0598.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-0526-0598.html",
+      "oF" : 0
+    },
     "\/recipe-0526-04667.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -35022,10 +36264,6 @@
         "active" : 0,
         "optionString" : "'1tbs', {'allowSingleLine': true}"
       },
-      "callback-return" : {
-        "active" : 0,
-        "optionString" : "['callback', 'cb', 'next']"
-      },
       "camelcase" : {
         "active" : 0,
         "optionString" : "{'properties': 'always'}"
@@ -35117,6 +36355,10 @@
         "active" : 0,
         "optionString" : "'expression'"
       },
+      "function-call-argument-newline" : {
+        "active" : 0,
+        "optionString" : "'always'"
+      },
       "function-paren-newline" : {
         "active" : 0,
         "optionString" : "'multiline'"
@@ -35129,9 +36371,6 @@
         "active" : 0,
         "optionString" : "{'allowImplicit': false}"
       },
-      "global-require" : {
-        "active" : 0
-      },
       "grouped-accessor-pairs" : {
         "active" : 0,
         "optionString" : "'anyOrder'"
@@ -35139,11 +36378,7 @@
       "guard-for-in" : {
         "active" : 0
       },
-      "handle-callback-err" : {
-        "active" : 0,
-        "optionString" : "'err'"
-      },
-      "id-blacklist" : {
+      "id-denylist" : {
         "active" : 0,
         "optionString" : "'data', 'err', 'e', 'cb', 'callback'"
       },
@@ -35267,9 +36502,6 @@
         "active" : 0,
         "optionString" : "{'allow': ['~'], 'int32Hint': true}"
       },
-      "no-buffer-constructor" : {
-        "active" : 0
-      },
       "no-caller" : {
         "active" : 0
       },
@@ -35296,6 +36528,9 @@
       },
       "no-const-assign" : {
         "active" : 1
+      },
+      "no-constant-binary-expression" : {
+        "active" : 0
       },
       "no-constant-condition" : {
         "active" : 1,
@@ -35329,6 +36564,9 @@
         "active" : 1
       },
       "no-dupe-keys" : {
+        "active" : 1
+      },
+      "no-duplicate-case" : {
         "active" : 1
       },
       "no-duplicate-imports" : {
@@ -35372,7 +36610,7 @@
       "no-extra-boolean-cast" : {
         "active" : 1
       },
-      "no-extra-labels" : {
+      "no-extra-label" : {
         "active" : 0
       },
       "no-extra-parens" : {
@@ -35460,10 +36698,6 @@
         "active" : 0,
         "optionString" : "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
       },
-      "no-mixed-requires" : {
-        "active" : 0,
-        "optionString" : "{'grouping': false, 'allowCall': false }"
-      },
       "no-mixed-spaces-and-tabs" : {
         "active" : 0,
         "optionString" : ""
@@ -35498,9 +36732,6 @@
       "no-new-object" : {
         "active" : 0
       },
-      "no-new-require" : {
-        "active" : 0
-      },
       "no-new-symbol" : {
         "active" : 1
       },
@@ -35523,18 +36754,9 @@
         "active" : 0,
         "optionString" : "{'props': false}"
       },
-      "no-path-concat" : {
-        "active" : 0
-      },
       "no-plusplus" : {
         "active" : 0,
         "optionString" : "{'allowForLoopAfterthoughts': false}"
-      },
-      "no-process-env" : {
-        "active" : 0
-      },
-      "no-process-exit" : {
-        "active" : 0
       },
       "no-promise-executor-return" : {
         "active" : 0
@@ -35562,10 +36784,6 @@
       },
       "no-restricted-imports" : {
         "active" : 0
-      },
-      "no-restricted-modules" : {
-        "active" : 0,
-        "optionString" : ""
       },
       "no-restricted-properties" : {
         "active" : 0,
@@ -35608,10 +36826,6 @@
       },
       "no-sparse-arrays" : {
         "active" : 1
-      },
-      "no-sync" : {
-        "active" : 0,
-        "optionString" : ""
       },
       "no-tabs" : {
         "active" : 0,
@@ -35844,10 +37058,6 @@
       "require-await" : {
         "active" : 0
       },
-      "require-jsdoc" : {
-        "active" : 0,
-        "optionString" : "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false}}"
-      },
       "require-unicode-regexp" : {
         "active" : 0
       },
@@ -35932,10 +37142,6 @@
       "use-isnan" : {
         "active" : 1,
         "optionString" : ""
-      },
-      "valid-jsdoc" : {
-        "active" : 0,
-        "optionString" : "{'prefer': {'return': 'returns'}, 'requireReturn': true, 'requireReturnDescription': true, 'requireReturnType': true, 'requireParamDescription': true}"
       },
       "valid-typeof" : {
         "active" : 1,
@@ -36437,6 +37643,10 @@
         "active" : 0,
         "flagValue" : -1
       },
+      "keep_numbers" : {
+        "active" : 0,
+        "flagValue" : -1
+      },
       "keep_quoted_props" : {
         "active" : 0,
         "flagValue" : -1
@@ -36460,6 +37670,10 @@
       "passes" : {
         "active" : 1,
         "flagValue" : 1
+      },
+      "preserve_annotations" : {
+        "active" : 0,
+        "flagValue" : -1
       },
       "properties" : {
         "active" : 1,
@@ -36563,6 +37777,10 @@
       },
       "webkit" : {
         "active" : 0,
+        "flagValue" : -1
+      },
+      "wrap_func_args" : {
+        "active" : 1,
         "flagValue" : -1
       },
       "wrap_iife" : {

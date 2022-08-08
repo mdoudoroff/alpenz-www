@@ -1,3 +1,4 @@
+// @codekit-prepend "debounce.js";
 
 function dismissSearchOverlay() {
 	$('#searchOverlay').remove();
@@ -18,7 +19,7 @@ function createSearchOverlay() {
 	$('#searchBox').focus();
 
 	// dynamic search binding (keyup-based)
-	$('#searchBox').keyup(function() {
+	$('#searchBox').keyup($.debounce(750, function() {
 		
 		var searchStr = $('#searchBox').val();
 		//var searchStrLeadTerm = searchStr.toLowerCase().split(' ')[0];
@@ -59,7 +60,7 @@ function createSearchOverlay() {
 			});
 		}
 		else {}
-	});
+	}));
 }
 
 jQuery(document).ready(function() {
