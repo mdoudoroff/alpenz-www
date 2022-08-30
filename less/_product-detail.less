@@ -235,6 +235,7 @@
 		border-left: 1px solid @body_background;
 		// font-family: @dense-content-font;
 		font-family: @body-font;
+		margin-bottom: 0.5em; // this is space for the scrollbar
 	
 		th,td {
 			border-right: 1em solid @body_background;
@@ -266,6 +267,12 @@
 }
 
 .downloadsCorral {
+
+	line-height: 1.8;
+
+	.setupDownload {
+
+	}
 	@media print {
 		display: none;
 	}

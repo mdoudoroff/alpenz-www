@@ -1038,8 +1038,9 @@ article.product + .recipesConcise :nth-child(n+6) {
 }
 @media only screen and (max-width: 420px) {
   .recipeConcise .recipeThumb {
-    width: 120px;
-    height: 120px;
+    width: auto;
+    height: auto;
+    aspect-ratio: 1 / 1;
   }
   .recipeConcise .recipeThumb img {
     height: 120px;
@@ -1068,8 +1069,9 @@ article.product + .recipesConcise :nth-child(n+6) {
 }
 @media only screen and (max-width: 420px) {
   .recipeConcise .recipeThumbNarrow {
-    width: 120px;
-    height: 120px;
+    width: auto;
+    height: auto;
+    aspect-ratio: 1 / 1;
   }
   .recipeConcise .recipeThumbNarrow img {
     height: 120px;
@@ -1093,8 +1095,9 @@ article.product + .recipesConcise :nth-child(n+6) {
 }
 @media only screen and (max-width: 420px) {
   .recipeConcise .recipeThumbPlaceholder .recipeThumbPlaceholderBkgd {
-    width: 120px;
-    height: 120px;
+    width: auto;
+    height: auto;
+    aspect-ratio: 1 / 1;
   }
 }
 @media print {
@@ -1104,8 +1107,9 @@ article.product + .recipesConcise :nth-child(n+6) {
 }
 @media only screen and (max-width: 420px) {
   .recipeConcise .recipeThumbPlaceholder {
-    width: 120px;
-    height: 120px;
+    width: auto;
+    height: auto;
+    aspect-ratio: 1 / 1;
     margin-bottom: 10px;
   }
 }
@@ -1456,7 +1460,7 @@ ul.producerTiles li a:hover {
   .producerDetailMap,
   .productDetailMasterMap {
     float: none;
-    margin: 0 0 0.5em 0;
+    margin: 0 0 0.5em 0.5em;
   }
 }
 .mapPresentation .mapAttribution,
@@ -3744,6 +3748,7 @@ h5 {
   border-top: 1px solid #fff;
   border-left: 1px solid #fff;
   font-family: open-sans, sans-serif;
+  margin-bottom: 0.5em;
 }
 .setup table th,
 .vintagesummary table th,
@@ -3777,6 +3782,9 @@ h5 {
   .vintagesummary {
     overflow-x: visible;
   }
+}
+.downloadsCorral {
+  line-height: 1.8;
 }
 @media print {
   .downloadsCorral {
