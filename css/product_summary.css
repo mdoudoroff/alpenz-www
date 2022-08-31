@@ -655,6 +655,7 @@ header.producerindex .images figure.logo {
 .catblurb .images {
   width: 50%;
   float: right;
+  margin-left: 0.5em;
 }
 .catblurb .images img {
   width: 100%;
@@ -2292,7 +2293,8 @@ td.ing {
 }
 @media only screen and (max-width: 420px) {
   .header .toggle {
-    line-height: 40px;
+    line-height: 36px;
+    height: 40px;
     display: block;
   }
 }
