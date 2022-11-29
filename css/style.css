@@ -1010,6 +1010,15 @@ article.product + .recipesConcise :nth-child(n+6) {
 .recipeConcise {
   font-family: open-sans, sans-serif;
   font-size: 12px;
+  padding-bottom: 1em;
+}
+.recipeConcise p {
+  margin-bottom: 3px;
+  line-height: 1.2;
+}
+.recipeConcise p.measure {
+  margin-left: 1.5em;
+  text-indent: -1.5em;
 }
 .recipeConcise h4 {
   font-family: lora, serif;
