@@ -2771,3 +2771,42 @@ td.combo {
 td.ing {
 	font-size: 14px;
 }
+
+
+// vintages table
+
+.vintage-summary-table, .nonvintage-summary-table {
+
+	@media only screen and (max-width: @sizes[mobile])  {
+		width: 100%;
+
+		.vintage-category { display: block; margin-top: 1em; }
+		th:not(.vintage-category) { display: none; }
+
+		td {
+			display: block;
+			white-space: inherit !important;
+			margin-bottom: 0.5em;
+		}
+
+		td[data-cell="category"] {
+			display: none;
+		}
+		td[data-cell="year-rep"] {
+			display: none;
+		}
+		td[data-cell="year"] {
+			font-weight: bold;
+		}
+		td[data-cell="product"] {
+			padding-left: 3em;
+		}
+	}
+}
+
+.nonvintage-summary-table {
+
+	@media only screen and (max-width: @sizes[mobile])  {
+		td[data-cell="product"] { padding-left: 0; }
+	}
+}
