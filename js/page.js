@@ -83,3 +83,12 @@ jQuery(document).ready(function() {
 
 
 });
+
+const vintageSelectElement = document.querySelector("#vintageYearSelect");
+if (vintageSelectElement) {
+	vintageSelectElement.addEventListener("change", (event) => {
+		window.location.href = event.target.value;
+	});
+}
+
+

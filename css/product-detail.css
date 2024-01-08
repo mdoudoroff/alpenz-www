@@ -3422,6 +3422,9 @@ td.ing {
     overflow-x: visible;
   }
 }
+.vintagesummary {
+  border: none;
+}
 .downloadsCorral {
   line-height: 1.8;
 }

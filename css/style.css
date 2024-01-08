@@ -3583,6 +3583,9 @@ div.grouping .corralBottle img {
   color: inherit;
   background: inherit;
 }
+.vintageSwitch {
+  border-top: 2px solid #dddcd8;
+}
 h5 {
   font-family: lora, serif;
   font-size: 22px;
@@ -3828,6 +3831,9 @@ h5 {
   .vintagesummary {
     overflow-x: visible;
   }
+}
+.vintagesummary {
+  border: none;
 }
 .downloadsCorral {
   line-height: 1.8;
