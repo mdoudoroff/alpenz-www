@@ -15323,6 +15323,40 @@
       "oO" : 0,
       "oS" : 1
     },
+    "\/alpenz-recipes-managed\/TIuQmW8rYP.drink-photo-thumb.jpg" : {
+      "ft" : 16384,
+      "iS" : 8092,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/TIuQmW8rYP.drink-photo-thumb.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-recipes-managed\/TIuQmW8rYP.drink-photo.jpg" : {
+      "ft" : 16384,
+      "iS" : 299482,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/TIuQmW8rYP.drink-photo.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-recipes-managed\/TIuQmW8rYP.drink-photo.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/TIuQmW8rYP.drink-photo-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
     "\/alpenz-recipes-managed\/TjKsNaOh2w.drink-photo-thumb.jpg" : {
       "ft" : 16384,
       "iS" : 11765,
@@ -50984,6 +51018,35 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/mixtech-enterprise-alpenz\/recipe-dS4cfKwg3K-1703006037-managed.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-dS4cfKwg3K-1703006037-managed-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-dS4cfKwg3K-1703006037-static.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-dS4cfKwg3K-1703006037-static-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-dS4cfKwg3K-1703006037.jpg" : {
+      "ft" : 16384,
+      "iS" : 2544072,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-dS4cfKwg3K-1703006037.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/mixtech-enterprise-alpenz\/recipe-dSfvl1PInt-1666043479-managed.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -57278,6 +57341,35 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/mixtech-enterprise-alpenz\/recipe-ThSF4MEscy-1666043477.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-TIuQmW8rYP-1702410172-managed.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-TIuQmW8rYP-1702410172-managed-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-TIuQmW8rYP-1702410172-static.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-TIuQmW8rYP-1702410172-static-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-TIuQmW8rYP-1702410172.jpg" : {
+      "ft" : 16384,
+      "iS" : 3266147,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-TIuQmW8rYP-1702410172.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -64619,6 +64711,14 @@
       "oAP" : "\/recipe-5TmpqrcqnY.html",
       "oF" : 0
     },
+    "\/recipe-5tSTLce4Yq.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-5tSTLce4Yq.html",
+      "oF" : 0
+    },
     "\/recipe-5tTdXlAhvb.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -65291,6 +65391,14 @@
       "oAP" : "\/recipe-B97l3v6ucD.html",
       "oF" : 0
     },
+    "\/recipe-BBueIVhCyl.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-BBueIVhCyl.html",
+      "oF" : 0
+    },
     "\/recipe-BcWkQpt594.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -65841,6 +65949,14 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/recipe-EcEiMsFHrA.html",
+      "oF" : 0
+    },
+    "\/recipe-eCILxe2sx3.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-eCILxe2sx3.html",
       "oF" : 0
     },
     "\/recipe-ecJe9nVNsR.html" : {
@@ -67145,6 +67261,14 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/recipe-lfg7DcMY7x.html",
+      "oF" : 0
+    },
+    "\/recipe-liXMLUvR8V.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-liXMLUvR8V.html",
       "oF" : 0
     },
     "\/recipe-ljn3dWFhnM.html" : {
@@ -69067,6 +69191,14 @@
       "oAP" : "\/recipe-wWxs4jlKsd.html",
       "oF" : 0
     },
+    "\/recipe-wwZNFmbhlL.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-wwZNFmbhlL.html",
+      "oF" : 0
+    },
     "\/recipe-X2MzSXcEtd.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -70489,6 +70621,14 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/vintage-2013.html",
+      "oF" : 0
+    },
+    "\/vintage-2014.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/vintage-2014.html",
       "oF" : 0
     },
     "\/vintage-2015.html" : {

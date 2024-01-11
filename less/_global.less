@@ -2780,13 +2780,18 @@ td.ing {
 	@media only screen and (max-width: @sizes[mobile])  {
 		width: 100%;
 
-		.vintage-category { display: block; margin-top: 1em; }
+		.vintage-category { 
+			display: block; 
+			margin-top: 1em; 
+			margin-bottom: 0.5em;
+		}
+
 		th:not(.vintage-category) { display: none; }
 
 		td {
 			display: block;
 			white-space: inherit !important;
-			margin-bottom: 0.5em;
+			margin-bottom: 1em;
 		}
 
 		td[data-cell="category"] {
@@ -2799,7 +2804,10 @@ td.ing {
 			font-weight: bold;
 		}
 		td[data-cell="product"] {
-			padding-left: 3em;
+			line-height: 1.2;
+			padding-left: 1em;
+			text-wrap: pretty;
+			// background-color: green;
 		}
 	}
 }

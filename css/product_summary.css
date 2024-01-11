@@ -2140,6 +2140,7 @@ td.ing {
   .nonvintage-summary-table .vintage-category {
     display: block;
     margin-top: 1em;
+    margin-bottom: 0.5em;
   }
   .vintage-summary-table th:not(.vintage-category),
   .nonvintage-summary-table th:not(.vintage-category) {
@@ -2149,7 +2150,7 @@ td.ing {
   .nonvintage-summary-table td {
     display: block;
     white-space: inherit !important;
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
   }
   .vintage-summary-table td[data-cell="category"],
   .nonvintage-summary-table td[data-cell="category"] {
@@ -2165,7 +2166,9 @@ td.ing {
   }
   .vintage-summary-table td[data-cell="product"],
   .nonvintage-summary-table td[data-cell="product"] {
-    padding-left: 3em;
+    line-height: 1.2;
+    padding-left: 1em;
+    text-wrap: pretty;
   }
 }
 @media only screen and (max-width: 420px) {
