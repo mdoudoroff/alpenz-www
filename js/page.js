@@ -48,6 +48,26 @@ jQuery(document).ready(function() {
 		}
 	});
 
+	var vintagesAgeStatementsSwitch = 'vintages';
+	$('.vintagesAgeStatementsSwitch').click(function() {
+		if (vintagesAgeStatementsSwitch === 'vintages') {
+			vintagesAgeStatementsSwitch = 'nonvintages';
+			$('.vintageitems').hide();
+			$('.nonvintageitems').show();
+			$('#vintagesSwitch').removeClass('selected');
+			$('#nonvintagesSwitch').addClass('selected');
+			$('#vintageYearJump').hide();
+		} else {
+			vintagesAgeStatementsSwitch = 'vintages';
+			$('.vintageitems').show();
+			$('.nonvintageitems').hide();
+			$('#vintagesSwitch').addClass('selected');
+			$('#nonvintagesSwitch').removeClass('selected');
+			$('#vintageYearJump').show();
+		}
+	});
+
+
 	var vintageSwitchState = 'groupingYear';
 	$('.vintageSwitch').click(function() {
 		if (vintageSwitchState === 'groupingYear') {

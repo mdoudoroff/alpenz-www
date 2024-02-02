@@ -3535,7 +3535,8 @@ div.grouping .corralBottle img {
   display: none;
 }
 .madeiraSwitch,
-.vintageSwitch {
+.vintageSwitch,
+.vintagesAgeStatementsSwitch {
   text-align: center;
   clear: both;
   margin-bottom: 1em;
@@ -3546,8 +3547,10 @@ div.grouping .corralBottle img {
 }
 .madeiraSwitch span,
 .vintageSwitch span,
+.vintagesAgeStatementsSwitch span,
 .madeiraSwitch span.selected,
-.vintageSwitch span.selected {
+.vintageSwitch span.selected,
+.vintagesAgeStatementsSwitch span.selected {
   display: inline-block;
   padding: 8px 16px;
   margin: 0;
@@ -3560,8 +3563,10 @@ div.grouping .corralBottle img {
 }
 .madeiraSwitch span:hover,
 .vintageSwitch span:hover,
+.vintagesAgeStatementsSwitch span:hover,
 .madeiraSwitch span.selected:hover,
-.vintageSwitch span.selected:hover {
+.vintageSwitch span.selected:hover,
+.vintagesAgeStatementsSwitch span.selected:hover {
   cursor: pointer;
   color: #fff;
   background: #d11713;
@@ -3569,25 +3574,36 @@ div.grouping .corralBottle img {
 @media only screen and (max-width: 420px) {
   .madeiraSwitch span,
   .vintageSwitch span,
+  .vintagesAgeStatementsSwitch span,
   .madeiraSwitch span.selected,
-  .vintageSwitch span.selected {
+  .vintageSwitch span.selected,
+  .vintagesAgeStatementsSwitch span.selected {
     font-size: 16px;
     padding: 6px 14px;
   }
 }
 .madeiraSwitch span.selected,
-.vintageSwitch span.selected {
+.vintageSwitch span.selected,
+.vintagesAgeStatementsSwitch span.selected {
   color: #484848;
   text-decoration: underline;
 }
 .madeiraSwitch span.selected:hover,
-.vintageSwitch span.selected:hover {
-  cursor: inherit;
+.vintageSwitch span.selected:hover,
+.vintagesAgeStatementsSwitch span.selected:hover {
+  cursor: auto;
   color: inherit;
   background: inherit;
 }
-.vintageSwitch {
+.vintageSwitch,
+.vintagesAgeStatementsSwitch {
   border-top: 2px solid #dddcd8;
+  text-align: left;
+  border: 0;
+  margin: 0;
+}
+#vintageYearJump {
+  margin-top: 0.5em;
 }
 h5 {
   font-family: lora, serif;
