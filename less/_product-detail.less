@@ -16,7 +16,6 @@
 
 .vitals {
 
-	// margin: 0 0.5em;
 	-moz-column-count: 2;
 	column-count: 2;
 	column-gap: 1.5em;
@@ -34,36 +33,22 @@
 	p {
 		width: 100%;
 		margin: 10px 0 0 0;
-		// line-height: 20px;
 		
 		text-align: left;
 		
 		span {
 			margin-right: 15px;
-			
-			a {
-				// color: @text_color;
-			}
 		}
 	}
 		
 
 	.description p {
-		// font-size: 100%;
 		line-height: 1.3;
-
-		@media only screen and (max-width: @sizes[mobile])  {
-			// font-size: 80%;
-		}
-
 	}
 
 	td.categorization, th.categorization {
 
 		margin-top: 0.25em;
-
-		// text-transform: uppercase;
-		// font-weight: 700;		
 
 		font-size: 90%;
 
@@ -72,9 +57,6 @@
 	th.categorization {
 		padding-right: 1em;
 		vertical-align: top;
-		@media only screen and (max-width: @sizes[mobile])  {
-			// display: none;
-		}
 	}
 
 	.highlights {
@@ -133,12 +115,10 @@
 
 	img {
 		width: 100%;
-		// display: block;
 	}
 
 	img.wideimage {
 		width: 100%;
-		// display: block;
 	}
 
 	#picBottle {
@@ -151,15 +131,12 @@
 		border-bottom: 0.5em solid transparent;
 
 		img {
-			// width: 50%;
-			// width:60%;
 			margin: 0 auto;
 		}
 
 	}
 
 	#picLabel, #picContext {
-		// width: 50%;
 		width: 50%;
 
 		figure {
@@ -189,8 +166,6 @@
 	@media print {
 		float: right;
 		width: 60%;
-		// margin-left: auto;
-		// margin-right: auto;
 		margin-left: 1em;
 	}
 }
@@ -233,7 +208,6 @@
 		width: auto;
 		border-top: 1px solid @body_background;
 		border-left: 1px solid @body_background;
-		// font-family: @dense-content-font;
 		font-family: @body-font;
 		margin-bottom: 0.5em; // this is space for the scrollbar
 	
@@ -248,11 +222,9 @@
 			font-weight: 800;
 			text-transform: uppercase;
 			font-size: 13px;
-			// font-family: @dense-content-font;
 		}
 		td {
 			font-size: 14px;
-			// font-family: @dense-content-font;
 			font-weight: 100;
 		}
 	}
@@ -320,35 +292,24 @@
 	padding-top: 1em;
 
 	width: 100%;
-	// padding-left: 0.5em;
-	// padding-right: 0.5em;
 
 	h2 {
 		font-family: @subheading-font;
 		font-weight: 700;
-		// letter-spacing: 1.5px;
 		color: black;
 	}
 
 	table {
-	    // border-spacing: 0.5em;
-	    // border-collapse: separate;
-	    // border-right: none;
-	    // border-left: none;
 	    margin: 1em 0 0 0;
 	    width: 100%;
 	}
 	td {
 		vertical-align: top;
-		// padding-bottom: 1em;
 		width: 100%;
 
 	}
 
 	.recipe {
-
-		
-		// 
 
 		padding: 0;
 		margin: 0 1em 1em 0;
@@ -360,10 +321,6 @@
 		@media only screen and (max-width: @sizes[mobile])  {
 			width: 45%;
 		}
-
-		// &:nth-child(4n) {
-		// 	margin-right: 0;
-		// }
 
 		h4 a {
 			color: black;
@@ -406,10 +363,6 @@
 	text-transform: none;
 	font-weight: normal;
 	float: right;
-	@media print {
-		// display: inline-block;	// uncomment this for production
-
-	}
 }
 
 .mainalt {
@@ -442,7 +395,6 @@
 		width: 100%; 
 		height: 300px;
 		margin: 0 0 @gutter 0;
-		//@include box-shadow(0 0 3px rgba(0,0,0,.3));
 		page-break-inside: avoid;
 	}
 
@@ -495,7 +447,6 @@
 		width: 32%;
 		padding: 0.5em;
 
-		// font-family: @body-font;
 		font-family: @body-font;
 
 		background-color: @off-grey;
@@ -517,8 +468,6 @@
 		}
 
 		@media only screen and (max-width: @sizes[mobile])  {
-			// width: 100%;
-			// padding: 0.25em;
 			padding: 1%;
 		}
 	

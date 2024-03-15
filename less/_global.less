@@ -17,7 +17,6 @@
 
 body { 
 	font-family: @body-font;
-	// font-size: 15px;
 	font-size: 14px;
 	line-height: 1.4;
 
@@ -26,10 +25,6 @@ body {
 	background: @body_background;
 	color: @text_color;
 	position: relative;
-
-	@media only screen and (max-width: @sizes[mobile])  {
-		// font-size: 80%;
-	}
 
 	@media print {
 		margin: 0;
@@ -61,12 +56,9 @@ a {
 	font-size: 18px;
 	line-height: 1em;
 
-	// @@ 2021
-	// font-family: @subheading-font;
 	font-family: @dense-content-font;
 	font-weight: bold;
 
-	// letter-spacing: 1px;
 	text-transform: uppercase;
 	color: #fff;
 	
@@ -134,9 +126,7 @@ a {
 	background: #fff;
 	position: relative;
 	z-index: 1;
-	
-	// padding-top: 70px;
-	
+		
 	@media only screen and (max-width: @sizes[mobile])  {
 		// minimal padding around everything (except top menu and footer) for mobile
 		margin-left: 5px;
@@ -159,8 +149,6 @@ a {
 	}
 	h1 {
 
-		// @@ 2021
-		// font-family: @heading-font;
 		font-family: @heading-font;
 
 		font-size: 36px;
@@ -176,10 +164,7 @@ a {
 	}
 	h2 {
 
-		// @@ 2021
-		// font-family: @heading-font;
 		font-family: @heading-font;
-		// letter-spacing: 1px;
 		
 		font-size: 22px;
 		font-weight: 600;
@@ -195,27 +180,17 @@ a {
 	}
 	h3 {
 
-		// @@ 2021
 		font-family: @subheading-font;
-		// font-family: @heading-font-alt;
 		color: black;
 
-		// font-size: 16px;
 		font-size: 18px;
 		line-height: 1.0;
-		// font-weight: 100;
 		font-weight: 900;
 		margin: 0 0 0 0;
-		// text-transform: uppercase;
-		// letter-spacing: 2px;
 		
 		&.category_title {
 			font-size: 26px;
 			line-height: 1em;
-		}
-
-		@media only screen and (max-width: @sizes[mobile])  {
-			// font-size: 12px;
 		}
 
 	}
@@ -231,8 +206,6 @@ a {
 
 	h4 {
 
-		// @@ 2021
-		// font-family: @subheading-font;
 		font-family: @heading-font-alt;
 
 		font-size: 16px;
@@ -242,7 +215,6 @@ a {
 	}
 	ul,ol {
 		font-size: 14px;
-		// line-height: 2em;
 		font-weight: 300;
 		margin: 0 0 20px 0;
 	}
@@ -251,19 +223,11 @@ a {
 		margin: 0 0 20px 20px;
 	}
 	p {
-		// font-size: 14px;
-		// line-height: 20px;
 		font-weight: 300;
 		margin: 0 0 20px 0;
-		
-		@media only screen and (max-width: @sizes[mobile])  {
-			// font-size: 17px;
-			// line-height: 22px;
-		}
-		
+				
 		&.note {
 			font-size: 11px;
-			// line-height: 30px;
 			font-style: italic;
 			font-weight: bold;
 		}
@@ -274,8 +238,6 @@ a {
 			@media print {
 				color: inherit;
 			}
-
-
 		}
 	}
 	
@@ -287,14 +249,6 @@ a {
 			margin: 0 20px 10px 0;
 
 		}
-		/*
-		@media only screen and (max-width: @sizes[mobile])  {
-			float: none;
-			width: 100% !important;
-			height: auto !important;
-			margin: 0;
-		}
-		*/
 	}
 
 	
@@ -361,9 +315,7 @@ a {
 				left: 0px;
 				bottom: 0px;
 				color: #fff;
-				
-				// @include background-image(linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.5)));
-				
+								
 				@media print {
 					background: none;
 					position: relative;
@@ -376,10 +328,6 @@ a {
 					position: relative;
 					color: black;
 					text-shadow: none;
-
-					h1 {
-						// font-size: 36px;
-					}
 
 					h3 {
 						color: black;
@@ -447,10 +395,6 @@ a {
 				color: black;
 				text-shadow: none;
 
-				h1 {
-					// font-size: 36px;
-				}
-
 				h3 {
 					color: black;
 					text-shadow: none;
@@ -485,22 +429,6 @@ a {
 
 			figure {
 				margin: 0 1em 1em 0;
-				// width: 46%;
-				// float: left;
-				// &.grid-sizer {
-				// 	width: @col;
-				// }
-				//@include box-shadow(0 0 3px rgba(0,0,0,.3));
-				
-				@media print {
-					//@include box-shadow(none);
-				}
-				// @media only screen and (max-width: @sizes[mobile])  {
-				// 	float: left;
-				// 	width: 45%;
-				// }
-
-
 			}
 			
 			img {
@@ -543,21 +471,12 @@ a {
 
 		.recipe {
 
-			
-			// 
-
 			background: #f3f3f3;
 			padding: 0.5em;
 			margin: 0 0 1em 0;
 			font-size: 11px;
 			vertical-align: top;
 			
-
-
-			// &:nth-child(4n) {
-			// 	margin-right: 0;
-			// }
-
 			h4 a {
 				color: black;
 			}
@@ -573,7 +492,6 @@ a {
 			p {
 				font-family: @body-font;
 				font-size: 11px;
-				// line-height: 18px;
 				margin: 0 0 10px 0;
 				
 				&:last-child {
@@ -725,19 +643,6 @@ a {
 			}
 		}
 
-
-
-
-		// // provisional provision for imagery within the blurbs (this stuff probably needs relocation)
-		// figure {
-
-		// 	img {
-		// 		width:100%;
-		// 		height: auto;
-		// 	}
-		// 	width: 100%;
-		// }
-
 		figure.right {
 
 			width: 80%;
@@ -755,7 +660,6 @@ a {
 		width: 100%; 
 		height: 300px;
 		margin: 0 0 @gutter 0;
-		//@include box-shadow(0 0 3px rgba(0,0,0,.3));
 		page-break-inside: avoid;
 	}
 	
@@ -770,10 +674,6 @@ a {
 			float: none;
 			width: 100%;
 		}
-		@media print {
-			// width: 100%;
-			// float: none;
-		}
 		
 		&.halfwidth {
 			width: @threecol;
@@ -782,12 +682,6 @@ a {
 			@media only screen and (max-width: @sizes[mobile])  {
 				width: 100%;
 				padding: 2%;
-			}
-
-			@media print {
-				// width: 100%;
-				// float: none;
-				// clear: all;
 			}
 		}
 		
@@ -817,7 +711,6 @@ a {
 }
 
 section header {
-	// margin: 0 0.5em;
 	position: relative;
 }
 
@@ -845,29 +738,13 @@ header.producerindex {
 
 		figure.logo {
 			width: 100%;
-			// height: 170px;
 			margin: 1em auto 1em auto;
-			// line-height: 170px;
-
-			img {
-				// width: auto;
-				// height: 170px;
-			}
-
-			img.wideimage {
-				// width: 90%;
-				// height: auto;
-			}
 
 			@media only screen and (max-width: @sizes[mobile])  {
-				// width: 100%;
-				// height: auto;
 				line-height: 1;
 			}
 
 		}
-
-
 
 		@media only screen and (max-width: @sizes[mobile])  {
 			width: 50%;
@@ -1051,7 +928,6 @@ header.producerindex {
 		width: 100%;
 
 		p {
-			// display: inline-block;  // problematic if flowing around text
 			margin-bottom: 0.5em;
 		}
 	}
@@ -1099,16 +975,10 @@ header.producerindex {
 		baseline:bottom;
 		font-weight: bold;
 
-		@media only screen and (max-width: @sizes[mobile])  {
-			// font-size: 80%;
-		}
 	}
 	.secondfeatures figure .caption {
 		font-size: 125%;
 		width: 100%;
-		@media only screen and (max-width: @sizes[mobile])  {
-			// font-size: 80%;
-		}
 	}
 }
 
@@ -1129,10 +999,7 @@ header.producerindex {
 
 .morebutton {
 
-	// @@ 2021
-	// font-family: myriad-pro-condensed, Georgia, Times, serif;
 	font-family: nav-font;
-
 
 	text-transform: uppercase;
 	font-weight: bold;
@@ -1326,8 +1193,6 @@ header.producerindex {
 
 .recipesConcise {
 	margin: 0;
-	// display: flex;
-	// flex-wrap: wrap;
 
 	display: grid;
 	grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
@@ -1362,15 +1227,8 @@ article.product + .recipesConcise {
 }
 
 .recipeConcise {
-	// flex: none;
-	// width: 143px;
-	// margin-right: 1em;
-
-	// font-family: @dense-content-font;
 	font-family: @body-font;
-	// font-size: 13px;
 	font-size: 12px;
-	// color: black;
 
 	padding-bottom: 1em;
 
@@ -1398,8 +1256,6 @@ article.product + .recipesConcise {
 
 
 	.recipeThumb {
-		// width: 140px;
-		// height: 140px;
 		width: 180px;
 		height: 180px;
 		margin-bottom: 10px;
@@ -1416,12 +1272,6 @@ article.product + .recipesConcise {
 		}
 
 		@media only screen and (max-width: @sizes[mobile])  {
-			// width: 100%;
-			// height: 107px; 
-
-			// width: 120px;
-			// height: 120px;
-
 			width: auto;
 			height: auto;
 			aspect-ratio: 1 / 1;
@@ -1444,8 +1294,6 @@ article.product + .recipesConcise {
 	}
 
 	.recipeThumbNarrow {
-		// width: 140px;
-		// height: 150px;
 		width: 180px;
 		height: 190px;
 		text-align: left;
@@ -1460,11 +1308,6 @@ article.product + .recipesConcise {
 		}
 
 		@media only screen and (max-width: @sizes[mobile])  {
-			// width: 100%;
-			// height: 107px;
-			// width: 120px;
-			// height: 120px;
-
 			width: auto;
 			height: auto;
 			aspect-ratio: 1 / 1;
@@ -1480,22 +1323,14 @@ article.product + .recipesConcise {
 
 
 	.recipeThumbPlaceholder {
-		// width: 140px;
 		width: 180px;
-		// height: 150px;
 		height: 190px;
 
 		a {
-			// to make pictures clickable
-			// display: block;
-			// width: 100%;
-			// height: 100%;
 			text-decoration: none;
 		}
 
 		.recipeThumbPlaceholderBkgd {
-			// width: 140px;
-			// height: 140px;
 			width: 180px;
 			height: 180px;
 			background-color: @off-grey;
@@ -1503,24 +1338,10 @@ article.product + .recipesConcise {
 			align-items: center;
 			justify-content: center;
 
-
-			.recIcon {
-				// background-color: yellow;
-				// opacity: 50%;
-
-
-			}
-
-
 			@media only screen and (max-width: @sizes[mobile])  {
-				// width: 120px;
-				// height: 120px;
-
 				width: auto;
 				height: auto;
 				aspect-ratio: 1 / 1;
-
-
 			}
 		}
 
@@ -1529,25 +1350,13 @@ article.product + .recipesConcise {
 		}
 
 		@media only screen and (max-width: @sizes[mobile])  {
-			// width: 100%;
-			// height: 107px; 
-
-			// width: 120px;
-			// height: 120px;
-
 			width: auto;
 			height: auto;
 			aspect-ratio: 1 / 1;
 
-
 			margin-bottom: 10px;
-
 		}
 	}
-
-
-
-
 }
 
 
@@ -1560,8 +1369,6 @@ article.product + .recipesConcise {
 
 .mainalt {
 	width: 100%;
-	// padding-left: 0.5em;
-	// padding-right: 0.5em;
 }
 
 .inlineButton {
@@ -1570,21 +1377,13 @@ article.product + .recipesConcise {
 
 .inlineButton, #recipeFiltersMoreButton {
 
-
-	// font-size:100%;
 	text-transform: uppercase;
 
-	// @@ 2021	
-	// font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-	// font-family: @nav-font;
 	font-family: @nav-font-alt2;
-
-	// letter-spacing: 1px;
 
 	font-weight: 700;
 	color:@red;
 
-	// padding-top: 1px;  // fine-tuning
 	padding-left: 6px;
 	padding-right: 6px;
 	border: 1px solid @red;
@@ -1673,8 +1472,6 @@ img.socialButton {
 		text-align: center;
 
 		div {
-			// -ms-writing-mode: tb-rl;
-			// wdeprecated---canebkit-writing-mode: vertical-rl;
 			writing-mode: vertical-rl;
 			transform: rotate(180deg);
 			white-space: nowrap;	
@@ -1690,7 +1487,6 @@ img.socialButton {
 
 	@media only screen and (max-width: @sizes[mobile])  {
 		padding: 0.5em 0.5em;
-		// background: none;
 	}
 
 	p {
@@ -1767,10 +1563,8 @@ ul.originTiles {
 	li {
 		vertical-align: top;
 		margin: 0;
-		// width: 180px;
 		width: 150px;
 		display: inline-block;
-		// height: 250px;
 		height: 189px;
 		margin-right: 6px;
 
@@ -1784,8 +1578,6 @@ ul.originTiles {
 
 		.maplet {
 			position: relative;
-			// width: 180px;
-			// height: 180px;
 			width: 150px;
 			height: 150px;
 			padding: 0.5em;
@@ -1882,7 +1674,6 @@ ul.producerTiles {
 		display: inline-block;
 		margin-right: 6px;
 
-		// font-family: @subheading-font;
 		font-family: @nav-font;
 		font-size: 11px;
 		line-height: 11px;
@@ -1931,9 +1722,6 @@ ul.producerTiles {
 			font-family: @subheading-font;
 			margin-bottom: 1em;
 			margin-right: 0;
-			// padding-right: 0.5em;
-
-			// background-color: yellow;
 		
 			a:hover .logo {
 				border-color: @link_hover;
@@ -1977,7 +1765,6 @@ ul.producerTiles {
 	}
 
 	.logoCorral {
-		// margin-left: 500px;
 
 		@media only screen and (max-width: @sizes[mobile])  {
 			margin-left: 0;
@@ -2044,8 +1831,6 @@ figure.productDetailMasterMap {
 
 	.customMap {
 		width: 100%;
-		// width: 50%; // ideally, this is 460px, but we’re cheating a little to
-					  // accomodate producer logo tiles
 		height: auto;
 					  
 
@@ -2088,9 +1873,6 @@ figure.productDetailMasterMap {
 .countryDetailGmap {
 	float: none;
 	margin: 0 0 1em 0;
-	// float: right;
-	// margin-left: 1em;
-	// margin-right: 0;
 }
 
 .originOutline {
@@ -2105,7 +1887,6 @@ figure.productDetailMasterMap {
 	width: 108px;
 	height: 108px;
 	display: inline-block;
-	// background-color: yellow;
 	margin: 0 0.5em 0.5em 0;
 	vertical-align: top;
 	img {
@@ -2160,21 +1941,11 @@ dd {
 		height: 2px;
 		background: #dddcd8;
 		margin: 0.5em 0;
-		// background-image: linear-gradient(to right, #ccc, #333, #ccc);
 	}
 
-	img {
-		// the following is problematic
-		// width: 100%;  
-	}
-
-	// @@ 2021
-	// font-family: Georgia, serif;
 	font-family: @article-body-font;
-	// font-family: @body-font;
 
 	font-size: 16px;
-	// line-height: 1.3;
 	line-height: 1.4;
 
 	@media only screen and (max-width: @sizes[mobile])  {
@@ -2200,8 +1971,6 @@ dd {
 			text-transform: uppercase;
 			padding: 3px 9px;
 			font-weight: bold;
-			// letter-spacing: 1px;		
-
 
 			@media only screen and (max-width: @sizes[mobile])  {
 				font-size: 12px;
@@ -2235,13 +2004,10 @@ dd {
 
 	h2, h3 {
 
-		// @@ 2021
-		// font-family: Georgia, serif;
 		font-family: @heading-font;
 		color: black;
 
 		text-transform: none;
-		// letter-spacing: 1px;
 		font-weight: normal;
 		line-height: 1.3;
 	}
@@ -2249,7 +2015,6 @@ dd {
 	h2 {
 		font-size: 27px;
 		font-weight: bold;
-		// color: @yellow;
 		margin-top: 1.2em;
 		margin-bottom: 0.25em;
 
@@ -2274,8 +2039,6 @@ dd {
 		margin-left: 170px;
 		max-width: 620px;
 
-		// font-family: @pull-quote-font;
-		// text-align: center;
 		font-style: normal;
 
 		@media only screen and (max-width: @sizes[mobile])  {
@@ -2354,10 +2117,6 @@ dd {
 				height: auto;
 			}
 		}
-
-		// @media only screen and (max-width: @sizes[mobile])  {
-		// 	width: 100%;
-		// }
 	}
 
 	figure.aside {
@@ -2389,8 +2148,6 @@ dd {
 				height: auto;
 				margin: 0;
 			}
-
-
 		}
 	}
 
@@ -2406,7 +2163,6 @@ dd {
 
 	div.recipeFull {
 		margin-left: 170px;
-		// max-width: 480px;
 		display: block;
 
 		h1 {
@@ -2560,8 +2316,6 @@ ul.articleCategories {
 		width: 110px;
 		height: 110px;
 		overflow: hidden;
-
-		// border: 2px solid @light_grey;
 
 		img {
 			width: 100%;

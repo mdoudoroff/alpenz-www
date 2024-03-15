@@ -1,7 +1,7 @@
 // @codekit-prepend "photoswipe.js";
 // @codekit-prepend "photoswipe-ui-default.js";
 
-jQuery(document).ready(function() {
+window.onload = (event) => {
 
 	var initPhotoSwipeFromDOM = function(gallerySelector) {
 
@@ -196,4 +196,4 @@ jQuery(document).ready(function() {
 	// execute above function
 	initPhotoSwipeFromDOM('.my-gallery');
 
-});
+};

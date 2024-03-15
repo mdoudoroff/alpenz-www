@@ -209,16 +209,6 @@ a h2 {
     color: inherit;
   }
 }
-.content img {
-  /*
-		@media only screen and (max-width: @sizes[mobile])  {
-			float: none;
-			width: 100% !important;
-			height: auto !important;
-			margin: 0;
-		}
-		*/
-}
 .content img.left {
   width: 50%;
   margin: 0 20px 10px 0;

@@ -15,14 +15,9 @@
 	width: 100%;
 	min-width: @site_width;
 	position: relative; // fixed;
-	// z-index: 100;
 	padding: 0;
 	background: @off-grey;
 	
-	// box-shadow: 0 0 15px rgba(0,0,0,.2);
-
-
-	// height: 127px; // new header
 	height: 81px; // new header
 
 	@media only screen and (max-width: @sizes[mobile])  {
@@ -58,8 +53,6 @@
 		line-height: 70px;
 
 		position: absolute;
-		// top: 3px; // new header
-		// left: 8px; // new header
 		top: 9px; // new header
 		left: 9px; // new header
 
@@ -81,16 +74,12 @@
 			font-size: 0;
 			display: block;
 			height: 100%;
-			// background: url('../assets/logo-wide.png') no-repeat;
 			background: url('../assets/logo-wide-dev.png') no-repeat;
-			// background-size: @logowidth @logoheight;
 			background-size: @logowidth auto;
 
 			@media only screen and (max-width: @sizes[mobile])  {
-				// background: url('../assets/logo-wide.png') no-repeat;
 				margin: 0 auto;
 				width: calc(@logowidth/2);
-				// background-size: (@logowidth / 2) (@logoheight / 2);
 
 				background: url('../assets/logo-wide-dev.png') no-repeat;
 				background-size: calc(@logowidth / 2) auto;
@@ -124,7 +113,6 @@
 		}
 				
 		a { 
-			//@include hide-text(left);
 			font-size:0;
 			display: block;
 			position: relative;
@@ -150,9 +138,7 @@
 		left: 9px; // new header
 
 		a {
-			// background: url('../assets/logo-combo.png') no-repeat;
 			background: url('../assets/logo-wide-dev.png') no-repeat;
-			// background-size: @combologowidth @combologoheight;
 			background-size: @logowidth auto;
 
 			@media only screen and (max-width: @sizes[mobile])  {
@@ -244,17 +230,9 @@
 		right: 0;
 		top: 9px;
 
-		// @@ 2021
-		// font-family: @subheading-font;
 		font-family: @nav-font;
-
-		// @@ 2021
 		font-size: 15px;
-		// font-size: 14px;
-
-		// font-weight: 700;
 		text-transform: uppercase;
-		// letter-spacing: 1px;
 
 		a { 
 			display: block;
@@ -291,20 +269,11 @@
 		flex-wrap: nowrap;
 		justify-content: space-between;
 		align-items: baseline;
-		// background-color: yellow;
-
-		// margin-left: 9px;
-		// margin-right:9px;
 		padding: 0;
 
 		width: 100%;
 
-		// @@ 2021
-		// font-family: @subheading-font;
 		font-family: @nav-font;
-
-		// @@ 2021
-		// font-size: 15px;
 		font-size: 14px;
 
 		font-weight: 700;
@@ -323,12 +292,10 @@
 			position: relative;
 			display: inline-block;
 
-			// background-color: green;
 			list-style: none;
 			text-align: center;
 			padding: 0;
 			line-height: 36px;
-			// letter-spacing: 1px;
 			
 			@media only screen and (max-width: @sizes[mobile])  {
 				width: 100%;
@@ -338,9 +305,6 @@
 		
 			a { 
 				display: block;
-
-				// @@ 2021
-				// padding: 0 @gutter;
 
 				text-decoration: none;
 				color: #333;
