@@ -7,12 +7,28 @@ var vintagesAgeStatementsSwitchState = 'vintages';
 var groupingSwitchState = 'groupingYear';
 
 
+function toggleMobileNav() {
+	main = document.getElementsByTagName('main')[0];
+	backdrop = document.getElementById('modal__backdrop');
+	menu = document.getElementsByClassName('sidebar2')[0];
+	if (main.style.display !== 'none') {
+		main.style.display = 'none';
+		backdrop.style.display = 'block';
+		menu.style.display = 'block';
+	} else {
+		main.style.display = 'block';
+		backdrop.style.display = 'none';
+		menu.style.display = 'none';
+	}
+}
+
+
 
 
 window.onload = (event) => {
 
 	// vintage year jump selector found on various pages
-	vintageSelectElement = document.querySelector("#vintageYearSelect");
+	vintageSelectElement = document.getElementById("vintageYearSelect");
 	if (vintageSelectElement) {
 		vintageSelectElement.addEventListener("change", (event) => {
 			window.location.href = event.target.value;
@@ -72,15 +88,43 @@ window.onload = (event) => {
 	}
 
 
+	// mobile nav
+	document.getElementsByClassName("toggle__mobile__nav")[0].onclick = function() {
+		toggleMobileNav();
+		return false;		
+	}
+	document.getElementById("modal__backdrop").onclick = function() {
+		toggleMobileNav();
+		return false;		
+	}
+	document.getElementById("dismissMenu").onclick = function() {
+		toggleMobileNav();
+		return false;		
+	}
+
+
+	// search
+	searchLinks = document.getElementsByClassName('invoke__search');
+	for (var i = 0; i < searchLinks.length; i++ ) {
+		searchLinks[i].onclick = function() {
+			createSearchOverlay();
+			return false;
+		};
+	}
+
+
+	// escape key
+	document.addEventListener("keydown", (event) => {
+		if (event.keyCode==27) {
+			dismissSearchOverlay();
+		}
+	});
 
 
 	// fire up the gallery-overlay lightbox code, if applicable
 	if (document.getElementsByClassName("my-gallery").length > 0) {
 		initPhotoSwipeFromDOM('.my-gallery');		
 	}
-
-
-
 
 
 
@@ -138,29 +182,4 @@ function updateVintageExploreList() {
 
 	}
 }
-
-jQuery(document).ready(function() {
-
-
-	$(".toggle").click(function() {
-		$("#regularContent").toggle();
-		$("#modal").toggle();
-		$(".sidebar2").toggle();
-	});
-	$("#modal").click(function() {
-		$("#regularContent").toggle();
-		$("#modal").toggle();
-		$(".sidebar2").toggle();
-	});
-	$("#dismissMenu").click(function() {
-		$("#regularContent").toggle();
-		$("#modal").toggle();
-		$(".sidebar2").toggle();
-	});
-
-
-
-});
-
-
 

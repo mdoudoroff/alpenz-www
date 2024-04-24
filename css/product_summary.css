@@ -2320,7 +2320,7 @@ td.ing {
     display: none;
   }
 }
-.header .toggle {
+.header .toggle__mobile__nav {
   display: none;
   position: absolute;
   top: 0px;
@@ -2335,7 +2335,7 @@ td.ing {
   text-transform: uppercase;
 }
 @media only screen and (max-width: 420px) {
-  .header .toggle {
+  .header .toggle__mobile__nav {
     line-height: 36px;
     height: 40px;
     display: block;
@@ -2815,7 +2815,7 @@ td.ing {
     grid-row: 4/5;
   }
 }
-#modal {
+#modal__backdrop {
   display: none;
   position: fixed;
   width: 100%;

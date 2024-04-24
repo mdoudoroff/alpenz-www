@@ -8,8 +8,8 @@ function dismissSearchOverlay() {
 function createSearchOverlay() {
 	var shadowbox = $('<div id="shadowbox"></div>');
 	var searchoverlay = $('<div id="searchOverlay"><div class="searchBar">Search Haus Alpenz (just try a few letters): <input id="searchBox" /></div><span id="dismissSearchOverlay"><img src="gfx/dismiss.png" height="18" width="18" /></span><div id="searchResults"></div></div>');
-	$('#regularContent').append(shadowbox);
-	$('#regularContent').append(searchoverlay);
+	$('main').append(shadowbox);
+	$('main').append(searchoverlay);
 	shadowbox.click(function(){
 		dismissSearchOverlay();
 	});
@@ -63,21 +63,3 @@ function createSearchOverlay() {
 	}));
 }
 
-jQuery(document).ready(function() {
-
-
-	$(document).keyup(function(e) {
-		if (e.keyCode === 27) { // escape key maps to keycode `27`
-			dismissSearchOverlay();
-    	}	
-	});
-
-	$('#invokeSearchOverlay').click(function() {
-		createSearchOverlay();
-	});
-
-	$('#invokeSearchOverlayMobile').click(function() {
-		createSearchOverlay();
-	});
-
-});

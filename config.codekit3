@@ -7,7 +7,7 @@
       "uuidString" : "B5ADC2AB-4759-4D37-B9EB-92E440ECE0B5"
     }
   ],
-  "creatorBuild" : "34564",
+  "creatorBuild" : "34576",
   "files" : {
     "\/.bust-digest.txt" : {
       "cB" : 0,
@@ -47212,6 +47212,17 @@
       "mi" : 1,
       "oA" : 1,
       "oAP" : "\/js\/debounce-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/gallery-overlay-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/gallery-overlay-min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
