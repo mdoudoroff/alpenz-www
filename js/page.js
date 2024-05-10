@@ -1,16 +1,15 @@
 // @codekit-prepend "site-search.js";
 // @codekit-prepend "gallery-overlay.js";
 
-var madeiraSwitchState = 'groupingFamily';
-
-var vintagesAgeStatementsSwitchState = 'vintages';
-var groupingSwitchState = 'groupingYear';
+let madeiraSwitchState = 'groupingFamily';
+let vintagesAgeStatementsSwitchState = 'vintages';
+let groupingSwitchState = 'groupingYear';
 
 
 function toggleMobileNav() {
-	main = document.getElementsByTagName('main')[0];
-	backdrop = document.getElementById('modal__backdrop');
-	menu = document.getElementsByClassName('sidebar2')[0];
+	const main = document.getElementsByTagName('main')[0];
+	const backdrop = document.getElementById('modal__backdrop');
+	const menu = document.getElementsByClassName('sidebar2')[0];
 	if (main.style.display !== 'none') {
 		main.style.display = 'none';
 		backdrop.style.display = 'block';
@@ -28,7 +27,7 @@ function toggleMobileNav() {
 window.onload = (event) => {
 
 	// vintage year jump selector found on various pages
-	vintageSelectElement = document.getElementById("vintageYearSelect");
+	const vintageSelectElement = document.getElementById("vintageYearSelect");
 	if (vintageSelectElement) {
 		vintageSelectElement.addEventListener("change", (event) => {
 			window.location.href = event.target.value;
@@ -36,7 +35,7 @@ window.onload = (event) => {
 	}
 
 	// @@ this code is only relevant on a few pages... consolidate elsewhere?
-	madeiraSwitch = document.querySelector(".madeiraSwitch");
+	const madeiraSwitch = document.querySelector(".madeiraSwitch");
 	if (madeiraSwitch) {
 		madeiraSwitch.addEventListener("click", (event) => {
 
@@ -58,7 +57,7 @@ window.onload = (event) => {
 	}
 
 	// @@ TODO these items (and the function below) belong exclusively to a single page and should be consolidated there
-	vintageAgeStatementsSwitch = document.querySelector(".vintagesAgeStatementsSwitch");
+	const vintageAgeStatementsSwitch = document.querySelector(".vintagesAgeStatementsSwitch");
 	if (vintageAgeStatementsSwitch) {
 
 		updateVintageExploreList(); // initialize state
@@ -73,7 +72,7 @@ window.onload = (event) => {
 			updateVintageExploreList();
 		});
 
-		groupingSwitch = document.querySelector('.vintageSwitch');
+		const groupingSwitch = document.querySelector('.vintageSwitch');
 		if (groupingSwitch) {
 			groupingSwitch.addEventListener("click", (event) => {
 
@@ -105,7 +104,7 @@ window.onload = (event) => {
 
 	// search
 	searchLinks = document.getElementsByClassName('invoke__search');
-	for (var i = 0; i < searchLinks.length; i++ ) {
+	for (let i = 0; i < searchLinks.length; i++ ) {
 		searchLinks[i].onclick = function() {
 			createSearchOverlay();
 			return false;
@@ -151,11 +150,11 @@ function updateVintageExploreList() {
 	if (vintagesAgeStatementsSwitchState == 'vintages') {
 
 		tmp = document.getElementsByClassName("vintageitems");
-		for (var i = 0; i < tmp.length; i++) {
+		for (let i = 0; i < tmp.length; i++) {
 			tmp[i].style.display = 'block';
 		}
 		tmp = document.getElementsByClassName("nonvintageitems");
-		for (var i = 0; i < tmp.length; i++) {
+		for (let i = 0; i < tmp.length; i++) {
 			tmp[i].style.display = 'none';
 		}
 
@@ -167,11 +166,11 @@ function updateVintageExploreList() {
 	} else {
 
 		tmp = document.getElementsByClassName("vintageitems");
-		for (var i = 0; i < tmp.length; i++) {
+		for (let i = 0; i < tmp.length; i++) {
 			tmp[i].style.display = 'none';
 		}
 		tmp = document.getElementsByClassName("nonvintageitems");
-		for (var i = 0; i < tmp.length; i++) {
+		for (let i = 0; i < tmp.length; i++) {
 			tmp[i].style.display = 'block';
 		}
 

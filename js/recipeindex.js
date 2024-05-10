@@ -1,7 +1,7 @@
 // @codekit-prepend "page.js";
 
 function setCookie(name,value,days) {
-    var expires = "";
+    let expires = "";
     if (days) {
         var date = new Date();
         date.setTime(date.getTime() + (days*24*60*60*1000));
@@ -10,10 +10,10 @@ function setCookie(name,value,days) {
     document.cookie = name + "=" + (value || "")  + expires + "; path=/";
 }
 function getCookie(name) {
-    var nameEQ = name + "=";
-    var ca = document.cookie.split(';');
-    for(var i=0;i < ca.length;i++) {
-        var c = ca[i];
+    const nameEQ = name + "=";
+    const ca = document.cookie.split(';');
+    for (let i=0;i < ca.length;i++) {
+        let c = ca[i];
         while (c.charAt(0)==' ') c = c.substring(1,c.length);
         if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
     }
@@ -25,32 +25,31 @@ function eraseCookie(name) {
 
 function scrapeFilters() {
 
-	let currentURL = new URL(document.location);
-	let qparams = currentURL.searchParams;
+	const currentURL = new URL(document.location);
+	const qparams = currentURL.searchParams;
 	qparams.delete('iid');
 	qparams.delete('license');
 	qparams.delete('tag');
 
-	var groups = [];
-	var groupsForCookie = [];
-	var kws;
-	var e = document.getElementById("ingredientChooser");
-	if ( e.value.length>0 ) {
-		groups.push( [e.value] );
-		groupsForCookie.push( e.value );
-		qparams.append('iid', e.value );
+	const groups = [];
+	const groupsForCookie = [];
+	const ingredientChooser = document.getElementById("ingredientChooser");
+	if ( ingredientChooser.value.length>0 ) {
+		groups.push( [ingredientChooser.value] );
+		groupsForCookie.push( ingredientChooser.value );
+		qparams.append('iid', ingredientChooser.value );
 	}
-	e = document.getElementById("licenseChooser");
-	if ( e.value.length>0) {
-		groups.push( [e.value] );
-		groupsForCookie.push( e.value );
-		qparams.append('license', e.value );
+	const licenseChooser = document.getElementById("licenseChooser");
+	if ( licenseChooser.value.length>0) {
+		groups.push( [licenseChooser.value] );
+		groupsForCookie.push( licenseChooser.value );
+		qparams.append('license', licenseChooser.value );
 	}
 
 	const fieldsets = document.getElementsByTagName('fieldset');
-	for (var x=1;x<fieldsets.length+1;x++) {
-		kws = [];
-		activeSwitches = document.querySelectorAll('#filtergroup'+x+' input:checked');
+	for (let x=1;x<fieldsets.length+1;x++) {
+		const kws = [];
+		const activeSwitches = document.querySelectorAll('#filtergroup'+x+' input:checked');
 		activeSwitches.forEach(thingy => {
 			kws.push( thingy.value.replace(' ','_').replace('/','_') );
 			groupsForCookie.push(thingy.value.replace(' ','_').replace('/','_'))
@@ -74,8 +73,8 @@ function scrapeFilters() {
 function restoreFilters(vals) {
 
 	// fetch the URL and querystring; sanitize
-	let currentURL = new URL(document.location);
-	let qparams = currentURL.searchParams;
+	const currentURL = new URL(document.location);
+	const qparams = currentURL.searchParams;
 	qparams.delete('iid');
 	qparams.delete('license');
 	qparams.delete('tag');
@@ -91,7 +90,7 @@ function restoreFilters(vals) {
 			qparams.append('license',val);
 		} else {
 
-			activeSwitches = document.querySelectorAll('input[name='+val+']');
+			const activeSwitches = document.querySelectorAll('input[name='+val+']');
 			activeSwitches.forEach(thingy => {
 				thingy.checked = true;
 			});
@@ -112,63 +111,74 @@ function resetFilters() {
 }
 
 function refilterRecipes() {
-	var filterGroups = scrapeFilters();
+	const filterGroups = scrapeFilters();
+	let matches = [];
 
 	if (filterGroups.length===0) {
 		matches = document.querySelectorAll('.recipeSummaries tr');
 		matches.forEach(el => el.style.display = 'table-row');
 		document.getElementById('matchesAnnotation').innerHTML = matches.length + ' recipes';
 	} else {
-		allrows = document.querySelectorAll('.recipeSummaries tr');
+		const allrows = document.querySelectorAll('.recipeSummaries tr');
 		matches = [];
-		allrows.forEach( e => {
-			pass = true;
-			for (var groupIdx=0; groupIdx < filterGroups.length; groupIdx++) {
-				groupPass = false;
+		allrows.forEach( row => {
+
+			row.style.display = 'none'; // hide the row by default
+
+			let rowPass = true;
+
+			let rowClasses = Array.from(row.classList);
+
+			for (let groupIdx=0; groupIdx < filterGroups.length; groupIdx++) {
+
+				let groupPass = false;
+
+				// if the classList contains at least one of the kw for this group, it meets the requirement for the group
 				filterGroups[groupIdx].forEach( kw => {
-					if (Array.from(e.classList).includes(kw)) {
+					if (rowClasses.includes(kw)) {
 						groupPass = true;
 					}
 				});
+
+				// if any group fails, we filter out the row
 				if (!groupPass) {
-					pass = false;
+					rowPass = false;
 				}
+
 			}
-			if (pass) {
-				matches.push(e);
+			if (rowPass) {
+				matches.push(row);
 			} else {
-				e.style.display = false;
+				// row.style.display = false; // @@ why are we doing this here?
 			}
 		});
 
-		allrows.forEach(el => el.style.display = 'none');
 		matches.forEach(el => el.style.display = 'table-row');
 		if (matches.length>1) {
 			document.getElementById('matchesAnnotation').innerHTML = matches.length + ' matches out of ' + allrows.length;
 		} else {
 			document.getElementById('matchesAnnotation').innerHTML = matches.length + ' match out of ' + allrows.length;
 		}
-		e = document.createElement('a');
+		let e = document.createElement('a');
 		e.classList.add('inlineButton');
 		e.innerHTML = 'RESET / SHOW ALL';
 		e.style.margin = '0 0 0 1em';
 		e.style.cursor = 'pointer';
 		document.getElementById('matchesAnnotation').appendChild(e)
-
 	}
 
 	// impose tabular nav
 	document.getElementById('tabularnav').innerHTML = '';
 	if (matches.length>16) {
-		var tabularnav = []
+		const tabularnav = []
 		matches.forEach( match => {
 			if ( tabularnav.indexOf( match.dataset.tabularletter ) == -1 ) {
 				tabularnav.push( match.dataset.tabularletter );
 				match.id = 'letter_'+ match.dataset.tabularletter;
 			}
 		});
-		for (var x=0; x<tabularnav.length; x++) {
-			c = document.createElement('a');
+		for (let x=0; x < tabularnav.length; x++) {
+			let c = document.createElement('a');
 			c.innerHTML = tabularnav[x];
 			c.href = '#letter_'+tabularnav[x];
 			document.getElementById('tabularnav').appendChild(c);
@@ -181,8 +191,8 @@ function refilterRecipes() {
 jQuery(document).ready(function() {
 
 	// fetch the querystring
-	let currentURL = new URL(document.location);
-	let qparams = currentURL.searchParams;
+	const currentURL = new URL(document.location);
+	const qparams = currentURL.searchParams;
 
 	// if we have incoming querystring parameters for filtration, use them
 	filterParams = [];
@@ -200,7 +210,7 @@ jQuery(document).ready(function() {
 
     // look for a cookie to restore filtration state with
 	} else {
-		var x = getCookie('harecipesform');
+		const x = getCookie('harecipesform');
 		// console.log('cookie',x);
 		if (x) {
 		    restoreFilters(x.split(','));
@@ -213,9 +223,9 @@ jQuery(document).ready(function() {
 	});
 
 	document.getElementById('recipeFiltersMoreButton').addEventListener('click', function() {
-		target = document.getElementById('recipefilters');
-		console.log('target',target);
-		console.log('dataset', target.dataset);
+		const target = document.getElementById('recipefilters');
+		// console.log('target',target);
+		// console.log('dataset', target.dataset);
 		if (target.dataset.expanded === 'yes') {
 			target.style.display = 'none';
 			target.dataset.expanded = 'no';
