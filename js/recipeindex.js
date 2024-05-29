@@ -187,60 +187,56 @@ function refilterRecipes() {
 
 }
 
+// fetch the querystring
+const currentURL = new URL(document.location);
+const qparams = currentURL.searchParams;
 
-jQuery(document).ready(function() {
+// if we have incoming querystring parameters for filtration, use them
+filterParams = [];
+if (qparams.has('iid')) {
+	filterParams.push.apply(filterParams, qparams['iid']);
+}
+if (qparams.has('license')) {
+	filterParams.push.apply(filterParams, qparams['license']);
+}
+if (qparams.has('tag')) {
+	filterParams.push.apply(filterParams, qparams['tag']);
+}
+if (filterParams.length > 0) {
+	restoreFilters(filterParams);
 
-	// fetch the querystring
-	const currentURL = new URL(document.location);
-	const qparams = currentURL.searchParams;
-
-	// if we have incoming querystring parameters for filtration, use them
-	filterParams = [];
-	if (qparams.has('iid')) {
-		filterParams.push.apply(filterParams, qparams['iid']);
+// look for a cookie to restore filtration state with
+} else {
+	const x = getCookie('harecipesform');
+	// console.log('cookie',x);
+	if (x) {
+	    restoreFilters(x.split(','));
 	}
-	if (qparams.has('license')) {
-		filterParams.push.apply(filterParams, qparams['license']);
-	}
-	if (qparams.has('tag')) {
-		filterParams.push.apply(filterParams, qparams['tag']);
-	}
-	if (filterParams.length > 0) {
-		restoreFilters(filterParams);
+}
+refilterRecipes();  // doing this regardless, to force rebuilding of the tabular nav
 
-    // look for a cookie to restore filtration state with
-	} else {
-		const x = getCookie('harecipesform');
-		// console.log('cookie',x);
-		if (x) {
-		    restoreFilters(x.split(','));
-		}
-	}
-	refilterRecipes();  // doing this regardless, to force rebuilding of the tabular nav
-
-	document.querySelector('#recipefilters').addEventListener('change', function() {
-	    refilterRecipes();
-	});
-
-	document.getElementById('recipeFiltersMoreButton').addEventListener('click', function() {
-		const target = document.getElementById('recipefilters');
-		// console.log('target',target);
-		// console.log('dataset', target.dataset);
-		if (target.dataset.expanded === 'yes') {
-			target.style.display = 'none';
-			target.dataset.expanded = 'no';
-			document.getElementById('recipeFiltersMoreButton').innerHTML = 'Show Recipe Filters';
-		} else {
-			target.style.display = 'block';
-			target.dataset.expanded = 'yes';
-			document.getElementById('recipeFiltersMoreButton').innerHTML = 'Hide Recipe Filters';
-		}
-	});
-
-	document.getElementById("matchesAnnotation").addEventListener('click', function() {
-		resetFilters();
-		refilterRecipes();
-	});
-
+document.querySelector('#recipefilters').addEventListener('change', function() {
+    refilterRecipes();
 });
+
+document.getElementById('recipeFiltersMoreButton').addEventListener('click', function() {
+	const target = document.getElementById('recipefilters');
+	// console.log('target',target);
+	// console.log('dataset', target.dataset);
+	if (target.dataset.expanded === 'yes') {
+		target.style.display = 'none';
+		target.dataset.expanded = 'no';
+		document.getElementById('recipeFiltersMoreButton').innerHTML = 'Show Recipe Filters';
+	} else {
+		target.style.display = 'block';
+		target.dataset.expanded = 'yes';
+		document.getElementById('recipeFiltersMoreButton').innerHTML = 'Hide Recipe Filters';
+	}
+});
+
+document.getElementById("matchesAnnotation").addEventListener('click', function() {
+	resetFilters();
+	refilterRecipes();
+});
+
 

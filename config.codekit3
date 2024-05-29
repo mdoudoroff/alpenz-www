@@ -47339,17 +47339,6 @@
       "oAP" : "\/infographics.html",
       "oF" : 0
     },
-    "\/js\/debounce.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/js\/debounce-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
     "\/js\/gallery-overlay-min.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -47427,17 +47416,6 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/js\/portfolio.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/js\/portfolio-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
     "\/js\/recipeindex-min.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -47469,17 +47447,6 @@
       "oAP" : "\/js\/site-search-min.js",
       "oF" : 0,
       "sC" : 3,
-      "tS" : 0
-    },
-    "\/js\/uStates.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 0,
-      "oA" : 1,
-      "oAP" : "\/js\/uStates-min.js",
-      "oF" : 1,
-      "sC" : 0,
       "tS" : 0
     },
     "\/less\/_config.less" : {
@@ -69238,6 +69205,14 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/recipe-VcnKsg5qo6.html",
+      "oF" : 0
+    },
+    "\/recipe-vcRUxQSC8L.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-vcRUxQSC8L.html",
       "oF" : 0
     },
     "\/recipe-vDuguHTGnM.html" : {
