@@ -3094,9 +3094,6 @@ td.ing {
   font-size: 16px;
   margin-top: 3px;
 }
-#searchResults {
-  display: none;
-}
 #searchResults a {
   color: black;
 }
