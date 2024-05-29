@@ -3435,6 +3435,14 @@
       "oAP" : "\/alpenz-download-product-talker\/etter_kirsch.one-sheet.pdf",
       "oF" : 0
     },
+    "\/alpenz-download-product-talker\/etter_kirsch.talker.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/alpenz-download-product-talker\/etter_kirsch.talker.pdf",
+      "oF" : 0
+    },
     "\/alpenz-download-product-talker\/etter_pear.one-sheet.pdf" : {
       "cB" : 0,
       "ft" : 8192,
@@ -3443,12 +3451,36 @@
       "oAP" : "\/alpenz-download-product-talker\/etter_pear.one-sheet.pdf",
       "oF" : 0
     },
+    "\/alpenz-download-product-talker\/etter_pear.talker.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/alpenz-download-product-talker\/etter_pear.talker.pdf",
+      "oF" : 0
+    },
+    "\/alpenz-download-product-talker\/etter_quince.talker.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/alpenz-download-product-talker\/etter_quince.talker.pdf",
+      "oF" : 0
+    },
     "\/alpenz-download-product-talker\/etter_raspberry.one-sheet.pdf" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/alpenz-download-product-talker\/etter_raspberry.one-sheet.pdf",
+      "oF" : 0
+    },
+    "\/alpenz-download-product-talker\/etter_raspberry.talker.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/alpenz-download-product-talker\/etter_raspberry.talker.pdf",
       "oF" : 0
     },
     "\/alpenz-download-product-talker\/falernum.one-sheet.pdf" : {
@@ -9041,6 +9073,40 @@
       "oO" : 0,
       "oS" : 1
     },
+    "\/alpenz-recipes-managed\/g1AXs5jZcs.drink-photo-thumb.jpg" : {
+      "ft" : 16384,
+      "iS" : 8629,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/g1AXs5jZcs.drink-photo-thumb.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-recipes-managed\/g1AXs5jZcs.drink-photo.jpg" : {
+      "ft" : 16384,
+      "iS" : 102942,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/g1AXs5jZcs.drink-photo.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-recipes-managed\/g1AXs5jZcs.drink-photo.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/g1AXs5jZcs.drink-photo-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
     "\/alpenz-recipes-managed\/G2mUOQsZth.drink-photo-thumb.jpg" : {
       "ft" : 16384,
       "iS" : 13742,
@@ -13393,6 +13459,40 @@
       "oO" : 0,
       "oS" : 1
     },
+    "\/alpenz-recipes-managed\/oT6hNeGIMD.drink-photo-thumb.jpg" : {
+      "ft" : 16384,
+      "iS" : 20747,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/oT6hNeGIMD.drink-photo-thumb.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-recipes-managed\/oT6hNeGIMD.drink-photo.jpg" : {
+      "ft" : 16384,
+      "iS" : 399820,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/oT6hNeGIMD.drink-photo.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-recipes-managed\/oT6hNeGIMD.drink-photo.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/oT6hNeGIMD.drink-photo-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
     "\/alpenz-recipes-managed\/oTNjEcbCTn.drink-photo-thumb.jpg" : {
       "ft" : 16384,
       "iS" : 17971,
@@ -14715,6 +14815,40 @@
       "ft" : 524288,
       "oA" : 1,
       "oAP" : "\/alpenz-recipes-managed\/rLzbgXmXLt.drink-photo-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/alpenz-recipes-managed\/RNl92CJmJ5.drink-photo-thumb.jpg" : {
+      "ft" : 16384,
+      "iS" : 4654,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/RNl92CJmJ5.drink-photo-thumb.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-recipes-managed\/RNl92CJmJ5.drink-photo.jpg" : {
+      "ft" : 16384,
+      "iS" : 226769,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/RNl92CJmJ5.drink-photo.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-recipes-managed\/RNl92CJmJ5.drink-photo.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/RNl92CJmJ5.drink-photo-min.json",
       "oF" : 0,
       "oO" : 0,
       "oS" : 1
@@ -52025,6 +52159,35 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/mixtech-enterprise-alpenz\/recipe-g1AXs5jZcs-1714721227-managed.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-g1AXs5jZcs-1714721227-managed-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-g1AXs5jZcs-1714721227-static.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-g1AXs5jZcs-1714721227-static-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-g1AXs5jZcs-1714721227.jpg" : {
+      "ft" : 16384,
+      "iS" : 249431,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-g1AXs5jZcs-1714721227.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/mixtech-enterprise-alpenz\/recipe-G2mUOQsZth-1666043478-managed.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -55774,6 +55937,35 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/mixtech-enterprise-alpenz\/recipe-oT6hNeGIMD-1713143103-managed.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-oT6hNeGIMD-1713143103-managed-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-oT6hNeGIMD-1713143103-static.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-oT6hNeGIMD-1713143103-static-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-oT6hNeGIMD-1713143103.jpg" : {
+      "ft" : 16384,
+      "iS" : 687592,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-oT6hNeGIMD-1713143103.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/mixtech-enterprise-alpenz\/recipe-oTNjEcbCTn-1666043477-managed.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -56898,6 +57090,35 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/mixtech-enterprise-alpenz\/recipe-rLzbgXmXLt-1666043479.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-RNl92CJmJ5-1713191601-managed.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-RNl92CJmJ5-1713191601-managed-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-RNl92CJmJ5-1713191601-static.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-RNl92CJmJ5-1713191601-static-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-RNl92CJmJ5-1713191601.jpg" : {
+      "ft" : 16384,
+      "iS" : 2598154,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-RNl92CJmJ5-1713191601.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
