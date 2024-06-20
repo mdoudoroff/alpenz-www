@@ -160,7 +160,7 @@ a h2 {
   font-size: 18px;
   line-height: 1;
   font-weight: 900;
-  margin: 0 0 0 0;
+  margin: 0 0 1em 0;
 }
 .content h3.category_title {
   font-size: 26px;
