@@ -56,35 +56,53 @@ window.onload = (event) => {
 		});
 	}
 
-	// @@ TODO these items (and the function below) belong exclusively to a single page and should be consolidated there
-	const vintageAgeStatementsSwitch = document.querySelector(".vintagesAgeStatementsSwitch");
-	if (vintageAgeStatementsSwitch) {
-
-		updateVintageExploreList(); // initialize state
-
-		vintageAgeStatementsSwitch.addEventListener("click", (event) => {
-
-			if (vintagesAgeStatementsSwitchState == 'nonvintages') {
-				vintagesAgeStatementsSwitchState = 'vintages';
-			} else {
-				vintagesAgeStatementsSwitchState = 'nonvintages';
-			}
-			updateVintageExploreList();
-		});
-
-		const groupingSwitch = document.querySelector('.vintageSwitch');
-		if (groupingSwitch) {
-			groupingSwitch.addEventListener("click", (event) => {
-
-				if (groupingSwitchState == 'groupingYear') {
-					groupingSwitchState = 'groupingCategory';
-				} else {
-					groupingSwitchState = 'groupingYear';
-				}
+	const vasRadios = document.querySelectorAll(".vas__select");
+	if (vasRadios.length > 0) {
+		for (var i = 0; i < vasRadios.length; i++) {
+			vasRadios[i].addEventListener("change", (event) => {
 				updateVintageExploreList();
 			});
 		}
 	}
+	const sortRadios = document.querySelectorAll(".sort__select");
+	if (sortRadios.length > 0) {
+		for (var i = 0; i < sortRadios.length; i++) {
+			sortRadios[i].addEventListener("change", (event) => {
+				updateVintageExploreList();
+			});
+		}
+	}
+
+
+	// @@ TODO these items (and the function below) belong exclusively to a single page and should be consolidated there
+	// const vintageAgeStatementsSwitch = document.querySelector(".vintagesAgeStatementsSwitch");
+	// if (vintageAgeStatementsSwitch) {
+
+	// 	updateVintageExploreList(); // initialize state
+
+	// 	vintageAgeStatementsSwitch.addEventListener("click", (event) => {
+
+	// 		if (vintagesAgeStatementsSwitchState == 'nonvintages') {
+	// 			vintagesAgeStatementsSwitchState = 'vintages';
+	// 		} else {
+	// 			vintagesAgeStatementsSwitchState = 'nonvintages';
+	// 		}
+	// 		updateVintageExploreList();
+	// 	});
+
+	// 	const groupingSwitch = document.querySelector('.vintageSwitch');
+	// 	if (groupingSwitch) {
+	// 		groupingSwitch.addEventListener("click", (event) => {
+
+	// 			if (groupingSwitchState == 'groupingYear') {
+	// 				groupingSwitchState = 'groupingCategory';
+	// 			} else {
+	// 				groupingSwitchState = 'groupingYear';
+	// 			}
+	// 			updateVintageExploreList();
+	// 		});
+	// 	}
+	// }
 
 
 	// mobile nav
@@ -135,23 +153,25 @@ window.onload = (event) => {
 
 function updateVintageExploreList() {
 
-	if (groupingSwitchState == 'groupingYear') {
+	// if (groupingSwitchState == 'groupingYear') {
+	if (document.querySelector('input[name="sort__select"]:checked').value == 'year') {
 		document.getElementById('groupingYear').style.display = 'block';
 		document.getElementById('groupingCategory').style.display = 'none';
 
-		document.getElementById("yearSwitch").classList.add("selected");
-		document.getElementById("categorySwitch").classList.remove("selected");
+		// document.getElementById("yearSwitch").classList.add("selected");
+		// document.getElementById("categorySwitch").classList.remove("selected");
 
 	} else {
 		document.getElementById('groupingYear').style.display = 'none';
 		document.getElementById('groupingCategory').style.display = 'block';
 
-		document.getElementById("yearSwitch").classList.remove("selected");
-		document.getElementById("categorySwitch").classList.add("selected");
+		// document.getElementById("yearSwitch").classList.remove("selected");
+		// document.getElementById("categorySwitch").classList.add("selected");
 
 	}
 
-	if (vintagesAgeStatementsSwitchState == 'vintages') {
+	// if (vintagesAgeStatementsSwitchState == 'vintages') {
+	if (document.querySelector('input[name="vas__select"]:checked').value == 'vintages') {
 
 		tmp = document.getElementsByClassName("vintageitems");
 		for (let i = 0; i < tmp.length; i++) {
@@ -161,11 +181,35 @@ function updateVintageExploreList() {
 		for (let i = 0; i < tmp.length; i++) {
 			tmp[i].style.display = 'none';
 		}
+		tmp = document.getElementsByClassName("soleraitems");
+		for (let i = 0; i < tmp.length; i++) {
+			tmp[i].style.display = 'none';
+		}
 
-		document.getElementById("vintageYearJump").style.display = "block";
+		// document.getElementById("vintageYearJump").style.display = "block";
 
-		document.getElementById("vintagesSwitch").classList.add("selected");
-		document.getElementById("nonvintagesSwitch").classList.remove("selected");
+		// document.getElementById("vintagesSwitch").classList.add("selected");
+		// document.getElementById("nonvintagesSwitch").classList.remove("selected");
+
+	} else if (document.querySelector('input[name="vas__select"]:checked').value == 'agestatements') {
+
+		tmp = document.getElementsByClassName("vintageitems");
+		for (let i = 0; i < tmp.length; i++) {
+			tmp[i].style.display = 'none';
+		}
+		tmp = document.getElementsByClassName("nonvintageitems");
+		for (let i = 0; i < tmp.length; i++) {
+			tmp[i].style.display = 'block';
+		}
+		tmp = document.getElementsByClassName("soleraitems");
+		for (let i = 0; i < tmp.length; i++) {
+			tmp[i].style.display = 'none';
+		}
+
+		// document.getElementById("vintageYearJump").style.display = "none";
+
+		// document.getElementById("vintagesSwitch").classList.remove("selected");
+		// document.getElementById("nonvintagesSwitch").classList.add("selected");
 
 	} else {
 
@@ -175,13 +219,17 @@ function updateVintageExploreList() {
 		}
 		tmp = document.getElementsByClassName("nonvintageitems");
 		for (let i = 0; i < tmp.length; i++) {
+			tmp[i].style.display = 'none';
+		}
+		tmp = document.getElementsByClassName("soleraitems");
+		for (let i = 0; i < tmp.length; i++) {
 			tmp[i].style.display = 'block';
 		}
 
-		document.getElementById("vintageYearJump").style.display = "none";
+		// document.getElementById("vintageYearJump").style.display = "none";
 
-		document.getElementById("vintagesSwitch").classList.remove("selected");
-		document.getElementById("nonvintagesSwitch").classList.add("selected");
+		// document.getElementById("vintagesSwitch").classList.remove("selected");
+		// document.getElementById("nonvintagesSwitch").classList.remove("selected");
 
 	}
 }

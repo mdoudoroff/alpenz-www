@@ -2572,3 +2572,77 @@ td.ing {
 		td[data-cell="product"] { padding-left: 0; }
 	}
 }
+
+:root {
+  --accent: #007ECC;
+  --accent-2: #EC2F4B;
+  --text: #003f66;
+  --text-hover: var(--accent);
+  --text-active: #FFFFFF;
+  --border-width: 0.125em;
+}
+
+.radio {
+	position: relative;
+	border-radius: 999em;
+	display: flex;
+	overflow: hidden;
+
+	width: fit-content;
+	margin-block: 1em;
+
+	font-weight:700;
+	font-size: 14px;
+
+	&:after {
+		content: "";
+
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+
+		border: var(--border-width) solid @link_color;
+		border-radius: 999em;
+		pointer-events: none;
+	}
+}
+.radio__input {
+	display: none;
+
+	&:checked + .radio__label {
+		background-color: @link_color;
+		color: @body_background;
+
+		&:before {
+			opacity: 1;
+		}
+		
+	}
+
+}
+.radio__label {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+	padding: 9px 1.5em;
+
+	position: relative;
+	cursor: pointer;
+    color: @link_color;
+
+	&:hover {
+		color: @link_hover;
+	}
+
+	&:nth-of-type(2) {
+		border-left: var(--border-width) solid @link_color;
+		border-right: var(--border-width) solid @link_color;
+	}
+	
+	// &:last-of-type {
+	// 	border-left: var(--border-width) solid @link_color;
+	// }
+}
