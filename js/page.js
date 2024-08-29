@@ -88,17 +88,21 @@ window.onload = (event) => {
 
 
 	// mobile nav
-	document.getElementsByClassName("toggle__mobile__nav")[0].onclick = function() {
-		toggleMobileNav();
-		return false;		
+	if ( document.getElementsByClassName("toggle__mobile__nav").length > 0 ){
+		document.getElementsByClassName("toggle__mobile__nav")[0].onclick = function() {
+			toggleMobileNav();
+			return false;		
+		}		
 	}
-	document.getElementById("modal__backdrop").onclick = function() {
-		toggleMobileNav();
-		return false;		
-	}
-	document.getElementById("dismissMenu").onclick = function() {
-		toggleMobileNav();
-		return false;		
+	if ( document.getElementById("modal__backdrop") ) {
+		document.getElementById("modal__backdrop").onclick = function() {
+			toggleMobileNav();
+			return false;		
+		}		
+		document.getElementById("dismissMenu").onclick = function() {
+			toggleMobileNav();
+			return false;		
+		}
 	}
 
 
