@@ -186,7 +186,7 @@ function updateVintageExploreList() {
 			tmp[i].style.display = 'none';
 		}
 
-		// document.getElementById("vintageYearJump").style.display = "block";
+		document.getElementById("vintageYearJump").style.display = "block";
 
 		// document.getElementById("vintagesSwitch").classList.add("selected");
 		// document.getElementById("nonvintagesSwitch").classList.remove("selected");
@@ -206,7 +206,7 @@ function updateVintageExploreList() {
 			tmp[i].style.display = 'none';
 		}
 
-		// document.getElementById("vintageYearJump").style.display = "none";
+		document.getElementById("vintageYearJump").style.display = "none";
 
 		// document.getElementById("vintagesSwitch").classList.remove("selected");
 		// document.getElementById("nonvintagesSwitch").classList.add("selected");
@@ -226,7 +226,7 @@ function updateVintageExploreList() {
 			tmp[i].style.display = 'block';
 		}
 
-		// document.getElementById("vintageYearJump").style.display = "none";
+		document.getElementById("vintageYearJump").style.display = "none";
 
 		// document.getElementById("vintagesSwitch").classList.remove("selected");
 		// document.getElementById("nonvintagesSwitch").classList.remove("selected");

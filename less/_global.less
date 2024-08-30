@@ -2573,6 +2573,10 @@ td.ing {
 	}
 }
 
+th.vintage-category {
+	padding-top: 0.5em;
+}
+
 :root {
   --accent: #007ECC;
   --accent-2: #EC2F4B;
@@ -2608,6 +2612,11 @@ td.ing {
 		pointer-events: none;
 	}
 }
+@media only screen and (max-width: @sizes[mobile])  {
+	.radio { 
+		font-size: 12px;
+	}
+}
 .radio__input {
 	display: none;
 
@@ -2641,8 +2650,10 @@ td.ing {
 		border-left: var(--border-width) solid @link_color;
 		border-right: var(--border-width) solid @link_color;
 	}
-	
-	// &:last-of-type {
-	// 	border-left: var(--border-width) solid @link_color;
-	// }
+}
+@media only screen and (max-width: @sizes[mobile])  {
+	.radio__label { 
+		// padding:4px 0.5em;
+		padding: 0.75em 0.75em;
+	}
 }

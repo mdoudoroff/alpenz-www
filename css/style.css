@@ -2166,6 +2166,9 @@ td.ing {
     padding-left: 0;
   }
 }
+th.vintage-category {
+  padding-top: 0.5em;
+}
 :root {
   --accent: #007ECC;
   --accent-2: #EC2F4B;
@@ -2195,6 +2198,11 @@ td.ing {
   border-radius: 999em;
   pointer-events: none;
 }
+@media only screen and (max-width: 420px) {
+  .radio {
+    font-size: 12px;
+  }
+}
 .radio__input {
   display: none;
 }
@@ -2220,6 +2228,11 @@ td.ing {
 .radio__label:nth-of-type(2) {
   border-left: var(--border-width) solid #a2120f;
   border-right: var(--border-width) solid #a2120f;
+}
+@media only screen and (max-width: 420px) {
+  .radio__label {
+    padding: 0.75em 0.75em;
+  }
 }
 .header {
   width: 100%;
