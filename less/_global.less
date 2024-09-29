@@ -1028,16 +1028,34 @@ header.producerindex {
 	border-collapse: collapse; 
 
 	td {
-		white-space: nowrap;
+		// white-space: nowrap;
 		padding-right: 0.5em;
 		padding-top: 2px;
 		padding-bottom: 2px;
+		border-bottom: 1px solid @off-grey;
+	}
+	tr.end--product td, td.merged {
+		border-bottom: 1px solid @off-grey-dark;
+	}
+	.product--name {
+		font-weight: bold;
 	}
 	th {
 		font-weight: bold;
 		padding-right: 0.5em;
 		background-color: @off-grey;
 		text-align: left;
+	}
+	.downloads {
+		padding-inline: 1em;
+
+		.setupDownload {
+			color: @link_color;
+			margin: 3px 3px;
+		}
+		.setupDownload:hover {
+			color: white;
+		}
 	}
 }
 
@@ -2435,13 +2453,21 @@ table.contentReport {
 }
 // this is for the special case of the setup table, where the table is very wide
 .wrapspecial {
+	width: max-content;
 	height: 100%;
 	margin: 0 1em;
 	position: relative;
 	padding: 0;
+	// @media only screen and (max-width: @sizes[mobile])  {
+	// 	width: 100%;
+	// }
+}
+header .wrapspecial {
+	width: auto;
 	@media only screen and (max-width: @sizes[mobile])  {
 		width: 100%;
 	}
+
 }
 
 .clr:after { 

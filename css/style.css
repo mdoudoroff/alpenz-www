@@ -853,16 +853,33 @@ header.producerindex .images figure.logo {
   border-collapse: collapse;
 }
 .fullsetuptable td {
-  white-space: nowrap;
   padding-right: 0.5em;
   padding-top: 2px;
   padding-bottom: 2px;
+  border-bottom: 1px solid #edece8;
+}
+.fullsetuptable tr.end--product td,
+.fullsetuptable td.merged {
+  border-bottom: 1px solid #dddcd8;
+}
+.fullsetuptable .product--name {
+  font-weight: bold;
 }
 .fullsetuptable th {
   font-weight: bold;
   padding-right: 0.5em;
   background-color: #edece8;
   text-align: left;
+}
+.fullsetuptable .downloads {
+  padding-inline: 1em;
+}
+.fullsetuptable .downloads .setupDownload {
+  color: #a2120f;
+  margin: 3px 3px;
+}
+.fullsetuptable .downloads .setupDownload:hover {
+  color: white;
 }
 .producerSetup h2 {
   margin-top: 0.5em;
@@ -2045,13 +2062,17 @@ table.contentReport td {
   }
 }
 .wrapspecial {
+  width: max-content;
   height: 100%;
   margin: 0 1em;
   position: relative;
   padding: 0;
 }
+header .wrapspecial {
+  width: auto;
+}
 @media only screen and (max-width: 420px) {
-  .wrapspecial {
+  header .wrapspecial {
     width: 100%;
   }
 }
