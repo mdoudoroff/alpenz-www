@@ -6,3 +6,56 @@
 @import "_product-detail.less";
 @import "recipe-index.less";
 @import "home-page.less";
+
+
+// form stuff (break this out when/where it makes sense)
+
+.regform {
+	background-color: @off-grey;
+	padding: 1em;
+
+	input, textarea {
+		font-size: 120%;
+	}
+	textarea {
+		width: min(60ch,80%);
+	}
+	input[type=submit] {
+		padding: 0.25em 1em;
+		margin-inline: auto;
+		margin-block: 1em;
+		color: white;
+		background: @red;
+		border: none;
+		cursor: pointer;
+
+		&:hover {
+			background: lighten(@red,20%);
+		}
+	}	
+
+}
+
+fieldset {
+	padding: 0.5em;
+	margin-block: 1em;
+}
+
+.field {
+	margin-block: 0.5em;
+	display: flex;
+	align-items: center;
+}
+
+label {
+	margin-right: 0.5em;
+}
+
+.field.radiogroup label {
+	margin-right: 1em;
+	margin-left: 0.25em;
+}
+
+.field.inputgroup input+label {
+	margin-left: 1em;
+}

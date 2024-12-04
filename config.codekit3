@@ -7,7 +7,7 @@
       "uuidString" : "B5ADC2AB-4759-4D37-B9EB-92E440ECE0B5"
     }
   ],
-  "creatorBuild" : "34590",
+  "creatorBuild" : "34627",
   "files" : {
     "\/.bust-digest.txt" : {
       "cB" : 0,
@@ -41,12 +41,25 @@
       "oAP" : "\/age-statements.html",
       "oF" : 0
     },
-    "\/alpenz-download-product-bottle\/allspice.bottle.jpg" : {
+    "\/alpenz-download-product-bottle\/allspice.bottle.375ml.jpg" : {
       "ft" : 16384,
-      "iS" : 1041108,
+      "iS" : 207716,
       "jF" : 0,
       "oA" : 1,
-      "oAP" : "\/alpenz-download-product-bottle\/allspice.bottle.jpg",
+      "oAP" : "\/alpenz-download-product-bottle\/allspice.bottle.375ml.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-download-product-bottle\/allspice.bottle.750ml.jpg" : {
+      "ft" : 16384,
+      "iS" : 219181,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-download-product-bottle\/allspice.bottle.750ml.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -76,6 +89,19 @@
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-download-product-bottle\/altitude.bottle.jpg" : {
+      "ft" : 16384,
+      "iS" : 260427,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-download-product-bottle\/altitude.bottle.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -112,6 +138,58 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-download-product-bottle\/averell_damson.bottle.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-download-product-bottle\/badalucco_GV.bottle.jpg" : {
+      "ft" : 16384,
+      "iS" : 526629,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-download-product-bottle\/badalucco_GV.bottle.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-download-product-bottle\/badalucco_passaggio.bottle.jpg" : {
+      "ft" : 16384,
+      "iS" : 555261,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-download-product-bottle\/badalucco_passaggio.bottle.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-download-product-bottle\/badalucco_perpetuum.bottle.jpg" : {
+      "ft" : 16384,
+      "iS" : 778685,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-download-product-bottle\/badalucco_perpetuum.bottle.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-download-product-bottle\/badalucco_pipa.bottle.jpg" : {
+      "ft" : 16384,
+      "iS" : 276877,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-download-product-bottle\/badalucco_pipa.bottle.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -301,12 +379,25 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/alpenz-download-product-bottle\/chinato.bottle.jpg" : {
+    "\/alpenz-download-product-bottle\/chinato.bottle.500ml.jpg" : {
       "ft" : 16384,
-      "iS" : 2868443,
+      "iS" : 62241,
       "jF" : 0,
       "oA" : 1,
-      "oAP" : "\/alpenz-download-product-bottle\/chinato.bottle.jpg",
+      "oAP" : "\/alpenz-download-product-bottle\/chinato.bottle.500ml.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-download-product-bottle\/chinato.bottle.750ml.jpg" : {
+      "ft" : 16384,
+      "iS" : 77906,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-download-product-bottle\/chinato.bottle.750ml.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -327,12 +418,25 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/alpenz-download-product-bottle\/cocchi_americano.bottle.jpg" : {
+    "\/alpenz-download-product-bottle\/cocchi_americano.bottle.375ml.jpg" : {
       "ft" : 16384,
-      "iS" : 62152,
+      "iS" : 65368,
       "jF" : 0,
       "oA" : 1,
-      "oAP" : "\/alpenz-download-product-bottle\/cocchi_americano.bottle.jpg",
+      "oAP" : "\/alpenz-download-product-bottle\/cocchi_americano.bottle.375ml.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-download-product-bottle\/cocchi_americano.bottle.750ml.jpg" : {
+      "ft" : 16384,
+      "iS" : 83167,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-download-product-bottle\/cocchi_americano.bottle.750ml.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -392,12 +496,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/alpenz-download-product-bottle\/cocchi_rosa.bottle.jpg" : {
+    "\/alpenz-download-product-bottle\/cocchi_vdt.bottle.375ml.jpg" : {
       "ft" : 16384,
-      "iS" : 1094311,
+      "iS" : 74433,
       "jF" : 0,
       "oA" : 1,
-      "oAP" : "\/alpenz-download-product-bottle\/cocchi_rosa.bottle.jpg",
+      "oAP" : "\/alpenz-download-product-bottle\/cocchi_vdt.bottle.375ml.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -405,12 +509,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/alpenz-download-product-bottle\/cocchi_vdt.bottle.jpg" : {
+    "\/alpenz-download-product-bottle\/cocchi_vdt.bottle.750ml.jpg" : {
       "ft" : 16384,
-      "iS" : 475547,
+      "iS" : 90679,
       "jF" : 0,
       "oA" : 1,
-      "oAP" : "\/alpenz-download-product-bottle\/cocchi_vdt.bottle.jpg",
+      "oAP" : "\/alpenz-download-product-bottle\/cocchi_vdt.bottle.750ml.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -496,12 +600,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/alpenz-download-product-bottle\/dolin_blanc.bottle.jpg" : {
+    "\/alpenz-download-product-bottle\/dolin_blanc.bottle.375ml.jpg" : {
       "ft" : 16384,
-      "iS" : 206506,
+      "iS" : 98372,
       "jF" : 0,
       "oA" : 1,
-      "oAP" : "\/alpenz-download-product-bottle\/dolin_blanc.bottle.jpg",
+      "oAP" : "\/alpenz-download-product-bottle\/dolin_blanc.bottle.375ml.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -509,12 +613,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/alpenz-download-product-bottle\/dolin_dry.bottle.jpg" : {
+    "\/alpenz-download-product-bottle\/dolin_blanc.bottle.750ml.jpg" : {
       "ft" : 16384,
-      "iS" : 153988,
+      "iS" : 103160,
       "jF" : 0,
       "oA" : 1,
-      "oAP" : "\/alpenz-download-product-bottle\/dolin_dry.bottle.jpg",
+      "oAP" : "\/alpenz-download-product-bottle\/dolin_blanc.bottle.750ml.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -522,12 +626,51 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/alpenz-download-product-bottle\/dolin_rouge.bottle.jpg" : {
+    "\/alpenz-download-product-bottle\/dolin_dry.bottle.375ml.jpg" : {
       "ft" : 16384,
-      "iS" : 211201,
+      "iS" : 98395,
       "jF" : 0,
       "oA" : 1,
-      "oAP" : "\/alpenz-download-product-bottle\/dolin_rouge.bottle.jpg",
+      "oAP" : "\/alpenz-download-product-bottle\/dolin_dry.bottle.375ml.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-download-product-bottle\/dolin_dry.bottle.750ml.jpg" : {
+      "ft" : 16384,
+      "iS" : 101013,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-download-product-bottle\/dolin_dry.bottle.750ml.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-download-product-bottle\/dolin_rouge.bottle.375ml.jpg" : {
+      "ft" : 16384,
+      "iS" : 87038,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-download-product-bottle\/dolin_rouge.bottle.375ml.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-download-product-bottle\/dolin_rouge.bottle.750ml.jpg" : {
+      "ft" : 16384,
+      "iS" : 123098,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-download-product-bottle\/dolin_rouge.bottle.750ml.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -665,12 +808,25 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/alpenz-download-product-bottle\/etter_kirsch.bottle.jpg" : {
+    "\/alpenz-download-product-bottle\/etter_kirsch.bottle.375ml.jpg" : {
       "ft" : 16384,
-      "iS" : 249887,
+      "iS" : 68464,
       "jF" : 0,
       "oA" : 1,
-      "oAP" : "\/alpenz-download-product-bottle\/etter_kirsch.bottle.jpg",
+      "oAP" : "\/alpenz-download-product-bottle\/etter_kirsch.bottle.375ml.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-download-product-bottle\/etter_kirsch.bottle.700ml.jpg" : {
+      "ft" : 16384,
+      "iS" : 56978,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-download-product-bottle\/etter_kirsch.bottle.700ml.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -795,12 +951,25 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/alpenz-download-product-bottle\/insorti.bottle.jpg" : {
+    "\/alpenz-download-product-bottle\/insorti.bottle.200ml.jpg" : {
       "ft" : 16384,
-      "iS" : 213780,
+      "iS" : 55874,
       "jF" : 0,
       "oA" : 1,
-      "oAP" : "\/alpenz-download-product-bottle\/insorti.bottle.jpg",
+      "oAP" : "\/alpenz-download-product-bottle\/insorti.bottle.200ml.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-download-product-bottle\/insorti.bottle.750ml.jpg" : {
+      "ft" : 16384,
+      "iS" : 47183,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-download-product-bottle\/insorti.bottle.750ml.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -925,12 +1094,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/alpenz-download-product-bottle\/mazzura.bottle.jpg" : {
+    "\/alpenz-download-product-bottle\/mazzura.bottle.750ml.jpg" : {
       "ft" : 16384,
-      "iS" : 210929,
+      "iS" : 116375,
       "jF" : 0,
       "oA" : 1,
-      "oAP" : "\/alpenz-download-product-bottle\/mazzura.bottle.jpg",
+      "oAP" : "\/alpenz-download-product-bottle\/mazzura.bottle.750ml.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1003,12 +1172,25 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/alpenz-download-product-bottle\/nux.bottle.jpg" : {
+    "\/alpenz-download-product-bottle\/nux.bottle.375ml.jpg" : {
       "ft" : 16384,
-      "iS" : 420706,
+      "iS" : 60768,
       "jF" : 0,
       "oA" : 1,
-      "oAP" : "\/alpenz-download-product-bottle\/nux.bottle.jpg",
+      "oAP" : "\/alpenz-download-product-bottle\/nux.bottle.375ml.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-download-product-bottle\/nux.bottle.750ml.jpg" : {
+      "ft" : 16384,
+      "iS" : 75884,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-download-product-bottle\/nux.bottle.750ml.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1484,6 +1666,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/alpenz-download-product-bottle\/villa_oeiras_tinto.bottle.jpg" : {
+      "ft" : 16384,
+      "iS" : 605230,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-download-product-bottle\/villa_oeiras_tinto.bottle.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-download-product-bottle\/villa_oeiras.bottle.jpg" : {
       "ft" : 16384,
       "iS" : 108097,
@@ -1523,12 +1718,25 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/alpenz-download-product-bottle\/zirbenz.bottle.jpg" : {
+    "\/alpenz-download-product-bottle\/zirbenz.bottle.375ml.jpg" : {
       "ft" : 16384,
-      "iS" : 1026721,
+      "iS" : 483033,
       "jF" : 0,
       "oA" : 1,
-      "oAP" : "\/alpenz-download-product-bottle\/zirbenz.bottle.jpg",
+      "oAP" : "\/alpenz-download-product-bottle\/zirbenz.bottle.375ml.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-download-product-bottle\/zirbenz.bottle.750ml.jpg" : {
+      "ft" : 16384,
+      "iS" : 529580,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-download-product-bottle\/zirbenz.bottle.750ml.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1575,6 +1783,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/alpenz-download-product-label\/altitude.label.jpg" : {
+      "ft" : 16384,
+      "iS" : 296798,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-download-product-label\/altitude.label.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-download-product-label\/asti.label.jpg" : {
       "ft" : 16384,
       "iS" : 189912,
@@ -1607,6 +1828,58 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-download-product-label\/averell_damson.label.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-download-product-label\/Badalucco_GV.label.jpg" : {
+      "ft" : 16384,
+      "iS" : 53651,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-download-product-label\/Badalucco_GV.label.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-download-product-label\/badalucco_passaggio.label.jpg" : {
+      "ft" : 16384,
+      "iS" : 54313,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-download-product-label\/badalucco_passaggio.label.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-download-product-label\/badalucco_perpetuum.label.jpg" : {
+      "ft" : 16384,
+      "iS" : 48212,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-download-product-label\/badalucco_perpetuum.label.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-download-product-label\/Badalucco_pipa.label.jpg" : {
+      "ft" : 16384,
+      "iS" : 48321,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-download-product-label\/Badalucco_pipa.label.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -2998,6 +3271,19 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-download-product-label\/villa_oeiras_12.label.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-download-product-label\/villa_oeiras_tinto.label.jpg" : {
+      "ft" : 16384,
+      "iS" : 147423,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-download-product-label\/villa_oeiras_tinto.label.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -5066,6 +5352,74 @@
       "oO" : 0,
       "oS" : 1
     },
+    "\/alpenz-recipes-managed\/5tSTLce4Yq.drink-photo-thumb.jpg" : {
+      "ft" : 16384,
+      "iS" : 14191,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/5tSTLce4Yq.drink-photo-thumb.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-recipes-managed\/5tSTLce4Yq.drink-photo.jpg" : {
+      "ft" : 16384,
+      "iS" : 190123,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/5tSTLce4Yq.drink-photo.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-recipes-managed\/5tSTLce4Yq.drink-photo.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/5tSTLce4Yq.drink-photo-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/alpenz-recipes-managed\/5tTdXlAhvb.drink-photo-thumb.jpg" : {
+      "ft" : 16384,
+      "iS" : 8549,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/5tTdXlAhvb.drink-photo-thumb.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-recipes-managed\/5tTdXlAhvb.drink-photo.jpg" : {
+      "ft" : 16384,
+      "iS" : 105966,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/5tTdXlAhvb.drink-photo.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-recipes-managed\/5tTdXlAhvb.drink-photo.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/5tTdXlAhvb.drink-photo-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
     "\/alpenz-recipes-managed\/6JhGXhm5E9.drink-photo-thumb.jpg" : {
       "ft" : 16384,
       "iS" : 10818,
@@ -5984,6 +6338,40 @@
       "oO" : 0,
       "oS" : 1
     },
+    "\/alpenz-recipes-managed\/74Rbb1xgsP.drink-photo-thumb.jpg" : {
+      "ft" : 16384,
+      "iS" : 10821,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/74Rbb1xgsP.drink-photo-thumb.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-recipes-managed\/74Rbb1xgsP.drink-photo.jpg" : {
+      "ft" : 16384,
+      "iS" : 123372,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/74Rbb1xgsP.drink-photo.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-recipes-managed\/74Rbb1xgsP.drink-photo.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/74Rbb1xgsP.drink-photo-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
     "\/alpenz-recipes-managed\/83XMGuqMvg.drink-photo-thumb.jpg" : {
       "ft" : 16384,
       "iS" : 13968,
@@ -6456,6 +6844,40 @@
       "ft" : 524288,
       "oA" : 1,
       "oAP" : "\/alpenz-recipes-managed\/ALevJH1Igm.drink-photo-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/alpenz-recipes-managed\/AMDnjAuWiL.drink-photo-thumb.jpg" : {
+      "ft" : 16384,
+      "iS" : 9899,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/AMDnjAuWiL.drink-photo-thumb.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-recipes-managed\/AMDnjAuWiL.drink-photo.jpg" : {
+      "ft" : 16384,
+      "iS" : 128146,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/AMDnjAuWiL.drink-photo.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-recipes-managed\/AMDnjAuWiL.drink-photo.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/AMDnjAuWiL.drink-photo-min.json",
       "oF" : 0,
       "oO" : 0,
       "oS" : 1
@@ -8942,6 +9364,40 @@
       "oO" : 0,
       "oS" : 1
     },
+    "\/alpenz-recipes-managed\/fR4Zjtp2hB.drink-photo-thumb.jpg" : {
+      "ft" : 16384,
+      "iS" : 9279,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/fR4Zjtp2hB.drink-photo-thumb.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-recipes-managed\/fR4Zjtp2hB.drink-photo.jpg" : {
+      "ft" : 16384,
+      "iS" : 105561,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/fR4Zjtp2hB.drink-photo.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-recipes-managed\/fR4Zjtp2hB.drink-photo.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/fR4Zjtp2hB.drink-photo-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
     "\/alpenz-recipes-managed\/fRYKBoSwZs.drink-photo-thumb.jpg" : {
       "ft" : 16384,
       "iS" : 15977,
@@ -10506,6 +10962,40 @@
       "oO" : 0,
       "oS" : 1
     },
+    "\/alpenz-recipes-managed\/iMidBsOpKa.drink-photo-thumb.jpg" : {
+      "ft" : 16384,
+      "iS" : 12453,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/iMidBsOpKa.drink-photo-thumb.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-recipes-managed\/iMidBsOpKa.drink-photo.jpg" : {
+      "ft" : 16384,
+      "iS" : 172077,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/iMidBsOpKa.drink-photo.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-recipes-managed\/iMidBsOpKa.drink-photo.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/iMidBsOpKa.drink-photo-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
     "\/alpenz-recipes-managed\/iSxjwiXaxk.drink-photo-thumb.jpg" : {
       "ft" : 16384,
       "iS" : 18255,
@@ -11284,6 +11774,40 @@
       "ft" : 524288,
       "oA" : 1,
       "oAP" : "\/alpenz-recipes-managed\/k6jTMcH45d.drink-photo-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/alpenz-recipes-managed\/KcVcVHF0ga.drink-photo-thumb.jpg" : {
+      "ft" : 16384,
+      "iS" : 13897,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/KcVcVHF0ga.drink-photo-thumb.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-recipes-managed\/KcVcVHF0ga.drink-photo.jpg" : {
+      "ft" : 16384,
+      "iS" : 172222,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/KcVcVHF0ga.drink-photo.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-recipes-managed\/KcVcVHF0ga.drink-photo.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/KcVcVHF0ga.drink-photo-min.json",
       "oF" : 0,
       "oO" : 0,
       "oS" : 1
@@ -15062,6 +15586,40 @@
       "oO" : 0,
       "oS" : 1
     },
+    "\/alpenz-recipes-managed\/rYrZQLGYKn.drink-photo-thumb.jpg" : {
+      "ft" : 16384,
+      "iS" : 9852,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/rYrZQLGYKn.drink-photo-thumb.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-recipes-managed\/rYrZQLGYKn.drink-photo.jpg" : {
+      "ft" : 16384,
+      "iS" : 153090,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/rYrZQLGYKn.drink-photo.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-recipes-managed\/rYrZQLGYKn.drink-photo.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/rYrZQLGYKn.drink-photo-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
     "\/alpenz-recipes-managed\/s0PsMnIRYi.drink-photo-thumb.jpg" : {
       "ft" : 16384,
       "iS" : 22450,
@@ -15126,6 +15684,40 @@
       "ft" : 524288,
       "oA" : 1,
       "oAP" : "\/alpenz-recipes-managed\/S4gTWyRd9h.drink-photo-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/alpenz-recipes-managed\/s64UnZaozL.drink-photo-thumb.jpg" : {
+      "ft" : 16384,
+      "iS" : 7389,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/s64UnZaozL.drink-photo-thumb.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-recipes-managed\/s64UnZaozL.drink-photo.jpg" : {
+      "ft" : 16384,
+      "iS" : 84657,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/s64UnZaozL.drink-photo.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-recipes-managed\/s64UnZaozL.drink-photo.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/s64UnZaozL.drink-photo-min.json",
       "oF" : 0,
       "oO" : 0,
       "oS" : 1
@@ -15364,6 +15956,40 @@
       "ft" : 524288,
       "oA" : 1,
       "oAP" : "\/alpenz-recipes-managed\/siBXsDydpX.drink-photo-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/alpenz-recipes-managed\/SR00SB8ide.drink-photo-thumb.jpg" : {
+      "ft" : 16384,
+      "iS" : 10782,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/SR00SB8ide.drink-photo-thumb.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-recipes-managed\/SR00SB8ide.drink-photo.jpg" : {
+      "ft" : 16384,
+      "iS" : 128567,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/SR00SB8ide.drink-photo.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-recipes-managed\/SR00SB8ide.drink-photo.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/SR00SB8ide.drink-photo-min.json",
       "oF" : 0,
       "oO" : 0,
       "oS" : 1
@@ -15908,6 +16534,40 @@
       "ft" : 524288,
       "oA" : 1,
       "oAP" : "\/alpenz-recipes-managed\/uchJ6vNTei.drink-photo-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/alpenz-recipes-managed\/Ugv3W6HL03.drink-photo-thumb.jpg" : {
+      "ft" : 16384,
+      "iS" : 6499,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/Ugv3W6HL03.drink-photo-thumb.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-recipes-managed\/Ugv3W6HL03.drink-photo.jpg" : {
+      "ft" : 16384,
+      "iS" : 91257,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/Ugv3W6HL03.drink-photo.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-recipes-managed\/Ugv3W6HL03.drink-photo.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/Ugv3W6HL03.drink-photo-min.json",
       "oF" : 0,
       "oO" : 0,
       "oS" : 1
@@ -17680,6 +18340,40 @@
       "oO" : 0,
       "oS" : 1
     },
+    "\/alpenz-recipes-managed\/xcBTCN3mUJ.drink-photo-thumb.jpg" : {
+      "ft" : 16384,
+      "iS" : 9034,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/xcBTCN3mUJ.drink-photo-thumb.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-recipes-managed\/xcBTCN3mUJ.drink-photo.jpg" : {
+      "ft" : 16384,
+      "iS" : 102754,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/xcBTCN3mUJ.drink-photo.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-recipes-managed\/xcBTCN3mUJ.drink-photo.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/xcBTCN3mUJ.drink-photo-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
     "\/alpenz-recipes-managed\/XerPcbFFns.drink-photo-thumb.jpg" : {
       "ft" : 16384,
       "iS" : 26218,
@@ -17914,6 +18608,40 @@
       "ft" : 524288,
       "oA" : 1,
       "oAP" : "\/alpenz-recipes-managed\/XuieVH7Dq1.drink-photo-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/alpenz-recipes-managed\/Xwac10aZPW.drink-photo-thumb.jpg" : {
+      "ft" : 16384,
+      "iS" : 9489,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/Xwac10aZPW.drink-photo-thumb.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-recipes-managed\/Xwac10aZPW.drink-photo.jpg" : {
+      "ft" : 16384,
+      "iS" : 126495,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/Xwac10aZPW.drink-photo.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-recipes-managed\/Xwac10aZPW.drink-photo.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/alpenz-recipes-managed\/Xwac10aZPW.drink-photo-min.json",
       "oF" : 0,
       "oO" : 0,
       "oS" : 1
@@ -31129,6 +31857,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/alpenz-web-map\/badalucco.devmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 102274,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/badalucco.devmap.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-map\/banyuls_aop.devmap.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -31859,6 +32600,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/alpenz-web-map\/distillerie_meunier.devmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 221475,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/distillerie_meunier.devmap.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-map\/dolin.devmap.jpg" : {
       "ft" : 16384,
       "iS" : 263484,
@@ -32275,7 +33029,7 @@
     },
     "\/alpenz-web-map\/france.devmapbase.jpg" : {
       "ft" : 16384,
-      "iS" : 203214,
+      "iS" : 218087,
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-web-map\/france.devmapbase.jpg",
@@ -32321,6 +33075,19 @@
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
+    },
+    "\/alpenz-web-map\/guccione.devmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 100678,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/guccione.devmap.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/alpenz-web-map\/guyana.devmap.jpg" : {
       "ft" : 16384,
@@ -32393,6 +33160,29 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-web-map\/henriques.map.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-map\/isere.devmap.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/alpenz-web-map\/isere.devmap.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
+    "\/alpenz-web-map\/isere.devmapbase.jpg" : {
+      "ft" : 16384,
+      "iS" : 223669,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/isere.devmapbase.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -32680,6 +33470,19 @@
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
+    },
+    "\/alpenz-web-map\/marsala_doc.devmapbase.jpg" : {
+      "ft" : 16384,
+      "iS" : 96873,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/marsala_doc.devmapbase.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/alpenz-web-map\/marsala_doc.mapbase.jpg" : {
       "ft" : 16384,
@@ -33385,6 +34188,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/alpenz-web-map\/sicily.devmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 104619,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-map\/sicily.devmap.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-map\/sicily.devmap.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -34052,6 +34868,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/alpenz-web-producer-logo\/badalucco.logo.jpg" : {
+      "ft" : 16384,
+      "iS" : 14345,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-producer-logo\/badalucco.logo.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-producer-logo\/belem.logo.jpg" : {
       "ft" : 16384,
       "iS" : 74740,
@@ -34598,6 +35427,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/alpenz-web-producer-people\/badalucco.people.jpg" : {
+      "ft" : 16384,
+      "iS" : 56232,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-producer-people\/badalucco.people.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-producer-people\/byrrh.people.jpg" : {
       "ft" : 16384,
       "iS" : 45378,
@@ -35053,6 +35895,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/alpenz-web-producer-place\/badalucco.place.jpg" : {
+      "ft" : 16384,
+      "iS" : 71128,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-producer-place\/badalucco.place.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-producer-place\/byrrh.place.jpg" : {
       "ft" : 16384,
       "iS" : 24405,
@@ -35501,6 +36356,19 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-web-producer-process\/avelar.process.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-producer-process\/badalucco.process.jpg" : {
+      "ft" : 16384,
+      "iS" : 41167,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-producer-process\/badalucco.process.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -36008,6 +36876,58 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-web-product-bottle\/averell_damson.bottle.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-product-bottle\/badalucco_GV.bottle.jpg" : {
+      "ft" : 16384,
+      "iS" : 526629,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-bottle\/badalucco_GV.bottle.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-product-bottle\/badalucco_passaggio.bottle.jpg" : {
+      "ft" : 16384,
+      "iS" : 555261,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-bottle\/badalucco_passaggio.bottle.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-product-bottle\/badalucco_perpetuum.bottle.jpg" : {
+      "ft" : 16384,
+      "iS" : 778685,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-bottle\/badalucco_perpetuum.bottle.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-product-bottle\/Badalucco_pipa.bottle.jpg" : {
+      "ft" : 16384,
+      "iS" : 276877,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-bottle\/Badalucco_pipa.bottle.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -38719,6 +39639,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/alpenz-web-product-bottle\/saveiro_castanea.bottle.jpg" : {
+      "ft" : 16384,
+      "iS" : 742577,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-bottle\/saveiro_castanea.bottle.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-product-bottle\/saveiro_oeste.bottle.jpg" : {
       "ft" : 16384,
       "iS" : 85265,
@@ -39128,6 +40061,19 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-web-product-bottle\/villa_oeiras_12.bottle.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-product-bottle\/villa_oeiras_tinto.bottle.jpg" : {
+      "ft" : 16384,
+      "iS" : 605230,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-bottle\/villa_oeiras_tinto.bottle.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -41540,6 +42486,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/alpenz-web-product-context\/villa_oeiras_tinto.context.jpg" : {
+      "ft" : 16384,
+      "iS" : 58922,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-context\/villa_oeiras_tinto.context.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/alpenz-web-product-context\/villa_oeiras.context.jpg" : {
       "ft" : 16384,
       "iS" : 58922,
@@ -41676,6 +42635,58 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-web-product-label\/averell_damson.label.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-product-label\/badalucco_GV.label.jpg" : {
+      "ft" : 16384,
+      "iS" : 53651,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-label\/badalucco_GV.label.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-product-label\/badalucco_passaggio.label.jpg" : {
+      "ft" : 16384,
+      "iS" : 54313,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-label\/badalucco_passaggio.label.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-product-label\/badalucco_perpetuum.label.jpg" : {
+      "ft" : 16384,
+      "iS" : 48212,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-label\/badalucco_perpetuum.label.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-product-label\/Badalucco_pipa.label.jpg" : {
+      "ft" : 16384,
+      "iS" : 48321,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-label\/Badalucco_pipa.label.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -42079,32 +43090,6 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-web-product-label\/cocchi_rosa.label.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/alpenz-web-product-label\/cocchi_vdt.label.detail.jpeg" : {
-      "ft" : 16384,
-      "iS" : 83299,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/alpenz-web-product-label\/cocchi_vdt.label.detail.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/alpenz-web-product-label\/cocchi_vdt.label.detail.jpg" : {
-      "ft" : 16384,
-      "iS" : 640078,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/alpenz-web-product-label\/cocchi_vdt.label.detail.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -44913,6 +45898,19 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/alpenz-web-product-label\/villa_oeiras_12.label.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/alpenz-web-product-label\/villa_oeiras_tinto.label.jpg" : {
+      "ft" : 16384,
+      "iS" : 147423,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/alpenz-web-product-label\/villa_oeiras_tinto.label.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -48996,6 +49994,64 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/mixtech-enterprise-alpenz\/recipe-5tSTLce4Yq-1733171846-managed.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-5tSTLce4Yq-1733171846-managed-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-5tSTLce4Yq-1733171846-static.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-5tSTLce4Yq-1733171846-static-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-5tSTLce4Yq-1733171846.jpg" : {
+      "ft" : 16384,
+      "iS" : 832020,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-5tSTLce4Yq-1733171846.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-5tTdXlAhvb-1733171629-managed.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-5tTdXlAhvb-1733171629-managed-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-5tTdXlAhvb-1733171629-static.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-5tTdXlAhvb-1733171629-static-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-5tTdXlAhvb-1733171629.jpg" : {
+      "ft" : 16384,
+      "iS" : 591788,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-5tTdXlAhvb-1733171629.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/mixtech-enterprise-alpenz\/recipe-6JhGXhm5E9-1666043477-managed.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -49779,6 +50835,35 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/mixtech-enterprise-alpenz\/recipe-74Rbb1xgsP-1733171382-managed.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-74Rbb1xgsP-1733171382-managed-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-74Rbb1xgsP-1733171382-static.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-74Rbb1xgsP-1733171382-static-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-74Rbb1xgsP-1733171382.jpg" : {
+      "ft" : 16384,
+      "iS" : 636849,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-74Rbb1xgsP-1733171382.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/mixtech-enterprise-alpenz\/recipe-83XMGuqMvg-1666043477-managed.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -50178,6 +51263,35 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/mixtech-enterprise-alpenz\/recipe-ALevJH1Igm-1678940639.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-AMDnjAuWiL-1733172099-managed.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-AMDnjAuWiL-1733172099-managed-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-AMDnjAuWiL-1733172099-static.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-AMDnjAuWiL-1733172099-static-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-AMDnjAuWiL-1733172099.jpg" : {
+      "ft" : 16384,
+      "iS" : 622511,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-AMDnjAuWiL-1733172099.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -52397,6 +53511,35 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/mixtech-enterprise-alpenz\/recipe-fR4Zjtp2hB-1733172144-managed.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-fR4Zjtp2hB-1733172144-managed-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-fR4Zjtp2hB-1733172144-static.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-fR4Zjtp2hB-1733172144-static-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-fR4Zjtp2hB-1733172144.jpg" : {
+      "ft" : 16384,
+      "iS" : 575949,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-fR4Zjtp2hB-1733172144.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/mixtech-enterprise-alpenz\/recipe-fRYKBoSwZs-1666043477-managed.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -53739,6 +54882,35 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/mixtech-enterprise-alpenz\/recipe-iMidBsOpKa-1733171970-managed.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-iMidBsOpKa-1733171970-managed-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-iMidBsOpKa-1733171970-static.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-iMidBsOpKa-1733171970-static-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-iMidBsOpKa-1733171970.jpg" : {
+      "ft" : 16384,
+      "iS" : 788483,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-iMidBsOpKa-1733171970.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/mixtech-enterprise-alpenz\/recipe-iSxjwiXaxk-1666043477-managed.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -54399,6 +55571,35 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/mixtech-enterprise-alpenz\/recipe-k6jTMcH45d-1666043478.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-KcVcVHF0ga-1733172046-managed.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-KcVcVHF0ga-1733172046-managed-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-KcVcVHF0ga-1733172046-static.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-KcVcVHF0ga-1733172046-static-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-KcVcVHF0ga-1733172046.jpg" : {
+      "ft" : 16384,
+      "iS" : 699183,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-KcVcVHF0ga-1733172046.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -57683,6 +58884,35 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/mixtech-enterprise-alpenz\/recipe-rYrZQLGYKn-1733171896-managed.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-rYrZQLGYKn-1733171896-managed-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-rYrZQLGYKn-1733171896-static.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-rYrZQLGYKn-1733171896-static-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-rYrZQLGYKn-1733171896.jpg" : {
+      "ft" : 16384,
+      "iS" : 473110,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-rYrZQLGYKn-1733171896.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/mixtech-enterprise-alpenz\/recipe-s0PsMnIRYi-1666043478-managed.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -57734,6 +58964,35 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/mixtech-enterprise-alpenz\/recipe-S4gTWyRd9h-1666043478.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-s64UnZaozL-1733171746-managed.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-s64UnZaozL-1733171746-managed-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-s64UnZaozL-1733171746-static.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-s64UnZaozL-1733171746-static-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-s64UnZaozL-1733171746.jpg" : {
+      "ft" : 16384,
+      "iS" : 504102,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-s64UnZaozL-1733171746.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -57937,6 +59196,35 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/mixtech-enterprise-alpenz\/recipe-siBXsDydpX-1666043479.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-SR00SB8ide-1733171939-managed.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-SR00SB8ide-1733171939-managed-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-SR00SB8ide-1733171939-static.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-SR00SB8ide-1733171939-static-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-SR00SB8ide-1733171939.jpg" : {
+      "ft" : 16384,
+      "iS" : 613983,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-SR00SB8ide-1733171939.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -58401,6 +59689,35 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/mixtech-enterprise-alpenz\/recipe-uchJ6vNTei-1666043478.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-Ugv3W6HL03-1733172000-managed.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-Ugv3W6HL03-1733172000-managed-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-Ugv3W6HL03-1733172000-static.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-Ugv3W6HL03-1733172000-static-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-Ugv3W6HL03-1733172000.jpg" : {
+      "ft" : 16384,
+      "iS" : 550480,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-Ugv3W6HL03-1733172000.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -59916,6 +61233,64 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/mixtech-enterprise-alpenz\/recipe-xcBTCN3mUJ-1733171496-managed.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-xcBTCN3mUJ-1733171496-managed-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-xcBTCN3mUJ-1733171496-static.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-xcBTCN3mUJ-1733171496-static-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-xcBTCN3mUJ-1733171496.jpg" : {
+      "ft" : 16384,
+      "iS" : 471860,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-xcBTCN3mUJ-1733171496.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-xcBTCN3mUJ-1733171555-managed.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-xcBTCN3mUJ-1733171555-managed-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-xcBTCN3mUJ-1733171555-static.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-xcBTCN3mUJ-1733171555-static-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-xcBTCN3mUJ-1733171555.jpg" : {
+      "ft" : 16384,
+      "iS" : 566050,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-xcBTCN3mUJ-1733171555.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/mixtech-enterprise-alpenz\/recipe-XerPcbFFns-1666043478-managed.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -60112,6 +61487,35 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/mixtech-enterprise-alpenz\/recipe-XuieVH7Dq1-1666043479.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-Xwac10aZPW-1733172200-managed.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-Xwac10aZPW-1733172200-managed-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-Xwac10aZPW-1733172200-static.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-Xwac10aZPW-1733172200-static-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/mixtech-enterprise-alpenz\/recipe-Xwac10aZPW-1733172200.jpg" : {
+      "ft" : 16384,
+      "iS" : 665300,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/mixtech-enterprise-alpenz\/recipe-Xwac10aZPW-1733172200.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -61403,6 +62807,14 @@
       "oO" : 0,
       "oS" : 1
     },
+    "\/newyork-form.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/newyork-form.html",
+      "oF" : 0
+    },
     "\/origin-alta_langa_docg.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -61515,6 +62927,14 @@
       "oAP" : "\/origin-cotes_catalanes_igp.html",
       "oF" : 0
     },
+    "\/origin-cotes_de_roussillon_AOP.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/origin-cotes_de_roussillon_AOP.html",
+      "oF" : 0
+    },
     "\/origin-emporda_do.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -61545,6 +62965,14 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/origin-guyana.html",
+      "oF" : 0
+    },
+    "\/origin-isere.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/origin-isere.html",
       "oF" : 0
     },
     "\/origin-italy.html" : {
@@ -61851,6 +63279,14 @@
       "oAP" : "\/origincat-catalunya-vermouth.html",
       "oF" : 0
     },
+    "\/origincat-catalunya-white_wine.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/origincat-catalunya-white_wine.html",
+      "oF" : 0
+    },
     "\/origincat-collioure_aop-red_wine.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -61881,6 +63317,14 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/origincat-cotes_catalanes_igp-rancio_sec.html",
+      "oF" : 0
+    },
+    "\/origincat-cotes_de_roussillon_AOP-white_wine.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/origincat-cotes_de_roussillon_AOP-white_wine.html",
       "oF" : 0
     },
     "\/origincat-england-gin.html" : {
@@ -61955,6 +63399,14 @@
       "oAP" : "\/origincat-guyana-rum.html",
       "oF" : 0
     },
+    "\/origincat-isere-floral_herbal_amaro.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/origincat-isere-floral_herbal_amaro.html",
+      "oF" : 0
+    },
     "\/origincat-italy-aromatized.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -61993,6 +63445,14 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/origincat-italy-vermouth.html",
+      "oF" : 0
+    },
+    "\/origincat-italy-white_wine.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/origincat-italy-white_wine.html",
       "oF" : 0
     },
     "\/origincat-jamaica-rum.html" : {
@@ -62179,6 +63639,14 @@
       "oAP" : "\/origincat-savoie-vermouth.html",
       "oF" : 0
     },
+    "\/origincat-sicily-white_wine.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/origincat-sicily-white_wine.html",
+      "oF" : 0
+    },
     "\/origincat-spain-rancio_sec.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -62193,6 +63661,14 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/origincat-spain-vermouth.html",
+      "oF" : 0
+    },
+    "\/origincat-spain-white_wine.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/origincat-spain-white_wine.html",
       "oF" : 0
     },
     "\/origincat-steiermark-floral_herbal_amaro.html" : {
@@ -62345,6 +63821,14 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/producer-avelar.html",
+      "oF" : 0
+    },
+    "\/producer-badalucco.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/producer-badalucco.html",
       "oF" : 0
     },
     "\/producer-belem.html" : {
@@ -62729,6 +64213,38 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/product-averell_damson.html",
+      "oF" : 0
+    },
+    "\/product-badalucco_gv.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/product-badalucco_gv.html",
+      "oF" : 0
+    },
+    "\/product-badalucco_passaggio.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/product-badalucco_passaggio.html",
+      "oF" : 0
+    },
+    "\/product-badalucco_perpetuum.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/product-badalucco_perpetuum.html",
+      "oF" : 0
+    },
+    "\/product-badalucco_pipa.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/product-badalucco_pipa.html",
       "oF" : 0
     },
     "\/product-banyuls_rancio_1970.html" : {
@@ -64363,6 +65879,14 @@
       "oAP" : "\/product-sau_rivesaltes_2002.html",
       "oF" : 0
     },
+    "\/product-saveiro_castanea.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/product-saveiro_castanea.html",
+      "oF" : 0
+    },
     "\/product-saveiro_oeste.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -64619,6 +66143,14 @@
       "oAP" : "\/product-villa_oeiras_12.html",
       "oF" : 0
     },
+    "\/product-villa_oeiras_tinto.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/product-villa_oeiras_tinto.html",
+      "oF" : 0
+    },
     "\/product-villa_oeiras.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -64713,6 +66245,14 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/productrecipes-alta_verde.html",
+      "oF" : 0
+    },
+    "\/productrecipes-altitude.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/productrecipes-altitude.html",
       "oF" : 0
     },
     "\/productrecipes-asti.html" : {
@@ -65419,6 +66959,14 @@
       "oAP" : "\/recipe-2r8Lh3v5VU.html",
       "oF" : 0
     },
+    "\/recipe-2TpuZz38ll.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-2TpuZz38ll.html",
+      "oF" : 0
+    },
     "\/recipe-2ub8rxQ9Se.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -65449,6 +66997,14 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/recipe-3Dx7q9YQpD.html",
+      "oF" : 0
+    },
+    "\/recipe-3JrYmCJBJg.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-3JrYmCJBJg.html",
       "oF" : 0
     },
     "\/recipe-3LRPHKymX9.html" : {
@@ -65561,6 +67117,14 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/recipe-5h4vH0tYkL.html",
+      "oF" : 0
+    },
+    "\/recipe-5hCQmOsp8x.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-5hCQmOsp8x.html",
       "oF" : 0
     },
     "\/recipe-05jXIiPgf1.html" : {
@@ -66153,6 +67717,14 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/recipe-ALevJH1Igm.html",
+      "oF" : 0
+    },
+    "\/recipe-AMDnjAuWiL.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-AMDnjAuWiL.html",
       "oF" : 0
     },
     "\/recipe-amXLjagZke.html" : {
@@ -67355,6 +68927,14 @@
       "oAP" : "\/recipe-GRZL8aqN4S.html",
       "oF" : 0
     },
+    "\/recipe-GUKHtsm1k0.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-GUKHtsm1k0.html",
+      "oF" : 0
+    },
     "\/recipe-gXuu4XYshY.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -67913,6 +69493,14 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/recipe-Jt2mKO4hMB.html",
+      "oF" : 0
+    },
+    "\/recipe-Ju2dhhgtfO.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-Ju2dhhgtfO.html",
       "oF" : 0
     },
     "\/recipe-jwWCpdYS50.html" : {
@@ -69307,6 +70895,14 @@
       "oAP" : "\/recipe-rul5fzmTkS.html",
       "oF" : 0
     },
+    "\/recipe-rYrZQLGYKn.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-rYrZQLGYKn.html",
+      "oF" : 0
+    },
     "\/recipe-s0PsMnIRYi.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -69337,6 +70933,14 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/recipe-S6McItjhen.html",
+      "oF" : 0
+    },
+    "\/recipe-s64UnZaozL.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-s64UnZaozL.html",
       "oF" : 0
     },
     "\/recipe-S1896ExS59.html" : {
@@ -69425,6 +71029,14 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/recipe-sMD6NPZ1rl.html",
+      "oF" : 0
+    },
+    "\/recipe-spYWIJ1HaH.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-spYWIJ1HaH.html",
       "oF" : 0
     },
     "\/recipe-sq0ZQeW8rA.html" : {
@@ -69667,6 +71279,14 @@
       "oAP" : "\/recipe-ugIbmYSms5.html",
       "oF" : 0
     },
+    "\/recipe-Ugv3W6HL03.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-Ugv3W6HL03.html",
+      "oF" : 0
+    },
     "\/recipe-UhTeaARf6S.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -69697,6 +71317,14 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/recipe-Umqr6S9sgT.html",
+      "oF" : 0
+    },
+    "\/recipe-UMZSpvwRnO.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-UMZSpvwRnO.html",
       "oF" : 0
     },
     "\/recipe-UPhK0q8MYg.html" : {
@@ -70251,12 +71879,28 @@
       "oAP" : "\/recipe-xlKz6z79hW.html",
       "oF" : 0
     },
+    "\/recipe-Xn95zlPZet.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-Xn95zlPZet.html",
+      "oF" : 0
+    },
     "\/recipe-XnXB7Q8Nis.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/recipe-XnXB7Q8Nis.html",
+      "oF" : 0
+    },
+    "\/recipe-Xq4s4M4Z2t.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-Xq4s4M4Z2t.html",
       "oF" : 0
     },
     "\/recipe-xQDE9zHAtq.html" : {
@@ -70273,6 +71917,14 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/recipe-Xqg7dGDRx0.html",
+      "oF" : 0
+    },
+    "\/recipe-xrn29b4X27.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-xrn29b4X27.html",
       "oF" : 0
     },
     "\/recipe-XtFqYtxHAJ.html" : {
@@ -70481,6 +72133,14 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/recipe-yos07mgCfl.html",
+      "oF" : 0
+    },
+    "\/recipe-YPmEV3rzTV.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-YPmEV3rzTV.html",
       "oF" : 0
     },
     "\/recipe-yr53PdBkeM.html" : {
@@ -70767,61 +72427,53 @@
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/css\/_abstract.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/_footer.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/css\/_footer.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/_header.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/css\/_header.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/scss\/style2.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/css\/style2.css",
       "oF" : 2,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/seattle202203.html" : {
       "cB" : 0,
@@ -71661,6 +73313,14 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/vintage-2021.html",
+      "oF" : 0
+    },
+    "\/vintage-2022.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/vintage-2022.html",
       "oF" : 0
     },
     "\/vintages-1940s.html" : {
@@ -73195,11 +74855,9 @@
       "autoOutputPathReplace1" : "sass",
       "autoOutputPathReplace2" : "css",
       "autoOutputPathStyle" : 2,
-      "compilerType" : 0,
       "cssoStyle" : 0,
-      "decimalPrecision" : 10,
       "emitCharset" : 1,
-      "outputStyle" : 0,
+      "outputStyle" : 1,
       "purgeCSSStyle" : 0,
       "shouldRunAutoprefixer" : 0,
       "shouldRunBless" : 0,
@@ -73314,6 +74972,7 @@
     ],
     "rollupTreeshakingEnabled" : 1,
     "rollupTreeshakingModuleSideEffects" : 1,
+    "sassWarningStyle" : 1,
     "skippedFoldersString" : "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
     "sourceFolderName" : "source",
     "susyVersion" : 3,

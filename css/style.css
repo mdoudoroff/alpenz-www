@@ -4610,3 +4610,45 @@ h5 {
     width: 45%;
   }
 }
+.regform {
+  background-color: #edece8;
+  padding: 1em;
+}
+.regform input,
+.regform textarea {
+  font-size: 120%;
+}
+.regform textarea {
+  width: min(60ch, 80%);
+}
+.regform input[type=submit] {
+  padding: 0.25em 1em;
+  margin-inline: auto;
+  margin-block: 1em;
+  color: white;
+  background: #a2120f;
+  border: none;
+  cursor: pointer;
+}
+.regform input[type=submit]:hover {
+  background: #eb2f2c;
+}
+fieldset {
+  padding: 0.5em;
+  margin-block: 1em;
+}
+.field {
+  margin-block: 0.5em;
+  display: flex;
+  align-items: center;
+}
+label {
+  margin-right: 0.5em;
+}
+.field.radiogroup label {
+  margin-right: 1em;
+  margin-left: 0.25em;
+}
+.field.inputgroup input + label {
+  margin-left: 1em;
+}
