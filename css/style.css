@@ -4638,9 +4638,14 @@ fieldset {
   margin-block: 1em;
 }
 .field {
-  margin-block: 0.5em;
+  margin-block: 1em;
   display: flex;
   align-items: center;
+}
+.field .error-message {
+  padding-inline: 0.5em;
+  color: red;
+  font-style: italic;
 }
 label {
   margin-right: 0.5em;
