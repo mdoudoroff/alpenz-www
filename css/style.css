@@ -97,6 +97,12 @@ a h2 {
   position: absolute;
   width: 1px;
 }
+.skiplink:focus {
+  text-align: center;
+  position: relative;
+  background-color: white;
+  z-index: 999;
+}
 .content {
   background: #fff;
   position: relative;
