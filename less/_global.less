@@ -1137,16 +1137,15 @@ header.producerindex {
 // faux button
 .setupDownload {
 	display: inline-block;
-	background: @light_grey;
+	border: 1px solid @red;
 	padding: 4px 9px;
 	margin: 0;
-	border: 0px;
 	font-size: 13px;
 	line-height: 1em;
 	font-family: @nav-font;
 	font-weight: 600;
 	text-transform: uppercase;
-	color: @dark_grey;
+	color: @red;
 	
 	-webkit-appearance: none;
 	
@@ -1155,7 +1154,7 @@ header.producerindex {
 	&:hover {
 		cursor: pointer;
 		color: #fff;
-		background: lighten(@red, 10%);
+		background: @red;
 	}
 	
 	&.fullprofile {

@@ -940,23 +940,22 @@ header.producerindex .images figure.logo {
 }
 .setupDownload {
   display: inline-block;
-  background: #bbbbbb;
+  border: 1px solid #a2120f;
   padding: 4px 9px;
   margin: 0;
-  border: 0px;
   font-size: 13px;
   line-height: 1em;
   font-family: open-sans, sans-serif;
   font-weight: 600;
   text-transform: uppercase;
-  color: #484848;
+  color: #a2120f;
   -webkit-appearance: none;
   text-decoration: none !important;
 }
 .setupDownload:hover {
   cursor: pointer;
   color: #fff;
-  background: #d11713;
+  background: #a2120f;
 }
 .setupDownload.fullprofile {
   margin: 20px 0 0 0;
@@ -2799,7 +2798,7 @@ th.vintage-category {
   display: block;
   float: right;
   line-height: 37px;
-  color: #bbbbbb;
+  color: #666666;
 }
 @media only screen and (max-width: 420px) {
   .footer small {
@@ -3691,12 +3690,12 @@ h5 {
   font-family: lora, serif;
   font-size: 22px;
   font-weight: bold;
-  color: #c5c4bd;
+  color: #adaba2;
   border-top: 2px solid #dddcd8;
   border-bottom: 2px solid #dddcd8;
   text-align: center;
   margin: 1em 0;
-  padding: 0.25em 0 0.5em 0;
+  padding: 0.5em 0 0.25em 0;
   text-transform: uppercase;
 }
 @media only screen and (max-width: 420px) {
