@@ -160,7 +160,8 @@ a h2 {
     font-size: 20px;
   }
 }
-.content h3 {
+.content h3,
+.content legend {
   font-family: lora, serif;
   color: black;
   font-size: 18px;
@@ -168,7 +169,8 @@ a h2 {
   font-weight: 900;
   margin: 0 0 1em 0;
 }
-.content h3.category_title {
+.content h3.category_title,
+.content legend.category_title {
   font-size: 26px;
   line-height: 1em;
 }
@@ -1146,6 +1148,7 @@ article.product + .recipesConcise :nth-child(n+6) {
   font-family: open-sans, sans-serif;
   font-weight: 700;
   color: #a2120f;
+  background: white;
   padding-left: 6px;
   padding-right: 6px;
   border: 1px solid #a2120f;

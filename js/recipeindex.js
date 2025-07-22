@@ -159,11 +159,12 @@ function refilterRecipes() {
 		} else {
 			document.getElementById('matchesAnnotation').innerHTML = matches.length + ' match out of ' + allrows.length;
 		}
-		let e = document.createElement('a');
+		let e = document.createElement('button');
 		e.classList.add('inlineButton');
 		e.innerHTML = 'RESET / SHOW ALL';
 		e.style.margin = '0 0 0 1em';
-		e.style.cursor = 'pointer';
+		// e.style.cursor = 'pointer';
+		e.setAttribute('aria-label', 'clear all filters and show all recipes');
 		document.getElementById('matchesAnnotation').appendChild(e)
 	}
 
@@ -181,6 +182,7 @@ function refilterRecipes() {
 			let c = document.createElement('a');
 			c.innerHTML = tabularnav[x];
 			c.href = '#letter_'+tabularnav[x];
+			c.setAttribute('aria-label', 'jump to '+ tabularnav[x])
 			document.getElementById('tabularnav').appendChild(c);
 		}
 	}	
