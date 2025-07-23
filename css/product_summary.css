@@ -174,7 +174,7 @@ a h2 {
   font-size: 26px;
   line-height: 1em;
 }
-.content h3.breadcrumbs {
+.content nav.breadcrumbs {
   font-size: 13px;
   font-family: open-sans, sans-serif;
   font-weight: 600;
