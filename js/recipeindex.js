@@ -72,6 +72,8 @@ function scrapeFilters() {
 
 function restoreFilters(vals) {
 
+	console.log('restoreFilters vals going in:', vals)
+
 	// fetch the URL and querystring; sanitize
 	const currentURL = new URL(document.location);
 	const qparams = currentURL.searchParams;
@@ -79,7 +81,7 @@ function restoreFilters(vals) {
 	qparams.delete('license');
 	qparams.delete('tag');
 
-	// console.log('restoreFilters: vals=',vals);
+	console.log('restoreFilters: vals=',vals);
 
 	vals.forEach( (val) => {
 		if (val.indexOf('iid')==0) {
@@ -190,20 +192,23 @@ function refilterRecipes() {
 }
 
 // fetch the querystring
-const currentURL = new URL(document.location);
-const qparams = currentURL.searchParams;
+
+const paramsString = window.location.search;
+const searchParams = new URLSearchParams(paramsString);
+
 
 // if we have incoming querystring parameters for filtration, use them
 filterParams = [];
-if (qparams.has('iid')) {
-	filterParams.push.apply(filterParams, qparams['iid']);
+if (searchParams.has('iid')) {
+	filterParams.push.apply(filterParams, searchParams.getAll('iid'));
 }
-if (qparams.has('license')) {
-	filterParams.push.apply(filterParams, qparams['license']);
+if (searchParams.has('license')) {
+	filterParams.push.apply(filterParams, searchParams.getAll('license'));
 }
-if (qparams.has('tag')) {
-	filterParams.push.apply(filterParams, qparams['tag']);
+if (searchParams.has('tag')) {
+	filterParams.push.apply(filterParams, searchParams.getAll('tag'));
 }
+
 if (filterParams.length > 0) {
 	restoreFilters(filterParams);
 

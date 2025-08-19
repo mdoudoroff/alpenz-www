@@ -435,12 +435,33 @@ a h2 {
 .content div.recipes .recipe p:last-child {
   margin: 0;
 }
-.content .recipeFull {
+.content .recipe--wrap {
+  border: 1px solid #484848;
+  max-width: 480px;
+  margin-bottom: 2em;
+}
+.content .recipe--metadata {
+  display: grid;
+  grid-template-columns: auto auto;
+  max-width: 480px;
   background-color: #edece8;
+}
+@media (max-width: 420px) {
+  .content .recipe--metadata {
+    grid-template-columns: 1fr;
+  }
+}
+.content .license--metadata {
+  padding: 1em;
+}
+.content .alc-metadata {
+  padding: 1em;
+}
+.content .recipeFull {
+  background: #fafafa;
   padding: 1em;
   max-width: 480px;
   line-height: 1;
-  margin-bottom: 2em;
   font-size: 14px;
   font-family: open-sans, sans-serif;
 }

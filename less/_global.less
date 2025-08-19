@@ -508,14 +508,45 @@ a {
 
 	}
 	
+	.recipe--wrap {
+		border: 1px solid rgb(72,72,72);
+		max-width: 480px;
+		margin-bottom: 2em;		
+	}
+
+	.recipe--metadata {
+		display: grid;
+		grid-template-columns: auto auto;
+
+		max-width: 480px;
+		background-color: @off-grey;
+
+
+		@media (max-width: @sizes[mobile] ) {
+			grid-template-columns: 1fr;
+		}
+
+
+	}
+	.license--metadata {
+		padding: 1em;
+
+	}
+	.alc-metadata {
+		padding: 1em;
+	}
+
 	.recipeFull {
 
-		background-color: @off-grey;
+		background: #fafafa;
+		// border: 2px solid @off-grey;
+
+
 		padding: 1em;
 		max-width: 480px;
 
 		line-height: 1.0;
-		margin-bottom: 2em;
+		// margin-bottom: 2em;
 		font-size: 14px;
 		font-family: @body-font;
 
