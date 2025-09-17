@@ -64919,6 +64919,28 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/js\/recipeindex2025-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/recipeindex2025-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/recipeindex2025.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/recipeindex2025-min.js",
+      "oF" : 2,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/js\/site-search.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -91265,6 +91287,14 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/recipes.html",
+      "oF" : 0
+    },
+    "\/recipes2025.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipes2025.html",
       "oF" : 0
     },
     "\/robots.txt" : {
