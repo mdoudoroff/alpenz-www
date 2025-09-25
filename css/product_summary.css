@@ -2284,6 +2284,9 @@ th.vintage-category {
     padding: 0.75em 0.75em;
   }
 }
+input#substring {
+  width: 100%;
+}
 .header {
   width: 100%;
   min-width: 978px;

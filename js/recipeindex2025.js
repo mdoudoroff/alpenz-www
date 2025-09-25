@@ -29,6 +29,7 @@ function scrapeFilters() {
 	const qparams = currentURL.searchParams;
 	qparams.delete('iid');
 	qparams.delete('license');
+	qparams.delete('substring');
 	qparams.delete('tag');
 
 	const groups = [];
@@ -40,6 +41,13 @@ function scrapeFilters() {
 		groups.push( [licenseChooser.value] );
 		groupsForCookie.push( licenseChooser.value );
 		qparams.append('license', licenseChooser.value );
+	}
+
+	const substring = document.getElementById("substring");
+	if ( substring.value.length>0) {
+		groups.push( [ 'substring:'+substring.value ] );
+		groupsForCookie.push( 'substring:'+substring.value );
+		qparams.append('substring', substring.value );
 	}
 
 	// update the ingredient chooser
@@ -95,6 +103,7 @@ function restoreFilters(vals) {
 	const qparams = currentURL.searchParams;
 	qparams.delete('iid');
 	qparams.delete('license');
+	qparams.delete('substring');
 	qparams.delete('tag');
 
 	console.log('restoreFilters: vals=',vals);
@@ -103,6 +112,12 @@ function restoreFilters(vals) {
 		if (val.indexOf('iid')==0) {
 			document.getElementById('ingredientChooser').value = val;
 			qparams.append('iid',val);
+		} else if (val.indexOf('substring:')==0) {
+			document.getElementById('substring').value = val.substring(10,val.length);
+			qparams.append('substring',val.substring(10,val.length));
+		// } else if (val.indexOf('substring')==0) {
+		// 	document.getElementById('substring').value = val;
+			qparams.append('substring',val);
 		} else if (val.indexOf('license_')==0) {
 			document.getElementById('licenseChooser').value = val;
 			qparams.append('license',val);
@@ -124,6 +139,7 @@ function restoreFilters(vals) {
 function resetFilters() {
 	document.querySelectorAll('input[type=checkbox]').forEach(el => el.checked = false);
 	document.getElementById('ingredientChooser').value = '';
+	document.getElementById('substring').value = '';
 	// document.getElementById('licenseChooser').value = '';
 	eraseCookie('harecipesform');
 }
@@ -132,59 +148,89 @@ function refilterRecipes() {
 	const filterGroups = scrapeFilters();
 	let matches = [];
 
-	if (filterGroups.length===0) {
-		matches = document.querySelectorAll('.recipeSummaries tr');
-		matches.forEach(el => el.style.display = 'table-row');
-		document.getElementById('matchesAnnotation').innerHTML = matches.length + ' recipes';
-	} else {
-		const allrows = document.querySelectorAll('.recipeSummaries tr');
-		matches = [];
-		allrows.forEach( row => {
+	console.log(filterGroups);
 
-			row.style.display = 'none'; // hide the row by default
+	let substring = '';
 
-			let rowPass = true;
-
-			let rowClasses = Array.from(row.classList);
-
-			for (let groupIdx=0; groupIdx < filterGroups.length; groupIdx++) {
-
-				let groupPass = false;
-
-				// if the classList contains at least one of the kw for this group, it meets the requirement for the group
-				filterGroups[groupIdx].forEach( kw => {
-					if (rowClasses.includes(kw)) {
-						groupPass = true;
-					}
-				});
-
-				// if any group fails, we filter out the row
-				if (!groupPass) {
-					rowPass = false;
-				}
-
-			}
-			if (rowPass) {
-				matches.push(row);
-			} else {
-				// row.style.display = false; // @@ why are we doing this here?
-			}
-		});
-
-		matches.forEach(el => el.style.display = 'table-row');
-		if (matches.length>1) {
-			document.getElementById('matchesAnnotation').innerHTML = matches.length + ' matches out of ' + allrows.length;
-		} else {
-			document.getElementById('matchesAnnotation').innerHTML = matches.length + ' match out of ' + allrows.length;
-		}
-		let e = document.createElement('button');
-		e.classList.add('inlineButton');
-		e.innerHTML = 'RESET / SHOW ALL';
-		e.style.margin = '0 0 0 1em';
-		// e.style.cursor = 'pointer';
-		e.setAttribute('aria-label', 'clear all filters and show all recipes');
-		document.getElementById('matchesAnnotation').appendChild(e)
+	// substring filter
+	const substringElement = document.getElementById("substring");
+	if (substringElement.value.length > 0) {
+		substring = substringElement.value.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+		console.log('filtering by substring: ', substring);
 	}
+	
+
+
+	// if (filterGroups.length===0) {
+	// 	matches = document.querySelectorAll('.recipeSummaries tr');
+	// 	matches.forEach(el => el.style.display = 'table-row');
+	// 	document.getElementById('matchesAnnotation').innerHTML = matches.length + ' recipes';
+	// } else {
+
+	const allrows = document.querySelectorAll('.recipeSummaries tr');
+	matches = [];
+	allrows.forEach( row => {
+
+		row.style.display = 'none'; // hide the row by default
+
+		let rowPass = true;
+
+		let rowClasses = Array.from(row.classList);
+
+		for (let groupIdx=0; groupIdx < filterGroups.length; groupIdx++) {
+
+			// if substring in group, then we skip this group
+			if (filterGroups[groupIdx][0].includes('substring:')) {
+				continue
+			}
+
+			let groupPass = false;
+
+			// if the classList contains at least one of the kw for this group, it meets the requirement for the group
+			filterGroups[groupIdx].forEach( kw => {
+				if (rowClasses.includes(kw)) {
+					groupPass = true;
+				}
+			});
+
+			// if any group fails, we filter out the row
+			if (!groupPass) {
+				rowPass = false;
+			}
+
+		}
+
+		// substring matching
+		if (rowPass & substring.length > 0) {
+			let tmp = row.getElementsByClassName('recipeTitle')[0].innerText.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+			// console.log('testing: ',tmp);
+			if (!tmp.includes(substring)) {
+				rowPass = false;
+			}
+		}
+
+
+		if (rowPass) {
+			matches.push(row);
+		} else {
+			// row.style.display = false; // @@ why are we doing this here?
+		}
+	});
+
+	matches.forEach(el => el.style.display = 'table-row');
+	if (matches.length>1) {
+		document.getElementById('matchesAnnotation').innerHTML = matches.length + ' matches out of ' + allrows.length;
+	} else {
+		document.getElementById('matchesAnnotation').innerHTML = matches.length + ' match out of ' + allrows.length;
+	}
+	let e = document.createElement('button');
+	e.classList.add('inlineButton');
+	e.innerHTML = 'RESET / SHOW ALL';
+	e.style.margin = '0 0 0 1em';
+	// e.style.cursor = 'pointer';
+	e.setAttribute('aria-label', 'clear all filters and show all recipes');
+	document.getElementById('matchesAnnotation').appendChild(e)
+	// }
 
 	// impose tabular nav
 	document.getElementById('tabularnav').innerHTML = '';
@@ -221,17 +267,22 @@ if (searchParams.has('iid')) {
 if (searchParams.has('license')) {
 	filterParams.push.apply(filterParams, searchParams.getAll('license'));
 }
+// this is broken and maybe not necessary
+// if (searchParams.has('substring')) {
+	// let substringhack = 'substring:'+searchParams.getAll('substring');
+	// console.log('substringhack:',substringhack);
+	// filterParams.push.apply(filterParams, substringhack);
+// }
 if (searchParams.has('tag')) {
 	filterParams.push.apply(filterParams, searchParams.getAll('tag'));
 }
 
 if (filterParams.length > 0) {
 	restoreFilters(filterParams);
-
 // look for a cookie to restore filtration state with
 } else {
 	const x = getCookie('harecipesform');
-	// console.log('cookie',x);
+	console.log('cookie',x);
 	if (x) {
 	    restoreFilters(x.split(','));
 	}
@@ -242,6 +293,9 @@ document.querySelector('#recipefilters').addEventListener('change', function() {
     refilterRecipes();
 });
 document.querySelector('#licenseChooser').addEventListener('change', function() {
+    refilterRecipes();
+});
+document.querySelector('#substring').addEventListener('change', function() {
     refilterRecipes();
 });
 
