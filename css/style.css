@@ -63,7 +63,7 @@ a h2 {
     display: none;
   }
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .button {
     font-size: 13px;
     font-weight: bold;
@@ -76,7 +76,7 @@ a h2 {
   background-size: cover;
   background-position: center center;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .hero {
     height: 200px;
   }
@@ -110,7 +110,7 @@ a h2 {
   /* Single Product Overview page*/
   /* this is actually the half-assed organization of the two columns on product detail page */
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .content {
     margin-left: 5px;
     margin-right: 5px;
@@ -120,7 +120,7 @@ a h2 {
   padding: 18px 9px;
   background: #ffffff;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .content .wrap {
     padding: 18px 0;
   }
@@ -140,7 +140,7 @@ a h2 {
   margin: 0 0 0.5em 0;
   position: relative;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .content h1 {
     font-size: 24px;
     margin: 0 0 12px 0;
@@ -155,7 +155,7 @@ a h2 {
 .content h2 .inlineButton {
   bottom: 3px;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .content h2 {
     font-size: 20px;
   }
@@ -224,7 +224,7 @@ a h2 {
 .content .catalogue {
   float: right;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .content .catalogue {
     font-size: 12px;
   }
@@ -247,7 +247,7 @@ a h2 {
   margin: 0 0 20px 0;
   overflow: hidden;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .content .product-overview .banner {
     min-height: 0;
     position: relative;
@@ -260,7 +260,7 @@ a h2 {
     margin: 0;
   }
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .content .product-overview .banner img {
     display: none;
   }
@@ -286,7 +286,7 @@ a h2 {
     text-shadow: none;
   }
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .content .product-overview .banner .product-name {
     background: none;
     position: relative;
@@ -311,7 +311,7 @@ a h2 {
     text-shadow: none;
   }
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .content .product-overview .banner .product-name h1 {
     background: none;
     position: relative;
@@ -339,7 +339,7 @@ a h2 {
     color: black;
   }
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .content .product-overview .banner .product-name h3 {
     background: none;
     position: relative;
@@ -369,7 +369,7 @@ a h2 {
     display: none;
   }
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .content .product-overview .artwork {
     width: 100%;
     margin: 1em 0;
@@ -395,7 +395,7 @@ a h2 {
 .content .product-overview .products .type-product {
   padding: 0;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .content div.recipes {
     width: 100%;
     margin: 1em 0;
@@ -446,7 +446,7 @@ a h2 {
   max-width: 480px;
   background-color: #edece8;
 }
-@media (max-width: 420px) {
+@media (max-width: 441px) {
   .content .recipe--metadata {
     grid-template-columns: 1fr;
   }
@@ -489,7 +489,7 @@ a h2 {
   margin-bottom: 0;
   font-style: italic;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .content .recipeFull h1 {
     font-size: 24px;
   }
@@ -511,7 +511,7 @@ a h2 {
   width: 100%;
   height: auto;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .content .recipePhoto {
     float: none;
     padding: 0;
@@ -531,7 +531,7 @@ a h2 {
   max-height: 460px;
   width: auto;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .content .recipePhotoNarrow {
     width: 100%;
     height: 320px;
@@ -550,7 +550,7 @@ a h2 {
   float: right;
   margin-left: 18px;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .content .main {
     float: none;
     width: 100%;
@@ -571,7 +571,7 @@ a h2 {
   float: left;
   margin: 0;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .content .main.halfwidth {
     width: 100%;
     padding: 2%;
@@ -594,7 +594,7 @@ a h2 {
   float: left;
   margin: 0 0 0 0;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .content .sidebar {
     float: none;
     width: 100%;
@@ -604,7 +604,7 @@ a h2 {
   width: 558px;
   float: right;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .content .sidebar.halfwidth {
     width: 100%;
     padding: 2%;
@@ -645,12 +645,12 @@ header.producerindex .images figure.logo {
   width: 100%;
   margin: 1em auto 1em auto;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   header.producerindex .images figure.logo {
     line-height: 1;
   }
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   header.producerindex .images {
     width: 50%;
     float: right;
@@ -697,7 +697,7 @@ header.producerindex .images figure.logo {
   width: 30%;
   float: right;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .catblurb .blurb {
     width: 100%;
   }
@@ -717,7 +717,7 @@ header.producerindex .images figure.logo {
 .catblurb .producerTrio figure img {
   margin: 0;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .catblurb .producerTrio figure {
     width: 49%;
     height: auto;
@@ -726,7 +726,7 @@ header.producerindex .images figure.logo {
 .catblurb .producerTrio figure.placeImage {
   margin-right: 4px;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .catblurb .producerTrio figure.placeImage {
     margin-right: 0;
   }
@@ -734,12 +734,12 @@ header.producerindex .images figure.logo {
 .catblurb .producerTrio figure.processImage {
   margin-right: 4px;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .catblurb .producerTrio figure.processImage {
     float: right;
   }
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .catblurb .producerTrio figure.peopleImage {
     float: right;
   }
@@ -752,7 +752,7 @@ header.producerindex .images figure.logo {
 .catblurb figure img {
   width: 100%;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .catblurb figure img {
     width: 100%;
   }
@@ -764,7 +764,7 @@ header.producerindex .images figure.logo {
 .catblurb figure.left img {
   width: 100%;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .catblurb figure.left {
     width: 100%;
   }
@@ -776,7 +776,7 @@ header.producerindex .images figure.logo {
 .catblurb figure.right img {
   width: 100%;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .catblurb figure.right {
     width: 100%;
   }
@@ -792,7 +792,7 @@ header.producerindex .images figure.logo {
     column-count: 2;
   }
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .catblurb.longform {
     -moz-column-count: 1;
     column-count: 1;
@@ -822,7 +822,7 @@ header.producerindex .images figure.logo {
   width: 50%;
   float: left;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .features .secondfeatures figure {
     float: none;
     width: 100%;
@@ -872,7 +872,7 @@ header.producerindex .images figure.logo {
   width: 200px;
   padding: 0.25em 1em;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .morebutton {
     font-size: 12px;
   }
@@ -1006,7 +1006,7 @@ header.producerindex .images figure.logo {
 #tabularnav a {
   margin-right: 0.75em;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   #tabularnav a {
     margin-right: 0.25em;
   }
@@ -1024,7 +1024,7 @@ header.producerindex .images figure.logo {
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
   column-gap: 1em;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .recipesConcise {
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     column-gap: 0.5em;
@@ -1033,7 +1033,7 @@ header.producerindex .images figure.logo {
 article.product + .recipesConcise :nth-child(n+6) {
   display: none;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   article.product + .recipesConcise :nth-child(6) {
     display: block;
   }
@@ -1080,7 +1080,7 @@ article.product + .recipesConcise :nth-child(n+6) {
     display: none;
   }
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .recipeConcise .recipeThumb {
     width: auto;
     height: auto;
@@ -1111,7 +1111,7 @@ article.product + .recipesConcise :nth-child(n+6) {
     display: none;
   }
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .recipeConcise .recipeThumbNarrow {
     width: auto;
     height: auto;
@@ -1137,7 +1137,7 @@ article.product + .recipesConcise :nth-child(n+6) {
   align-items: center;
   justify-content: center;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .recipeConcise .recipeThumbPlaceholder .recipeThumbPlaceholderBkgd {
     width: auto;
     height: auto;
@@ -1149,7 +1149,7 @@ article.product + .recipesConcise :nth-child(n+6) {
     display: none;
   }
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .recipeConcise .recipeThumbPlaceholder {
     width: auto;
     height: auto;
@@ -1241,7 +1241,7 @@ img.socialButton {
 .generalTable tr.section td {
   border-top: 1px solid #bbbbbb;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .distState {
     vertical-align: bottom;
     text-align: center;
@@ -1257,7 +1257,7 @@ img.socialButton {
   background-color: #edece8;
   padding: 1em;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .generalForm {
     padding: 0.5em 0.5em;
   }
@@ -1273,7 +1273,7 @@ img.socialButton {
   width: 30em;
   font-size: 14px;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .generalForm input[type=text] {
     font-size: 12px;
     width: 100%;
@@ -1288,7 +1288,7 @@ img.socialButton {
   height: 36px;
   vertical-align: top;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .info .infoicon {
     display: block;
     float: left;
@@ -1305,7 +1305,7 @@ img.socialButton {
   line-height: 36px;
   vertical-align: top;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .info .infotext {
     display: block;
     line-height: inherit;
@@ -1328,7 +1328,7 @@ ul.originTiles li {
   margin-right: 6px;
   font-family: lora, serif;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   ul.originTiles li {
     font-size: 80%;
     width: 120px;
@@ -1351,7 +1351,7 @@ ul.originTiles li .maplet img {
   top: 50%;
   transform: translateY(-50%);
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   ul.originTiles li .maplet {
     width: 120px;
     height: 120px;
@@ -1381,7 +1381,7 @@ ul.producerTilesLarge li a:hover .logo {
 ul.producerTilesLarge li a:hover {
   text-decoration: none;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   ul.producerTilesLarge li {
     flex-basis: 32%;
   }
@@ -1398,7 +1398,7 @@ ul.producerTilesLarge li .logo img {
   width: 100%;
   height: auto;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   ul.producerTilesLarge li .logo {
     width: 30vw;
     height: 30vw;
@@ -1443,7 +1443,7 @@ ul.producerTiles li a:hover .logo {
 ul.producerTiles li a:hover {
   text-decoration: none;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   ul.producerTiles {
     margin-left: 0;
     display: flex;
@@ -1487,7 +1487,7 @@ ul.producerTiles li a:hover {
 .country h2 {
   margin-bottom: 0.5em;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .country .logoCorral {
     margin-left: 0;
   }
@@ -1500,7 +1500,7 @@ ul.producerTiles li a:hover {
   margin-left: 1em;
   margin-right: 0;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .mapPresentation,
   .producerDetailMap,
   .productDetailMasterMap {
@@ -1525,7 +1525,7 @@ ul.producerTiles li a:hover {
   width: 455px;
   height: auto;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .mapPresentation .customMap,
   .producerDetailMap .customMap,
   .productDetailMasterMap .customMap {
@@ -1539,7 +1539,7 @@ ul.producerTiles li a:hover {
   width: 455px;
   height: auto;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .mapPresentation .customMapSVG,
   .producerDetailMap .customMapSVG,
   .productDetailMasterMap .customMapSVG {
@@ -1550,7 +1550,7 @@ ul.producerTiles li a:hover {
 figure.productDetailMasterMap {
   width: 50%;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   figure.productDetailMasterMap {
     float: right;
   }
@@ -1573,7 +1573,7 @@ figure.productDetailMasterMap .customMap {
   overflow: hidden;
   margin-right: 1em;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .originGmap,
   .countryDetailGmap {
     width: 100%;
@@ -1587,7 +1587,7 @@ figure.productDetailMasterMap .customMap {
   box-shadow: none;
   border-bottom: 2px solid #484848;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .originGmap_canvas,
   .countryDetailGmap_canvas {
     width: 100%;
@@ -1649,7 +1649,7 @@ dd {
   background: #dddcd8;
   margin: 0.5em 0;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .contentful {
     width: 100%;
     font-size: 16px;
@@ -1673,7 +1673,7 @@ dd {
   padding: 3px 9px;
   font-weight: bold;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .contentful .resourceCategory span {
     font-size: 12px;
   }
@@ -1686,7 +1686,7 @@ dd {
   font-family: open-sans, sans-serif;
   font-size: 20px;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .contentful .byline {
     font-size: 12px;
   }
@@ -1716,7 +1716,7 @@ dd {
   max-width: 620px;
   text-align: center;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .contentful h2 {
     margin-left: inherit;
     font-size: 24px;
@@ -1732,7 +1732,7 @@ dd {
   max-width: 620px;
   font-style: normal;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .contentful h3 {
     margin-left: inherit;
     font-size: 18px;
@@ -1742,7 +1742,7 @@ dd {
   margin-left: 170px;
   max-width: 620px;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .contentful p {
     margin-left: inherit;
   }
@@ -1766,7 +1766,7 @@ dd {
   font-size: 90%;
   font-style: italic;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .contentful figure {
     width: 100%;
   }
@@ -1778,7 +1778,7 @@ dd {
   width: auto;
   height: 620px;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .contentful figure.portrait img {
     width: 100%;
     height: auto;
@@ -1787,7 +1787,7 @@ dd {
 .contentful figure.smaller {
   width: 480px;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .contentful figure.smaller {
     width: 100%;
     height: auto;
@@ -1800,7 +1800,7 @@ dd {
   width: auto;
   height: 480px;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .contentful figure.smaller-portrait img {
     width: 80%;
     height: auto;
@@ -1815,7 +1815,7 @@ dd {
   width: 100%;
   margin: 0;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .contentful figure.aside {
     width: 40%;
   }
@@ -1830,7 +1830,7 @@ dd {
   height: 480px;
   margin: 0;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .contentful figure.aside-portrait {
     width: 40%;
     margin: 0 0 0 0.5em;
@@ -1865,7 +1865,7 @@ dd {
 .contentful div.recipeFull p {
   margin-left: 0;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .contentful div.recipeFull {
     margin-left: inherit;
   }
@@ -1877,7 +1877,7 @@ dd {
   break-inside: avoid-column;
   -webkit-column-break-inside: avoid;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .contentful div.infographic {
     margin-left: inherit;
   }
@@ -1898,7 +1898,7 @@ dd {
 .specialIcon h3 {
   margin-right: 235px;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .specialIcon h1,
   .specialIcon h3 {
     margin-right: 0;
@@ -1914,7 +1914,7 @@ dd {
   margin-left: 0.5em;
   height: auto;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .specialIconProductDetail,
   .specialIconCategoryIndex {
     position: relative;
@@ -1935,7 +1935,7 @@ ul.articleCategories {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   ul.articleCategories {
     display: block;
   }
@@ -1945,7 +1945,7 @@ ul.articleCategories {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .xrefTiles {
     display: block;
   }
@@ -1974,12 +1974,12 @@ ul.articleCategories {
 .articlebox h2 a:hover {
   color: #eb2f2c;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .articlebox h2 {
     font-size: 16px;
   }
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .articlebox {
     margin-right: 0;
   }
@@ -2054,7 +2054,7 @@ table.contentReport td {
   float: left;
   padding-right: 1em;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .contactwell {
     width: 100%;
     float: none;
@@ -2066,7 +2066,7 @@ table.contentReport td {
   background-color: #edece8;
   padding: 1rem;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .missionwell {
     width: 100%;
     float: none;
@@ -2085,7 +2085,7 @@ table.contentReport td {
   position: relative;
   padding: 0;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .wrap {
     width: 100%;
   }
@@ -2100,7 +2100,7 @@ table.contentReport td {
 header .wrapspecial {
   width: auto;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   header .wrapspecial {
     width: 100%;
   }
@@ -2144,7 +2144,7 @@ ul.vintagePageLinks li:hover a {
   color: #fff;
   text-decoration: none !important;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   ul.vintagePageLinks li {
     font-size: 16px;
     padding: 6px 14px;
@@ -2171,7 +2171,7 @@ td.combo {
 td.ing {
   font-size: 14px;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .vintage-summary-table,
   .nonvintage-summary-table {
     width: 100%;
@@ -2211,7 +2211,7 @@ td.ing {
     text-wrap: pretty;
   }
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .nonvintage-summary-table td[data-cell="product"] {
     padding-left: 0;
   }
@@ -2248,7 +2248,7 @@ th.vintage-category {
   border-radius: 999em;
   pointer-events: none;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .radio {
     font-size: 12px;
   }
@@ -2279,7 +2279,7 @@ th.vintage-category {
   border-left: var(--border-width) solid #a2120f;
   border-right: var(--border-width) solid #a2120f;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .radio__label {
     padding: 0.75em 0.75em;
   }
@@ -2293,7 +2293,7 @@ th.vintage-category {
   height: 81px;
   /* Main Menu */
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .header {
     height: 40px;
     width: 100%;
@@ -2326,7 +2326,7 @@ th.vintage-category {
   top: 9px;
   left: 9px;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .header h1,
   .header .logo {
     position: relative;
@@ -2346,7 +2346,7 @@ th.vintage-category {
   background: url('../assets/logo-wide-dev.png') no-repeat;
   background-size: 375px auto;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .header h1 a,
   .header .logo a {
     margin: 0 auto;
@@ -2364,7 +2364,7 @@ th.vintage-category {
   top: 3px;
   left: 8px;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .header h1.sotolon {
     position: relative;
     top: 0;
@@ -2384,7 +2384,7 @@ th.vintage-category {
   background: url('../assets/logo-sotolon-wide.png') no-repeat;
   background-size: 156px 112px;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .header h1.sotolon a {
     background: url('../assets/logotype-sotolon.png') no-repeat;
     margin: 0 auto;
@@ -2401,7 +2401,7 @@ th.vintage-category {
   background: url('../assets/logo-wide-dev.png') no-repeat;
   background-size: 375px auto;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .header h1.dev a {
     margin: 0 auto;
     width: calc(375px/2);
@@ -2409,7 +2409,7 @@ th.vintage-category {
     background-size: calc(375px / 2) auto;
   }
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .header h1.dev {
     top: 4px;
     left: 0;
@@ -2419,7 +2419,7 @@ th.vintage-category {
   background: url('../assets/logo-sotolon-wide-dev.png') no-repeat;
   background-size: 156px 112px;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .header h1.dev.sotolon a {
     background: url('../assets/logotype-sotolon.png') no-repeat;
     margin: 0 auto;
@@ -2433,7 +2433,7 @@ th.vintage-category {
   font-size: 20px;
   font-style: italic;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .header h2 {
     display: none;
   }
@@ -2452,7 +2452,7 @@ th.vintage-category {
   color: #fff;
   text-transform: uppercase;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .header .toggle__mobile__nav {
     line-height: 36px;
     height: 40px;
@@ -2466,7 +2466,7 @@ th.vintage-category {
   display: none;
   cursor: pointer;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .header #invokeSearchOverlayMobile {
     display: block;
     position: absolute;
@@ -2502,7 +2502,7 @@ th.vintage-category {
   vertical-align: middle;
   margin-right: 3px;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .header #searchDropdownNavItem,
   .header #downloadCatalogItem {
     display: none;
@@ -2525,7 +2525,7 @@ th.vintage-category {
   text-transform: uppercase;
   text-align: left;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .header ul {
     width: 100%;
     display: none;
@@ -2542,7 +2542,7 @@ th.vintage-category {
   /* Horizontal Sub Menu */
   /* If main menu is hovered, show sub menu, but not sub menu options */
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .header ul li {
     width: 100%;
     display: block;
@@ -2704,7 +2704,7 @@ th.vintage-category {
 .header.sotolon {
   height: 118px;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .header.sotolon {
     height: 40px;
   }
@@ -2718,7 +2718,7 @@ th.vintage-category {
     display: none;
   }
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .navigation {
     display: none;
     width: 100%;
@@ -2767,7 +2767,7 @@ th.vintage-category {
 .breadcrumb p a:hover {
   text-decoration: underline;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .breadcrumb p {
     font-size: 12px;
     text-align: center;
@@ -2809,7 +2809,7 @@ th.vintage-category {
     display: none;
   }
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .footer {
     padding: 1em 0 1em 3px;
   }
@@ -2824,7 +2824,7 @@ th.vintage-category {
   line-height: 37px;
   color: #666666;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .footer small {
     line-height: inherit;
   }
@@ -2840,7 +2840,7 @@ th.vintage-category {
   width: 400px;
   float: left;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .footer .socialIcons {
     float: none;
     width: 100%;
@@ -2860,7 +2860,7 @@ th.vintage-category {
   list-style: none;
   font-weight: 100;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .footer .footerMenu li {
     line-height: 1.8;
   }
@@ -2901,7 +2901,7 @@ th.vintage-category {
   grid-column: 3/4;
   grid-row: 3/4;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .footer .footerMenu {
     grid-template-columns: 1fr 1fr;
     float: none;
@@ -2960,7 +2960,7 @@ th.vintage-category {
   background: url('../assets/logo-wide-dev.png') no-repeat;
   background-size: 375px auto;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   #sidebarheader h1 a {
     width: calc(375px/2);
     background-size: calc(375px / 2) auto;
@@ -2974,7 +2974,7 @@ th.vintage-category {
   overflow: hidden;
   position: relative;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   #sidebarheader h1.sotolon a {
     background: url('../assets/logotype-sotolon.png') no-repeat;
     margin: 0 auto;
@@ -2988,7 +2988,7 @@ th.vintage-category {
   margin-left: 0.25em;
   height: 25px;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   #sidebarlogo {
     height: 25px;
   }
@@ -3014,7 +3014,7 @@ th.vintage-category {
   font-weight: 700;
   line-height: 2;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .sidebarRow a,
   .sidebarRowHeader a {
     font-size: 140%;
@@ -3062,7 +3062,7 @@ th.vintage-category {
   left: 0px;
   top: 0px;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .sidebar2 {
     width: 100%;
   }
@@ -3076,7 +3076,7 @@ th.vintage-category {
   font-weight: 700;
   line-height: 2;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   #sidebarAdditionalLinks {
     font-size: 140%;
   }
@@ -3129,7 +3129,7 @@ th.vintage-category {
   margin-left: 2em;
   border-bottom: 1px solid #dddcd8;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .typeBrowserCat1 {
     font-size: 140%;
   }
@@ -3139,7 +3139,7 @@ th.vintage-category {
   margin-left: 3em;
   border-bottom: 1px solid #dddcd8;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .typeBrowserCat2 {
     font-size: 140%;
   }
@@ -3155,7 +3155,7 @@ th.vintage-category {
   color: #666666;
   text-transform: uppercase;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   #winestypevertical,
   #spiritstypevertical {
     font-size: 110%;
@@ -3189,7 +3189,7 @@ th.vintage-category {
   margin-right: auto;
   z-index: 999;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   #searchOverlay {
     top: 0px;
     padding-left: 0.5em;
@@ -3251,7 +3251,7 @@ th.vintage-category {
 #searchResults .match:hover {
   border: 2px solid #a2120f;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   #searchResults {
     padding: 0;
   }
@@ -3280,7 +3280,7 @@ th.vintage-category {
   text-align: center;
   background-color: white;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   #searchResults .logo {
     width: 120px;
   }
@@ -3311,7 +3311,7 @@ th.vintage-category {
   list-style-type: none;
   padding: 0;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .products {
     margin: 0 0 0 0;
   }
@@ -3337,7 +3337,7 @@ th.vintage-category {
   line-height: 230px;
   margin: 0 20px 0 0;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .products .type-product .label {
     display: none;
   }
@@ -3371,7 +3371,7 @@ th.vintage-category {
   width: 478px;
   width: 480px;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .products .type-product .product_text {
     width: 100%;
     padding: 0;
@@ -3403,7 +3403,7 @@ th.vintage-category {
   padding: 0 0;
   overflow: hidden;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .products .type-product .bottle {
     min-width: 108px;
     width: 108px;
@@ -3438,7 +3438,7 @@ th.vintage-category {
   vertical-align: middle;
   height: auto;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .products .type-product .context {
     display: none;
     float: right;
@@ -3474,7 +3474,7 @@ th.vintage-category {
 .products .licenses {
   display: none;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .products .licenses {
     display: none;
   }
@@ -3484,7 +3484,7 @@ th.vintage-category {
   margin: 1em;
   display: none;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .subcatMenuMobile {
     display: block;
   }
@@ -3516,7 +3516,7 @@ th.vintage-category {
   font-size: 14px;
   padding: 6px 10px;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .subcatMenuDesktop {
     display: none;
   }
@@ -3529,12 +3529,12 @@ th.vintage-category {
   font-weight: normal;
   margin-right: 5px;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .bracket {
     display: none;
   }
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .cluster {
     -moz-column-count: 1;
     column-count: 1;
@@ -3552,7 +3552,7 @@ th.vintage-category {
   -moz-column-count: 2;
   column-count: 2;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .cluster2 {
     -moz-column-count: 1;
     column-count: 1;
@@ -3563,7 +3563,7 @@ th.vintage-category {
   display: block;
   overflow: hidden;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .clusterentry {
     margin-left: 0;
   }
@@ -3612,7 +3612,7 @@ div.grouping .bottleCorral {
   float: right;
   text-align: right;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   div.grouping .bottleCorral {
     display: none;
   }
@@ -3620,7 +3620,7 @@ div.grouping .bottleCorral {
 div.grouping .bottleCorral2 {
   margin-top: 0.5em;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   div.grouping .bottleCorral2 {
     display: none;
   }
@@ -3676,7 +3676,7 @@ div.grouping .corralBottle img {
   color: #fff;
   background: #d11713;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .madeiraSwitch span,
   .vintageSwitch span,
   .vintagesAgeStatementsSwitch span,
@@ -3722,7 +3722,7 @@ h5 {
   padding: 0.5em 0 0.5em 0;
   text-transform: uppercase;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   h5 {
     font-size: 18px;
   }
@@ -3755,7 +3755,7 @@ h5 {
     column-count: 2;
   }
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .vitals {
     -moz-column-count: 1;
     column-count: 1;
@@ -3791,7 +3791,7 @@ h5 {
 .vitals .highlights li {
   margin-left: 1em;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .vitals .highlights {
     padding: 1em 1em 1em 1em;
   }
@@ -3813,7 +3813,7 @@ h5 {
   clear: all;
   margin-top: 0.5em;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   #productImageryCluster,
   #productImageryCluster2 {
     width: 100%;
@@ -3944,7 +3944,7 @@ h5 {
   font-size: 14px;
   font-weight: 100;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .setup,
   .vintagesummary {
     overflow-x: auto;
@@ -3972,7 +3972,7 @@ h5 {
   padding-left: 0.5em;
   padding-right: 0.5em;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .artworkCorral .artwork2 {
     columns: 2;
   }
@@ -3988,7 +3988,7 @@ h5 {
   height: 200px;
   width: auto;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .artworkCorral .artwork2 img {
     width: 100%;
     height: auto;
@@ -4021,7 +4021,7 @@ h5 {
   display: inline-block;
   width: 15%;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .recipeCorral .recipe {
     width: 45%;
   }
@@ -4069,7 +4069,7 @@ h5 {
   column-count: 2;
   margin: 1em 0;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .mainalt .extendedDescription,
   .mainalt .categoryDescription {
     -moz-column-count: 1;
@@ -4082,7 +4082,7 @@ h5 {
   float: right;
   margin-left: 1em;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .mainalt .productDetailGmap {
     width: 100%;
     float: none;
@@ -4101,7 +4101,7 @@ h5 {
   float: right;
   margin-left: 1em;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .mainalt #gmapmaker {
     width: 100%;
     float: none;
@@ -4138,7 +4138,7 @@ h5 {
 .infographic .infographicSegment .desktopIcon {
   display: block;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .infographic .infographicSegment .desktopIcon {
     display: none;
   }
@@ -4146,12 +4146,12 @@ h5 {
 .infographic .infographicSegment .mobileIcon {
   display: none;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .infographic .infographicSegment .mobileIcon {
     display: block;
   }
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .infographic .infographicSegment {
     padding: 1%;
   }
@@ -4164,7 +4164,7 @@ h5 {
   margin-left: 0.25em;
   margin-right: 0.25em;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .infographic .infographicSegment .infographicSectionText {
     font-size: 10px;
   }
@@ -4179,7 +4179,7 @@ h5 {
   text-align: center;
   flex: 1 0 auto;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .infographic .infographicSegment .infographicSectionIcons {
     padding-top: 3px;
     padding-bottom: 3px;
@@ -4237,13 +4237,13 @@ h5 {
   font-family: lora, serif;
   font-weight: 800;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .recipeSummaries .summaryText {
     padding-bottom: 1em;
     padding-left: 0.5em;
   }
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .recipeSummaries td.thumb {
     vertical-align: top;
   }
@@ -4283,7 +4283,7 @@ h5 {
   width: 100%;
   height: auto;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .recipeSummaries .recipeThumb {
     float: none;
     padding: 0;
@@ -4304,7 +4304,7 @@ h5 {
   max-height: 90px;
   width: auto;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .recipeSummaries .recipeThumbNarrow {
     width: 80px;
     height: 80px;
@@ -4330,7 +4330,7 @@ h5 {
   width: 100%;
   height: auto;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .recipe .recipeThumb {
     float: none;
     padding: 0;
@@ -4348,7 +4348,7 @@ h5 {
   height: 150px;
   width: auto;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .recipe .recipeThumbNarrow {
     float: none;
     padding: 0;
@@ -4366,7 +4366,7 @@ h5 {
   width: 270px;
   float: left;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   #recipefilters {
     display: none;
     padding: 1em;
@@ -4391,7 +4391,7 @@ h5 {
 #recipeFiltersMoreButton {
   display: none;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   #recipeFiltersMoreButton {
     display: inline-block;
     cursor: pointer;
@@ -4400,12 +4400,12 @@ h5 {
 #recipeResultsBlock {
   margin-left: 290px;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   #recipeResultsBlock {
     margin-left: 0;
   }
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .recipeSummaries td.recipeTableIcons.mobilehide,
   .recipeSummaries td.thumb.mobilehide {
     display: none;
@@ -4421,7 +4421,7 @@ h5 {
   grid-gap: 1em;
   grid-template-rows: 420px 287px 200px;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .cgrid {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 52vw) repeat(2, 32vw);
@@ -4450,7 +4450,7 @@ h5 {
   grid-column: 1/11;
   grid-row: 1/2;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .gridfeature1,
   .gridfeature1equal {
     grid-column: 1/2;
@@ -4482,7 +4482,7 @@ h5 {
   grid-column: 11/15;
   grid-row: 1/2;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .gridfeature2 {
     grid-column: 1/2;
     grid-row: 2/3;
@@ -4491,7 +4491,7 @@ h5 {
 .gridfeature1equal {
   grid-column: 1/8;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .gridfeature1equal {
     grid-column: 1/2;
     grid-row: 1/2;
@@ -4501,7 +4501,7 @@ h5 {
   grid-column: 8/15;
   grid-row: 1/2;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .gridfeature2equal {
     grid-column: 1/2;
     grid-row: 2/3;
@@ -4511,7 +4511,7 @@ h5 {
   grid-column: 1/8;
   grid-row: 2/3;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .gridfeature3 {
     grid-column: 1/2;
     grid-row: 3/4;
@@ -4521,7 +4521,7 @@ h5 {
   grid-column: 8/15;
   grid-row: 2/3;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .gridfeature4 {
     grid-column: 1/2;
     grid-row: 4/5;
@@ -4531,7 +4531,7 @@ h5 {
   grid-column: 1/8;
   grid-row: 3/4;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .gridfeature5 {
     grid-column: 1/2;
     grid-row: 5/6;
@@ -4541,7 +4541,7 @@ h5 {
   grid-column: 8/15;
   grid-row: 3/4;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .gridfeature6 {
     grid-column: 1/2;
     grid-row: 6/7;
@@ -4568,7 +4568,7 @@ h5 {
   font-weight: bold;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .overlay .title {
     font-size: 24px;
     line-height: 24px;
@@ -4635,7 +4635,7 @@ h5 {
 .resourceDownloadsCorral div p {
   margin-bottom: 0;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 441px) {
   .resourceDownloadsCorral div {
     width: 45%;
   }
