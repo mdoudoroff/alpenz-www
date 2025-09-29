@@ -7,7 +7,7 @@
       "uuidString" : "B5ADC2AB-4759-4D37-B9EB-92E440ECE0B5"
     }
   ],
-  "creatorBuild" : "34704",
+  "creatorBuild" : "34892",
   "files" : {
     "\/.bust-digest.txt" : {
       "cB" : 0,
@@ -3780,6 +3780,14 @@
       "oAP" : "\/alpenz-download-product-talker\/chamberyzette.one-sheet.pdf",
       "oF" : 0
     },
+    "\/alpenz-download-product-talker\/chamberyzette.talker.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/alpenz-download-product-talker\/chamberyzette.talker.pdf",
+      "oF" : 0
+    },
     "\/alpenz-download-product-talker\/chinato.one-sheet.pdf" : {
       "cB" : 0,
       "ft" : 8192,
@@ -4042,6 +4050,14 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/alpenz-download-product-talker\/honey_lavender.one-sheet.pdf",
+      "oF" : 0
+    },
+    "\/alpenz-download-product-talker\/honey_lavender.talker.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/alpenz-download-product-talker\/honey_lavender.talker.pdf",
       "oF" : 0
     },
     "\/alpenz-download-product-talker\/ibis.one-sheet.pdf" : {
@@ -63232,6 +63248,17 @@
       "oAP" : "\/articles.html",
       "oF" : 0
     },
+    "\/assets\/app-min-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/assets\/app-min-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/assets\/app-min.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -63283,6 +63310,17 @@
       "oAP" : "\/assets\/charter_italic-webfont.woff",
       "oF" : 0
     },
+    "\/assets\/cht0iod-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/assets\/cht0iod-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/assets\/cht0iod.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -63306,6 +63344,17 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/assets\/event-manager-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/assets\/event-manager-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/assets\/event-manager.js" : {
       "bF" : 0,
@@ -63344,6 +63393,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/extracted-javascript-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/assets\/extracted-javascript-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/assets\/extracted-javascript.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -63366,6 +63426,17 @@
       "oAP" : "\/assets\/front-disabled-min.css",
       "oF" : 0,
       "pg" : 0
+    },
+    "\/assets\/front-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/assets\/front-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/assets\/front.js" : {
       "bF" : 0,
@@ -63622,6 +63693,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/wp-embed.min-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/assets\/wp-embed.min-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/assets\/wp-embed.min.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -63639,6 +63721,14 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/beermuth.html",
+      "oF" : 0
+    },
+    "\/build\/.gitignore" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/build\/.gitignore",
       "oF" : 0
     },
     "\/carcavelos-portugal-is-reviving-a-historic-wine.html" : {
@@ -63776,6 +63866,18 @@
       "oA" : 2,
       "oAP" : "\/content.html",
       "oF" : 0
+    },
+    "\/css\/admin-min.css" : {
+      "aP" : 0,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 2,
+      "oAP" : "\/css\/admin-min-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/css\/admin.css" : {
       "aP" : 0,
@@ -65856,6 +65958,17 @@
       "oAP" : "\/js\/photoswipe-min.js",
       "oF" : 0,
       "sC" : 0,
+      "tS" : 0
+    },
+    "\/js\/portfolio-min-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/portfolio-min-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
       "tS" : 0
     },
     "\/js\/portfolio-min.js" : {
@@ -87627,6 +87740,14 @@
       "oAP" : "\/recipe-8aT1c4TZe5.html",
       "oF" : 0
     },
+    "\/recipe-8bZqzJGI4u.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-8bZqzJGI4u.html",
+      "oF" : 0
+    },
     "\/recipe-8CSrDlUMhD.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -89459,6 +89580,14 @@
       "oAP" : "\/recipe-hlGyrKaj9J.html",
       "oF" : 0
     },
+    "\/recipe-HlIYlZx6j7.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-HlIYlZx6j7.html",
+      "oF" : 0
+    },
     "\/recipe-HMmIyN5nRb.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -89625,6 +89754,14 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/recipe-igDkoRKdom.html",
+      "oF" : 0
+    },
+    "\/recipe-iHH4wUYuZv.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/recipe-iHH4wUYuZv.html",
       "oF" : 0
     },
     "\/recipe-iifk3BIfPB.html" : {
@@ -95098,6 +95235,9 @@
         "active" : 0,
         "optionString" : "{'skipBlankLines': false}"
       },
+      "no-unassigned-vars" : {
+        "active" : 0
+      },
       "no-undef" : {
         "active" : 1,
         "optionString" : "{'typeof': false}"
@@ -95178,7 +95318,8 @@
         "active" : 0
       },
       "no-useless-escape" : {
-        "active" : 0
+        "active" : 0,
+        "optionString" : "{'allowRegexCharacters': []}"
       },
       "no-useless-rename" : {
         "active" : 0,

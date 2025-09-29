@@ -161,7 +161,8 @@ a h2 {
   }
 }
 .content h3,
-.content legend {
+.content legend,
+.content summary {
   font-family: lora, serif;
   color: black;
   font-size: 18px;
@@ -170,7 +171,8 @@ a h2 {
   margin: 0 0 1em 0;
 }
 .content h3.category_title,
-.content legend.category_title {
+.content legend.category_title,
+.content summary.category_title {
   font-size: 26px;
   line-height: 1em;
 }
@@ -1002,17 +1004,6 @@ header.producerindex .images figure.logo {
 #imageryReport .thumbnail img.wide {
   height: auto;
   width: 250px;
-}
-#tabularnav a {
-  margin-right: 0.75em;
-}
-@media only screen and (max-width: 441px) {
-  #tabularnav a {
-    margin-right: 0.25em;
-  }
-}
-#tabularnav a:hover {
-  color: red;
 }
 #matchesAnnotation {
   font-weight: bold;
@@ -2285,6 +2276,16 @@ th.vintage-category {
   }
 }
 input#substring {
+  width: 100%;
+  font-size: 14px;
+  padding: 3px;
+}
+#licenseChooser,
+#ingredientChooser {
+  max-width: 100%;
+  font-size: 14px;
+}
+#ingredientChooser {
   width: 100%;
 }
 .header {

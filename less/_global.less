@@ -183,7 +183,7 @@ a {
 			font-size: 20px;
 		}
 	}
-	h3, legend {
+	h3, legend, summary {
 
 		font-family: @subheading-font;
 		color: black;
@@ -1222,17 +1222,6 @@ header.producerindex {
 
 // recipe summary page
 
-#tabularnav a {
-	margin-right: 0.75em;
-
-	@media only screen and (max-width: @sizes[mobile])  {
-		margin-right: 0.25em;
-	}
-}
-
-#tabularnav a:hover {
-	color: red;
-}
 
 
 
@@ -2721,5 +2710,16 @@ th.vintage-category {
 }
 
 input#substring {
+	width: 100%;
+	font-size: 14px;
+	padding: 3px;
+}
+
+#licenseChooser, #ingredientChooser {
+	max-width: 100%;
+	font-size: 14px;
+}
+
+#ingredientChooser {
 	width: 100%;
 }

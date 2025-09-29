@@ -36,6 +36,7 @@ function scrapeFilters() {
 	const groupsForCookie = [];
 
 
+	// It is okay to scrape the license selector in this context as long as we are confident in it
 	const licenseChooser = document.getElementById("licenseChooser");
 	if ( licenseChooser.value.length>0) {
 		groups.push( [licenseChooser.value] );
@@ -56,7 +57,7 @@ function scrapeFilters() {
 	ingredientoptions.forEach( function (o) {
 		o.removeAttribute('disabled');
 		if (licenseChooser.value != '' && typeof o.dataset.licenses != 'undefined') {
-			console.log(o.dataset.licenses, '|', licenseChooser.value, '(', o.dataset.licenses.includes(licenseChooser.value), ')');
+			// console.log(o.dataset.licenses, '|', licenseChooser.value, '(', o.dataset.licenses.includes(licenseChooser.value), ')');
 			if (!o.dataset.licenses.includes(licenseChooser.value) ) {
 				o.setAttribute('disabled',true);			
 			}
@@ -70,10 +71,10 @@ function scrapeFilters() {
 		qparams.append('iid', ingredientChooser.value );
 	}
 
-	const fieldsets = document.getElementsByTagName('fieldset');
-	for (let x=1;x<fieldsets.length+1;x++) {
+	const fieldsets = Array.from(document.getElementsByTagName('details'));
+	fieldsets.forEach( fieldset => {
 		const kws = [];
-		const activeSwitches = document.querySelectorAll('#filtergroup'+x+' input:checked');
+		const activeSwitches = fieldset.querySelectorAll('input:checked');
 		activeSwitches.forEach(thingy => {
 			kws.push( thingy.value.replace(' ','_').replace('/','_') );
 			groupsForCookie.push(thingy.value.replace(' ','_').replace('/','_'))
@@ -81,9 +82,10 @@ function scrapeFilters() {
 		});
 
 		if (kws.length>0) {
+			fieldset.setAttribute('open','true'); // while we are here, pop open the details block
 			groups.push(kws);
 		}
-	}
+	});
 
 	// cookie!
 	setCookie('harecipesform',groupsForCookie.join(),1);
@@ -96,7 +98,9 @@ function scrapeFilters() {
 
 function restoreFilters(vals) {
 
-	console.log('restoreFilters vals going in:', vals)
+	// console.log('restoreFilters vals going in:', vals)
+
+	// TODO: *probably* want to remove the license chooser from this and handle it discretely so it’s less “entangled”
 
 	// fetch the URL and querystring; sanitize
 	const currentURL = new URL(document.location);
@@ -106,7 +110,7 @@ function restoreFilters(vals) {
 	qparams.delete('substring');
 	qparams.delete('tag');
 
-	console.log('restoreFilters: vals=',vals);
+	// console.log('restoreFilters: vals=',vals);
 
 	vals.forEach( (val) => {
 		if (val.indexOf('iid')==0) {
@@ -145,33 +149,60 @@ function resetFilters() {
 }
 
 function refilterRecipes() {
-	const filterGroups = scrapeFilters();
-	let matches = [];
 
-	console.log(filterGroups);
+	// FIRST, we want to filter the recipes by the current license type
+	// From this we have the pool from which everything else follows
+	// and we have a master total.
+	// NEXT, we want to filter by kw groups, skipping the name filter
+	// NEXT, we want to collect the keyword stats from the remaining recipes and update the filter UI
+	// NEXT, we want to hide any that don’t match the name filter [debatable whether this comes before or after previous activity]
+
+
+	const filterGroups = scrapeFilters();
+
+	// console.log('refilterRecipes(): filterGroups = ',filterGroups);
 
 	let substring = '';
 
-	// substring filter
+	// substring filter (pulling this straight from the input element)
 	const substringElement = document.getElementById("substring");
 	if (substringElement.value.length > 0) {
 		substring = substringElement.value.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-		console.log('filtering by substring: ', substring);
 	}
+	// if (substring.length) {
+	// 	console.log('refilterRecipes(): filtering by substring: ', substring);
+	// } else {
+	// 	console.log('refilterRecipes(): no substring filter');
+	// }
 	
 
 
-	// if (filterGroups.length===0) {
-	// 	matches = document.querySelectorAll('.recipeSummaries tr');
-	// 	matches.forEach(el => el.style.display = 'table-row');
-	// 	document.getElementById('matchesAnnotation').innerHTML = matches.length + ' recipes';
-	// } else {
+	// == Filter by license to establish our master recipe pool
 
-	const allrows = document.querySelectorAll('.recipeSummaries tr');
-	matches = [];
-	allrows.forEach( row => {
+	const licenseChooser = document.getElementById("licenseChooser");
+	let activeLicense = licenseChooser.value;
+	let candidates = [];
+	// if (activeLicense) {
+	// 	console.log('refilterRecipes(): principle filtering by license', activeLicense);
+	// } else {
+	// 	console.log('refilterRecipes(): no license filtering');
+	// }
+	document.querySelectorAll('.recipeSummaries tr').forEach( row => {
 
 		row.style.display = 'none'; // hide the row by default
+
+		let rowClasses = Array.from(row.classList);
+		if ( !activeLicense | rowClasses.includes(activeLicense) ) {
+			candidates.push(row);
+		}
+	});
+	// console.log('refilterRecipes(): principal recipe pool count:', candidates.length);
+
+
+	// == Filter by keywords
+
+	const matches = [];
+	candidates.forEach( row => {
 
 		let rowPass = true;
 
@@ -184,53 +215,90 @@ function refilterRecipes() {
 				continue
 			}
 
-			let groupPass = false;
-
 			// if the classList contains at least one of the kw for this group, it meets the requirement for the group
+			let groupPass = false;
 			filterGroups[groupIdx].forEach( kw => {
 				if (rowClasses.includes(kw)) {
 					groupPass = true;
 				}
 			});
-
 			// if any group fails, we filter out the row
 			if (!groupPass) {
 				rowPass = false;
 			}
-
 		}
-
-		// substring matching
-		if (rowPass & substring.length > 0) {
-			let tmp = row.getElementsByClassName('recipeTitle')[0].innerText.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-			// console.log('testing: ',tmp);
-			if (!tmp.includes(substring)) {
-				rowPass = false;
-			}
-		}
-
 
 		if (rowPass) {
 			matches.push(row);
+		}
+
+	});
+	// console.log('refilterRecipes(): post-keyword filtration match count:', matches.length);
+
+	// == harvest keyword stats
+
+	let keywordAggregates = new Map();
+	matches.forEach( row => {
+		let rowClasses = Array.from(row.classList);
+		rowClasses.forEach( klass_token => {
+			if ( keywordAggregates.has(klass_token) ) {
+				keywordAggregates.set( klass_token, keywordAggregates.get(klass_token) + 1);
+			} else {
+				keywordAggregates.set( klass_token, 1 );
+			}
+		});	
+	});
+	// console.log('refilterRecipes(): post-keyword filtration keyword aggregates:', keywordAggregates);
+
+
+	// == final substring matching
+
+	let finalCount = 0;
+	if (substring.length > 0) {
+		matches.forEach( row => {
+			let tmp = row.getElementsByClassName('recipeTitle')[0].innerText.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+			if (tmp.includes(substring)) {
+				finalCount = finalCount + 1;
+				row.style.display = 'table-row';
+			}
+		});
+	} else {
+		matches.forEach(el => el.style.display = 'table-row');
+		finalCount = matches.length;
+	}
+	// console.log('refilterRecipes(): final count:', finalCount);
+
+	if (matches.length>1) {
+		document.getElementById('matchesAnnotation').innerHTML = finalCount + ' matches out of ' + candidates.length;
+	} else {
+		document.getElementById('matchesAnnotation').innerHTML = finalCount + ' match out of ' + candidates.length;
+	}
+
+
+	// == update related UI
+
+	// update the counts
+	let keywordOptions = document.getElementsByClassName('keywordoption');
+	Array.from(keywordOptions).forEach( e => {
+		if (keywordAggregates.has(e.getAttribute('id'))) {
+			e.style.display = 'block';
+			document.getElementById(e.getAttribute('id')+'_count').innerText = keywordAggregates.get(e.getAttribute('id'));
 		} else {
-			// row.style.display = false; // @@ why are we doing this here?
+			e.style.display = 'none';
+			document.getElementById(e.getAttribute('id')+'_count').innerText = '0';
 		}
 	});
 
-	matches.forEach(el => el.style.display = 'table-row');
-	if (matches.length>1) {
-		document.getElementById('matchesAnnotation').innerHTML = matches.length + ' matches out of ' + allrows.length;
-	} else {
-		document.getElementById('matchesAnnotation').innerHTML = matches.length + ' match out of ' + allrows.length;
+	// add reset button, if applicable
+	if (candidates.length > finalCount) {
+		let e = document.createElement('button');
+		e.classList.add('inlineButton');
+		e.innerHTML = 'RESET / SHOW ALL';
+		e.style.margin = '0 0 0 1em';
+		// e.style.cursor = 'pointer';
+		e.setAttribute('aria-label', 'clear all filters and show all recipes');
+		document.getElementById('matchesAnnotation').appendChild(e)
 	}
-	let e = document.createElement('button');
-	e.classList.add('inlineButton');
-	e.innerHTML = 'RESET / SHOW ALL';
-	e.style.margin = '0 0 0 1em';
-	// e.style.cursor = 'pointer';
-	e.setAttribute('aria-label', 'clear all filters and show all recipes');
-	document.getElementById('matchesAnnotation').appendChild(e)
-	// }
 
 	// impose tabular nav
 	document.getElementById('tabularnav').innerHTML = '';
@@ -282,7 +350,7 @@ if (filterParams.length > 0) {
 // look for a cookie to restore filtration state with
 } else {
 	const x = getCookie('harecipesform');
-	console.log('cookie',x);
+	// console.log('cookie',x);
 	if (x) {
 	    restoreFilters(x.split(','));
 	}
@@ -301,18 +369,25 @@ document.querySelector('#substring').addEventListener('change', function() {
 
 document.getElementById('recipeFiltersMoreButton').addEventListener('click', function() {
 	const target = document.getElementById('recipefilters');
-	// console.log('target',target);
-	// console.log('dataset', target.dataset);
 	if (target.dataset.expanded === 'yes') {
 		target.style.display = 'none';
 		target.dataset.expanded = 'no';
-		document.getElementById('recipeFiltersMoreButton').innerHTML = 'Show Recipe Filters';
+		document.getElementById('recipeFiltersMoreButton').innerHTML = 'Filter Recipes';
 	} else {
 		target.style.display = 'block';
 		target.dataset.expanded = 'yes';
-		document.getElementById('recipeFiltersMoreButton').innerHTML = 'Hide Recipe Filters';
+		document.getElementById('recipeFiltersMoreButton').style.display = 'none';
 	}
 });
+
+document.getElementById('dismissRecipeFilter').addEventListener('click', function() {
+	const target = document.getElementById('recipefilters');
+	target.style.display = 'none';
+	target.dataset.expanded = 'no';	
+	document.getElementById('recipeFiltersMoreButton').style.display = 'inline';
+});
+
+
 
 document.getElementById("matchesAnnotation").addEventListener('click', function() {
 	resetFilters();

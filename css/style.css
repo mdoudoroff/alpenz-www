@@ -161,7 +161,8 @@ a h2 {
   }
 }
 .content h3,
-.content legend {
+.content legend,
+.content summary {
   font-family: lora, serif;
   color: black;
   font-size: 18px;
@@ -170,7 +171,8 @@ a h2 {
   margin: 0 0 1em 0;
 }
 .content h3.category_title,
-.content legend.category_title {
+.content legend.category_title,
+.content summary.category_title {
   font-size: 26px;
   line-height: 1em;
 }
@@ -1002,17 +1004,6 @@ header.producerindex .images figure.logo {
 #imageryReport .thumbnail img.wide {
   height: auto;
   width: 250px;
-}
-#tabularnav a {
-  margin-right: 0.75em;
-}
-@media only screen and (max-width: 441px) {
-  #tabularnav a {
-    margin-right: 0.25em;
-  }
-}
-#tabularnav a:hover {
-  color: red;
 }
 #matchesAnnotation {
   font-weight: bold;
@@ -2285,6 +2276,16 @@ th.vintage-category {
   }
 }
 input#substring {
+  width: 100%;
+  font-size: 14px;
+  padding: 3px;
+}
+#licenseChooser,
+#ingredientChooser {
+  max-width: 100%;
+  font-size: 14px;
+}
+#ingredientChooser {
   width: 100%;
 }
 .header {
@@ -4229,6 +4230,17 @@ h5 {
     display: none;
   }
 }
+:root {
+  interpolate-size: allow-keywords;
+}
+#recipe__index__grid {
+  display: grid;
+}
+@media (width > 441px) {
+  #recipe__index__grid {
+    grid-template-columns: auto auto;
+  }
+}
 .recipeSummaries {
   max-width: 600px;
 }
@@ -4279,6 +4291,7 @@ h5 {
   height: 90px;
   background-size: cover;
   background-position: top;
+  border-radius: 0.5em;
   max-width: 90px;
   padding-left: 1em;
 }
@@ -4384,12 +4397,37 @@ h5 {
   }
 }
 #recipefilters h3,
-#recipefilters legend {
+#recipefilters legend,
+#recipefilters summary {
   margin-bottom: 0.2em;
 }
-#recipefilters fieldset {
+#recipefilters fieldset,
+#recipefilters details {
   border: none;
   margin-bottom: 0.5em;
+}
+details {
+  overflow: hidden;
+}
+details::details-content {
+  block-size: 0;
+  transition: block-size 0.5s, content-visibility 0.5s;
+  transition-behavior: allow-discrete;
+}
+details[open]::details-content {
+  block-size: auto;
+}
+#recipefilters input[type=checkbox] {
+  height: 14px;
+  width: 14px;
+}
+#recipefilters input[type=checkbox] {
+  margin-block: 0.5em;
+}
+@media (width < 441px) {
+  #recipefilters input[type=checkbox] {
+    margin-block: 1em;
+  }
 }
 #recipeFiltersMoreButton {
   display: none;
@@ -4400,13 +4438,14 @@ h5 {
     cursor: pointer;
   }
 }
-#recipeResultsBlock {
-  margin-left: 290px;
+#recipefilters {
+  position: relative;
 }
-@media only screen and (max-width: 441px) {
-  #recipeResultsBlock {
-    margin-left: 0;
-  }
+#recipefilters summary {
+  margin-block: 0.5em;
+}
+#recipefilters label.keywordoption {
+  display: block;
 }
 @media only screen and (max-width: 441px) {
   .recipeSummaries td.recipeTableIcons.mobilehide,
@@ -4417,6 +4456,36 @@ h5 {
   .recipeSummaries td.recipeTableIcons.mobileshow {
     display: flex;
   }
+}
+#dismissRecipeFilter {
+  display: none;
+  position: absolute;
+  right: 0.5em;
+  top: 0.5em;
+}
+@media (width < 441px) {
+  #dismissRecipeFilter {
+    display: block;
+  }
+}
+#tabularnav {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 18px);
+  grid-auto-flow: row;
+}
+@media (width < 441px) {
+  #tabularnav {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 50px);
+    grid-auto-flow: row;
+  }
+  #tabularnav a {
+    height: 50px;
+    text-align: center;
+  }
+}
+#tabularnav a:hover {
+  color: red;
 }
 .cgrid {
   display: grid;
@@ -4667,6 +4736,7 @@ h5 {
   background: #eb2f2c;
 }
 fieldset {
+  width: 100%;
   padding: 0.5em;
   margin-block: 1em;
 }
