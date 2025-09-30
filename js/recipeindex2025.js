@@ -302,7 +302,7 @@ function refilterRecipes() {
 
 	// impose tabular nav
 	document.getElementById('tabularnav').innerHTML = '';
-	if ( matches.length > 16 ) {
+	if ( finalCount > 16 ) {
 		const tabularnav = []
 		matches.forEach( match => {
 			if ( match.style.display != 'none' & tabularnav.indexOf( match.dataset.tabularletter ) == -1 ) {
