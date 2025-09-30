@@ -64155,6 +64155,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/gfx\/filter.png" : {
+      "ft" : 32768,
+      "iS" : 1623,
+      "oA" : 1,
+      "oAP" : "\/gfx\/filter.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/gfx\/glass-cocktail-alt.svg" : {
       "ft" : 2097152,
       "miP" : 0,

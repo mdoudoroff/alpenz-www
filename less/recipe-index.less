@@ -289,8 +289,16 @@ details[open]::details-content {
 #recipeFiltersMoreButton {
 	display: none;
 
+	img {
+		width: 24px;
+		height: 24px;
+		margin-block: 0.25em;
+	}
+
 	@media only screen and (max-width: @sizes[mobile])  {
-		display: inline-block;
+		display: grid;
+		grid-template-columns: auto auto;
+		align-items: center;
 		cursor: pointer;
 	}
 }

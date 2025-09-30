@@ -302,10 +302,10 @@ function refilterRecipes() {
 
 	// impose tabular nav
 	document.getElementById('tabularnav').innerHTML = '';
-	if (matches.length>16) {
+	if ( matches.length > 16 ) {
 		const tabularnav = []
 		matches.forEach( match => {
-			if ( tabularnav.indexOf( match.dataset.tabularletter ) == -1 ) {
+			if ( match.style.display != 'none' & tabularnav.indexOf( match.dataset.tabularletter ) == -1 ) {
 				tabularnav.push( match.dataset.tabularletter );
 				match.id = 'letter_'+ match.dataset.tabularletter;
 			}

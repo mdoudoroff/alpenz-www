@@ -1009,6 +1009,9 @@ header.producerindex .images figure.logo {
   font-weight: bold;
   margin-block: 1em;
 }
+#matchesAnnotation button {
+  cursor: pointer;
+}
 .recipesConcise {
   margin: 0;
   display: grid;
@@ -1262,11 +1265,11 @@ img.socialButton {
 }
 .generalForm input[type=text] {
   width: 30em;
-  font-size: 14px;
+  font-size: 16px;
 }
 @media only screen and (max-width: 441px) {
   .generalForm input[type=text] {
-    font-size: 12px;
+    font-size: 16px;
     width: 100%;
   }
 }
@@ -2277,7 +2280,7 @@ th.vintage-category {
 }
 input#substring {
   width: 100%;
-  font-size: 14px;
+  font-size: 16px;
   padding: 3px;
 }
 #licenseChooser,
