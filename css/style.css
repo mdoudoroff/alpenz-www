@@ -4418,7 +4418,7 @@ h5 {
 select,
 input[type=text] {
   padding: 0.25em;
-  font-size: 14px;
+  font-size: 16px;
 }
 details {
   overflow: hidden;
