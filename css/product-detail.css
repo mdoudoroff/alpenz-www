@@ -1007,7 +1007,7 @@ header.producerindex .images figure.logo {
 }
 #matchesAnnotation {
   font-weight: bold;
-  margin-top: 1em;
+  margin-block: 1em;
 }
 .recipesConcise {
   margin: 0;
@@ -2287,6 +2287,16 @@ input#substring {
 }
 #ingredientChooser {
   width: 100%;
+}
+summary,
+input[type=checkbox] {
+  cursor: pointer;
+}
+summary {
+  padding-top: 0.5em;
+  padding-bottom: 0.25em;
+  border-top: 1px solid white;
+  border-right: 1px solid white;
 }
 .header {
   width: 100%;

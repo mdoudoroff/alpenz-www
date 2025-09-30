@@ -1007,7 +1007,7 @@ header.producerindex .images figure.logo {
 }
 #matchesAnnotation {
   font-weight: bold;
-  margin-top: 1em;
+  margin-block: 1em;
 }
 .recipesConcise {
   margin: 0;
@@ -2287,6 +2287,16 @@ input#substring {
 }
 #ingredientChooser {
   width: 100%;
+}
+summary,
+input[type=checkbox] {
+  cursor: pointer;
+}
+summary {
+  padding-top: 0.5em;
+  padding-bottom: 0.25em;
+  border-top: 1px solid white;
+  border-right: 1px solid white;
 }
 .header {
   width: 100%;
@@ -4401,10 +4411,14 @@ h5 {
 #recipefilters summary {
   margin-bottom: 0.2em;
 }
-#recipefilters fieldset,
-#recipefilters details {
+#recipefilters fieldset {
   border: none;
   margin-bottom: 0.5em;
+}
+select,
+input[type=text] {
+  padding: 0.25em;
+  font-size: 14px;
 }
 details {
   overflow: hidden;
@@ -4462,6 +4476,12 @@ details[open]::details-content {
   position: absolute;
   right: 0.5em;
   top: 0.5em;
+  width: 24px;
+  height: 24px;
+  background-image: url('/gfx/dismiss.png');
+  background-size: cover;
+  border: none;
+  cursor: pointer;
 }
 @media (width < 441px) {
   #dismissRecipeFilter {
@@ -4472,16 +4492,19 @@ details[open]::details-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, 18px);
   grid-auto-flow: row;
+  margin-bottom: 0.5em;
+}
+#tabularnav a {
+  text-align: center;
 }
 @media (width < 441px) {
   #tabularnav {
-    display: grid;
     grid-template-columns: repeat(auto-fit, 50px);
-    grid-auto-flow: row;
+    align-items: center;
+    margin-bottom: 0;
   }
   #tabularnav a {
-    height: 50px;
-    text-align: center;
+    line-height: 50px;
   }
 }
 #tabularnav a:hover {
