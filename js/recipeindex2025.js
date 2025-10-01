@@ -319,6 +319,12 @@ function refilterRecipes() {
 		}
 	}	
 
+	if ( substring.length > 0 & finalCount == 0 )  {
+		document.getElementById('substring').style.color = 'red';
+	} else {
+		document.getElementById('substring').style.color = 'inherit';
+	}
+
 }
 
 // fetch the querystring
@@ -363,7 +369,7 @@ document.querySelector('#recipefilters').addEventListener('change', function() {
 document.querySelector('#licenseChooser').addEventListener('change', function() {
     refilterRecipes();
 });
-document.querySelector('#substring').addEventListener('change', function() {
+document.querySelector('#substring').addEventListener('keyup', function() {
     refilterRecipes();
 });
 
