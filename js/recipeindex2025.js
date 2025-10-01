@@ -1,27 +1,25 @@
 // @codekit-prepend "page.js";
 
-function setCookie(name,value,days) {
-    let expires = "";
-    if (days) {
-        var date = new Date();
-        date.setTime(date.getTime() + (days*24*60*60*1000));
-        expires = "; expires=" + date.toUTCString();
-    }
-    document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+function storageAvailable(type) {
+  let storage;
+  try {
+    storage = window[type];
+    const x = "__storage_test__";
+    storage.setItem(x, x);
+    storage.removeItem(x);
+    return true;
+  } catch (e) {
+    return (
+      e instanceof DOMException &&
+      e.name === "QuotaExceededError" &&
+      // acknowledge QuotaExceededError only if there's something already stored
+      storage &&
+      storage.length !== 0
+    );
+  }
 }
-function getCookie(name) {
-    const nameEQ = name + "=";
-    const ca = document.cookie.split(';');
-    for (let i=0;i < ca.length;i++) {
-        let c = ca[i];
-        while (c.charAt(0)==' ') c = c.substring(1,c.length);
-        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
-    }
-    return null;
-}
-function eraseCookie(name) {   
-    document.cookie = name+'=; Max-Age=-99999999;';  
-}
+
+
 
 function scrapeFilters() {
 
@@ -33,21 +31,21 @@ function scrapeFilters() {
 	qparams.delete('tag');
 
 	const groups = [];
-	const groupsForCookie = [];
+	const groupsForSessionStorage = [];
 
 
 	// It is okay to scrape the license selector in this context as long as we are confident in it
 	const licenseChooser = document.getElementById("licenseChooser");
 	if ( licenseChooser.value.length>0) {
 		groups.push( [licenseChooser.value] );
-		groupsForCookie.push( licenseChooser.value );
+		groupsForSessionStorage.push( licenseChooser.value );
 		qparams.append('license', licenseChooser.value );
 	}
 
 	const substring = document.getElementById("substring");
 	if ( substring.value.length>0) {
 		groups.push( [ 'substring:'+substring.value ] );
-		groupsForCookie.push( 'substring:'+substring.value );
+		groupsForSessionStorage.push( 'substring:'+substring.value );
 		qparams.append('substring', substring.value );
 	}
 
@@ -67,7 +65,7 @@ function scrapeFilters() {
 	const ingredientChooser = document.getElementById("ingredientChooser");
 	if ( ingredientChooser.value.length>0 ) {
 		groups.push( [ingredientChooser.value] );
-		groupsForCookie.push( ingredientChooser.value );
+		groupsForSessionStorage.push( ingredientChooser.value );
 		qparams.append('iid', ingredientChooser.value );
 	}
 
@@ -77,7 +75,7 @@ function scrapeFilters() {
 		const activeSwitches = fieldset.querySelectorAll('input:checked');
 		activeSwitches.forEach(thingy => {
 			kws.push( thingy.value.replace(' ','_').replace('/','_') );
-			groupsForCookie.push(thingy.value.replace(' ','_').replace('/','_'))
+			groupsForSessionStorage.push(thingy.value.replace(' ','_').replace('/','_'))
 			qparams.append('tag',thingy.value.replace(' ','_').replace('/','_'))
 		});
 
@@ -87,8 +85,9 @@ function scrapeFilters() {
 		}
 	});
 
-	// cookie!
-	setCookie('harecipesform',groupsForCookie.join(),1);
+	if (storageAvailable("sessionStorage")) {
+		sessionStorage.setItem('harecipesform',groupsForSessionStorage.join());
+	};
 
 	// update the querystring in the browser
 	window.history.pushState({}, '', currentURL);
@@ -145,7 +144,9 @@ function resetFilters() {
 	document.getElementById('ingredientChooser').value = '';
 	document.getElementById('substring').value = '';
 	// document.getElementById('licenseChooser').value = '';
-	eraseCookie('harecipesform');
+	if (storageAvailable('sessionStorage')) {
+		sessionStorage.removeItem('harecipesform');
+	}
 }
 
 function refilterRecipes() {
@@ -353,10 +354,9 @@ if (searchParams.has('tag')) {
 
 if (filterParams.length > 0) {
 	restoreFilters(filterParams);
-// look for a cookie to restore filtration state with
-} else {
-	const x = getCookie('harecipesform');
-	// console.log('cookie',x);
+} else if ( storageAvailable('sessionStorage')) {
+	const x = sessionStorage.getItem('harecipesform');
+	console.log('got this from sessionstorage: ',x);
 	if (x) {
 	    restoreFilters(x.split(','));
 	}
