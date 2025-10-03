@@ -356,7 +356,7 @@ if (filterParams.length > 0) {
 	restoreFilters(filterParams);
 } else if ( storageAvailable('sessionStorage')) {
 	const x = sessionStorage.getItem('harecipesform');
-	console.log('got this from sessionstorage: ',x);
+	// console.log('got this from sessionstorage: ',x);
 	if (x) {
 	    restoreFilters(x.split(','));
 	}
