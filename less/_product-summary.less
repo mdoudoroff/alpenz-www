@@ -34,6 +34,10 @@
 
 			margin: 0 20px 0 0;
 			
+			@media (width <= @sizes[tablet]) {
+				display: none;
+			}
+
 			@media only screen and (max-width: @sizes[mobile])  {
 				display: none;
 			}
@@ -163,9 +167,14 @@
 				height: auto;
 			}
 			
+
+			@media (width < @sizes[desktop]) {
+				display: none;
+			}
+
 			@media only screen and (max-width: @sizes[mobile])  {
 				display: none;
-				float: right;
+				// float: right;
 			}
 		}
 		

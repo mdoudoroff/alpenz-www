@@ -4,6 +4,7 @@
 
 #recipe__index__grid {
 	display: grid;
+	gap: 1em;
 
 
 	@media (width > @sizes[mobile]) {
@@ -359,13 +360,13 @@ details[open]::details-content {
 		text-align: center;
 	}
 
-	@media ( width < @sizes[mobile] ) {
-		grid-template-columns: repeat(auto-fit, 50px);
+	@media ( width < @sizes[desktop] ) {
+		grid-template-columns: repeat(auto-fit, 45px);
 		align-items: center;
 		margin-bottom: 0;
 
 		a {
-			line-height: 50px;
+			line-height:45px;
 		}
 	}
 }

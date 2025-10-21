@@ -63,7 +63,7 @@ a h2 {
     display: none;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .button {
     font-size: 13px;
     font-weight: bold;
@@ -76,7 +76,7 @@ a h2 {
   background-size: cover;
   background-position: center center;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .hero {
     height: 200px;
   }
@@ -110,7 +110,7 @@ a h2 {
   /* Single Product Overview page*/
   /* this is actually the half-assed organization of the two columns on product detail page */
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .content {
     margin-left: 5px;
     margin-right: 5px;
@@ -120,7 +120,7 @@ a h2 {
   padding: 18px 9px;
   background: #ffffff;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .content .wrap {
     padding: 18px 0;
   }
@@ -140,7 +140,7 @@ a h2 {
   margin: 0 0 0.5em 0;
   position: relative;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .content h1 {
     font-size: 24px;
     margin: 0 0 12px 0;
@@ -155,7 +155,7 @@ a h2 {
 .content h2 .inlineButton {
   bottom: 3px;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .content h2 {
     font-size: 20px;
   }
@@ -226,7 +226,7 @@ a h2 {
 .content .catalogue {
   float: right;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .content .catalogue {
     font-size: 12px;
   }
@@ -249,7 +249,7 @@ a h2 {
   margin: 0 0 20px 0;
   overflow: hidden;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .content .product-overview .banner {
     min-height: 0;
     position: relative;
@@ -262,7 +262,7 @@ a h2 {
     margin: 0;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .content .product-overview .banner img {
     display: none;
   }
@@ -288,7 +288,7 @@ a h2 {
     text-shadow: none;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .content .product-overview .banner .product-name {
     background: none;
     position: relative;
@@ -313,7 +313,7 @@ a h2 {
     text-shadow: none;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .content .product-overview .banner .product-name h1 {
     background: none;
     position: relative;
@@ -341,7 +341,7 @@ a h2 {
     color: black;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .content .product-overview .banner .product-name h3 {
     background: none;
     position: relative;
@@ -371,7 +371,7 @@ a h2 {
     display: none;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .content .product-overview .artwork {
     width: 100%;
     margin: 1em 0;
@@ -397,7 +397,7 @@ a h2 {
 .content .product-overview .products .type-product {
   padding: 0;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .content div.recipes {
     width: 100%;
     margin: 1em 0;
@@ -438,9 +438,15 @@ a h2 {
   margin: 0;
 }
 .content .recipe--wrap {
-  border: 1px solid #484848;
-  max-width: 480px;
   margin-bottom: 2em;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 0.5em;
+}
+@media (width < 720px) {
+  .content .recipe--wrap {
+    grid-template-columns: auto;
+  }
 }
 .content .recipe--metadata {
   display: grid;
@@ -448,7 +454,7 @@ a h2 {
   max-width: 480px;
   background-color: #edece8;
 }
-@media (max-width: 480px) {
+@media (max-width: 720px) {
   .content .recipe--metadata {
     grid-template-columns: 1fr;
   }
@@ -460,9 +466,9 @@ a h2 {
   padding: 1em;
 }
 .content .recipeFull {
+  border: 1px solid #484848;
   background: #fafafa;
   padding: 1em;
-  max-width: 480px;
   line-height: 1;
   font-size: 14px;
   font-family: open-sans, sans-serif;
@@ -491,7 +497,7 @@ a h2 {
   margin-bottom: 0;
   font-style: italic;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .content .recipeFull h1 {
     font-size: 24px;
   }
@@ -505,17 +511,18 @@ a h2 {
   top: -3px;
 }
 .content .recipePhoto {
-  max-width: 480px;
   padding-left: 1em;
-  float: right;
+  display: inline-block;
+  margin-left: 1em;
 }
 .content .recipePhoto img {
   width: 100%;
   height: auto;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .content .recipePhoto {
     float: none;
+    margin-left: 0;
     padding: 0;
     margin-bottom: 0.25em;
     margin-top: 0.25em;
@@ -533,7 +540,7 @@ a h2 {
   max-height: 460px;
   width: auto;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .content .recipePhotoNarrow {
     width: 100%;
     height: 320px;
@@ -552,7 +559,7 @@ a h2 {
   float: right;
   margin-left: 18px;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .content .main {
     float: none;
     width: 100%;
@@ -573,7 +580,7 @@ a h2 {
   float: left;
   margin: 0;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .content .main.halfwidth {
     width: 100%;
     padding: 2%;
@@ -596,7 +603,7 @@ a h2 {
   float: left;
   margin: 0 0 0 0;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .content .sidebar {
     float: none;
     width: 100%;
@@ -606,7 +613,7 @@ a h2 {
   width: 558px;
   float: right;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .content .sidebar.halfwidth {
     width: 100%;
     padding: 2%;
@@ -647,12 +654,12 @@ header.producerindex .images figure.logo {
   width: 100%;
   margin: 1em auto 1em auto;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   header.producerindex .images figure.logo {
     line-height: 1;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   header.producerindex .images {
     width: 50%;
     float: right;
@@ -684,9 +691,6 @@ header.producerindex .images figure.logo {
 .catblurb .images img {
   width: 100%;
 }
-.catblurb .blurb {
-  width: 450px;
-}
 .catblurb .blurb figure img {
   width: 100%;
   height: auto;
@@ -699,7 +703,7 @@ header.producerindex .images figure.logo {
   width: 30%;
   float: right;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .catblurb .blurb {
     width: 100%;
   }
@@ -719,7 +723,7 @@ header.producerindex .images figure.logo {
 .catblurb .producerTrio figure img {
   margin: 0;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .catblurb .producerTrio figure {
     width: 49%;
     height: auto;
@@ -728,7 +732,7 @@ header.producerindex .images figure.logo {
 .catblurb .producerTrio figure.placeImage {
   margin-right: 4px;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .catblurb .producerTrio figure.placeImage {
     margin-right: 0;
   }
@@ -736,12 +740,12 @@ header.producerindex .images figure.logo {
 .catblurb .producerTrio figure.processImage {
   margin-right: 4px;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .catblurb .producerTrio figure.processImage {
     float: right;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .catblurb .producerTrio figure.peopleImage {
     float: right;
   }
@@ -754,7 +758,7 @@ header.producerindex .images figure.logo {
 .catblurb figure img {
   width: 100%;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .catblurb figure img {
     width: 100%;
   }
@@ -766,7 +770,7 @@ header.producerindex .images figure.logo {
 .catblurb figure.left img {
   width: 100%;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .catblurb figure.left {
     width: 100%;
   }
@@ -778,7 +782,7 @@ header.producerindex .images figure.logo {
 .catblurb figure.right img {
   width: 100%;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .catblurb figure.right {
     width: 100%;
   }
@@ -794,7 +798,7 @@ header.producerindex .images figure.logo {
     column-count: 2;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .catblurb.longform {
     -moz-column-count: 1;
     column-count: 1;
@@ -824,7 +828,7 @@ header.producerindex .images figure.logo {
   width: 50%;
   float: left;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .features .secondfeatures figure {
     float: none;
     width: 100%;
@@ -874,7 +878,7 @@ header.producerindex .images figure.logo {
   width: 200px;
   padding: 0.25em 1em;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .morebutton {
     font-size: 12px;
   }
@@ -1018,7 +1022,7 @@ header.producerindex .images figure.logo {
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
   column-gap: 1em;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .recipesConcise {
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     column-gap: 0.5em;
@@ -1027,7 +1031,7 @@ header.producerindex .images figure.logo {
 article.product + .recipesConcise :nth-child(n+6) {
   display: none;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   article.product + .recipesConcise :nth-child(6) {
     display: block;
   }
@@ -1059,8 +1063,9 @@ article.product + .recipesConcise :nth-child(n+6) {
   color: black;
 }
 .recipeConcise .recipeThumb {
-  width: 180px;
-  height: 180px;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
   margin-bottom: 10px;
   background-size: cover;
   background-position: top;
@@ -1074,7 +1079,7 @@ article.product + .recipesConcise :nth-child(n+6) {
     display: none;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .recipeConcise .recipeThumb {
     width: auto;
     height: auto;
@@ -1105,7 +1110,7 @@ article.product + .recipesConcise :nth-child(n+6) {
     display: none;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .recipeConcise .recipeThumbNarrow {
     width: auto;
     height: auto;
@@ -1117,21 +1122,24 @@ article.product + .recipesConcise :nth-child(n+6) {
   }
 }
 .recipeConcise .recipeThumbPlaceholder {
-  width: 180px;
-  height: 190px;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  margin-bottom: 10px;
 }
 .recipeConcise .recipeThumbPlaceholder a {
   text-decoration: none;
 }
 .recipeConcise .recipeThumbPlaceholder .recipeThumbPlaceholderBkgd {
-  width: 180px;
-  height: 180px;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
   background-color: #edece8;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .recipeConcise .recipeThumbPlaceholder .recipeThumbPlaceholderBkgd {
     width: auto;
     height: auto;
@@ -1143,7 +1151,7 @@ article.product + .recipesConcise :nth-child(n+6) {
     display: none;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .recipeConcise .recipeThumbPlaceholder {
     width: auto;
     height: auto;
@@ -1188,14 +1196,9 @@ a.inlineButton:hover,
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  align-items: center;
-}
-.socialIcons a {
-  margin-right: 1em;
-  margin-bottom: 0.5em;
-}
-.socialIcons a:last-child {
-  margin-right: 0;
+  align-items: flex-start;
+  gap: 1em;
+  height: fit-content;
 }
 .socialIcons > div,
 span.socialButton {
@@ -1235,7 +1238,7 @@ img.socialButton {
 .generalTable tr.section td {
   border-top: 1px solid #bbbbbb;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .distState {
     vertical-align: bottom;
     text-align: center;
@@ -1251,7 +1254,7 @@ img.socialButton {
   background-color: #edece8;
   padding: 1em;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .generalForm {
     padding: 0.5em 0.5em;
   }
@@ -1267,7 +1270,7 @@ img.socialButton {
   width: 30em;
   font-size: 16px;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .generalForm input[type=text] {
     font-size: 16px;
     width: 100%;
@@ -1282,7 +1285,7 @@ img.socialButton {
   height: 36px;
   vertical-align: top;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .info .infoicon {
     display: block;
     float: left;
@@ -1299,7 +1302,7 @@ img.socialButton {
   line-height: 36px;
   vertical-align: top;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .info .infotext {
     display: block;
     line-height: inherit;
@@ -1322,7 +1325,7 @@ ul.originTiles li {
   margin-right: 6px;
   font-family: lora, serif;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   ul.originTiles li {
     font-size: 80%;
     width: 120px;
@@ -1345,7 +1348,7 @@ ul.originTiles li .maplet img {
   top: 50%;
   transform: translateY(-50%);
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   ul.originTiles li .maplet {
     width: 120px;
     height: 120px;
@@ -1375,7 +1378,7 @@ ul.producerTilesLarge li a:hover .logo {
 ul.producerTilesLarge li a:hover {
   text-decoration: none;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   ul.producerTilesLarge li {
     flex-basis: 32%;
   }
@@ -1392,7 +1395,7 @@ ul.producerTilesLarge li .logo img {
   width: 100%;
   height: auto;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   ul.producerTilesLarge li .logo {
     width: 30vw;
     height: 30vw;
@@ -1437,7 +1440,7 @@ ul.producerTiles li a:hover .logo {
 ul.producerTiles li a:hover {
   text-decoration: none;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   ul.producerTiles {
     margin-left: 0;
     display: flex;
@@ -1481,7 +1484,7 @@ ul.producerTiles li a:hover {
 .country h2 {
   margin-bottom: 0.5em;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .country .logoCorral {
     margin-left: 0;
   }
@@ -1494,7 +1497,7 @@ ul.producerTiles li a:hover {
   margin-left: 1em;
   margin-right: 0;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .mapPresentation,
   .producerDetailMap,
   .productDetailMasterMap {
@@ -1519,7 +1522,7 @@ ul.producerTiles li a:hover {
   width: 455px;
   height: auto;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .mapPresentation .customMap,
   .producerDetailMap .customMap,
   .productDetailMasterMap .customMap {
@@ -1533,7 +1536,7 @@ ul.producerTiles li a:hover {
   width: 455px;
   height: auto;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .mapPresentation .customMapSVG,
   .producerDetailMap .customMapSVG,
   .productDetailMasterMap .customMapSVG {
@@ -1544,7 +1547,7 @@ ul.producerTiles li a:hover {
 figure.productDetailMasterMap {
   width: 50%;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   figure.productDetailMasterMap {
     float: right;
   }
@@ -1567,7 +1570,7 @@ figure.productDetailMasterMap .customMap {
   overflow: hidden;
   margin-right: 1em;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .originGmap,
   .countryDetailGmap {
     width: 100%;
@@ -1581,7 +1584,7 @@ figure.productDetailMasterMap .customMap {
   box-shadow: none;
   border-bottom: 2px solid #484848;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .originGmap_canvas,
   .countryDetailGmap_canvas {
     width: 100%;
@@ -1643,7 +1646,7 @@ dd {
   background: #dddcd8;
   margin: 0.5em 0;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .contentful {
     width: 100%;
     font-size: 16px;
@@ -1667,7 +1670,7 @@ dd {
   padding: 3px 9px;
   font-weight: bold;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .contentful .resourceCategory span {
     font-size: 12px;
   }
@@ -1680,7 +1683,7 @@ dd {
   font-family: open-sans, sans-serif;
   font-size: 20px;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .contentful .byline {
     font-size: 12px;
   }
@@ -1710,7 +1713,7 @@ dd {
   max-width: 620px;
   text-align: center;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .contentful h2 {
     margin-left: inherit;
     font-size: 24px;
@@ -1726,7 +1729,7 @@ dd {
   max-width: 620px;
   font-style: normal;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .contentful h3 {
     margin-left: inherit;
     font-size: 18px;
@@ -1736,7 +1739,7 @@ dd {
   margin-left: 170px;
   max-width: 620px;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .contentful p {
     margin-left: inherit;
   }
@@ -1760,7 +1763,7 @@ dd {
   font-size: 90%;
   font-style: italic;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .contentful figure {
     width: 100%;
   }
@@ -1772,7 +1775,7 @@ dd {
   width: auto;
   height: 620px;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .contentful figure.portrait img {
     width: 100%;
     height: auto;
@@ -1781,7 +1784,7 @@ dd {
 .contentful figure.smaller {
   width: 480px;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .contentful figure.smaller {
     width: 100%;
     height: auto;
@@ -1794,7 +1797,7 @@ dd {
   width: auto;
   height: 480px;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .contentful figure.smaller-portrait img {
     width: 80%;
     height: auto;
@@ -1809,7 +1812,7 @@ dd {
   width: 100%;
   margin: 0;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .contentful figure.aside {
     width: 40%;
   }
@@ -1824,7 +1827,7 @@ dd {
   height: 480px;
   margin: 0;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .contentful figure.aside-portrait {
     width: 40%;
     margin: 0 0 0 0.5em;
@@ -1859,7 +1862,7 @@ dd {
 .contentful div.recipeFull p {
   margin-left: 0;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .contentful div.recipeFull {
     margin-left: inherit;
   }
@@ -1871,7 +1874,7 @@ dd {
   break-inside: avoid-column;
   -webkit-column-break-inside: avoid;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .contentful div.infographic {
     margin-left: inherit;
   }
@@ -1892,7 +1895,7 @@ dd {
 .specialIcon h3 {
   margin-right: 235px;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .specialIcon h1,
   .specialIcon h3 {
     margin-right: 0;
@@ -1908,7 +1911,7 @@ dd {
   margin-left: 0.5em;
   height: auto;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .specialIconProductDetail,
   .specialIconCategoryIndex {
     position: relative;
@@ -1929,7 +1932,7 @@ ul.articleCategories {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   ul.articleCategories {
     display: block;
   }
@@ -1939,7 +1942,7 @@ ul.articleCategories {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .xrefTiles {
     display: block;
   }
@@ -1968,12 +1971,12 @@ ul.articleCategories {
 .articlebox h2 a:hover {
   color: #eb2f2c;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .articlebox h2 {
     font-size: 16px;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .articlebox {
     margin-right: 0;
   }
@@ -2048,7 +2051,7 @@ table.contentReport td {
   float: left;
   padding-right: 1em;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .contactwell {
     width: 100%;
     float: none;
@@ -2060,7 +2063,7 @@ table.contentReport td {
   background-color: #edece8;
   padding: 1rem;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .missionwell {
     width: 100%;
     float: none;
@@ -2073,13 +2076,13 @@ table.contentReport td {
   float: right;
 }
 .wrap {
-  width: 978px;
+  max-width: 978px;
   height: 100%;
   margin: 0 auto;
   position: relative;
   padding: 0;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .wrap {
     width: 100%;
   }
@@ -2094,7 +2097,7 @@ table.contentReport td {
 header .wrapspecial {
   width: auto;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   header .wrapspecial {
     width: 100%;
   }
@@ -2138,7 +2141,7 @@ ul.vintagePageLinks li:hover a {
   color: #fff;
   text-decoration: none !important;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   ul.vintagePageLinks li {
     font-size: 16px;
     padding: 6px 14px;
@@ -2165,7 +2168,7 @@ td.combo {
 td.ing {
   font-size: 14px;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .vintage-summary-table,
   .nonvintage-summary-table {
     width: 100%;
@@ -2205,7 +2208,7 @@ td.ing {
     text-wrap: pretty;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .nonvintage-summary-table td[data-cell="product"] {
     padding-left: 0;
   }
@@ -2242,7 +2245,7 @@ th.vintage-category {
   border-radius: 100vw;
   pointer-events: none;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .radio {
     font-size: 12px;
   }
@@ -2273,7 +2276,7 @@ th.vintage-category {
   border-left: var(--border-width) solid #a2120f;
   border-right: var(--border-width) solid #a2120f;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .radio__label {
     padding: 0.75em 0.75em;
   }
@@ -2303,14 +2306,13 @@ summary {
 }
 .header {
   width: 100%;
-  min-width: 978px;
   position: relative;
   padding: 0;
   background: #edece8;
   height: 81px;
   /* Main Menu */
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .header {
     height: 40px;
     width: 100%;
@@ -2343,7 +2345,7 @@ summary {
   top: 9px;
   left: 9px;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .header h1,
   .header .logo {
     position: relative;
@@ -2363,7 +2365,7 @@ summary {
   background: url('../assets/logo-wide-dev.png') no-repeat;
   background-size: 375px auto;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .header h1 a,
   .header .logo a {
     margin: 0 auto;
@@ -2381,7 +2383,7 @@ summary {
   top: 3px;
   left: 8px;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .header h1.sotolon {
     position: relative;
     top: 0;
@@ -2401,7 +2403,7 @@ summary {
   background: url('../assets/logo-sotolon-wide.png') no-repeat;
   background-size: 156px 112px;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .header h1.sotolon a {
     background: url('../assets/logotype-sotolon.png') no-repeat;
     margin: 0 auto;
@@ -2418,7 +2420,7 @@ summary {
   background: url('../assets/logo-wide-dev.png') no-repeat;
   background-size: 375px auto;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .header h1.dev a {
     margin: 0 auto;
     width: calc(375px/2);
@@ -2426,7 +2428,7 @@ summary {
     background-size: calc(375px / 2) auto;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .header h1.dev {
     top: 4px;
     left: 0;
@@ -2436,7 +2438,7 @@ summary {
   background: url('../assets/logo-sotolon-wide-dev.png') no-repeat;
   background-size: 156px 112px;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .header h1.dev.sotolon a {
     background: url('../assets/logotype-sotolon.png') no-repeat;
     margin: 0 auto;
@@ -2450,7 +2452,7 @@ summary {
   font-size: 20px;
   font-style: italic;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .header h2 {
     display: none;
   }
@@ -2469,7 +2471,7 @@ summary {
   color: #fff;
   text-transform: uppercase;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .header .toggle__mobile__nav {
     line-height: 36px;
     height: 40px;
@@ -2483,7 +2485,7 @@ summary {
   display: none;
   cursor: pointer;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .header #invokeSearchOverlayMobile {
     display: block;
     position: absolute;
@@ -2497,7 +2499,7 @@ summary {
 .header #searchDropdownNavItem,
 .header #downloadCatalogItem {
   position: absolute;
-  right: 0;
+  right: 1em;
   top: 9px;
   font-family: open-sans, sans-serif;
   font-size: 15px;
@@ -2519,7 +2521,7 @@ summary {
   vertical-align: middle;
   margin-right: 3px;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .header #searchDropdownNavItem,
   .header #downloadCatalogItem {
     display: none;
@@ -2542,7 +2544,7 @@ summary {
   text-transform: uppercase;
   text-align: left;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .header ul {
     width: 100%;
     display: none;
@@ -2559,7 +2561,7 @@ summary {
   /* Horizontal Sub Menu */
   /* If main menu is hovered, show sub menu, but not sub menu options */
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .header ul li {
     width: 100%;
     display: block;
@@ -2716,12 +2718,12 @@ summary {
   opacity: 0.95;
 }
 #menu-main-menu {
-  padding-left: 9px;
+  padding-inline: 9px;
 }
 .header.sotolon {
   height: 118px;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .header.sotolon {
     height: 40px;
   }
@@ -2735,7 +2737,7 @@ summary {
     display: none;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .navigation {
     display: none;
     width: 100%;
@@ -2784,7 +2786,7 @@ summary {
 .breadcrumb p a:hover {
   text-decoration: underline;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .breadcrumb p {
     font-size: 12px;
     text-align: center;
@@ -2826,7 +2828,7 @@ summary {
     display: none;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .footer {
     padding: 1em 0 1em 3px;
   }
@@ -2834,6 +2836,9 @@ summary {
 .footer .subfooter {
   border-top: 1px solid #bbbbbb;
   clear: both;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  padding-inline: 0.5em;
 }
 .footer small {
   display: block;
@@ -2841,9 +2846,15 @@ summary {
   line-height: 37px;
   color: #666666;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .footer small {
     line-height: inherit;
+  }
+}
+@media (width > 720px) {
+  .footer .wrap.clr {
+    display: grid;
+    grid-template-columns: auto auto;
   }
 }
 .footer #buildstamp {
@@ -2854,18 +2865,16 @@ summary {
   right: 9px;
 }
 .footer .socialIcons {
-  width: 400px;
-  float: left;
+  padding-inline: 1em;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .footer .socialIcons {
-    float: none;
     width: 100%;
   }
 }
 .footer .footerMenu {
   width: 530px;
-  float: right;
+  padding-inline: 0.5em;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -2877,7 +2886,7 @@ summary {
   list-style: none;
   font-weight: 100;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .footer .footerMenu li {
     line-height: 1.8;
   }
@@ -2918,7 +2927,7 @@ summary {
   grid-column: 3/4;
   grid-row: 3/4;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .footer .footerMenu {
     grid-template-columns: 1fr 1fr;
     float: none;
@@ -2977,7 +2986,7 @@ summary {
   background: url('../assets/logo-wide-dev.png') no-repeat;
   background-size: 375px auto;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   #sidebarheader h1 a {
     width: calc(375px/2);
     background-size: calc(375px / 2) auto;
@@ -2991,7 +3000,7 @@ summary {
   overflow: hidden;
   position: relative;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   #sidebarheader h1.sotolon a {
     background: url('../assets/logotype-sotolon.png') no-repeat;
     margin: 0 auto;
@@ -3005,7 +3014,7 @@ summary {
   margin-left: 0.25em;
   height: 25px;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   #sidebarlogo {
     height: 25px;
   }
@@ -3031,7 +3040,7 @@ summary {
   font-weight: 700;
   line-height: 2;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .sidebarRow a,
   .sidebarRowHeader a {
     font-size: 140%;
@@ -3079,7 +3088,7 @@ summary {
   left: 0px;
   top: 0px;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .sidebar2 {
     width: 100%;
   }
@@ -3093,7 +3102,7 @@ summary {
   font-weight: 700;
   line-height: 2;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   #sidebarAdditionalLinks {
     font-size: 140%;
   }
@@ -3146,7 +3155,7 @@ summary {
   margin-left: 2em;
   border-bottom: 1px solid #dddcd8;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .typeBrowserCat1 {
     font-size: 140%;
   }
@@ -3156,7 +3165,7 @@ summary {
   margin-left: 3em;
   border-bottom: 1px solid #dddcd8;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .typeBrowserCat2 {
     font-size: 140%;
   }
@@ -3172,7 +3181,7 @@ summary {
   color: #666666;
   text-transform: uppercase;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   #winestypevertical,
   #spiritstypevertical {
     font-size: 110%;
@@ -3206,7 +3215,7 @@ summary {
   margin-right: auto;
   z-index: 999;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   #searchOverlay {
     top: 0px;
     padding-left: 0.5em;
@@ -3268,7 +3277,7 @@ summary {
 #searchResults .match:hover {
   border: 2px solid #a2120f;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   #searchResults {
     padding: 0;
   }
@@ -3297,7 +3306,7 @@ summary {
   text-align: center;
   background-color: white;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   #searchResults .logo {
     width: 120px;
   }
@@ -3346,7 +3355,7 @@ summary {
     column-count: 2;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .vitals {
     -moz-column-count: 1;
     column-count: 1;
@@ -3382,7 +3391,7 @@ summary {
 .vitals .highlights li {
   margin-left: 1em;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .vitals .highlights {
     padding: 1em 1em 1em 1em;
   }
@@ -3404,7 +3413,7 @@ summary {
   clear: all;
   margin-top: 0.5em;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   #productImageryCluster,
   #productImageryCluster2 {
     width: 100%;
@@ -3535,7 +3544,7 @@ summary {
   font-size: 14px;
   font-weight: 100;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .setup,
   .vintagesummary {
     overflow-x: auto;
@@ -3563,7 +3572,7 @@ summary {
   padding-left: 0.5em;
   padding-right: 0.5em;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .artworkCorral .artwork2 {
     columns: 2;
   }
@@ -3579,7 +3588,7 @@ summary {
   height: 200px;
   width: auto;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .artworkCorral .artwork2 img {
     width: 100%;
     height: auto;
@@ -3612,7 +3621,7 @@ summary {
   display: inline-block;
   width: 15%;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .recipeCorral .recipe {
     width: 45%;
   }
@@ -3660,7 +3669,7 @@ summary {
   column-count: 2;
   margin: 1em 0;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .mainalt .extendedDescription,
   .mainalt .categoryDescription {
     -moz-column-count: 1;
@@ -3673,7 +3682,7 @@ summary {
   float: right;
   margin-left: 1em;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .mainalt .productDetailGmap {
     width: 100%;
     float: none;
@@ -3692,7 +3701,7 @@ summary {
   float: right;
   margin-left: 1em;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .mainalt #gmapmaker {
     width: 100%;
     float: none;
@@ -3729,7 +3738,7 @@ summary {
 .infographic .infographicSegment .desktopIcon {
   display: block;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .infographic .infographicSegment .desktopIcon {
     display: none;
   }
@@ -3737,12 +3746,12 @@ summary {
 .infographic .infographicSegment .mobileIcon {
   display: none;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .infographic .infographicSegment .mobileIcon {
     display: block;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .infographic .infographicSegment {
     padding: 1%;
   }
@@ -3755,7 +3764,7 @@ summary {
   margin-left: 0.25em;
   margin-right: 0.25em;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .infographic .infographicSegment .infographicSectionText {
     font-size: 10px;
   }
@@ -3770,7 +3779,7 @@ summary {
   text-align: center;
   flex: 1 0 auto;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .infographic .infographicSegment .infographicSectionIcons {
     padding-top: 3px;
     padding-bottom: 3px;

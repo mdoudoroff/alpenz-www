@@ -509,9 +509,17 @@ a {
 	}
 	
 	.recipe--wrap {
-		border: 1px solid rgb(72,72,72);
-		max-width: 480px;
-		margin-bottom: 2em;		
+		// max-width: 480px;
+		margin-bottom: 2em;
+
+		display: grid;
+		grid-template-columns: auto auto;
+		gap: 0.5em;
+
+		@media (width < @sizes[mobile]) {
+			grid-template-columns: auto;
+		}
+
 	}
 
 	.recipe--metadata {
@@ -538,12 +546,14 @@ a {
 
 	.recipeFull {
 
+		border: 1px solid rgb(72,72,72);
+
 		background: #fafafa;
 		// border: 2px solid @off-grey;
 
 
 		padding: 1em;
-		max-width: 480px;
+		// max-width: 480px;
 
 		line-height: 1.0;
 		// margin-bottom: 2em;
@@ -598,9 +608,9 @@ a {
 	}
 
 	.recipePhoto {
-		max-width: 480px;
 		padding-left: 1em;
-		float: right;
+		display: inline-block;
+		margin-left: 1em;
 
 		img {
 			width: 100%;
@@ -609,6 +619,7 @@ a {
 	
 		@media only screen and (max-width: @sizes[mobile])  {
 			float: none;
+			margin-left: 0;
 			padding: 0;
 			margin-bottom: 0.25em;
 			margin-top: 0.25em;
@@ -826,7 +837,8 @@ header.producerindex {
 	}
 
 	.blurb {
-		width: 450px;
+
+		// width: 450px;
 
 		figure {
 
@@ -1302,8 +1314,11 @@ article.product + .recipesConcise {
 
 
 	.recipeThumb {
-		width: 180px;
-		height: 180px;
+		// width: 180px;
+		// height: 180px;
+		width: 100%;
+		height: auto;
+		aspect-ratio: 1;
 		margin-bottom: 10px;
 		background-size: cover;
 		background-position: top;
@@ -1369,16 +1384,22 @@ article.product + .recipesConcise {
 
 
 	.recipeThumbPlaceholder {
-		width: 180px;
-		height: 190px;
+		// width: 180px;
+		// height: 190px;
+		width: 100%;
+		height: auto;
+		aspect-ratio: 1;
+
+		margin-bottom: 10px;
 
 		a {
 			text-decoration: none;
 		}
 
 		.recipeThumbPlaceholderBkgd {
-			width: 180px;
-			height: 180px;
+			width: 100%;
+			height: auto;
+			aspect-ratio: 1;
 			background-color: @off-grey;
 			display: flex;
 			align-items: center;
@@ -1457,17 +1478,19 @@ a.inlineButton:hover, #recipeFiltersMoreButton:hover {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-start;
-	align-items: center;
+	align-items: flex-start;
+	gap: 1em;
+	height: fit-content;
 }
 
-.socialIcons a {
-	margin-right: 1em;
-	margin-bottom: 0.5em;
-}
+// .socialIcons a {
+// 	margin-right: 1em;
+// 	margin-bottom: 0.5em;
+// }
 
-.socialIcons a:last-child {
-	margin-right: 0;
-}
+// .socialIcons a:last-child {
+// 	margin-right: 0;
+// }
 
 .socialIcons > div, span.socialButton  {
 	display: inline-block;
@@ -1493,7 +1516,6 @@ span.socialButton {
 img.socialButton {
 	vertical-align:bottom;
 	height: 37px;
-
 }
 
 .generalTable {
@@ -2470,7 +2492,13 @@ table.contentReport {
 	float: right;
 }
 .wrap {
-	width: @sizes[desktop];
+	
+	// this was our fixed width
+	// width: @sizes[desktop];
+
+	// adding this max width:
+	max-width: @sizes[desktop];
+
 	height: 100%;
 	margin: 0 auto;
 	position: relative;

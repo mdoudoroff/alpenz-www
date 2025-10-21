@@ -8,7 +8,7 @@
 	position: relative;
 
 	font-size: 12px;
-	
+
 	@media print {
 		display: none;
 	}
@@ -20,6 +20,12 @@
 	.subfooter {
 		border-top: 1px solid @light_grey;
 		clear: both;
+
+		// hacky-ish pending fixes to grid (see .wrap.clr {} below)
+		grid-column-start: 1;
+		grid-column-end: 3;
+
+		padding-inline: 0.5em;
 	}
 
 	small {
@@ -35,6 +41,16 @@
 
 	}
 
+	.wrap.clr {
+
+		@media (width > @sizes[mobile]) {
+			display: grid;
+			grid-template-columns: auto auto;
+
+		}
+
+	}
+
 	#buildstamp {
 		color: #fafafa;
 		font-size: 80%;
@@ -45,18 +61,21 @@
 
 
 	.socialIcons {
-		width: 400px;
-		float: left;
+		// width: 400px;
+		// float: left;
+		padding-inline: 1em;
 
 		@media only screen and (max-width: @sizes[mobile])  {
-			float: none;
+			// float: none;
 			width: 100%;
+
 		}
 	}
 
 	.footerMenu {
 		width: 530px;
-		float: right;
+		// float: right;
+		padding-inline: 0.5em;
 
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
