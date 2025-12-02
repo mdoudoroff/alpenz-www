@@ -7,15 +7,15 @@
 	margin:0;
 }
 
-@page  
-{ 
-	size: A4;   /* auto is the initial value */ 
+@page
+{
+	size: A4;   /* auto is the initial value */
 
-	/* this affects the margin in the printer settings */ 
-	margin: 0.25in 0 0.5in 0;  
-} 
+	/* this affects the margin in the printer settings */
+	margin: 0.25in 0 0.5in 0;
+}
 
-body { 
+body {
 	font-family: @body-font;
 	font-size: 14px;
 	line-height: 1.4;
@@ -36,7 +36,7 @@ body {
 a {
 	color: @link_color;
 	text-decoration: none;
-	
+
 	&:hover {
 		color: @link_hover;
 		text-decoration: underline;
@@ -61,9 +61,9 @@ a {
 
 	text-transform: uppercase;
 	color: #fff;
-	
+
 	-webkit-appearance: none;
-	
+
 	text-decoration: none !important;
 
 	&:hover {
@@ -71,10 +71,10 @@ a {
 		color: #fff;
 		background: lighten(@red, 10%);
 	}
-	
+
 	&.fullprofile {
 		margin: 20px 0 0 0;
-		
+
 		@media print {
 			display: none;
 		}
@@ -86,7 +86,7 @@ a {
 	}
 
 
-}	
+}
 
 .hero {
 	width: 100%;
@@ -94,11 +94,11 @@ a {
 	background: #f2f2f2;
 	background-size: cover;
 	background-position: center center;
-	
+
 	@media only screen and (max-width: @sizes[mobile])  {
 		height: 200px;
 	}
-	
+
 	h1 {
 		position: absolute;
 		bottom: 30px;
@@ -131,13 +131,13 @@ a {
 	background: #fff;
 	position: relative;
 	z-index: 1;
-		
+
 	@media only screen and (max-width: @sizes[mobile])  {
 		// minimal padding around everything (except top menu and footer) for mobile
 		margin-left: 5px;
 		margin-right: 5px;
 	}
-	
+
 	.wrap {
 		padding: @gutter 9px;
 		background: #ffffff;
@@ -148,7 +148,7 @@ a {
 
 
 	}
-	
+
 	h1, h2, h3, h4, h5, h6 {
 		line-height: 1em;
 	}
@@ -159,7 +159,7 @@ a {
 		font-size: 36px;
 		font-weight: 600;
 		margin: 0 0 0.5em 0;
-		
+
 		@media only screen and (max-width: @sizes[mobile])  {
 			font-size: 24px;
 			margin: 0 0 12px 0;
@@ -170,7 +170,7 @@ a {
 	h2 {
 
 		font-family: @heading-font;
-		
+
 		font-size: 22px;
 		font-weight: 600;
 		margin: 0 0 24px 0;
@@ -192,7 +192,7 @@ a {
 		line-height: 1.0;
 		font-weight: 900;
 		margin: 0 0 1em 0;
-		
+
 		&.category_title {
 			font-size: 26px;
 			line-height: 1em;
@@ -230,7 +230,7 @@ a {
 	p {
 		font-weight: 300;
 		margin: 0 0 20px 0;
-				
+
 		&.note {
 			font-size: 11px;
 			font-style: italic;
@@ -245,10 +245,10 @@ a {
 			}
 		}
 	}
-	
-	
+
+
 	img {
-		
+
 		&.left {
 			width: 50%;
 			margin: 0 20px 10px 0;
@@ -256,11 +256,11 @@ a {
 		}
 	}
 
-	
-	
+
+
 	.catalogue {
 		float: right;
-		
+
 		@media only screen and (max-width: @sizes[mobile])  {
 			font-size: 12px;
 		}
@@ -268,34 +268,34 @@ a {
 		@media print {
 			display: none;
 		}
-		
+
 		i {
 			margin-right: 10px;
 		}
 	}
-	
 
-	
 
-	
 
-	
-	
+
+
+
+
+
 	/* Single Product Overview page*/
 	.product-overview {
-	
+
 		.banner {
 			position: relative;
 			line-height: 0;
 			min-height: 300px;
 			margin: 0 0 20px 0;
-			overflow: hidden; 
+			overflow: hidden;
 
 			@media only screen and (max-width: @sizes[mobile])  {
 				min-height: 0;
 				position: relative;
 			}
-			
+
 			@media print {
 				min-height: 0;
 				height: auto;
@@ -303,7 +303,7 @@ a {
 			}
 
 			img {
-			
+
 				@media only screen and (max-width: @sizes[mobile])  {
 					display: none;
 				}
@@ -312,7 +312,7 @@ a {
 				}
 
 			}
-			
+
 			.product-name {
 				width: 100%;
 				position: absolute;
@@ -320,7 +320,7 @@ a {
 				left: 0px;
 				bottom: 0px;
 				color: #fff;
-								
+
 				@media print {
 					background: none;
 					position: relative;
@@ -412,8 +412,8 @@ a {
 				}
 			}
 		}
-		
-		
+
+
 		.artwork {
 
 			@media only screen and (max-width: @sizes[mobile])  {
@@ -435,30 +435,30 @@ a {
 			figure {
 				margin: 0 1em 1em 0;
 			}
-			
+
 			img {
 				width: 100%;
 				height: auto;
 				margin: 0 0 0 0;
 			}
 		}
-		
+
 		/* How the "card" displays on the product page */
 		.products {
-		
+
 			.type-product {
 				padding: 0;
 			}
 		}
 	}
-	
 
 
-	
-	
-	
+
+
+
+
 	div.recipes {
-		
+
 		@media only screen and (max-width: @sizes[mobile])  {
 			width: 100%;
 			margin: 1em 0;
@@ -481,7 +481,7 @@ a {
 			margin: 0 0 1em 0;
 			font-size: 11px;
 			vertical-align: top;
-			
+
 			h4 a {
 				color: black;
 			}
@@ -498,7 +498,7 @@ a {
 				font-family: @body-font;
 				font-size: 11px;
 				margin: 0 0 10px 0;
-				
+
 				&:last-child {
 					margin: 0;
 				}
@@ -507,7 +507,7 @@ a {
 
 
 	}
-	
+
 	.recipe--wrap {
 		// max-width: 480px;
 		margin-bottom: 2em;
@@ -616,7 +616,7 @@ a {
 			width: 100%;
 			height: auto;
 		}
-	
+
 		@media only screen and (max-width: @sizes[mobile])  {
 			float: none;
 			margin-left: 0;
@@ -627,7 +627,7 @@ a {
 
 
 	}
-	
+
 	.recipePhotoNarrow {
 		width: 480px;
 		height: 480px;
@@ -637,10 +637,10 @@ a {
 
 		img {
 			height: 100%;
-			max-height: 460px; // allows for attribution 
+			max-height: 460px; // allows for attribution
 			width: auto;
 		}
-	
+
 		@media only screen and (max-width: @sizes[mobile])  {
 			width: 100%;
 			height: 320px;
@@ -659,13 +659,13 @@ a {
 
 
 	}
-	
+
 
 	.main {
 		width: @fourcol;
 		float: right;
 		margin-left: @gutter;
-		
+
 		@media only screen and (max-width: @sizes[mobile])  {
 			float: none;
 			width: 100%;
@@ -673,7 +673,7 @@ a {
 		@media print {
 			width: 100%;
 		}
-		
+
 		&.fullwidth {
 			width: 100%;
 			float: none;
@@ -683,7 +683,7 @@ a {
 			width: @twocol;
 			float: left;
 			margin: 0;
-			
+
 			@media only screen and (max-width: @sizes[mobile])  {
 				width: 100%;
 				padding: 2%;
@@ -702,14 +702,14 @@ a {
 
 	}
 
-	
+
 	#map_canvas {
-		width: 100%; 
+		width: 100%;
 		height: 300px;
 		margin: 0 0 @gutter 0;
 		page-break-inside: avoid;
 	}
-	
+
 
 	/* this is actually the half-assed organization of the two columns on product detail page */
 	.sidebar {
@@ -721,30 +721,30 @@ a {
 			float: none;
 			width: 100%;
 		}
-		
+
 		&.halfwidth {
 			width: @threecol;
 			float: right;
-			
+
 			@media only screen and (max-width: @sizes[mobile])  {
 				width: 100%;
 				padding: 2%;
 			}
 		}
-		
+
 		&.product-nav {
-		
+
 			@media print {
 				display: none;
 			}
 		}
-		
-		
+
+
 
 	}
 
-	
-	
+
+
 }
 
 
@@ -970,7 +970,7 @@ header.producerindex {
 	@media only screen and (max-width: @sizes[mobile])  {
 		-moz-column-count: 1;
 		column-count: 1;
-	}	
+	}
 
 	.blurb {
 		width: 100%;
@@ -1073,7 +1073,7 @@ header.producerindex {
 
 .fullsetuptable {
 	font-family: @dense-content-font;
-	border-collapse: collapse; 
+	border-collapse: collapse;
 
 	td {
 		// white-space: nowrap;
@@ -1189,9 +1189,9 @@ header.producerindex {
 	font-weight: 600;
 	text-transform: uppercase;
 	color: @red;
-	
+
 	-webkit-appearance: none;
-	
+
 	text-decoration: none !important;
 
 	&:hover {
@@ -1199,10 +1199,10 @@ header.producerindex {
 		color: #fff;
 		background: @red;
 	}
-	
+
 	&.fullprofile {
 		margin: 20px 0 0 0;
-		
+
 		@media print {
 			display: none;
 		}
@@ -1257,7 +1257,7 @@ header.producerindex {
 	column-gap: 1em;
 
 
-	@media only screen and (max-width: @sizes[mobile])  {	
+	@media only screen and (max-width: @sizes[mobile])  {
 		grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) ;
 		column-gap: 0.5em;
 	}
@@ -1270,10 +1270,10 @@ article.product + .recipesConcise {
 		display: none;
 	}
 
-	@media only screen and (max-width: @sizes[mobile])  {	
+	@media only screen and (max-width: @sizes[mobile])  {
 
 		// hide the seventh and subsequent, because we only have six grid columns in mobile view
-		:nth-child(6) { 
+		:nth-child(6) {
 			display: block;
 		}
 
@@ -1300,11 +1300,11 @@ article.product + .recipesConcise {
 		text-indent: -1.5em;
 	}
 
-	h4 { 
+	h4 {
 		font-family: @heading-font;
 		font-weight: 700;
-		font-size: 15px; 
-		line-height: 14px; 
+		font-size: 15px;
+		line-height: 14px;
 		margin-bottom: 0.5em;
 	}
 
@@ -1460,7 +1460,7 @@ article.product + .recipesConcise {
 
 	// this is to actually move the element up to the baseline
 	position: relative;
-	bottom: 0px; 
+	bottom: 0px;
 
 	@media print {
 		display: none;
@@ -1543,7 +1543,7 @@ img.socialButton {
 		div {
 			writing-mode: vertical-rl;
 			transform: rotate(180deg);
-			white-space: nowrap;	
+			white-space: nowrap;
 		}
 	}
 }
@@ -1610,8 +1610,8 @@ img.socialButton {
 		@media only screen and (max-width: @sizes[mobile])  {
 			display: block;
 			line-height: inherit;
-			height: auto;	
-			margin-left: 45px;		
+			height: auto;
+			margin-left: 45px;
 		}
 
 
@@ -1667,7 +1667,7 @@ ul.originTiles {
 
 			@media only screen and (max-width: @sizes[mobile])  {
 				width: 120px;
-				height: 120px;			
+				height: 120px;
 			}
 
 		}
@@ -1739,7 +1739,7 @@ ul.producerTiles {
 		vertical-align: top;
 		margin: 0;
 		width: 110px;
-		height: 146px;
+		/* height: 146px; */
 		display: inline-block;
 		margin-right: 6px;
 
@@ -1791,7 +1791,7 @@ ul.producerTiles {
 			font-family: @subheading-font;
 			margin-bottom: 1em;
 			margin-right: 0;
-		
+
 			a:hover .logo {
 				border-color: @link_hover;
 			}
@@ -1867,7 +1867,7 @@ ul.producerTiles {
 		width: 455px; // ideally, this is 460px, but we’re cheating a little to
 					  // accomodate producer logo tiles
 		height: auto;
-					  
+
 		@media only screen and (max-width: @sizes[mobile])  {
 			width: 100%;
 			height: auto;
@@ -1901,7 +1901,7 @@ figure.productDetailMasterMap {
 	.customMap {
 		width: 100%;
 		height: auto;
-					  
+
 
 	}
 
@@ -2132,15 +2132,15 @@ dd {
 		clear:both;
 		width: 620px;
 
-		img { 
-			display: inline-block; 
+		img {
+			display: inline-block;
 			width: 100%;
 			margin: 0;
 		}
-		
-		figcaption { 
-			display: block; 
-			clear: both; 
+
+		figcaption {
+			display: block;
+			clear: both;
 			text-align: center;
 			color: @grey;
 			font-size: 90%;
@@ -2199,7 +2199,7 @@ dd {
 		@media only screen and (max-width: @sizes[mobile])  {
 			width: 40%;
 		}
-	}	
+	}
 	figure.aside-portrait {
 		width: auto;
 		margin: 0 0 0 1em;
@@ -2296,7 +2296,7 @@ dd {
 
 		@media only screen and (max-width: @sizes[mobile])  {
 			margin-right: 0;
-		}	
+		}
 	}
 }
 .specialIconProductDetail,.specialIconCategoryIndex {
@@ -2312,14 +2312,14 @@ dd {
 		position: relative;
 		display: block;
 		margin: 0 0 3px 0;
-	}	
+	}
 }
 
 a.tokenlink {
-	
+
 	&.fullprofile {
 		margin: 20px 0 0 0;
-		
+
 		@media print {
 			display: none;
 		}
@@ -2341,7 +2341,7 @@ ul.articleCategories {
 .xrefTiles {
 	clear: both;
 	display: grid;
-	grid-template-columns: 1fr 1fr;	
+	grid-template-columns: 1fr 1fr;
 
 	@media only screen and (max-width: @sizes[mobile])  {
 		display: block;
@@ -2399,7 +2399,7 @@ table.contentReport {
 
 	th, td {
 		text-align: center;
-		padding: 1px 0.25rem;		
+		padding: 1px 0.25rem;
 	}
 
 	th {
@@ -2492,7 +2492,7 @@ table.contentReport {
 	float: right;
 }
 .wrap {
-	
+
 	// this was our fixed width
 	// width: @sizes[desktop];
 
@@ -2527,11 +2527,11 @@ header .wrapspecial {
 
 }
 
-.clr:after { 
-   content: "."; 
-   visibility: hidden; 
-   display: block; 
-   height: 0; 
+.clr:after {
+   content: ".";
+   visibility: hidden;
+   display: block;
+   height: 0;
    clear: both;
 }
 
@@ -2569,13 +2569,13 @@ ul.vintagePageLinks {
 			color: #fff;
 			text-decoration: none !important;
 		}
-		
+
 		@media only screen and (max-width: @sizes[mobile])  {
 			font-size: 16px;
 			padding: 6px 14px;
 		}
 
-	}	
+	}
 
 	li.selected {
 		color: @dark_grey;
@@ -2617,9 +2617,9 @@ td.ing {
 	@media only screen and (max-width: @sizes[mobile])  {
 		width: 100%;
 
-		.vintage-category { 
-			display: block; 
-			margin-top: 1em; 
+		.vintage-category {
+			display: block;
+			margin-top: 1em;
 			margin-bottom: 0.5em;
 		}
 
@@ -2696,7 +2696,7 @@ th.vintage-category {
 	}
 }
 @media only screen and (max-width: @sizes[mobile])  {
-	.radio { 
+	.radio {
 		font-size: 12px;
 	}
 }
@@ -2710,7 +2710,7 @@ th.vintage-category {
 		&:before {
 			opacity: 1;
 		}
-		
+
 	}
 
 }
@@ -2735,7 +2735,7 @@ th.vintage-category {
 	}
 }
 @media only screen and (max-width: @sizes[mobile])  {
-	.radio__label { 
+	.radio__label {
 		// padding:4px 0.5em;
 		padding: 0.75em 0.75em;
 	}
@@ -2766,5 +2766,3 @@ summary {
 	border-top: 1px solid white;
 	border-right: 1px solid white;
 }
-
-

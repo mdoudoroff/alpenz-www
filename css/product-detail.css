@@ -1411,7 +1411,7 @@ ul.producerTiles li {
   vertical-align: top;
   margin: 0;
   width: 110px;
-  height: 146px;
+  /* height: 146px; */
   display: inline-block;
   margin-right: 6px;
   font-family: open-sans, sans-serif;
@@ -2851,7 +2851,7 @@ summary {
     line-height: inherit;
   }
 }
-@media (width > 720px) {
+@media (width > 840px) {
   .footer .wrap.clr {
     display: grid;
     grid-template-columns: auto auto;
@@ -2866,6 +2866,7 @@ summary {
 }
 .footer .socialIcons {
   padding-inline: 1em;
+  margin-bottom: 1em;
 }
 @media only screen and (max-width: 720px) {
   .footer .socialIcons {
@@ -2874,6 +2875,7 @@ summary {
 }
 .footer .footerMenu {
   width: 530px;
+  width: content-fit;
   padding-inline: 0.5em;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -2927,11 +2929,15 @@ summary {
   grid-column: 3/4;
   grid-row: 3/4;
 }
+@media (width < 560px) {
+  .footer .footerMenu {
+    width: 100%;
+  }
+}
 @media only screen and (max-width: 720px) {
   .footer .footerMenu {
     grid-template-columns: 1fr 1fr;
     float: none;
-    width: 100%;
     margin-top: 1em;
   }
   .footer .footerMenu .fnSec1Heading {

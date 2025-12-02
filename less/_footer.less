@@ -12,7 +12,7 @@
 	@media print {
 		display: none;
 	}
-	
+
 	@media only screen and (max-width: @sizes[mobile])  {
 		padding: 1em 0 1em 3px;
 	}
@@ -43,7 +43,7 @@
 
 	.wrap.clr {
 
-		@media (width > @sizes[mobile]) {
+		@media (width > 840px) {
 			display: grid;
 			grid-template-columns: auto auto;
 
@@ -70,10 +70,12 @@
 			width: 100%;
 
 		}
+		margin-bottom: 1em;
 	}
 
 	.footerMenu {
 		width: 530px;
+		width: content-fit;
 		// float: right;
 		padding-inline: 0.5em;
 
@@ -124,7 +126,7 @@
 		}
 		.fnSec1B {
 			grid-column: 2/3;
-			grid-row: 2/4;			
+			grid-row: 2/4;
 		}
 		.fnSec2A {
 			grid-column: 3/4;
@@ -135,12 +137,15 @@
 			grid-row: 3/4;
 		}
 
+		// magic numbering for now--this is to prevent overflow from the content-fit above
+		@media (width < 560px) {
+		    width: 100%;
+		}
 
 		@media only screen and (max-width: @sizes[mobile])  {
 
 			grid-template-columns: 1fr 1fr;
 			float: none;
-			width: 100%;
 			margin-top: 1em;
 
 			.fnSec1Heading {
@@ -157,7 +162,7 @@
 			}
 			.fnSec1B {
 				grid-column: 2/3;
-				grid-row: 2/3;			
+				grid-row: 2/3;
 			}
 			.fnSec2A {
 				grid-column: 1/2;

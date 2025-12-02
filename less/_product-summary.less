@@ -5,7 +5,7 @@
 	margin: 0 0 2em 0;
 	list-style-type: none;
 	padding: 0;
-	
+
 	@media only screen and (max-width: @sizes[mobile])  {
 		margin: 0 0 0 0;
 	}
@@ -21,18 +21,18 @@
 
 		padding: 0;
 		list-style-type: none;
-		
+
 		page-break-inside: avoid;
 		width: 100%;
 		margin: 0 0 0 0;
 		border-bottom: 1px solid @body_background;
-		
+
 		display: grid;
 		grid-template-columns: 480px 1fr 1fr;
 		gap: 0.25em;
 
 		@media (width < @sizes[desktop]) {
-			grid-template-columns: auto 1fr;
+			grid-template-columns: auto auto;
 			grid-template-rows: 1fr 1fr;
 			--thumbnailSize: 145px;
 		}
@@ -53,25 +53,25 @@
 				grid-column: 1 / 2;
 			}
 
-			
+
 			padding: 0 0;
-			
-			width: 478px;
-			width: 480px;
+
+			/* width: 478px;
+			width: 480px; */
 
 			@media (width < 650px)  {
 				width: 100%;
 				padding: 0;
 				margin: 0 0 20px 0;
 			}
-			
+
 			.product_description {
-				
+
 				p:last-child {
 					margin-bottom: 0;
 				}
 			}
-			
+
 			h2 {
 				font-weight: bold;
 				margin: 0;
@@ -84,14 +84,14 @@
 			p {
 				// special summary page behavior
 				margin-top: 0.25em;
-				max-width: 360px;
+				/* max-width: 360px; */
 
 				font-size: 13px;
 			}
 		}
-		
+
 		.bottle {
-			
+
 			float: right;
 			text-align: center;
 			width: 108px;
@@ -121,7 +121,7 @@
 		}
 
 		.label {
-			
+
 			float: left;
 			position: relative;
 			// text-align: center;
@@ -133,7 +133,7 @@
 			// line-height: 230px;
 
 			// margin: 0 20px 0 0;
-			
+
 			// @media (width <= @sizes[tablet]) {
 			// 	display: none;
 			// }
@@ -141,7 +141,7 @@
 			@media (width < 430px)  {
 				display: none;
 			}
-			
+
 			// img {
 			// 	height: var(--thumbnailSize);
 			// 	// height: 100%;
@@ -171,7 +171,7 @@
 		}
 
 		.context {
-			
+
 			// float: left;
 			// text-align: center;
 			// width: var(--thumbnailSize);
@@ -183,7 +183,7 @@
 			// line-height: var(--thumbnailSize);
 
 			vertical-align: middle;
-			
+
 			a {
 				line-height: 0;
 			}
@@ -198,7 +198,7 @@
 			// 	height: auto;
 			// 	vertical-align: middle;
 			// }
-			
+
 			img {
 				width: 100%;
 				// height: 100%;
@@ -214,16 +214,16 @@
 				// float: right;
 			}
 		}
-		
 
-			
+
+
 		p {
 			width: 100%;
 			margin: 10px 0 0 0;
 
-			
+
 			text-align: left;
-			
+
 			span {
 				margin-right: 15px;
 			}
@@ -233,7 +233,7 @@
 			text-transform: uppercase;
 			letter-spacing: 0.25px;
 			color: black;
-			margin-top: 0.5em; 
+			margin-top: 0.5em;
 			a {
 				font-weight: 600;
 				white-space: nowrap;
@@ -248,8 +248,8 @@
 		p.abv {
 			display: none;
 		}
-		
-		
+
+
 	}
 
 	.licenses {
@@ -292,7 +292,7 @@
 	width: 570px;
 	vertical-align: top;
 	padding-top: 4px;
-	
+
 	a {
 		display: inline-block;
 		position: relative;
@@ -431,12 +431,12 @@ div.grouping {
 	break-inside: avoid-column;
 	clear: both;
 
-	// display: grid;
-	// grid-template-columns: auto 600px;
+	display: grid;
+	grid-template-columns: auto auto;
 
 	// used for index pages
 	.bottleCorral {
-		width: 600px;
+		/* max-width: 600px; */
 		float: right;
 		text-align: right;
 
@@ -491,9 +491,9 @@ div.grouping {
 		line-height: 1em;
 		font-family: @dense-content-font;
 		text-transform: uppercase;
-		
+
 		-webkit-appearance: none;
-		
+
 		color: @red;
 
 		&:hover {
@@ -501,12 +501,12 @@ div.grouping {
 			color: #fff;
 			background: lighten(@red, 10%);
 		}
-		
+
 		@media only screen and (max-width: @sizes[mobile])  {
 			font-size: 16px;
 			padding: 6px 14px;
 		}
-	}	
+	}
 
 	span.selected {
 		color: @dark_grey;
