@@ -55,7 +55,7 @@
 
 
 			padding: 0 0;
-
+			width: 100%;
 			/* width: 478px;
 			width: 480px; */
 
@@ -124,36 +124,12 @@
 
 			float: left;
 			position: relative;
-			// text-align: center;
-			// width: var(--thumbnailSize);
-			// height: var(--thumbnailSize);
 			width: 100%;
 			height: auto;
 			max-width: var(--thumbnailSize);
-			// line-height: 230px;
-
-			// margin: 0 20px 0 0;
-
-			// @media (width <= @sizes[tablet]) {
-			// 	display: none;
-			// }
-
 			@media (width < 430px)  {
 				display: none;
 			}
-
-			// img {
-			// 	height: var(--thumbnailSize);
-			// 	// height: 100%;
-			// 	width: auto;
-			// 	vertical-align: middle;
-			// }
-			// img.wideimage {
-			// 	// width: 100%;
-			// 	width: var(--thumbnailSize);
-			// 	height: auto;
-			// 	vertical-align: middle;
-			// }
 
 			img {
 				width: 100%;
@@ -172,15 +148,10 @@
 
 		.context {
 
-			// float: left;
-			// text-align: center;
-			// width: var(--thumbnailSize);
-			// height: var(--thumbnailSize);
 			width: 100%;
 			height: auto;
 			max-width: var(--thumbnailSize);
 			padding: 0 0;
-			// line-height: var(--thumbnailSize);
 
 			vertical-align: middle;
 
@@ -188,30 +159,14 @@
 				line-height: 0;
 			}
 
-			// img {
-			// 	height: var(--thumbnailSize);
-			// 	width: auto;
-			// 	vertical-align: middle;
-			// }
-			// img.wideimage {
-			// 	width: 100%;
-			// 	height: auto;
-			// 	vertical-align: middle;
-			// }
-
 			img {
 				width: 100%;
-				// height: 100%;
 				object-fit: contain;
 			}
 
-			// @media (width < @sizes[desktop]) {
-			// 	display: none;
-			// }
 
 			@media (width < 430px)  {
 				display: none;
-				// float: right;
 			}
 		}
 
@@ -263,13 +218,19 @@
 }
 
 .subcatMenuMobile {
-	text-align: center;
-	margin: 1em;
-	display: none;
+    display: flex;
+    justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
 
-	@media only screen and (max-width: @sizes[mobile])  {
+    text-align: center;
+	margin-block: 1em;
+	/* display: none; */
+
+	/* @media only screen and (max-width: @sizes[mobile])  {
 		display: block;
-	}
+	} */
 
 	a {
 		margin: 0.25em;
@@ -288,32 +249,15 @@
 
 .subcatMenuDesktop {
 
-	display: inline-block;
-	width: 570px;
+	/* width: 570px; */
 	vertical-align: top;
 	padding-top: 4px;
 
-	a {
-		display: inline-block;
-		position: relative;
-		bottom: 0.25em;
-		vertical-align: middle;
-		margin: 0.25em;
-		// font-weight: normal;
-	}
-
-	.button {
-		font-size: 14px;
-		padding: 6px 10px;
-	}
-
-	@media only screen and (max-width: @sizes[mobile])  {
-		display: none;
-	}
 }
 
 .bracket {
 	display: inline-block;
+	display: none;
 	color: @light_grey;
 	position: relative;
 	font-size: 140%;
