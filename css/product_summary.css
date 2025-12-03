@@ -3353,6 +3353,7 @@ summary {
   color: black;
 }
 .products .type-product {
+  --bottle-height: 230px;
   --thumbnailSize: 230px;
   padding: 0;
   list-style-type: none;
@@ -3369,6 +3370,7 @@ summary {
     grid-template-columns: auto auto;
     grid-template-rows: 1fr 1fr;
     --thumbnailSize: 145px;
+    --bottle-height: 300px;
   }
 }
 .products .type-product div.tall {
@@ -3417,21 +3419,23 @@ summary {
   float: right;
   text-align: center;
   width: 108px;
+  width: calc(var(--bottle-height) / 2 - 8);
   height: 230px;
+  height: var(--bottle-height);
   line-height: 230px;
   padding: 0 0;
   overflow: hidden;
 }
 @media (width < 650px) {
   .products .type-product .bottle {
-    min-width: 108px;
-    width: 108px;
+    /* min-width: 108px; */
+    /* width: 108px; */
     float: right;
     height: auto;
   }
 }
 .products .type-product .bottle img {
-  height: 230px;
+  height: var(--bottle-height);
   width: auto;
   vertical-align: middle;
 }
@@ -3442,7 +3446,7 @@ summary {
   height: auto;
   max-width: var(--thumbnailSize);
 }
-@media (width < 430px) {
+@media (width < 600px) {
   .products .type-product .label {
     display: none;
   }
@@ -3471,7 +3475,7 @@ summary {
   width: 100%;
   object-fit: contain;
 }
-@media (width < 430px) {
+@media (width < 600px) {
   .products .type-product .context {
     display: none;
   }
